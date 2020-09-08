@@ -1,0 +1,21 @@
+\select@language {english}
+\contentsline {xchapter}{}{\textlatin {x}}{chapter*.6}
+\contentsline {xchapter}{}{\textlatin {xi}}{chapter*.7}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Introduction}{1}{chapter.1}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Background}{3}{chapter.2}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces a) Climatological mean annual rainfall rates in the tropics in the TRMM dataset (1999-2018). b) The mean rainfall rate difference between boreal summer (JJAS) and austral summer (DJFM). The red contours highlight the regions where the summer rainfall amount accounts for more than 55\% of the total annual rainfall accumulation. \relax }}{4}{figure.caption.8}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Four-chamber illustration of the human heart.}}{6}{figure.caption.9}
+\addvspace {10\p@ }
+\contentsline {xchapter}{On the dynamical and thermodynamical mechanisms of the MSD in the Met Office CMIP6 models}{9}{chapter.3}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Pentad-mean precipitation in (a, b) southern Mexico and northern Central America and (c,d) Cuba. Shading shows uncertainty obtained by bootstrapping or ensemble spread. \relax }}{10}{figure.caption.10}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Pentad-mean seasonal cycle of indices associated with the MSD in Central America and the Caribbean.\relax }}{11}{figure.caption.11}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Intra-seasonal march (left to right) of precipitation (shaded) and vertical velocity ($\omega $) at 500-hPa in ERA-5, GC3-hist, GC3 N216 and GC3 AMIP (top to bottom). For each dataset, the periods shown are 10 days prior to the onset of the midsummer drought (MSDO), the MSD period and the 10 days after the end of the MSD (MSDE).\relax }}{15}{figure.caption.12}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Out-going longwave radiation (OLR) [W m$^{-2}$] (shaded) and $\omega $ 500-hPa [$10^{-2}$ Pa s$^{-1}$] (line contours) differences between the MSD and MSDO and the MSDE and MSD.\relax }}{17}{figure.caption.13}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces As in Figure \ref {fig:msdolranom} but showing wind vectors at the 850 hPa level. \relax }}{18}{figure.caption.14}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces As in Figure \ref {fig:msdolranom} but the anomalies are shown for SSTs [K] (contours) and incoming shortwave radiation [W m${-2}$] at the surface (line-contours). Incoming shortwave is defined such as negative differences imply less incoming shortave and positive anomalies represent more incoming shortwave at the surface. \relax }}{19}{figure.caption.15}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces As in Figure \ref {fig:msdolranom} but showing in shading, moisture flux divergence $\nabla \cdot \mathaccentV {vec}17E{u}q$ at the 850 hPa level with units of $10^{-7}$ s$^{-1}$ kg / kg and zonal wind anomalies (line contours) in m s$^{-1}$. \relax }}{20}{figure.caption.16}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Scatter plot of the (a, b) area-averaged precipitation over land (Box in Figure \ref {fig:7}) during the different stages of the MSD. (c) scatter of the East Pacific SSTs against the precipitation over landduring the first peak period. (d-l) show the scatter differences in several variables between the different stages of onset of the MSD (MSDO), the drier MSD and the end of the MSDE. The differences are shown for area-averaged quantities in the East Pacific (EP), the Caribbean Sea (CSEA) and overland (MSD) as above. The units for $\Delta $U are [m s$^{-1}$], $\Delta $MFC [10$^{-11}$ s$^{-1}$], $\Delta $SW and $\Delta $LHF [W m$^{-2}$] and $\Delta $pr mm d$^{-1}$. The Pearson correlation coefficient for the 38 yr of reanalysis or observations ($r_{obs}$) is shown for each panel. \relax }}{22}{figure.caption.17}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Review of Cardiac Physiology and Electrophysiology}{29}{appendix.A}

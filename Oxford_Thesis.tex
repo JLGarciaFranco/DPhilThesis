@@ -52,8 +52,8 @@
 % Either way, you'll have to choose and configure an appropriate bibliography format...
 
 % The science-type option: numerical in-text citation with references in order of appearance.
-\usepackage[style=numeric-comp, sorting=none, backend=biber, doi=false, isbn=false]{biblatex}
-\newcommand*{\bibtitle}{References}
+\usepackage[round,authoryear]{natbib}
+\bibliographystyle{agsm}
 
 % The humanities-type option: author-year in-text citation with an alphabetical works cited.
 %\usepackage[style=authoryear, sorting=nyt, backend=biber, maxcitenames=2, useprefix, doi=false, isbn=false]{biblatex}
@@ -62,8 +62,13 @@
 % This makes the bibliography left-aligned (not 'justified') and slightly smaller font.
 \renewcommand*{\bibfont}{\raggedright\small}
 
+%% The amssymb package provides various useful mathematical symbols
+\usepackage{amssymb}
+%% The amsthm package provides extended theorem environments
+%% \usepackage{amsthm}
+%\usepackage{gensymb}
 % Change this to the name of your .bib file (usually exported from a citation manager like Zotero or EndNote).
-\addbibresource{references.bib}
+%\addbibresource{references.bib}
 
 
 % Uncomment this if you want equation numbers per section (2.3.12), instead of per chapter (2.18):
@@ -73,9 +78,9 @@
 
 %%%%% THESIS / TITLE PAGE INFORMATION
 % Everybody needs to complete the following:
-\title{Suitably impressive thesis title}
-\author{Your Name}
-\college{Your College}
+\title{The American Monsoon System: variability and teleconnections}
+\author{Jorge Luis García Franco}
+\college{Wadham College}
 
 % Master's candidates who require the alternate title page (with candidate number and word count)
 % must also un-comment and complete the following three lines:
@@ -88,7 +93,7 @@
 % Your full degree name.  (But remember that DPhils aren't "in" anything.  They're just DPhils.)
 \degree{Doctor of Philosophy}
 % Term and year of submission, or date if your board requires (eg most masters)
-\degreedate{Michaelmas 2014}
+\degreedate{Michaelmas 2020}
 
 
 %%%%% YOUR OWN PERSONAL MACROS
@@ -99,7 +104,7 @@
 	\newcommand{\nd}{\textsuperscript{nd}}
 	\renewcommand{\st}{\textsuperscript{st}}
 	\newcommand{\rd}{\textsuperscript{rd}}
-
+\usepackage{lmodern}
 %%%%% THE ACTUAL DOCUMENT STARTS HERE
 \begin{document}
 
@@ -199,7 +204,7 @@
 \flushbottom
 \include{text/ch1-intro}
 \include{text/ch2-litreview}
-
+\include{text/ch-msd}
 
 %% APPENDICES %% 
 % Starts lettered appendices, adds a heading in table of contents, and adds a
@@ -219,8 +224,13 @@ The first kind of intellectual and artistic personality belongs to the hedgehogs
 
 \setlength{\baselineskip}{0pt} % JEM: Single-space References
 
-{\renewcommand*\MakeUppercase[1]{#1}%
-\printbibliography[heading=bibintoc,title={\bibtitle}]}
+%{\renewcommand*\MakeUppercase[1]{#1}%
+%\printbibliography[heading=bibintoc,title={\bibtitle}]}
 
+{\footnotesize
+\renewcommand{\baselinestretch}{1.25}
+\setlength{\bibsep}{0.0pt}
+\bibliography{refs}
+}
 
 \end{document}

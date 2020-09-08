@@ -10,31 +10,53 @@ what is necessary is only to try to think them again.
 \chapter{\label{ch:2-litreview}Background}
 
 \minitoc
+ This chapter summarises the main aspects of the tropical circulation and the lin defines a monsoon. 
+\section{The tropical circulation and the global monsoon}\label{sq:bk_tropics}
 
-\section{Introduction}
+Tropical climate is characterized by the strong incoming solar insolation year-round that makes the tropics the warmest region of the planet. 
+The strong solar insolation and surface temperature are also associated with strong evaporative fluxes and ultimately convection. 
+ These characteristics largely influence the tropical circulation which, to a first order, can be described through the zonal and meridional circulations known as the Hadley and Walker cells. 
+ 
+ 
 
-This document introduction won't serve as a complete primer on \LaTeX.  There are plenty of those online, and googling your questions will often get you answers, especially from \url{http://tex.stackexchange.com}.
 
-Instead, let's talk a little about a few of the features and packages lumped into this template situation.  The \verb|savequote| environment at the beginning of chapters can add some wittiness to your thesis.  If you don't like the quotes, just remove that block.
+\begin{figure}
+\includegraphics[width=\linewidth]{figures/trmmclima.png}
+\caption{a) Climatological mean annual rainfall rates in the tropics in the TRMM dataset (1999-2018). b) The mean rainfall rate difference between boreal summer (JJAS) and austral summer (DJFM). The red contours highlight the regions where the summer rainfall amount accounts for more than 55\% of the total annual rainfall accumulation. }
+\label{fig:monsoon}
+\end{figure}
 
-For when it comes time to do corrections, there are two useful commands here.  First, the \verb|mccorrect| command allows you to highlight a short correction \mccorrect{like this one}.  When the thesis is typeset normally, the correction will just appear as part of the text.  However, when you declare \verb|\correctionstrue| in the main \verb|Oxford_Thesis.tex| file, that correction will be highlighted in blue.  That might be useful for submitting a post-viva, corrected copy to your examiners so they can quickly verify you've completed the task.
+The Inter-tropical Convergence Zone (ITCZ) is a band of precipitation that migrates meridionally with the seasons and is arguably one of the most relevant features of tropical climate. The ITCZ is characterized by a strong convergent flow in the low levels and a strong divergent flow at upper levels. 
 
-\begin{mccorrection}
-For larger chunks, like this paragraph or indeed entire figures, you can use the \verb|mccorrection| environment.  This environment highlights paragraph-sized and larger blocks with the same blue colour.
-\end{mccorrection}
+The global monsoon refers to the those regions of the planet where more than 70\% of the total annual rainfall falls during the summer season \citep{zhou2016,wang2017}.
+Figure \ref{fig:monsoon} shows the global monsoon as depicted by the TRMM dataset. By this definition, the majority of the regions over land between 5 and 10 degrees away from the equator are part of the global monsoon.
 
-Read through the \verb|Oxford_Thesis.tex| file to see the various options for one- and two-sided printing, including or excluding the separate abstract page, and turning corrections and draft footer on or off, and the separate option to centre your text on the page (for PDF submission) or offset it (for binding).  There is also a separate option for master's degree submissions, which changes identifying information to candidate number and includes a word count.  (Unfortunately, \LaTeX has a hard time doing word counts automatically, so you'll have to enter the count manually if you require this.)
+A regional monsoon, such as the Indian Monsoon, is then a subset of the global monsoon with unique regional characteristics that shape this monsoon different to other regional monsoons in terms of the seasonality, the strength and the dynamics. 
 
-\section{Cardiac Imaging}\label{app:imaging}
+The American Monsoon System is then the regional monsoon that is located in the subtropics of North and South America. 
+\section{The American Monsoon System}\label{sq:bk_ams}
 
-Within months of Röntgen's discovery of the X-ray in \mccorrect{1895}\cite{gagliardi_rontgen_1996}, cardiac pathology was being investigated via non-invasive imaging \cite{gagliardi_cardiac_1996}.  Over the intervening years, cardiac imaging modalities and techniques have advanced significantly.  Clinically, cardiac imaging is used for two broad purposes: diagnosis of pathophysiology and guidance of interventional procedures.  These applications impose different requirements on imaging equipment, image acquisition time, computational complexity, spatial and temporal resolution, and tissue discrimination.  The common diagnostic and interventional cardiac imaging techniques in current clinical practice are reviewed below.  An accessible introduction to the physics of medical imaging can be found in Webb's \textit{Introduction to Biomedical Imaging} \cite{webb_introduction_2002}.  A comprehensive overview of the use of imaging in clinical cardiology is presented in Leeson's \textit{Cardiovascular Imaging} \cite{leeson_cardiovascular_2011}.
+The AMS is typically subdivided into the North and South American monsoon systems \citep{vera2006}.
+The North American Monsoon is the main source of rainfall in south-western North America, extending north from central-west Mexico into the southwestern United States \citep{adams1997,stensrud1997,vera2006}.
+ The seasonal cycle of rainfall in the North American Monsoon is characterised by a wet July-August-September season and significantly drier conditions during the rest of the year \citep{adams1997}.
+A key aspect of this monsoon is the moisture advected by the low-level flow from the Gulf of California and the East Pacific Ocean and to a lesser extent the moisture mixed in the mid-troposphere from the Caribbean Sea and Gulf of Mexico \citep[e.g][]{stensrud1997,pascale2016,ordonez2019}.
+%%
 
-\subsection{Diagnostic Imaging}
+The South American Monsoon is a primary source of precipitation for South America, especially in the Amazon region \citep{gan2004,vera2006,jones2013}.
+During austral summer (DJF), monsoon rainfall accounts for over 60\% of the total annual precipitation in the Amazon \citep{gan2004,marengo2012}, whereas
+austral winter rainfall accounts for less than 5\% of the total annual rainfall \citep{vera2006}.
+In the central Amazon, convective precipitation is observed from early October but the main rainy season extends from December to April \citep{machado2004,adams2013}, whereas convection in southeastern Brazil and Paraguay starts in November and peaks in January and February \citep{marengo2001,nieto2011}. 
+
+A bimodal regime characterises the seasonal cycle of precipitation in southern Mexico, Central America and the Caribbean, most commonly known as Midsummer Drought (MSD) \citep{magana1999,gamble2008} \citep{dilley1996,amador2016,duranquesada2017}.
+The seasonal cycle in these regions is characterised by two precipitation maxima, in June and September, that are separated by a drier period in July and August.
+The complex interplay of sea-surface temperatures (SSTs), evaporation and moisture transport between the East Pacific Ocean and the Caribbean Sea are key for the spatial and temporal characteristics of the MSD \citep{amador2006,herrera2015,duranquesada2017,straffon2019}.
+
+\section{El Niño Southern Oscillation: impacts to the American monsoon system}
 \label{sub:diagnostic}
 
 Beyond the chest X-ray (`plain film'), the key non-invasive imaging modalities in diagnostic cardiology are echocardiography, magnetic resonance imaging, and X-ray computed tomography, which are reviewed below.  Nuclear medicine, including positron emission tomography (PET) and single-photon emission computed tomography (SPECT), are not discussed here, as they do not play a role in the chapters to follow.
 
-\subsubsection{Echocardiography}
+\section{Stratosphere-Troposphere Coupling in the Tropics}
 
 \begin{figure}
 \centering\includegraphics[width=0.7\textwidth]{figures/sample/Gray498.png} 

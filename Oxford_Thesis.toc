@@ -1,0 +1,25 @@
+\select@language {english}
+\contentsline {chapter}{List of Figures}{\textlatin {ix}}{chapter*.6}
+\contentsline {xchapter}{}{\textlatin {x}}{chapter*.6}
+\contentsline {chapter}{List of Abbreviations}{\textlatin {xi}}{chapter*.7}
+\contentsline {xchapter}{}{\textlatin {xi}}{chapter*.7}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Contribution}{2}{section.1.2}
+\contentsline {chapter}{\numberline {2}Background}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}The tropical circulation and the global monsoon}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}The American Monsoon System}{5}{section.2.2}
+\contentsline {section}{\numberline {2.3}El Ni\IeC {\~n}o Southern Oscillation: impacts to the American monsoon system}{6}{section.2.3}
+\contentsline {section}{\numberline {2.4}Stratosphere-Troposphere Coupling in the Tropics}{6}{section.2.4}
+\contentsline {chapter}{\numberline {3}On the dynamical and thermodynamical mechanisms of the MSD in the Met Office CMIP6 models}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Climatological features}{10}{section.3.1}
+\contentsline {section}{\numberline {3.2}Theoretical understanding of the MSD}{12}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1} On the mechanisms of the MSD in the UK Met Office models}{14}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Summary and discussion}{21}{subsection.3.2.2}
+\contentsline {chapter}{Appendices}{}{section*.18}
+\contentsline {chapter}{\numberline {A}Review of Cardiac Physiology and Electrophysiology}{29}{appendix.A}
+\contentsline {section}{\numberline {A.1}Anatomy}{30}{section.A.1}
+\contentsline {section}{\numberline {A.2}Mechanical Cycle}{32}{section.A.2}
+\contentsline {section}{\numberline {A.3}Electrical Cycle}{33}{section.A.3}
+\contentsline {section}{\numberline {A.4}Cellular Electromechanical Coupling}{35}{section.A.4}
+\contentsline {chapter}{Bibliography}{37}{appendix*.19}

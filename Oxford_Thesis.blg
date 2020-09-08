@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Oxford_Thesis.aux
+The style file: agsm.bst
+A level-1 auxiliary file: text/abbreviations.aux
+A level-1 auxiliary file: text/ch1-intro.aux
+A level-1 auxiliary file: text/ch2-litreview.aux
+A level-1 auxiliary file: text/ch-msd.aux
+A level-1 auxiliary file: text/appendix-1.aux
+Database file #1: refs.bib
+Warning--I didn't find a database entry for "von_goethe_wilhelm_1829"
+Warning--I didn't find a database entry for "gagliardi_ultrasonography_1996"
+Warning--I didn't find a database entry for "edler_ultrasonic_1957"
+Warning--I didn't find a database entry for "bom_ultrasonic_1971"
+Warning--I didn't find a database entry for "griffith_sector_1974"
+Warning--I didn't find a database entry for "harvey_exercitatio_1628"
+Warning--I didn't find a database entry for "berlin_hedgehog_2013"
+Warning--there's a number but no volume in perdigon2019
+You've used 45 entries,
+            2909 wiz_defined-function locations,
+            928 strings with 14496 characters,
+and the built_in function-call counts, 310921 in all, are:
+= -- 51598
+> -- 4193
+< -- 1
++ -- 25492
+- -- 1302
+* -- 28052
+:= -- 60327
+add.period$ -- 45
+call.type$ -- 45
+change.case$ -- 630
+chr.to.int$ -- 45
+cite$ -- 46
+duplicate$ -- 731
+empty$ -- 1597
+format.name$ -- 1465
+if$ -- 55978
+int.to.chr$ -- 5
+int.to.str$ -- 0
+missing$ -- 45
+newline$ -- 141
+num.names$ -- 483
+pop$ -- 113
+preamble$ -- 1
+purify$ -- 675
+quote$ -- 0
+skip$ -- 637
+stack$ -- 0
+substring$ -- 74679
+swap$ -- 145
+text.length$ -- 631
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 180
+warning$ -- 1
+while$ -- 1025
+width$ -- 0
+write$ -- 613
+(There were 8 warnings)

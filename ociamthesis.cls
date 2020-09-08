@@ -80,9 +80,9 @@
 %
 
 \ifmc@nobind
-\usepackage[includehead,hmargin={3.1cm, 3.1cm}, vmargin={2.5cm,2.7cm}, headsep=.8cm,footskip=1.2cm]{geometry}
+\usepackage[includehead,hmargin={2.6cm, 1.6cm}, vmargin={2.5cm,2.7cm}, headsep=.8cm,footskip=1.2cm]{geometry}
 \else
-\usepackage[includehead,hmargin={3.6cm, 2.6cm}, vmargin={2.5cm,2.7cm}, headsep=.8cm,footskip=1.2cm]{geometry}
+\usepackage[includehead,hmargin={2.6cm, 1.6cm}, vmargin={2.5cm,2.7cm}, headsep=.8cm,footskip=1.2cm]{geometry}
 \fi
 
 \usepackage{xcolor}
@@ -411,7 +411,7 @@
 \usepackage{lmodern}
 \usepackage[LGR,TS1,T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[greek,latin,english]{babel}
+\usepackage[greek,spanish,english]{babel}
 \usepackage{csquotes}
 \hyphenpenalty=500
 \def\longs{{\fontencoding{TS1}\selectfont s}}
