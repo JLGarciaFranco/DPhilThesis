@@ -1,0 +1,90 @@
+%\begin{savequote}[8cm]
+%\textlatin{Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...}
+
+%There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...
+ % \qauthor{--- Cicero's \textit{de Finibus Bonorum et Malorum}}
+%\end{savequote}
+
+\chapter{\label{ch:1-intro}Data and methods} 
+
+\label{sq:data}
+
+\minitoc
+
+
+
+\begin{sidewaystable}%[t!]
+\small
+\caption{Summary of the datasets used in this study. For each dataset, the acronym used hereafter, the period of coverage, the field used and the horizontal resolution are shown. Some datasets extend further back in time, but only the satellite-era period is used in most of the datasets.
+The variables used are: precipitation, surface-air temperature ($2mT$), sea-level pressure (SLP), SSTs, the x and y components of the wind ($u$, $v$), the lagrangian tendency of air pressure ($\omega$), outgoing longwave radiation (OLR), geopotential height (GPH) and specific humidity ($q$).}
+\begin{tabular}{p{5cm}|p{1.47cm}p{3.45cm}p{2.12cm}p{4.2cm}p{2.12cm}p{3.54cm}} \label{tab:1}
+\textit{Dataset/ Version}                    & \textit{Acronym} & \textit{Variable} & \textit{Period} & \textit{Data type}             & \textit{Resolution} & \textit{Reference}                 \\ \hline \hline
+Global Precipitation Climatology Project v2.3 & GPCP       & Precipitation       &   (1979-2018)       &  Surface and satellite & 2.5$^\circ$x2.5$^\circ$  & \citep{adler2003}               \\
+ Global Precipitation Climatology Centre    & GPCC          & Precipitation       & (1940-2013)       &  Surface station                 &  0.5$^\circ$x0.5$^\circ$ & \citep{becker2011}              \\
+Climate Prediction Center Merged Analysis of Precipitation & CMAP      & Precipitation       &   (1979-2016)       & Satellite calibrated with surface rain-gauge & 2.5x2.5$^\circ$  & \citep{xie1997}     \\
+Climatic Research Unit TS  v4.     & CRU4         & Surface temperature  & (1979-2017)       &  Surface station    &  0.5$^\circ$x0.5$^\circ$   &        \citep{harris2014}                            \\
+  Climate Hazards Infrared Precipitation with Stations   & CHIRPS          & Precipitation       & (1981-2018)       &  Surface rain-gauge and satellite               &  0.05$^\circ$x0.05$^\circ$ & \citep{funk2015}              \\
+% Global Precipitation Climatology Centre    & GPCC          & Precipitation       & (1891-2013)       &  Surface station                 &  0.5x0.5$^\circ$ & \citep{becker2011}              \\
+Tropical Rainfall Measurement Mission 3B42 V7       & TRMM          & Precipitation       & (1999-2018)   & Satellite calibrated with surface station   & 0.25$^\circ$x0.25$^\circ$  &  \citep{mission2011} \\
+Hadley Centre SST3                           & HadSST          & SST               & (1940-2018)   & Buoy and satellite              & 2.5$^\circ$x2.5$^\circ$  &  \citep{kennedy2011} \\
+European Centre for Medium-Range Forecasting ERA-5                            & ERA-5             & $2mT$, SLP, $u$, $v$, $\omega$, OLR, $q$, SST, GPH, precipitation    &  (1979-2018)    &  Reanalysis       & 0.75x0.75$^\circ$ &  \citep{era5,era5hersbach}
+\end{tabular}
+
+\end{sidewaystable}
+\section{Observations and reanalysis data}
+%We use several observational and reanalysis datasets to validate the simulations.
+Table \ref{tab:1} summarises relevant information of the observations and reanalysis datasets used in this study.
+In short, surface and satellite observations were used where available, whereas other metrics were taken from reanalysis data from the
+European Centre for Medium-Range Weather Forecasts (ECMWF): ERA-5, downloaded from \url{https://climate.copernicus.eu/climate-reanalysis}.
+Four different precipitation datasets are used. 
+
+The Tropical Rainfall Measurement Mission (TRMM) dataset is a multi-satellite multi-sensor product that in some versions is calibrated with gauge analyses \citep{huffman2007}. A set of microwave sensors onboard low earth orbit (LEO) satellites, such as the Microwave Imager (TMI) and the Advanced Microwave Scanning Radiometer-Earth Observing System (AMSR-E), provide the main source of information about hydrometeors for TRMM. However, even using the products of several satellites there is a sparse sampling of time-space precipitation  in passive microwave techniques. Therefore, this data is complimented by infrared measurements onboard geosynchronous earth orbit satellites. Other sources of information include a radar onboard TRMM and rain gauge analysis. Details of the research product can be found in \cite{huffman2007} and \cite{mission2011}.
+
+The Climate Prediction Center Merged Analysis of Precipitation (CMAP) dataset is a global merged product of satellite and ground based observations but also constrained by a numerical model \citep{Xie2007}. This dataset was first produced at monthly-mean resolution \citep{xie1997} but is now available as a collection of products at several temporal scales. The pentad-scale version of CMAP is used in this study. % and is used in this study at the pentad-mean scale. 
+
+The Climate Hazards Infrared Precipitation with Stations (CHIRPS) is relatively more recent merged product. This dataset uses high-resolution rain-gauge station data that is complimented by satellite cloud cold duration estimates on regions where station data is sparse. The products are calibrated with TRMM data \citep{funk2015}, so they are cannot be considered an independent source of information from TRMM.
+
+The TRMM dataset has a high horizontal and temporal resolution and was used in several CMIP assessments \citep{geil2013,jones2013} as a reliable source of precipitation \citep{carvalho2012}. Therefore, we use TRMM as our best estimate for the spatial and temporal characteristics of the AMS rainfall. However,
+ the period covered by TRMM (1998-2018) is too short to analyse statistically robust teleconnections or variability, so we use GPCP, GPCC and CHIRPS for their longer period. Although a thorough validation and comparison of these datasets across the AMS domain is missing, several studies have analysed  one or more of these datasets in regions of the AMS \citep[e.g.][]{franchito2009,dinku2010,trejo2016}.
+
+\section{Model data}
+% Add ocean resolution and ensemble member information. 
+\begin{sidewaystable}
+\small
+\caption{Summary of the CMIP6 simulations in this study. For each simulation the acronym used hereafter, the experiment and the horizontal resolution are shown. The first 100 years of the piControl simulations are used and for historical experiments the period 1979-2014 is used.}
+\begin{tabular}{p{4.5cm}|p{4.5cm}p{2.cm}p{1.95cm}p{2.73cm}p{2cm}p{3.8cm}} \label{tab:Sexps} \small
+ Model & Experiment & Atmospheric resolution & Ocean resolution & \textit{Acronym}  & Ensemble members & \textit{Reference}                 \\ \hline \hline
+
+Hadley Centre Global Environment Model version 3 (HadGEM3)    &  Pre-industrial control  & N96 1.875$^\circ$x1.25$^\circ$ & 1$^\circ$ & GC3 N96-pi      & 1 &   \citep{menary2018,gc3pi}                          \\
+HadGEM3   &  Pre-industrial control         & N216 0.83$^\circ$x0.56$^\circ$ &  0.25$^\circ$ & GC3 N216-pi   & 1 & \citep{menary2018,n216pi}      \\
+HadGEM3    &  Historical        & N96 1.875$^\circ$x1.25$^\circ$ & 1$^\circ$  & GC3-hist     &  4(r1-r4) & \citep{andrews2020,gc3hist}                          \\
+HadGEM3   &  Historical         & N216 0.83$^\circ$x0.56$^\circ$ &  0.25$^\circ$ & N216-hist   & 1 & \citep{n216pi}      \\
+HadGEM3    &  Atmospheric Model Intercomparison (AMIP)  & N96 1.875$^\circ$x1.25$^\circ$ & 1$^\circ$  & GC3-AMIP     & 5 (r1-r5) &   \citep{gc3amip}                          \\
+United Kingdom Earth System Model version 1 (UKESM1)   &  Pre-industrial control        & 1.875$^\circ$x1.25$^\circ$ & 1$^\circ$ & UKESM-pi      & 1 & \citep{ukesmpi}            \\
+UKESM1   &  Historical         & 1.875$^\circ$x1.25$^\circ$ & 1$^\circ$ & UKESM-hist & 5 (r1-r5)     &  \citep{ukesmhist}            \\
+\end{tabular}
+\end{sidewaystable}
+
+The MOHC has submitted the output of two models for CMIP6: HadGEM3 GC3.1 
+%These models were built in collaboration with the National Centre for Atmospheric Science.
+(hereafter GC3) is the latest version of the Global Coupled (GC) Met Office Unified Model (UM) and UKESM1, the new U.K. Earth System Model.
+The most substantial change from the version used in CMIP5 (HadGEM2-AO) is the inclusion of the new GC configuration 3.1 \citep{walters2019} with the updated components: Global Atmosphere 7.0 (GA7.0), Global Land 7.0
+(GL7.0), Global Ocean 6.0 (GO6.0), and Global Sea Ice 8.0 (GSI8.0).
+%The ocean model, in the GO6.0 configuration, builds on the Nucleus for European Modelling of the Ocean (NEMO) code \citep{ridley2018}.
+The GC3.1 configuration runs with 85 atmospheric levels, 4 soil levels and 75 ocean levels; for details see \cite{williams2018} and \cite{kuhlbrodt2018}.
+The GC3 model was run for CMIP6 deck experiments with two horizontal resolutions: a low resolution configuration, labelled as N96, with an atmospheric resolution of 1.875$^\circ$x1.25$^\circ$ and a 1$^\circ$ resolution in the ocean model and a medium resolution configuration, labelled N216, with atmospheric resolutions of 0.83$^\circ$x 0.56$^\circ$ and a 0.25$^\circ$ oceanic resolution \citep{menary2018}.
+
+The UKESM1 was recently developed aiming to improve the UM climate model adding processes of the Earth System \citep{sellar2019}. These additional components include ocean biogeochemistry with coupled chemical cycles, tropospheric-stratospheric interactive chemistry which aim to better characterise aerosol-cloud and aerosol-radiation interactions \citep{mulcahy2018,sellar2019}.
+The physical atmosphere-land-ocean-sea-ice core of the HadGEM3 GC3.1 underpins the UKESM1, so that the UKESM1 and the HadGEM3 have the same dynamical core but the UKESM1 has the additional components mentioned above.
+
+
+
+This study uses three CMIP6 deck experiments. First, the pre-industrial control (piControl) simulations, which are run with constant forcing using the best estimate for pre-industrial (1850) forcing of aerosols and greenhouse gas levels. 
+The historical experiments are 164-yr integrations for 1850-2014 that include historical forcings of aerosol, greenhouse gas, volcanic and solar signals since 1850 \citep{eyring2016,andrews2019}. For further details, \cite{andrews2020} extensively describes the historical simulations of HadGEM3-GC3.1. %Historical experiments aim to represent the observed climate and therefore can be compared directly to observations. 
+
+In contrast to the pre-industrial control experiments, the historical experiments use  time-varying aerosol and greenhouse gas emissions and land-use change \citep{eyring2016}. In Latin-America, land-use change for agricultural purposes has dramatically decreased tree cover in Central America and south-eastern Brazil since the 1950s \citep{lawrence2012}, thereby affecting the surface energy balance. %Similarly, aerosol and greenhouse-gas emissions in the historical experiments follow estimated emission datasets \citep{hoesly2018}.
+The regional emissions of carbonaceous aerosols, nitrogen oxides and volatile organic compound in Latin America are also considered in the historical experiments. These emissions are noteworthy, e.g., due to the impact of black carbon emissions by increased biomass burning in the Amazon and northern Central America \citep{chuvieco2008}.  
+
+The historical experiments of HadGEM3 and UKESM1 are composed of 4 and 9 ensemble members, respectively, but the results will be presented as the ensemble mean for the 1979-2014 period. %spatial distributions or with the ensemble spread for seasonal cycles.
+These experiments will be referred to as GC3-hist and UKESM1-hist hereafter.
+{\color{blue}Finally, we use the five ensemble members of the AMIP experiment from GC3 N96 covering 1979-2014. Table \ref{tab:Sexps} summarises the main features of the experiments used in this study. }
