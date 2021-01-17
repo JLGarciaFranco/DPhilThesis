@@ -80,7 +80,7 @@
 %
 
 \ifmc@nobind
-\usepackage[includehead,hmargin={2.cm, 2cm}, vmargin={2.cm,2.cm}, headsep=.8cm,footskip=1.2cm]{geometry}
+\usepackage[includehead,hmargin={2.35cm, 2.35cm}, vmargin={2.3cm,2.5cm}, headsep=.8cm,footskip=1.2cm]{geometry}
 \else
 \usepackage[includehead,hmargin={2.6cm, 1.6cm}, vmargin={2.5cm,2.7cm}, headsep=.8cm,footskip=1.2cm]{geometry}
 \fi

@@ -12,7 +12,6 @@
 \minitoc
 
 
-
 \begin{sidewaystable}%[t!]
 \small
 \caption{Summary of the datasets used in this study. For each dataset, the acronym used hereafter, the period of coverage, the field used and the horizontal resolution are shown. Some datasets extend further back in time, but only the satellite-era period is used in most of the datasets.
@@ -31,6 +30,7 @@ European Centre for Medium-Range Forecasting ERA-5                            & 
 \end{tabular}
 
 \end{sidewaystable}
+
 \section{Observations and reanalysis data}
 %We use several observational and reanalysis datasets to validate the simulations.
 Table \ref{tab:1} summarises relevant information of the observations and reanalysis datasets used in this study.
@@ -38,34 +38,45 @@ In short, surface and satellite observations were used where available, whereas 
 European Centre for Medium-Range Weather Forecasts (ECMWF): ERA-5, downloaded from \url{https://climate.copernicus.eu/climate-reanalysis}.
 Four different precipitation datasets are used. 
 
-The Tropical Rainfall Measurement Mission (TRMM) dataset is a multi-satellite multi-sensor product that in some versions is calibrated with gauge analyses \citep{huffman2007}. A set of microwave sensors onboard low earth orbit (LEO) satellites, such as the Microwave Imager (TMI) and the Advanced Microwave Scanning Radiometer-Earth Observing System (AMSR-E), provide the main source of information about hydrometeors for TRMM. However, even using the products of several satellites there is a sparse sampling of time-space precipitation  in passive microwave techniques. Therefore, this data is complimented by infrared measurements onboard geosynchronous earth orbit satellites. Other sources of information include a radar onboard TRMM and rain gauge analysis. Details of the research product can be found in \cite{huffman2007} and \cite{mission2011}.
+The Tropical Rainfall Measurement Mission (TRMM) dataset is a multi-satellite multi-sensor infra-red precipitation product that is available on several versions that are made with different algorithms and calibrations with surface rain-gauge data \citep{huffman2007}. This thesis uses the daily product TRMM version 7 3B42 provided by the Goddard Earth Sciences Data and Information Services Center \citep{mission2011trmm} at \url{https://disc.gsfc.nasa.gov/datasets/TRMM_3B42_7/}.
+
+ A set of microwave and infra-red sensors onboard low earth orbit (LEO) satellites, such as the Microwave Imager (TMI) and the Advanced Microwave Scanning Radiometer-Earth Observing System (AMSR-E), provide the main source of information about hydrometeors for TRMM. The microwave sensor data is used to calibrate the infrared data to produce a first estimate of precipitation. However, even using the products of several satellites there is a sparse sampling of time-space precipitation  in passive microwave techniques. Therefore, this data is complimented by infrared measurements onboard geosynchronous earth orbit satellites. Other sources of information include a radar onboard TRMM and rain gauge analysis. Details of the research product can be found in \cite{huffman2007} and \cite{mission2011}.
 
 The Climate Prediction Center Merged Analysis of Precipitation (CMAP) dataset is a global merged product of satellite and ground based observations but also constrained by a numerical model \citep{Xie2007}. This dataset was first produced at monthly-mean resolution \citep{xie1997} but is now available as a collection of products at several temporal scales. The pentad-scale version of CMAP is used in this study. % and is used in this study at the pentad-mean scale. 
 
-The Climate Hazards Infrared Precipitation with Stations (CHIRPS) is relatively more recent merged product. This dataset uses high-resolution rain-gauge station data that is complimented by satellite cloud cold duration estimates on regions where station data is sparse. The products are calibrated with TRMM data \citep{funk2015}, so they are cannot be considered an independent source of information from TRMM.
+The Climate Hazards Infrared Precipitation with Stations (CHIRPS) is relatively more recent merged product of precipitation \citep{funk2015}. This dataset uses high-resolution rain-gauge station data that is complimented by satellite cloud cold duration estimates on regions where station data is sparse. The products are calibrated with TRMM data \citep{funk2015}, so they are cannot be considered an independent source of information from TRMM.
 
-The TRMM dataset has a high horizontal and temporal resolution and was used in several CMIP assessments \citep{geil2013,jones2013} as a reliable source of precipitation \citep{carvalho2012}. Therefore, we use TRMM as our best estimate for the spatial and temporal characteristics of the AMS rainfall. However,
- the period covered by TRMM (1998-2018) is too short to analyse statistically robust teleconnections or variability, so we use GPCP, GPCC and CHIRPS for their longer period. Although a thorough validation and comparison of these datasets across the AMS domain is missing, several studies have analysed  one or more of these datasets in regions of the AMS \citep[e.g.][]{franchito2009,dinku2010,trejo2016}.
+ERA5, as all reanalysis, resolves precipitation rates in the driving physical model using the convective scheme and parametrisation. However, this reanalysis also assimilates radiances from several satellite instruments such as Global precipitation monitoring mission Microwave Imager, TMI and ASMR-2 \cite{era5hersbach}. This assimilation of satellite data has improved the representation of the water cycle in ERA5 compared to older reanalysis such as ERA-interim \citep[e.g.][]{henin2018assessing}. However, the assimilation process of this reanalysis is time-dependent as some satellite products were active only after the initial date of the reanalysis. This means that the data input to the driving model changes during the period of the reanalysis which may cause differences in the resulting diagnostics, such as temperature and precipitation.
 
-\section{Model data}
+
+All these datasets have shortcomings, advantages and unceratainties in their representation of precipitation. The algorithm of merged products such as TRMM to combine different satellite sensors and calibration techniques as well as surface station rain-gauge data results in products that may have shortcomings to accurately depict extreme events \citep{trejo2016}, 
+As the source data of most of these datasets is shared, the datasets cannot be considered to be fully independent sources of information. 
+
+
+
+The TRMM dataset has a high horizontal and temporal resolution and was used in several CMIP assessments \citep{geil2013,jones2013} as a reliable source of precipitation \citep{carvalho2012}. Therefore, TRMM is used in this thesis as the best estimate for the spatial and temporal characteristics of rainfall. However,
+ the period covered by TRMM (1998-2018) is too short to analyse statistically robust teleconnections or variability, so GPCP, GPCC and CHIRPS are used to evaluate longer term variability for their longer period. 
+ Although a thorough validation and comparison of these datasets across the AMS domain is missing, several studies have analysed  one or more of these datasets in regions of the AMS \citep[e.g.][]{franchito2009,dinku2010,trejo2016}.
+
+\section{Model data}\label{sq:modeldata}
 % Add ocean resolution and ensemble member information. 
 \begin{sidewaystable}
 \small
 \caption{Summary of the CMIP6 simulations in this study. For each simulation the acronym used hereafter, the experiment and the horizontal resolution are shown. The first 100 years of the piControl simulations are used and for historical experiments the period 1979-2014 is used.}
-\begin{tabular}{p{4.5cm}|p{4.5cm}p{2.cm}p{1.95cm}p{2.73cm}p{2cm}p{3.8cm}} \label{tab:Sexps} \small
- Model & Experiment & Atmospheric resolution & Ocean resolution & \textit{Acronym}  & Ensemble members & \textit{Reference}                 \\ \hline \hline
+\begin{tabular}{p{4.5cm}|p{4.cm}p{2.cm}p{2.95cm}p{2.53cm}p{2cm}p{3.8cm}} \label{tab:Sexps} \small
+ Model & Experiment & Period & Atmospheric (Ocean) resolution & \textit{Acronym}  & Ensemble members & \textit{Reference}                 \\ \hline \hline
 
-Hadley Centre Global Environment Model version 3 (HadGEM3)    &  Pre-industrial control  & N96 1.875$^\circ$x1.25$^\circ$ & 1$^\circ$ & GC3 N96-pi      & 1 &   \citep{menary2018,gc3pi}                          \\
-HadGEM3   &  Pre-industrial control         & N216 0.83$^\circ$x0.56$^\circ$ &  0.25$^\circ$ & GC3 N216-pi   & 1 & \citep{menary2018,n216pi}      \\
-HadGEM3    &  Historical        & N96 1.875$^\circ$x1.25$^\circ$ & 1$^\circ$  & GC3-hist     &  4(r1-r4) & \citep{andrews2020,gc3hist}                          \\
-HadGEM3   &  Historical         & N216 0.83$^\circ$x0.56$^\circ$ &  0.25$^\circ$ & N216-hist   & 1 & \citep{n216pi}      \\
-HadGEM3    &  Atmospheric Model Intercomparison (AMIP)  & N96 1.875$^\circ$x1.25$^\circ$ & 1$^\circ$  & GC3-AMIP     & 5 (r1-r5) &   \citep{gc3amip}                          \\
-United Kingdom Earth System Model version 1 (UKESM1)   &  Pre-industrial control        & 1.875$^\circ$x1.25$^\circ$ & 1$^\circ$ & UKESM-pi      & 1 & \citep{ukesmpi}            \\
-UKESM1   &  Historical         & 1.875$^\circ$x1.25$^\circ$ & 1$^\circ$ & UKESM-hist & 5 (r1-r5)     &  \citep{ukesmhist}            \\
+Hadley Centre Global Environment Model version 3 (HadGEM3)    &  Pre-industrial control  & 1850-2350 & N96 1.875$^\circ$x1.25$^\circ$ (1$^\circ$) & GC3 N96-pi      & 1 &   \citep{menary2018,gc3pi}                          \\
+HadGEM3   &  Pre-industrial control & 1850-2000        & N216 0.83$^\circ$x0.56$^\circ$ (0.25$^\circ$) & GC3 N216-pi   & 1 & \citep{menary2018,n216pi}      \\
+HadGEM3    &  Historical & 1979-2014       & N96 1.875$^\circ$x1.25$^\circ$ (1$^\circ$)  & GC3-hist     &  4(r1-r4) & \citep{andrews2020,gc3hist}                          \\
+HadGEM3   &  Historical & 1979-2014        & N216 0.83$^\circ$x0.56$^\circ$ (0.25$^\circ$) & N216-hist   & 1 & \citep{n216pi}      \\
+HadGEM3    &  Atmospheric Model Intercomparison (AMIP)  & 1979-2014 & N96 1.875$^\circ$x1.25$^\circ$ (1$^\circ$)  & GC3-amip   & 5 (r1-r5) &   \citep{gc3amip}                          \\
+United Kingdom Earth System Model version 1 (UKESM1)   &  Pre-industrial control  & 2060-2600       & N96 1.875$^\circ$x1.25$^\circ$ (1$^\circ$) & UKESM-pi      & 1 & \citep{ukesmpi}            \\
+UKESM1   &  Historical  & 1979-2014       & N96 1.875$^\circ$x1.25$^\circ$ (1$^\circ$) & UKESM-hist & 5 (r1-r5)     &  \citep{ukesmhist}            \\
 \end{tabular}
 \end{sidewaystable}
 
-The MOHC has submitted the output of two models for CMIP6: HadGEM3 GC3.1 
+The Met Office Hadley Centre (MOHC) has submitted the output of two models for CMIP6: HadGEM3 GC3.1 
 %These models were built in collaboration with the National Centre for Atmospheric Science.
 (hereafter GC3) is the latest version of the Global Coupled (GC) Met Office Unified Model (UM) and UKESM1, the new U.K. Earth System Model.
 The most substantial change from the version used in CMIP5 (HadGEM2-AO) is the inclusion of the new GC configuration 3.1 \citep{walters2019} with the updated components: Global Atmosphere 7.0 (GA7.0), Global Land 7.0
@@ -87,4 +98,4 @@ The regional emissions of carbonaceous aerosols, nitrogen oxides and volatile or
 
 The historical experiments of HadGEM3 and UKESM1 are composed of 4 and 9 ensemble members, respectively, but the results will be presented as the ensemble mean for the 1979-2014 period. %spatial distributions or with the ensemble spread for seasonal cycles.
 These experiments will be referred to as GC3-hist and UKESM1-hist hereafter.
-{\color{blue}Finally, we use the five ensemble members of the AMIP experiment from GC3 N96 covering 1979-2014. Table \ref{tab:Sexps} summarises the main features of the experiments used in this study. }
+Finally, we use the five ensemble members of the AMIP experiment from GC3 N96 covering 1979-2014. Table \ref{tab:Sexps} summarises the main features of the experiments used in this study. 

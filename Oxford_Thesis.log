@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.4.8)  11 NOV 2020 09:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.4.8)  16 JAN 2021 19:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1717,47 +1717,46 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 
 LaTeX Warning: Label `ch:1-intro' multiply defined.
 
-) (./text/ch-msd.aux
+) (./text/ch4-ams.aux) (./text/ch-msd.aux
 
 LaTeX Warning: Label `ch:2-litreview' multiply defined.
 
 
 LaTeX Warning: Label `fig:eof2' multiply defined.
 
-) (./text/appendix-1.aux))
+))
 \openout1 = `Oxford_Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 109.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 109.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 112.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 112.
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 109.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 109.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 112.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 112.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2013/09/01 v1.0 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 109.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 112.
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1770,15 +1769,15 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead 
-* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* h-part:(L,W,R)=(66.86414pt, 463.7796pt, 66.86414pt)
+* v-part:(T,H,B)=(65.44142pt, 708.47354pt, 71.13188pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=483.69687pt
-* \textheight=696.47356pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-15.36449pt
+* \textwidth=463.7796pt
+* \textheight=673.71126pt
+* \oddsidemargin=-5.40585pt
+* \evensidemargin=-5.40585pt
+* \topmargin=-6.82857pt
 * \headheight=15.0pt
 * \headsep=22.76228pt
 * \topskip=12.0pt
@@ -1824,7 +1823,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 109.
+LaTeX Info: Redefining \microtypecontext on input line 112.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1853,7 +1852,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 )
-Package hyperref Info: Link coloring OFF on input line 109.
+Package hyperref Info: Link coloring OFF on input line 112.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1863,9 +1862,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count197
 )
-LaTeX Info: Redefining \ref on input line 109.
-LaTeX Info: Redefining \pageref on input line 109.
-LaTeX Info: Redefining \nameref on input line 109.
+LaTeX Info: Redefining \ref on input line 112.
+LaTeX Info: Redefining \pageref on input line 112.
+LaTeX Info: Redefining \nameref on input line 112.
 
 (./Oxford_Thesis.out) (./Oxford_Thesis.out)
 \@outlinefile=\write4
@@ -1908,18 +1907,18 @@ LaTeX Info: Redefining \nameref on input line 109.
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<figures/beltcrest.pdf, id=109, 116.435pt x 139.52126pt>
+<figures/beltcrest.pdf, id=141, 116.435pt x 139.52126pt>
 File: figures/beltcrest.pdf Graphic file (type pdf)
 
 <use figures/beltcrest.pdf>
-Package pdftex.def Info: figures/beltcrest.pdf used on input line 151.
+Package pdftex.def Info: figures/beltcrest.pdf used on input line 154.
 (pdftex.def)             Requested size: 116.43471pt x 139.5209pt.
  [1
 
 
 
  <./figures/beltcrest.pdf>]
-LaTeX Font Info:    Try loading font information for T1+put on input line 161.
+LaTeX Font Info:    Try loading font information for T1+put on input line 164.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1put.fd
 File: t1put.fd 2001/06/04 font definitions for T1/put.
@@ -1938,7 +1937,7 @@ Package microtype Info: Loading generic settings for font family
 ]
 Package minitoc Info: I0024
 (minitoc)             PREPARING MINITOCS FROM Oxford_Thesis.toc on input line 1
-77.
+80.
 Package minitoc Info: I0033
 (minitoc)             Writing Oxford_Thesis.mtc1.
 \openout3 = `Oxford_Thesis.mtc1'.
@@ -1970,10 +1969,6 @@ Package minitoc Info: I0033
 Package minitoc Info: I0033
 (minitoc)             Writing Oxford_Thesis.mtc8.
 \openout3 = `Oxford_Thesis.mtc8'.
-
-Package minitoc Info: I0033
-(minitoc)             Writing Oxford_Thesis.mtc9.
-\openout3 = `Oxford_Thesis.mtc9'.
 
 
 (./Oxford_Thesis.toc
@@ -2017,28 +2012,33 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-))
+) [5
+
+])
 \tf@toc=\write5
 \openout5 = `Oxford_Thesis.toc'.
 
- [5
-
-]
+ [6]
 (./Oxford_Thesis.lof
-
-LaTeX Warning: Reference `fig:7' on page \textlatin {vi} undefined on input lin
-e 22.
-
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 10.
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
+Package microtype Info: Loading generic settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [7
+
+] [8] [9])
 \tf@lof=\write6
 \openout6 = `Oxford_Thesis.lof'.
 
- [6
 
-] [7]
+[10] [11]
 \openout2 = `text/abbreviations.aux'.
 
- (./text/abbreviations.tex) [8
+ (./text/abbreviations.tex) [12
 
 
 ]
@@ -2056,7 +2056,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.205 \include{text/ch1-intro}
+l.208 \include{text/ch1-intro}
                                [1
 
 
@@ -2066,10 +2066,6 @@ l.205 \include{text/ch1-intro}
 \openout2 = `text/ch2-litreview.aux'.
 
  (./text/ch2-litreview.tex
-
-Package natbib Warning: Citation `von_goethe_wilhelm_1829' on page 3 undefined 
-on input line 7.
-
 Chapter 2.
 \openout3 = `Oxford_Thesis.mtc'.
 
@@ -2080,24 +2076,32 @@ Chapter 2.
 
 
 ]
-<figures/trmmclima.png, id=273, 930.8376pt x 570.933pt>
+<figures/trmmclima.png, id=489, 930.8376pt x 570.933pt>
 File: figures/trmmclima.png Graphic file (type png)
 
 <use figures/trmmclima.png>
 Package pdftex.def Info: figures/trmmclima.png used on input line 28.
-(pdftex.def)             Requested size: 483.69687pt x 296.67778pt.
- [4 <./figures/trmmclima.png>] [5] [6] [7] [8]
-[9] <figures/sample/Gray498.png, id=536, 476.78125pt x 417.56pt>
-File: figures/sample/Gray498.png Graphic file (type png)
+(pdftex.def)             Requested size: 463.7796pt x 284.46394pt.
+ [4] [5 <./figures/trmmclima.png>] [6] [7]
+<figures/amsclim.png, id=648, 867.24pt x 607.7907pt>
+File: figures/amsclim.png Graphic file (type png)
+ <use figures/amsclim.png>
+Package pdftex.def Info: figures/amsclim.png used on input line 78.
+(pdftex.def)             Requested size: 463.7796pt x 325.03033pt.
 
-<use figures/sample/Gray498.png>
-Package pdftex.def Info: figures/sample/Gray498.png used on input line 132.
-(pdftex.def)             Requested size: 338.58632pt x 296.54611pt.
- [10 <./figures/sample/Gray498.png>]
+[8] [9 <./figures/amsclim.png>] [10] [11] [12] [13]
+Overfull \hbox (7.13963pt too wide) in paragraph at lines 179--179
+[]\T1/lmr/bx/n/17.28 El Niño South-ern Os-cil-la-tion: im-pacts to the Amer-
+ []
 
-LaTeX Warning: Reference `fig:qbo' on page 11 undefined on input line 141.
+[14] <figures/ENSO.png, id=931, 622.325pt x 414.54875pt>
+File: figures/ENSO.png Graphic file (type png)
 
-) [11]
+<use figures/ENSO.png>
+Package pdftex.def Info: figures/ENSO.png used on input line 200.
+(pdftex.def)             Requested size: 463.7796pt x 308.93724pt.
+ [15] [16 <./figures/ENSO.png (PNG copy)>] [17] [18])
+[19]
 \openout2 = `text/ch3-methods.aux'.
 
  (./text/ch3-methods.tex
@@ -2107,144 +2111,302 @@ Chapter 3.
 \openout3 = `Oxford_Thesis.mtc'.
 
 (./Oxford_Thesis.mtc5)
-Overfull \hbox (0.56444pt too wide) in paragraph at lines 21--21
+Overfull \hbox (0.56444pt too wide) in paragraph at lines 20--20
 []|\T1/lmr/m/it/10.95 (-20) Acronym| 
  []
 
 
-Underfull \hbox (badness 5217) in paragraph at lines 24--24
+Underfull \hbox (badness 5217) in paragraph at lines 23--23
 []|\T1/lmr/m/n/10.95 (+20) Climate Pre-dic-tion Cen-ter
  []
 
 
-Underfull \hbox (badness 5563) in paragraph at lines 28--28
+Underfull \hbox (badness 5563) in paragraph at lines 27--27
 []|\T1/lmr/m/n/10.95 (+20) Tropical Rain-fall Mea-sure-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
 []|\T1/lmr/m/n/10.95 (+20) ([]Huffman et al.[],
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
 []|\T1/lmr/m/n/10.95 (+20) ([]Kennedy et al.[],
  []
 
 
-Overfull \hbox (11.04115pt too wide) in paragraph at lines 20--32
+Overfull \hbox (33.80345pt too wide) in paragraph at lines 19--31
 [][] 
  []
 
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 38.
-(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `lmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- [12
+[20
 
 
 
-] [13]
-Overfull \hbox (2.19804pt too wide) in paragraph at lines 56--56
-[]|\T1/lmr/m/n/10.95 (-20) Atmospheric
+] [21] [22]
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+[]|\T1/lmr/m/n/10.95 (+20) Atmospheric
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+\T1/lmr/m/n/10.95 (+20) (Ocean)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
 []|\T1/lmr/m/n/10.95 (+20) Ensemble
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|\T1/lmr/m/n/10.95 (+20) N96
- []
-
-
-Overfull \hbox (1.231pt too wide) in paragraph at lines 58--58
-\T1/lmr/m/n/10.95 (-20) 1.875$[]$x1.25$[]$| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
-[]|\T1/lmr/m/n/10.95 (+20) N216
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
-[]|\T1/lmr/m/n/10.95 (+20) N96
- []
-
-
-Overfull \hbox (1.231pt too wide) in paragraph at lines 60--60
-\T1/lmr/m/n/10.95 (-20) 1.875$[]$x1.25$[]$| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
-[]|\T1/lmr/m/n/10.95 (+20) N216
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-[]|\T1/lmr/m/n/10.95 (+20) N96
- []
-
-
-Overfull \hbox (1.231pt too wide) in paragraph at lines 62--62
-\T1/lmr/m/n/10.95 (-20) 1.875$[]$x1.25$[]$| 
- []
-
-
-Underfull \hbox (badness 6592) in paragraph at lines 63--63
+Underfull \hbox (badness 6592) in paragraph at lines 74--74
 []|\T1/lmr/m/n/10.95 (+20) United King-dom Earth
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 63--63
+Underfull \hbox (badness 1292) in paragraph at lines 74--74
 \T1/lmr/m/n/10.95 (+20) Sys-tem Model ver-sion 1
  []
 
 
-Overfull \hbox (1.7785pt too wide) in paragraph at lines 63--63
-[]|\T1/lmr/m/n/10.95 (-20) 1.875$[]$x1.25$[]$| 
+Overfull \hbox (30.38966pt too wide) in paragraph at lines 66--77
+[][] 
  []
 
+[23] [24]) [25]
+\openout2 = `text/ch4-ams.aux'.
 
-Overfull \hbox (1.7785pt too wide) in paragraph at lines 64--64
-[]|\T1/lmr/m/n/10.95 (-20) 1.875$[]$x1.25$[]$| 
- []
+ (./text/ch4-ams.tex [26
 
-[14] [15]) [16]
-\openout2 = `text/ch-msd.aux'.
 
- (./text/ch-msd.tex
-
-Package natbib Warning: Citation `von_goethe_wilhelm_1829' on page 17 undefined
- on input line 7.
-
+]
 Chapter 4.
 \openout3 = `Oxford_Thesis.mtc'.
 
 \openout3 = `Oxford_Thesis.mtc'.
 
-(./Oxford_Thesis.mtc6) <figures/pmean_f2.png, id=760, 867.24pt x 867.24pt>
+(./Oxford_Thesis.mtc6) [27
+
+] [28] [29]
+<figures/fig1p2_f1a.png, id=1320, 939.51pt x 867.24pt>
+File: figures/fig1p2_f1a.png Graphic file (type png)
+
+<use figures/fig1p2_f1a.png>
+Package pdftex.def Info: figures/fig1p2_f1a.png used on input line 59.
+(pdftex.def)             Requested size: 463.7796pt x 428.10078pt.
+
+Overfull \hbox (3.36296pt too wide) in paragraph at lines 75--75
+[]|\T1/lmr/m/it/10.95 (-20) Variable| 
+ []
+
+
+Underfull \hbox (badness 6592) in paragraph at lines 75--75
+[]|\T1/lmr/m/it/10.95 (+20) Model ex-per-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+[]|\T1/lmr/m/n/10.95 (+20) DJF
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+[]|\T1/lmr/m/n/10.95 (+20) DJF
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+[]|\T1/lmr/m/n/10.95 (+20) MAM
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+[]|\T1/lmr/m/n/10.95 (+20) MAM
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+[]|\T1/lmr/m/n/10.95 (+20) JJA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+[]|\T1/lmr/m/n/10.95 (+20) JJA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+[]|\T1/lmr/m/n/10.95 (+20) SON
+ []
+
+
+Overfull \hbox (1.12526pt too wide) in paragraph at lines 75--75
+\T1/lmr/m/n/10.95 (-20) RMSE| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+[]|\T1/lmr/m/n/10.95 (+20) SON
+ []
+
+
+Overfull \hbox (5.56746pt too wide) in paragraph at lines 74--102
+[][] 
+ []
+
+<figures/fig1p2_f1b.png, id=1331, 939.51pt x 867.24pt>
+File: figures/fig1p2_f1b.png Graphic file (type png)
+
+<use figures/fig1p2_f1b.png>
+Package pdftex.def Info: figures/fig1p2_f1b.png used on input line 107.
+(pdftex.def)             Requested size: 463.7796pt x 428.10078pt.
+ [30] [31 <./figures/fig1p2_f1a.png>] [32] [33 <./figures/fig1p2_f1b.png>] <fig
+ures/p2fig2_v3.png, id=1366, 1011.78pt x 722.7pt>
+File: figures/p2fig2_v3.png Graphic file (type png)
+
+<use figures/p2fig2_v3.png>
+Package pdftex.def Info: figures/p2fig2_v3.png used on input line 139.
+(pdftex.def)             Requested size: 463.7796pt x 331.27711pt.
+ [34 <./figures/p2fig2_v3.png>]
+<figures/itcz_clim_d.png, id=1393, 1228.59pt x 650.43pt>
+File: figures/itcz_clim_d.png Graphic file (type png)
+
+<use figures/itcz_clim_d.png>
+Package pdftex.def Info: figures/itcz_clim_d.png used on input line 170.
+(pdftex.def)             Requested size: 463.7796pt x 245.52838pt.
+ [35]
+<figures/fig3_p2_v3.png, id=1402, 1228.59pt x 1228.59pt>
+File: figures/fig3_p2_v3.png Graphic file (type png)
+
+<use figures/fig3_p2_v3.png>
+Package pdftex.def Info: figures/fig3_p2_v3.png used on input line 184.
+(pdftex.def)             Requested size: 463.7796pt x 463.77583pt.
+ [36 <./figures/itcz_clim_d.png>] [37 <./figures/fig3_p2_v3.png>] <figures/sacz
+analysis.png, id=1420, 1076.02pt x 562.1pt>
+File: figures/saczanalysis.png Graphic file (type png)
+
+<use figures/saczanalysis.png>
+Package pdftex.def Info: figures/saczanalysis.png used on input line 212.
+(pdftex.def)             Requested size: 463.7796pt x 242.27295pt.
+ [38]
+<figures/fig6.png, id=1441, 939.51pt x 1156.32pt>
+File: figures/fig6.png Graphic file (type png)
+ <use figures/fig6.png>
+Package pdftex.def Info: figures/fig6.png used on input line 233.
+(pdftex.def)             Requested size: 382.61674pt x 470.90071pt.
+
+[39 <./figures/saczanalysis.png>] [40 <./figures/fig6.png>]
+<figures/Fig8.png, id=1459, 1084.05pt x 1084.05pt>
+File: figures/Fig8.png Graphic file (type png)
+ <use figures/Fig8.png>
+Package pdftex.def Info: figures/Fig8.png used on input line 258.
+(pdftex.def)             Requested size: 440.5892pt x 440.59273pt.
+
+<figures/amipseasonalcycle.png, id=1471, 1572.5952pt x 865.7946pt>
+File: figures/amipseasonalcycle.png Graphic file (type png)
+
+<use figures/amipseasonalcycle.png>
+Package pdftex.def Info: figures/amipseasonalcycle.png used on input line 283.
+(pdftex.def)             Requested size: 463.7796pt x 255.32793pt.
+ [41] [42 <./figures/Fig8.png>] [43 <./figures/amipseasonalcycle.png>] <figures
+/fig9b.png, id=1509, 1228.59pt x 794.97pt>
+File: figures/fig9b.png Graphic file (type png)
+
+<use figures/fig9b.png>
+Package pdftex.def Info: figures/fig9b.png used on input line 334.
+(pdftex.def)             Requested size: 463.7796pt x 300.09024pt.
+ [44] [45 <./figures/fig9b.png>] [46]
+<figures/ensotemp_3.png, id=1540, 867.24pt x 1156.32pt>
+File: figures/ensotemp_3.png Graphic file (type png)
+
+<use figures/ensotemp_3.png>
+Package pdftex.def Info: figures/ensotemp_3.png used on input line 390.
+(pdftex.def)             Requested size: 375.66034pt x 500.87787pt.
+
+<figures/ensopr_3.png, id=1542, 867.24pt x 1156.32pt>
+File: figures/ensopr_3.png Graphic file (type png)
+
+<use figures/ensopr_3.png>
+Package pdftex.def Info: figures/ensopr_3.png used on input line 404.
+(pdftex.def)             Requested size: 371.48508pt x 495.32pt.
+ [47] [48 <./figures/ensotemp_3.png>] [49 <./figures/ensopr_3.png>] <figures/wa
+lkerfinal.png, id=1571, 1056.5874pt x 854.9541pt>
+File: figures/walkerfinal.png Graphic file (type png)
+
+<use figures/walkerfinal.png>
+Package pdftex.def Info: figures/walkerfinal.png used on input line 417.
+(pdftex.def)             Requested size: 463.7796pt x 375.28082pt.
+ [50 <./figures/walkerfinal.png>]
+<figures/fig_ensolinear.png, id=1588, 1011.78pt x 794.97pt>
+File: figures/fig_ensolinear.png Graphic file (type png)
+
+<use figures/fig_ensolinear.png>
+Package pdftex.def Info: figures/fig_ensolinear.png used on input line 434.
+(pdftex.def)             Requested size: 463.7796pt x 364.40483pt.
+ [51 <./figures/fig_ensolinear.png>]
+<figures/epcpmap.png, id=1597, 1065.2598pt x 863.6265pt>
+File: figures/epcpmap.png Graphic file (type png)
+
+<use figures/epcpmap.png>
+Package pdftex.def Info: figures/epcpmap.png used on input line 447.
+(pdftex.def)             Requested size: 463.7796pt x 375.99077pt.
+ [52 <./figures/epcpmap.png>]
+<figures/cppranomalies_ff.png, id=1612, 1061.6463pt x 939.51pt>
+File: figures/cppranomalies_ff.png Graphic file (type png)
+
+<use figures/cppranomalies_ff.png>
+Package pdftex.def Info: figures/cppranomalies_ff.png used on input line 474.
+(pdftex.def)             Requested size: 463.7796pt x 410.41818pt.
+ [53] [54 <./figures/cppranomalies_ff.png>]
+<figures/trops_qbolnprdjfm.png, id=1628, 1445.4pt x 722.7pt>
+File: figures/trops_qbolnprdjfm.png Graphic file (type png)
+
+<use figures/trops_qbolnprdjfm.png>
+Package pdftex.def Info: figures/trops_qbolnprdjfm.png used on input line 488.
+(pdftex.def)             Requested size: 463.7796pt x 231.88626pt.
+ [55 <./figures/trops_qbolnprdjfm.png>]
+<figures/walker_wqbo_jfma.png, id=1642, 1084.05pt x 867.24pt>
+File: figures/walker_wqbo_jfma.png Graphic file (type png)
+
+<use figures/walker_wqbo_jfma.png>
+Package pdftex.def Info: figures/walker_wqbo_jfma.png used on input line 505.
+(pdftex.def)             Requested size: 463.7796pt x 371.02686pt.
+ [56] [57 <./figures/walker_wqbo_jfma.png>]
+[58] <figures/drawing_d.png, id=1670, 1686.3pt x 717.079pt>
+File: figures/drawing_d.png Graphic file (type png)
+
+<use figures/drawing_d.png>
+Package pdftex.def Info: figures/drawing_d.png used on input line 544.
+(pdftex.def)             Requested size: 463.7796pt x 197.21375pt.
+ [59 <./figures/drawing_d.png>] [60] [61]) [62]
+\openout2 = `text/ch-msd.aux'.
+
+
+(./text/ch-msd.tex
+
+Package natbib Warning: Citation `von_goethe_wilhelm_1829' on page 63 undefined
+ on input line 7.
+
+Chapter 5.
+\openout3 = `Oxford_Thesis.mtc'.
+
+\openout3 = `Oxford_Thesis.mtc'.
+
+(./Oxford_Thesis.mtc7) <figures/pmean_f2.png, id=1731, 867.24pt x 867.24pt>
 File: figures/pmean_f2.png Graphic file (type png)
 
 <use figures/pmean_f2.png>
 Package pdftex.def Info: figures/pmean_f2.png used on input line 18.
-(pdftex.def)             Requested size: 483.69687pt x 483.70584pt.
+(pdftex.def)             Requested size: 463.7796pt x 463.77695pt.
 
-<figures/fig2obs_prdiff_2.png, id=770, 1280.6244pt x 648.9846pt>
+<figures/fig2obs_prdiff_2.png, id=1741, 1280.6244pt x 648.9846pt>
 File: figures/fig2obs_prdiff_2.png Graphic file (type png)
 
 <use figures/fig2obs_prdiff_2.png>
 Package pdftex.def Info: figures/fig2obs_prdiff_2.png used on input line 27.
-(pdftex.def)             Requested size: 483.69687pt x 245.1214pt.
- [17
+(pdftex.def)             Requested size: 463.7796pt x 235.03055pt.
+ [63
 
 
 
@@ -2255,19 +2417,19 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18 <./figures/pmean_f2.png>]
-<figures/fig2obs_prmodels3.png, id=801, 1084.05pt x 722.7pt>
+[64 <./figures/pmean_f2.png>]
+<figures/fig2obs_prmodels3.png, id=1773, 1084.05pt x 722.7pt>
 File: figures/fig2obs_prmodels3.png Graphic file (type png)
 
 <use figures/fig2obs_prmodels3.png>
 Package pdftex.def Info: figures/fig2obs_prmodels3.png used on input line 50.
-(pdftex.def)             Requested size: 483.69687pt x 322.46614pt.
+(pdftex.def)             Requested size: 463.7796pt x 309.18903pt.
 
-<figures/CSST.png, id=802, 1084.05pt x 939.51pt>
+<figures/CSST.png, id=1774, 1084.05pt x 939.51pt>
 File: figures/CSST.png Graphic file (type png)
  <use figures/CSST.png>
 Package pdftex.def Info: figures/CSST.png used on input line 57.
-(pdftex.def)             Requested size: 483.69687pt x 419.206pt.
+(pdftex.def)             Requested size: 463.7796pt x 401.94576pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2275,40 +2437,34 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[19 <./figures/fig2obs_prdiff_2.png>]
-
-LaTeX Warning: Reference `fig:8' on page 20 undefined on input line 76.
-
+[65 <./figures/fig2obs_prdiff_2.png>]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.11652pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20 <./figures/fig2obs_prmodels3.png>]
+[66 <./figures/fig2obs_prmodels3.png>]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.11652pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21 <./figures/CSST.png>]
-
-LaTeX Warning: Reference `fig:7' on page 22 undefined on input line 98.
-
-<figures/fig4_olrdiff.png, id=854, 1011.78pt x 867.24pt>
+[67 <./figures/CSST.png>]
+<figures/fig4_olrdiff.png, id=1827, 1011.78pt x 867.24pt>
 File: figures/fig4_olrdiff.png Graphic file (type png)
 
 <use figures/fig4_olrdiff.png>
 Package pdftex.def Info: figures/fig4_olrdiff.png used on input line 103.
-(pdftex.def)             Requested size: 483.69687pt x 414.60312pt.
+(pdftex.def)             Requested size: 463.7796pt x 397.53255pt.
 
-<figures/modcompar_dif2u3.png, id=855, 1011.78pt x 722.7pt>
+<figures/modcompar_dif2u3.png, id=1828, 1011.78pt x 722.7pt>
 File: figures/modcompar_dif2u3.png Graphic file (type png)
 
 <use figures/modcompar_dif2u3.png>
 Package pdftex.def Info: figures/modcompar_dif2u3.png used on input line 110.
-(pdftex.def)             Requested size: 483.69687pt x 345.5026pt.
+(pdftex.def)             Requested size: 463.7796pt x 331.27711pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2316,12 +2472,12 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22] <figures/fig4_sstdiff.png, id=865, 1011.78pt x 867.24pt>
+[68] <figures/fig4_sstdiff.png, id=1837, 1011.78pt x 867.24pt>
 File: figures/fig4_sstdiff.png Graphic file (type png)
 
 <use figures/fig4_sstdiff.png>
 Package pdftex.def Info: figures/fig4_sstdiff.png used on input line 127.
-(pdftex.def)             Requested size: 483.69687pt x 414.60312pt.
+(pdftex.def)             Requested size: 463.7796pt x 397.53255pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2329,21 +2485,31 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[23 <./figures/fig4_olrdiff.png>]
+[69 <./figures/fig4_olrdiff.png>]
+
+LaTeX Warning: Reference `sq:lit' on page 70 undefined on input line 138.
+
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.11652pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[24 <./figures/modcompar_dif2u3.png>]
-<figures/modcompar_dif2mfc3.png, id=886, 1156.32pt x 578.16pt>
+[70 <./figures/modcompar_dif2u3.png>]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[71 <./figures/fig4_sstdiff.png>]
+<figures/modcompar_dif2mfc3.png, id=1862, 1156.32pt x 578.16pt>
 File: figures/modcompar_dif2mfc3.png Graphic file (type png)
 
 <use figures/modcompar_dif2mfc3.png>
 Package pdftex.def Info: figures/modcompar_dif2mfc3.png used on input line 145.
 
-(pdftex.def)             Requested size: 483.69687pt x 241.8463pt.
+(pdftex.def)             Requested size: 463.7796pt x 231.88626pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2351,25 +2517,15 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[25 <./figures/fig4_sstdiff.png>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[26 <./figures/modcompar_dif2mfc3.png>]
-<figures/scatter.png, id=917, 939.51pt x 1011.78pt>
+[72 <./figures/modcompar_dif2mfc3.png>]
+<figures/scatter.png, id=1889, 939.51pt x 1011.78pt>
 File: figures/scatter.png Graphic file (type png)
  <use figures/scatter.png>
 Package pdftex.def Info: figures/scatter.png used on input line 169.
-(pdftex.def)             Requested size: 483.69687pt x 520.89497pt.
+(pdftex.def)             Requested size: 463.7796pt x 499.4509pt.
 
 
-LaTeX Warning: Reference `fig:7' on page 27 undefined on input line 170.
-
-
-LaTeX Warning: Reference `fig:7' on page 27 undefined on input line 170.
+LaTeX Warning: Reference `sq:lit' on page 73 undefined on input line 177.
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2377,90 +2533,79 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[27]
+[73]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.11652pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[28 <./figures/scatter.png>]
+[74 <./figures/scatter.png>]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.11652pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[29]
+[75]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.11652pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[30])
+[76])
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.11652pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31] [32
+[77]
 
-
-]
-\openout2 = `text/appendix-1.aux'.
-
- (./text/appendix-1.tex
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 2.
- (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-
-Package natbib Warning: Citation `harvey_exercitatio_1628' on page 33 undefined
- on input line 5.
-
-Appendix A.
-\openout3 = `Oxford_Thesis.mtc'.
-
-\openout3 = `Oxford_Thesis.mtc'.
-
-(./Oxford_Thesis.mtc8) [33
-
-
-] [34] [35] [36] [37] [38]) [39]
-
-Package natbib Warning: Citation `berlin_hedgehog_2013' on page 40 undefined on
- input line 223.
+Package natbib Warning: Citation `berlin_hedgehog_2013' on page 78 undefined on
+ input line 227.
 
 (./Oxford_Thesis.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40
+ [78
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41]
+ [79]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42]
+ [80]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43]
+ [81]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44]
+ [82]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45]
+ [83]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46]
+ [84]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47])
+ [85]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [86]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [87]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [88]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [89])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the Oxford_Thesis.maf file.
@@ -2470,16 +2615,16 @@ Package minitoc Info: I0009
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 237.
-[48]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 237.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 241.
+[90]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 241.
  (./Oxford_Thesis.aux (./text/abbreviations.aux) (./text/ch1-intro.aux)
-(./text/ch2-litreview.aux) (./text/ch3-methods.aux) (./text/ch-msd.aux)
-(./text/appendix-1.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 237.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 237.
+(./text/ch2-litreview.aux) (./text/ch3-methods.aux) (./text/ch4-ams.aux)
+(./text/ch-msd.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 241.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 241.
 Package rerunfilecheck Info: File `Oxford_Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 605F26740C35CB1D8F0604FF94649C24;1744.
+(rerunfilecheck)             Checksum: 7FC2071160A9F35C6275563A8A29ACD9;2476.
 
 
 LaTeX Warning: There were undefined references.
@@ -2487,35 +2632,37 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 237.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 241.
  ) 
 Here is how much of TeX's memory you used:
- 25259 strings out of 494777
- 419405 string characters out of 6176443
- 564977 words of memory out of 5000000
- 27487 multiletter control sequences out of 15000+600000
- 104857 words of font info for 164 fonts, out of 8000000 for 9000
+ 25677 strings out of 494777
+ 426527 string characters out of 6176443
+ 606334 words of memory out of 5000000
+ 27744 multiletter control sequences out of 15000+600000
+ 102397 words of font info for 171 fonts, out of 8000000 for 9000
  107 hyphenation exceptions out of 8191
- 44i,13n,52p,10365b,839s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,13n,53p,10365b,945s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/shar
-e/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texlive/texmf-dist/fonts/enc/d
-vips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share
-/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm
-/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi
-8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts
-/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></
-usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/pu
-blic/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/sha
-re/texmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/
-lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmt
-t12.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb>
-Output written on Oxford_Thesis.pdf (57 pages, 4507475 bytes).
+ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
+/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvi
+ps/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/sh
+are/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/l
+mmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/
+lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texmf
+/fonts/type1/public/lm/lmtti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/a
+dobe/utopia/putb8a.pfb>
+Output written on Oxford_Thesis.pdf (103 pages, 15503517 bytes).
 PDF statistics:
- 1158 PDF objects out of 1200 (max. 8388607)
- 1045 compressed objects within 11 object streams
- 212 named destinations out of 1000 (max. 500000)
- 31485 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 2147 PDF objects out of 2487 (max. 8388607)
+ 1927 compressed objects within 20 object streams
+ 344 named destinations out of 1000 (max. 500000)
+ 31137 words of extra memory for PDF output out of 35830 (max. 10000000)
 
