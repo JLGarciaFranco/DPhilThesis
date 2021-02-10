@@ -2,31 +2,37 @@
 \BOOKMARK [0][-]{chapter*.7}{List of Abbreviations}{}% 2
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
 \BOOKMARK [1][-]{section.1.1}{Motivation}{chapter.1}% 4
-\BOOKMARK [1][-]{section.1.2}{Contribution}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.2}{Contribution and aims}{chapter.1}% 5
 \BOOKMARK [0][-]{chapter.2}{Background}{}% 6
 \BOOKMARK [1][-]{section.2.1}{The tropical circulation and the global monsoon}{chapter.2}% 7
 \BOOKMARK [1][-]{section.2.2}{The American Monsoon System}{chapter.2}% 8
-\BOOKMARK [1][-]{section.2.3}{Review of the Midsummer drought}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.3}{A review on the proposed mechanisms for the Midsummer drought}{chapter.2}% 9
 \BOOKMARK [1][-]{section.2.4}{El Ni\361o Southern Oscillation: impacts to the American monsoon system}{chapter.2}% 10
 \BOOKMARK [1][-]{section.2.5}{Stratosphere-Troposphere Coupling in the Tropics}{chapter.2}% 11
-\BOOKMARK [0][-]{chapter.3}{Data and methods}{}% 12
-\BOOKMARK [1][-]{section.3.1}{Observations and reanalysis data}{chapter.3}% 13
-\BOOKMARK [1][-]{section.3.2}{Model data}{chapter.3}% 14
-\BOOKMARK [0][-]{chapter.4}{The American monsoon system in UKESM1 and HadGEM3}{}% 15
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 16
-\BOOKMARK [1][-]{section.4.2}{Climatological temperature and low-level wind biases}{chapter.4}% 17
-\BOOKMARK [1][-]{section.4.3}{The Atlantic and Pacific ITCZs and the SACZ}{chapter.4}% 18
-\BOOKMARK [1][-]{section.4.4}{Precipitation and convection in the AMS}{chapter.4}% 19
-\BOOKMARK [2][-]{subsection.4.4.1}{Mean seasonal precipitation}{section.4.4}% 20
-\BOOKMARK [2][-]{subsection.4.4.2}{The annual cycle of rainfall}{section.4.4}% 21
-\BOOKMARK [2][-]{subsection.4.4.3}{Characteristics of convective activity}{section.4.4}% 22
-\BOOKMARK [1][-]{section.4.5}{ENSO Teleconnections}{chapter.4}% 23
-\BOOKMARK [2][-]{subsection.4.5.1}{Canonical teleconnections}{section.4.5}% 24
-\BOOKMARK [2][-]{subsection.4.5.2}{The role of ENSO flavours}{section.4.5}% 25
-\BOOKMARK [2][-]{subsection.4.5.3}{A possible influence of the QBO on tropical ENSO teleconnections}{section.4.5}% 26
-\BOOKMARK [1][-]{section.4.6}{Summary and discussion}{chapter.4}% 27
-\BOOKMARK [0][-]{chapter.5}{On the dynamical and thermodynamical mechanisms of the MSD in the Met Office CMIP6 models}{}% 28
-\BOOKMARK [1][-]{section.5.1}{Climatological features}{chapter.5}% 29
-\BOOKMARK [2][-]{subsection.5.1.1}{ On the mechanisms of the MSD in the UK Met Office models}{section.5.1}% 30
-\BOOKMARK [2][-]{subsection.5.1.2}{Summary and discussion}{section.5.1}% 31
-\BOOKMARK [0][-]{chapter*.42}{Bibliography}{}% 32
+\BOOKMARK [2][-]{subsection.2.5.1}{The Quasi-biennial oscillation \(QBO\)}{section.2.5}% 12
+\BOOKMARK [2][-]{subsection.2.5.2}{Tropical teleconnections of the QBO}{section.2.5}% 13
+\BOOKMARK [0][-]{chapter.3}{Data and methods}{}% 14
+\BOOKMARK [1][-]{section.3.1}{Observations and reanalysis data}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.2}{Model data}{chapter.3}% 16
+\BOOKMARK [0][-]{chapter.4}{The American monsoon system in UKESM1 and HadGEM3}{}% 17
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 18
+\BOOKMARK [1][-]{section.4.2}{Climatological temperature and low-level wind biases}{chapter.4}% 19
+\BOOKMARK [1][-]{section.4.3}{The Atlantic and Pacific ITCZs and the SACZ}{chapter.4}% 20
+\BOOKMARK [1][-]{section.4.4}{Precipitation and convection in the AMS}{chapter.4}% 21
+\BOOKMARK [2][-]{subsection.4.4.1}{Mean seasonal precipitation}{section.4.4}% 22
+\BOOKMARK [2][-]{subsection.4.4.2}{The annual cycle of rainfall}{section.4.4}% 23
+\BOOKMARK [2][-]{subsection.4.4.3}{Characteristics of convective activity}{section.4.4}% 24
+\BOOKMARK [1][-]{section.4.5}{ENSO Teleconnections}{chapter.4}% 25
+\BOOKMARK [2][-]{subsection.4.5.1}{Canonical teleconnections}{section.4.5}% 26
+\BOOKMARK [2][-]{subsection.4.5.2}{The role of ENSO flavours}{section.4.5}% 27
+\BOOKMARK [2][-]{subsection.4.5.3}{A possible influence of the QBO on tropical ENSO teleconnections}{section.4.5}% 28
+\BOOKMARK [1][-]{section.4.6}{Summary and discussion}{chapter.4}% 29
+\BOOKMARK [0][-]{chapter.5}{On the dynamical and thermodynamical mechanisms of the MSD in the Met Office CMIP6 models}{}% 30
+\BOOKMARK [1][-]{section.5.1}{Climatological features}{chapter.5}% 31
+\BOOKMARK [2][-]{subsection.5.1.1}{ On the mechanisms of the MSD in the UK Met Office models}{section.5.1}% 32
+\BOOKMARK [2][-]{subsection.5.1.2}{On the role of the cloud-radiative feedbacks}{section.5.1}% 33
+\BOOKMARK [2][-]{subsection.5.1.3}{On the role of the East Pacific SSTs}{section.5.1}% 34
+\BOOKMARK [2][-]{subsection.5.1.4}{On the role of the Caribbean Low-Level Jet}{section.5.1}% 35
+\BOOKMARK [2][-]{subsection.5.1.5}{A look at the MSD through the lense of the moist static energy budget}{section.5.1}% 36
+\BOOKMARK [1][-]{section.5.2}{Summary and discussion}{chapter.5}% 37
+\BOOKMARK [0][-]{chapter*.43}{Bibliography}{}% 38

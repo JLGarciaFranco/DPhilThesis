@@ -9,51 +9,50 @@ A level-1 auxiliary file: text/ch3-methods.aux
 A level-1 auxiliary file: text/ch4-ams.aux
 A level-1 auxiliary file: text/ch-msd.aux
 Database file #1: refs.bib
-Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "carvalho2014"
 Warning--I didn't find a database entry for "von_goethe_wilhelm_1829"
 Warning--I didn't find a database entry for "berlin_hedgehog_2013"
+Warning--there's a number but no series in andrews1987
 Warning--there's a number but no volume in perdigon2019
 Warning--can't use both author and editor fields in Xie2007
-You've used 170 entries,
+You've used 183 entries,
             2909 wiz_defined-function locations,
-            1547 strings with 43509 characters,
-and the built_in function-call counts, 1388983 in all, are:
-= -- 230407
-> -- 20176
-< -- 3
-+ -- 115679
-- -- 6384
-* -- 126583
-:= -- 267839
-add.period$ -- 174
-call.type$ -- 170
-change.case$ -- 2377
-chr.to.int$ -- 167
-cite$ -- 172
-duplicate$ -- 2740
-empty$ -- 5972
-format.name$ -- 6968
-if$ -- 249820
+            1615 strings with 45498 characters,
+and the built_in function-call counts, 1450659 in all, are:
+= -- 240505
+> -- 20986
+< -- 4
++ -- 120539
+- -- 6629
+* -- 132028
+:= -- 280069
+add.period$ -- 187
+call.type$ -- 183
+change.case$ -- 2558
+chr.to.int$ -- 180
+cite$ -- 186
+duplicate$ -- 2946
+empty$ -- 6421
+format.name$ -- 7262
+if$ -- 260895
 int.to.chr$ -- 8
 int.to.str$ -- 0
-missing$ -- 166
-newline$ -- 543
-num.names$ -- 1812
-pop$ -- 496
+missing$ -- 180
+newline$ -- 583
+num.names$ -- 1949
+pop$ -- 532
 preamble$ -- 1
-purify$ -- 2550
+purify$ -- 2745
 quote$ -- 0
-skip$ -- 2382
+skip$ -- 2555
 stack$ -- 0
-substring$ -- 335647
-swap$ -- 546
-text.length$ -- 2383
+substring$ -- 350044
+swap$ -- 584
+text.length$ -- 2566
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 674
-warning$ -- 2
-while$ -- 3840
+type$ -- 724
+warning$ -- 3
+while$ -- 4133
 width$ -- 0
-write$ -- 2302
-(There were 6 warnings)
+write$ -- 2474
+(There were 5 warnings)
