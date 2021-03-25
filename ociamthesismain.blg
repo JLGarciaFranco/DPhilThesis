@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: ociamthesismain.aux
+The style file: agsm.bst
+A level-1 auxiliary file: text/abstract.aux
+A level-1 auxiliary file: text/ch1-intro.aux
+A level-1 auxiliary file: text/ch2-litreview.aux
+A level-1 auxiliary file: text/ch3-methods.aux
+A level-1 auxiliary file: text/ch4-ams.aux
+A level-1 auxiliary file: text/ch-msd.aux
+A level-1 auxiliary file: appendix1.aux
+A level-1 auxiliary file: appendix2.aux
+Illegal, another \bibstyle command---line 29 of file ociamthesismain.aux
+ : \bibstyle
+ :          {plain}
+I'm skipping whatever remains of this command
+Database file #1: refs.bib
+Warning--I didn't find a database entry for ""
+Warning--can't use both author and editor fields in Xie2007
+You've used 187 entries,
+            2909 wiz_defined-function locations,
+            1634 strings with 46347 characters,
+and the built_in function-call counts, 1484245 in all, are:
+= -- 246081
+> -- 21474
+< -- 4
++ -- 123336
+- -- 6783
+* -- 135094
+:= -- 286533
+add.period$ -- 191
+call.type$ -- 187
+change.case$ -- 2614
+chr.to.int$ -- 184
+cite$ -- 188
+duplicate$ -- 3010
+empty$ -- 6569
+format.name$ -- 7431
+if$ -- 266940
+int.to.chr$ -- 8
+int.to.str$ -- 0
+missing$ -- 184
+newline$ -- 595
+num.names$ -- 1992
+pop$ -- 540
+preamble$ -- 1
+purify$ -- 2805
+quote$ -- 0
+skip$ -- 2613
+stack$ -- 0
+substring$ -- 358175
+swap$ -- 597
+text.length$ -- 2622
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 740
+warning$ -- 1
+while$ -- 4225
+width$ -- 0
+write$ -- 2528
+(There was 1 error message)

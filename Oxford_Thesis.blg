@@ -7,52 +7,49 @@ A level-1 auxiliary file: text/ch1-intro.aux
 A level-1 auxiliary file: text/ch2-litreview.aux
 A level-1 auxiliary file: text/ch3-methods.aux
 A level-1 auxiliary file: text/ch4-ams.aux
-A level-1 auxiliary file: text/ch-msd.aux
 Database file #1: refs.bib
-Warning--I didn't find a database entry for "von_goethe_wilhelm_1829"
+Warning--I didn't find a database entry for "bordoni2008"
 Warning--I didn't find a database entry for "berlin_hedgehog_2013"
-Warning--there's a number but no series in andrews1987
-Warning--there's a number but no volume in perdigon2019
 Warning--can't use both author and editor fields in Xie2007
-You've used 183 entries,
+You've used 200 entries,
             2909 wiz_defined-function locations,
-            1615 strings with 45498 characters,
-and the built_in function-call counts, 1450659 in all, are:
-= -- 240505
-> -- 20986
-< -- 4
-+ -- 120539
-- -- 6629
-* -- 132028
-:= -- 280069
-add.period$ -- 187
-call.type$ -- 183
-change.case$ -- 2558
-chr.to.int$ -- 180
-cite$ -- 186
-duplicate$ -- 2946
-empty$ -- 6421
-format.name$ -- 7262
-if$ -- 260895
+            1691 strings with 48280 characters,
+and the built_in function-call counts, 1541137 in all, are:
+= -- 255205
+> -- 22413
+< -- 5
++ -- 127763
+- -- 7077
+* -- 140096
+:= -- 297977
+add.period$ -- 204
+call.type$ -- 200
+change.case$ -- 2792
+chr.to.int$ -- 197
+cite$ -- 201
+duplicate$ -- 3216
+empty$ -- 7001
+format.name$ -- 7771
+if$ -- 277118
 int.to.chr$ -- 8
 int.to.str$ -- 0
-missing$ -- 180
-newline$ -- 583
-num.names$ -- 1949
-pop$ -- 532
+missing$ -- 201
+newline$ -- 636
+num.names$ -- 2124
+pop$ -- 600
 preamble$ -- 1
-purify$ -- 2745
+purify$ -- 3000
 quote$ -- 0
-skip$ -- 2555
+skip$ -- 2769
 stack$ -- 0
-substring$ -- 350044
-swap$ -- 584
-text.length$ -- 2566
+substring$ -- 371144
+swap$ -- 629
+text.length$ -- 2805
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 724
-warning$ -- 3
-while$ -- 4133
+type$ -- 784
+warning$ -- 1
+while$ -- 4508
 width$ -- 0
-write$ -- 2474
-(There were 5 warnings)
+write$ -- 2691
+(There were 3 warnings)

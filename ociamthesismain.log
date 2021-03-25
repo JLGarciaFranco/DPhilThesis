@@ -1,0 +1,1100 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.4.8)  11 MAR 2021 08:50
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**ociamthesismain.tex
+(./ociamthesismain.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 12 language(s) loaded.
+(./ociamthesis.cls
+Document Class: ociamthesis 2010/11/22 v2.2 OCIAM thesis class
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 95.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+\c@r@tfl@t=\count89
+\rotFPtop=\skip43
+\rotFPbot=\skip44
+\rot@float@box=\box26
+\rot@mess@toks=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen105
+\Hy@linkcounter=\count90
+\Hy@pagecounter=\count91
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count92
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count93
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen106
+\Fld@menulength=\count94
+\Field@Width=\dimen107
+\Fld@charsize=\dimen108
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count95
+\c@Item=\count96
+\c@Hfootnote=\count97
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count98
+\c@bookmark@seq@number=\count99
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip45
+)
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip46
+\bibsep=\skip47
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count100
+)
+(./ociamthesismain.aux (./text/abstract.aux) (./text/ch1-intro.aux)
+(./text/ch2-litreview.aux) (./text/ch3-methods.aux
+
+LaTeX Warning: Label `ch:1-intro' multiply defined.
+
+) (./text/ch4-ams.aux) (./text/ch-msd.aux
+
+LaTeX Warning: Label `sq:msdclim' multiply defined.
+
+
+LaTeX Warning: Label `fig:msdcaribb' multiply defined.
+
+
+LaTeX Warning: Label `fig:eof2' multiply defined.
+
+) (./appendix1.aux) (./appendix2.aux))
+\openout1 = `ociamthesismain.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count101
+\scratchdimen=\dimen109
+\scratchbox=\box27
+\nofMPsegments=\count102
+\nofMParguments=\count103
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count104
+\MPscratchDim=\dimen110
+\MPnumerator=\count105
+\makeMPintoPDFobject=\count106
+\everyMPtoPDFconversion=\toks18
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box28
+Package hyperref Info: Link coloring OFF on input line 29.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count107
+)
+LaTeX Info: Redefining \ref on input line 29.
+LaTeX Info: Redefining \pageref on input line 29.
+LaTeX Info: Redefining \nameref on input line 29.
+
+(./ociamthesismain.out) (./ociamthesismain.out)
+\@outlinefile=\write3
+\openout3 = `ociamthesismain.out'.
+
+
+<figures/beltcrest.pdf, id=180, 116.435pt x 139.52126pt>
+File: figures/beltcrest.pdf Graphic file (type pdf)
+
+<use figures/beltcrest.pdf>
+Package pdftex.def Info: figures/beltcrest.pdf used on input line 43.
+(pdftex.def)             Requested size: 91.04881pt x 109.10501pt.
+ [1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figures/beltcrest.pdf>]
+\openout2 = `text/abstract.aux'.
+
+ (./text/abstract.tex) [2
+
+] (./ociamthesismain.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 2.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 2.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+ [1
+
+
+
+])
+\tf@toc=\write4
+\openout4 = `ociamthesismain.toc'.
+
+ [2]
+(./ociamthesismain.lof
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+ [3
+
+]
+Overfull \hbox (3.28569pt too wide) in paragraph at lines 11--11
+ \OT1/cmr/m/n/12 East-ern Brazil [20-10$[]$S,60-40$[]$W] and (d) the Ama-zon ba
+sin [-10-0$[]$S,75- 
+ []
+
+[4]
+Overfull \hbox (6.3509pt too wide) in paragraph at lines 15--15
+ [][] [][]\OT1/cmr/m/n/12 DJF mean rain-fall [mm day$[]$] from (a) TRMM, (b) UK
+ESM1-historical, 
+ []
+
+[5]
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+ [6]
+Overfull \hbox (1.86888pt too wide) in paragraph at lines 30--30
+ [][] [][]\OT1/cmr/m/n/12 Scatter plots of the mean val-ues of pre-cip-i-ta-tio
+n [mm day$[]$] for TRMM, 
+ []
+
+[7])
+\tf@lof=\write5
+\openout5 = `ociamthesismain.lof'.
+
+ [8]
+\openout2 = `text/ch1-intro.aux'.
+
+ (./text/ch1-intro.tex
+Chapter 1.
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.27 
+      [1
+
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.44 \item E
+            valuate the seasonal variability of the monsoon onset, withdrawa...
+[2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 52.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 52.
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+) [3]
+\openout2 = `text/ch2-litreview.aux'.
+
+
+(./text/ch2-litreview.tex
+Chapter 2.
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+[4
+
+
+
+] <figures/trmmclima.png, id=559, 930.8376pt x 570.933pt>
+File: figures/trmmclima.png Graphic file (type png)
+
+<use figures/trmmclima.png>
+Package pdftex.def Info: figures/trmmclima.png used on input line 29.
+(pdftex.def)             Requested size: 433.62pt x 265.96895pt.
+ [5 <./figures/trmmclima.png>] [6] [7] [8]
+<figures/amsclim.png, id=716, 867.24pt x 607.7907pt>
+File: figures/amsclim.png Graphic file (type png)
+ <use figures/amsclim.png>
+Package pdftex.def Info: figures/amsclim.png used on input line 79.
+(pdftex.def)             Requested size: 433.62pt x 303.8946pt.
+
+[9 <./figures/amsclim.png>] [10] [11] [12] [13]
+Missing character: There is no √ in font cmbx12!
+Missing character: There is no ± in font cmbx12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmti12!
+Missing character: There is no ± in font cmti12!
+Missing character: There is no √ in font cmti12!
+Missing character: There is no ± in font cmti12!
+ [14]
+Missing character: There is no √ in font cmti12!
+Missing character: There is no ± in font cmti12!
+
+<figures/ENSO.png, id=1009, 622.325pt x 414.54875pt>
+File: figures/ENSO.png Graphic file (type png)
+ <use figures/ENSO.png>
+Package pdftex.def Info: figures/ENSO.png used on input line 202.
+(pdftex.def)             Requested size: 433.62pt x 288.84746pt.
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+
+[15] [16 <./figures/ENSO.png (PNG copy)>]
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+
+Overfull \hbox (14.91565pt too wide) in paragraph at lines 239--239
+[]\OT1/cmr/bx/n/17.28 Stratosphere-Troposphere Cou-pling in the Trop-
+ []
+
+[17]
+Overfull \hbox (4.35333pt too wide) in paragraph at lines 262--264
+\OT1/cmr/m/n/12 The strato-spheric quasi-biennial os-cil-la-tion (QBO) was dis-
+cov-ered 60 years ago through
+ []
+
+[18]
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+ [19] <figures/nie_sobel.jpeg, id=1184, 115.8729pt x 123.3408pt>
+File: figures/nie_sobel.jpeg Graphic file (type jpg)
+
+<use figures/nie_sobel.jpeg>
+Package pdftex.def Info: figures/nie_sobel.jpeg used on input line 293.
+(pdftex.def)             Requested size: 368.57964pt x 392.43074pt.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+ [20] [21 <./figures/nie_sobel.jpeg>] [22])
+[23]
+\openout2 = `text/ch3-methods.aux'.
+
+ (./text/ch3-methods.tex
+Chapter 3.
+
+Overfull \hbox (1.71304pt too wide) in paragraph at lines 20--20
+[]\OT1/cmr/m/it/10.95 Acronym| 
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 21--21
+[]\OT1/cmr/m/n/10.95 Global Pre-cip-i-ta-tion Cli-ma-
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 22--22
+[]\OT1/cmr/m/n/10.95 Global Pre-cip-i-ta-tion Cli-ma-
+ []
+
+
+Underfull \hbox (badness 8132) in paragraph at lines 23--23
+[]\OT1/cmr/m/n/10.95 Climate Pre-dic-tion Cen-ter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+[]\OT1/cmr/m/n/10.95 ([]Xie and Arkin[],
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 24--24
+[]\OT1/cmr/m/n/10.95 Climatic Re-search Unit TS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+[]\OT1/cmr/m/n/10.95 Climate Haz-ards In-frared
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 25--25
+[]\OT1/cmr/m/n/10.95 Surface rain-gauge and
+ []
+
+
+Underfull \hbox (badness 6316) in paragraph at lines 27--27
+[]\OT1/cmr/m/n/10.95 Tropical Rain-fall Mea-sure-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+[]\OT1/cmr/m/n/10.95 ([]Huffman et al.[],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+[]\OT1/cmr/m/n/10.95 ([]Kennedy et al.[],
+ []
+
+
+Overfull \hbox (56.68472pt too wide) in paragraph at lines 19--31
+[][] 
+ []
+
+[24
+
+
+
+] [25] [26] [27]
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+[]\OT1/cmr/m/n/10.95 Atmospheric
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\OT1/cmr/m/n/10.95 (Ocean) res-o-lu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+[]\OT1/cmr/m/n/10.95 Ensemble
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
+[]\OT1/cmr/m/n/10.95 United King-dom Earth
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 113--113
+\OT1/cmr/m/n/10.95 Sys-tem Model ver-sion 1
+ []
+
+
+Overfull \hbox (53.27094pt too wide) in paragraph at lines 105--116
+[][] 
+ []
+
+[28] [29] [30]) [31]
+\openout2 = `text/ch4-ams.aux'.
+
+ (./text/ch4-ams.tex
+Chapter 4.
+[32
+
+
+
+]
+Overfull \hbox (7.06154pt too wide) in paragraph at lines 23--25
+[]\OT1/cmr/m/n/12 Model val-i-da-tion and as-sess-ment is im-por-tant to anal-y
+se the ef-fect of new parametri-
+ []
+
+[33]
+Overfull \hbox (0.2897pt too wide) in paragraph at lines 52--52
+[]\OT1/cmr/bx/n/17.28 Climatological tem-per-a-ture and low-level wind
+ []
+
+<figures/fig1p2_f1a.png, id=1503, 939.51pt x 867.24pt>
+File: figures/fig1p2_f1a.png Graphic file (type png)
+
+<use figures/fig1p2_f1a.png>
+Package pdftex.def Info: figures/fig1p2_f1a.png used on input line 57.
+(pdftex.def)             Requested size: 433.62pt x 400.25854pt.
+ [34]
+Overfull \hbox (4.59747pt too wide) in paragraph at lines 73--73
+[]\OT1/cmr/m/it/10.95 Variable| 
+ []
+
+
+Underfull \hbox (badness 6758) in paragraph at lines 73--73
+[]\OT1/cmr/m/it/10.95 Model ex-per-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]\OT1/cmr/m/n/10.95 DJF
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]\OT1/cmr/m/n/10.95 DJF
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]\OT1/cmr/m/n/10.95 MAM
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]\OT1/cmr/m/n/10.95 MAM
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]\OT1/cmr/m/n/10.95 JJA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]\OT1/cmr/m/n/10.95 JJA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]\OT1/cmr/m/n/10.95 SON
+ []
+
+
+Overfull \hbox (1.7579pt too wide) in paragraph at lines 73--73
+\OT1/cmr/m/n/10.95 RMSE| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]\OT1/cmr/m/n/10.95 SON
+ []
+
+
+Overfull \hbox (34.92708pt too wide) in paragraph at lines 72--100
+[][] 
+ []
+
+<figures/fig1p2_f1b.png, id=1523, 939.51pt x 867.24pt>
+File: figures/fig1p2_f1b.png Graphic file (type png)
+
+<use figures/fig1p2_f1b.png>
+Package pdftex.def Info: figures/fig1p2_f1b.png used on input line 105.
+(pdftex.def)             Requested size: 433.62pt x 400.25854pt.
+
+Overfull \hbox (4.37271pt too wide) in paragraph at lines 110--117
+[]\OT1/cmr/m/n/12 During DJF, the sim-u-la-tions show a colder-than-observed su
+b-tropical North Amer-
+ []
+
+[35 <./figures/fig1p2_f1a.png>] [36] [37 <./figures/fig1p2_f1b.png>]
+<figures/p2fig2_v3.png, id=1550, 1011.78pt x 722.7pt>
+File: figures/p2fig2_v3.png Graphic file (type png)
+
+<use figures/p2fig2_v3.png>
+Package pdftex.def Info: figures/p2fig2_v3.png used on input line 137.
+(pdftex.def)             Requested size: 433.62pt x 309.72939pt.
+ [38] [39 <./figures/p2fig2_v3.png>]
+<figures/itcz_clim_d.png, id=1585, 1228.59pt x 650.43pt>
+File: figures/itcz_clim_d.png Graphic file (type png)
+
+<use figures/itcz_clim_d.png>
+Package pdftex.def Info: figures/itcz_clim_d.png used on input line 168.
+(pdftex.def)             Requested size: 433.62pt x 229.55946pt.
+
+<figures/fig3_p2_v3.png, id=1587, 1228.59pt x 1228.59pt>
+File: figures/fig3_p2_v3.png Graphic file (type png)
+
+<use figures/fig3_p2_v3.png>
+Package pdftex.def Info: figures/fig3_p2_v3.png used on input line 182.
+(pdftex.def)             Requested size: 433.62pt x 433.61232pt.
+ [40 <./figures/itcz_clim_d.png>] [41 <./figures/fig3_p2_v3.png>] <figures/sacz
+analysis.png, id=1604, 1076.02pt x 562.1pt>
+File: figures/saczanalysis.png Graphic file (type png)
+
+<use figures/saczanalysis.png>
+Package pdftex.def Info: figures/saczanalysis.png used on input line 210.
+(pdftex.def)             Requested size: 433.62pt x 226.51709pt.
+ [42]
+<figures/fig6.png, id=1624, 939.51pt x 1156.32pt>
+File: figures/fig6.png Graphic file (type png)
+ <use figures/fig6.png>
+Package pdftex.def Info: figures/fig6.png used on input line 231.
+(pdftex.def)             Requested size: 357.73517pt x 440.28838pt.
+
+[43 <./figures/saczanalysis.png>] [44 <./figures/fig6.png>]
+<figures/Fig8.png, id=1642, 1084.05pt x 1084.05pt>
+File: figures/Fig8.png Graphic file (type png)
+ <use figures/Fig8.png>
+Package pdftex.def Info: figures/Fig8.png used on input line 256.
+(pdftex.def)             Requested size: 411.93767pt x 411.94328pt.
+
+[45] [46 <./figures/Fig8.png>]
+<figures/amipseasonalcycle.png, id=1664, 1572.5952pt x 865.7946pt>
+File: figures/amipseasonalcycle.png Graphic file (type png)
+
+<use figures/amipseasonalcycle.png>
+Package pdftex.def Info: figures/amipseasonalcycle.png used on input line 281.
+(pdftex.def)             Requested size: 433.62pt x 238.72177pt.
+ [47 <./figures/amipseasonalcycle.png>]
+[48] <figures/fig9b.png, id=1699, 1228.59pt x 794.97pt>
+File: figures/fig9b.png Graphic file (type png)
+
+<use figures/fig9b.png>
+Package pdftex.def Info: figures/fig9b.png used on input line 332.
+(pdftex.def)             Requested size: 433.62pt x 280.57268pt.
+ [49] [50 <./figures/fig9b.png>]
+<figures/ensotemp_3.png, id=1726, 867.24pt x 1156.32pt>
+File: figures/ensotemp_3.png Graphic file (type png)
+
+<use figures/ensotemp_3.png>
+Package pdftex.def Info: figures/ensotemp_3.png used on input line 388.
+(pdftex.def)             Requested size: 351.23112pt x 468.30704pt.
+ [51] [52 <./figures/ensotemp_3.png>]
+<figures/ensopr_3.png, id=1739, 867.24pt x 1156.32pt>
+File: figures/ensopr_3.png Graphic file (type png)
+
+<use figures/ensopr_3.png>
+Package pdftex.def Info: figures/ensopr_3.png used on input line 402.
+(pdftex.def)             Requested size: 347.3274pt x 463.10207pt.
+ [53 <./figures/ensopr_3.png>]
+<figures/walkerfinal.png, id=1754, 1056.5874pt x 854.9541pt>
+File: figures/walkerfinal.png Graphic file (type png)
+
+<use figures/walkerfinal.png>
+Package pdftex.def Info: figures/walkerfinal.png used on input line 415.
+(pdftex.def)             Requested size: 433.62pt x 350.87263pt.
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+ [54 <./figures/walkerfinal.png>]
+<figures/fig_ensolinear.png, id=1772, 1011.78pt x 794.97pt>
+File: figures/fig_ensolinear.png Graphic file (type png)
+
+<use figures/fig_ensolinear.png>
+Package pdftex.def Info: figures/fig_ensolinear.png used on input line 432.
+(pdftex.def)             Requested size: 433.62pt x 340.70232pt.
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+
+<figures/epcpmap.png, id=1776, 1065.2598pt x 863.6265pt>
+File: figures/epcpmap.png Graphic file (type png)
+
+<use figures/epcpmap.png>
+Package pdftex.def Info: figures/epcpmap.png used on input line 445.
+(pdftex.def)             Requested size: 433.62pt x 351.54582pt.
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+ [55]
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+ [56 <./figures/fig_ensolinear.png>]
+<figures/cppranomalies_ff.png, id=1795, 1061.6463pt x 939.51pt>
+File: figures/cppranomalies_ff.png Graphic file (type png)
+
+<use figures/cppranomalies_ff.png>
+Package pdftex.def Info: figures/cppranomalies_ff.png used on input line 472.
+(pdftex.def)             Requested size: 433.62pt x 383.73935pt.
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+ [57 <./figures/epcpmap.png>]
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+ [58 <./figures/cppranomalies_ff.png>]
+<figures/trops_qbolnprfma.png, id=1813, 1011.78pt x 1084.05pt>
+File: figures/trops_qbolnprfma.png Graphic file (type png)
+
+<use figures/trops_qbolnprfma.png>
+Package pdftex.def Info: figures/trops_qbolnprfma.png used on input line 486.
+(pdftex.def)             Requested size: 433.62pt x 464.59409pt.
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+
+<figures/walker_wqbo_jfma.png, id=1822, 1084.05pt x 867.24pt>
+File: figures/walker_wqbo_jfma.png Graphic file (type png)
+
+<use figures/walker_wqbo_jfma.png>
+Package pdftex.def Info: figures/walker_wqbo_jfma.png used on input line 503.
+(pdftex.def)             Requested size: 433.62pt x 346.88986pt.
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ± in font cmr12!
+ [59] [60 <./figures/trops_qbolnprfma.png>]
+[61 <./figures/walker_wqbo_jfma.png>] [62]
+<figures/drawing_d.png, id=1855, 1686.3pt x 717.079pt>
+File: figures/drawing_d.png Graphic file (type png)
+
+<use figures/drawing_d.png>
+Package pdftex.def Info: figures/drawing_d.png used on input line 542.
+(pdftex.def)             Requested size: 433.62pt x 184.39003pt.
+ [63 <./figures/drawing_d.png>] [64] [65]) [66]
+\openout2 = `text/ch-msd.aux'.
+
+
+(./text/ch-msd.tex
+Chapter 5.
+
+Overfull \hbox (5.49489pt too wide) in paragraph at lines 15--18
+\OT1/cmr/m/n/12 give rise to the Mid-sum-mer drought by com-par-ing re-anal-y-s
+is and ob-ser-va-tional datasets
+ []
+
+[67
+
+
+
+] [68] [69] <figures/seasonal_cycle_p3.png, id=1948, 867.24pt x 505.89pt>
+File: figures/seasonal_cycle_p3.png Graphic file (type png)
+
+<use figures/seasonal_cycle_p3.png>
+Package pdftex.def Info: figures/seasonal_cycle_p3.png used on input line 65.
+(pdftex.def)             Requested size: 433.62pt x 252.94437pt.
+
+<figures/dumscatter_2.png, id=1950, 867.24pt x 578.16pt>
+File: figures/dumscatter_2.png Graphic file (type png)
+
+<use figures/dumscatter_2.png>
+Package pdftex.def Info: figures/dumscatter_2.png used on input line 75.
+(pdftex.def)             Requested size: 433.62pt x 289.07928pt.
+
+<figures/fig2obs_prdiff_2.png, id=1951, 1280.6244pt x 648.9846pt>
+File: figures/fig2obs_prdiff_2.png Graphic file (type png)
+
+<use figures/fig2obs_prdiff_2.png>
+Package pdftex.def Info: figures/fig2obs_prdiff_2.png used on input line 81.
+(pdftex.def)             Requested size: 433.62pt x 219.7507pt.
+ [70 <./figures/seasonal_cycle_p3.png>]
+Overfull \hbox (13.22401pt too wide) in paragraph at lines 93--94
+[]\OT1/cmr/m/n/12 The Caribbean Low-level Jet (CLLJ)is a strong low-level east-
+erly jet in the Caribbean
+ []
+
+<figures/fig2obs_prmodels3.png, id=1977, 1084.05pt x 722.7pt>
+File: figures/fig2obs_prmodels3.png Graphic file (type png)
+
+<use figures/fig2obs_prmodels3.png>
+Package pdftex.def Info: figures/fig2obs_prmodels3.png used on input line 104.
+(pdftex.def)             Requested size: 433.62pt x 289.07487pt.
+ [71 <./figures/dumscatter_2.png>]
+<figures/CSST.png, id=1988, 1084.05pt x 939.51pt>
+File: figures/CSST.png Graphic file (type png)
+ <use figures/CSST.png>
+Package pdftex.def Info: figures/CSST.png used on input line 113.
+(pdftex.def)             Requested size: 433.62pt x 375.79733pt.
+
+[72 <./figures/fig2obs_prdiff_2.png>] [73 <./figures/fig2obs_prmodels3.png>]
+[74 <./figures/CSST.png>]
+<figures/fig4_olrdiff.png, id=2035, 1011.78pt x 867.24pt>
+File: figures/fig4_olrdiff.png Graphic file (type png)
+
+<use figures/fig4_olrdiff.png>
+Package pdftex.def Info: figures/fig4_olrdiff.png used on input line 161.
+(pdftex.def)             Requested size: 433.62pt x 371.67526pt.
+
+<figures/modcompar_dif2u3.png, id=2036, 1011.78pt x 722.7pt>
+File: figures/modcompar_dif2u3.png Graphic file (type png)
+
+<use figures/modcompar_dif2u3.png>
+Package pdftex.def Info: figures/modcompar_dif2u3.png used on input line 168.
+(pdftex.def)             Requested size: 433.62pt x 309.72939pt.
+
+<figures/fig4_sstdiff.png, id=2039, 1011.78pt x 867.24pt>
+File: figures/fig4_sstdiff.png Graphic file (type png)
+
+<use figures/fig4_sstdiff.png>
+Package pdftex.def Info: figures/fig4_sstdiff.png used on input line 185.
+(pdftex.def)             Requested size: 433.62pt x 371.67526pt.
+ [75] [76 <./figures/fig4_olrdiff.png>]
+
+LaTeX Warning: Reference `sq:lit' on page 77 undefined on input line 196.
+
+<figures/modcompar_dif2mfc3.png, id=2060, 1156.32pt x 578.16pt>
+File: figures/modcompar_dif2mfc3.png Graphic file (type png)
+
+<use figures/modcompar_dif2mfc3.png>
+Package pdftex.def Info: figures/modcompar_dif2mfc3.png used on input line 205.
+
+(pdftex.def)             Requested size: 433.62pt x 216.80946pt.
+ [77 <./figures/modcompar_dif2u3.png>]
+[78 <./figures/fig4_sstdiff.png>] [79 <./figures/modcompar_dif2mfc3.png>]
+<figures/scatter.png, id=2097, 939.51pt x 1011.78pt>
+File: figures/scatter.png Graphic file (type png)
+ <use figures/scatter.png>
+Package pdftex.def Info: figures/scatter.png used on input line 231.
+(pdftex.def)             Requested size: 433.62pt x 466.96829pt.
+
+
+LaTeX Warning: Reference `sq:lit' on page 80 undefined on input line 239.
+
+
+Overfull \hbox (15.51285pt too wide) in paragraph at lines 238--242
+[]\OT1/cmr/m/n/12 Climate pre-dic-tions of the MSD, par-tic-u-larly those con-c
+ern-ing whether this "drought"
+ []
+
+[80]
+
+LaTeX Warning: Text page 81 contains only floats.
+
+[81 <./figures/scatter.png>] [82]) [83] [84]
+\openout2 = `appendix1.aux'.
+
+
+No file appendix1.tex.
+\openout2 = `appendix2.aux'.
+
+No file appendix2.tex.
+(./ociamthesismain.bbl [85
+
+
+
+
+
+
+]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [86]
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ≥ in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ° in font cmr10!
+ [87]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
+ [88]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+ [89] [90]
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ≥ in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ° in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ± in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ≥ in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ° in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no © in font cmr10!
+ [91] [92]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+ [93]
+Missing character: There is no √ in font cmr10!
+Missing character: There is no © in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no © in font cmr10!
+ [94]
+[95] [96] [97]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [98]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
+Missing character: There is no ‚ in font cmti10!
+Missing character: There is no Ä in font cmti10!
+Missing character: There is no ô in font cmti10!
+ [99])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 70.
+ [100]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
+ (./ociamthesismain.aux (./text/abstract.aux)
+(./text/ch1-intro.aux) (./text/ch2-litreview.aux) (./text/ch3-methods.aux)
+(./text/ch4-ams.aux) (./text/ch-msd.aux) (./appendix1.aux) (./appendix2.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 70.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 70.
+Package rerunfilecheck Info: File `ociamthesismain.out' has not changed.
+(rerunfilecheck)             Checksum: A04DF438CE3125C5B0870D72E0B02086;3584.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
+ ) 
+Here is how much of TeX's memory you used:
+ 7155 strings out of 494777
+ 106865 string characters out of 6176443
+ 241404 words of memory out of 5000000
+ 9924 multiletter control sequences out of 15000+600000
+ 13810 words of font info for 52 fonts, out of 8000000 for 9000
+ 107 hyphenation exceptions out of 8191
+ 34i,13n,32p,1270b,829s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on ociamthesismain.pdf (110 pages, 16357626 bytes).
+PDF statistics:
+ 2366 PDF objects out of 2487 (max. 8388607)
+ 2135 compressed objects within 22 object streams
+ 384 named destinations out of 1000 (max. 500000)
+ 523 words of extra memory for PDF output out of 10000 (max. 10000000)
+
