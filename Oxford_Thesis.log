@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.4.8)  25 MAR 2021 16:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.4.8)  22 APR 2021 14:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1713,7 +1713,12 @@ Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
 
 (./Oxford_Thesis.aux (./text/abbreviations.aux) (./text/ch1-intro.aux)
-(./text/ch2-litreview.aux) (./text/ch3-methods.aux) (./text/ch4-ams.aux))
+(./text/ch2-litreview.aux) (./text/ch3-methods.aux) (./text/ch4-ams.aux)
+(./text/ch-msd.aux
+
+LaTeX Warning: Label `sq:msdclim' multiply defined.
+
+))
 \openout1 = `Oxford_Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
@@ -1731,8 +1736,7 @@ LaTeX Font Info:    ... okay on input line 112.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 112.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 112.
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 112.
@@ -1897,7 +1901,7 @@ LaTeX Info: Redefining \nameref on input line 112.
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<figures/beltcrest.pdf, id=157, 116.435pt x 139.52126pt>
+<figures/beltcrest.pdf, id=206, 116.435pt x 139.52126pt>
 File: figures/beltcrest.pdf Graphic file (type pdf)
 
 <use figures/beltcrest.pdf>
@@ -1955,6 +1959,10 @@ Package minitoc Info: I0033
 Package minitoc Info: I0033
 (minitoc)             Writing Oxford_Thesis.mtc7.
 \openout3 = `Oxford_Thesis.mtc7'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing Oxford_Thesis.mtc8.
+\openout3 = `Oxford_Thesis.mtc8'.
 
 
 (./Oxford_Thesis.toc
@@ -2023,14 +2031,23 @@ Underfull \vbox (badness 3780) has occurred while \output is active []
 Underfull \vbox (badness 1688) has occurred while \output is active []
 
  [8]
-[9])
+[9] [10] [11]
+
+LaTeX Warning: Reference `fig:msdolranom' on page \textlatin {xii} undefined on
+ input line 47.
+
+
+LaTeX Warning: Reference `fig:msdolranom' on page \textlatin {xii} undefined on
+ input line 48.
+
+)
 \tf@lof=\write6
 \openout6 = `Oxford_Thesis.lof'.
 
- [10] [11]
+ [12]
 \openout2 = `text/abbreviations.aux'.
 
- (./text/abbreviations.tex) [12
+ (./text/abbreviations.tex) [13
 
 
 ]
@@ -2062,21 +2079,21 @@ Chapter 2.
 
 
 
-] [8] <figures/trmmclima.png, id=562, 930.8376pt x 570.933pt>
+] [8] <figures/trmmclima.png, id=701, 930.8376pt x 570.933pt>
 File: figures/trmmclima.png Graphic file (type png)
 
 <use figures/trmmclima.png>
 Package pdftex.def Info: figures/trmmclima.png used on input line 41.
 (pdftex.def)             Requested size: 433.62pt x 265.96895pt.
  [9 <./figures/trmmclima.png>] [10] [11] [12]
-<figures/amsclim.png, id=723, 867.24pt x 607.7907pt>
+<figures/amsclim.png, id=862, 867.24pt x 607.7907pt>
 File: figures/amsclim.png Graphic file (type png)
  <use figures/amsclim.png>
 Package pdftex.def Info: figures/amsclim.png used on input line 92.
 (pdftex.def)             Requested size: 433.62pt x 303.8946pt.
 
 [13] [14 <./figures/amsclim.png>] [15] [16] [17] [18] [19] [20]
-<figures/ENSO.png, id=1013, 622.325pt x 414.54875pt>
+<figures/ENSO.png, id=1154, 622.325pt x 414.54875pt>
 File: figures/ENSO.png Graphic file (type png)
  <use figures/ENSO.png>
 Package pdftex.def Info: figures/ENSO.png used on input line 220.
@@ -2089,7 +2106,7 @@ Overfull \hbox (11.67223pt too wide) in paragraph at lines 257--257
 []\T1/lmr/bx/n/17.28 Stratosphere-Troposphere Cou-pling in the Trop-
  []
 
-[24] [25] [26] <figures/nie_sobel.jpeg, id=1199, 115.8729pt x 123.3408pt>
+[24] [25] [26] <figures/nie_sobel.jpeg, id=1340, 115.8729pt x 123.3408pt>
 File: figures/nie_sobel.jpeg Graphic file (type jpg)
 
 <use figures/nie_sobel.jpeg>
@@ -2165,12 +2182,7 @@ Overfull \hbox (53.67093pt too wide) in paragraph at lines 110--121
 [][] 
  []
 
-[37] [38]
-
-Package natbib Warning: Citation `bordoni2008' on page 39 undefined on input li
-ne 149.
-
-[39] [40]) [41]
+[37] [38] [39] [40]) [41]
 \openout2 = `text/ch4-ams.aux'.
 
  (./text/ch4-ams.tex
@@ -2184,7 +2196,7 @@ Overfull \hbox (0.29199pt too wide) in paragraph at lines 73--73
 []\T1/lmr/bx/n/17.28 Climatological tem-per-a-ture and low-level wind
  []
 
-<figures/fig1p2_f1a.png, id=1605, 939.51pt x 867.24pt>
+<figures/fig1p2_f1a.png, id=1748, 939.51pt x 867.24pt>
 File: figures/fig1p2_f1a.png Graphic file (type png)
 
 <use figures/fig1p2_f1a.png>
@@ -2245,55 +2257,55 @@ Overfull \hbox (22.92342pt too wide) in paragraph at lines 93--121
 [][] 
  []
 
-<figures/fig1p2_f1b.png, id=1622, 939.51pt x 867.24pt>
+<figures/fig1p2_f1b.png, id=1765, 939.51pt x 867.24pt>
 File: figures/fig1p2_f1b.png Graphic file (type png)
 
 <use figures/fig1p2_f1b.png>
 Package pdftex.def Info: figures/fig1p2_f1b.png used on input line 126.
 (pdftex.def)             Requested size: 433.62pt x 400.25854pt.
  [47 <./figures/fig1p2_f1a.png>] [48] [49 <./figures/fig1p2_f1b.png>] <figures/
-p2fig2_v3.png, id=1650, 1011.78pt x 722.7pt>
+p2fig2_v3.png, id=1793, 1011.78pt x 722.7pt>
 File: figures/p2fig2_v3.png Graphic file (type png)
 
 <use figures/p2fig2_v3.png>
 Package pdftex.def Info: figures/p2fig2_v3.png used on input line 158.
 (pdftex.def)             Requested size: 433.62pt x 309.72939pt.
  [50] [51 <./figures/p2fig2_v3.png>]
-<figures/itcz_clim_d.png, id=1685, 1228.59pt x 650.43pt>
+<figures/itcz_clim_d.png, id=1828, 1228.59pt x 650.43pt>
 File: figures/itcz_clim_d.png Graphic file (type png)
 
 <use figures/itcz_clim_d.png>
 Package pdftex.def Info: figures/itcz_clim_d.png used on input line 189.
 (pdftex.def)             Requested size: 433.62pt x 229.55946pt.
 
-<figures/fig3_p2_v3.png, id=1687, 1228.59pt x 1228.59pt>
+<figures/fig3_p2_v3.png, id=1830, 1228.59pt x 1228.59pt>
 File: figures/fig3_p2_v3.png Graphic file (type png)
 
 <use figures/fig3_p2_v3.png>
 Package pdftex.def Info: figures/fig3_p2_v3.png used on input line 203.
 (pdftex.def)             Requested size: 433.62pt x 433.61232pt.
  [52] [53 <./figures/itcz_clim_d.png>] [54 <./figures/fig3_p2_v3.png>] <figures
-/saczanalysis.png, id=1714, 1076.02pt x 562.1pt>
+/saczanalysis.png, id=1857, 1076.02pt x 562.1pt>
 File: figures/saczanalysis.png Graphic file (type png)
 
 <use figures/saczanalysis.png>
 Package pdftex.def Info: figures/saczanalysis.png used on input line 231.
 (pdftex.def)             Requested size: 433.62pt x 226.51709pt.
  [55]
-<figures/fig6.png, id=1734, 939.51pt x 1156.32pt>
+<figures/fig6.png, id=1877, 939.51pt x 1156.32pt>
 File: figures/fig6.png Graphic file (type png)
  <use figures/fig6.png>
 Package pdftex.def Info: figures/fig6.png used on input line 252.
 (pdftex.def)             Requested size: 379.4175pt x 466.9661pt.
 
 [56 <./figures/saczanalysis.png>] [57 <./figures/fig6.png>]
-<figures/Fig8.png, id=1752, 1084.05pt x 1084.05pt>
+<figures/Fig8.png, id=1895, 1084.05pt x 1084.05pt>
 File: figures/Fig8.png Graphic file (type png)
  <use figures/Fig8.png>
 Package pdftex.def Info: figures/Fig8.png used on input line 277.
 (pdftex.def)             Requested size: 433.62pt x 433.61232pt.
 
-[58] <figures/amipseasonalcycle.png, id=1769, 1572.5952pt x 865.7946pt>
+[58] <figures/amipseasonalcycle.png, id=1912, 1572.5952pt x 865.7946pt>
 File: figures/amipseasonalcycle.png Graphic file (type png)
 
 <use figures/amipseasonalcycle.png>
@@ -2303,28 +2315,28 @@ Package pdftex.def Info: figures/amipseasonalcycle.png used on input line 302.
 Underfull \vbox (badness 3219) has occurred while \output is active []
 
  [59 <./figures/Fig8.png>] [60 <./figures/amipseasonalcycle.png>] [61]
-<figures/fig9b.png, id=1811, 1228.59pt x 794.97pt>
+<figures/fig9b.png, id=1954, 1228.59pt x 794.97pt>
 File: figures/fig9b.png Graphic file (type png)
  <use figures/fig9b.png>
 Package pdftex.def Info: figures/fig9b.png used on input line 369.
 (pdftex.def)             Requested size: 433.62pt x 280.57268pt.
 
 [62] [63 <./figures/fig9b.png>] [64]
-<figures/ensotemp_3.png, id=1830, 867.24pt x 1156.32pt>
+<figures/ensotemp_3.png, id=1973, 867.24pt x 1156.32pt>
 File: figures/ensotemp_3.png Graphic file (type png)
 
 <use figures/ensotemp_3.png>
 Package pdftex.def Info: figures/ensotemp_3.png used on input line 413.
 (pdftex.def)             Requested size: 385.92152pt x 514.56961pt.
 
-<figures/ensopr_3.png, id=1832, 867.24pt x 1156.32pt>
+<figures/ensopr_3.png, id=1975, 867.24pt x 1156.32pt>
 File: figures/ensopr_3.png Graphic file (type png)
 
 <use figures/ensopr_3.png>
 Package pdftex.def Info: figures/ensopr_3.png used on input line 427.
 (pdftex.def)             Requested size: 382.01778pt x 509.36462pt.
 
-<figures/walkerfinal.png, id=1842, 1056.5874pt x 854.9541pt>
+<figures/walkerfinal.png, id=1985, 1056.5874pt x 854.9541pt>
 File: figures/walkerfinal.png Graphic file (type png)
 
 <use figures/walkerfinal.png>
@@ -2332,35 +2344,35 @@ Package pdftex.def Info: figures/walkerfinal.png used on input line 440.
 (pdftex.def)             Requested size: 433.62pt x 350.87263pt.
  [65] [66 <./figures/ensotemp_3.png>] [67 <./figures/ensopr_3.png>] [68 <./figu
 res/walkerfinal.png>]
-<figures/fig_ensolinear.png, id=1876, 1011.78pt x 794.97pt>
+<figures/fig_ensolinear.png, id=2019, 1011.78pt x 794.97pt>
 File: figures/fig_ensolinear.png Graphic file (type png)
 
 <use figures/fig_ensolinear.png>
 Package pdftex.def Info: figures/fig_ensolinear.png used on input line 459.
 (pdftex.def)             Requested size: 433.62pt x 340.70232pt.
  [69 <./figures/fig_ensolinear.png>]
-<figures/epcpmap.png, id=1887, 1065.2598pt x 863.6265pt>
+<figures/epcpmap.png, id=2030, 1065.2598pt x 863.6265pt>
 File: figures/epcpmap.png Graphic file (type png)
 
 <use figures/epcpmap.png>
 Package pdftex.def Info: figures/epcpmap.png used on input line 484.
 (pdftex.def)             Requested size: 433.62pt x 351.54582pt.
 
-<figures/cppranomalies_ff.png, id=1896, 1061.6463pt x 939.51pt>
+<figures/cppranomalies_ff.png, id=2039, 1061.6463pt x 939.51pt>
 File: figures/cppranomalies_ff.png Graphic file (type png)
 
 <use figures/cppranomalies_ff.png>
 Package pdftex.def Info: figures/cppranomalies_ff.png used on input line 499.
 (pdftex.def)             Requested size: 433.62pt x 383.73935pt.
  [70] [71 <./figures/epcpmap.png>] [72 <./figures/cppranomalies_ff.png>]
-<figures/trops_qbolnprfma.png, id=1917, 1011.78pt x 1084.05pt>
+<figures/trops_qbolnprfma.png, id=2060, 1011.78pt x 1084.05pt>
 File: figures/trops_qbolnprfma.png Graphic file (type png)
 
 <use figures/trops_qbolnprfma.png>
 Package pdftex.def Info: figures/trops_qbolnprfma.png used on input line 513.
 (pdftex.def)             Requested size: 433.62pt x 464.59409pt.
 
-<figures/walker_wqbo_jfma.png, id=1926, 1084.05pt x 867.24pt>
+<figures/walker_wqbo_jfma.png, id=2069, 1084.05pt x 867.24pt>
 File: figures/walker_wqbo_jfma.png Graphic file (type png)
 
 <use figures/walker_wqbo_jfma.png>
@@ -2368,94 +2380,405 @@ Package pdftex.def Info: figures/walker_wqbo_jfma.png used on input line 530.
 (pdftex.def)             Requested size: 433.62pt x 346.88986pt.
  [73] [74 <./figures/trops_qbolnprfma.png>]
 [75 <./figures/walker_wqbo_jfma.png>] [76]
-<figures/drawing_d.png, id=1959, 1686.3pt x 717.079pt>
+<figures/drawing_d.png, id=2102, 1686.3pt x 717.079pt>
 File: figures/drawing_d.png Graphic file (type png)
 
 <use figures/drawing_d.png>
 Package pdftex.def Info: figures/drawing_d.png used on input line 569.
 (pdftex.def)             Requested size: 433.62pt x 184.39003pt.
  [77] [78 <./figures/drawing_d.png>] [79] [80])
-[81] (./Oxford_Thesis.bbl [82
+[81]
+\openout2 = `text/ch-msd.aux'.
+
+ (./text/ch-msd.tex
+Chapter 5.
+
+Underfull \vbox (badness 3049) has occurred while \output is active []
+
+ [82
+
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[83]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[84]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[85] <figures/seasonal_cycle_p3.png, id=2210, 867.24pt x 505.89pt>
+File: figures/seasonal_cycle_p3.png Graphic file (type png)
+
+<use figures/seasonal_cycle_p3.png>
+Package pdftex.def Info: figures/seasonal_cycle_p3.png used on input line 86.
+(pdftex.def)             Requested size: 433.62pt x 252.94437pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[86] <figures/fig2obs_prdiff_2.png, id=2216, 1221.363pt x 787.743pt>
+File: figures/fig2obs_prdiff_2.png Graphic file (type png)
+
+<use figures/fig2obs_prdiff_2.png>
+Package pdftex.def Info: figures/fig2obs_prdiff_2.png used on input line 98.
+(pdftex.def)             Requested size: 433.62pt x 279.66875pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[87 <./figures/seasonal_cycle_p3.png>]
+<figures/fig2obs_prmodels3.png, id=2223, 1084.05pt x 867.24pt>
+File: figures/fig2obs_prmodels3.png Graphic file (type png)
+
+<use figures/fig2obs_prmodels3.png>
+Package pdftex.def Info: figures/fig2obs_prmodels3.png used on input line 110.
+(pdftex.def)             Requested size: 433.62pt x 346.88986pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[88 <./figures/fig2obs_prdiff_2.png>]
+<figures/dumscatter_2.png, id=2232, 867.24pt x 578.16pt>
+File: figures/dumscatter_2.png Graphic file (type png)
+
+<use figures/dumscatter_2.png>
+Package pdftex.def Info: figures/dumscatter_2.png used on input line 122.
+(pdftex.def)             Requested size: 433.62pt x 289.07928pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[89 <./figures/fig2obs_prmodels3.png>]
+<figures/fig4_olrv_3.png, id=2240, 1011.78pt x 867.24pt>
+File: figures/fig4_olrv_3.png Graphic file (type png)
+
+<use figures/fig4_olrv_3.png>
+Package pdftex.def Info: figures/fig4_olrv_3.png used on input line 130.
+(pdftex.def)             Requested size: 433.62pt x 371.67526pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[90 <./figures/dumscatter_2.png>]
+<figures/index_seasonal.png, id=2249, 852.786pt x 650.43pt>
+File: figures/index_seasonal.png Graphic file (type png)
+
+<use figures/index_seasonal.png>
+Package pdftex.def Info: figures/index_seasonal.png used on input line 140.
+(pdftex.def)             Requested size: 433.62pt x 330.72243pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[91 <./figures/fig4_olrv_3.png>]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[92 <./figures/index_seasonal.png>]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[93] <figures/fig4_sstv_3.png, id=2283, 982.872pt x 867.24pt>
+File: figures/fig4_sstv_3.png Graphic file (type png)
+
+<use figures/fig4_sstv_3.png>
+Package pdftex.def Info: figures/fig4_sstv_3.png used on input line 187.
+(pdftex.def)             Requested size: 433.62pt x 382.60573pt.
+
+<figures/master_sst_scatter.png, id=2287, 867.24pt x 650.43pt>
+File: figures/master_sst_scatter.png Graphic file (type png)
+
+<use figures/master_sst_scatter.png>
+Package pdftex.def Info: figures/master_sst_scatter.png used on input line 202.
+
+(pdftex.def)             Requested size: 433.62pt x 325.2142pt.
+
+<figures/sstlhfpr.pdf, id=2288, 1011.78pt x 650.43pt>
+File: figures/sstlhfpr.pdf Graphic file (type pdf)
+
+<use figures/sstlhfpr.pdf>
+Package pdftex.def Info: figures/sstlhfpr.pdf used on input line 212.
+(pdftex.def)             Requested size: 433.62pt x 278.75644pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[94]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[95 <./figures/fig4_sstv_3.png>]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[96 <./figures/master_sst_scatter.png>]
+<figures/sst_regg.png, id=2314, 867.24pt x 505.89pt>
+File: figures/sst_regg.png Graphic file (type png)
+
+<use figures/sst_regg.png>
+Package pdftex.def Info: figures/sst_regg.png used on input line 230.
+(pdftex.def)             Requested size: 433.62pt x 252.94437pt.
+
+Underfull \vbox (badness 4608) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[97 <./figures/sstlhfpr.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[98 <./figures/sst_regg.png>]
+<figures/modcompar_dif2u3.png, id=2428, 1011.78pt x 722.7pt>
+File: figures/modcompar_dif2u3.png Graphic file (type png)
+
+<use figures/modcompar_dif2u3.png>
+Package pdftex.def Info: figures/modcompar_dif2u3.png used on input line 274.
+(pdftex.def)             Requested size: 433.62pt x 309.72939pt.
+
+
+LaTeX Warning: Reference `fig:msdolranom' on page 99 undefined on input line 27
+5.
+
+
+LaTeX Warning: Reference `fig:msdolranom' on page 99 undefined on input line 27
+5.
+
+
+LaTeX Warning: Reference `fig:msdolranom' on page 99 undefined on input line 28
+1.
+
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[99 <./figures/modcompar_dif2u3.png>]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[100]
+
+LaTeX Warning: Reference `sq:lit' on page 101 undefined on input line 298.
+
+<figures/modcompar_dif2mfc3.png, id=2445, 1156.32pt x 578.16pt>
+File: figures/modcompar_dif2mfc3.png Graphic file (type png)
+
+<use figures/modcompar_dif2mfc3.png>
+Package pdftex.def Info: figures/modcompar_dif2mfc3.png used on input line 307.
+
+(pdftex.def)             Requested size: 433.62pt x 216.80946pt.
+
+
+LaTeX Warning: Reference `fig:msdolranom' on page 101 undefined on input line 3
+08.
+
+
+LaTeX Warning: Reference `fig:msdolranom' on page 101 undefined on input line 3
+08.
+
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[101 <./figures/modcompar_dif2mfc3.png>]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[102] <figures/scatter.png, id=2475, 939.51pt x 1011.78pt>
+File: figures/scatter.png Graphic file (type png)
+
+<use figures/scatter.png>
+Package pdftex.def Info: figures/scatter.png used on input line 333.
+(pdftex.def)             Requested size: 433.62pt x 466.96829pt.
+
+
+LaTeX Warning: Reference `sq:lit' on page 103 undefined on input line 341.
+
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[103]
+
+LaTeX Warning: Text page 104 contains only floats.
+
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[104 <./figures/scatter.png>]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[105]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[106])
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[107] (./Oxford_Thesis.bbl [108
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [83]
+ [109]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [84]
+ [110]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [85]
+ [111]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [86]
+ [112]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [87]
+ [113]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [88]
+ [114]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [89]
+ [115]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [90]
+ [116]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [91]
+ [117]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [92]
+ [118]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [93]
+ [119]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [94]
+ [120]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [95]
+ [121]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [96])
+ [122]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [123])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the Oxford_Thesis.maf file.
 \openout3 = `Oxford_Thesis.maf'.
 
-
-
-Package natbib Warning: There were undefined citations.
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 241.
-[97]
+
+[124]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 241.
  (./Oxford_Thesis.aux (./text/abbreviations.aux) (./text/ch1-intro.aux)
 (./text/ch2-litreview.aux) (./text/ch3-methods.aux) (./text/ch4-ams.aux)
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
+(./text/ch-msd.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 241.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 241.
 Package rerunfilecheck Info: File `Oxford_Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: B1F6398D7F40007890F1C07AB1EFABC9;2811.
+(rerunfilecheck)             Checksum: 766EBE0F0D7469B854D0D8FB9BD10A7B;3847.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 241.
  ) 
 Here is how much of TeX's memory you used:
- 25793 strings out of 494777
- 428584 string characters out of 6176443
- 601089 words of memory out of 5000000
- 27834 multiletter control sequences out of 15000+600000
- 92669 words of font info for 170 fonts, out of 8000000 for 9000
+ 25970 strings out of 494777
+ 431777 string characters out of 6176443
+ 610752 words of memory out of 5000000
+ 27918 multiletter control sequences out of 15000+600000
+ 93262 words of font info for 177 fonts, out of 8000000 for 9000
  107 hyphenation exceptions out of 8191
- 46i,13n,53p,10365b,1006s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,13n,53p,10365b,1030s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
+ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/d
 vips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm
@@ -2471,10 +2794,10 @@ xmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmt
 t10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texmf/fo
 nts/type1/public/lm/lmtti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/adob
 e/utopia/putb8a.pfb>
-Output written on Oxford_Thesis.pdf (110 pages, 12548187 bytes).
+Output written on Oxford_Thesis.pdf (138 pages, 16906704 bytes).
 PDF statistics:
- 2247 PDF objects out of 2487 (max. 8388607)
- 2039 compressed objects within 21 object streams
- 390 named destinations out of 1000 (max. 500000)
- 27033 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 2769 PDF objects out of 2984 (max. 8388607)
+ 2418 compressed objects within 25 object streams
+ 446 named destinations out of 1000 (max. 500000)
+ 27194 words of extra memory for PDF output out of 29859 (max. 10000000)
 

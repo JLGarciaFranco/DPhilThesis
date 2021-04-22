@@ -7,49 +7,49 @@ A level-1 auxiliary file: text/ch1-intro.aux
 A level-1 auxiliary file: text/ch2-litreview.aux
 A level-1 auxiliary file: text/ch3-methods.aux
 A level-1 auxiliary file: text/ch4-ams.aux
+A level-1 auxiliary file: text/ch-msd.aux
 Database file #1: refs.bib
-Warning--I didn't find a database entry for "bordoni2008"
-Warning--I didn't find a database entry for "berlin_hedgehog_2013"
+Warning--I didn't find a database entry for "garciasub2020"
 Warning--can't use both author and editor fields in Xie2007
-You've used 200 entries,
+You've used 203 entries,
             2909 wiz_defined-function locations,
-            1691 strings with 48280 characters,
-and the built_in function-call counts, 1541137 in all, are:
-= -- 255205
-> -- 22413
+            1710 strings with 48959 characters,
+and the built_in function-call counts, 1558871 in all, are:
+= -- 258120
+> -- 22661
 < -- 5
-+ -- 127763
-- -- 7077
-* -- 140096
-:= -- 297977
-add.period$ -- 204
-call.type$ -- 200
-change.case$ -- 2792
-chr.to.int$ -- 197
-cite$ -- 201
-duplicate$ -- 3216
-empty$ -- 7001
-format.name$ -- 7771
-if$ -- 277118
++ -- 129195
+- -- 7154
+* -- 141686
+:= -- 301450
+add.period$ -- 207
+call.type$ -- 203
+change.case$ -- 2834
+chr.to.int$ -- 200
+cite$ -- 204
+duplicate$ -- 3264
+empty$ -- 7108
+format.name$ -- 7856
+if$ -- 280301
 int.to.chr$ -- 8
 int.to.str$ -- 0
-missing$ -- 201
-newline$ -- 636
-num.names$ -- 2124
-pop$ -- 600
+missing$ -- 204
+newline$ -- 645
+num.names$ -- 2156
+pop$ -- 607
 preamble$ -- 1
-purify$ -- 3000
+purify$ -- 3045
 quote$ -- 0
-skip$ -- 2769
+skip$ -- 2810
 stack$ -- 0
-substring$ -- 371144
-swap$ -- 629
-text.length$ -- 2805
+substring$ -- 375357
+swap$ -- 638
+text.length$ -- 2847
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 784
+type$ -- 796
 warning$ -- 1
-while$ -- 4508
+while$ -- 4577
 width$ -- 0
-write$ -- 2691
-(There were 3 warnings)
+write$ -- 2731
+(There were 2 warnings)

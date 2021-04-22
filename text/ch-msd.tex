@@ -6,37 +6,56 @@
 %  \qauthor{--- Johann Wolfgang von Goethe \cite{von_goethe_wilhelm_1829}}
 %\end{savequote}
 
-\chapter{\label{ch:5-msd}On the physical mechanisms of the MSD of southern Mexico and Central America in the Met Office Unified Model}
+\chapter{\label{ch:5-msd}Mechanisms of the Mesoamerican midsummer drought in the Met Office CMIP6 experiments}
 
 %\minitoc
 
-The physical mechanisms responsible for the seasonal cycle of precipitation of southern Mexico and Central America remain debated and with the prospect of greenhouse driven changes to the circulation and precipitation understanding these mechanisms will be key for adaptation. 
-This chapter revisits the problem of understanding the physical mechanisms that give rise to the Midsummer drought by comparing reanalysis and observational datasets with a number of CMIP6 experiments from the Met Office Hadley Centre models: HadGEM3 and UKESM1. 
+The physical mechanisms that account for the seasonal cycle of precipitation in southern Mexico and Central America remain debated and this lack of understanding becomes critical with the prospect of greenhouse gas-driven changes to the regional circulation and precipitation patterns, the understanding of these mechanisms for the seasonality of rainfall in the region becomes key for climate awareness and adaptation. 
+This chapter revisits the problem two previously posed physical mechanisms that give rise to the Midsummer drought in the newewst reanalysis ERA5 and a number of CMIP6 experiments from the Met Office Hadley Centre models: HadGEM3 and UKESM1. 
 The roles of the East Pacific sea-surface temperatures and cloud radiative effects, as well as of the Caribbean Low-Level Jet are investigated. 
 A thermodynamic diagnosis of the MSD is also performed via the analysis of the moist static energy budget and the surface entropy on both reanalysis and model data. 
 
 \section{Introduction}
 
 %The seasonal cycle of precipitation in Central America, Mexico and the Caribbean has shown robust signals of a bimodal regime of precipitation, termed \textit{the Midsummer drought} \citep{magana1999,perdigonmorales2018}. 
-The a bimodal signal in the climatology of the seasonal cycle of precipitation has been documented in several regions of southern Mexico, Central America and the Caribbean and is most commonly referred to as Midsummer drought MSD \citep{mosino1966,magana1999,gamble2008,perdigon2018,zhao2020} but an accurate depiction of the physical mechanisms that give rise to this bimodal signal remains elusive. Studies disagree on several key aspects such as whether or no the bimodal signal of the Caribbean and Central America are connected or whether the two-peak structure is a result of two precipitation enhancing mehanisms or just one period of inhibited precipitation. Moreover, studies disagree on the the roles of local cloud-radiative feedbacks, thermodynamic and dynamic mechanisms associated with regional climate features that shape the precipitation spatial and temporal variability.
+A bimodal signal in the climatology of the seasonal cycle of precipitation has been documented in several regions of southern Mexico, Central America and the Caribbean; most commonly referred to as Midsummer drought MSD \citep{mosino1966,magana1999,gamble2008,perdigon2018,zhao2020}.  
+In spite of several decades of research, a clear depiction of the physical mechanisms that cause the bimodal seasonality of precipitation remains elusive.
+Section \ref{sq:litmsd} provides a literature review of the mechanisms proposed in previous studies, but, in summary, studies disagree on several key aspects such as whether the bimodal signals of the Caribbean and Central America are related, or whether the two-peak structure is a result of two precipitation enhancing mehanisms or just one period of inhibited precipitation. Moreover, a relatively large number of hypotheses have been posed that argue for different roles of various regional and local features as the dominant factors for the MSD, with some studies focusing on the Caribbean MSD \citep[][]{martinez2019} and others on the Mesoamerican (Central America and southern Mexico) region \citep[e.g][]{perdigon2018}.
+
+%These factors include local cloud-radiative feedbacks, moisture transport, air-ocean interactions, amongst others that are summarized in section \ref{sq:litmsd}. 
+
+%associated with regional climate features that shape the precipitation spatial and temporal variability.
+
+Amongst the most prominent hypotheses for the MSD is the radiative-convective feedback proposed in \cite{magana1999} and \cite{magana2005}, which proposes that the sub-seasonal SST variability controls the seasonal cycle of precipitation in a feedback between the incoming shortwave radiation, convective activity and high-clouds and precipitation. In their framework, radiative-convective feedbacks force SST changes that feedback into convective activity, thus placing the key roles on the incoming shortwave radiation and the SST sub-seasonal variability. 
+
+In turn, \cite{karnauskas2013} proposes that the MSD is associated with the biannual crossing of the solar declination angle, in a mechanism where the net surface radiation becomes the key element in controlling the surface temperature and specific humidty, and thereby convective available potential energy (CAPE) and convection. 
+
+In contrast, a large number of studies (see section \ref{sq:litmsd}) argue that the combined effect of the North Atlantic Sub-tropical and the Caribbean Low-Level Jet (CLLJ) are the predominant factor that can explain the bimodal seasonal cycle. However, the precise mechanism that links the CLLJ sub-monthly variability with rainfall in Mesoamerica differs amongst studies because some studies argue for a vertical wind shear effect and others for a regional moisture transport effect. In the latter effect, how changes to the regional moisture transport by the CLLJ influence the easternmost Pacific and the Mesoamerican region is also unclear.
 
 
-Section \ref{sq:litmsd} summarizes the literature that has aimed to explain the physical mechanisms through several hypothesis that propose different roles for the regional SSTs, wind flows and cloud radiative effects. The vast majority of studies are observational in nature and analyzed monthly-mean changes to the precipitation. 
-Little-to-no attention has been given to this problem in general circulation models (GCMs) because most of them do not simulate the basic features of the seasonal cycle in this region. 
-This chapter uses state-of-the-art GCM output part of the Coupled Model Intercomparison Project (CMIP) phase 6 to diagnose processes associated with the seasonal cycle of precipitation in southern Mexico and Central America. The Caribbean MSD is not directly addressed in this chapter.
 
-\cite{ryu2014} shows that out of all the models in the CMIP3 and CMIP5 cohort only a handful of realizations show signs of a bimodal signal, with the Met Office Hadley Centre (HadGEM2) model being amongst the few that could simulate the MSD. 
+  The vast majority of studies of the physical climate of the region are observational in nature and analyzed monthly-mean changes to the precipitation. 
+Little attention has been given to this problem in general circulation models (GCMs) because models of previous generations do not simulate the MSD or the basic features of the seasonal cycle in this region. \cite{ryu2014} shows that out of all the models in the CMIP3 and CMIP5 cohort only a handful of realizations show signs of a bimodal signal, with the Met Office Hadley Centre (HadGEM2) model being amongst the few that could simulate the MSD. 
+
+%\cite{ryu2014} analyzed the performance of CMIP3 and CMIP5 models and found that the majority of CMIP5 models were unable to represent the total annual rainfall and the seasonal cycle of the MSD. \cite{ryu2014} also finds that models that simulate a bimodal distribution of rainfall, HadGEM2-A for example, also show an accurate seasonal cycle of the NASH and the CLLJ. However, an exhaustive analysis as to whether these features are actually driving mechanisms for the MSD in GCMs as in observations is missing from the literature. 
+
+
+
  Chapters \ref{ch:4-ams} and 5 show that the CMIP6 MOHC simulations reproduce the timings and strength of the bimodal signal of precipitation with reasonable skill, albeit with a stronger first peak and a later onset of the MSD (MSDO). 
- The characterisation of the mechanisms that produce the bimodal signal in model data is therefore another avenue to understand the real-world MSD, one that has not been explored with great detail.
+ The characterisation of the mechanisms that produce the bimodal signal in these simulations is therefore another avenue to understand the real-world MSD, one that has not been explored to great detail. Furthermore, the analysis of the characteristics of the MSD in a GCM run under different configurations and forcings can highlight the roles of resolution and of integrating chemistry for the representation of the MSD and the physical mechanisms. Similarly, the analysis of runs with no time-varying forcing (the pre-industrial control simulations) versus forced runs (the historical or scenario experiments) allows to simultanously assess how greenhouse gas forcing may control the mechanisms behind the MSD in these models.  
  
-  Furthermore, the analysis of the characteristics of the MSD in a GCM, particularly of the simulated processes that cause the sub-seasonal variations of precipitation  as well as the differences between experiments with varying forcing and different horizontal resolution will also provide relevant information about the simulated current and future response to greenhouse forcing as well as highlight relevant biases in the region for model development. 
+  Therefore, the purpose of this chapter is to examine previously proposed physical mechanisms for the MSD in the ERA5 reanalysis and the MOHC submissions to CMIP6 by comparing runs with different horizontal resolutions and external forcings. It should be noted that the focus of the chapter is on the region of Mesoamerica, i.e., southern Mexico and Central America, whereas the Caribbean MSD is not directly addressed in this chapter.
 
-The previous chapter provides a useful diagnostic tool to separate the different stages of the MSD, a wavelet transform method (WT) that diagnoses the onset and end of the rainy season, as well as the start and end of the MSD. Similarly, the WT method can provide a robust measure of whether a given year and/or grid-point exhibits a robust bimodal signal. This chapter will use the WT method to separate the different stages of the MSD in model and observational data to better understand how the regional dynamics and thermodynamics varies from one stage of the seasonal cycle to the next. 
+The previous chapter provides a useful diagnostic tool to separate the different stages of the MSD, a wavelet transform method (WT) that diagnoses the onset and end of the rainy season, as well as the start and end of the MSD. Similarly, the WT method can provide a robust measure of whether a given year and/or grid-point exhibits a robust bimodal signal. This chapter will use the WT method to separate the different stages of the MSD to better understand how the regional dynamics and thermodynamics varies from one stage of the seasonal cycle to the next. 
 
-Most conceptual theories for the MSD involve elements of the regional climate of the Intra-Americas Sea (IAS) and the East Pacific Ocean, particularly, the Caribbean Low-Level Jet (CLLJ) and the East Pacific (EP) sea-surface temperatures (SSTs) are key elements of most theories \citep{gamble2008,herrera2015}.
-This chapter first evaluates the seasonality and general representation of these elements in HadGEM3 and UKESM1. 
+The remainder of this chapter is presented as follows. Section 2 describes the observational data and the CMIP6 experiments used in this chapter and a general overview of how the WT method is implemented and data is analysed. Then, section 3 evaluates the seasonality and general representation of the key features of the regional climate.
 Then, several previous hypotheses are tested in the simulations and contrasted against the reanalysis/observations. 
-The roles of the East Pacific SSTs, cloud-radiative feedbacks and the CLLJ are assessed within the frameworks of the mechanisms outlined in section \ref{sq:litmsd}. 
+The roles of the East Pacific SSTs (section 4), cloud-radiative feedbacks (section 5) and the CLLJ and moisture transport (section 6) have been highlighted in the literature and are investigated with detail in the rest of the chapter.
+  
+ % , particularly of the simulated processes that cause the sub-seasonal variations of precipitation  as well as the differences between experiments with varying forcing and different horizontal resolution will also provide relevant information about the simulated current and future response to greenhouse forcing as well as highlight relevant biases in the region for model development. 
+
+
+
 
 
 Convective quasi-equilibrium (CQE) and moist static energy (MSE) budgets have been succesfully implemented in monsoon regions to understand mechanisms that drive precipitation changes. The remaining section of this chapter uses MSE and CQE diagnostics to evaluate the role of thermodynamics and ascent within the moist column of the MSD for the seasonal changes to precipitation. 
@@ -62,39 +81,41 @@ The main region of focus is defined by the regions where the previous chapter hi
 
 \section{Climatological features}
 
-The seasonal cycle of precipitation in the region of interest (Figure \ref{fig:msdcaribb}) is reasonably well simulated by several experiments of GC3, N216 and UKESM1.
-The two-peak structure of the MSD is observed in TRMM and ERA5 as two precipitation maxima, the first peak found during early to mid-June and the second peak at the end of September, separated by a drier period that spans from late June to late August.  
-
-The MSD in the experiments is observed generally one or two pentads after TRMM and ERA5 (see the mean values in the previous chapter) and shows a stronger variation of precipitation between the first peak and the Midsummer. 
-In general, the pre-industrial control experiments show a higher magnitude of precipitation during the first peak and the MSD period whereas GC3-amip experiments are characterized by a very wet second peak. 
-
-
 \label{sq:msdclim}
  \begin{figure}[t!]
 \includegraphics[width=\linewidth]{figures/seasonal_cycle_p3.png}
-\caption{Pentad-mean precipitation in southern Mexico and northern Central America [95-86$^\circ$W,11-19$^\circ$N]. Shading shows for TRMM the uncertainty obtained by bootstrapping the interannual variability 10000 times and for the CMIP6 experiments the ensemble spread. }
+\caption{Pentad-mean precipitation in southern Mexico and northern Central America [95-86$^\circ$W,11-19$^\circ$N]. The shading for the TRMM dataset is a meausre of observational uncertainty obtained by bootstrapping the interannual variability 10000 times whereas the shading for the CMIP6 experiments show the ensemble spread where multiple ensembles where available. }
 \label{fig:msdcaribb}
 \end{figure}
 
 
+The seasonal cycle of precipitation in the region of interest (Figure \ref{fig:msdcaribb}) is reasonably well simulated by several experiments of GC3, N216 and UKESM1 and by ERA5.
+The two-peak structure of the MSD is observed in TRMM and ERA5 as two precipitation maxima, the first peak found during early to mid-June and the second peak at the end of September, separated by a drier period that spans from late June to late August. The precipitation in ERA5 not only closely follows the precipitation variations at the pentad scale but also generally agrees with the magnitude of precipitation during the first peak, the MSD and second peak periods.
+The MSD in the experiments is observed generally one or two pentads after TRMM and ERA5 (see the mean values in the previous chapter) and shows a stronger variation of precipitation between the first peak and the Midsummer. 
+In general, the pre-industrial control experiments show a higher magnitude of precipitation during the first peak and the MSD period whereas GC3-amip experiments are characterized by a very wet second peak. 
 
-The spatial distribution of the rainfall anomalies associated with the variations of rainfall in the specified MSD region in the observations and reanalysis (Figure \ref{fig:eof2}) as well as in the simulations (Figure \ref{fig:model_pr}) shows that precipitation varies coherently across the region. 
-Figure \ref{fig:model_pr}b for instance, shows that although the timings used to compute the composite difference between the MSD period and the MSDO period were taken from a precipitation time-series averaged over the study region, the precipitation differences spread south to the easternmost Pacific Ocean but also east to the Caribbean sea and into the northeastern Mexican states. This is also observed for the positive precipitation differences between the end of the MSD (MSDE) (Figure \ref{fig:model_pr}c, f, i) and the models seem to accurately reproduce these patterns. The precipitation differences associated with the MSD over the ocean in the models are notably larger than in the observations and reanalysis.  
- 
- 
   \begin{figure}[t!]
 \includegraphics[width=\linewidth]{figures/fig2obs_prdiff_2.png}
-\caption{ (a, d, g) Climatological JJAS rainfall and the difference between  (b, e, h)  the midsummer drought and the first peak periods and (c, f, i)  between the second peak and the midsummer drought periods for (a-c) TRMM, (d-f) ERA5 and (g-i) CHIRPS.}
+\caption{ (a, d, g) Climatological JJAS rainfall and the difference between  (b, e, h)  the midsummer drought and the first peak periods and (c, f, i)  between the second peak and the midsummer drought periods for (a-c) TRMM, (d-f) ERA5 and (g-i) CHIRPS. The climatological low-level winds (at 850 hPa) for JJAS in ERA5 are shown in c). }
 \label{fig:eof2}
 \end{figure} 
  
+
+
+
+The spatial distribution of the climatological rainfall and the rainfall anomalies associated with the MSD in ERA5 agrees well with TRMM and CHIRPS (Figure \ref{fig:eof2}). The spatial distribution of the climatological rainfall captures the regions over land with maximum precipitation rates in the Mexican states of Campeche, Veracruz and Chiapas, as well as in Guatemala and in the East Pacific Ocean. ERA5 shows stronger precipitation differences between the MSD stages, as rainfall in the East Pacific region in ERA5 varies by more than 5 mm day$^{-1}$ between the first peak, the MSD and the second peak. 
+
+
 \begin{figure}[t!]
-\includegraphics[width=\linewidth]{figures/fig2obs_prmodels3.png}
+\includegraphics[width=\linewidth]{figures/fig2obs_prmodels3}
 \caption{ (a, d, g, j) JJAS model bias compared to TRMM and the difference between  (b, e, h, k)  the midsummer drought and the first peak periods and (c, f, i, l)  between the second peak and the midsummer drought periods for four different simulations.}
 \label{fig:model_pr}
 \end{figure} 
  
-The model biases, described in chapter \ref{ch:4-ams}, over the wet season (JJA) are characterized by a wetter ocean and a drier land over the study region (Figure \ref{fig:model_pr}). 
+  In turn, the MOHC models (Figure \ref{fig:model_pr}) have important biases in the magnitude of the EP precipitation with a positive bias of 3-6 mm day$^{-1}$ depending on the simulation as well as a dry bias over southern Mexico and Central America, documented in chapter \ref{ch:4-ams}. However, the models capture the spatial patterns of the variations associated with the MSD stages.
+  In observations and reanalysis (Figure \ref{fig:eof2}), the MSD variations have regional scales since even though the timings used to compute the composite difference between the MSD periods were computed using a time-series averaged over the study region, the precipitation differences spread south to the easternmost Pacific Ocean but also east to the Caribbean sea and into the northeastern Mexican states. The simulations also exhibit similar regional-scale patterns of precipitation differences both for the MSDO-MSD and the MSDE-MSD panels, though the precipitation differences associated with the MSD over the ocean in the models are notably larger than in the observations and reanalysis.  
+ 
+ 
  
 \label{sq:msdclim}
  \begin{figure}[t!]
@@ -103,32 +124,7 @@ The model biases, described in chapter \ref{ch:4-ams}, over the wet season (JJA)
 \label{fig:scatter_msd}
 \end{figure} 
 
-
- The out-going longwave radiation (OLR) and vertical velocity ($\omega$ at 500 hPa) differences associated with the MSD (Figure \ref{fig:olranom}) also show that the MSD is not a local-scale feature but convective activity varies coherently in neighboring regions. From the MSDO to the MSD, OLR and $\omega$, increase notably in the easternmost Pacific, in southern Mexico and northern Central America and extend into the Caribbean islands and Sea; because $\omega$ is defined as $\omega=DP/Dt$  these positive anomalies are indicative of less deep convective activity and weaker convection. The OLR anomalies extend into the North Atlantic. 
- 
- In contrast, a region several degrees west into the open Pacific Ocean (125$^\circ$W) and north of the study region into the North American monsoon region show signs of negative OLR and $\omega$ anomalies, in the MSD-MSDO panels, which are indication that simultaneously to the onset of the MSD,  convection is observed stronger and deeper in the North American Monsoon region and in the Pacific region west of the continent. The variations at around 125$^\circ$W where also found by \cite{herrera2015}. 
- 
- The OLR and $\omega$ variations associated with the end of the MSD (MSDE) show a relatively opposite picture to the MSD-MSDO differences. OLR and $\omega$ decrease all across the central and south western coast of Mexico and northern Central America extending into the Caribbean Sea whereas positive differences are found in the North American Monsoon region and in the Pacific Ocean at around 125$^\circ$W.  
-
-
-Precipitation in these regions depends on several factors such as the seasonal migration of the East Pacific (EP) and Atlantic ITCZs. The SSTs in the Gulf of Mexico, the Caribbean Sea, the western tropical Atlantic and the Eastern Pacific are also very relevant for the seasonal cycle and interannual variations \citep{magana1999,amador2008,straffon2019}. Figures \ref{fig:csst}a, b show the seasonal cycle of SSTs in the EP and the Caribbean Sea. While the EP shows a maximum in SSTs in late May, during the early stages of the monsoon in Central America, the Caribbean SSTs peak in early fall, about five months later. 
-
-
-%The CLLJ is a strong easterly low-level (925 hPa) that reaches maximum winds speeds of 12 $m\,s^{-1}$ on February and July 
-The Caribbean Low-level Jet (CLLJ)is a strong low-level easterly jet in the Caribbean Sea that peaks at the end of June (Figure \ref{fig:csst}e) at the 925 hPa level \citep{amador2008,herrera2015,maldonado2016}. The CLLJ  determines the moisture transport from the Caribbean Sea into the eastern Pacific across the Central American landmass as well as the northward moisture transport into the Gulf of Mexico and Florida \citep{munoz2008,hidalgo2015,maldonado2016}.
-
-
-%Figure \ref{fig:eof1} shows the climatological summer rainfall in the region and the difference in rainfall between the first peak and MSD and between the second peak and the MSD, characterised by the MSD-MSDO and MSDE-MSD differences. 
-%Although the dates of the onset and end of the MSD determined using the WT method are defined using precipitation area-averaged over a relatively small region, the precipitation anomalies associated with the different stages of the seasonal cycle extend to most of Mexico and the Caribbean Sea and Gulf of Mexico. 
-%For example, consider the MSDE-MSD differences in the CHIRPS dataset (Figure \ref{fig:eof1}i) where most of northern Central America, southern Mexico, the eastern coast of Mexico shows a positive (+5 mm day$^{-1}$) anomaly. In other words a large region experiences a relatively large increase in rainfall after the midsummer.
-
-
-
-
-
-
-Figure \ref{fig:eof2} shows the distribution of rainfall in the different stages of boreal summer in different CMIP6 experiments and ERA-5. 
-The main feature, the East Pacific ITCZ shows the maximum rainfall rates (>15 mm day$^{-1}$ in the models) and strong mid-level ascent (-0.1 Pa s$^{-1}$). Prior to the MSD, rainfall extends from the easternmost Pacific ITCZ into the North American continent. Therefore, the positive bias during the first peak over land is associated with the biased wetter EP ITCZ.  However, during the MSD, rainfall decreases over land remaining only above 10 mm day$^{-1}$ south west of the coastline in the models.
+The characteristics of the first and second peaks and the MSD in the simulations varied notably between model configurations and with forcing. The scatter of the first and second peak and the MSD mean rainfall rates (Figure \ref{fig:scatter_msd}) shows firstly that the mean rainfall in each stage is not linearly related to another, i.e., a larger magnitude of the first peak of precipitation does not necessarily imply a wetter MSD period. The atmosphere-only run, GC3-amip, is a good example as the magnitude of the first peak is roughly the same as in the rest of the simulations but the mean rainfall during the drier MSD is notably larger than in the rest of the simulations and the second peak in GC3-amip ensemble members are also larger than most of the other experiments. In observation and reanalysis, the interannual variability shows a similar behaviour, i.e., the magnitude of precipitation at each stage is not related to the next stage (not shown). 
 
  \begin{figure}[t!]
 \includegraphics[width=\linewidth]{figures/fig4_olrv_3.png}
@@ -136,35 +132,122 @@ The main feature, the East Pacific ITCZ shows the maximum rainfall rates (>15 mm
 \label{fig:olranom}
 \end{figure}
 
+ The out-going longwave radiation (OLR) and vertical velocity ($\omega$ at 500 hPa) differences associated with the MSD (Figure \ref{fig:olranom}) also show that the MSD is not a local-scale feature but convective activity varies coherently in neighboring regions. From the MSDO to the MSD, OLR and $\omega$, increase notably in the easternmost Pacific, in southern Mexico and northern Central America and extend into the Caribbean islands and Sea; because $\omega$ is defined as $\omega=DP/Dt$  these positive anomalies are indicative of less deep convective activity and weaker convection. The OLR anomalies extend into the North Atlantic. 
+ 
+ In contrast, a region several degrees west into the open Pacific Ocean (125$^\circ$W) and north of the study region into the North American monsoon region show signs of negative OLR and $\omega$ anomalies, in the MSD-MSDO panels, which are indication that simultaneously to the onset of the MSD,  convection is observed stronger and deeper in the North American Monsoon region and in the Pacific region west of the continent. The variations at around 125$^\circ$W where also found by \cite{herrera2015}. 
+ 
  \begin{figure}[t!]
 \includegraphics[width=\linewidth]{figures/index_seasonal}
-\caption{Pentad-mean seasonal march of the (a, b) SSTs [$^\circ$C] and (c, d) the low-level (925-hPa) zonal wind flow [m s$^{-1}$] in (a) the easternmost equatorial Pacific and (b, d) the Caribbean Sea.}
+\caption{Pentad-mean seasonal march of the (a, b) SSTs [$^\circ$C] and (c, d) the low-level (925-hPa) zonal wind flow [m s$^{-1}$] in (a) the easternmost equatorial Pacific and (b, d) the Caribbean Sea. The transparent shading is as in Figure \ref{fig:msdcaribb}.}
 \label{fig:csst}
 \end{figure}
+ 
+ 
+ The OLR and $\omega$ variations associated with the end of the MSD (MSDE) show a relatively opposite picture to the MSD-MSDO differences. OLR and $\omega$ decrease all across the central and south western coast of Mexico and northern Central America extending into the Caribbean Sea whereas positive differences are found in the North American Monsoon region and in the Pacific Ocean at around 125$^\circ$W.  
+
+Several climatological features of the region play key roles for the MSD, according to the various hypothesis in the region. The most prominent factors include the seasonal cycle of the East Pacific (EP) SSTs, the Caribbean Sea SSTs, and the Eastern Pacific wind flow and the CLLJ \citep{magana1999,amador2008,herrera2015,straffon2019,garcia2020sub}. 
+The seasonal cycle of these features in ERA5 and the simulations (Figure \ref{fig:csst}) shows that the models are able to replicate the seasonal variations of the SSTs and the zonal wind flow of the region albeit some key biases. 
+
+The seasonal cycle of EP SSTs show a maximum peak SST in late May, prior to the first-peak of precipitation in Central America. In contrast, the Caribbean SSTs peak in early fall, about five months later, during late September. After the peak SSTs in late, the EP SSTs decrease to a local minimum found in July both for ERA5 and the simulations. The models, however, show an overall cold bias in the SSTs in both regions, but this bias is most pronounced in the Caribbean Sea where throughout the wet season the SSTs in the models are lower than in ERA5. 
+
+The CLLJ seasonal cycle is roughly replicated by the simulations, compared to ERA5, although the peak strength of the CLLJ found in ERA5 during the last week of June is delayed in the simulations by about 1 month, as the simulated CLLJ peaks in mid-July in all the simulations.
+The low-level wind flow in the EP shows a bimodal regime in both ERA5 and in the simulations. 
+The easterly flow in the EP during the spring becomes weaker turning positive at the end of May and reaching a local maximum in early June in ERA5 and mid-June in the simulations. This local maximum then decreases during June and early July as the zonal wind becomes easterly again and this easterly flow peaks in mid July in ERA5 and about three weeks later in the simulations. The strength of this easterly flow magnitude during the midsummer varies greatly amongst the simulations. 
+After the midsummer easterly flow peak, or zonal wind local minimum, the zonal wind becomes westerly again peaking at the end of September-early August in both ERA5 and simulations. 
 
 
-However, as shown in Figure \ref{fig:csst}a and as discussed for the radiative-convective feedback of \cite{magana1999}, SSTs do not increase in the East Pacific in the late summer and the second increase in incoming shortwave is only modest in the reanalysis (Figure \ref{fig:csst}d). 
 
- However, SSTs in the easternmost Pacific do not increase after, during or at the end of the MSD (Figure \ref{fig:csst}a). 
-In fact, the SSTs decrease with the second increase in deep convection and precipitation. The other hypothesis of this theory, referring to the incoming shortwave is also not consistent with observations, as the incoming shortwave only modestly increases during the midsummer (Figure \ref{fig:csst}d). There is perhaps a role for this modest increase in incoming shortwave, but the link to SSTs suggested by this theory does not agree with the reanalysis. 
+%Figure \ref{fig:eof2} shows the distribution of rainfall in the different stages of boreal summer in different CMIP6 experiments and ERA-5. 
+%The main feature, the East Pacific ITCZ shows the maximum rainfall rates (>15 mm day$^{-1}$ in the models) and strong mid-level ascent (-0.1 Pa s$^{-1}$). Prior to the MSD, rainfall extends from the easternmost Pacific ITCZ into the North American continent. Therefore, the positive bias during the first peak over land is associated with the biased wetter EP ITCZ.  However, during the MSD, rainfall decreases over land remaining only above 10 mm day$^{-1}$ south west of the coastline in the models.
+
+%The links between the EP and Caribbean SSTs and zonal wind flows, and the MSD precipitation are evaluated in the following sections to more detail.
+
+
+
+
 
 
 \section{On the role of the East Pacific SSTs}
 
+ 
 
 
-Biases in the strength and position of the EP ITCZ in Global Coupled Models (GCMs) \citep{bellucci2010,li2014,schneider2014} are a major reason for biases in the model representation of rainfall in Central America  \citep{rauscher2008}. 
 
-\cite{ryu2014} analyzed the performance of CMIP3 and CMIP5 models and found that the majority of CMIP5 models were unable to represent the total annual rainfall and the seasonal cycle of the MSD. \cite{ryu2014} also finds that models that simulate a bimodal distribution of rainfall, HadGEM2-A for example, also show an accurate seasonal cycle of the NASH and the CLLJ. However, an exhaustive analysis as to whether these features are actually driving mechanisms for the MSD in GCMs as in observations is missing from the literature. 
+The East Pacific SSTs are key element of the radiative convective feedback of \cite{magana1999}, but several of the predictions in that theory remain untested.
+The proposed feedback mechanism suggests that the EP SSTs experience also bimodal summer seasonal cycle, similar to that observed for precipitation but out-of-phase, with the SSTs leading the precipitation and the surface humidity.
+The EP SST seasonal cycle (Figure \ref{fig:csst}a) has peak SSTs in early May, just prior to the onset date of rainfall. The EP SSTs decline during May in synchrony with the onset of rainfall (Figure \ref{fig:msdcaribb}) and the development of the first peak of rainfall. %Th which agrees with the notion that the first peak of precipitation is associated with the increased SSTs in the EP during late May. 
 
 
-The CMIP6 Met Office models, HadGEM3 and UKESM1, are amongst the first models to simulate a bimodal regime in both Central America and Cuba (Figure \ref{fig:8}a and \ref{fig:msdcaribb}). 
-In Central America and southern Mexico, the models simulate a wetter-than-observed first peak of precipitation and a drier MSD period.
+
+According to the radiative convective feedback mechanism, the EP SSTs should be reduced prior to the onset of the MSD and then increase at the minimum rainfall or peak MSD period to enhance precipitation and cause the second peak of precipitation in late summer. However, in ERA5 the EP SSTs do not increase during the MSD (Jul-Aug) and rather decrease after mid-August. In fact, the EP SSTs in ERA5 decrease after mid-August, in synchrony with the second peak in deep convection and precipitation. 
+ In the models, however, there is indeed a second increase of the SSTs but the second peak in SSTs, found in early September is nearly synchronous to the second peak in precipitation, which means that the SSTs are not necessarily leading precipitation from the drier MSD to the second peak of rainfall. 
+
+
+\begin{figure}[t!]
+\includegraphics[width=\linewidth]{figures/fig4_sstv_3.png}
+\caption{As in Figure \ref{fig:olranom} but the anomalies are shown for SSTs [K] (contours) and surface humidity [g kg$^{-1}$] (line-contours).  }
+\label{fig:msdsstanom}
+\end{figure}
+
+% However, SSTs in the easternmost Pacific do not increase after, during or at the end of the MSD (Figure \ref{fig:csst}a). 
+
+
+
+The spatial distribution of synchronous SST and surface humidity variations with the MSD timings  (Figure \ref{fig:msdsstanom}) suggests that little change EP SSTs between the onset (MSDO) and the  MSD periods, whereas difference between the MSD period and the MSDE show that SSTs decrease at the end of the MSD. 
+Instead, at the end of the MSD the Caribbean SSTs increase to peak at the end of the summer.
+The historical simulations generally agree with the composite results of ERA5, with no appreciable warming in the EP region in the MSD-MSDO panels and cooling in the EP and warming in the Caribbean Sea in the MSDE-MSD panels.
+
+
+\begin{figure}[t!]
+\includegraphics[width=\linewidth]{figures/master_sst_scatter.png}
+\caption{Scatterplots of timings diagnosed by the WT method for (a) monsoon onset (MO), (b) monsoon retreat (MR), (c) MSDO and (d) MSDE. }
+\label{fig:amipsstscatter}
+\end{figure}
+
+A direct implication of the feedback mechanism is that the SST variability would force the surface humidity and ultimately precipitation. The surface humidity in the EP, however, is largely unchanged (less than 0.5 g kg$^{-1}$) during the various stages of the MSD, even though precipitation varies notably in these periods and only a modest decrease in surface humidity is found over Mesoamerica. Instead the greatest variations in surface humidity are observed west of Baja California from the MSDO to the MSD, and this region of increased surface humidity extends into the North American Monsoon region. Similarly, at the end of the MSD, the most notable variations in surface humidity is the drying of the North American monsoon region which appears to coincides with the end of the MSD.
+ The surface humidity variations in the simulations also agree well with those of ERA5 and are very similar amongst the realizations.
+
+
+\begin{figure}[t!]
+\includegraphics[width=\linewidth]{figures/sstlhfpr.pdf}
+\caption{Scatterplots of the mean changes in the East Pacific sea-surface temperatures (SSTs), surface saturation specific humidity q$_{sat}$, and surface latent heat flux (LHF) in the x-axis. In the y-axis, precipitation changes in the MSD region are shown as differences (a-d) and logarithmic weight (e-f). The correlation coefficient of the interannual spread in ERA5 and the multi-experiment correlation coefficient are shown in each panel.   }
+\label{fig:var_sst_lhf_scatter}
+\end{figure}
+
+%The CLLJ is a strong easterly low-level (925 hPa) that reaches maximum winds speeds of 12 $m\,s^{-1}$ on February and July 
+%The Caribbean Low-level Jet (CLLJ)is a strong low-level easterly jet in the Caribbean Sea that peaks at the end of June (Figure \ref{fig:csst}e) at the 925 hPa level \citep{amador2008,herrera2015,maldonado2016}. The CLLJ  determines the moisture transport from the Caribbean Sea into the eastern Pacific across the Central American landmass as well as the northward moisture transport into the Gulf of Mexico and Florida \citep{munoz2008,hidalgo2015,maldonado2016}.
+
+If EP SSTs play a dominant role in the timings and strength of the MSD, as implied previously \citep{magana1999,magana2005,herrera2015}, then the simulations that were run using observed-SSTs, i.e., the GC3-amip experiment may be further explored to evaluate the links  between the timings or strength of the MSD in GC3-amip and ERA5. A scatter plot of the dates (pentads) of the MO, MR, MSDO and MSDE (Figure \ref{fig:amipsstscatter}) for matching years between the CHIRPS dataset and TRMM, ERA5 and the five ensemble members of GC3-amip show that the timings of the MSD in GC3-amip are unrelated to CHIRPS and ERA5, whereas ERA5, in spite of precipitation being largely a model-derived quantity in the reanalysis, produces MSD timings that agree fairly well with the CHIRPS data. 
+This evidence would sugges that the SST variations that are forced in GC3-amip are not the dominant factor controlling the timings precipitation subseasonal variability in these atmosphere-only runs.
+
+%Figure \ref{fig:eof1} shows the climatological summer rainfall in the region and the difference in rainfall between the first peak and MSD and between the second peak and the MSD, characterised by the MSD-MSDO and MSDE-MSD differences. 
+%Although the dates of the onset and end of the MSD determined using the WT method are defined using precipitation area-averaged over a relatively small region, the precipitation anomalies associated with the different stages of the seasonal cycle extend to most of Mexico and the Caribbean Sea and Gulf of Mexico. 
+%For example, consider the MSDE-MSD differences in the CHIRPS dataset (Figure \ref{fig:eof1}i) where most of northern Central America, southern Mexico, the eastern coast of Mexico shows a positive (+5 mm day$^{-1}$) anomaly. In other words a large region experiences a relatively large increase in rainfall after the midsummer.
+
+Alternatively, the interannual variability in ERA5 and the inter-experiment spread may be further explored to understand whether the variations in EP SSTs and surface latent heat flux are proportional to changes in the precipitation in the MSD region. For this purpose, composite values at the start (MSDO), peak (MSD) and end (MSDE) of the MSD were computed for each variable in each for each year in ERA5 and in each model run and then averaged to provide a mean value of change between the different timings.  For example, the mean difference in SSTs (Figure \ref{fig:var_sst_lhf_scatter}a) between the days prior to the onset of MSD and the MSD period, show a cooling difference for ERA5, as for the GC3-amip experiments, but a positive difference (warming) for the coupled-model experiments combined with a negative (as expected) precipitation difference in the MSD region. This warming in the coupled-model experiments agrees well with the seasonal cycle (Fig. \ref{fig:csst}) and the radiative-convective mechanism. 
+
+\begin{figure}[t!]
+\includegraphics[width=\linewidth]{figures/sst_regg.png}
+\caption{Lagged correlations between East Pacific SSTs and precipitation in the MSD region for (a) ERA-5 and the simulations where the correlations are computed with the SST-timeseries lagged with respect to the b) monsoon onset date, the c) MSDO date and the d) MSDE date.   }
+\label{fig:sst_lag}
+\end{figure}
+
+The previous results have dealt with synchronous changes to the EP SSTs, LHF and surface humidity, but the expected relationship may be lagged, and according to the radiative-convective feedback mechanism, the SSTs should be leading precipitation. 
+Lag-lead correlations (Fig. \ref{fig:sst_lag} show that 
+
+
+%Biases in the strength and position of the EP ITCZ in Global Coupled Models (GCMs) \citep{bellucci2010,li2014,schneider2014} are a major reason for biases in the model representation of rainfall in Central America  \citep{rauscher2008}. 
+
+
+
+
+%The CMIP6 Met Office models, HadGEM3 and UKESM1, are amongst the first models to simulate a bimodal regime in both Central America and Cuba (Figure \ref{fig:8}a and \ref{fig:msdcaribb}). 
+%In Central America and southern Mexico, the models simulate a wetter-than-observed first peak of precipitation and a drier MSD period.
 % 
-The so-called second peak of precipitation found in late August is simulated in close agreement with TRMM, except in the AMIP experiment which has a far too strong second peak mean precipitation rate.
+%The so-called second peak of precipitation found in late August is simulated in close agreement with TRMM, except in the AMIP experiment which has a far too strong second peak mean precipitation rate.
 % The seasonal cycle and other characteristics of the MSD showed noticeable differences between the different experiments analysed in this study. 
 
-\section{On the role of the cloud-radiative feedbacks}
+\section{On the role of cloud-radiative and radiative-convective effects}
 
 %\subsubsection{Climatological features of the MSD in UKESM1 and HadGEM3}
 %Rainfall during the first peak has been too wet in these models since CMIP3, suggesting a persistent wet bias in this region associated with the East Pacific ITCZ \citep{ryu2014,mulcahy2018}. 
@@ -204,11 +287,7 @@ The MSDE-MSD panels show the difference between the second peak of rainfall and 
 Note also the region of the North American Monsoon, on the northwest corner of Mexico and the southernmost US, as the MSD-MSDO difference suggests increased convective activity in the North American Monsoon region and 
 MSDE-MSD the opposite. 
 
- \begin{figure}[t!]
-\includegraphics[width=\linewidth]{figures/fig4_sstv_3}
-\caption{As in Figure \ref{fig:msdolranom} but the anomalies are shown for SSTs [K] (contours) and incoming shortwave radiation [W m${-2}$] at the surface (line-contours). Incoming shortwave is defined such as negative differences imply less incoming shortave and positive anomalies represent more incoming shortwave at the surface. }
-\label{fig:msdsstanom}
-\end{figure}
+ 
 
 Similarly, Figure \ref{fig:msduanom} shows the low-level wind field during the three stages of the MSD. In ERA-5, prior to the MSD the wind flow in the Caribbean shows strong easterlies that flow into the Gulf of Mexico and southeastern US but very weak winds in the EP (see Figure \ref{fig:csst}f). During the MSD, the winds in the EP become modestly strong eaterlies associated the easterly flow from the Caribbean Sea that crosses over Costa Rica and Nicaragua from the Caribbean Sea to the East Pacific. Note that the easterlies converge towards the region at 125$^\circ$W where OLR and $\omega$ anomalies suggest increased ascent. 
 
