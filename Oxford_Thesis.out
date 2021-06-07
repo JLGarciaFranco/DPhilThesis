@@ -33,16 +33,30 @@
 \BOOKMARK [2][-]{subsection.4.6.2}{The role of ENSO flavours}{section.4.6}% 33
 \BOOKMARK [2][-]{subsection.4.6.3}{A possible influence of the QBO on tropical ENSO teleconnections}{section.4.6}% 34
 \BOOKMARK [1][-]{section.4.7}{Summary and discussion}{chapter.4}% 35
-\BOOKMARK [0][-]{chapter.5}{Mechanisms of the Mesoamerican midsummer drought in the Met Office CMIP6 experiments}{}% 36
+\BOOKMARK [0][-]{chapter.5}{A wavelet transform method to determine monsoon onset and retreat from precipitation time-series}{}% 36
 \BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 37
-\BOOKMARK [1][-]{section.5.2}{Data and methods}{chapter.5}% 38
-\BOOKMARK [2][-]{subsection.5.2.1}{Observations and reanalysis data}{section.5.2}% 39
-\BOOKMARK [2][-]{subsection.5.2.2}{CMIP6 data}{section.5.2}% 40
-\BOOKMARK [2][-]{subsection.5.2.3}{Determination of the timings of the MSD}{section.5.2}% 41
-\BOOKMARK [1][-]{section.5.3}{Climatological features}{chapter.5}% 42
-\BOOKMARK [1][-]{section.5.4}{On the role of the East Pacific SSTs}{chapter.5}% 43
-\BOOKMARK [1][-]{section.5.5}{On the role of cloud-radiative and radiative-convective effects}{chapter.5}% 44
-\BOOKMARK [2][-]{subsection.5.5.1}{On the role of the Caribbean Low-Level Jet}{section.5.5}% 45
-\BOOKMARK [2][-]{subsection.5.5.2}{A look at the MSD through the lense of the moist static energy budget}{section.5.5}% 46
-\BOOKMARK [1][-]{section.5.6}{Summary and discussion}{chapter.5}% 47
-\BOOKMARK [0][-]{chapter*.47}{Bibliography}{}% 48
+\BOOKMARK [1][-]{section.5.2}{Data}{chapter.5}% 38
+\BOOKMARK [2][-]{subsection.5.2.1}{Precipitation datasets and reanalysis data}{section.5.2}% 39
+\BOOKMARK [2][-]{subsection.5.2.2}{Model data}{section.5.2}% 40
+\BOOKMARK [1][-]{section.5.3}{The wavelet transform method}{chapter.5}% 41
+\BOOKMARK [2][-]{subsection.5.3.1}{Identification of Monsoon Onset and Retreat}{section.5.3}% 42
+\BOOKMARK [2][-]{subsection.5.3.2}{Extension for Application to the MSD signal}{section.5.3}% 43
+\BOOKMARK [2][-]{subsection.5.3.3}{Comparative Methodologies}{section.5.3}% 44
+\BOOKMARK [1][-]{section.5.4}{Results}{chapter.5}% 45
+\BOOKMARK [2][-]{subsection.5.4.1}{The North American Monsoon}{section.5.4}% 46
+\BOOKMARK [2][-]{subsection.5.4.2}{The Indian Monsoon}{section.5.4}% 47
+\BOOKMARK [2][-]{subsection.5.4.3}{The midsummer drought}{section.5.4}% 48
+\BOOKMARK [1][-]{section.5.5}{Summary and discussion}{chapter.5}% 49
+\BOOKMARK [0][-]{chapter.6}{Mechanisms of the Mesoamerican midsummer drought in the Met Office CMIP6 experiments}{}% 50
+\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 51
+\BOOKMARK [1][-]{section.6.2}{Data and methods}{chapter.6}% 52
+\BOOKMARK [2][-]{subsection.6.2.1}{Observations and reanalysis data}{section.6.2}% 53
+\BOOKMARK [2][-]{subsection.6.2.2}{CMIP6 data}{section.6.2}% 54
+\BOOKMARK [2][-]{subsection.6.2.3}{Determination of the timings of the MSD}{section.6.2}% 55
+\BOOKMARK [1][-]{section.6.3}{Climatological features}{chapter.6}% 56
+\BOOKMARK [1][-]{section.6.4}{The East Pacific SSTs}{chapter.6}% 57
+\BOOKMARK [1][-]{section.6.5}{On the role of cloud-radiative effects}{chapter.6}% 58
+\BOOKMARK [2][-]{subsection.6.5.1}{On the role of the Caribbean Low-Level Jet}{section.6.5}% 59
+\BOOKMARK [2][-]{subsection.6.5.2}{A look at the MSD through the lense of the moist static energy budget}{section.6.5}% 60
+\BOOKMARK [1][-]{section.6.6}{Summary and discussion}{chapter.6}% 61
+\BOOKMARK [0][-]{chapter*.74}{Bibliography}{}% 62
