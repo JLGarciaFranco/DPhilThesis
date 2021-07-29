@@ -87,10 +87,10 @@
 \ifmc@nobind
 \usepackage[includehead,hmargin={2.35cm, 2.3cm}, vmargin={3cm,3cm}, headsep=.8cm,footskip=1.2cm]{geometry}
 \setlength{\topmargin}{0.0in}
-\setlength{\oddsidemargin}{0.33in}
+\setlength{\oddsidemargin}{-0.1in}
 \setlength{\evensidemargin}{-0.08in}
 \setlength{\textheight}{9.0in}
-\setlength{\textwidth}{6.0in}
+\setlength{\textwidth}{6.43in}
 \else
 \usepackage[includehead,hmargin={2.6cm, 1.6cm}, vmargin={2.5cm,2.7cm}, headsep=.8cm,footskip=1.2cm]{geometry}
 \fi

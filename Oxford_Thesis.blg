@@ -9,49 +9,48 @@ A level-1 auxiliary file: text/ch3-methods.aux
 A level-1 auxiliary file: text/ch4-ams.aux
 A level-1 auxiliary file: text/ch5-wvt.aux
 A level-1 auxiliary file: text/ch-msd.aux
-Reallocated field_info (elt_size=4) to 10784 items from 5000.
+Reallocated field_info (elt_size=4) to 10712 items from 5000.
 Database file #1: refs.bib
-Warning--I didn't find a database entry for "zhao2020evaluation"
 Warning--can't use both author and editor fields in Xie2007
-You've used 240 entries,
+You've used 238 entries,
             2909 wiz_defined-function locations,
-            1883 strings with 55956 characters,
-and the built_in function-call counts, 1754399 in all, are:
-= -- 290103
-> -- 25440
+            1874 strings with 55723 characters,
+and the built_in function-call counts, 1744358 in all, are:
+= -- 288503
+> -- 25237
 < -- 5
-+ -- 144713
-- -- 8008
-* -- 159150
-:= -- 339952
-add.period$ -- 244
-call.type$ -- 240
-change.case$ -- 3350
-chr.to.int$ -- 237
-cite$ -- 241
-duplicate$ -- 3864
-empty$ -- 8462
-format.name$ -- 8863
-if$ -- 315477
++ -- 143933
+- -- 7945
+* -- 158238
+:= -- 337961
+add.period$ -- 242
+call.type$ -- 238
+change.case$ -- 3322
+chr.to.int$ -- 235
+cite$ -- 239
+duplicate$ -- 3832
+empty$ -- 8387
+format.name$ -- 8787
+if$ -- 313669
 int.to.chr$ -- 8
 int.to.str$ -- 0
-missing$ -- 243
-newline$ -- 763
-num.names$ -- 2545
-pop$ -- 711
+missing$ -- 241
+newline$ -- 757
+num.names$ -- 2524
+pop$ -- 706
 preamble$ -- 1
-purify$ -- 3600
+purify$ -- 3570
 quote$ -- 0
-skip$ -- 3308
+skip$ -- 3281
 stack$ -- 0
-substring$ -- 421175
-swap$ -- 753
-text.length$ -- 3365
+substring$ -- 418915
+swap$ -- 747
+text.length$ -- 3337
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 940
+type$ -- 932
 warning$ -- 1
-while$ -- 5415
+while$ -- 5369
 width$ -- 0
-write$ -- 3222
-(There were 2 warnings)
+write$ -- 3196
+(There was 1 warning)

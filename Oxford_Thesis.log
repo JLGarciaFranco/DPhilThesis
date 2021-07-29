@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.4.8)  27 MAY 2021 16:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.4.8)  28 JUL 2021 20:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1770,9 +1770,9 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=433.62pt
+* \textwidth=464.69556pt
 * \textheight=650.43pt
-* \oddsidemargin=23.84923pt
+* \oddsidemargin=-7.22743pt
 * \evensidemargin=-5.78172pt
 * \topmargin=0.0pt
 * \headheight=15.0pt
@@ -2020,47 +2020,23 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 \openout5 = `Oxford_Thesis.toc'.
 
  [6]
-(./Oxford_Thesis.lof
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 10.
- (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `lmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+(./Oxford_Thesis.lof [7
 
-Underfull \vbox (badness 3780) has occurred while \output is active []
-
- [7
-
-]
-Underfull \vbox (badness 1688) has occurred while \output is active []
-
- [8]
-[9] [10] [11] [12]
-
-LaTeX Warning: Reference `fig:msdolranom' on page \textlatin {xiii} undefined o
-n input line 73.
-
-
-LaTeX Warning: Reference `fig:msdolranom' on page \textlatin {xiii} undefined o
-n input line 74.
-
-)
+])
 \tf@lof=\write6
 \openout6 = `Oxford_Thesis.lof'.
 
- [13]
+ [8]
 \openout2 = `text/abbreviations.aux'.
 
- (./text/abbreviations.tex) [14
+ (./text/abbreviations.tex) [9
 
 
 ]
 \openout2 = `text/ch1-intro.aux'.
 
- (./text/ch1-intro.tex
+
+(./text/ch1-intro.tex
 Chapter 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
@@ -2072,11 +2048,11 @@ l.23
 
 
 
-] [2] [3] [4]
+] [2] [3]
 LaTeX Font Info:    Try loading font information for TS1+lmr on input line 68.
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [5]) [6]
+) [4] [5]) [6]
 \openout2 = `text/ch2-litreview.aux'.
 
 
@@ -2086,41 +2062,51 @@ Chapter 2.
 
 
 
-] [8] <figures/trmmclima.png, id=845, 930.8376pt x 570.933pt>
+] <figures/trmmclima.png, id=616, 930.8376pt x 570.933pt>
 File: figures/trmmclima.png Graphic file (type png)
 
 <use figures/trmmclima.png>
 Package pdftex.def Info: figures/trmmclima.png used on input line 41.
-(pdftex.def)             Requested size: 433.62pt x 265.96895pt.
- [9 <./figures/trmmclima.png>] [10] [11] [12]
-<figures/amsclim.png, id=1006, 867.24pt x 607.7907pt>
+(pdftex.def)             Requested size: 464.69556pt x 285.02148pt.
+ [8] [9 <./figures/trmmclima.png>] [10] [11]
+[12] <figures/amsclim.png, id=788, 867.24pt x 607.7907pt>
 File: figures/amsclim.png Graphic file (type png)
 
 <use figures/amsclim.png>
 Package pdftex.def Info: figures/amsclim.png used on input line 92.
-(pdftex.def)             Requested size: 433.62pt x 303.8946pt.
+(pdftex.def)             Requested size: 464.69556pt x 325.67952pt.
  [13] [14 <./figures/amsclim.png>] [15] [16] [17]
-[18] [19] [20] <figures/ENSO.png, id=1306, 622.325pt x 414.54875pt>
-File: figures/ENSO.png Graphic file (type png)
-
-<use figures/ENSO.png>
-Package pdftex.def Info: figures/ENSO.png used on input line 229.
-(pdftex.def)             Requested size: 433.62pt x 288.84746pt.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 230.
- [21] [22 <./figures/ENSO.png (PNG copy)>]
-Overfull \hbox (11.67223pt too wide) in paragraph at lines 266--266
-[]\T1/lmr/bx/n/17.28 Stratosphere-Troposphere Cou-pling in the Trop-
+[18] [19]
+Overfull \hbox (6.22368pt too wide) in paragraph at lines 207--207
+[]\T1/lmr/bx/n/17.28 El Niño South-ern Os-cil-la-tion: im-pacts to the Amer-
  []
 
-[23] [24] [25] <figures/nie_sobel.jpeg, id=1477, 115.8729pt x 123.3408pt>
+<figures/ENSO.png, id=1077, 622.325pt x 414.54875pt>
+File: figures/ENSO.png Graphic file (type png)
+ <use figures/ENSO.png>
+Package pdftex.def Info: figures/ENSO.png used on input line 229.
+(pdftex.def)             Requested size: 464.69556pt x 309.55081pt.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 230.
+
+
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 230.
+ [20] [21 <./figures/ENSO.png (PNG copy)>] [22] [23] [24] <figures/nie_sobel.jp
+eg, id=1251, 115.8729pt x 123.3408pt>
 File: figures/nie_sobel.jpeg Graphic file (type jpg)
 
 <use figures/nie_sobel.jpeg>
 Package pdftex.def Info: figures/nie_sobel.jpeg used on input line 320.
-(pdftex.def)             Requested size: 368.57964pt x 392.43074pt.
- [26] [27 <./figures/nie_sobel.jpeg>] [28] [29])
-[30]
+(pdftex.def)             Requested size: 394.99405pt x 420.55574pt.
+ [25] [26 <./figures/nie_sobel.jpeg>] [27] [28])
+[29]
 \openout2 = `text/ch3-methods.aux'.
 
  (./text/ch3-methods.tex
@@ -2155,11 +2141,11 @@ Overfull \hbox (57.08472pt too wide) in paragraph at lines 19--31
 [][] 
  []
 
-[31
+[30
 
 
 
-] [32] [33] [34] [35] [36]
+] [31] [32] [33] [34]
 Underfull \hbox (badness 10000) in paragraph at lines 111--111
 []|\T1/lmr/m/n/10.95 (+20) Atmospheric
  []
@@ -2189,27 +2175,22 @@ Overfull \hbox (53.67093pt too wide) in paragraph at lines 110--121
 [][] 
  []
 
-[37] [38] [39] [40]) [41]
+[35] [36] [37] [38]) [39]
 \openout2 = `text/ch4-ams.aux'.
 
  (./text/ch4-ams.tex
 Chapter 4.
-[42
+[40
 
 
 
-] [43] [44] [45]
-Overfull \hbox (0.29199pt too wide) in paragraph at lines 73--73
-[]\T1/lmr/bx/n/17.28 Climatological tem-per-a-ture and low-level wind
- []
-
-<figures/fig1p2_f1a.png, id=1892, 939.51pt x 867.24pt>
+] [41] [42] [43] <figures/fig1p2_f1a.png, id=1666, 939.51pt x 867.24pt>
 File: figures/fig1p2_f1a.png Graphic file (type png)
 
 <use figures/fig1p2_f1a.png>
 Package pdftex.def Info: figures/fig1p2_f1a.png used on input line 78.
-(pdftex.def)             Requested size: 433.62pt x 400.25854pt.
- [46]
+(pdftex.def)             Requested size: 464.69556pt x 428.9477pt.
+
 Overfull \hbox (9.05342pt too wide) in paragraph at lines 94--94
 []|\T1/lmr/m/it/10.95 (-20) Variable| 
  []
@@ -2259,151 +2240,168 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--94
 []|\T1/lmr/m/n/10.95 (+20) SON
  []
 
-
-Overfull \hbox (22.92342pt too wide) in paragraph at lines 93--121
-[][] 
- []
-
-<figures/fig1p2_f1b.png, id=1910, 939.51pt x 867.24pt>
+<figures/fig1p2_f1b.png, id=1677, 939.51pt x 867.24pt>
 File: figures/fig1p2_f1b.png Graphic file (type png)
 
 <use figures/fig1p2_f1b.png>
 Package pdftex.def Info: figures/fig1p2_f1b.png used on input line 126.
-(pdftex.def)             Requested size: 433.62pt x 400.25854pt.
- [47 <./figures/fig1p2_f1a.png>] [48] [49 <./figures/fig1p2_f1b.png>] <figures/
-p2fig2_v3.png, id=1937, 1011.78pt x 722.7pt>
+(pdftex.def)             Requested size: 464.69556pt x 428.9477pt.
+ [44] [45 <./figures/fig1p2_f1a.png>] [46] [47 <./figures/fig1p2_f1b.png>] <fig
+ures/p2fig2_v3.png, id=1711, 1011.78pt x 722.7pt>
 File: figures/p2fig2_v3.png Graphic file (type png)
 
 <use figures/p2fig2_v3.png>
 Package pdftex.def Info: figures/p2fig2_v3.png used on input line 158.
-(pdftex.def)             Requested size: 433.62pt x 309.72939pt.
- [50] [51 <./figures/p2fig2_v3.png>]
-<figures/itcz_clim_d.png, id=1972, 1228.59pt x 650.43pt>
+(pdftex.def)             Requested size: 464.69556pt x 331.92773pt.
+ [48 <./figures/p2fig2_v3.png>] [49]
+<figures/itcz_clim_d.png, id=1747, 1228.59pt x 650.43pt>
 File: figures/itcz_clim_d.png Graphic file (type png)
 
 <use figures/itcz_clim_d.png>
 Package pdftex.def Info: figures/itcz_clim_d.png used on input line 189.
-(pdftex.def)             Requested size: 433.62pt x 229.55946pt.
+(pdftex.def)             Requested size: 464.69556pt x 246.0147pt.
 
-<figures/fig3_p2_v3.png, id=1974, 1228.59pt x 1228.59pt>
+<figures/fig3_p2_v3.png, id=1749, 1228.59pt x 1228.59pt>
 File: figures/fig3_p2_v3.png Graphic file (type png)
 
 <use figures/fig3_p2_v3.png>
 Package pdftex.def Info: figures/fig3_p2_v3.png used on input line 203.
-(pdftex.def)             Requested size: 433.62pt x 433.61232pt.
- [52] [53 <./figures/itcz_clim_d.png>] [54 <./figures/fig3_p2_v3.png>] <figures
-/saczanalysis.png, id=2001, 1076.02pt x 562.1pt>
+(pdftex.def)             Requested size: 464.69556pt x 464.69443pt.
+ [50 <./figures/itcz_clim_d.png>] [51 <./figures/fig3_p2_v3.png>] <figures/sacz
+analysis.png, id=1768, 1076.02pt x 562.1pt>
 File: figures/saczanalysis.png Graphic file (type png)
 
 <use figures/saczanalysis.png>
 Package pdftex.def Info: figures/saczanalysis.png used on input line 231.
-(pdftex.def)             Requested size: 433.62pt x 226.51709pt.
- [55]
-<figures/fig6.png, id=2021, 939.51pt x 1156.32pt>
+(pdftex.def)             Requested size: 464.69556pt x 242.75325pt.
+ [52] [53 <./figures/saczanalysis.png>]
+<figures/fig6.png, id=1794, 939.51pt x 1156.32pt>
 File: figures/fig6.png Graphic file (type png)
  <use figures/fig6.png>
 Package pdftex.def Info: figures/fig6.png used on input line 252.
-(pdftex.def)             Requested size: 379.4175pt x 466.9661pt.
+(pdftex.def)             Requested size: 406.60861pt x 500.43677pt.
 
-[56 <./figures/saczanalysis.png>] [57 <./figures/fig6.png>]
-<figures/Fig8.png, id=2039, 1084.05pt x 1084.05pt>
+[54] [55 <./figures/fig6.png>]
+<figures/Fig8.png, id=1811, 1084.05pt x 1084.05pt>
 File: figures/Fig8.png Graphic file (type png)
  <use figures/Fig8.png>
 Package pdftex.def Info: figures/Fig8.png used on input line 277.
-(pdftex.def)             Requested size: 433.62pt x 433.61232pt.
+(pdftex.def)             Requested size: 464.69556pt x 464.69333pt.
 
-[58] <figures/amipseasonalcycle.png, id=2057, 1572.5952pt x 865.7946pt>
+[56 <./figures/Fig8.png>]
+<figures/amipseasonalcycle.png, id=1828, 1572.5952pt x 865.7946pt>
 File: figures/amipseasonalcycle.png Graphic file (type png)
 
 <use figures/amipseasonalcycle.png>
 Package pdftex.def Info: figures/amipseasonalcycle.png used on input line 302.
-(pdftex.def)             Requested size: 433.62pt x 238.72177pt.
-
-Underfull \vbox (badness 3219) has occurred while \output is active []
-
- [59 <./figures/Fig8.png>] [60 <./figures/amipseasonalcycle.png>] [61]
-<figures/fig9b.png, id=2098, 1228.59pt x 794.97pt>
+(pdftex.def)             Requested size: 464.69556pt x 255.84315pt.
+ [57] [58 <./figures/amipseasonalcycle.png>] [59] <figures/fig9b.png, id=1869, 
+1228.59pt x 794.97pt>
 File: figures/fig9b.png Graphic file (type png)
- <use figures/fig9b.png>
-Package pdftex.def Info: figures/fig9b.png used on input line 369.
-(pdftex.def)             Requested size: 433.62pt x 280.57268pt.
 
-[62] [63 <./figures/fig9b.png>] [64]
-<figures/ensotemp_3.png, id=2118, 867.24pt x 1156.32pt>
+<use figures/fig9b.png>
+Package pdftex.def Info: figures/fig9b.png used on input line 369.
+(pdftex.def)             Requested size: 464.69556pt x 300.68463pt.
+ [60] [61 <./figures/fig9b.png>]
+<figures/ensotemp_3.png, id=1884, 838.332pt x 1140.4206pt>
 File: figures/ensotemp_3.png Graphic file (type png)
 
 <use figures/ensotemp_3.png>
 Package pdftex.def Info: figures/ensotemp_3.png used on input line 413.
-(pdftex.def)             Requested size: 385.92152pt x 514.56961pt.
+(pdftex.def)             Requested size: 404.28285pt x 549.97108pt.
 
-<figures/ensopr_3.png, id=2120, 867.24pt x 1156.32pt>
+<figures/ensopr_3.png, id=1886, 867.24pt x 1156.32pt>
 File: figures/ensopr_3.png Graphic file (type png)
 
 <use figures/ensopr_3.png>
 Package pdftex.def Info: figures/ensopr_3.png used on input line 427.
-(pdftex.def)             Requested size: 382.01778pt x 509.36462pt.
+(pdftex.def)             Requested size: 409.39525pt x 545.87007pt.
+ [62]
 
-<figures/walkerfinal.png, id=2130, 1056.5874pt x 854.9541pt>
+LaTeX Warning: Text page 63 contains only floats.
+
+
+Overfull \vbox (5.5411pt too high) has occurred while \output is active []
+
+
+[63 <./figures/ensotemp_3.png>] [64 <./figures/ensopr_3.png>]
+<figures/walkerfinal.png, id=1912, 1056.5874pt x 854.9541pt>
 File: figures/walkerfinal.png Graphic file (type png)
 
 <use figures/walkerfinal.png>
 Package pdftex.def Info: figures/walkerfinal.png used on input line 440.
-(pdftex.def)             Requested size: 433.62pt x 350.87263pt.
- [65] [66 <./figures/ensotemp_3.png>] [67 <./figures/ensopr_3.png>] [68 <./figu
-res/walkerfinal.png>]
-<figures/fig_ensolinear.png, id=2163, 1011.78pt x 794.97pt>
+(pdftex.def)             Requested size: 464.69556pt x 376.01138pt.
+
+<figures/fig_ensolinear.png, id=1924, 1011.78pt x 794.97pt>
 File: figures/fig_ensolinear.png Graphic file (type png)
 
 <use figures/fig_ensolinear.png>
 Package pdftex.def Info: figures/fig_ensolinear.png used on input line 459.
-(pdftex.def)             Requested size: 433.62pt x 340.70232pt.
- [69 <./figures/fig_ensolinear.png>]
-<figures/epcpmap.png, id=2174, 1065.2598pt x 863.6265pt>
+(pdftex.def)             Requested size: 464.69556pt x 365.12051pt.
+ [65] [66 <./figures/walkerfinal.png>] [67 <./figures/fig_ensolinear.png>]
+<figures/epcpmap.png, id=1945, 1065.2598pt x 863.6265pt>
 File: figures/epcpmap.png Graphic file (type png)
 
 <use figures/epcpmap.png>
 Package pdftex.def Info: figures/epcpmap.png used on input line 484.
-(pdftex.def)             Requested size: 433.62pt x 351.54582pt.
+(pdftex.def)             Requested size: 464.69556pt x 376.72873pt.
 
-<figures/cppranomalies_ff.png, id=2183, 1061.6463pt x 939.51pt>
+Underfull \vbox (badness 3240) has occurred while \output is active []
+
+ [68 <./figures/epcpmap.png>]
+<figures/cppranomalies_ff.png, id=1959, 1061.6463pt x 939.51pt>
 File: figures/cppranomalies_ff.png Graphic file (type png)
 
 <use figures/cppranomalies_ff.png>
 Package pdftex.def Info: figures/cppranomalies_ff.png used on input line 499.
-(pdftex.def)             Requested size: 433.62pt x 383.73935pt.
- [70] [71 <./figures/epcpmap.png>] [72 <./figures/cppranomalies_ff.png>]
-<figures/trops_qbolnprfma.png, id=2204, 1011.78pt x 1084.05pt>
+(pdftex.def)             Requested size: 464.69556pt x 411.23532pt.
+ [69]
+<figures/trops_qbolnprfma.png, id=1970, 1011.78pt x 1084.05pt>
 File: figures/trops_qbolnprfma.png Graphic file (type png)
 
 <use figures/trops_qbolnprfma.png>
 Package pdftex.def Info: figures/trops_qbolnprfma.png used on input line 513.
-(pdftex.def)             Requested size: 433.62pt x 464.59409pt.
-
-<figures/walker_wqbo_jfma.png, id=2213, 1084.05pt x 867.24pt>
+(pdftex.def)             Requested size: 464.69556pt x 497.89162pt.
+ [70 <./figures/cppranomalies_ff.png>]
+[71 <./figures/trops_qbolnprfma.png>]
+<figures/walker_wqbo_jfma.png, id=1989, 1084.05pt x 867.24pt>
 File: figures/walker_wqbo_jfma.png Graphic file (type png)
 
 <use figures/walker_wqbo_jfma.png>
 Package pdftex.def Info: figures/walker_wqbo_jfma.png used on input line 530.
-(pdftex.def)             Requested size: 433.62pt x 346.88986pt.
- [73] [74 <./figures/trops_qbolnprfma.png>]
-[75 <./figures/walker_wqbo_jfma.png>] [76]
-<figures/drawing_d.png, id=2247, 1686.3pt x 717.079pt>
+(pdftex.def)             Requested size: 464.69556pt x 371.75467pt.
+ [72] [73 <./figures/walker_wqbo_jfma.png>]
+[74] <figures/drawing_d.png, id=2016, 1686.3pt x 717.079pt>
 File: figures/drawing_d.png Graphic file (type png)
 
 <use figures/drawing_d.png>
 Package pdftex.def Info: figures/drawing_d.png used on input line 569.
-(pdftex.def)             Requested size: 433.62pt x 184.39003pt.
- [77] [78 <./figures/drawing_d.png>] [79] [80])
-[81]
+(pdftex.def)             Requested size: 464.69556pt x 197.60764pt.
+ [75 <./figures/drawing_d.png>] [76] [77] [78])
+[79]
 \openout2 = `text/ch5-wvt.aux'.
 
  (./text/ch5-wvt.tex
 Chapter 5.
-[82
+[80
 
 
 
 ]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[81]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[82]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.11652pt.
@@ -2417,7 +2415,19 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[84]
+[84] <figures/wav1.png, id=2231, 848.4498pt x 433.62pt>
+File: figures/wav1.png Graphic file (type png)
+ <use figures/wav1.png>
+Package pdftex.def Info: figures/wav1.png used on input line 114.
+(pdftex.def)             Requested size: 464.69556pt x 237.49265pt.
+
+<figures/wav_paperfig2.png, id=2232, 1084.05pt x 722.7pt>
+File: figures/wav_paperfig2.png Graphic file (type png)
+
+<use figures/wav_paperfig2.png>
+Package pdftex.def Info: figures/wav_paperfig2.png used on input line 123.
+(pdftex.def)             Requested size: 464.69556pt x 309.79555pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.11652pt.
@@ -2431,52 +2441,19 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[86]
+[86 <./figures/wav1.png>]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.11652pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[87]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[88] <figures/wav1.png, id=2500, 848.4498pt x 433.62pt>
-File: figures/wav1.png Graphic file (type png)
- <use figures/wav1.png>
-Package pdftex.def Info: figures/wav1.png used on input line 114.
-(pdftex.def)             Requested size: 433.62pt x 221.61304pt.
-
-<figures/wav_fig2.pdf, id=2501, 1084.05pt x 722.7pt>
-File: figures/wav_fig2.pdf Graphic file (type pdf)
-
-<use figures/wav_fig2.pdf>
-Package pdftex.def Info: figures/wav_fig2.pdf used on input line 123.
-(pdftex.def)             Requested size: 433.62pt x 289.07487pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[89 <./figures/wav1.png>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[90 <./figures/wav_fig2.pdf>]
-<figures/wav_fig3.pdf, id=2596, 867.24pt x 722.7pt>
+[87 <./figures/wav_paperfig2.png>]
+<figures/wav_fig3.pdf, id=2262, 867.24pt x 722.7pt>
 File: figures/wav_fig3.pdf Graphic file (type pdf)
  <use figures/wav_fig3.pdf>
-Package pdftex.def Info: figures/wav_fig3.pdf used on input line 153.
-(pdftex.def)             Requested size: 433.62pt x 361.3491pt.
+Package pdftex.def Info: figures/wav_fig3.pdf used on input line 156.
+(pdftex.def)             Requested size: 464.69556pt x 387.2527pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2484,12 +2461,12 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[91 <./figures/wav_fig3.pdf>]
-<figures/nam_n216.pdf, id=2678, 867.24pt x 722.7pt>
+[88 <./figures/wav_fig3.pdf>]
+<figures/nam_n216.pdf, id=2343, 867.24pt x 722.7pt>
 File: figures/nam_n216.pdf Graphic file (type pdf)
  <use figures/nam_n216.pdf>
-Package pdftex.def Info: figures/nam_n216.pdf used on input line 171.
-(pdftex.def)             Requested size: 433.62pt x 361.3491pt.
+Package pdftex.def Info: figures/nam_n216.pdf used on input line 173.
+(pdftex.def)             Requested size: 464.69556pt x 387.2527pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2497,20 +2474,20 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[92]
+[89]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.11652pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[93 <./figures/nam_n216.pdf>]
-<figures/wav_fig4.pdf, id=2769, 867.24pt x 867.24pt>
+[90 <./figures/nam_n216.pdf>]
+<figures/wav_fig4.pdf, id=2434, 867.24pt x 867.24pt>
 File: figures/wav_fig4.pdf Graphic file (type pdf)
 
 <use figures/wav_fig4.pdf>
-Package pdftex.def Info: figures/wav_fig4.pdf used on input line 197.
-(pdftex.def)             Requested size: 433.62pt x 433.61894pt.
+Package pdftex.def Info: figures/wav_fig4.pdf used on input line 199.
+(pdftex.def)             Requested size: 464.69556pt x 464.70326pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2518,198 +2495,223 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[94]
+[91]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.11652pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[95 <./figures/wav_fig4.pdf>]
+[92 <./figures/wav_fig4.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.11652pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[96]
+[93]
 Underfull \hbox (badness 10000) in paragraph at lines 246--246
-[]|\T1/lmr/m/n/12 (+20) Dataset /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 247--247
 []|\T1/lmr/m/n/12 (+20) 33.3
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--247
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 []|\T1/lmr/m/n/12 (+20) 55.8
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--247
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 []|\T1/lmr/m/n/12 (+20) 33.0
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--247
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 []|\T1/lmr/m/n/12 (+20) 56.6
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--247
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 []|\T1/lmr/m/n/12 (+20) 30.4
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--248
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
 []|\T1/lmr/m/n/12 (+20) 53.8
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--248
+Underfull \hbox (badness 10000) in paragraph at lines 247--247
 []|\T1/lmr/m/n/12 (+20) 33.2
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--248
+Underfull \hbox (badness 10000) in paragraph at lines 247--247
 []|\T1/lmr/m/n/12 (+20) 55.0
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--248
+Underfull \hbox (badness 10000) in paragraph at lines 247--247
 []|\T1/lmr/m/n/12 (+20) 36.0
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--248
+Underfull \hbox (badness 10000) in paragraph at lines 247--247
 []|\T1/lmr/m/n/12 (+20) 55.7
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--248
+Underfull \hbox (badness 10000) in paragraph at lines 247--247
 []|\T1/lmr/m/n/12 (+20) 31.7
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
 []|\T1/lmr/m/n/12 (+20) 54.5
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--249
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
 []|\T1/lmr/m/n/12 (+20) 32.5
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--249
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
 []|\T1/lmr/m/n/12 (+20) 54.7
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--249
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
 []|\T1/lmr/m/n/12 (+20) 33.6
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--249
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
 []|\T1/lmr/m/n/12 (+20) 56.1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--249
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
 []|\T1/lmr/m/n/12 (+20) 30.1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--250
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
 []|\T1/lmr/m/n/12 (+20) 53.6
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
 []|\T1/lmr/m/n/12 (+20) 33.5
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
 []|\T1/lmr/m/n/12 (+20) 55.5
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
 []|\T1/lmr/m/n/12 (+20) 33.6
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
 []|\T1/lmr/m/n/12 (+20) 56.4
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
 []|\T1/lmr/m/n/12 (+20) 30.9
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
 []|\T1/lmr/m/n/12 (+20) 53.3
  []
 
 
-Underfull \hbox (badness 2376) in paragraph at lines 251--251
+Underfull \hbox (badness 2376) in paragraph at lines 250--250
 []|\T1/lmr/m/n/12 (+20) GC3 N216-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--251
+Underfull \hbox (badness 10000) in paragraph at lines 250--250
 []|\T1/lmr/m/n/12 (+20) 33.7
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--251
+Underfull \hbox (badness 10000) in paragraph at lines 250--250
 []|\T1/lmr/m/n/12 (+20) 55.1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--251
+Underfull \hbox (badness 10000) in paragraph at lines 250--250
 []|\T1/lmr/m/n/12 (+20) 32.6
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--251
+Underfull \hbox (badness 10000) in paragraph at lines 250--250
 []|\T1/lmr/m/n/12 (+20) 55.9
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--251
+Underfull \hbox (badness 10000) in paragraph at lines 250--250
 []|\T1/lmr/m/n/12 (+20) 32.4
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--252
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
 []|\T1/lmr/m/n/12 (+20) 53.8
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--252
+Underfull \hbox (badness 10000) in paragraph at lines 251--251
 []|\T1/lmr/m/n/12 (+20) 33.7
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--252
+Underfull \hbox (badness 10000) in paragraph at lines 251--251
 []|\T1/lmr/m/n/12 (+20) 55.0
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--252
+Underfull \hbox (badness 10000) in paragraph at lines 251--251
 []|\T1/lmr/m/n/12 (+20) 32.7
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--252
+Underfull \hbox (badness 10000) in paragraph at lines 251--251
 []|\T1/lmr/m/n/12 (+20) 56.3
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--251
+[]|\T1/lmr/m/n/12 (+20) 31.9
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
+[]|\T1/lmr/m/n/12 (+20) 54.1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
+[]|\T1/lmr/m/n/12 (+20) 33.8
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
+[]|\T1/lmr/m/n/12 (+20) 55.1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
+[]|\T1/lmr/m/n/12 (+20) 33.3
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
+[]|\T1/lmr/m/n/12 (+20) 56.0
  []
 
 
@@ -2719,118 +2721,83 @@ Underfull \hbox (badness 10000) in paragraph at lines 252--252
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 252--253
-[]|\T1/lmr/m/n/12 (+20) 54.1
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
-[]|\T1/lmr/m/n/12 (+20) 33.8
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
-[]|\T1/lmr/m/n/12 (+20) 55.1
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
-[]|\T1/lmr/m/n/12 (+20) 33.3
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
-[]|\T1/lmr/m/n/12 (+20) 56.0
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
-[]|\T1/lmr/m/n/12 (+20) 31.9
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
 []|\T1/lmr/m/n/12 (+20) 53.7
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--254
+Underfull \hbox (badness 10000) in paragraph at lines 253--253
 []|\T1/lmr/bx/n/12 34.5
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--254
+Underfull \hbox (badness 10000) in paragraph at lines 253--253
 []|\T1/lmr/m/n/12 (+20) 54.8
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--254
+Underfull \hbox (badness 10000) in paragraph at lines 253--253
 []|\T1/lmr/m/n/12 (+20) 34.1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--254
+Underfull \hbox (badness 10000) in paragraph at lines 253--253
 []|\T1/lmr/m/n/12 (+20) 56.1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--255
+Underfull \hbox (badness 10000) in paragraph at lines 254--254
 []|\T1/lmr/m/n/12 (+20) UKESM-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--255
+Underfull \hbox (badness 10000) in paragraph at lines 254--254
 []|\T1/lmr/bx/n/12 34.3
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--255
+Underfull \hbox (badness 10000) in paragraph at lines 254--254
 []|\T1/lmr/m/n/12 (+20) 54.3
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--255
+Underfull \hbox (badness 10000) in paragraph at lines 254--254
 []|\T1/lmr/m/n/12 (+20) 34.4
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--255
+Underfull \hbox (badness 10000) in paragraph at lines 254--254
 []|\T1/lmr/m/n/12 (+20) 55.6
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--255
+Underfull \hbox (badness 10000) in paragraph at lines 254--254
 []|\T1/lmr/m/n/12 (+20) 33.1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--260
+Underfull \hbox (badness 10000) in paragraph at lines 254--259
 []|\T1/lmr/m/n/12 (+20) 53.2
  []
 
 
-Overfull \hbox (14.31914pt too wide) in paragraph at lines 244--261
-[][] 
- []
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-<figures/wav_fig5.pdf, id=2879, 867.24pt x 578.16pt>
+[94] <figures/wav_fig5.pdf, id=2559, 867.24pt x 578.16pt>
 File: figures/wav_fig5.pdf Graphic file (type pdf)
 
 <use figures/wav_fig5.pdf>
-Package pdftex.def Info: figures/wav_fig5.pdf used on input line 266.
-(pdftex.def)             Requested size: 433.62pt x 289.07928pt.
+Package pdftex.def Info: figures/wav_fig5.pdf used on input line 282.
+(pdftex.def)             Requested size: 464.69556pt x 309.80217pt.
 
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[97] <figures/wav_fig6.png, id=2896, 939.51pt x 578.16pt>
+<figures/wav_fig6.png, id=2562, 939.51pt x 578.16pt>
 File: figures/wav_fig6.png Graphic file (type png)
 
 <use figures/wav_fig6.png>
-Package pdftex.def Info: figures/wav_fig6.png used on input line 282.
-(pdftex.def)             Requested size: 433.62pt x 266.83902pt.
+Package pdftex.def Info: figures/wav_fig6.png used on input line 291.
+(pdftex.def)             Requested size: 464.69556pt x 285.96512pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2838,12 +2805,13 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[98] <figures/map_nam_wav.pdf, id=2913, 1045.0242pt x 682.22879pt>
+[95 <./figures/wav_fig5.pdf>]
+<figures/map_nam_wav.pdf, id=2631, 1045.0242pt x 682.22879pt>
 File: figures/map_nam_wav.pdf Graphic file (type pdf)
 
 <use figures/map_nam_wav.pdf>
-Package pdftex.def Info: figures/map_nam_wav.pdf used on input line 294.
-(pdftex.def)             Requested size: 433.62pt x 283.07802pt.
+Package pdftex.def Info: figures/map_nam_wav.pdf used on input line 303.
+(pdftex.def)             Requested size: 464.69556pt x 303.36703pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2851,20 +2819,20 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[99 <./figures/wav_fig5.pdf>]
+[96 <./figures/wav_fig6.png>]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.11652pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[100 <./figures/wav_fig6.png>]
-<figures/wav_fig8.png, id=2981, 939.51pt x 650.43pt>
+[97 <./figures/map_nam_wav.pdf>]
+<figures/wav_fig8.png, id=2656, 939.51pt x 650.43pt>
 File: figures/wav_fig8.png Graphic file (type png)
 
 <use figures/wav_fig8.png>
-Package pdftex.def Info: figures/wav_fig8.png used on input line 343.
-(pdftex.def)             Requested size: 411.93767pt x 285.18768pt.
+Package pdftex.def Info: figures/wav_fig8.png used on input line 351.
+(pdftex.def)             Requested size: 441.45935pt x 305.62274pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2872,20 +2840,323 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[101 <./figures/map_nam_wav.pdf>]
-<figures/ind_models.png, id=2994, 1212.6906pt x 648.9846pt>
+[98] <figures/ind_models.png, id=2663, 1212.6906pt x 648.9846pt>
 File: figures/ind_models.png Graphic file (type png)
 
 <use figures/ind_models.png>
-Package pdftex.def Info: figures/ind_models.png used on input line 353.
-(pdftex.def)             Requested size: 433.62pt x 232.04985pt.
+Package pdftex.def Info: figures/ind_models.png used on input line 361.
+(pdftex.def)             Requested size: 464.69556pt x 248.68637pt.
 
-<figures/wav_fig9.pdf, id=3000, 1168.6059pt x 676.44719pt>
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[99 <./figures/wav_fig8.png>]
+<figures/wav_fig9.pdf, id=2676, 1168.6059pt x 676.44719pt>
 File: figures/wav_fig9.pdf Graphic file (type pdf)
 
 <use figures/wav_fig9.pdf>
-Package pdftex.def Info: figures/wav_fig9.pdf used on input line 366.
-(pdftex.def)             Requested size: 433.62pt x 250.99374pt.
+Package pdftex.def Info: figures/wav_fig9.pdf used on input line 375.
+(pdftex.def)             Requested size: 464.69556pt x 268.98453pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[100 <./figures/ind_models.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 393--393
+[]|\T1/lmr/m/n/12 (+20) 25.8
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 393--393
+[]|\T1/lmr/m/n/12 (+20) 61.6
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 393--393
+[]|\T1/lmr/m/n/12 (+20) 35.9
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 393--393
+[]|\T1/lmr/m/n/12 (+20) 49.0
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 393--393
+[]|\T1/lmr/m/n/12 (+20) -9.5
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 393--394
+[]|\T1/lmr/m/n/12 (+20) 10.4
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--394
+[]|\T1/lmr/m/n/12 (+20) 26.7
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--394
+[]|\T1/lmr/m/n/12 (+20) 60.6
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--394
+[]|\T1/lmr/m/n/12 (+20) 36.5
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--394
+[]|\T1/lmr/m/n/12 (+20) 48.0
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--394
+[]|\T1/lmr/m/n/12 (+20) -7.1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
+[]|\T1/lmr/m/n/12 (+20) 26.7
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
+[]|\T1/lmr/m/n/12 (+20) 61.4
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
+[]|\T1/lmr/m/n/12 (+20) 36.5
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
+[]|\T1/lmr/m/n/12 (+20) 48.3
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
+[]|\T1/lmr/m/n/12 (+20) -4.7
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
+[]|\T1/lmr/m/n/12 (+20) 26.5
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
+[]|\T1/lmr/m/n/12 (+20) 61.8
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
+[]|\T1/lmr/m/n/12 (+20) 36.1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
+[]|\T1/lmr/m/n/12 (+20) 48.8
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
+[]|\T1/lmr/m/n/12 (+20) -10.7
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--397
+[]|\T1/lmr/m/n/12 (+20) 11.8
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
+[]|\T1/lmr/m/n/12 (+20) UKESM-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
+[]|\T1/lmr/m/n/12 (+20) 27.4
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
+[]|\T1/lmr/m/n/12 (+20) 61.9
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
+[]|\T1/lmr/bx/n/12 38.2
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
+[]|\T1/lmr/bx/n/12 49.1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
+[]|\T1/lmr/m/n/12 (+20) -18.2
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
+[]|\T1/lmr/m/n/12 (+20) 14.6
+ []
+
+
+Underfull \hbox (badness 2781) in paragraph at lines 398--398
+[]|\T1/lmr/m/n/12 (+20) GC3 N96-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 398--398
+[]|\T1/lmr/m/n/12 (+20) 26.9
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 398--398
+[]|\T1/lmr/m/n/12 (+20) 62.3
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 398--398
+[]|\T1/lmr/bx/n/12 37.8
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 398--398
+[]|\T1/lmr/bx/n/12 49.9
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 398--398
+[]|\T1/lmr/m/n/12 (+20) -21.7
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 398--399
+[]|\T1/lmr/m/n/12 (+20) 16.8
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 399--399
+[]|\T1/lmr/m/n/12 (+20) 26.9
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 399--399
+[]|\T1/lmr/m/n/12 (+20) 62.2
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 399--399
+[]|\T1/lmr/bx/n/12 38.4
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 399--399
+[]|\T1/lmr/bx/n/12 50.0
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 399--399
+[]|\T1/lmr/m/n/12 (+20) -23.5
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 399--400
+[]|\T1/lmr/m/n/12 (+20) 14.1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
+[]|\T1/lmr/m/n/12 (+20) 26.9
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
+[]|\T1/lmr/bx/n/12 62.8
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
+[]|\T1/lmr/bx/n/12 37.8
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
+[]|\T1/lmr/bx/n/12 50.3
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
+[]|\T1/lmr/m/n/12 (+20) 17.1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 401--401
+[]|\T1/lmr/m/n/12 (+20) UKESM-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 401--401
+[]|\T1/lmr/bx/n/12 28.5
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 401--401
+[]|\T1/lmr/bx/n/12 62.8
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 401--401
+[]|\T1/lmr/bx/n/12 38.7
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 401--401
+[]|\T1/lmr/bx/n/12 50.1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 401--401
+[]|\T1/lmr/m/n/12 (+20) -20.3
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 401--406
+[]|\T1/lmr/m/n/12 (+20) 14.9
+ []
+
+<figures/wav_fig10.png, id=2687, 939.51pt x 867.24pt>
+File: figures/wav_fig10.png Graphic file (type png)
+
+<use figures/wav_fig10.png>
+Package pdftex.def Info: figures/wav_fig10.png used on input line 412.
+(pdftex.def)             Requested size: 441.45935pt x 407.497pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[101 <./figures/wav_fig9.pdf>]
+<figures/wav_fig5c.png, id=2701, 1084.05pt x 505.89pt>
+File: figures/wav_fig5c.png Graphic file (type png)
+
+<use figures/wav_fig5c.png>
+Package pdftex.def Info: figures/wav_fig5c.png used on input line 425.
+(pdftex.def)             Requested size: 464.69556pt x 216.85687pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2900,316 +3171,20 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[103 <./figures/wav_fig8.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 384--384
-[]|\T1/lmr/m/n/12 (+20) 25.8
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 384--384
-[]|\T1/lmr/m/n/12 (+20) 61.6
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 384--384
-[]|\T1/lmr/m/n/12 (+20) 35.9
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 384--384
-[]|\T1/lmr/m/n/12 (+20) 49.0
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 384--384
-[]|\T1/lmr/m/n/12 (+20) -9.5
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 384--385
-[]|\T1/lmr/m/n/12 (+20) 10.4
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 385--385
-[]|\T1/lmr/m/n/12 (+20) 26.7
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 385--385
-[]|\T1/lmr/m/n/12 (+20) 60.6
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 385--385
-[]|\T1/lmr/m/n/12 (+20) 36.5
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 385--385
-[]|\T1/lmr/m/n/12 (+20) 48.0
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 385--385
-[]|\T1/lmr/m/n/12 (+20) -7.1
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
-[]|\T1/lmr/m/n/12 (+20) 26.7
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
-[]|\T1/lmr/m/n/12 (+20) 61.4
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
-[]|\T1/lmr/m/n/12 (+20) 36.5
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
-[]|\T1/lmr/m/n/12 (+20) 48.3
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
-[]|\T1/lmr/m/n/12 (+20) -4.7
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 387--387
-[]|\T1/lmr/m/n/12 (+20) 26.5
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 387--387
-[]|\T1/lmr/m/n/12 (+20) 61.8
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 387--387
-[]|\T1/lmr/m/n/12 (+20) 36.1
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 387--387
-[]|\T1/lmr/m/n/12 (+20) 48.8
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 387--387
-[]|\T1/lmr/m/n/12 (+20) -10.7
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 387--388
-[]|\T1/lmr/m/n/12 (+20) 11.8
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 388--388
-[]|\T1/lmr/m/n/12 (+20) UKESM-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 388--388
-[]|\T1/lmr/m/n/12 (+20) 27.4
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 388--388
-[]|\T1/lmr/m/n/12 (+20) 61.9
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 388--388
-[]|\T1/lmr/bx/n/12 38.2
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 388--388
-[]|\T1/lmr/bx/n/12 49.1
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 388--388
-[]|\T1/lmr/m/n/12 (+20) -18.2
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 388--389
-[]|\T1/lmr/m/n/12 (+20) 14.6
- []
-
-
-Underfull \hbox (badness 2781) in paragraph at lines 389--389
-[]|\T1/lmr/m/n/12 (+20) GC3 N96-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 389--389
-[]|\T1/lmr/m/n/12 (+20) 26.9
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 389--389
-[]|\T1/lmr/m/n/12 (+20) 62.3
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 389--389
-[]|\T1/lmr/bx/n/12 37.8
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 389--389
-[]|\T1/lmr/bx/n/12 49.9
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 389--389
-[]|\T1/lmr/m/n/12 (+20) -21.7
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 389--390
-[]|\T1/lmr/m/n/12 (+20) 16.8
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 390--390
-[]|\T1/lmr/m/n/12 (+20) 26.9
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 390--390
-[]|\T1/lmr/m/n/12 (+20) 62.2
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 390--390
-[]|\T1/lmr/bx/n/12 38.4
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 390--390
-[]|\T1/lmr/bx/n/12 50.0
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 390--390
-[]|\T1/lmr/m/n/12 (+20) -23.5
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 390--391
-[]|\T1/lmr/m/n/12 (+20) 14.1
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 391--391
-[]|\T1/lmr/m/n/12 (+20) 26.9
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 391--391
-[]|\T1/lmr/bx/n/12 62.8
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 391--391
-[]|\T1/lmr/bx/n/12 37.8
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 391--391
-[]|\T1/lmr/bx/n/12 50.3
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 391--392
-[]|\T1/lmr/m/n/12 (+20) 17.1
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 392--392
-[]|\T1/lmr/m/n/12 (+20) UKESM-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 392--392
-[]|\T1/lmr/bx/n/12 28.5
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 392--392
-[]|\T1/lmr/bx/n/12 62.8
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 392--392
-[]|\T1/lmr/bx/n/12 38.7
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 392--392
-[]|\T1/lmr/bx/n/12 50.1
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 392--392
-[]|\T1/lmr/m/n/12 (+20) -20.3
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 392--397
-[]|\T1/lmr/m/n/12 (+20) 14.9
- []
-
-<figures/wav_fig10.png, id=3015, 939.51pt x 867.24pt>
-File: figures/wav_fig10.png Graphic file (type png)
-
-<use figures/wav_fig10.png>
-Package pdftex.def Info: figures/wav_fig10.png used on input line 403.
-(pdftex.def)             Requested size: 411.93767pt x 380.25026pt.
-
-<figures/wav_fig5c.png, id=3017, 1084.05pt x 505.89pt>
-File: figures/wav_fig5c.png Graphic file (type png)
-
-<use figures/wav_fig5c.png>
-Package pdftex.def Info: figures/wav_fig5c.png used on input line 416.
-(pdftex.def)             Requested size: 433.62pt x 202.3524pt.
-
+[103 <./figures/wav_fig10.png>]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.11652pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[104 <./figures/ind_models.png>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[105 <./figures/wav_fig9.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[106] <figures/wav_S1.pdf, id=3047, 842.66821pt x 502.27649pt>
+[104 <./figures/wav_fig5c.png>]
+<figures/wav_S1.pdf, id=2723, 842.66821pt x 502.27649pt>
 File: figures/wav_S1.pdf Graphic file (type pdf)
 
 <use figures/wav_S1.pdf>
-Package pdftex.def Info: figures/wav_S1.pdf used on input line 436.
-(pdftex.def)             Requested size: 433.62pt x 258.45685pt.
+Package pdftex.def Info: figures/wav_S1.pdf used on input line 448.
+(pdftex.def)             Requested size: 464.69556pt x 276.98102pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -3217,35 +3192,48 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[107 <./figures/wav_fig10.png>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[108 <./figures/wav_fig5c.png>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[109 <./figures/wav_S1.pdf>]
-<figures/wav_fig12.png, id=3072, 927.2241pt x 643.9257pt>
+[105 <./figures/wav_S1.pdf>]
+<figures/wav_fig12.png, id=2738, 927.2241pt x 643.9257pt>
 File: figures/wav_fig12.png Graphic file (type png)
 
 <use figures/wav_fig12.png>
-Package pdftex.def Info: figures/wav_fig12.png used on input line 466.
-(pdftex.def)             Requested size: 433.62pt x 301.13199pt.
+Package pdftex.def Info: figures/wav_fig12.png used on input line 472.
+(pdftex.def)             Requested size: 464.69556pt x 322.7088pt.
 
-<figures/wav_fig13.png, id=3082, 920.7198pt x 789.9111pt>
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[106] <figures/wav_fig13.png, id=2744, 920.7198pt x 789.9111pt>
 File: figures/wav_fig13.png Graphic file (type png)
 
 <use figures/wav_fig13.png>
-Package pdftex.def Info: figures/wav_fig13.png used on input line 478.
-(pdftex.def)             Requested size: 433.62pt x 372.01761pt.
+Package pdftex.def Info: figures/wav_fig13.png used on input line 485.
+(pdftex.def)             Requested size: 464.69556pt x 398.67897pt.
 
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[107 <./figures/wav_fig12.png>]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[108 <./figures/wav_fig13.png>]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.11652pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[109]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.11652pt.
@@ -3259,457 +3247,257 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[111 <./figures/wav_fig12.png>]
+[111])
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.11652pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[112 <./figures/wav_fig13.png>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[113]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[114])
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[115]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[116]
+[112]
 \openout2 = `text/ch-msd.aux'.
 
  (./text/ch-msd.tex
 Chapter 6.
-
-Underfull \vbox (badness 3049) has occurred while \output is active []
-
- [117
+[113
 
 
 
-]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[118] <figures/seasonal_cycle_p3.png, id=3177, 867.24pt x 505.89pt>
+] [114] <figures/seasonal_cycle_p3.png, id=2841, 867.24pt x 505.89pt>
 File: figures/seasonal_cycle_p3.png Graphic file (type png)
 
 <use figures/seasonal_cycle_p3.png>
 Package pdftex.def Info: figures/seasonal_cycle_p3.png used on input line 49.
-(pdftex.def)             Requested size: 433.62pt x 252.94437pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[119]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[120 <./figures/seasonal_cycle_p3.png>]
-<figures/explain_fig_msd.png, id=3195, 852.0633pt x 358.4592pt>
+(pdftex.def)             Requested size: 464.69556pt x 271.07689pt.
+ [115] [116 <./figures/seasonal_cycle_p3.png>] <figures/explain_fig_msd.png, id
+=2857, 852.0633pt x 358.4592pt>
 File: figures/explain_fig_msd.png Graphic file (type png)
 
 <use figures/explain_fig_msd.png>
 Package pdftex.def Info: figures/explain_fig_msd.png used on input line 84.
-(pdftex.def)             Requested size: 433.62pt x 182.42342pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[121]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[122 <./figures/explain_fig_msd.png>]
-<figures/fig2obs_prdiff_2.png, id=3208, 1228.59pt x 794.97pt>
+(pdftex.def)             Requested size: 464.69556pt x 195.50133pt.
+ [117 <./figures/explain_fig_msd.png>]
+[118] <figures/fig2obs_prdiff_2.png, id=2871, 1228.59pt x 794.97pt>
 File: figures/fig2obs_prdiff_2.png Graphic file (type png)
 
 <use figures/fig2obs_prdiff_2.png>
 Package pdftex.def Info: figures/fig2obs_prdiff_2.png used on input line 110.
-(pdftex.def)             Requested size: 433.62pt x 280.57268pt.
-
-<figures/fig2obs_prmodels3.png, id=3212, 1084.05pt x 867.24pt>
+(pdftex.def)             Requested size: 464.69556pt x 300.68463pt.
+ [119 <./figures/fig2obs_prdiff_2.png>]
+<figures/fig2obs_prmodels3.png, id=2880, 1084.05pt x 794.97pt>
 File: figures/fig2obs_prmodels3.png Graphic file (type png)
 
 <use figures/fig2obs_prmodels3.png>
 Package pdftex.def Info: figures/fig2obs_prmodels3.png used on input line 122.
-(pdftex.def)             Requested size: 433.62pt x 346.88986pt.
+(pdftex.def)             Requested size: 464.69556pt x 340.7751pt.
 
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[123] <figures/dumscatter_2.png, id=3218, 939.51pt x 794.97pt>
+<figures/dumscatter_2.png, id=2882, 939.51pt x 794.97pt>
 File: figures/dumscatter_2.png Graphic file (type png)
 
 <use figures/dumscatter_2.png>
 Package pdftex.def Info: figures/dumscatter_2.png used on input line 134.
-(pdftex.def)             Requested size: 433.62pt x 366.90367pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[124 <./figures/fig2obs_prdiff_2.png>]
-<figures/fig4_olrv_3.png, id=3226, 1011.78pt x 867.24pt>
+(pdftex.def)             Requested size: 464.69556pt x 393.20204pt.
+ [120 <./figures/fig2obs_prmodels3.png>] [121 <./figures/dumscatter_2.png>]
+<figures/fig4_olrv_3.png, id=2894, 1001.6622pt x 933.7284pt>
 File: figures/fig4_olrv_3.png Graphic file (type png)
 
 <use figures/fig4_olrv_3.png>
 Package pdftex.def Info: figures/fig4_olrv_3.png used on input line 149.
-(pdftex.def)             Requested size: 433.62pt x 371.67526pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[125 <./figures/fig2obs_prmodels3.png>]
-<figures/index_seasonal.png, id=3235, 852.786pt x 650.43pt>
+(pdftex.def)             Requested size: 464.69556pt x 433.16765pt.
+ [122 <./figures/fig4_olrv_3.png>]
+<figures/index_seasonal.png, id=2903, 852.786pt x 650.43pt>
 File: figures/index_seasonal.png Graphic file (type png)
 
 <use figures/index_seasonal.png>
 Package pdftex.def Info: figures/index_seasonal.png used on input line 159.
-(pdftex.def)             Requested size: 433.62pt x 330.72243pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[126 <./figures/dumscatter_2.png>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[127 <./figures/fig4_olrv_3.png>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[128 <./figures/index_seasonal.png>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[129] <figures/fig4_sstv_3.png, id=3272, 982.872pt x 867.24pt>
+(pdftex.def)             Requested size: 464.69556pt x 354.42273pt.
+ [123] [124 <./figures/index_seasonal.png>]
+<figures/fig4_sstv_3.png, id=2932, 1003.1076pt x 933.0057pt>
 File: figures/fig4_sstv_3.png Graphic file (type png)
 
 <use figures/fig4_sstv_3.png>
 Package pdftex.def Info: figures/fig4_sstv_3.png used on input line 206.
-(pdftex.def)             Requested size: 433.62pt x 382.60573pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[130 <./figures/fig4_sstv_3.png>]
-<figures/master_sst_scatter.png, id=3284, 867.24pt x 650.43pt>
+(pdftex.def)             Requested size: 464.69556pt x 432.22021pt.
+ [125] [126 <./figures/fig4_sstv_3.png>]
+<figures/master_sst_scatter.png, id=2947, 867.24pt x 650.43pt>
 File: figures/master_sst_scatter.png Graphic file (type png)
 
 <use figures/master_sst_scatter.png>
 Package pdftex.def Info: figures/master_sst_scatter.png used on input line 227.
 
-(pdftex.def)             Requested size: 433.62pt x 325.2142pt.
-
-<figures/sst_scatter_f.png, id=3292, 794.97pt x 650.43pt>
+(pdftex.def)             Requested size: 464.69556pt x 348.52744pt.
+ [127 <./figures/master_sst_scatter.png>]
+<figures/sst_scatter_f.png, id=2960, 794.97pt x 650.43pt>
 File: figures/sst_scatter_f.png Graphic file (type png)
 
 <use figures/sst_scatter_f.png>
 Package pdftex.def Info: figures/sst_scatter_f.png used on input line 241.
-(pdftex.def)             Requested size: 433.62pt x 354.78995pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[131]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[132 <./figures/master_sst_scatter.png>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[133 <./figures/sst_scatter_f.png>]
-<figures/sst_regg.png, id=3320, 867.24pt x 505.89pt>
+(pdftex.def)             Requested size: 464.69556pt x 380.21716pt.
+ [128 <./figures/sst_scatter_f.png>]
+<figures/sst_regg.png, id=2977, 867.24pt x 505.89pt>
 File: figures/sst_regg.png Graphic file (type png)
 
 <use figures/sst_regg.png>
 Package pdftex.def Info: figures/sst_regg.png used on input line 259.
-(pdftex.def)             Requested size: 433.62pt x 252.94437pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[134 <./figures/sst_regg.png>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[135] <figures/fig4_creclim_3.png, id=3352, 939.51pt x 578.16pt>
+(pdftex.def)             Requested size: 464.69556pt x 271.07689pt.
+ [129] [130 <./figures/sst_regg.png>]
+<figures/fig4_creclim_3.png, id=3002, 939.51pt x 578.16pt>
 File: figures/fig4_creclim_3.png Graphic file (type png)
 
 <use figures/fig4_creclim_3.png>
-Package pdftex.def Info: figures/fig4_creclim_3.png used on input line 299.
-(pdftex.def)             Requested size: 433.62pt x 266.83902pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[136 <./figures/fig4_creclim_3.png>]
-<figures/fig4_swclim_3.png, id=3362, 939.51pt x 578.16pt>
+Package pdftex.def Info: figures/fig4_creclim_3.png used on input line 290.
+(pdftex.def)             Requested size: 464.69556pt x 285.96512pt.
+ [131]
+<figures/fig4_swclim_3.png, id=3019, 939.51pt x 578.16pt>
 File: figures/fig4_swclim_3.png Graphic file (type png)
 
 <use figures/fig4_swclim_3.png>
-Package pdftex.def Info: figures/fig4_swclim_3.png used on input line 315.
-(pdftex.def)             Requested size: 433.62pt x 266.83902pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[137 <./figures/fig4_swclim_3.png>]
-<figures/fig4_lwclim_3.png, id=3373, 939.51pt x 578.16pt>
+Package pdftex.def Info: figures/fig4_swclim_3.png used on input line 317.
+(pdftex.def)             Requested size: 464.69556pt x 285.96512pt.
+ [132 <./figures/fig4_creclim_3.png>]
+<figures/fig4_lwclim_3.png, id=3031, 939.51pt x 578.16pt>
 File: figures/fig4_lwclim_3.png Graphic file (type png)
 
 <use figures/fig4_lwclim_3.png>
-Package pdftex.def Info: figures/fig4_lwclim_3.png used on input line 327.
-(pdftex.def)             Requested size: 433.62pt x 266.83902pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[138 <./figures/fig4_lwclim_3.png>]
-<figures/cre_index_seasonal.png, id=3383, 867.24pt x 650.43pt>
+Package pdftex.def Info: figures/fig4_lwclim_3.png used on input line 329.
+(pdftex.def)             Requested size: 464.69556pt x 285.96512pt.
+ [133 <./figures/fig4_swclim_3.png>]
+<figures/cre_index_seasonal.png, id=3042, 867.24pt x 650.43pt>
 File: figures/cre_index_seasonal.png Graphic file (type png)
 
 <use figures/cre_index_seasonal.png>
-Package pdftex.def Info: figures/cre_index_seasonal.png used on input line 337.
+Package pdftex.def Info: figures/cre_index_seasonal.png used on input line 339.
 
-(pdftex.def)             Requested size: 433.62pt x 325.2142pt.
-
-<figures/fig4_netswdif_3.png, id=3389, 939.51pt x 1011.78pt>
+(pdftex.def)             Requested size: 464.69556pt x 348.52744pt.
+ [134 <./figures/fig4_lwclim_3.png>]
+<figures/fig4_netswdif_3.png, id=3053, 939.51pt x 1011.78pt>
 File: figures/fig4_netswdif_3.png Graphic file (type png)
 
 <use figures/fig4_netswdif_3.png>
-Package pdftex.def Info: figures/fig4_netswdif_3.png used on input line 346.
-(pdftex.def)             Requested size: 433.62pt x 466.96829pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[139 <./figures/cre_index_seasonal.png>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[140 <./figures/fig4_netswdif_3.png>]
-<figures/cloud_scatter_f.png, id=3408, 1011.78pt x 650.43pt>
+Package pdftex.def Info: figures/fig4_netswdif_3.png used on input line 348.
+(pdftex.def)             Requested size: 464.69556pt x 500.43896pt.
+ [135 <./figures/cre_index_seasonal.png>]
+<figures/cloud_scatter_f.png, id=3067, 1011.78pt x 650.43pt>
 File: figures/cloud_scatter_f.png Graphic file (type png)
 
 <use figures/cloud_scatter_f.png>
-Package pdftex.def Info: figures/cloud_scatter_f.png used on input line 356.
-(pdftex.def)             Requested size: 433.62pt x 278.75644pt.
+Package pdftex.def Info: figures/cloud_scatter_f.png used on input line 358.
+(pdftex.def)             Requested size: 464.69556pt x 298.73497pt.
 
-<figures/lwfig_clim_1.png, id=3409, 920.7198pt x 560.0925pt>
+<figures/lwfig_clim_1.png, id=3068, 920.7198pt x 560.0925pt>
 File: figures/lwfig_clim_1.png Graphic file (type png)
 
 <use figures/lwfig_clim_1.png>
-Package pdftex.def Info: figures/lwfig_clim_1.png used on input line 366.
-(pdftex.def)             Requested size: 433.62pt x 263.78192pt.
+Package pdftex.def Info: figures/lwfig_clim_1.png used on input line 368.
+(pdftex.def)             Requested size: 464.69556pt x 282.68637pt.
+ [136 <./figures/fig4_netswdif_3.png>] [137 <./figures/cloud_scatter_f.png>] [1
+38 <./figures/lwfig_clim_1.png>]
+<figures/imfd_index_seasonal.png, id=3104, 1011.78pt x 433.62pt>
+File: figures/imfd_index_seasonal.png Graphic file (type png)
 
-<figures/modcompar_dif2u3.png, id=3415, 1011.78pt x 722.7pt>
-File: figures/modcompar_dif2u3.png Graphic file (type png)
+<use figures/imfd_index_seasonal.png>
+Package pdftex.def Info: figures/imfd_index_seasonal.png used on input line 402
+.
+(pdftex.def)             Requested size: 464.69556pt x 199.15665pt.
+ [139 <./figures/imfd_index_seasonal.png>] <figures/imfdcomposite.png, id=3116,
+ 1084.05pt x 794.97pt>
+File: figures/imfdcomposite.png Graphic file (type png)
 
-<use figures/modcompar_dif2u3.png>
-Package pdftex.def Info: figures/modcompar_dif2u3.png used on input line 384.
-(pdftex.def)             Requested size: 433.62pt x 309.72939pt.
+<use figures/imfdcomposite.png>
+Package pdftex.def Info: figures/imfdcomposite.png used on input line 413.
+(pdftex.def)             Requested size: 464.69556pt x 340.7751pt.
+ [140 <./figures/imfdcomposite.png>]
+<figures/imfd_scatter.png, id=3128, 1011.78pt x 650.43pt>
+File: figures/imfd_scatter.png Graphic file (type png)
 
+<use figures/imfd_scatter.png>
+Package pdftex.def Info: figures/imfd_scatter.png used on input line 428.
+(pdftex.def)             Requested size: 464.69556pt x 298.73497pt.
+ [141 <./figures/imfd_scatter.png>] [142]
+<figures/thermopentad.png, id=3143, 867.24pt x 650.43pt>
+File: figures/thermopentad.png Graphic file (type png)
 
-LaTeX Warning: Reference `fig:msdolranom' on page 141 undefined on input line 3
-85.
+<use figures/thermopentad.png>
+Package pdftex.def Info: figures/thermopentad.png used on input line 450.
+(pdftex.def)             Requested size: 464.69556pt x 348.52744pt.
+ [143 <./figures/thermopentad.png>]
+<figures/thermocompositewdhdp.png, id=3150, 1084.05pt x 722.7pt>
+File: figures/thermocompositewdhdp.png Graphic file (type png)
 
+<use figures/thermocompositewdhdp.png>
+Package pdftex.def Info: figures/thermocompositewdhdp.png used on input line 46
+2.
+(pdftex.def)             Requested size: 464.69556pt x 309.79555pt.
 
-LaTeX Warning: Reference `fig:msdolranom' on page 141 undefined on input line 3
-85.
+<figures/thermocompositeMv.png, id=3151, 1084.05pt x 722.7pt>
+File: figures/thermocompositeMv.png Graphic file (type png)
 
+<use figures/thermocompositeMv.png>
+Package pdftex.def Info: figures/thermocompositeMv.png used on input line 470.
+(pdftex.def)             Requested size: 464.69556pt x 309.79555pt.
+ [144]
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+LaTeX Warning: Reference `fig:wdhdpcompo' on page 145 undefined on input line 4
+80.
 
-[141 <./figures/cloud_scatter_f.png>]
-<figures/modcompar_dif2mfc3.png, id=3422, 1156.32pt x 578.16pt>
-File: figures/modcompar_dif2mfc3.png Graphic file (type png)
+<figures/thermo_scatter.png, id=3162, 1011.78pt x 650.43pt>
+File: figures/thermo_scatter.png Graphic file (type png)
 
-<use figures/modcompar_dif2mfc3.png>
-Package pdftex.def Info: figures/modcompar_dif2mfc3.png used on input line 391.
+<use figures/thermo_scatter.png>
+Package pdftex.def Info: figures/thermo_scatter.png used on input line 485.
+(pdftex.def)             Requested size: 464.69556pt x 298.73497pt.
+ [145 <./figures/thermocompositewdhdp.png>]
+[146 <./figures/thermocompositeMv.png>]
 
-(pdftex.def)             Requested size: 433.62pt x 216.80946pt.
+LaTeX Warning: Reference `sq:lit' on page 147 undefined on input line 503.
 
+[147 <./figures/thermo_scatter.png>]
 
-LaTeX Warning: Reference `fig:msdolranom' on page 142 undefined on input line 3
-92.
-
-
-LaTeX Warning: Reference `fig:msdolranom' on page 142 undefined on input line 3
-92.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[142 <./figures/lwfig_clim_1.png>]
-
-LaTeX Warning: Text page 143 contains only floats.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[143 <./figures/modcompar_dif2u3.png> <./figures/modcompar_dif2mfc3.png>]
-<figures/scatter.png, id=3454, 939.51pt x 1011.78pt>
-File: figures/scatter.png Graphic file (type png)
- <use figures/scatter.png>
-Package pdftex.def Info: figures/scatter.png used on input line 445.
-(pdftex.def)             Requested size: 433.62pt x 466.96829pt.
-
-Underfull \vbox (badness 1077) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[144]
-
-LaTeX Warning: Text page 145 contains only floats.
+LaTeX Warning: Reference `fig:scatter' on page 148 undefined on input line 519.
 
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
 
-[145 <./figures/scatter.png>]
-
-LaTeX Warning: Reference `sq:lit' on page 146 undefined on input line 453.
+LaTeX Warning: Reference `fig:scatter' on page 148 undefined on input line 524.
 
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
 
-[146]
+LaTeX Warning: Reference `fig:scatter' on page 148 undefined on input line 525.
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
 
-[147]
+[148]
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+LaTeX Warning: Reference `fig:scatter' on page 149 undefined on input line 527.
 
-[148])
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.11652pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
 
-[149] (./Oxford_Thesis.bbl [150
+LaTeX Warning: Reference `fig:msduanom' on page 149 undefined on input line 529
+.
+
+
+LaTeX Warning: Reference `fig:scatter' on page 149 undefined on input line 534.
+
+
+
+LaTeX Warning: Reference `fig:scatter' on page 149 undefined on input line 537.
+
+
+
+LaTeX Warning: Reference `fig:scatter' on page 149 undefined on input line 541.
+
+
+[149]
+
+LaTeX Warning: Reference `fig:scatter' on page 150 undefined on input line 545.
+
+
+
+LaTeX Warning: Reference `fig:scatter' on page 150 undefined on input line 549.
+
+
+) [150] (./Oxford_Thesis.bbl [151
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [151]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [152]
@@ -3772,9 +3560,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 242.
 (./text/ch5-wvt.aux) (./text/ch-msd.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 242.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 242.
-Package rerunfilecheck Info: File `Oxford_Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 3291319B5C115DC59690F514C8A3FC37;4907.
 
+
+Package rerunfilecheck Warning: File `Oxford_Thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Oxford_Thesis.out':
+(rerunfilecheck)             Before: B53C35EE0AB15E64946A92D48C487738;4900
+(rerunfilecheck)             After:  531F0C428894CE13E24B111EDD5548FF;4900.
 
 LaTeX Warning: There were undefined references.
 
@@ -3784,35 +3578,38 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 242.
  ) 
 Here is how much of TeX's memory you used:
- 26438 strings out of 494777
- 439919 string characters out of 6176443
- 623306 words of memory out of 5000000
- 28181 multiletter control sequences out of 15000+600000
- 106633 words of font info for 199 fonts, out of 8000000 for 9000
+ 26441 strings out of 494777
+ 440337 string characters out of 6176443
+ 595566 words of memory out of 5000000
+ 28197 multiletter control sequences out of 15000+600000
+ 105943 words of font info for 191 fonts, out of 8000000 for 9000
  107 hyphenation exceptions out of 8191
- 46i,13n,53p,10365b,1084s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share
-/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/d
-vips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share
-/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm
-/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi
-10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb>
-</usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1
-/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/l
-m/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf
-/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy1
-0.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts
-/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-</usr/share/texmf/fonts/type1/public/lm/lmtti10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/adobe/utopia/putb8a.pfb>
-Output written on Oxford_Thesis.pdf (183 pages, 24445305 bytes).
+ 46i,13n,53p,10365b,1088s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{chapter*.77} has been referenced but does not exi
+st, replaced by a fixed one
+
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvip
+s/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/t
+exmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-m
+athsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texlive/t
+exmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/public/lm/l
+mbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/
+lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmtti10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/adobe/utopia/putb8a.pfb>
+Output written on Oxford_Thesis.pdf (178 pages, 26036665 bytes).
 PDF statistics:
- 3798 PDF objects out of 4296 (max. 8388607)
- 3185 compressed objects within 32 object streams
- 577 named destinations out of 1000 (max. 500000)
- 29474 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 3494 PDF objects out of 3580 (max. 8388607)
+ 2930 compressed objects within 30 object streams
+ 576 named destinations out of 1000 (max. 500000)
+ 29494 words of extra memory for PDF output out of 29859 (max. 10000000)
 
