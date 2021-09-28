@@ -1,65 +1,80 @@
 \select@language {english}
-\contentsline {chapter}{List of Figures}{\textlatin {vii}}{chapter*.6}
-\contentsline {xchapter}{}{\textlatin {viii}}{chapter*.6}
-\contentsline {chapter}{List of Abbreviations}{\textlatin {ix}}{chapter*.7}
-\contentsline {xchapter}{}{\textlatin {ix}}{chapter*.7}
+\contentsline {chapter}{List of Figures}{\textlatin {viii}}{chapter*.6}
+\contentsline {xchapter}{}{\textlatin {x}}{chapter*.6}
+\contentsline {chapter}{List of Abbreviations}{\textlatin {xi}}{chapter*.7}
+\contentsline {xchapter}{}{\textlatin {xi}}{chapter*.7}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Thesis aims and outline}{4}{section.1.2}
 \contentsline {chapter}{\numberline {2}Background}{7}{chapter.2}
 \contentsline {section}{\numberline {2.1}The tropical circulation and the global monsoon}{7}{section.2.1}
-\contentsline {section}{\numberline {2.2}The American Monsoon System}{13}{section.2.2}
-\contentsline {section}{\numberline {2.3}A review on the proposed mechanisms for the Midsummer drought}{16}{section.2.3}
-\contentsline {section}{\numberline {2.4}El Ni\IeC {\~n}o Southern Oscillation: impacts to the American monsoon system}{20}{section.2.4}
-\contentsline {section}{\numberline {2.5}Stratosphere-Troposphere Coupling in the Tropics}{23}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}The Quasi-biennial oscillation (QBO)}{23}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Tropical teleconnections of the QBO}{25}{subsection.2.5.2}
-\contentsline {chapter}{\numberline {3}Data and methods}{30}{chapter.3}
-\contentsline {section}{\numberline {3.1}Observations and reanalysis data}{30}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Gridded precipitation datasets}{30}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}ERA-5}{33}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}The Unified Model of the Met Office Hadley Centre}{34}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}The Global Coupled Configurations of HadGEM3}{34}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}The CMIP6 experiments}{35}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}The Moist Static Energy Budget}{38}{section.3.3}
-\contentsline {chapter}{\numberline {4}The American monsoon system in UKESM1 and HadGEM3}{40}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{41}{section.4.1}
-\contentsline {section}{\numberline {4.2}Methods and data}{43}{section.4.2}
-\contentsline {section}{\numberline {4.3}Climatological temperature and low-level wind biases}{44}{section.4.3}
-\contentsline {section}{\numberline {4.4}The Atlantic and Pacific ITCZs and the SACZ}{49}{section.4.4}
-\contentsline {section}{\numberline {4.5}Precipitation and convection in the AMS}{54}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Mean seasonal precipitation}{54}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}The annual cycle of rainfall}{57}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Characteristics of convective activity}{60}{subsection.4.5.3}
-\contentsline {section}{\numberline {4.6}ENSO Teleconnections}{62}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Canonical teleconnections}{62}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}The role of ENSO flavours}{69}{subsection.4.6.2}
-\contentsline {subsection}{\numberline {4.6.3}A possible influence of the QBO on tropical ENSO teleconnections}{70}{subsection.4.6.3}
-\contentsline {section}{\numberline {4.7}Summary and discussion}{74}{section.4.7}
-\contentsline {chapter}{\numberline {5}A wavelet transform method to determine monsoon onset and retreat from precipitation time-series}{80}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{81}{section.5.1}
-\contentsline {section}{\numberline {5.2}Data}{84}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Precipitation datasets and reanalysis data}{84}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Model data}{84}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}The wavelet transform method}{84}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Identification of Monsoon Onset and Retreat}{87}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Extension for Application to the MSD signal}{90}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Comparative Methodologies}{92}{subsection.5.3.3}
-\contentsline {section}{\numberline {5.4}Results}{94}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}The North American Monsoon}{95}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}The Indian Monsoon}{98}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}The midsummer drought}{101}{subsection.5.4.3}
-\contentsline {section}{\numberline {5.5}Summary and discussion}{109}{section.5.5}
-\contentsline {chapter}{\numberline {6}Mechanisms of the Mesoamerican midsummer drought in the MOHC CMIP6 experiments}{113}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{113}{section.6.1}
-\contentsline {section}{\numberline {6.2}Data and methods}{117}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Observations and reanalysis data}{117}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}CMIP6 data}{117}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Determination of the timings of the MSD}{118}{subsection.6.2.3}
-\contentsline {section}{\numberline {6.3}Climatological features}{118}{section.6.3}
-\contentsline {section}{\numberline {6.4}The East Pacific SSTs}{125}{section.6.4}
-\contentsline {section}{\numberline {6.5}On the role of cloud-radiative effects}{131}{section.6.5}
-\contentsline {section}{\numberline {6.6}The role of the Caribbean Low-Level Jet}{138}{section.6.6}
-\contentsline {section}{\numberline {6.7}A short look at the MSD mechanism through the lense of the moist static energy budget}{143}{section.6.7}
-\contentsline {section}{\numberline {6.8}Summary and discussion}{146}{section.6.8}
-\contentsline {chapter}{Bibliography}{151}{chapter*.78}
+\contentsline {section}{\numberline {2.2}The American Monsoon System}{14}{section.2.2}
+\contentsline {section}{\numberline {2.3}A review of the physical mechanisms for the Midsummer drought}{17}{section.2.3}
+\contentsline {section}{\numberline {2.4}El Ni\IeC {\~n}o Southern Oscillation: impacts to the American monsoon system}{21}{section.2.4}
+\contentsline {section}{\numberline {2.5}Stratosphere-Troposphere Coupling in the Tropics}{24}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}The Quasi-biennial oscillation (QBO)}{25}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Tropical teleconnections of the QBO}{26}{subsection.2.5.2}
+\contentsline {chapter}{\numberline {3}Data and methods}{31}{chapter.3}
+\contentsline {section}{\numberline {3.1}Observations and reanalysis data}{31}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Gridded precipitation datasets}{31}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}ERA-5}{34}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}The Unified Model of the Met Office Hadley Centre}{35}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}The Global Coupled Configurations of HadGEM3}{35}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}The CMIP6 experiments}{38}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}The Moist Static Energy Budget}{39}{section.3.3}
+\contentsline {chapter}{\numberline {4}The American monsoon system in UKESM1 and HadGEM3}{42}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{43}{section.4.1}
+\contentsline {section}{\numberline {4.2}Methods and data}{45}{section.4.2}
+\contentsline {section}{\numberline {4.3}Climatological temperature and low-level wind biases}{46}{section.4.3}
+\contentsline {section}{\numberline {4.4}The Atlantic and Pacific ITCZs and the SACZ}{52}{section.4.4}
+\contentsline {section}{\numberline {4.5}Precipitation and convection in the AMS}{57}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Mean seasonal precipitation}{57}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}The annual cycle of rainfall}{61}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Characteristics of convective activity}{63}{subsection.4.5.3}
+\contentsline {section}{\numberline {4.6}ENSO Teleconnections}{66}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Canonical teleconnections}{66}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}The role of ENSO flavours}{71}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}A possible influence of the QBO on tropical ENSO teleconnections}{74}{subsection.4.6.3}
+\contentsline {section}{\numberline {4.7}Summary and discussion}{78}{section.4.7}
+\contentsline {chapter}{\numberline {5}A wavelet transform method to determine monsoon onset and retreat from precipitation time-series}{83}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{84}{section.5.1}
+\contentsline {section}{\numberline {5.2}Data}{87}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Precipitation datasets and reanalysis data}{87}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Model data}{87}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}The wavelet transform method}{87}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Identification of Monsoon Onset and Retreat}{90}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Extension for Application to the MSD signal}{93}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Comparative Methodologies}{95}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}Results}{97}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}The North American Monsoon}{98}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}The Indian Monsoon}{101}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}The midsummer drought}{104}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.5}Summary and discussion}{112}{section.5.5}
+\contentsline {chapter}{\numberline {6}Mechanisms of the Mesoamerican midsummer drought in the MOHC CMIP6 experiments}{116}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{117}{section.6.1}
+\contentsline {section}{\numberline {6.2}Data and methods}{119}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Observations and reanalysis data}{119}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}CMIP6 data}{120}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Determination of the timings of the MSD}{120}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Climatological features}{121}{section.6.3}
+\contentsline {section}{\numberline {6.4}The East Pacific SSTs}{128}{section.6.4}
+\contentsline {section}{\numberline {6.5}On the role of cloud-radiative effects}{135}{section.6.5}
+\contentsline {section}{\numberline {6.6}The role of the Caribbean Low-Level Jet}{143}{section.6.6}
+\contentsline {section}{\numberline {6.7}A short look at the MSD through the lense of the moist static energy budget}{149}{section.6.7}
+\contentsline {section}{\numberline {6.8}Summary and discussion}{156}{section.6.8}
+\contentsline {chapter}{\numberline {7} QBO Teleconnections: the tropical route }{160}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{160}{section.7.1}
+\contentsline {section}{\numberline {7.2}Methods and data}{161}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}CMIP6 data}{162}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Indices}{162}{subsection.7.2.2}
+\contentsline {section}{\numberline {7.3}Teleconnections in the pre-industrial control experiments}{162}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Seasonal variability}{163}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Impacts over the ITCZ and the monsoons}{168}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Interaction with ENSO and teleconnections}{171}{subsection.7.3.3}
+\contentsline {section}{\numberline {7.4}Nudging experiments}{171}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}The case for nudging}{172}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}The nudging protocol}{173}{subsection.7.4.2}
+\contentsline {section}{\numberline {7.5}The effect of nudging for QBO surface impacts in the tropics}{177}{section.7.5}
+\contentsline {subsection}{\numberline {7.5.1}Tropical UTLS variability}{178}{subsection.7.5.1}
+\contentsline {subsection}{\numberline {7.5.2}Monsoon rainfall}{179}{subsection.7.5.2}
+\contentsline {chapter}{Bibliography}{180}{chapter*.101}

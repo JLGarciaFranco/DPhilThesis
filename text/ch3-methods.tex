@@ -31,23 +31,24 @@ European Centre for Medium-Range Forecasting ERA-5                            & 
 
 \end{sidewaystable}
 
-\section{Observations and reanalysis data}
+\section{Observations and reanalysis data} \label{sq:obsdata}
 %We use several observational and reanalysis datasets to validate the simulations.
-Continous and reliable observations of Earth's  atmosphere and ocean have only been possible in recent decades, due to the advent of satellites. In particular, precipitation analyses have benefited greatly from satellite-derived estimates of precipitation in regions where station-data is non-existent such as oceans.  %most of which rely on the use of satellite data one way or another. 
+%This thesis uses a number of observational datasets as well as reanalysis data for variables that are 1not easily observed.
+Continous and reliable observations of Earth's  atmosphere and ocean have only been possible in recent decades, due to the advent of satellites. In particular, precipitation analyses have benefited greatly from satellite-derived estimates of precipitation in regions where station-data is non-existent such as over oceans.  %most of which rely on the use of satellite data one way or another. 
 This thesis uses several data sources for precipitation from various gridded precipitation datasets. 
-Several dynamic diagnostics are also used in this thesis, which are taken from the latest reanalysis from the European Centre from European Centre for Medium-Range Weather Forecasts, described below. 
+Several dynamic diagnostics are also used in this thesis, which are taken from the latest reanalysis from the European Centre from European Centre for Medium-Range Weather Forecasts (ECMWF), described below. 
 Table \ref{tab:1} summarises relevant information of the observations and reanalysis datasets used in this study.
  
 
 \subsection{Gridded precipitation datasets}
 
-The Tropical Rainfall Measurement Mission (TRMM) dataset is a multi-satellite multi-sensor infra-red precipitation product that is available on several versions that are made with different algorithms and calibrations with surface rain-gauge data \citep{huffman2007}. This thesis uses the daily product TRMM version 7 3B42 provided by the Goddard Earth Sciences Data and Information Services Center \citep{mission2011trmm} at \url{https://disc.gsfc.nasa.gov/datasets/TRMM_3B42_7/}.
+The Tropical Rainfall Measurement Mission (TRMM) dataset is a multi-satellite multi-sensor infra-red precipitation product. Several versions are available that use with different algorithms and calibrations with surface rain-gauge data \citep{huffman2007}. This thesis uses the daily product TRMM version 7 3B42 provided by the Goddard Earth Sciences Data and Information Services Center \citep{mission2011trmm} at \url{https://disc.gsfc.nasa.gov/datasets/TRMM_3B42_7/}.
 
  A set of microwave and infra-red sensors onboard low earth orbit (LEO) satellites, such as the Microwave Imager (TMI) and the Advanced Microwave Scanning Radiometer-Earth Observing System (AMSR-E), provide the main source of information about hydrometeors for TRMM. The microwave sensor data is used to calibrate the infrared data to produce a first estimate of precipitation. However, even using the products of several satellites there is a sparse sampling of time-space precipitation  in passive microwave techniques. Therefore, this data is complimented by infrared measurements onboard geosynchronous earth orbit satellites. Other sources of information include a radar onboard TRMM and rain gauge analysis. Details of the research product can be found in \cite{huffman2007} and \cite{mission2011}.
 
 The Climate Prediction Center Merged Analysis of Precipitation (CMAP) dataset is a global merged product of satellite and ground based observations but also constrained by a numerical model \citep{Xie2007}. This dataset was first produced at monthly-mean resolution \citep{xie1997} but is now available as a collection of products at several temporal scales. The pentad-scale version of CMAP is used in this study. % and is used in this study at the pentad-mean scale. 
 
-The Climate Hazards Infrared Precipitation with Stations (CHIRPS) is relatively more recent merged product of precipitation \citep{funk2015}. This dataset uses high-resolution rain-gauge station data that is complimented by satellite cloud cold duration estimates on regions where station data is sparse. The products are calibrated with TRMM data \citep{funk2015}, so they are cannot be considered an independent source of information from TRMM.
+The Climate Hazards Infrared Precipitation with Stations (CHIRPS) is a relatively more recent merged product of precipitation \citep{funk2015}. This dataset uses high-resolution rain-gauge station data that is complimented by satellite cloud cold duration estimates for regions where station data is sparse. The products are calibrated with TRMM data \citep{funk2015}, so they cannot be considered a fully independent source of information from TRMM.
 
 
 
@@ -58,13 +59,13 @@ As the source data of most of these datasets is shared, the datasets cannot be c
 
 
 The TRMM dataset has a high horizontal and temporal resolution and was used in several CMIP assessments \citep{geil2013,jones2013} as a reliable source of precipitation \citep{carvalho2012}. Therefore, TRMM is used in this thesis as the best estimate for the spatial and temporal characteristics of rainfall. However,
- the period covered by TRMM (1998-2018) is too short to analyse statistically robust teleconnections or variability, so GPCP, GPCC and CHIRPS are used to evaluate longer term variability for their longer period. 
+ the period covered by TRMM (1998-2018) is too short to analyse statistically robust teleconnections or variability, so GPCP, GPCC and CHIRPS are used to evaluate longer term variability.
  Although a thorough validation and comparison of these datasets across the AMS domain is missing, several studies have analysed  one or more of these datasets in regions of the AMS \citep[e.g.][]{franchito2009,dinku2010,trejo2016}.
 
 \subsection{ERA-5}
 
 
-A reanalysis is a numerical description of the state of the atmosphere in a global or regional scale of full of diagnostics in a gridded product that is available at multiple vertical levels, in other words "maps without gaps" \citep{era5hersbach}. A reanalysis takes a set of physically consistent blend of observations that are then used to run the forecasting model. 
+A reanalysis is a numerical description of the state of the atmosphere on a global or regional scale with a full set of gridded diagnostics available at multiple vertical levels, in other words "maps without gaps" \citep{era5hersbach}. A reanalysis takes a set of physically consistent blend of observations that are used to constrain a forecasting model by relaxing the model towards these observations \citep[e.g.][]{fujiwara2021}.
 Reanalysis are key tools for climate and weather research as they provide full pictures of the atmospheric state for long periods, a feature that could not be possible with our current purely observational tools. For this reason, reanalyses are typically used to validate GCM output. 
 
 The latest reanalysis from ECMWF, the fifth generation of their reanalysis, is called ERA5. 
@@ -89,16 +90,17 @@ The UM version that was used for CMIP6 experiments and is used throghout this th
 (GL7.0), Global Ocean 6.0 (GO6.0), and Global Sea Ice 8.0 (GSI8.0).
 %The ocean model, in the GO6.0 configuration, builds on the Nucleus for European Modelling of the Ocean (NEMO) code \citep{ridley2018}.
 The GC3.1 configuration runs with 85 atmospheric levels, 4 soil levels and 75 ocean levels and can be run with atmospheric horizontal resolutions ranging from 10 - 135 km (at the midlatitudes) with varying resolutions for the ocean component as well. The model top of GC3.1 is 85 km above sea level \citep{walters2019}. 
- 
+
 
 The GA7.0 configuration, described in \cite{walters2019}, built on previous configurations principally by updating a number of parametrisation schemes including the rain and ice-cloud treatment as well as the convection scheme. Four critical errors were pinpointed and tackled by GA7.0 which include rainfall deficits in the Indian monsoon, temperature and humidity biases in the tropopause layer, deficiencies in numerical conservation and surface flux biases over the Southern Ocean. The GO6.0 configuration \citep{storkey2018} is in turn based on the NEMO ocean model code (version 3.6) and is responsible for determining the sea-ice extent, the ocean mixed-layer depth and deep water formation, amongst other key ocean processes.
 
 
 In most GCMs, precipitation is a result of two simulated processes. First, precipitation due to grid-scale processes referred to as large-scale precipitation, is estimated by the microphysics, or cloud scheme, that evaluates the cloud fraction and saturation within the grid-box column where precipitation occurs by processes such as warm rain \citep{walters2019}. 
-The second process that simulates precipitation is associated with convection of varying depths and is considered a sub-grid process calculated by the convection scheme. In GC3.1 the convective scheme follows three stages, according to \cite{walters2019}, first a diagnosis of the boundary layer to establish whether convection should occur at a given time-step and separately diagnosis shallow or deep convection, second, the shallow or deep convection schemes are called and third, a call for mid-level convection. 
+The second process that simulates precipitation is associated with convection of varying depths and is considered a sub-grid process calculated by the convection scheme. 
 
-
+In GC3.1 the convective scheme follows three stages, according to \cite{walters2019}, first a diagnosis of the boundary layer to establish whether convection should occur at a given time-step and separately diagnoses shallow or deep convection, second, the shallow or deep convection schemes are called and third, a call for mid-level convection. 
 In other words, the convective scheme first decides whether the thermodynamic profile at each grid-point fits certain parameters that measure the bouyancy of the parcels and vertical velocity profile, which then separates areas of deep and shallow convection. After these routines, the model implements the mid-level convection scheme to remove instabilitites from above the shallow convective regions or below the deep convective regions. 
+
 The closure of the deep convective scheme follows the convective available potential energy (CAPE) closure of \cite{fritsch} which regulates the amount, strength and duration of convection based on availability of bouyant energy. In addition, the scheme couples the detraintment rates of plumes to the column relative humidity and bouyancy as described in \cite{derbyshire2011}.
 Further details of the GC3 configuration including model description and biases can be found in \cite{williams2018} and \cite{kuhlbrodt2018}.
 
@@ -106,17 +108,32 @@ Further details of the GC3 configuration including model description and biases 
 % Add ocean resolution and ensemble member information. 
 \begin{sidewaystable}
 \small
-\caption{Summary of the CMIP6 simulations in this study. For each simulation the acronym used hereafter, the experiment and the horizontal resolution are shown. The first 100 years of the piControl simulations are used and for historical experiments the period 1979-2014 is used.}
-\begin{tabular}{p{4.5cm}|p{4.cm}p{2.cm}p{2.95cm}p{2.53cm}p{2cm}p{3.8cm}} \label{tab:Sexps} \small
- Model & Experiment & Period & Atmospheric (Ocean) resolution & \textit{Acronym}  & Ensemble members & \textit{Reference}                 \\ \hline \hline
+\caption{Summary of the CMIP6 simulations in this study. The experiment, CMIP activity name, acronym model years, and number of ensemble members used in this study are presented for each simulation.}
+\begin{tabular}{p{3.1cm}|p{3.8cm}p{2.cm}p{2.8cm}p{3.5cm}p{0.9cm}p{3.6cm}} \label{tab:Sexps} \small
+ Model / Resolution & Experiment & Period & Activity & \textit{Acronym}  & Ens. & \textit{Reference}                 \\ \hline \hline
 
-Hadley Centre Global Environment Model version 3 (HadGEM3)    &  Pre-industrial control  & 1850-2350 & N96 1.875$^\circ$x1.25$^\circ$ (1$^\circ$) & GC3 N96-pi      & 1 &   \citep{menary2018,gc3pi}                          \\
-HadGEM3   &  Pre-industrial control & 1850-2000        & N216 0.83$^\circ$x0.56$^\circ$ (0.25$^\circ$) & GC3 N216-pi   & 1 & \citep{menary2018,n216pi}      \\
-HadGEM3    &  Historical & 1979-2014       & N96 1.875$^\circ$x1.25$^\circ$ (1$^\circ$)  & GC3-hist     &  4(r1-r4) & \citep{andrews2020,gc3hist}                          \\
-HadGEM3   &  Historical & 1979-2014        & N216 0.83$^\circ$x0.56$^\circ$ (0.25$^\circ$) & N216-hist   & 1 & \citep{n216pi}      \\
-HadGEM3    &  Atmospheric Model Intercomparison (AMIP)  & 1979-2014 & N96 1.875$^\circ$x1.25$^\circ$ (1$^\circ$)  & GC3-amip   & 5 (r1-r5) &   \citep{gc3amip}                          \\
-United Kingdom Earth System Model version 1 (UKESM1)   &  Pre-industrial control  & 2060-2600       & N96 1.875$^\circ$x1.25$^\circ$ (1$^\circ$) & UKESM-pi      & 1 & \citep{ukesmpi}            \\
-UKESM1   &  Historical  & 1979-2014       & N96 1.875$^\circ$x1.25$^\circ$ (1$^\circ$) & UKESM-hist & 5 (r1-r5)     &  \citep{ukesmhist}            \\
+HadGEM3 N96    &  re-industrial control  & 1850-2350 & CMIP/DECK & GC3 N96-pi      & 1 &   \citep{menary2018,gc3pi}                          \\
+HadGEM3 N216  &  pre-industrial control & 1850-2000        & CMIP/Deck & GC3 N216-pi   & 1 & \citep{menary2018,n216pi}      \\
+HadGEM3 N96    &  historical & 1979-2014       & CMIP/DECK & GC3-hist     &  4 & \citep{andrews2020,gc3hist}                          \\
+HadGEM3 N216   &  historical & 1979-2014        & CMIP/DECK & N216-hist   & 1 & \citep{n216pi}      \\
+HadGEM3 N96   & amip  & 1979-2014 & CMIP/AMIP  & GC3-amip   & 5  &   \citep{gc3amip}                          \\
+HadGEM3 N216   & amip  & 1979-2014 & CMIP/AMIP  & N216-amip   & 1  &   \citep{gc3amip}                          \\
+HadGEM3 N96   & 1$\%$CO$_2$  & 1950-2000 & CMIP  & GC3 1$\%$CO$_2$   & 1  &   \citep{gc3amip}                          \\
+HadGEM3 N96   & abrupt-4$\times$CO$_2$  & 1950-2000 & CMIP  & GC3 abrupt-4$\times$CO$_2$   & 1  &   \citep{gc3amip}                          \\
+HadGEM3 N96   & amip-lwoff  & 1979-2014 & CFMIP  & GC3-amip lwoff   & 1  &   \citep{webb2017}                          \\
+HadGEM3 N96   & amip-m4K & 1979-2014 & CFMIP  & GC3-amip m4K  & 1  &   \citep{webb2017}                          \\
+HadGEM3 N96   & amip-p4K & 1979-2014 & CFMIP  & GC3-amip p4K  & 1  &   \citep{webb2017}                          \\
+HadGEM3 N96   & SSP1 & 2050-2100 & ScenarioMIP  & GC3 SSP1 & 1  &   \citep{o2016}                          \\
+HadGEM3 N96   & SSP2 & 2050-2100 & ScenarioMIP  & GC3 SSP2  & 1  &   \citep{o2016}                          \\
+HadGEM3 N96   & SSP5 & 2050-2100 & ScenarioMIP  & GC3 SSP5 & 1  &   \citep{o2016}                          \\
+HadGEM3 N216   & SSP1 & 2050-2100 & ScenarioMIP  & N216 SSP1  & 1  &   \citep{o2016}                          \\
+HadGEM3 N216   & SSP2 & 2050-2100 & ScenarioMIP  & N216 SSP2  & 1  &   \citep{o2016}                          \\
+HadGEM3 N216   & SSP5 & 2050-2100 & ScenarioMIP  & N216 SSP5  & 1  &   \citep{o2016}                          \\
+UKESM1   &  pre-industrial control  & 2060-2600       & CMIP & UKESM-pi      & 1 & \citep{ukesmpi}            \\
+UKESM1   &  historical  & 1979-2014       & CMIP & UKESM-hist & 5     &  \citep{ukesmhist}            \\
+UKESM1  & SSP1 & 2050-2100 & ScenarioMIP  & UKESM SSP1  & 1  &   \citep{o2016}                          \\
+UKESM1  & SSP2 & 2050-2100 & ScenarioMIP  & UKESM SSP2  & 1  &   \citep{o2016}                          \\
+UKESM1   & SSP5 & 2050-2100 & ScenarioMIP  & UKESM SSP5  & 1  &   \citep{o2016}
 \end{tabular}
 \end{sidewaystable}
 
@@ -126,14 +143,14 @@ The MOHC submitted output from several experiments to various projects part of C
 % has submitted the output of two models for CMIP6: HadGEM3 GC3.1 
 The main model, HadGEM3 GC3.1 (hereafter GC3) is the latest version of the HadGEM model, and was run at two horizontal resolutions for CMIP6: a low resolution configuration, labelled as N96, with an atmospheric resolution of 1.875$^\circ$x1.25$^\circ$ and a 1$^\circ$ resolution in the ocean model and a medium resolution configuration, labelled N216, with atmospheric resolutions of 0.83$^\circ$x 0.56$^\circ$ and a 0.25$^\circ$ oceanic resolution \citep{menary2018}. 
 
-The dynamical core the GC3.1 configuration, the core of the GC3 submissions to CMIP6, was used to build a slightly different model, one that aims to better capture ocean-biogeochemical, air-soil and air-chemistry interactions, the UKESM1. 
-The UKESM1 was recently developed aiming to improve the UM climate model adding processes of the Earth System \citep{sellar2019}. These additional components include ocean biogeochemistry with coupled chemical cycles, tropospheric-stratospheric interactive chemistry which aim to better characterise aerosol-cloud and aerosol-radiation interactions \citep{mulcahy2018,sellar2019}.
+The dynamical core of the GC3.1 configuration used in the submissions of HadGEM3 to CMIP6 is used in a new Earth System model that aims to better represent ocean-biogeochemical, air-soil and air-chemistry interactions, the UK Earth System Model 1 (UKESM1). 
+The UKESM1 was recently developed aiming to improve the UM climate model adding processes of the Earth System \citep{sellar2019}. These additional components include ocean biogeochemistry with coupled chemical cycles, tropospheric-stratospheric interactive chemistry which aim to better characterise atmospheric chemistry, for example, aerosol-cloud and aerosol-radiation interactions \citep{mulcahy2018,sellar2019}.
 The physical atmosphere-land-ocean-sea-ice core of the HadGEM3 GC3.1 underpins the UKESM1, so that the UKESM1 and the HadGEM3 have the same dynamical core but the UKESM1 has the additional components mentioned above.
 
 
 
 This study uses output from several CMIP6 experiments, which are outlined in Table \ref{tab:Sexps}. First, the pre-industrial control (piControl) simulations, which are run with constant climate forcing that represents the best estimate for pre-industrial (1850) forcing of aerosols and greenhouse gas levels. Second, historical experiments are 164-yr integrations for 1850-2014 that include historical forcings of aerosol, greenhouse gas, volcanic and solar signals since 1850 \citep{eyring2016,andrews2019}. 
-The historical experiments of HadGEM3 and UKESM1 are composed of 4 and 9 ensemble members, respectively, but the results will be presented as the ensemble mean for the 1979-2014 period. %spatial distributions or with the ensemble spread for seasonal cycles.
+The historical experiments of HadGEM3 and UKESM1 are composed of 4 and 9 ensemble members, respectively, but the results will be presented as the ensemble mean for the 1979-2014 period in order to provide a direct comparison with the observed datasets in the same period.
 These experiments will be referred to as GC3-hist and UKESM1-hist hereafter.
 For further details, \cite{andrews2020} extensively describes the historical simulations of HadGEM3-GC3.1. %Historical experiments aim to represent the observed climate and therefore can be compared directly to observations. 
 
@@ -146,21 +163,21 @@ The Atmopshere Model Intercomparison Project (AMIP) is a CMIP project that uses 
 
 \section{The Moist Static Energy Budget}\label{sq:msemethod}
 
-The moist static energy (MSE) is a key measure of the energy within moist parcel and the analysis of MSE budgets has proven useful in the context of ENSO \citep[e.g.][]{annamalai2020}, tropical cyclones \citep[e.g.][]{wing2019}, axi-symmetric monsoons \citep[e.g.][]{bordoni2008monsoons} and regional monsoons \citep[e.g.][]{smyth2018simulated,ma2019}. The MSE arises from the first law of thermodynamics which decomposes the internal energy of a system into two components: one associated with heat in or out of the system and the second component associated with work done by the system. 
+The moist static energy (MSE) measures the gravitational, sensible heat and latent heat energy within a column and is therefore conserved following air parcels under moist adiabatic processes \citep{neelin2005,back2006,ma2019}. The use of the MSE budget has proven useful to understand tropical convective phenomena such as ENSO biases \citep{annamalai2020} and teleconnections \citep{neelin2005}, tropical cyclones \citep[e.g.][]{wing2019}, the MJO \citep{inoue2015}, axi-symmetric monsoons \citep[e.g.][]{bordoni2008monsoons} and regional monsoons \citep[e.g.][]{smyth2018simulated,ma2019}, to name a few examples. 
 
-From the preferred version of the first law of thermodynamics, the changes to several other quantities, known as state variables, can be traced. 
+The MSE arises from the first law of thermodynamics which decomposes the internal energy of a system into two components: one associated with heat in or out of the system and the second component associated with work done by the system. 
 The MSE, also denoted as $h$ is given by:
 
 \begin{equation}
-h=L*q+C_pT+gz=Lq+s
+h=Lq+C_pT+gz=Lq+s
 \label{eq:hdef}
 \end{equation}
 
 \noindent where $C_p$ is the heat capacity at constant pressure, $T$ is the air temperature, $L$ is the latent heat of vaporization, $q$ is the specific humidity and $s$ is the dry static energy. 
-Equation \ref{eq:hdef} separates the total moist energy of a parcel into a dry component laso referred as dry-air enthalpy or heat content \citep{emanuel2007quasi}, and the last term is the potential energy associated with the gravitational acceleration. 
+Equation \ref{eq:hdef} separates the total moist energy of a parcel into a dry component also referred as dry-air enthalpy or heat content \citep{emanuel2007quasi}, and the last term is the potential energy associated with the gravitational acceleration. 
 The MSE is conserved under pseudo-adiabatic processes and thus is considered to be a key variable of a moist system, a state variable that is not created or destroyed by convection but rather re-distributed by the coupling of convection with the large-scale circulation \citep{chou2004,emanuel2007quasi}.
 
-The material derivative of the MSE can therefore be written as:
+The MSE budget equation can be derived from adding the thermodynamic and moisture equations that arise from the primitive equation \citep{neelin2005}, first by writing the material derivative as:
 
 \begin{equation}
 \frac{Dh}{dt}=\frac{\partial h}{\partial t}+\nabla\cdot{\vec{u}h}_p+\frac{\partial p}{\partial t}\frac{\partial h}{\partial p}
@@ -168,14 +185,14 @@ The material derivative of the MSE can therefore be written as:
 \end{equation}
 
 \noindent where $\vec{u}$ is the horizontal wind vector, $p$ is the air pressure used as a vertical coordinate so that $\partial p/\partial t = \omega$. 
-The vertically integrated budget equation arises by rearranging and integrating equation \ref{eq:msederiv} in the pressure coordinate which, following \cite{annamalai2020}, leads to:
+The vertically integrated budget equation arises by rearranging and integrating equation \ref{eq:msederiv} in the pressure coordinate \citep{back2006,inoue2015,annamalai2020}, leading to:
 
 \begin{equation}
-\Bigg\langle \frac{d h}{dt} \Bigg\rangle=-\Bigg\langle \vec{u}\cdot\nabla h _p \Bigg\rangle -\Bigg\langle \omega\frac{\partial h}{\partial p}\Bigg\rangle + F,
+\Bigg\langle \frac{d h}{dt} \Bigg\rangle=-\Bigg\langle \vec{u}\cdot\nabla _p h  \Bigg\rangle -\Bigg\langle \omega\frac{\partial h}{\partial p}\Bigg\rangle + F,
 \label{eq:msebudget}
 \end{equation}
 
-\noindent where the angle brackets $\langle \rangle$ denote vertical integrals from the surface pressure level until the 100 hPa level, i.e.:
+\noindent where the angle brackets $\langle \rangle$ denote vertical integrals from the surface pressure level up to the 100 hPa level, i.e.:
 
 \begin{equation}
 \Bigg\langle \Bigg\rangle= \int_{p0}^{100} dp, 
@@ -187,6 +204,16 @@ The vertically integrated budget equation arises by rearranging and integrating 
 F= LH+SH+\langle LW \rangle + \langle  SW \rangle
 \end{equation}
 
-\noindent where $SH$ and $LH$ are the surface turbulent sensible and latent heat fluxes, respectively, and $LW$ and $SW$ are the column heating rates from longwave and shortwave radiation, respectively.
+\noindent where $SH$ and $LH$ are the surface turbulent sensible and latent heat fluxes, respectively, and $LW$ and $SW$ are the longwave and shortwave column-integrated heating rates, respectively.
 
-The gross moist stability is then a .
+
+The gross moist stability (GMS or $\gamma$) was derived by \cite{neelin1987modeling} from the MSE budget in equation \ref{eq:msebudget} aiming to quantify the strength of convection to the outflow of energy in the tropics. The GMS has been continously used \citep{raymond2009,inoue2015,nie2015,inoue2021} as a ratio of a lateral outflow of entropy or energy divided by a measure of the strength of convection per unit area. 
+In this thesis, the vertical component of the GMS, referred to as $M_v$ is used following \citep{inoue2015}:
+
+\begin{equation}
+\gamma_v=M_v= \frac{\Bigg\langle \omega\frac{\partial h}{\partial p} \Bigg\rangle}{ \Bigg\langle \omega\frac{\partial s}{\partial p} \Bigg\rangle}.
+\label{eq:ngms}
+\end{equation}
+
+The $M_v$ in addition to the MSE budget is used in two chapters of these thesis to understand how the large or regional-scale circulation is related to convection. 
+% \frac{}{ }=

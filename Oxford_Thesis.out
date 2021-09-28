@@ -6,7 +6,7 @@
 \BOOKMARK [0][-]{chapter.2}{Background}{}% 6
 \BOOKMARK [1][-]{section.2.1}{The tropical circulation and the global monsoon}{chapter.2}% 7
 \BOOKMARK [1][-]{section.2.2}{The American Monsoon System}{chapter.2}% 8
-\BOOKMARK [1][-]{section.2.3}{A review on the proposed mechanisms for the Midsummer drought}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.3}{A review of the physical mechanisms for the Midsummer drought}{chapter.2}% 9
 \BOOKMARK [1][-]{section.2.4}{El Ni\361o Southern Oscillation: impacts to the American monsoon system}{chapter.2}% 10
 \BOOKMARK [1][-]{section.2.5}{Stratosphere-Troposphere Coupling in the Tropics}{chapter.2}% 11
 \BOOKMARK [2][-]{subsection.2.5.1}{The Quasi-biennial oscillation \(QBO\)}{section.2.5}% 12
@@ -57,6 +57,21 @@
 \BOOKMARK [1][-]{section.6.4}{The East Pacific SSTs}{chapter.6}% 57
 \BOOKMARK [1][-]{section.6.5}{On the role of cloud-radiative effects}{chapter.6}% 58
 \BOOKMARK [1][-]{section.6.6}{The role of the Caribbean Low-Level Jet}{chapter.6}% 59
-\BOOKMARK [1][-]{section.6.7}{A short look at the MSD mechanism through the lense of the moist static energy budget}{chapter.6}% 60
+\BOOKMARK [1][-]{section.6.7}{A short look at the MSD through the lense of the moist static energy budget}{chapter.6}% 60
 \BOOKMARK [1][-]{section.6.8}{Summary and discussion}{chapter.6}% 61
-\BOOKMARK [0][-]{chapter*.78}{Bibliography}{}% 62
+\BOOKMARK [0][-]{chapter.7}{ QBO Teleconnections: the tropical route }{}% 62
+\BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 63
+\BOOKMARK [1][-]{section.7.2}{Methods and data}{chapter.7}% 64
+\BOOKMARK [2][-]{subsection.7.2.1}{CMIP6 data}{section.7.2}% 65
+\BOOKMARK [2][-]{subsection.7.2.2}{Indices}{section.7.2}% 66
+\BOOKMARK [1][-]{section.7.3}{Teleconnections in the pre-industrial control experiments}{chapter.7}% 67
+\BOOKMARK [2][-]{subsection.7.3.1}{Seasonal variability}{section.7.3}% 68
+\BOOKMARK [2][-]{subsection.7.3.2}{Impacts over the ITCZ and the monsoons}{section.7.3}% 69
+\BOOKMARK [2][-]{subsection.7.3.3}{Interaction with ENSO and teleconnections}{section.7.3}% 70
+\BOOKMARK [1][-]{section.7.4}{Nudging experiments}{chapter.7}% 71
+\BOOKMARK [2][-]{subsection.7.4.1}{The case for nudging}{section.7.4}% 72
+\BOOKMARK [2][-]{subsection.7.4.2}{The nudging protocol}{section.7.4}% 73
+\BOOKMARK [1][-]{section.7.5}{The effect of nudging for QBO surface impacts in the tropics}{chapter.7}% 74
+\BOOKMARK [2][-]{subsection.7.5.1}{Tropical UTLS variability}{section.7.5}% 75
+\BOOKMARK [2][-]{subsection.7.5.2}{Monsoon rainfall}{section.7.5}% 76
+\BOOKMARK [0][-]{chapter*.101}{Bibliography}{}% 77
