@@ -47,14 +47,14 @@
 \BOOKMARK [2][-]{subsection.5.4.2}{The Indian Monsoon}{section.5.4}% 47
 \BOOKMARK [2][-]{subsection.5.4.3}{The midsummer drought}{section.5.4}% 48
 \BOOKMARK [1][-]{section.5.5}{Summary and discussion}{chapter.5}% 49
-\BOOKMARK [0][-]{chapter.6}{Mechanisms of the Mesoamerican midsummer drought in the MOHC CMIP6 experiments}{}% 50
+\BOOKMARK [0][-]{chapter.6}{The Midsummer drought in the MOHC CMIP6 experiments}{}% 50
 \BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 51
 \BOOKMARK [1][-]{section.6.2}{Data and methods}{chapter.6}% 52
 \BOOKMARK [2][-]{subsection.6.2.1}{Observations and reanalysis data}{section.6.2}% 53
 \BOOKMARK [2][-]{subsection.6.2.2}{CMIP6 data}{section.6.2}% 54
 \BOOKMARK [2][-]{subsection.6.2.3}{Determination of the timings of the MSD}{section.6.2}% 55
 \BOOKMARK [1][-]{section.6.3}{Climatological features}{chapter.6}% 56
-\BOOKMARK [1][-]{section.6.4}{The East Pacific SSTs}{chapter.6}% 57
+\BOOKMARK [1][-]{section.6.4}{The role of East Pacific SSTs}{chapter.6}% 57
 \BOOKMARK [1][-]{section.6.5}{On the role of cloud-radiative effects}{chapter.6}% 58
 \BOOKMARK [1][-]{section.6.6}{The role of the Caribbean Low-Level Jet}{chapter.6}% 59
 \BOOKMARK [1][-]{section.6.7}{A short look at the MSD through the lense of the moist static energy budget}{chapter.6}% 60
@@ -64,14 +64,20 @@
 \BOOKMARK [1][-]{section.7.2}{Methods and data}{chapter.7}% 64
 \BOOKMARK [2][-]{subsection.7.2.1}{CMIP6 data}{section.7.2}% 65
 \BOOKMARK [2][-]{subsection.7.2.2}{Indices}{section.7.2}% 66
-\BOOKMARK [1][-]{section.7.3}{Teleconnections in the pre-industrial control experiments}{chapter.7}% 67
-\BOOKMARK [2][-]{subsection.7.3.1}{Seasonal variability}{section.7.3}% 68
-\BOOKMARK [2][-]{subsection.7.3.2}{Impacts over the ITCZ and the monsoons}{section.7.3}% 69
-\BOOKMARK [2][-]{subsection.7.3.3}{Interaction with ENSO and teleconnections}{section.7.3}% 70
-\BOOKMARK [1][-]{section.7.4}{Nudging experiments}{chapter.7}% 71
-\BOOKMARK [2][-]{subsection.7.4.1}{The case for nudging}{section.7.4}% 72
-\BOOKMARK [2][-]{subsection.7.4.2}{The nudging protocol}{section.7.4}% 73
-\BOOKMARK [1][-]{section.7.5}{The effect of nudging for QBO surface impacts in the tropics}{chapter.7}% 74
-\BOOKMARK [2][-]{subsection.7.5.1}{Tropical UTLS variability}{section.7.5}% 75
-\BOOKMARK [2][-]{subsection.7.5.2}{Monsoon rainfall}{section.7.5}% 76
-\BOOKMARK [0][-]{chapter*.101}{Bibliography}{}% 77
+\BOOKMARK [2][-]{subsection.7.2.3}{Analysis techniques}{section.7.2}% 67
+\BOOKMARK [1][-]{section.7.3}{Teleconnections in the pre-industrial control experiments}{chapter.7}% 68
+\BOOKMARK [2][-]{subsection.7.3.1}{Seasonal variability}{section.7.3}% 69
+\BOOKMARK [2][-]{subsection.7.3.2}{Impacts over the ITCZ and the monsoons}{section.7.3}% 70
+\BOOKMARK [2][-]{subsection.7.3.3}{ENSO, the IOD and the Walker circulation}{section.7.3}% 71
+\BOOKMARK [1][-]{section.7.4}{The case for nudging}{chapter.7}% 72
+\BOOKMARK [2][-]{subsection.7.4.1}{The importance of biases in the UTLS for stratosphere-tropospheric coupling}{section.7.4}% 73
+\BOOKMARK [2][-]{subsection.7.4.2}{The nudging protocol}{section.7.4}% 74
+\BOOKMARK [1][-]{section.7.5}{ Results from nudging experiments}{chapter.7}% 75
+\BOOKMARK [2][-]{subsection.7.5.1}{Tropical UTLS variability}{section.7.5}% 76
+\BOOKMARK [2][-]{subsection.7.5.2}{Atmosphere-only experiments}{section.7.5}% 77
+\BOOKMARK [2][-]{subsection.7.5.3}{Coupled experiments}{section.7.5}% 78
+\BOOKMARK [1][-]{section.7.6}{Summary and discussion}{chapter.7}% 79
+\BOOKMARK [0][-]{chapter.8}{Conclusions}{}% 80
+\BOOKMARK [1][-]{section.8.1}{Summary}{chapter.8}% 81
+\BOOKMARK [1][-]{section.8.2}{Limitations and future work}{chapter.8}% 82
+\BOOKMARK [0][-]{chapter*.144}{Bibliography}{}% 83

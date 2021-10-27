@@ -10,50 +10,48 @@ A level-1 auxiliary file: text/ch4-ams.aux
 A level-1 auxiliary file: text/ch5-wvt.aux
 A level-1 auxiliary file: text/ch-msd.aux
 A level-1 auxiliary file: text/ch7-qbo.aux
-Reallocated field_info (elt_size=4) to 11168 items from 5000.
+Reallocated field_info (elt_size=4) to 11432 items from 5000.
 Database file #1: refs.bib
-Warning--I didn't find a database entry for "serva2021"
-Warning--I didn't find a database entry for "serva2020"
 Warning--can't use both author and editor fields in Xie2007
-You've used 255 entries,
+You've used 268 entries,
             2909 wiz_defined-function locations,
-            1951 strings with 59509 characters,
-and the built_in function-call counts, 1900155 in all, are:
-= -- 314438
-> -- 27532
+            2008 strings with 61907 characters,
+and the built_in function-call counts, 1990927 in all, are:
+= -- 329381
+> -- 28934
 < -- 5
-+ -- 157034
-- -- 8673
-* -- 172511
-:= -- 367883
-add.period$ -- 261
-call.type$ -- 255
-change.case$ -- 3561
-chr.to.int$ -- 252
-cite$ -- 256
-duplicate$ -- 4095
-empty$ -- 8960
-format.name$ -- 9585
-if$ -- 341694
++ -- 164500
+- -- 9114
+* -- 180745
+:= -- 385540
+add.period$ -- 274
+call.type$ -- 268
+change.case$ -- 3743
+chr.to.int$ -- 265
+cite$ -- 269
+duplicate$ -- 4300
+empty$ -- 9398
+format.name$ -- 10076
+if$ -- 357998
 int.to.chr$ -- 8
 int.to.str$ -- 0
-missing$ -- 257
-newline$ -- 811
-num.names$ -- 2706
-pop$ -- 744
+missing$ -- 270
+newline$ -- 850
+num.names$ -- 2844
+pop$ -- 779
 preamble$ -- 1
-purify$ -- 3825
+purify$ -- 4020
 quote$ -- 0
-skip$ -- 3514
+skip$ -- 3692
 stack$ -- 0
-substring$ -- 456742
-swap$ -- 795
-text.length$ -- 3575
+substring$ -- 478365
+swap$ -- 832
+text.length$ -- 3757
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1000
+type$ -- 1052
 warning$ -- 1
-while$ -- 5751
+while$ -- 6044
 width$ -- 0
-write$ -- 3430
-(There were 3 warnings)
+write$ -- 3602
+(There was 1 warning)
