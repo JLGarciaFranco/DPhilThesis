@@ -10,48 +10,50 @@ A level-1 auxiliary file: text/ch4-ams.aux
 A level-1 auxiliary file: text/ch5-wvt.aux
 A level-1 auxiliary file: text/ch-msd.aux
 A level-1 auxiliary file: text/ch7-qbo.aux
-Reallocated field_info (elt_size=4) to 11432 items from 5000.
+A level-1 auxiliary file: text/ch7-nudging.aux
+A level-1 auxiliary file: text/ch8-conclusions.aux
+Reallocated field_info (elt_size=4) to 11504 items from 5000.
 Database file #1: refs.bib
 Warning--can't use both author and editor fields in Xie2007
-You've used 268 entries,
+You've used 271 entries,
             2909 wiz_defined-function locations,
-            2008 strings with 61907 characters,
-and the built_in function-call counts, 1990927 in all, are:
-= -- 329381
-> -- 28934
+            2027 strings with 62650 characters,
+and the built_in function-call counts, 2006912 in all, are:
+= -- 331987
+> -- 29165
 < -- 5
-+ -- 164500
-- -- 9114
-* -- 180745
-:= -- 385540
-add.period$ -- 274
-call.type$ -- 268
-change.case$ -- 3743
-chr.to.int$ -- 265
-cite$ -- 269
-duplicate$ -- 4300
-empty$ -- 9398
-format.name$ -- 10076
-if$ -- 357998
++ -- 165768
+- -- 9184
+* -- 182177
+:= -- 388682
+add.period$ -- 278
+call.type$ -- 271
+change.case$ -- 3785
+chr.to.int$ -- 268
+cite$ -- 272
+duplicate$ -- 4348
+empty$ -- 9514
+format.name$ -- 10155
+if$ -- 360877
 int.to.chr$ -- 8
 int.to.str$ -- 0
-missing$ -- 270
-newline$ -- 850
-num.names$ -- 2844
-pop$ -- 779
+missing$ -- 273
+newline$ -- 862
+num.names$ -- 2877
+pop$ -- 784
 preamble$ -- 1
-purify$ -- 4020
+purify$ -- 4065
 quote$ -- 0
-skip$ -- 3692
+skip$ -- 3732
 stack$ -- 0
-substring$ -- 478365
-swap$ -- 832
-text.length$ -- 3757
+substring$ -- 482110
+swap$ -- 841
+text.length$ -- 3799
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1052
+type$ -- 1064
 warning$ -- 1
-while$ -- 6044
+while$ -- 6111
 width$ -- 0
-write$ -- 3602
+write$ -- 3648
 (There was 1 warning)

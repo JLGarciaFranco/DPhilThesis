@@ -59,7 +59,7 @@
 \BOOKMARK [1][-]{section.6.6}{The role of the Caribbean Low-Level Jet}{chapter.6}% 59
 \BOOKMARK [1][-]{section.6.7}{A short look at the MSD through the lense of the moist static energy budget}{chapter.6}% 60
 \BOOKMARK [1][-]{section.6.8}{Summary and discussion}{chapter.6}% 61
-\BOOKMARK [0][-]{chapter.7}{ QBO Teleconnections: the tropical route }{}% 62
+\BOOKMARK [0][-]{chapter.7}{ The tropical route of QBO teleconnections in UKESM1 and HadGEM3 }{}% 62
 \BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 63
 \BOOKMARK [1][-]{section.7.2}{Methods and data}{chapter.7}% 64
 \BOOKMARK [2][-]{subsection.7.2.1}{CMIP6 data}{section.7.2}% 65
@@ -69,15 +69,18 @@
 \BOOKMARK [2][-]{subsection.7.3.1}{Seasonal variability}{section.7.3}% 69
 \BOOKMARK [2][-]{subsection.7.3.2}{Impacts over the ITCZ and the monsoons}{section.7.3}% 70
 \BOOKMARK [2][-]{subsection.7.3.3}{ENSO, the IOD and the Walker circulation}{section.7.3}% 71
-\BOOKMARK [1][-]{section.7.4}{The case for nudging}{chapter.7}% 72
-\BOOKMARK [2][-]{subsection.7.4.1}{The importance of biases in the UTLS for stratosphere-tropospheric coupling}{section.7.4}% 73
-\BOOKMARK [2][-]{subsection.7.4.2}{The nudging protocol}{section.7.4}% 74
-\BOOKMARK [1][-]{section.7.5}{ Results from nudging experiments}{chapter.7}% 75
-\BOOKMARK [2][-]{subsection.7.5.1}{Tropical UTLS variability}{section.7.5}% 76
-\BOOKMARK [2][-]{subsection.7.5.2}{Atmosphere-only experiments}{section.7.5}% 77
-\BOOKMARK [2][-]{subsection.7.5.3}{Coupled experiments}{section.7.5}% 78
-\BOOKMARK [1][-]{section.7.6}{Summary and discussion}{chapter.7}% 79
-\BOOKMARK [0][-]{chapter.8}{Conclusions}{}% 80
-\BOOKMARK [1][-]{section.8.1}{Summary}{chapter.8}% 81
-\BOOKMARK [1][-]{section.8.2}{Limitations and future work}{chapter.8}% 82
-\BOOKMARK [0][-]{chapter*.144}{Bibliography}{}% 83
+\BOOKMARK [1][-]{section.7.4}{Summary and discussion}{chapter.7}% 72
+\BOOKMARK [0][-]{chapter.8}{ QBO Teleconnections in the UM with a nudged stratosphere }{}% 73
+\BOOKMARK [1][-]{section.8.1}{Introduction}{chapter.8}% 74
+\BOOKMARK [1][-]{section.8.2}{The case for nudging}{chapter.8}% 75
+\BOOKMARK [2][-]{subsection.8.2.1}{The importance of biases in the UTLS for stratosphere-tropospheric coupling}{section.8.2}% 76
+\BOOKMARK [2][-]{subsection.8.2.2}{The nudging protocol}{section.8.2}% 77
+\BOOKMARK [1][-]{section.8.3}{ Results from nudging experiments}{chapter.8}% 78
+\BOOKMARK [2][-]{subsection.8.3.1}{Tropical UTLS variability}{section.8.3}% 79
+\BOOKMARK [2][-]{subsection.8.3.2}{Atmosphere-only experiments}{section.8.3}% 80
+\BOOKMARK [2][-]{subsection.8.3.3}{Coupled experiments}{section.8.3}% 81
+\BOOKMARK [1][-]{section.8.4}{Summary and discussion}{chapter.8}% 82
+\BOOKMARK [0][-]{chapter.9}{Conclusions}{}% 83
+\BOOKMARK [1][-]{section.9.1}{Summary}{chapter.9}% 84
+\BOOKMARK [1][-]{section.9.2}{Limitations and future work}{chapter.9}% 85
+\BOOKMARK [0][-]{chapter*.144}{Bibliography}{}% 86

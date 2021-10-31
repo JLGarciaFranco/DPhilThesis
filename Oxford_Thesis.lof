@@ -4,128 +4,130 @@
 \addvspace {10\p@ }
 \contentsline {xchapter}{Introduction}{1}{chapter.1}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Background}{7}{chapter.2}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces The Walker circulation}}{9}{figure.caption.8}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces The global monsoon rainfall}}{11}{figure.caption.9}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces The American monsoon system climatology}}{14}{figure.caption.10}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Mechanisms of the Midsummer drought}}{18}{figure.caption.11}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces El Ni\IeC {\~n}o Southern Oscillation and the Walker circulation}}{22}{figure.caption.12}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces The non-linear relationship of the QBO with SST forcings}}{28}{figure.caption.13}
+\contentsline {xchapter}{Background}{8}{chapter.2}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The Walker circulation}}{10}{figure.caption.8}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The global monsoon rainfall}}{12}{figure.caption.9}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces The American monsoon system climatology}}{15}{figure.caption.10}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Mechanisms of the Midsummer drought}}{19}{figure.caption.11}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces El Ni\IeC {\~n}o Southern Oscillation and the Walker circulation}}{23}{figure.caption.12}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces The non-linear relationship of the QBO with SST forcings}}{29}{figure.caption.13}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Data and methods}{31}{chapter.3}
+\contentsline {xchapter}{Data and methods}{32}{chapter.3}
 \addvspace {10\p@ }
-\contentsline {xchapter}{The American monsoon system in UKESM1 and HadGEM3}{42}{chapter.4}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Temperature and SLP climatologies in UKESM1 and HadGEM3}}{47}{figure.caption.16}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Temperature and SLP biases in UKESM1 and HadGEM3}}{49}{figure.caption.18}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Seasonal cycle of surface temperature in key monsoon regions}}{51}{figure.caption.19}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Climatological precipitation and ITCZ position}}{53}{figure.caption.20}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Seasonal evolution of Atlantic and Pacific ITCZ}}{54}{figure.caption.21}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces SACZ assessment in UKESM1 and HadGEM3}}{56}{figure.caption.22}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Austral summer mean rainfall in the South American monsoon}}{58}{figure.caption.23}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Boreal summer precipitation in the North American Monsoon}}{60}{figure.caption.24}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Annual cycle of precipitation in different regions of the AMS}}{61}{figure.caption.25}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Seasonal cycle of measures of convection in the AMS}}{64}{figure.caption.26}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces ENSO teleconnections of temperature and SLP to the region of the AMS}}{67}{figure.caption.27}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces ENSO precipitation teleconnections to the AMS}}{68}{figure.caption.28}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Walker circulation anomalies associated with ENSO}}{69}{figure.caption.29}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Linearity of the precipitation response to ENSO events}}{70}{figure.caption.30}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Diversity of ENSO SST patterns}}{72}{figure.caption.31}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Precipitation anomalies to different ENSO flavours}}{73}{figure.caption.32}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Precipitation anomalies as a function of QBO and ENSO phases}}{75}{figure.caption.33}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Walker circulation responses to La Ni\IeC {\~n}a under different QBO phases}}{76}{figure.caption.34}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Summary schematic of biases in UKESM1 and HadGEM3}}{79}{figure.caption.35}
+\contentsline {xchapter}{The American monsoon system in UKESM1 and HadGEM3}{43}{chapter.4}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Temperature and SLP climatologies in UKESM1 and HadGEM3}}{48}{figure.caption.16}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Temperature and SLP biases in UKESM1 and HadGEM3}}{50}{figure.caption.18}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Seasonal cycle of surface temperature in key monsoon regions}}{52}{figure.caption.19}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Climatological precipitation and ITCZ position}}{54}{figure.caption.20}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Seasonal evolution of Atlantic and Pacific ITCZ}}{55}{figure.caption.21}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces SACZ assessment in UKESM1 and HadGEM3}}{57}{figure.caption.22}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Austral summer mean rainfall in the South American monsoon}}{59}{figure.caption.23}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Boreal summer precipitation in the North American Monsoon}}{61}{figure.caption.24}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Annual cycle of precipitation in different regions of the AMS}}{62}{figure.caption.25}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Seasonal cycle of measures of convection in the AMS}}{65}{figure.caption.26}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces ENSO teleconnections of temperature and SLP to the region of the AMS}}{68}{figure.caption.27}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces ENSO precipitation teleconnections to the AMS}}{69}{figure.caption.28}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Walker circulation anomalies associated with ENSO}}{70}{figure.caption.29}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Linearity of the precipitation response to ENSO events}}{71}{figure.caption.30}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Diversity of ENSO SST patterns}}{73}{figure.caption.31}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Precipitation anomalies to different ENSO flavours}}{74}{figure.caption.32}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Precipitation anomalies as a function of QBO and ENSO phases}}{76}{figure.caption.33}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Walker circulation responses to La Ni\IeC {\~n}a under different QBO phases}}{77}{figure.caption.34}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Summary schematic of biases in UKESM1 and HadGEM3}}{80}{figure.caption.35}
 \addvspace {10\p@ }
-\contentsline {xchapter}{A wavelet transform method to determine monsoon onset and retreat from precipitation time-series}{83}{chapter.5}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Haar wavelet exmaple}}{89}{figure.caption.36}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Wavelet transform coefficient in North American Monsoon}}{90}{figure.caption.37}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Example determination of onset and retreat in TRMM}}{91}{figure.caption.38}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Example determination of onset and retreat in HadGEM3 N216}}{92}{figure.caption.39}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Wavelet transform characterisation of Midsummer drought}}{94}{figure.caption.40}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Comparison of methods in 2010 in the North American Monsoon}}{98}{figure.caption.42}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Precipitation anomalies during North American monsoon onset}}{99}{figure.caption.43}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Onset and retreat spatial distribution in North American Monsoon}}{100}{figure.caption.44}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Precipitation anomalies during Indian monsoon onset}}{102}{figure.caption.46}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Indian monsoon precipitation anomalies associated with onset}}{103}{figure.caption.47}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Onset and retreat dates spatial distribution in Indian monsoon}}{104}{figure.caption.48}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Precipitation anomalies after MSD}}{106}{figure.caption.50}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Seasonal cycle of precipitation for various MSD categories}}{107}{figure.caption.51}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Determination of MSD timings and coefficients}}{108}{figure.caption.52}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Map of MSD significant regions}}{110}{figure.caption.53}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Spatial distribution of MSD timings}}{111}{figure.caption.54}
+\contentsline {xchapter}{A wavelet transform method to determine monsoon onset and retreat from precipitation time-series}{84}{chapter.5}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Haar wavelet exmaple}}{90}{figure.caption.36}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Wavelet transform coefficient in North American Monsoon}}{91}{figure.caption.37}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Example determination of onset and retreat in TRMM}}{92}{figure.caption.38}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Example determination of onset and retreat in HadGEM3 N216}}{93}{figure.caption.39}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Wavelet transform characterisation of Midsummer drought}}{95}{figure.caption.40}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Comparison of methods in 2010 in the North American Monsoon}}{99}{figure.caption.42}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Precipitation anomalies during North American monsoon onset}}{100}{figure.caption.43}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Onset and retreat spatial distribution in North American Monsoon}}{101}{figure.caption.44}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Precipitation anomalies during Indian monsoon onset}}{103}{figure.caption.46}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Indian monsoon precipitation anomalies associated with onset}}{104}{figure.caption.47}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Onset and retreat dates spatial distribution in Indian monsoon}}{105}{figure.caption.48}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Precipitation anomalies after MSD}}{107}{figure.caption.50}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Seasonal cycle of precipitation for various MSD categories}}{108}{figure.caption.51}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Determination of MSD timings and coefficients}}{109}{figure.caption.52}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Map of MSD significant regions}}{111}{figure.caption.53}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Spatial distribution of MSD timings}}{112}{figure.caption.54}
 \addvspace {10\p@ }
-\contentsline {xchapter}{The Midsummer drought in the MOHC CMIP6 experiments}{116}{chapter.6}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Seasonal cycle of precipitation in Mesoamerica}}{118}{figure.caption.55}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Schematics of MSD mechanisms.}}{119}{figure.caption.56}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Illustration of the use of the wavelet transform method}}{122}{figure.caption.57}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Observed composites of climatological and seasonal variations of precipitation.}}{123}{figure.caption.58}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces ERA5 precipitation biases}}{124}{figure.caption.59}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Composite mean precipitation biases and seasonal variations}}{125}{figure.caption.60}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Scatter plot of mean precipitation in different parts of seasonal cycle}}{126}{figure.caption.61}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces OLR and vertical velocity composites}}{128}{figure.caption.62}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Seasonal cycle of East Pacific and Caribbean SSTs and zonal winds.}}{129}{figure.caption.63}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Composite SST anomalies}}{131}{figure.caption.64}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Scatter plot of SST vs precipitation}}{133}{figure.caption.65}
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Scatter plot of SST changes}}{134}{figure.caption.66}
-\contentsline {figure}{\numberline {6.13}{\ignorespaces Lagged correlations of East Pacific SSTs}}{135}{figure.caption.67}
-\contentsline {figure}{\numberline {6.14}{\ignorespaces Composites of cloud radiative effects}}{138}{figure.caption.68}
-\contentsline {figure}{\numberline {6.15}{\ignorespaces Short-wave cloud radiative effect composites}}{140}{figure.caption.69}
-\contentsline {figure}{\numberline {6.16}{\ignorespaces As in Fig. \ref {fig:cre_comp} but for the long-wave CRE.\relax }}{141}{figure.caption.70}
-\contentsline {figure}{\numberline {6.17}{\ignorespaces Seasonal cycle of cloud-radiative effects}}{142}{figure.caption.71}
-\contentsline {figure}{\numberline {6.18}{\ignorespaces Composite shortave differences with MSD timings}}{143}{figure.caption.72}
-\contentsline {figure}{\numberline {6.19}{\ignorespaces Scatterplot and lagged-regression of surface short-wave}}{144}{figure.caption.73}
-\contentsline {figure}{\numberline {6.20}{\ignorespaces Composite moisture flux and wind speed}}{145}{figure.caption.74}
-\contentsline {figure}{\numberline {6.21}{\ignorespaces Seasonal cycle of IMFC and TWC}}{147}{figure.caption.75}
-\contentsline {figure}{\numberline {6.22}{\ignorespaces Composites of IMFC, TWC and CLLJ}}{148}{figure.caption.76}
-\contentsline {figure}{\numberline {6.23}{\ignorespaces Scatterplot of TWC, IMFD and CLLJ}}{150}{figure.caption.77}
-\contentsline {figure}{\numberline {6.24}{\ignorespaces Lagged correlations of the CLLJ and IMFC indices with precipitation.}}{151}{figure.caption.78}
-\contentsline {figure}{\numberline {6.25}{\ignorespaces Seasonal cycle of MSE budget terms}}{153}{figure.caption.79}
-\contentsline {figure}{\numberline {6.26}{\ignorespaces Composites of the mean vertical advection of the MSE budget}}{154}{figure.caption.80}
-\contentsline {figure}{\numberline {6.27}{\ignorespaces Composites of the anomalous vertical advection of the MSE budget}}{155}{figure.caption.81}
-\contentsline {figure}{\numberline {6.28}{\ignorespaces Composites of gross moist stability}}{156}{figure.caption.82}
-\contentsline {figure}{\numberline {6.29}{\ignorespaces Composites of the anomalous horizontal advection of MSE and surface fluxes}}{157}{figure.caption.83}
-\contentsline {figure}{\numberline {6.30}{\ignorespaces Scatterplot of the vertical advection of dry and moist static energy against precipitation}}{158}{figure.caption.84}
-\contentsline {figure}{\numberline {6.31}{\ignorespaces Barplots of MSE budget terms}}{159}{figure.caption.85}
+\contentsline {xchapter}{The Midsummer drought in the MOHC CMIP6 experiments}{117}{chapter.6}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Seasonal cycle of precipitation in Mesoamerica}}{119}{figure.caption.55}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Schematics of MSD mechanisms.}}{120}{figure.caption.56}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Illustration of the use of the wavelet transform method}}{123}{figure.caption.57}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Observed composites of climatological and seasonal variations of precipitation.}}{124}{figure.caption.58}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces ERA5 precipitation biases}}{125}{figure.caption.59}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Composite mean precipitation biases and seasonal variations}}{126}{figure.caption.60}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Scatter plot of mean precipitation in different parts of seasonal cycle}}{127}{figure.caption.61}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces OLR and vertical velocity composites}}{129}{figure.caption.62}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Seasonal cycle of East Pacific and Caribbean SSTs and zonal winds.}}{130}{figure.caption.63}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Composite SST anomalies}}{132}{figure.caption.64}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Scatter plot of SST vs precipitation}}{134}{figure.caption.65}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Scatter plot of SST changes}}{135}{figure.caption.66}
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Lagged correlations of East Pacific SSTs}}{136}{figure.caption.67}
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Composites of cloud radiative effects}}{139}{figure.caption.68}
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Short-wave cloud radiative effect composites}}{141}{figure.caption.69}
+\contentsline {figure}{\numberline {6.16}{\ignorespaces As in Fig. \ref {fig:cre_comp} but for the long-wave CRE.\relax }}{142}{figure.caption.70}
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Seasonal cycle of cloud-radiative effects}}{143}{figure.caption.71}
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Composite shortave differences with MSD timings}}{144}{figure.caption.72}
+\contentsline {figure}{\numberline {6.19}{\ignorespaces Scatterplot and lagged-regression of surface short-wave}}{145}{figure.caption.73}
+\contentsline {figure}{\numberline {6.20}{\ignorespaces Composite moisture flux and wind speed}}{146}{figure.caption.74}
+\contentsline {figure}{\numberline {6.21}{\ignorespaces Seasonal cycle of IMFC and TWC}}{148}{figure.caption.75}
+\contentsline {figure}{\numberline {6.22}{\ignorespaces Composites of IMFC, TWC and CLLJ}}{149}{figure.caption.76}
+\contentsline {figure}{\numberline {6.23}{\ignorespaces Scatterplot of TWC, IMFD and CLLJ}}{151}{figure.caption.77}
+\contentsline {figure}{\numberline {6.24}{\ignorespaces Lagged correlations of the CLLJ and IMFC indices with precipitation.}}{152}{figure.caption.78}
+\contentsline {figure}{\numberline {6.25}{\ignorespaces Seasonal cycle of MSE budget terms}}{154}{figure.caption.79}
+\contentsline {figure}{\numberline {6.26}{\ignorespaces Composites of the mean vertical advection of the MSE budget}}{155}{figure.caption.80}
+\contentsline {figure}{\numberline {6.27}{\ignorespaces Composites of the anomalous vertical advection of the MSE budget}}{156}{figure.caption.81}
+\contentsline {figure}{\numberline {6.28}{\ignorespaces Composites of gross moist stability}}{157}{figure.caption.82}
+\contentsline {figure}{\numberline {6.29}{\ignorespaces Composites of the anomalous horizontal advection of MSE and surface fluxes}}{158}{figure.caption.83}
+\contentsline {figure}{\numberline {6.30}{\ignorespaces Scatterplot of the vertical advection of dry and moist static energy against precipitation}}{159}{figure.caption.84}
+\contentsline {figure}{\numberline {6.31}{\ignorespaces Barplots of MSE budget terms}}{160}{figure.caption.85}
 \addvspace {10\p@ }
-\contentsline {xchapter}{ QBO Teleconnections: the tropical route }{165}{chapter.7}
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Annual mean precipitation composite difference QBO W-E }}{169}{figure.caption.86}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces DJF mean precipitation composite difference QBO W-E }}{170}{figure.caption.87}
+\contentsline {xchapter}{ The tropical route of QBO teleconnections in UKESM1 and HadGEM3 }{166}{chapter.7}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Annual mean precipitation composite difference QBO W-E }}{170}{figure.caption.86}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces DJF mean precipitation composite difference QBO W-E }}{171}{figure.caption.87}
 \contentsline {figure}{\numberline {7.3}{\ignorespaces MAM mean precipitation composite difference QBO W-E }}{171}{figure.caption.88}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces SON mean precipitation composite difference QBO W-E }}{171}{figure.caption.89}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces JJA mean precipitation composite difference QBO W-E }}{172}{figure.caption.90}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces SON mean precipitation composite difference QBO W-E }}{172}{figure.caption.89}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces JJA mean precipitation composite difference QBO W-E }}{173}{figure.caption.90}
 \contentsline {figure}{\numberline {7.6}{\ignorespaces Annual mean SST difference QBO W-E under different QBO phases.}}{173}{figure.caption.91}
-\contentsline {figure}{\numberline {7.7}{\ignorespaces DJF mean SST difference QBO W-E under different QBO phases.}}{173}{figure.caption.92}
-\contentsline {figure}{\numberline {7.8}{\ignorespaces ITCZ seasonal cycle in the Atlantic Sector.}}{174}{figure.caption.93}
-\contentsline {figure}{\numberline {7.9}{\ignorespaces Atlantic ITCZ convective precipitation differences on QBO phase.}}{175}{figure.caption.94}
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Central Pacific ITCZ convective precipitation differences on QBO phase.}}{176}{figure.caption.95}
-\contentsline {figure}{\numberline {7.11}{\ignorespaces Global monsoon impacts of the QBO.}}{177}{figure.caption.96}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces DJF mean SST difference QBO W-E under different QBO phases.}}{174}{figure.caption.92}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces ITCZ seasonal cycle in the Atlantic Sector.}}{175}{figure.caption.93}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Atlantic ITCZ convective precipitation differences on QBO phase.}}{176}{figure.caption.94}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Central Pacific ITCZ convective precipitation differences on QBO phase.}}{177}{figure.caption.95}
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Global monsoon impacts of the QBO.}}{178}{figure.caption.96}
 \contentsline {figure}{\numberline {7.12}{\ignorespaces Impacts of the QBO in the seasonal cycle of monsoon regions.}}{179}{figure.caption.97}
-\contentsline {figure}{\numberline {7.13}{\ignorespaces IOD and ENSO frequency changes on QBO phase.}}{180}{figure.caption.98}
-\contentsline {figure}{\numberline {7.14}{\ignorespaces Convective precipitation regression analysis}}{182}{figure.caption.99}
+\contentsline {figure}{\numberline {7.13}{\ignorespaces IOD and ENSO frequency changes on QBO phase.}}{181}{figure.caption.98}
+\contentsline {figure}{\numberline {7.14}{\ignorespaces Convective precipitation regression analysis}}{183}{figure.caption.99}
 \contentsline {figure}{\numberline {7.15}{\ignorespaces Precipitation response to QBO W-E for GC3 N96-pi under different QBO phases.}}{184}{figure.caption.100}
-\contentsline {figure}{\numberline {7.16}{\ignorespaces Walker circulation anomalies in DJFM}}{185}{figure.caption.101}
-\contentsline {figure}{\numberline {7.17}{\ignorespaces Walker circulation anomalies in SON}}{186}{figure.caption.102}
-\contentsline {figure}{\numberline {7.18}{\ignorespaces QBO amplitude bias}}{189}{figure.caption.103}
-\contentsline {figure}{\numberline {7.19}{\ignorespaces Time-series of zonal-mean winds under different nudging conditions}}{191}{figure.caption.104}
-\contentsline {figure}{\numberline {7.20}{\ignorespaces Nudging sensitivity QBO profiles}}{193}{figure.caption.105}
-\contentsline {figure}{\numberline {7.21}{\ignorespaces Zonal mean zonal wind QBO difference}}{196}{figure.caption.107}
-\contentsline {figure}{\numberline {7.22}{\ignorespaces Zonal mean air temperature QBO difference}}{197}{figure.caption.108}
-\contentsline {figure}{\numberline {7.23}{\ignorespaces Zonal wind QBO W-E difference 100 hPa level}}{198}{figure.caption.109}
-\contentsline {figure}{\numberline {7.24}{\ignorespaces Zonal wind QBO W-E difference 100 hPa level}}{198}{figure.caption.110}
-\contentsline {figure}{\numberline {7.25}{\ignorespaces Hadley cell in atmosphere-only experiments}}{200}{figure.caption.112}
-\contentsline {figure}{\numberline {7.26}{\ignorespaces Walker in atmosphere-only experiments}}{201}{figure.caption.113}
-\contentsline {figure}{\numberline {7.27}{\ignorespaces Annual mean OLR in atmosphere-only experiments}}{201}{figure.caption.114}
-\contentsline {figure}{\numberline {7.28}{\ignorespaces Tropical mean OLR time series.}}{202}{figure.caption.115}
-\contentsline {figure}{\numberline {7.29}{\ignorespaces Annual mean precipitation response in atmosphere-only experiments}}{203}{figure.caption.117}
-\contentsline {figure}{\numberline {7.30}{\ignorespaces DJF mean precipitation response in atmosphere-only experiments}}{203}{figure.caption.118}
-\contentsline {figure}{\numberline {7.31}{\ignorespaces SON OLR response in atmosphere-only experiments}}{204}{figure.caption.119}
-\contentsline {figure}{\numberline {7.32}{\ignorespaces Annual mean SST response to the QBO in coupled nudged experiments}}{206}{figure.caption.121}
-\contentsline {figure}{\numberline {7.33}{\ignorespaces SST response in MAM to the QBO in coupled nudged experiments}}{206}{figure.caption.122}
-\contentsline {figure}{\numberline {7.34}{\ignorespaces SST response in JJA to the QBO in coupled nudged experiments}}{207}{figure.caption.123}
-\contentsline {figure}{\numberline {7.35}{\ignorespaces Precipitation response to the QBO in coupled nudged experiments}}{208}{figure.caption.125}
-\contentsline {figure}{\numberline {7.36}{\ignorespaces Convective precipitation response in MAM}}{209}{figure.caption.126}
-\contentsline {figure}{\numberline {7.37}{\ignorespaces Convective precipitation response in JJA}}{210}{figure.caption.127}
-\contentsline {figure}{\numberline {7.38}{\ignorespaces Hadley circulation in coupled nudged experiments.}}{211}{figure.caption.129}
-\contentsline {figure}{\numberline {7.39}{\ignorespaces Walker circulation in coupled nudged experiments.}}{212}{figure.caption.130}
-\contentsline {figure}{\numberline {7.40}{\ignorespaces IOD and ENSO indices in nudged versus control experiments}}{214}{figure.caption.131}
+\contentsline {figure}{\numberline {7.16}{\ignorespaces Walker circulation anomalies in DJFM}}{186}{figure.caption.101}
+\contentsline {figure}{\numberline {7.17}{\ignorespaces Walker circulation anomalies in SON}}{187}{figure.caption.102}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Conclusions}{221}{chapter.8}
+\contentsline {xchapter}{ QBO Teleconnections in the UM with a nudged stratosphere }{191}{chapter.8}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces QBO amplitude bias}}{193}{figure.caption.103}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Time-series of zonal-mean winds under different nudging conditions}}{195}{figure.caption.104}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Nudging sensitivity QBO profiles}}{197}{figure.caption.105}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Zonal mean zonal wind QBO difference}}{200}{figure.caption.107}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Zonal mean air temperature QBO difference}}{201}{figure.caption.108}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Zonal wind QBO W-E difference 100 hPa level}}{201}{figure.caption.109}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Zonal wind QBO W-E difference 100 hPa level}}{202}{figure.caption.110}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Hadley cell in atmosphere-only experiments}}{203}{figure.caption.111}
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Walker in atmosphere-only experiments}}{204}{figure.caption.113}
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Annual mean OLR in atmosphere-only experiments}}{205}{figure.caption.114}
+\contentsline {figure}{\numberline {8.11}{\ignorespaces Tropical mean OLR time series.}}{206}{figure.caption.115}
+\contentsline {figure}{\numberline {8.12}{\ignorespaces Annual mean precipitation response in atmosphere-only experiments}}{207}{figure.caption.117}
+\contentsline {figure}{\numberline {8.13}{\ignorespaces DJF mean precipitation response in atmosphere-only experiments}}{208}{figure.caption.118}
+\contentsline {figure}{\numberline {8.14}{\ignorespaces SON OLR response in atmosphere-only experiments}}{208}{figure.caption.119}
+\contentsline {figure}{\numberline {8.15}{\ignorespaces Annual mean SST response to the QBO in coupled nudged experiments}}{210}{figure.caption.120}
+\contentsline {figure}{\numberline {8.16}{\ignorespaces SST response in MAM to the QBO in coupled nudged experiments}}{210}{figure.caption.122}
+\contentsline {figure}{\numberline {8.17}{\ignorespaces SST response in JJA to the QBO in coupled nudged experiments}}{211}{figure.caption.123}
+\contentsline {figure}{\numberline {8.18}{\ignorespaces Precipitation response to the QBO in coupled nudged experiments}}{212}{figure.caption.125}
+\contentsline {figure}{\numberline {8.19}{\ignorespaces Convective precipitation response in MAM}}{213}{figure.caption.126}
+\contentsline {figure}{\numberline {8.20}{\ignorespaces Convective precipitation response in JJA}}{214}{figure.caption.127}
+\contentsline {figure}{\numberline {8.21}{\ignorespaces Hadley circulation in coupled nudged experiments.}}{215}{figure.caption.129}
+\contentsline {figure}{\numberline {8.22}{\ignorespaces Walker circulation in coupled nudged experiments.}}{217}{figure.caption.130}
+\contentsline {figure}{\numberline {8.23}{\ignorespaces IOD and ENSO indices in nudged versus control experiments}}{218}{figure.caption.131}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Conclusions}{223}{chapter.9}
