@@ -2,15 +2,8 @@
 
 
 This chapter evaluates the representation of the AMS in the CMIP6 models: UKESM1 and HadGEM3. The pre-industrial control, historical and AMIP experiments are evaluated highlighting the role of large and regional-scale biases for the representation of the monsoon dynamics, as well the representation of ENSO teleconnections.
-The simulations show a good representation of the seasonal cycle of temperature, although the historical experiments overestimate the observed summer temperature in the Amazon, Mexico and Central America by more than 1.5 K.
-The seasonal cycle of rainfall and general characteristics of the North American Monsoon in all the simulations agree well with observations, suggesting  a notable improvement from previous versions of the HadGEM model.
- The models reasonably simulate the bimodal regime of precipitation in southern Mexico, Central America and the Caribbean known as the midsummer drought, although  with a stronger than observed difference between the two peaks of precipitation and the dry period. 
-Austral summer biases in the modelled Atlantic Intertropical Convergence Zone (ITCZ), cloud cover and regional temperature patterns are noteworthy and influence the simulated regional rainfall in the South American Monsoon.
-These biases are associated with an overestimation of precipitation in southeastern Brazil and an underestimation of precipitation in the Amazon which are greatly reduced in the AMIP simulations, highlighting that an accurate simulation of the Atlantic SSTs is key for representing precipitation in the South American Monsoon.  
-  El Ni\~no Southern Oscillation (ENSO) teleconnections, of precipitation and temperature, to the AMS are reasonably simulated by all the experiments. 
-The precipitation responses to the positive and negative phase of ENSO in subtropical America are linear in both pre-industrial and historical experiments, in contrast to observations.
-  Overall, the biases in UKESM1 and the low resolution configuration of GC3 are very similar for precipitation, ITCZs and the Walker circulation, i.e., the inclusion of  Earth System processes appears to make no significant difference to the representation of the AMS rainfall. 
-In contrast, the medium resolution HadGEM3 N216 simulation outperforms the low-resolution simulations due to improved SSTs and circulation.
+The impacts of increased horizontal resolution and representing Earth System processes for the representation of the monsoon are described and discussed. 
+
 
 
  % Model assessment and validation is also important for this purpose as this process 
@@ -37,7 +30,7 @@ The remainder of this chapter is organised as follows. The following section des
 \section{Methods and data} 
 \label{sq:meth_ch4}
 The model assessment of this chapter will use a range of experiments from the MOHC, described in section \ref{sq:modeldata} using the HadGEM3 and the UKESM1 models. The experiments from HadGEM3 run at N96 (labelled GC3 N96) and at N216 (labelled GC3 N216) resolutions are used to evaluate the role of horizontal resolution whereas Earth System Model UKESM1, which is run at N96 resolution in all the experiments, is used to evaluate the effect of representing atmospheric chemistry and other processes for the representation of the monsoon. 
-In this chapter, the term low resolution will refer to both UKESM1 and GC3 N96 experiments whereas medium resolution refers to GC3 N216 experiments. Note that in most figures depicting horizonal patterns only a handful of simulations is shown and in most cases this selection aims to exhibit the widest range of responses observed. 
+In this chapter, the term low resolution will refer to both UKESM1 and GC3 N96 experiments whereas medium resolution refers to GC3 N216 experiments.% Note that in most figures depicting horizonal patterns only a handful of simulations is shown and in most cases this selection aims to exhibit the widest range of responses observed. 
 
 The historical experiments are used to evaluate model skill in reproducing the observed period whereas the AMIP experiment from GC3 N96 is used to highlight the role of SST biases. The historical experiment data is used only in the 1979-2014 period to directly compare with the observed period whereas the whole pre-industrial and AMIP available data is used. 
 All the observational datasets used in this chapter are thoroughly described in chapter \ref{ch:3-methods} but in summary in this chapter, the surface or near-surface air temperature data is taken from the CRU4 dataset and ERA5, whereas precipitation is used from the different datasets described in the previous chapter. The dynamical features such as wind speed and vertical velocity are taken from ERA5.
@@ -74,9 +67,15 @@ Similarly, for the QBO, the deseasonalized and detrended time-series of the equa
 %\section{Climatological features}\label{sq:clim}
 
 
-\section{Climatological temperature and low-level wind biases} \label{sq:clim}
+\section{Surface temperature and low-level wind} \label{sq:clim}
 
-\begin{figure}[t!]
+
+
+This section evaluates how these simulations represent the near-air surface temperature and low-level wind fields in the vicinity of the AMS region (Figures \ref{fig:1} and \ref{fig:1b}). % the climatology of DJF and JJA of ERA5 is shown in Figure \ref{fig:1}a, b.
+The biases of the historical experiments, computed as the differences between the model and observed fields, are shown in Figures \ref{fig:1}c, d) for GC3 N96-hist and e, f) for UKESM1-hist.
+ Only statistically significant differences are shown, according to a Welch t-test \citep{wilks2011}, which accounts for the difference in sample size and variance between model and observations/reanalysis data. The significance for simulations with multiple ensemble members is estimated first for each ensemble member and then combined into a single probability or p-value using Fisher's method \citep{fisher1992statistical}. Pattern correlations and root-mean square error (RMSE) are shown in Figures \ref{fig:1}c-f and in Table \ref{tab:s1}.
+ 
+ \begin{figure}[t!]
 \centering
  %\noindent
  \includegraphics[width=\linewidth]{figures/fig1p2_f1a.png}
@@ -84,12 +83,6 @@ Similarly, for the QBO, the deseasonalized and detrended time-series of the equa
 The climatogies and biases are shown for (a, c, e) boreal winter (DJF) and (b, d, f) boreal summer (JJA). Only differences statistically significant to the 95\% level are shown, according to a Welch t-test for each field. The key for the size of the wind vectors is shown in the top right corner of panels b) and d). The root-mean square error (RMSE) and pattern correlation coefficient (PCC) are shown on the bottom left of c-f.}
 \label{fig:1}
 \end{figure}
-
-This section evaluates how these simulations represent the near-air surface temperature and low-level wind fields in the vicinity of the AMS region.
-The climatological representation of the near-surface air temperature and low-level winds in the models is compared to ERA5 in Figures \ref{fig:1} and \ref{fig:1b}. % the climatology of DJF and JJA of ERA5 is shown in Figure \ref{fig:1}a, b.
-The biases of the historical experiments, computed as the differences between the model and observed fields, are shown in Figures \ref{fig:1}c, d) for GC3 N96-hist and e, f) for UKESM1-hist.
- Only statistically significant differences are shown, according to a Welch t-test \citep{wilks2011}, which accounts for the difference in sample size and variance between model and observations/reanalysis data. The significance for simulations with multiple ensemble members is estimated first for each ensemble member and then combined into a single probability or p-value using Fisher's method \citep{fisher1992statistical}. Pattern correlations and root-mean square error (RMSE) are shown in Figures \ref{fig:1}c-f and in Table \ref{tab:s1}.
- 
 
 \begin{table}[t!]
 \small
