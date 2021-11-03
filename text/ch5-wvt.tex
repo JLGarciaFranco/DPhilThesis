@@ -1,4 +1,4 @@
-\chapter{\label{ch:5-wvt}A wavelet transform method to determine monsoon onset and retreat from precipitation time-series}
+\chapter{\label{ch:5-wvt}A wavelet transform method to determine monsoon onset and retreat}
 
 This chapter describes a new method to determine monsoon onset and retreat timings using wavelet transform methodology applied to precipitation time-series at the pentad scale. 
 The use of the method is illustrated for the North American Monsoon and the Indian Monsoon using four different precipitation datasets and climate model output. 
@@ -172,7 +172,7 @@ The set of dilation coefficients $\vec{a} = (28,30,\cdots, 54)$ was found to be 
 
 For example, Figure \ref{fig:wvt_3} illustrates the method in the North American Monsoon in the TRMM dataset for 2009. Figure \ref{fig:wvt_3}a shows the WT coefficient matrix, showing the changes in precipitation for dilations ranging from 10 to 50. A clear signal of positive coefficients is observed between pentads 28 to 34  and a similar negative signal observed in pentads 56 to 60. Figure \ref{fig:wvt_3}b shows the time-series of the observed precipitation, which suggests that monsoon onset occurs sometime between pentads 28 and 34. Observed rainfall rapidly decreases after pentad 59 suggesting that monsoon retreat can be diagnosed around this pentad.
 
-\begin{figure}
+\begin{figure}[t!]
  \includegraphics[width=\linewidth]{figures/nam_n216.pdf}
 \caption[Example determination of onset and retreat in HadGEM3 N216]{ As in Figure \ref{fig:wvt_3}, but for a year (1875) in the HadGEMGC3.1 N216 pre-industrial control simulation.  }
 \label{fig:s1_n216}
@@ -196,7 +196,7 @@ The diagnosis of the onset and end of the MSD is algo robust to using other dila
 Figure \ref{fig:5} illustrates the use of the WT method to determine the dates of MSDO and MSDE for the precipitation of 2017 in ERA-5.
 Figure \ref{fig:5}a depicts the wavelet covariant transform matrix, showing the $W_f$ coefficients for each dilation $a$ at each pentad $b$. The onset of rainfall is diagnosed around the time-steps of highest positive $W_f$ coefficients -- around pentads 24 to 32 for almost all dilations. These positive coefficients are followed by a period of negative values from pentad 32 to pentad 40, which represent the decrease in precipitation, or relative drought, in the midsummer. The MSD is followed by another period of positive coefficients from pentad 44 to pentad 52, illustrating the so-called second peak of precipitation and, finally, a period of negative coefficients associated with monsoon retreat.
 
-\begin{figure}[b!]
+\begin{figure}[t!]
 \centering
  %\noindent
  \includegraphics[width=\linewidth]{figures/wav_fig4.pdf}
@@ -390,7 +390,7 @@ The GC3 N216 simulation, however, shows a later onset than observed by about two
 \caption{Mean pentads of monsoon onset (MO), rainfall retreat (MR), MSD Onset (MSDO) and MSD End (MSDE) in the MSD region [11-19$^\circ$N, 95-85$^\circ$W, illustrated in Figure \ref{fig:wav_fig11}a.] estimated through the WT method. Pentad 35 corresponds to the period between June 22-27 and pentad 52 to the period Sep 13-18. The model dates shown in bold are statistically different from CMAP and CHIRPS results to the 99\% confidence level according to a Welch's t-test. }
 \label{tab:4}       % Give a unique label
 % For LaTeX tables use
-\begin{tabular}{p{2cm}p{1.5cm}p{1.5cm}p{1.5cm}p{1.5cm}p{1.75cm}p{1.75cm}}
+\begin{tabular}{p{2.35cm}p{1.7cm}p{1.7cm}p{1.7cm}p{1.7cm}p{2.1cm}p{1.925cm}}
 \hline\noalign{\smallskip}
 Dataset & MO & MR & MSDO & MSDE & coef1 & coef2  \\ \hline
 TRMM & 25.8 [$\pm$2.2] & 61.6 [$\pm$3.1] & 35.9 [$\pm$2.4] & 49.0 [$\pm$4.1] & -9.5 [$\pm$4.2] & 10.4 [$\pm$5.4]  \\

@@ -1,4 +1,4 @@
-\chapter{\label{ch:7-nudging} QBO Teleconnections in the UM with a nudged stratosphere }
+\chapter{\label{ch:7-nudging} Tropical Teleconnections of the QBO in the UM with a nudged stratosphere }
 
 The previous chapter describes tropical teleconnections associated with the stratospheric quasi-biennial oscillation (QBO) in the MOHC CMIP6 pre-industrial control experiments. One could reasonably hypothesize that those relationships are the result of a control of tropical convection by the QBO. 
 This chapter tests this hypothesis by constraining the zonal winds in the tropical stratosphere, eliminating any possible influence of the troposphere on the stratosphere. 
@@ -6,20 +6,23 @@ The relaxation experiment design is described and results are presented and a di
 
 \section{Introduction}
 
-The tropical route of QBO teleconnections remains relatively less understood than the polar and subtropical routes. The observational evidence available \citep[e.g.][]{collimore2003,liess2012,schirber2015,gray2018} cannot answer questions such as whether the observed relationship between tropical convection and the QBO are causally linked and if so, is the QBO the driving mechanims or is a result of convective active influencing the QBO.
+Surface impacts of the QBO in the tropics have been documented in observational and modelling studies \citep{giorgetta1999,collimore2003,garfinkel2010,liess2012,hansen2016tropospheric,gray2018,ma2021} but the specific processes that link the QBO to the strength and height of tropical convection are less clear. 
+The observational evidence available \citep[e.g.][]{collimore2003,liess2012,gray2018} cannot determine the causal links between the QBO and tropical convection due to the strong influence of ENSO on tropical climate, as well as the short period of observations available.
+For instance,  a relationship between the QBO on the Madden-Julian Oscillation (MJO) amplitude and predictability has been diagnosed in recent years \citep{son2017,wang2019,lim2019,klotzbach2019,densmore2019} but studies disagree over whether these relationships point to a downward influence from the stratosphere to the tropical troposphere \citep{klotzbach2019,lim2019} or the observed relationship is due to other processes \citep{wang2019}.
 
-The use of GCMs to address these questions is limited due to the fact that only some recent models are able to reproduce a sufficiently reasonable representation of the QBO. Still, some CMIP6 models produce highly unrealistic QBO features and some require a relaxation of the model towards an observed state of the QBO, i.e., artificially generating a QBO \citep{richter2020}. 
-For example, observed relationships between the QBO and the Madden-Julian Oscillation (MJO) \citep[e.g.][]{son2017,wang2019} have not been found in GCMs \citep{lee2018,kim2020,martin2021} and the leading hypothesis is due to the underestimation of models of the upper-troposphere lower-stratosphere (UTLS) temperature variability associated with the QBO. 
+  The use of GCMs to address these questions is also limited due to the fact that only some recent models are able to reproduce a sufficiently reasonable representation of the QBO. Still, some CMIP6 models produce highly unrealistic QBO features and some require a relaxation of the model towards an observed state of the QBO, i.e., artificially generating a QBO \citep{richter2020}. 
+  For example, the observed relationships between the QBO and the MJO have not been found in GCMs \citep{lee2018,kim2020} and one reason for these results may be the underestimation of the UTLS temperature variability associated with the QBO in current GCMs.
+  
+The leading hypothesis to explain an impact from the QBO on convection suggests that changes to the upper-troposphere lower-stratosphere (UTLS) static stability caused by the QBO residual circulation modifies the strength of convection throughout the column \citep{liess2012,nie2015}. 
+   However, GCMs simulate a weaker change in the upper-level static stability at the equator due to a weak amplitude of the QBO in the lower stratosphere \citep{lee2018,richter2020} which may cause the models to misrepresent teleconnections in the tropics.  
+ These biases have led several studies to perform experiments in which the model stratosphere is relaxed towards an observed or idealized  state of the stratosphere, also known as nudging, \citep[e.g.][]{garfinkel2011,gray2020,richter2020,martin2021}. 
+The nudging technique has proven useful because the relaxation can remove biases, identify causal pathways and test specific hypotheses regarding the mechanisms that play a role in stratosphere-tropospheric coupling. 
 
-These biases have led several studies to perform experiments in which a GCM is relaxed towards an observed or idealized state where the model is forced to reproduce an observed or idealized  or a state of the stratosphere \citep{gray2020,richter2020,martin2021}. 
-The nudging technique has proven useful because the relaxation can prove causal pathways and test specific hypotheses regarding the mechanisms that play a role in stratosphere-tropospheric coupling. 
-
-
-This chapter first makes a case for nudging experiment, described the experimental configuration and the goals and hypotheses that we aim to test using these simulations. 
+This chapter investigates tropical teleconnections associated with the QBO in the MOHC UM using relaxation experiments. The remainder of this chapter is presented as follows. First, the chapter provides a scientific rationale for nudging experiments in the context of QBO tropical teleconnections and then describes the experimental configuration and the goals and hypotheses that we aim to test using these simulations. 
 % analysis of the pre-industrial control simulations is followed by a short section that makes the case for the use of nudging experiments using the UM to further investigate the findings of the first section. 
-Then, a description of the experimental setup is given and finally, results comparing runs using the nudging technique versus the free running model are presented and discussed highlighting the possible mechanisms at play for the tropical route of QBO teleconnections. 
+Afterwards, results comparing runs using the nudging technique versus the free running model are presented and discussed highlighting the possible mechanisms at play for the tropical route of QBO teleconnections. 
 
-\section{The case for nudging}
+\section{The nudging protocol}
 %
 %Global climate models exhibit a number of biases in their representation of various aspects of the climate, all of which lead to uncertainty in our ability to make statements about the real-world based on their results. One example of a key bias discussed in this thesis is the magnitude and position of precipitation associated with the ITCZ in the Atlantic Ocean, which is associated with biases in South American precipitation. % the mean state of the Pacific and Atlantic SSTs as well as many others. 
 %For this section, one relevant bias to consider is how current models represent the tropical stratosphere and, in particular, their representation of the QBO.
@@ -98,7 +101,9 @@ The final experimental design chosen was to perform the nudging in the model lev
 The experimental setup aims to reasonably simulate the observed variability of the zonal wind leaving the meridional component of the wind and the temperature to respond freely within the model. 
 
 Atmosphere-only and coupled ocean-atmosphere simulations were performed with this nudging setup, with corresponding control simulations in which there was no relaxation of any kind. The atmosphere-only, also referred to as AMIP, experiments were run with observed SSTs from the HadSST dataset. In all cases the nudging of the atmosphere was done only between 90 and 4 hPa and at equatorial latitudes only, whereas the surface boundary SSTs are used at all latitudes.
-For the nudged experiments several ensemble members were performed, three for the atmosphere-only configuration and six for the coupled ocean-atmosphere configuration. Each ensemble member was initialized from a different ocean/atmosphere initial condition in order to decrease the role that internal variability may have on these simulations. 
+For the nudged experiments several ensemble members were performed, three for the atmosphere-only configuration and six for the coupled ocean-atmosphere configuration. 
+
+The coupled experiments use an oceanic resolution of 0.25$^\circ$ (ORCA025) using the NEMO model. Each ensemble member was initialized from a different ocean/atmosphere initial conditions in order to decrease the role that internal variability may have on these simulations. 
 
 \begin{table}[t!]
 \caption{Experimental setup indicating the model configuration, the period, ensemble members, acronym and relaxation details.}
@@ -126,16 +131,11 @@ The following section presents the results of these experiments, first by report
 
 \section{ Results from nudging experiments}
 
-
-
-
-This section investigates the effect of nudging for the representation of the QBO, the variability in the upper troposphere lower stratosphere (UTLS) associated with the QBO, and ultimately, surface impacts driven by QBO effects on tropical convection. 
-First, this section evaluates how nudging modifies the wind and temperature variability in the UTLS region compared to control and CMIP6 simulations.  
-
+This section investigates the effect of nudging for the representation of the QBO, the effect of QBO in the representation of the variability in the UTLS, and  surface impacts and effects on the tropical circulation associated with the QBO.
+The remainder of this chapter analyses the response of the tropical surface and circulation to the QBO phase in nudged and control experiments using ERA5 and the same methodologies of Chapter \ref{ch:7-qbo}.
 
 
 \subsection{Tropical UTLS variability}
-
 
 Figure \ref{fig:zonal_u} shows the zonal mean difference in zonal wind associated with the QBO phase, in a latitude-height sense, in the 500-y CMIP6 GC3 N96-pi and both the AMIP and coupled 35-year (un-nudged) control simulations. The zonal wind variability in the lower stratosphere associated with the QBO is deficient in the GC3 N96-pi and control experiments, principally near the tropopause as the signal is too narrow and weaker than in the reanalysis.
  
@@ -149,40 +149,38 @@ Figure \ref{fig:zonal_u} shows the zonal mean difference in zonal wind associate
 
  %The variability in the mid-stratosphere winds is also improved as the signal is wider reaching the subtropics. This means that the representation of shear, which modulates temperature as well, is improved with the nudging in the 20$^\circ$S-20$^\circ$N.
 
-
-
 The temperature is able to respond to the nudging within the model freely, Figure \ref{fig:zonal_T} reveals that nudging the zonal wind can also improve the air temperature variability in the lower stratosphere driven by the QBO shear. The positive temperature anomaly in the equatorial region around the 100 hPa at the tropopause level is much weaker in the GC3 N96-pi, AMIP Control and Coupled Control compared to the two nudged experiments and to ERA5. The Nudged experiments not only improve the temperature signal in the equatorial lower stratosphere but seem to overestimate this signal around the 70 hPa level. 
 
 However, observations show a horse-shoe temperature anomaly pattern in the subtropics characterised by a negative anomaly that extends from 20-40 degrees north and south, a signal that is missing in the GC3 N96-pi, AMIP Control and Coupled Control experiments but is recovered in the Nudged experiments. This means that without nudging further away than 20 degrees north or south, the subtropical signal is obtained by improving the residual circulation associated with the QBO. 
 
-\begin{figure}[t!]
-\centering
- %\noindent
- \includegraphics[width=\linewidth]{figures/ua100climqbowf.png}
-\caption[Zonal wind QBO W-E difference 100 hPa level]{Zonal wind difference in QBO W-E at the 100 hPa level. Hatching denotes significance to the 95\% level according to a Student's t-test.}
-\label{fig:ua100qbo}
-\end{figure}
-
-The spatial distribution of the wind and temperature variability associated with the QBO near the tropopause level (100-hPa level) is shown in Figures \ref{fig:ua100qbo} and \ref{fig:ta100qbo} for ERA5, GC3 N96-pi and control and nudged experiments. 
-These Figures show, first, that the free running model (seen in GC3 N96-pi and Coupled Control) is able to reproduce the zonal asymmetries in the QBO signal \citep{tegtmeier2020b} at the 100 hPa level albeit much weaker than the observed signal. The wind differences, for instance, are stronger over the Maritime continent in observations whereas the temperature signal is stronger in the Maritime continent and over equatorial Africa, both features reproduced sensibly by the model without nudging. 
-
-The nudging particularly improves the temperature response to the QBO at 100 hPa where the QBO W-E difference is more than twice the amplitude of the un-nudged response. 
-%increases the magnitude of these signals at the 100 hPa level, both for the zonal wind and the temperature differences. 
-In addition, the temperature signal in the Nudged experiments is improved in AMIP Nudged and AMIP Shifted experiments, indicating that these differences are not associated with the underlying SST field, rather with the QBO vertical wind shear, which has been improved by nudging. 
-Results found in this analysis also indicate that the tropopause height and temperature exhibits more variability associated with the QBO than in the free-running model (not shown). 
-
+%\begin{figure}[t!]
+%\centering
+% %\noindent
+% \includegraphics[width=\linewidth]{figures/ua100climqbowf.png}
+%\caption[Zonal wind QBO W-E difference 100 hPa level]{Zonal wind difference in QBO W-E at the 100 hPa level. Hatching denotes significance to the 95\% level according to a Student's t-test.}
+%\label{fig:ua100qbo}
+%\end{figure}
 
 \begin{figure}[t!]
 \centering
  %\noindent
  \includegraphics[width=\linewidth]{figures/ta100climqbowf.png}
-\caption[Zonal wind QBO W-E difference 100 hPa level]{As in Figure \ref{fig:ua100qbo}, but for air temperature. }
+\caption[Zonal temperature QBO W-E difference 100 hPa level]{Air temperature QBO W-E difference at the 100 hPa level. Hatching denotes significance to the 95\% confidence level. }
 \label{fig:ta100qbo}
 \end{figure}
 
-This section shows that the UTLS temperature and zonal wind variability are more realistic in the nudged experiments, and that this variability is not related to the underlying SSTs but rather a result of the relaxation in the equatorial stratosphere. These results indicate that these experiments are suited to investigate tropical teleconnections associated with the QBO. The hypothesis to test is that the processes that link the QBO to tropical convection should be more realistically represented in the nudged experiments than in the control experiments. %The following section investigates whether in fact surface impacts in the tropics are stronger in the nudged experiments compared to free-running simulations. 
+In a horizontal cross section, at the 100-hPa level, the nudging also improve the wind and temperature variability associated with the QBO (see Figure \ref{fig:ta100qbo}). 
+The maximum QBO W-E differences in the zonal wind at this level are found in the Maritime continent \citep{tegtmeier2020b} and this pattern is also observed in ERA5 and the free running versions of the model (seen in GC3 N96-pi and Coupled Control), albeit much weaker than the observed signal (not shown). 
 
-\begin{figure}[b!]
+The nudging noticeably improves the horizontal distribution and magnitude of the temperature response to the QBO at 100 hPa, as the difference between QBO phases doubles the amplitude of the un-nudged response (Figure \ref{fig:ta100qbo}. 
+%increases the magnitude of these signals at the 100 hPa level, both for the zonal wind and the temperature differences. 
+In addition, the temperature signal in the Nudged experiments is improved in AMIP Nudged and AMIP Shifted experiments, indicating that these differences are not associated with the underlying SST field, rather with the QBO vertical wind shear, which has been improved by nudging. 
+Results found in this analysis also indicate that the tropopause height and temperature exhibits more variability associated with the QBO than in the free-running model (not shown). 
+
+This section shows that the variability in UTLS temperature and zonal wind is more realistic in the nudged experiments, and that this variability is not related to the underlying SSTs but rather a result of the relaxation in the equatorial stratosphere. These results indicate that these experiments are suited to investigate tropical teleconnections associated with the QBO to test the hypothesis that the nudging experiments will exhibit a stronger surface response in the tropics to the QBO.
+ %that the processes that link the QBO to tropical convection should be more realistically represented in the nudged experiments than in the control experiments. %The following section investigates whether in fact surface impacts in the tropics are stronger in the nudged experiments compared to free-running simulations. 
+
+\begin{figure}[t!]
 \centering
  %\noindent
  \includegraphics[width=\linewidth]{figures/suite_streamhadleyclim.png}
@@ -192,14 +190,12 @@ This section shows that the UTLS temperature and zonal wind variability are more
 
 \subsection{Atmosphere-only experiments}
 
-
-
 This section describes the results of the atmosphere-only experiments: AMIP Nudged, AMIP Control and AMIP Shifted. These simulations use the CMIP6 SST dataset used for AMIP experiments, i.e.,  the SSTs in these runs follow the observed seasonal and interannual variability of SSTs. 
 The effect of nudging on the tropical circulation and precipitation is shown in the following sections. % is first described to evaluate whether nudging has significantly modified the mean state of the Hadley and Walker circulations. Then, the precipitation response to the QBO is compared between Nudged and Control AMIP simulations.
 
 \subsubsection{The tropical circulation}
 
-\begin{figure}[b!]
+\begin{figure}[t!]
 \centering
  %\noindent
  \includegraphics[width=\linewidth]{figures/suite_streamwalkerclim.png}
@@ -213,7 +209,7 @@ The AMIP Nudged simulation shows  positive zonal wind differences with the Contr
 In turn, the Walker circulation biases in the upper troposphere are notably improved in the Nudged experiment (Figure \ref{fig:walkeramip}). The mean state of the Walker circulation is weaker in the AMIP Control simulation compared to ERA5, characterised by a weaker circulation in the Western Pacific and an easterly bias at upper levels. These two tropospheric biases in the Control experiment are reduced in the Nudged experiments, the relaxation is only applied above 90 hPa although significant differences in the zonal wind and zonal streamfunction are observed at 200 hP near the dateline, over South America and over the Atlantic Ocean. 
 However, no significant differences in the streamfunction or zonal wind in the lower troposphere are observed between the AMIP Shifted and Nudged experiments which means that the mean overturning circulation is not modified by the variability of the nudging data.
 
-\begin{figure}[b!]
+\begin{figure}[t!]
 \centering
  %\noindent
  \includegraphics[width=\linewidth]{figures/olr_check.png}
@@ -225,15 +221,13 @@ In spite of the fact that nudging reduces biases in the mean state of the Hadley
 Therefore, it remains unclear whether the nudging has significantly modified other aspects of tropical climate. 
 An examination of the climatological  OLR in the tropics (Figure \ref{fig:olr-mean}) shows that most regions in the tropics exhibit significant and relatively large biases in AMIP Control compared to ERA5, most of which remain unchanged in the AMIP Nudged and Shifted experiments. The small and not significant differences between the Shifted and Nudged experiments suggest a small effect of the relaxation of the zonal winds over the mean state of OLR. 
 
-\begin{figure}[b!]
+\begin{figure}[t!]
 \centering
  %\noindent
  \includegraphics[width=\linewidth]{figures/olr_tseries.png}
 \caption[Tropical mean OLR time series.]{Time-series of zonal-mean equatorial [5$^\circ$S-5$^\circ$N]  OLR in ERA5 and the three amip experiments for (a) 20 yrs and a (b) 5-yr period around the 1997-1998 ENSO event. For each AMIP experiment the Pearson correlation coefficient between the experiment time-series and ERA5 is shown in the legend. }
 \label{fig:olramip_tseries}
 \end{figure}
-
-
 
 Similarly, Figure \ref{fig:olramip_tseries} shows that the zonal-mean OLR time-series averaged over the deep tropics is indistinguishable between the three AMIP experiments, and the time-series of all the experiments have the same correlation coefficient with ERA5. In other words, the tropical mean OLR remains unchanged in the nudged experiments, regardles of whether the relaxation was implemented to match the SST field or whether the nudging data was shifted from the SST time-series. 
 Based on these results alone, it would appear that nudging has made little impact over the interannual variability of the tropical mean OLR. 
@@ -280,9 +274,6 @@ These results suggest that the QBO winds are secondary to the effect of the SSTs
 This section shows, first, that relaxing the zonal wind in the stratosphere in atmosphere-only experiments does not modify the mean state of the tropical circulation. Second, that the surface response of precipitation associated with the QBO in observations is largely associated with the underlying SSTs. The tropical mean OLR and precipitation mean state appear to be undistinguishable between Control, Nudged and Shifted experiments, whereas the composite differences between the two phases of the QBO reveal that the observed precipitation response is associated mostly with the SST anomaly pattern. However, whether the QBO has any effect over the SSTs cannot be answered in this atmosphere-only experiments, which leads to the the next section which analyses the coupled nudged experiments. 
 
 \subsection{Coupled experiments}
-
-
-
 
 This section presents the results of the coupled ocean-atmosphere experiments with (Nudged) and without (Control) relaxing the zonal wind in the tropical stratosphere. Note that all the individual experiments in this section are the same length (35 yr) and that the Coupled Nudged  ensemble-mean refers to the mean results of the six ensemble members with nudging and the Control ensemble-mean to the mean of the two ensemble members.
 These coupled experiments differ only slightly from the setup used in the CMIP6 piControl experiments, analysed in section \ref{sq:cmip6_qbo}, with the atmospheric resolution of the nudged experiments matching the resolution of GC3 N96-pi (1.875$^\circ$x1.25$^\circ$) and the oceanic resolution of these resolutions being the same as GC3 N216-pi (0.25$^\circ$). The forcing is constant in both types of runs, except that in the piControl experiments, the forcing represents conditions of the year 1850 and in the nudged experiments of the year 2000. 
@@ -392,11 +383,10 @@ The next section examines changes to the mean state and variability of the tropi
 \label{fig:hadley_coupled}
 \end{figure}
 
-The variability of the tropical circulation in the atmosphere-only experiments was found to be dominated by the SST forcing in the previous section. However, the mean state of the upper-level branch of the Walker circulation was slightly different in the AMIP Nudged experiments compared to the Control. 
+In the previous section, the variability of the tropical circulation in the atmosphere-only experiments was found to be dominated by the SST forcing. However, the mean state of the upper-level branch of the Walker circulation was slightly different in the AMIP Nudged experiments compared to the Control. 
 To understand whether similar changes to the mean state or variability of the tropical circulation are observed in the coupled experiments, Figures \ref{fig:hadley_coupled} and \ref{fig:walker_coupled} show the impact of nudging on the mean state and variability of the Hadley and Walker circulations, respectively.
 
-The nudging appears to modify the mean state of the Hadley circulation in both DJF and JJA seasons (Figure \ref{fig:hadley_coupled}). Significant changes in the tropical UTLS streamfunction are observed in both seasons, and in DJF changes to the vertical velocity in the tropics suggest a strengthening of the Hadley cell when nudging is applied but very small changes are observed in JJA. 
-
+The nudging affects the mean state of zonal wind in the stratosphere (Figure \ref{fig:hadley_coupled}) as expected but also the meridional streamfunction in the troposphere in JJA. Significant changes in the tropical UTLS streamfunction are observed in both seasons, and in DJF changes to the vertical velocity in the tropics suggest a strengthening of the Hadley cell when nudging is applied but very small changes are observed in JJA. 
 
 The difference between QBO W-E in the tropospheric state of the Hadley cell in both seasons is considerably different between Nudged and Control experiments (Figs. \ref{fig:hadley_coupled}c-f). 
 In DJF, the Nudged ensemble-mean shows anomalous descent over the 10$^\circ$N latitude band and significantly higher values of the streamfunction at the equator extending into the lower troposphere. Similarly, the zonal wind in this season shows a positive anomaly extending as far down as 500 hPa at 20-30$^\circ$N, indicative of changes to the sub-tropical jet position and strength, documented previously \citep[e.g.][]{garfinkel2010}.
@@ -405,7 +395,7 @@ In DJF, the Nudged ensemble-mean shows anomalous descent over the 10$^\circ$N la
 \centering
  %\noindent
  \includegraphics[width=\linewidth]{figures/suite_coupledwalker.png}
-\caption[Walker circulation in coupled nudged experiments.]{Walker circulation differences in zonal streamfunction (shading), zonal wind (contours) and vertical velocity (vectors). (a, b) show the seasonal mean differences between Nudged and Control coupled experiments in (a) MAM and (b) SON. (c-f) show the QBO W-E differences for the (c-d) Control and (e-f) Nudged experiments for (c,e) MAM and (d,f) SON. In all panels, hatching denotes significant differences in the streamfunction to the 95\% confidence level according to the bootstrapping method, whereas for the zonal wind and omega, only significant differences are shown.}
+\caption[Walker circulation in coupled nudged experiments.]{Walker circulation differences in zonal streamfunction (shading), zonal wind (contours) and vertical velocity (vectors). (a, b) show the seasonal mean differences between Nudged and Control coupled experiments in (a) MAM and (b) SON. (c-f) show the QBO W-E differences for the (c-d) Control ensemble-mean and (e-f) Nudged  ensemble-mean for (c,e) MAM and (d,f) SON. In all panels, hatching denotes significant differences in the streamfunction to the 95\% confidence level according to the bootstrapping method, whereas for the zonal wind and omega, only significant differences are shown.}
 \label{fig:walker_coupled}
 \end{figure}
 
@@ -418,12 +408,12 @@ These results suggest that the process through which the QBO influences the subt
 %The same contrast is observed in JJA, with the Control and Nudged experiments exhibiting very different responses. Notably, the streamfunction and vertical velocity in the Nudged experiments in this season shows a dipole signal in the Northern Hemisphere with positive and negative anomalies indicating anomalous ascent at 30$^\circ$N and descent at 50$^\circ$N.
 
 The mean Walker circulation is also affected by the nudging (Fig. \ref{fig:walker_coupled}a-b). As in the AMIP experiments, the upper-level zonal wind and streamfunction is modified by the nudging, but in the coupled experiments significant differences are also observed in the lower troposphere over the Indian Ocean and the Eastern Pacific. 
-In the UTLS region above the Indian and Pacific Oceans, the nudging is forcing the zonal wind towards ERA5, thus reducing the biases in the model (see e.g. Figure \ref{fig:swalker}). In other words, not only biases in the variability of the zonal winds in the lower stratosphere are alleviated by the nudging but also the mean state of the upper-level branch of the Walker circulation. However, the latter may also mean that the variability of the Walker circulation is overconstrained when nudging is applied. 
+In the UTLS region above the Indian and Pacific Oceans, the nudging is forcing the zonal wind towards ERA5,  reducing the biases in the model in specific longitudes (see e.g. Figure \ref{fig:swalker}). In other words, not only biases in the variability of the zonal winds in the lower stratosphere are alleviated by the nudging but also the mean state of the upper-level branch of the Walker circulation. However, the latter may also mean that the variability of the Walker circulation is overconstrained when nudging is applied. 
 
-The response of the Walker circulation to the QBO is different in the nudged versus control experiments (Fig. \ref{fig:walker_coupled}c-f). In MAM, the QBO W-E differences in the control results suggest a weaker state of the Walker circulation or an El Niño-like pattern with anomalous ascent in the Eastern Pacific under QBO W compared to QBO E whereas the nudged simulations show the opposite. 
-In turn, in SON, while the control experiments show anomalous ascent in the western Indian Ocean, the nudged experiments show ascent over the eastern Indian Ocean. 
+The response of the Walker circulation to the QBO is different in the nudged versus control experiments (Fig. \ref{fig:walker_coupled}c-f). In MAM, the QBO W-E differences in the control ensemble-mean suggest a weaker state of the Walker circulation or an El Niño-like pattern with anomalous ascent in the Eastern Pacific under QBO W compared to QBO E whereas the nudged simulations show the opposite. 
+In turn, in SON, while the control experiments in the QBO W-E differences show ascending anomalies in the western Indian Ocean, the nudged experiments show ascending anomalies over the eastern Indian Ocean. 
 
-The nudging appears to modify the mean state and variability of the tropical circulation to a certain extent. However, the differences shown in Figures \ref{fig:hadley_coupled} and \ref{fig:walker_coupled} are relatively small compared to the climatological values,  but clearly some of these differences are still significant. 
+%The nudging appears to modify the mean state and variability of the tropical circulation to a certain extent. However, the differences shown in Figures \ref{fig:hadley_coupled} and \ref{fig:walker_coupled} are relatively small compared to the climatological values,  but clearly some of these differences are still significant. 
 
 Results in Chapter \ref{ch:7-qbo} demonstrated that in the CMIP6 pre-industrial control experiments a statistically significant relationship is found between the IOD and ENSO, and the QBO (Fig. \ref{fig:iod_barplot}). 
 Positive events of the IOD and ENSO are more commonly found during QBOW than E, and a convective precipitation index of the IOD and the SST EN3.4 index are also positive during QBOW and negative during QBOE. 
