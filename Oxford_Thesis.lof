@@ -61,29 +61,29 @@
 \contentsline {figure}{\numberline {6.5}{\ignorespaces ERA5 precipitation biases}}{124}{figure.caption.59}%
 \contentsline {figure}{\numberline {6.6}{\ignorespaces Composite mean precipitation biases and seasonal variations}}{125}{figure.caption.60}%
 \contentsline {figure}{\numberline {6.7}{\ignorespaces Scatter plot of mean precipitation in different parts of seasonal cycle}}{126}{figure.caption.61}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces OLR and vertical velocity composites}}{128}{figure.caption.62}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces OLR and vertical velocity composites}}{127}{figure.caption.62}%
 \contentsline {figure}{\numberline {6.9}{\ignorespaces Seasonal cycle of East Pacific and Caribbean SSTs and zonal winds.}}{129}{figure.caption.63}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Composite SST anomalies}}{132}{figure.caption.64}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Composite SST anomalies}}{131}{figure.caption.64}%
 \contentsline {figure}{\numberline {6.11}{\ignorespaces Scatter plot of SST vs precipitation}}{133}{figure.caption.65}%
 \contentsline {figure}{\numberline {6.12}{\ignorespaces Scatter plot of SST changes}}{134}{figure.caption.66}%
 \contentsline {figure}{\numberline {6.13}{\ignorespaces Lagged correlations of East Pacific SSTs}}{136}{figure.caption.67}%
-\contentsline {figure}{\numberline {6.14}{\ignorespaces Composites of cloud radiative effects}}{139}{figure.caption.68}%
-\contentsline {figure}{\numberline {6.15}{\ignorespaces Short-wave cloud radiative effect composites}}{140}{figure.caption.69}%
-\contentsline {figure}{\numberline {6.16}{\ignorespaces As in Fig. \ref {fig:cre_comp} but for the long-wave CRE.\relax }}{141}{figure.caption.70}%
-\contentsline {figure}{\numberline {6.17}{\ignorespaces Seasonal cycle of cloud-radiative effects}}{142}{figure.caption.71}%
-\contentsline {figure}{\numberline {6.18}{\ignorespaces Composite shortave differences with MSD timings}}{143}{figure.caption.72}%
-\contentsline {figure}{\numberline {6.19}{\ignorespaces Scatterplot and lagged-regression of surface short-wave}}{144}{figure.caption.73}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Composites of cloud radiative effects}}{138}{figure.caption.68}%
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Short-wave cloud radiative effect composites}}{139}{figure.caption.69}%
+\contentsline {figure}{\numberline {6.16}{\ignorespaces As in Fig. \ref {fig:cre_comp} but for the long-wave CRE.\relax }}{140}{figure.caption.70}%
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Seasonal cycle of cloud-radiative effects}}{141}{figure.caption.71}%
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Composite shortave differences with MSD timings}}{142}{figure.caption.72}%
+\contentsline {figure}{\numberline {6.19}{\ignorespaces Scatterplot and lagged-regression of surface short-wave}}{143}{figure.caption.73}%
 \contentsline {figure}{\numberline {6.20}{\ignorespaces Composite moisture flux and wind speed}}{145}{figure.caption.74}%
 \contentsline {figure}{\numberline {6.21}{\ignorespaces Seasonal cycle of IMFC and TWC}}{147}{figure.caption.75}%
 \contentsline {figure}{\numberline {6.22}{\ignorespaces Composites of IMFC, TWC and CLLJ}}{148}{figure.caption.76}%
-\contentsline {figure}{\numberline {6.23}{\ignorespaces Scatterplot of TWC, IMFD and CLLJ}}{150}{figure.caption.77}%
-\contentsline {figure}{\numberline {6.24}{\ignorespaces Lagged correlations of the CLLJ and IMFC indices with precipitation.}}{151}{figure.caption.78}%
-\contentsline {figure}{\numberline {6.25}{\ignorespaces Seasonal cycle of MSE budget terms}}{153}{figure.caption.79}%
-\contentsline {figure}{\numberline {6.26}{\ignorespaces Composites of the mean vertical advection of the MSE budget}}{154}{figure.caption.80}%
-\contentsline {figure}{\numberline {6.27}{\ignorespaces Composites of the anomalous vertical advection of the MSE budget}}{155}{figure.caption.81}%
-\contentsline {figure}{\numberline {6.28}{\ignorespaces Composites of gross moist stability}}{156}{figure.caption.82}%
-\contentsline {figure}{\numberline {6.29}{\ignorespaces Composites of the anomalous horizontal advection of MSE and surface fluxes}}{157}{figure.caption.83}%
-\contentsline {figure}{\numberline {6.30}{\ignorespaces Scatterplot of the vertical advection of dry and moist static energy against precipitation}}{158}{figure.caption.84}%
+\contentsline {figure}{\numberline {6.23}{\ignorespaces Scatterplot of TWC, IMFD and CLLJ}}{149}{figure.caption.77}%
+\contentsline {figure}{\numberline {6.24}{\ignorespaces Lagged correlations of the CLLJ and IMFC indices with precipitation.}}{150}{figure.caption.78}%
+\contentsline {figure}{\numberline {6.25}{\ignorespaces Seasonal cycle of MSE budget terms}}{152}{figure.caption.79}%
+\contentsline {figure}{\numberline {6.26}{\ignorespaces Composites of the mean vertical advection of the MSE budget}}{153}{figure.caption.80}%
+\contentsline {figure}{\numberline {6.27}{\ignorespaces Composites of the anomalous vertical advection of the MSE budget}}{154}{figure.caption.81}%
+\contentsline {figure}{\numberline {6.28}{\ignorespaces Composites of gross moist stability}}{155}{figure.caption.82}%
+\contentsline {figure}{\numberline {6.29}{\ignorespaces Composites of the anomalous horizontal advection of MSE and surface fluxes}}{156}{figure.caption.83}%
+\contentsline {figure}{\numberline {6.30}{\ignorespaces Scatterplot of the vertical advection of dry and moist static energy against precipitation}}{157}{figure.caption.84}%
 \contentsline {figure}{\numberline {6.31}{\ignorespaces Barplots of MSE budget terms}}{159}{figure.caption.85}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{ The tropical route of QBO teleconnections in UKESM1 and HadGEM3 }{165}{chapter.7}%
@@ -114,19 +114,19 @@
 \contentsline {figure}{\numberline {8.6}{\ignorespaces Zonal temperature QBO W-E difference 100 hPa level}}{201}{figure.caption.109}%
 \contentsline {figure}{\numberline {8.7}{\ignorespaces Hadley cell in atmosphere-only experiments}}{203}{figure.caption.110}%
 \contentsline {figure}{\numberline {8.8}{\ignorespaces Walker in atmosphere-only experiments}}{204}{figure.caption.112}%
-\contentsline {figure}{\numberline {8.9}{\ignorespaces Annual mean OLR in atmosphere-only experiments}}{204}{figure.caption.113}%
-\contentsline {figure}{\numberline {8.10}{\ignorespaces Tropical mean OLR time series.}}{205}{figure.caption.114}%
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Annual mean OLR in atmosphere-only experiments}}{205}{figure.caption.113}%
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Tropical mean OLR time series.}}{206}{figure.caption.114}%
 \contentsline {figure}{\numberline {8.11}{\ignorespaces Annual mean precipitation response in atmosphere-only experiments}}{206}{figure.caption.116}%
 \contentsline {figure}{\numberline {8.12}{\ignorespaces DJF mean precipitation response in atmosphere-only experiments}}{207}{figure.caption.117}%
 \contentsline {figure}{\numberline {8.13}{\ignorespaces SON OLR response in atmosphere-only experiments}}{207}{figure.caption.118}%
 \contentsline {figure}{\numberline {8.14}{\ignorespaces Annual mean SST response to the QBO in coupled nudged experiments}}{209}{figure.caption.119}%
-\contentsline {figure}{\numberline {8.15}{\ignorespaces SST response in MAM to the QBO in coupled nudged experiments}}{209}{figure.caption.121}%
+\contentsline {figure}{\numberline {8.15}{\ignorespaces SST response in MAM to the QBO in coupled nudged experiments}}{210}{figure.caption.121}%
 \contentsline {figure}{\numberline {8.16}{\ignorespaces SST response in JJA to the QBO in coupled nudged experiments}}{210}{figure.caption.122}%
-\contentsline {figure}{\numberline {8.17}{\ignorespaces Precipitation response to the QBO in coupled nudged experiments}}{211}{figure.caption.124}%
+\contentsline {figure}{\numberline {8.17}{\ignorespaces Precipitation response to the QBO in coupled nudged experiments}}{212}{figure.caption.124}%
 \contentsline {figure}{\numberline {8.18}{\ignorespaces Convective precipitation response in MAM}}{212}{figure.caption.125}%
 \contentsline {figure}{\numberline {8.19}{\ignorespaces Convective precipitation response in JJA}}{213}{figure.caption.126}%
-\contentsline {figure}{\numberline {8.20}{\ignorespaces Hadley circulation in coupled nudged experiments.}}{214}{figure.caption.128}%
+\contentsline {figure}{\numberline {8.20}{\ignorespaces Hadley circulation in coupled nudged experiments.}}{215}{figure.caption.128}%
 \contentsline {figure}{\numberline {8.21}{\ignorespaces Walker circulation in coupled nudged experiments.}}{216}{figure.caption.129}%
-\contentsline {figure}{\numberline {8.22}{\ignorespaces IOD and ENSO indices in nudged versus control experiments}}{217}{figure.caption.130}%
+\contentsline {figure}{\numberline {8.22}{\ignorespaces IOD and ENSO indices in nudged versus control experiments}}{218}{figure.caption.130}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Conclusions}{222}{chapter.9}%

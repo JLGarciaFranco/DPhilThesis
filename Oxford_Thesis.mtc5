@@ -1,7 +1,13 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.1}Observations and reanalysis data}{\reset@font\mtcSfont 32}{section.3.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.1.1}Gridded precipitation datasets}{\reset@font\mtcSSfont 32}{subsection.3.1.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.1.2}ERA-5}{\reset@font\mtcSSfont 35}{subsection.3.1.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.2}The Unified Model of the Met Office Hadley Centre}{\reset@font\mtcSfont 36}{section.3.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.2.1}The Global Coupled Configurations of HadGEM3}{\reset@font\mtcSSfont 36}{subsection.3.2.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.2.2}The CMIP6 experiments}{\reset@font\mtcSSfont 37}{subsection.3.2.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.3}The Moist Static Energy Budget}{\reset@font\mtcSfont 40}{section.3.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.1}Introduction}{\reset@font\mtcSfont 43}{section.4.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.2}Methods and data}{\reset@font\mtcSfont 45}{section.4.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.3}Surface temperature and low-level wind}{\reset@font\mtcSfont 47}{section.4.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.4}The Atlantic and Pacific ITCZs and the SACZ}{\reset@font\mtcSfont 52}{section.4.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.5}Precipitation and convection in the AMS}{\reset@font\mtcSfont 57}{section.4.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.5.1}Mean seasonal precipitation}{\reset@font\mtcSSfont 57}{subsection.4.5.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.5.2}The annual cycle of rainfall}{\reset@font\mtcSSfont 61}{subsection.4.5.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.5.3}Characteristics of convective activity}{\reset@font\mtcSSfont 63}{subsection.4.5.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.6}ENSO Teleconnections}{\reset@font\mtcSfont 66}{section.4.6}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.6.1}Canonical teleconnections}{\reset@font\mtcSSfont 66}{subsection.4.6.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.6.2}The role of ENSO flavours}{\reset@font\mtcSSfont 71}{subsection.4.6.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.6.3}A possible influence of the QBO on tropical ENSO teleconnections}{\reset@font\mtcSSfont 74}{subsection.4.6.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.7}Summary and discussion}{\reset@font\mtcSfont 78}{section.4.7}}

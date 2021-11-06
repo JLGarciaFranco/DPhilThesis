@@ -1,8 +1,5 @@
 \begin{thebibliography}{xx}
 
-\harvarditem{}{n.d.}{arritt2000}
-  \harvardyearleft n.d.\harvardyearright .
-
 \harvarditem{Adams \harvardand\ Comrie}{1997}{adams1997}
 Adams, D.~K. \harvardand\ Comrie, A.~C.  \harvardyearleft 1997\harvardyearright
   , `{The north American monsoon}', {\em Bulletin of the American
@@ -119,7 +116,13 @@ Arias, P.~A., Fu, R. \harvardand\ Mo, K.~C.  \harvardyearleft
   2012\harvardyearright , `{Decadal Variation of Rainfall Seasonality in the
   North American Monsoon Region and Its Potential Causes}', {\em Journal of
   Climate} {\bf 25}(12),~4258--4274.
-\newline\harvardurl{https://doi.org/10.1175/JCLI-D-11-00140.1}
+
+\harvarditem[Arritt et~al.]{Arritt, Goering \harvardand\
+  Anderson}{2000}{arritt2000}
+Arritt, R.~W., Goering, D.~C. \harvardand\ Anderson, C.~J.  \harvardyearleft
+  2000\harvardyearright , `{The North American monsoon system in the Hadley
+  Centre coupled ocean-atmosphere GCM}', {\em Geophysical Research Letters}
+  {\bf 27}(4),~565--568.
 
 \harvarditem{Ashok \harvardand\ Yamagata}{2009}{ashok2009}
 Ashok, K. \harvardand\ Yamagata, T.  \harvardyearleft 2009\harvardyearright ,
@@ -149,7 +152,7 @@ Barlow, M., Nigam, S. \harvardand\ Berbery, E.~H.  \harvardyearleft
 Bayr, T., Domeisen, D.~I. \harvardand\ Wengel, C.  \harvardyearleft
   2019\harvardyearright , `{The effect of the equatorial Pacific cold SST bias
   on simulated ENSO teleconnections to the North Pacific and California}', {\em
-  Climate Dynamics} pp.~1--19.
+  Climate Dynamics} {\bf 53}(7),~3771--3789.
 
 \harvarditem[Bayr et~al.]{Bayr, Dommenget, Martin \harvardand\
   Power}{2014}{bayr2014}
@@ -192,7 +195,6 @@ Biasutti, M., Voigt, A., Boos, W.~R., Braconnot, P., Hargreaves, J.~C.,
 Bischoff, T. \harvardand\ Schneider, T.  \harvardyearleft 2016\harvardyearright
   , `{The Equatorial Energy Balance, ITCZ Position, and Double-ITCZ
   Bifurcations}', {\em Journal of Climate} {\bf 29}(8),~2997--3013.
-\newline\harvardurl{https://doi.org/10.1175/JCLI-D-15-0328.1}
 
 \harvarditem{Bjerknes}{1969}{bjerknes1969}
 Bjerknes, J.  \harvardyearleft 1969\harvardyearright , `Atmospheric
@@ -215,7 +217,6 @@ Bombardi, R.~J., Moron, V. \harvardand\ Goodnight, J.~S.  \harvardyearleft
   2020\harvardyearright , `Detection, variability, and predictability of
   monsoon onset and withdrawal dates: A review', {\em International Journal of
   Climatology} {\bf 40}(2),~641--667.
-\newline\harvardurl{https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/joc.6264}
 
 \harvarditem[Bony et~al.]{Bony, Dufresne, Le~Treut, Morcrette \harvardand\
   Senior}{2004}{bony2004dynamic}
@@ -257,7 +258,7 @@ Bushell, A.~C., Anstey, J.~A., Butchart, N., Kawatani, Y., Osprey, S.~M.,
   Yukimoto, S.  \harvardyearleft 2020\harvardyearright , `{Evaluation of the
   Quasi-Biennial Oscillation in global climate models for the SPARC
   QBO-initiative}', {\em Quarterly Journal of the Royal Meteorological Society}
-  {\bf n/a}(n/a).
+  pp.~1--31.
 \newline\harvardurl{https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/qj.3765}
 
 \harvarditem[Bussmann et~al.]{Bussmann, Elagib, Fayyad \harvardand\
@@ -266,7 +267,6 @@ Bussmann, A., Elagib, N.~A., Fayyad, M. \harvardand\ Ribbe, L.
   \harvardyearleft 2016\harvardyearright , `Sowing date determinants for
   {Sahelian} rainfed agriculture in the context of agricultural policies and
   water management', {\em Land Use Policy} {\bf 52},~316 -- 328.
-\newline\harvardurl{http://www.sciencedirect.com/science/article/pii/S0264837715003981}
 
 \harvarditem{Byrne \harvardand\ Schneider}{2016}{byrne2016}
 Byrne, M.~P. \harvardand\ Schneider, T.  \harvardyearleft 2016\harvardyearright
@@ -334,7 +334,6 @@ Carvalho, L. M.~V., Jones, C., Posadas, A. N.~D., Quiroz, R., Bookhagen, B.
   \harvardand\ Liebmann, B.  \harvardyearleft 2012\harvardyearright ,
   `{Precipitation characteristics of the South American Monsoon System derived
   from multiple datasets}', {\em Journal of Climate} {\bf 25}(13),~4600--4620.
-\newline\harvardurl{https://doi.org/10.1175/JCLI-D-11-00335.1}
 
 \harvarditem[Cavazos et~al.]{Cavazos, Luna-Ni{\~n}o, Cerezo-Mota,
   Fuentes-Franco, M{\'e}ndez, Pineda~Martinez \harvardand\
@@ -400,7 +399,6 @@ Chuvieco, E., Opazo, S., Sione, W., Valle, H.~d., Anaya, J., Bella, C.~D.,
   Libonati, R.  \harvardyearleft 2008\harvardyearright , `{Global burned-land
   estimation in Latin-America using MODIS composite data}', {\em Ecological
   Applications} {\bf 18}(1),~64--79.
-\newline\harvardurl{https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/06-2148.1}
 
 \harvarditem[Collimore et~al.]{Collimore, Martin, Hitchman, Huesmann
   \harvardand\ Waliser}{2003}{collimore2003}
@@ -413,7 +411,6 @@ Collimore, C.~C., Martin, D.~W., Hitchman, M.~H., Huesmann, A. \harvardand\
 Cook, B.~I. \harvardand\ Buckley, B.~M.  \harvardyearleft 2009\harvardyearright
   , `Objective determination of monsoon season onset, withdrawal, and length',
   {\em Journal of Geophysical Research: Atmospheres} {\bf 114}(D23).
-\newline\harvardurl{https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2009JD012795}
 
 \harvarditem{Cook \harvardand\ Seager}{2013}{cook2013}
 Cook, B. \harvardand\ Seager, R.  \harvardyearleft 2013\harvardyearright ,
@@ -428,6 +425,12 @@ Corrales-Suastegui, A., Fuentes-Franco, R. \harvardand\ Pavia, E.~G.
   and Central America} in the 21st century', {\em International Journal of
   Climatology} {\bf 40}(3),~1703--1715.
 
+\harvarditem{Curtis}{2002}{curtis2002}
+Curtis, S.  \harvardyearleft 2002\harvardyearright , `Interannual variability
+  of the bimodal distribution of summertime rainfall over {Central America and
+  tropical storm activity in the far-eastern Pacific}', {\em Climate Research}
+  {\bf 22},~141--146.
+
 \harvarditem{Curtis \harvardand\ Gamble}{2008}{curtis2008}
 Curtis, S. \harvardand\ Gamble, D.~W.  \harvardyearleft 2008\harvardyearright ,
   `Regional variations of the {Caribbean} mid-summer drought', {\em Theoretical
@@ -439,6 +442,13 @@ de~Sousa, K., Casanoves, F., Sellare, J., Ospina, A., Suchini, J.~G., Aguilar,
   A. \harvardand\ Mercado, L.  \harvardyearleft 2018\harvardyearright , `How
   climate awareness influences farmers’ adaptation decisions in {Central
   America?}', {\em Journal of Rural Studies} {\bf 64},~11--19.
+
+\harvarditem[Densmore et~al.]{Densmore, Sanabia \harvardand\
+  Barrett}{2019}{densmore2019}
+Densmore, C.~R., Sanabia, E.~R. \harvardand\ Barrett, B.~S.  \harvardyearleft
+  2019\harvardyearright , `{QBO influence on MJO amplitude over the Maritime
+  Continent:} physical mechanisms and seasonality', {\em Monthly Weather
+  Review} {\bf 147}(1),~389--406.
 
 \harvarditem[Derbyshire et~al.]{Derbyshire, Maidens, Milton, Stratton
   \harvardand\ Willett}{2011}{derbyshire2011}
@@ -477,9 +487,9 @@ Domeisen, D.~I., Garfinkel, C.~I. \harvardand\ Butler, A.~H.  \harvardyearleft
 \harvarditem[Dominguez et~al.]{Dominguez, Kumar \harvardand\
   Vivoni}{2008}{dominguez2008}
 Dominguez, F., Kumar, P. \harvardand\ Vivoni, E.~R.  \harvardyearleft
-  2008\harvardyearright , `Precipitation recycling variability and
-  ecoclimatological stability—a study using narr data. part ii: North
-  american monsoon region', {\em Journal of Climate} {\bf 21}(20),~5187--5203.
+  2008\harvardyearright , `{Precipitation recycling variability and
+  ecoclimatological stability—A study using NARR data. Part II: North
+  American monsoon region}', {\em Journal of Climate} {\bf 21}(20),~5187--5203.
 
 \harvarditem[Dommenget et~al.]{Dommenget, Bayr \harvardand\
   Frauen}{2013}{dommenget2013}
@@ -495,7 +505,6 @@ Donohoe, A., Marshall, J., Ferreira, D. \harvardand\ Mcgee, D.
   Location and Cross-Equatorial Atmospheric Heat Transport: From the Seasonal
   Cycle to the Last Glacial Maximum}', {\em Journal of Climate} {\bf
   26}(11),~3597--3618.
-\newline\harvardurl{https://doi.org/10.1175/JCLI-D-12-00467.1}
 
 \harvarditem[Douglas et~al.]{Douglas, Maddox, Howard \harvardand\
   Reyes}{1993}{douglas1993}
@@ -508,7 +517,6 @@ Douglas, M.~W., Maddox, R.~A., Howard, K. \harvardand\ Reyes, S.
 Dur\'an-Quesada, A.~M., Gimeno, L. \harvardand\ Amador, J.  \harvardyearleft
   2017\harvardyearright , `Role of moisture transport for {Central American}
   precipitation', {\em Earth System Dynamics} {\bf 8}(1),~147--161.
-\newline\harvardurl{https://www.earth-syst-dynam.net/8/147/2017/}
 
 \harvarditem{Ebdon}{1960}{ebdon1960}
 Ebdon, R.  \harvardyearleft 1960\harvardyearright , `Notes on the wind flow at
@@ -542,15 +550,15 @@ Fasullo, J. \harvardand\ Webster, P.  \harvardyearleft 2003\harvardyearright ,
   Bordoni}{2017}{faulk2017effects}
 Faulk, S., Mitchell, J. \harvardand\ Bordoni, S.  \harvardyearleft
   2017\harvardyearright , `Effects of rotation rate and seasonal forcing on the
-  itcz extent in planetary atmospheres', {\em Journal of the Atmospheric
+  {ITCZ} extent in planetary atmospheres', {\em Journal of the Atmospheric
   Sciences} {\bf 74}(3),~665--678.
 
 \harvarditem[Fereday et~al.]{Fereday, Chadwick, Knight \harvardand\
   Scaife}{2020}{fereday2020}
 Fereday, D., Chadwick, R., Knight, J. \harvardand\ Scaife, A.  \harvardyearleft
-  2020\harvardyearright , `Tropical rainfall linked to stronger future enso-nao
-  teleconnection in cmip5 models', {\em Geophysical Research Letters} {\bf
-  47}(22),~e2020GL088664.
+  2020\harvardyearright , `{Tropical Rainfall Linked to Stronger Future
+  ENSO-NAO Teleconnection in CMIP5 Models}', {\em Geophysical Research Letters}
+  {\bf 47}(22),~e2020GL088664.
 
 \harvarditem{Fisher}{1992}{fisher1992statistical}
 Fisher, R.~A.  \harvardyearleft 1992\harvardyearright , Statistical methods for
@@ -572,17 +580,17 @@ Franchito, S.~H., Rao, V.~B., Vasques, A.~C., Santo, C.~M. \harvardand\
 
 \harvarditem{Fritsch \harvardand\ Chappell}{1980}{fritsch}
 Fritsch, J. \harvardand\ Chappell, C.  \harvardyearleft 1980\harvardyearright ,
-  `Numerical prediction of convectively driven mesoscale pressure systems. part
-  i: Convective parameterization', {\em Journal of Atmospheric Sciences} {\bf
-  37}(8),~1722--1733.
+  `Numerical prediction of convectively driven mesoscale pressure systems.{
+  Part I:} convective parameterization', {\em Journal of Atmospheric Sciences}
+  {\bf 37}(8),~1722--1733.
 
 \harvarditem[Fuentes-Franco et~al.]{Fuentes-Franco, Coppola, Giorgi, Pavia,
   Diro \harvardand\ Graef}{2015}{fuentes2015inter}
 Fuentes-Franco, R., Coppola, E., Giorgi, F., Pavia, E.~G., Diro, G.~T.
   \harvardand\ Graef, F.  \harvardyearleft 2015\harvardyearright ,
-  `Inter-annual variability of precipitation over southern mexico and central
-  america and its relationship to sea surface temperature from a set of future
-  projections from cmip5 gcms and regcm4 cordex simulations', {\em Climate
+  `{Inter-annual variability of precipitation over Southern Mexico and Central
+  America and its relationship to sea surface temperature from a set of future
+  projections from CMIP5 GCMs and RegCM4 CORDEX simulations}', {\em Climate
   Dynamics} {\bf 45}(1-2),~425--440.
 
 \harvarditem[Fujiwara et~al.]{Fujiwara, Manney, Gray \harvardand\
@@ -614,8 +622,8 @@ Gadgil, S. \harvardand\ Rupa~Kumar, K.  \harvardyearleft 2006\harvardyearright
 \harvarditem[Gamble et~al.]{Gamble, Parnell \harvardand\
   Curtis}{2008}{gamble2008}
 Gamble, D.~W., Parnell, D.~B. \harvardand\ Curtis, S.  \harvardyearleft
-  2008\harvardyearright , `Spatial variability of the caribbean mid-summer
-  drought and relation to north atlantic high circulation', {\em International
+  2008\harvardyearright , `{Spatial variability of the Caribbean mid-summer
+  drought and relation to north Atlantic high circulation}', {\em International
   Journal of Climatology} {\bf 28}(3),~343--350.
 
 \harvarditem[Gan et~al.]{Gan, Kousky \harvardand\ Ropelewski}{2004}{gan2004}
@@ -635,54 +643,54 @@ García-Franco, J.~L., Osprey, S. \harvardand\ Gray, L.~J.  \harvardyearleft
 \harvarditem[Garc\'{\i}a-Franco et~al.]{Garc\'{\i}a-Franco, Gray \harvardand\
   Osprey}{2020}{garciafranco2020}
 Garc\'{\i}a-Franco, J.~L., Gray, L.~J. \harvardand\ Osprey, S.
-  \harvardyearleft 2020\harvardyearright , `The american monsoon system in
-  hadgem3 and ukesm1', {\em Weather and Climate Dynamics} {\bf 1}(2),~349--371.
+  \harvardyearleft 2020\harvardyearright , `The {American monsoon system in
+  HadGEM3 and UKESM1}', {\em Weather and Climate Dynamics} {\bf
+  1}(2),~349--371.
 \newline\harvardurl{https://wcd.copernicus.org/articles/1/349/2020/}
 
 \harvarditem{Garc{\'\i}a-Mart{\'\i}nez \harvardand\
   Bollasina}{2020}{garcia2020sub}
 Garc{\'\i}a-Mart{\'\i}nez, I.~M. \harvardand\ Bollasina, M.~A.
   \harvardyearleft 2020\harvardyearright , `Sub-monthly evolution of the
-  caribbean low-level jet and its relationship with regional precipitation and
-  atmospheric circulation', {\em Climate Dynamics} pp.~1--18.
+  {Caribbean Low-Level Jet} and its relationship with regional precipitation
+  and atmospheric circulation', {\em Climate Dynamics} pp.~1--18.
 
 \harvarditem{Garcia \harvardand\ Kayano}{2013}{garcia2013}
 Garcia, S.~R. \harvardand\ Kayano, M.~T.  \harvardyearleft
   2013\harvardyearright , `Some considerations on onset dates of the rainy
-  season in western-central brazil with antisymmetric outgoing longwave
+  season in {Western-Central Brazil} with antisymmetric outgoing longwave
   radiation relative to the equator', {\em International Journal of
   Climatology} {\bf 33}(1),~188--198.
-\newline\harvardurl{https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/joc.3417}
 
 \harvarditem{Garfinkel \harvardand\ Hartmann}{2010}{garfinkel2010}
 Garfinkel, C.~I. \harvardand\ Hartmann, D.  \harvardyearleft
   2010\harvardyearright , `Influence of the quasi-biennial oscillation on the
-  north pacific and el ni{\~n}o teleconnections', {\em Journal of Geophysical
+  {North Pacific and El Ni{\~n}o} teleconnections', {\em Journal of Geophysical
   Research: Atmospheres} {\bf 115}(D20).
 
 \harvarditem{Garfinkel \harvardand\ Hartmann}{2011}{garfinkel2011}
 Garfinkel, C.~I. \harvardand\ Hartmann, D.~L.  \harvardyearleft
   2011\harvardyearright , `The influence of the quasi-biennial oscillation on
-  the troposphere in winter in a hierarchy of models. part ii: Perpetual winter
-  waccm runs', {\em Journal of the Atmospheric Sciences} {\bf
+  the troposphere in winter in a hierarchy of models. {Part II: Perpetual
+  winter WACCM runs}', {\em Journal of the Atmospheric Sciences} {\bf
   68}(9),~2026--2041.
 
 \harvarditem[Geen et~al.]{Geen, Bordoni, Battisti \harvardand\
   Hui}{2020}{geen2020}
 Geen, R., Bordoni, S., Battisti, D.~S. \harvardand\ Hui, K.  \harvardyearleft
-  2020\harvardyearright , `Monsoons, itczs and the concept of the global
-  monsoon', {\em Reviews of Geophysics} p.~e2020RG000700.
+  2020\harvardyearright , `{Monsoons, ITCZs and the Concept of the Global
+  Monsoon}', {\em Reviews of Geophysics} p.~e2020RG000700.
 
 \harvarditem[Geen et~al.]{Geen, Lambert \harvardand\ Vallis}{2019}{geen2019}
 Geen, R., Lambert, F.~H. \harvardand\ Vallis, G.~K.  \harvardyearleft
-  2019\harvardyearright , `Processes and timescales in onset and withdrawal of
-  “aquaplanet monsoons”', {\em Journal of the Atmospheric Sciences} {\bf
+  2019\harvardyearright , `Processes and {Timescales in Onset and Withdrawal of
+  “Aquaplanet Monsoons”}', {\em Journal of the Atmospheric Sciences} {\bf
   76}(8),~2357--2373.
 
 \harvarditem[Geil et~al.]{Geil, Serra \harvardand\ Zeng}{2013}{geil2013}
 Geil, K.~L., Serra, Y.~L. \harvardand\ Zeng, X.  \harvardyearleft
-  2013\harvardyearright , `Assessment of cmip5 model simulations of the north
-  american monsoon system', {\em Journal of Climate} {\bf 26}(22),~8787--8801.
+  2013\harvardyearright , `{Assessment of CMIP5 model simulations of the North
+  American monsoon system}', {\em Journal of Climate} {\bf 26}(22),~8787--8801.
 
 \harvarditem[Giannini et~al.]{Giannini, Kushnir \harvardand\
   Cane}{2000}{giannini2000}
@@ -706,8 +714,8 @@ Gill, A.~E.  \harvardyearleft 1980\harvardyearright , `Some simple solutions
 \harvarditem[Giorgetta et~al.]{Giorgetta, Bengtsson \harvardand\
   Arpe}{1999}{giorgetta1999}
 Giorgetta, M.~A., Bengtsson, L. \harvardand\ Arpe, K.  \harvardyearleft
-  1999\harvardyearright , `An investigation of qbo signals in the east asian
-  and indian monsoon in gcm experiments', {\em Climate dynamics} {\bf
+  1999\harvardyearright , `{An investigation of QBO signals in the east Asian
+  and Indian monsoon in GCM experiments}', {\em Climate dynamics} {\bf
   15}(6),~435--450.
 
 \harvarditem[Good et~al.]{Good, Chadwick, Holloway, Kennedy, Lowe, Roehrig
@@ -728,39 +736,39 @@ Gray, L., Brown, M., Knight, J., Andrews, M., Lu, H., O’Reilly, C.
   Schenzinger}{2018}{gray2018}
 Gray, L.~J., Anstey, J.~A., Kawatani, Y., Lu, H., Osprey, S. \harvardand\
   Schenzinger, V.  \harvardyearleft 2018\harvardyearright , `Surface impacts of
-  the quasi biennial oscillation', {\em Atmospheric Chemistry and Physics} {\bf
-  18}(11),~8227--8247.
-\newline\harvardurl{https://www.atmos-chem-phys.net/18/8227/2018/}
+  the {Quasi Biennial Oscillation}', {\em Atmospheric Chemistry and Physics}
+  {\bf 18}(11),~8227--8247.
 
 \harvarditem{Gray}{1984}{gray1984}
 Gray, W.~M.  \harvardyearleft 1984\harvardyearright , `Atlantic seasonal
-  hurricane frequency. part i: El ni{\~n}o and 30 mb quasi-biennial oscillation
-  influences', {\em Monthly Weather Review} {\bf 112}(9),~1649--1668.
+  hurricane frequency. {Part I: El Ni{\~n}o and 30 mb quasi-biennial
+  oscillation influences}', {\em Monthly Weather Review} {\bf
+  112}(9),~1649--1668.
 
 \harvarditem[Gray et~al.]{Gray, Sheaffer \harvardand\ Knaff}{1992}{gray1992}
 Gray, W.~M., Sheaffer, J.~D. \harvardand\ Knaff, J.~A.  \harvardyearleft
-  1992\harvardyearright , `Influence of the stratospheric qbo on enso
-  variability', {\em Journal of the Meteorological Society of Japan. Ser. II}
+  1992\harvardyearright , `{Influence of the stratospheric QBO on ENSO
+  variability}', {\em Journal of the Meteorological Society of Japan. Ser. II}
   {\bf 70}(5),~975--995.
 
 \harvarditem{Grimm}{2011}{grimm2011}
 Grimm, A.~M.  \harvardyearleft 2011\harvardyearright , `Interannual climate
-  variability in south america: impacts on seasonal precipitation, extreme
-  events, and possible effects of climate change', {\em Stochastic
+  variability in {South America: impacts on seasonal precipitation, extreme
+  events, and possible effects of climate change}', {\em Stochastic
   Environmental Research and Risk Assessment} {\bf 25}(4),~537--554.
 
 \harvarditem[Guo et~al.]{Guo, Zhou, Wang \harvardand\ Qian}{2015}{guo2015}
 Guo, Z., Zhou, T., Wang, M. \harvardand\ Qian, Y.  \harvardyearleft
-  2015\harvardyearright , `Impact of cloud radiative heating on east asian
+  2015\harvardyearright , `Impact of cloud radiative heating on {East Asian}
   summer monsoon circulation', {\em Environmental Research Letters} {\bf
   10}(7),~074014.
 
 \harvarditem[Ha et~al.]{Ha, Moon, Timmermann \harvardand\
   Kim}{2020}{jamoon2020}
 Ha, K.-J., Moon, S., Timmermann, A. \harvardand\ Kim, D.  \harvardyearleft
-  2020\harvardyearright , `Future changes of summer monsoon characteristics and
-  evaporative demand over asia in cmip6 simulations', {\em Geophysical Research
-  Letters} {\bf 47}(8),~e2020GL087492.
+  2020\harvardyearright , `{Future Changes of Summer Monsoon Characteristics
+  and Evaporative Demand Over Asia in CMIP6 Simulations}', {\em Geophysical
+  Research Letters} {\bf 47}(8),~e2020GL087492.
 
 \harvarditem{Halley}{1687}{halley}
 Halley, E.  \harvardyearleft 1687\harvardyearright , `An historical account of
@@ -773,8 +781,8 @@ Halley, E.  \harvardyearleft 1687\harvardyearright , `An historical account of
 \harvarditem[Hansen et~al.]{Hansen, Matthes \harvardand\
   Wahl}{2016}{hansen2016tropospheric}
 Hansen, F., Matthes, K. \harvardand\ Wahl, S.  \harvardyearleft
-  2016\harvardyearright , `Tropospheric qbo--enso interactions and differences
-  between the atlantic and pacific', {\em Journal of Climate} {\bf
+  2016\harvardyearright , `{Tropospheric QBO--ENSO interactions and differences
+  between the Atlantic and Pacific}', {\em Journal of Climate} {\bf
   29}(4),~1353--1368.
 
 \harvarditem[Harris et~al.]{Harris, Jones, Osborn \harvardand\
@@ -794,12 +802,12 @@ Hartmann, D.~L.  \harvardyearleft 2015\harvardyearright , {\em Global physical
 Harvey, C.~A., Saborio-Rodr{\'\i}guez, M., Martinez-Rodr{\'\i}guez, M.~R.,
   Viguera, B., Chain-Guadarrama, A., Vignola, R. \harvardand\ Alpizar, F.
   \harvardyearleft 2018\harvardyearright , `Climate change impacts and
-  adaptation among smallholder farmers in central america', {\em Agriculture \&
-  Food Security} {\bf 7}(1),~57.
+  adaptation among smallholder farmers in {Central America}', {\em Agriculture
+  \& Food Security} {\bf 7}(1),~57.
 
 \harvarditem{Hastenrath}{1967}{hastenrath1967}
 Hastenrath, S.~L.  \harvardyearleft 1967\harvardyearright , `Rainfall
-  distribution and regime in central america', {\em Archiv f{\"u}r
+  distribution and regime in {Central America}', {\em Archiv f{\"u}r
   Meteorologie, Geophysik und Bioklimatologie, Serie B} {\bf 15}(3),~201--241.
 
 \harvarditem[Hellin et~al.]{Hellin, Cox \harvardand\
@@ -814,7 +822,7 @@ Hellin, J., Cox, R. \harvardand\ López-Ridaura, S.  \harvardyearleft
 H{\'e}nin, R., Liberato, M.~L., Ramos, A.~M. \harvardand\ Gouveia, C.~M.
   \harvardyearleft 2018\harvardyearright , `Assessing the use of
   satellite-based estimates and high-resolution precipitation datasets for the
-  study of extreme precipitation events over the iberian peninsula', {\em
+  study of extreme precipitation events over the {Iberian Peninsula}', {\em
   Water} {\bf 10}(11),~1688.
 
 \harvarditem[Herrera et~al.]{Herrera, Maga{\~n}a \harvardand\
@@ -839,9 +847,9 @@ Hersbach, H., Bell, B., Berrisford, P., Hirahara, S., Horányi, A.,
   A., Haimberger, L., Healy, S., Hogan, R.~J., Hólm, E., Janisková, M.,
   Keeley, S., Laloyaux, P., Lopez, P., Lupu, C., Radnoti, G., de~Rosnay, P.,
   Rozum, I., Vamborg, F., Villaume, S. \harvardand\ Thépaut, J.-N.
-  \harvardyearleft 2020\harvardyearright , `The era5 global reanalysis', {\em
-  Quarterly Journal of the Royal Meteorological Society} {\bf 1}(n/a).
-\newline\harvardurl{https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/qj.3803}
+  \harvardyearleft 2020\harvardyearright , `The {ERA5} global reanalysis', {\em
+  Quarterly Journal of the Royal Meteorological Society} {\bf
+  146}(730),~1999--2049.
 
 \harvarditem[Higgins et~al.]{Higgins, Yao \harvardand\ Wang}{1997}{higgins1997}
 Higgins, R., Yao, Y. \harvardand\ Wang, X.  \harvardyearleft
@@ -863,35 +871,34 @@ Holton, J.~R. \harvardand\ Tan, H.-C.  \harvardyearleft 1980\harvardyearright ,
 \harvarditem[Hoskins et~al.]{Hoskins, Yang \harvardand\
   Fonseca}{2020}{hoskins2020}
 Hoskins, B., Yang, G.-Y. \harvardand\ Fonseca, R.  \harvardyearleft
-  2020\harvardyearright , `The detailed dynamics of the june--august hadley
-  cell', {\em Quarterly Journal of the Royal Meteorological Society} {\bf
+  2020\harvardyearright , `{The detailed dynamics of the June--August Hadley
+  Cell}', {\em Quarterly Journal of the Royal Meteorological Society} {\bf
   146}(727),~557--575.
 
 \harvarditem{Htway \harvardand\ Matsumoto}{2011}{htway2011}
 Htway, O. \harvardand\ Matsumoto, J.  \harvardyearleft 2011\harvardyearright ,
-  `Climatological onset dates of summer monsoon over myanmar', {\em
+  `Climatological onset dates of summer monsoon over {Myanmar}', {\em
   International Journal of Climatology} {\bf 31}(3),~382--393.
 
 \harvarditem[Huffman et~al.]{Huffman, Adler, Bolvin \harvardand\
   Nelkin}{2010}{mission2011}
 Huffman, G.~J., Adler, R.~F., Bolvin, D.~T. \harvardand\ Nelkin, E.~J.
-  \harvardyearleft 2010\harvardyearright , The trmm multi-satellite
-  precipitation analysis (tmpa), {\em in} `Satellite rainfall applications for
+  \harvardyearleft 2010\harvardyearright , {The TRMM multi-satellite
+  precipitation analysis (TMPA)}, {\em in} `Satellite rainfall applications for
   surface hydrology', Springer, pp.~3--22.
 
 \harvarditem[Huffman et~al.]{Huffman, Bolvin, Nelkin, Wolff, Adler, Gu, Hong,
   Bowman \harvardand\ Stocker}{2007}{huffman2007}
 Huffman, G.~J., Bolvin, D.~T., Nelkin, E.~J., Wolff, D.~B., Adler, R.~F., Gu,
   G., Hong, Y., Bowman, K.~P. \harvardand\ Stocker, E.~F.  \harvardyearleft
-  2007\harvardyearright , `{The TRMM Multisatellite Precipitation Analysis
+  2007\harvardyearright , `{{The TRMM Multisatellite Precipitation Analysis
   (TMPA): Quasi-Global, Multiyear, Combined-Sensor Precipitation Estimates at
-  Fine Scales}', {\em Journal of Hydrometeorology} {\bf 8}(1),~38--55.
-\newline\harvardurl{https://doi.org/10.1175/JHM560.1}
+  Fine Scales}}', {\em Journal of Hydrometeorology} {\bf 8}(1),~38--55.
 
 \harvarditem{Inoue \harvardand\ Back}{2015}{inoue2015}
 Inoue, K. \harvardand\ Back, L.~E.  \harvardyearleft 2015\harvardyearright ,
-  `Gross moist stability assessment during toga coare: Various interpretations
-  of gross moist stability', {\em Journal of Atmospheric Sciences} {\bf
+  `{Gross moist stability assessment during TOGA COARE: Various interpretations
+  of gross moist stability}', {\em Journal of Atmospheric Sciences} {\bf
   72}(11),~4148--4166.
 
 \harvarditem[Inoue et~al.]{Inoue, Biasutti \harvardand\
@@ -906,9 +913,8 @@ Inoue, K., Biasutti, M. \harvardand\ Fridlind, A.~M.  \harvardyearleft
 Jain, M., Naeem, S., Orlove, B., Modi, V. \harvardand\ DeFries, R.~S.
   \harvardyearleft 2015\harvardyearright , `Understanding the causes and
   consequences of differential decision-making in adaptation research: Adapting
-  to a delayed monsoon onset in gujarat, india', {\em Global Environmental
+  to a delayed monsoon onset in {Gujarat, India}', {\em Global Environmental
   Change} {\bf 31},~98 -- 109.
-\newline\harvardurl{http://www.sciencedirect.com/science/article/pii/S0959378014002179}
 
 \harvarditem{Jakob}{2014}{jakob2014}
 Jakob, C.  \harvardyearleft 2014\harvardyearright , `Going back to basics',
@@ -919,7 +925,6 @@ Jim\'enez-Esteve, B. \harvardand\ Domeisen, D. I.~V.  \harvardyearleft
   2020\harvardyearright , `{Nonlinearity in the tropospheric pathway of ENSO to
   the North Atlantic}', {\em Weather and Climate Dynamics} {\bf
   1}(1),~225--245.
-\newline\harvardurl{http://www.weather-clim-dynam.net/1/225/2020/}
 
 \harvarditem[Jobbov{\'a} et~al.]{Jobbov{\'a}, Helmke \harvardand\
   Bevan}{2018}{jobbova2018ritual}
@@ -932,9 +937,9 @@ Jobbov{\'a}, E., Helmke, C. \harvardand\ Bevan, A.  \harvardyearleft
   Senior, Williams, Jones, Rickard et~al.}{2006}{johns2006}
 Johns, T.~C., Durman, C.~F., Banks, H.~T., Roberts, M.~J., McLaren, A.~J.,
   Ridley, J.~K., Senior, C.~A., Williams, K., Jones, A., Rickard, G. et~al.
-  \harvardyearleft 2006\harvardyearright , `The new hadley centre climate model
-  (hadgem1): Evaluation of coupled simulations', {\em Journal of climate} {\bf
-  19}(7),~1327--1353.
+  \harvardyearleft 2006\harvardyearright , `The new {Hadley Centre climate
+  model (HadGEM1)}: Evaluation of coupled simulations', {\em Journal of
+  climate} {\bf 19}(7),~1327--1353.
 
 \harvarditem{Jones \harvardand\ Carvalho}{2002}{jones2002}
 Jones, C. \harvardand\ Carvalho, L.~M.  \harvardyearleft 2002\harvardyearright
@@ -955,9 +960,9 @@ Jones, C. \harvardand\ Carvalho, L.~M.  \harvardyearleft 2018\harvardyearright
 \harvarditem[Jorgetti et~al.]{Jorgetti, da~Silva~Dias \harvardand\
   de~Freitas}{2014}{jorgetti2014}
 Jorgetti, T., da~Silva~Dias, P.~L. \harvardand\ de~Freitas, E.~D.
-  \harvardyearleft 2014\harvardyearright , `The relationship between south
-  atlantic sst and sacz intensity and positioning', {\em Climate dynamics} {\bf
-  42}(11-12),~3077--3086.
+  \harvardyearleft 2014\harvardyearright , `The relationship between {South
+  Atlantic SST and SACZ} intensity and positioning', {\em Climate dynamics}
+  {\bf 42}(11-12),~3077--3086.
 
 \harvarditem[Karnauskas et~al.]{Karnauskas, Seager, Giannini \harvardand\
   Busalacchi}{2013}{karnauskas2013}
@@ -977,17 +982,24 @@ Kennedy, J., Rayner, N., Smith, R., Parker, D. \harvardand\ Saunby, M.
 \harvarditem[Kim et~al.]{Kim, Caron, Richter \harvardand\
   Simpson}{2020}{kim2020}
 Kim, H., Caron, J.~M., Richter, J.~H. \harvardand\ Simpson, I.~R.
-  \harvardyearleft 2020\harvardyearright , `The lack of qbo-mjo connection in
-  cmip6 models', {\em Geophysical Research Letters} {\bf
+  \harvardyearleft 2020\harvardyearright , `The lack of {QBO-MJO Connection in
+  CMIP6 Models}', {\em Geophysical Research Letters} {\bf
   47}(11),~e2020GL087295.
 \newblock e2020GL087295 2020GL087295.
-\newline\harvardurl{https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020GL087295}
 
 \harvarditem{Kitoh \harvardand\ Uchiyama}{2006}{kitoh2006}
 Kitoh, A. \harvardand\ Uchiyama, T.  \harvardyearleft 2006\harvardyearright ,
-  `Changes in onset and withdrawal of the east asian summer rainy season by
+  `Changes in onset and withdrawal of the {East Asian} summer rainy season by
   multi-model global warming experiments', {\em Journal of the Meteorological
   Society of Japan. Ser. II} {\bf 84}(2),~247--258.
+
+\harvarditem[Klotzbach et~al.]{Klotzbach, Abhik, Hendon, Bell, Lucas, Marshall
+  \harvardand\ Oliver}{2019}{klotzbach2019}
+Klotzbach, P., Abhik, S., Hendon, H., Bell, M., Lucas, C., Marshall, A.
+  \harvardand\ Oliver, E.  \harvardyearleft 2019\harvardyearright , `On the
+  emerging relationship between the stratospheric {Quasi-Biennial oscillation
+  and the Madden-Julian oscillation}', {\em Scientific reports} {\bf
+  9}(1),~1--9.
 
 \harvarditem[Kuhlbrodt et~al.]{Kuhlbrodt, Jones, Sellar, Storkey, Blockley,
   Stringer, Hill, Graham, Ridley, Blaker, Calvert, Copsey, Ellis, Hewitt,
@@ -1013,10 +1025,9 @@ Lawrence, P.~J., Feddema, J.~J., Bonan, G.~B., Meehl, G.~A., O’Neill, B.~C.,
 \harvarditem{Lee \harvardand\ Klingaman}{2018}{lee2018}
 Lee, J. C.~K. \harvardand\ Klingaman, N.~P.  \harvardyearleft
   2018\harvardyearright , `The effect of the quasi-biennial oscillation on the
-  madden–julian oscillation in the met office unified model global ocean
-  mixed layer configuration', {\em Atmospheric Science Letters} {\bf
+  {Madden–Julian oscillation in the Met Office Unified Model Global Ocean
+  Mixed Layer} configuration', {\em Atmospheric Science Letters} {\bf
   19}(5),~e816.
-\newline\harvardurl{https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/asl.816}
 
 \harvarditem[Lee et~al.]{Lee, Kang \harvardand\ Chun}{2019}{lee2019}
 Lee, J.-H., Kang, M.-J. \harvardand\ Chun, H.-Y.  \harvardyearleft
@@ -1032,8 +1043,8 @@ Li, D., Shine, K. \harvardand\ Gray, L.  \harvardyearleft 1995\harvardyearright
 
 \harvarditem{Li \harvardand\ Xie}{2014}{li2014}
 Li, G. \harvardand\ Xie, S.-P.  \harvardyearleft 2014\harvardyearright ,
-  `Tropical biases in cmip5 multimodel ensemble: The excessive equatorial
-  pacific cold tongue and double itcz problems', {\em Journal of Climate} {\bf
+  `Tropical biases in {CMIP5 multimodel ensemble: The excessive equatorial
+  Pacific cold tongue and double ITCZ problems}', {\em Journal of Climate} {\bf
   27}(4),~1765--1780.
 
 \harvarditem{Li \harvardand\ Hsu}{2018}{li2018fundamentals}
@@ -1048,14 +1059,21 @@ Li, W., Fu, R. \harvardand\ Dickinson, R.~E.  \harvardyearleft
 
 \harvarditem{Liebmann \harvardand\ Marengo}{2001}{liebmann2001interannual}
 Liebmann, B. \harvardand\ Marengo, J.  \harvardyearleft 2001\harvardyearright ,
-  `Interannual variability of the rainy season and rainfall in the brazilian
-  amazon basin', {\em Journal of Climate} {\bf 14}(22),~4308--4318.
+  `Interannual variability of the rainy season and rainfall in the {Brazilian
+  Amazon Basin}', {\em Journal of Climate} {\bf 14}(22),~4308--4318.
 
 \harvarditem{Liess \harvardand\ Geller}{2012}{liess2012}
 Liess, S. \harvardand\ Geller, M.~A.  \harvardyearleft 2012\harvardyearright ,
   `On the relationship between qbo and distribution of tropical deep
   convection', {\em Journal of Geophysical Research: Atmospheres} {\bf
   117}(D3).
+
+\harvarditem[Lim et~al.]{Lim, Son, Marshall, Hendon \harvardand\
+  Seo}{2019}{lim2019}
+Lim, Y., Son, S.-W., Marshall, A.~G., Hendon, H.~H. \harvardand\ Seo, K.-H.
+  \harvardyearleft 2019\harvardyearright , `Influence of the {QBO on MJO}
+  prediction skill in the subseasonal-to-seasonal prediction models', {\em
+  Climate Dynamics} {\bf 53}(3),~1681--1695.
 
 \harvarditem{Lorenz}{1967}{lorenz1967}
 Lorenz, E.~N.  \harvardyearleft 1967\harvardyearright , {\em The nature and
@@ -1067,28 +1085,35 @@ Lorenz, E.~N.  \harvardyearleft 1967\harvardyearright , {\em The nature and
 Lu, H., Hitchman, M.~H., Gray, L.~J., Anstey, J.~A. \harvardand\ Osprey, S.~M.
   \harvardyearleft 2020\harvardyearright , `On the role of rossby wave breaking
   in the quasi-biennial modulation of the stratospheric polar vortex during
-  boreal winter', {\em Quarterly Journal of the Royal Meteorological Society} .
+  boreal winter', {\em Quarterly Journal of the Royal Meteorological Society}
+  {\bf 146}(729),~1939--1959.
 
 \harvarditem[Lucas-Picher et~al.]{Lucas-Picher, Christensen, Saeed, Kumar,
   Asharaf, Ahrens, Wiltshire, Jacob \harvardand\ Hagemann}{2011}{picher}
 Lucas-Picher, P., Christensen, J.~H., Saeed, F., Kumar, P., Asharaf, S.,
   Ahrens, B., Wiltshire, A.~J., Jacob, D. \harvardand\ Hagemann, S.
   \harvardyearleft 2011\harvardyearright , `Can regional climate models
-  represent the indian monsoon?', {\em Journal of Hydrometeorology} {\bf
+  represent the {Indian] Monsoon?}', {\em Journal of Hydrometeorology} {\bf
   12}(5),~849--868.
-\newline\harvardurl{https://doi.org/10.1175/2011JHM1327.1}
 
 \harvarditem[Ma et~al.]{Ma, Sobel, Kuang, Singh \harvardand\ Nie}{2019}{ma2019}
 Ma, D., Sobel, A.~H., Kuang, Z., Singh, M.~S. \harvardand\ Nie, J.
   \harvardyearleft 2019\harvardyearright , `A moist entropy budget view of the
-  south asian summer monsoon onset', {\em Geophysical Research Letters} {\bf
+  {South Asian} summer monsoon onset', {\em Geophysical Research Letters} {\bf
   46}(8),~4476--4484.
+
+\harvarditem[Ma et~al.]{Ma, Chen, Huangfu, Song \harvardand\ Cai}{2021}{ma2021}
+Ma, T., Chen, W., Huangfu, J., Song, L. \harvardand\ Cai, Q.  \harvardyearleft
+  2021\harvardyearright , `The observed influence of the{ Quasi-Biennial
+  Oscillation in the lower equatorial stratosphere on the East Asian} winter
+  monsoon during early boreal winter', {\em International Journal of
+  Climatology} .
 
 \harvarditem[Machado et~al.]{Machado, Laurent, Dessay \harvardand\
   Miranda}{2004}{machado2004}
 Machado, L., Laurent, H., Dessay, N. \harvardand\ Miranda, I.  \harvardyearleft
   2004\harvardyearright , `Seasonal and diurnal variability of convection over
-  the amazonia: A comparison of different vegetation types and large scale
+  the {Amazonia}: A comparison of different vegetation types and large scale
   forcing', {\em Theoretical and Applied Climatology} {\bf 78}(1-3),~61--77.
 
 \harvarditem[Maga{\~n}a et~al.]{Maga{\~n}a, Amador \harvardand\
@@ -1105,8 +1130,8 @@ Maga{\~n}a, V. \harvardand\ Caetano, E.  \harvardyearleft 2005\harvardyearright
 \harvarditem[Maldonado et~al.]{Maldonado, Alfaro, Rutgersson \harvardand\
   Amador}{2017}{maldonado2017}
 Maldonado, T., Alfaro, E., Rutgersson, A. \harvardand\ Amador, J.~A.
-  \harvardyearleft 2017\harvardyearright , `The early rainy season in central
-  america: the role of the tropical north atlantic ssts', {\em International
+  \harvardyearleft 2017\harvardyearright , `The early rainy season in {Central
+  America: the role of the tropical North Atlantic SSTs}', {\em International
   Journal of Climatology} {\bf 37}(9),~3731--3742.
 
 \harvarditem[Malhi et~al.]{Malhi, Arag{\~a}o, Galbraith, Huntingford, Fisher,
@@ -1117,11 +1142,10 @@ Malhi, Y., Arag{\~a}o, L. E. O.~C., Galbraith, D., Huntingford, C., Fisher, R.,
   mechanism of a climate-change-induced dieback of the Amazon rainforest}',
   {\em Proceedings of the National Academy of Sciences} {\bf
   106}(49),~20610--20615.
-\newline\harvardurl{https://www.pnas.org/content/106/49/20610}
 
 \harvarditem[Mapes et~al.]{Mapes, Liu \harvardand\ Buenning}{2005}{mapes2005}
 Mapes, B.~E., Liu, P. \harvardand\ Buenning, N.  \harvardyearleft
-  2005\harvardyearright , `Indian monsoon onset and the americas midsummer
+  2005\harvardyearright , `Indian monsoon onset and the {Americas} midsummer
   drought: Out-of-equilibrium responses to smooth seasonal forcing', {\em
   Journal of Climate} {\bf 18}(7),~1109--1115.
 
@@ -1139,7 +1163,7 @@ Marengo, J.~A., Liebmann, B., Grimm, A.~M., Misra, V., Silva~Dias, P.~L.,
   Wainer}{2001}{marengo2001}
 Marengo, J.~A., Liebmann, B., Kousky, V.~E., Filizola, N.~P. \harvardand\
   Wainer, I.~C.  \harvardyearleft 2001\harvardyearright , `Onset and end of the
-  rainy season in the brazilian amazon basin', {\em Journal of Climate} {\bf
+  rainy season in the {Brazilian Amazon Basin}', {\em Journal of Climate} {\bf
   14}(5),~833--852.
 
 \harvarditem[Marotzke et~al.]{Marotzke, Jakob, Bony, Dirmeyer, O'Gorman,
@@ -1154,17 +1178,16 @@ Marotzke, J., Jakob, C., Bony, S., Dirmeyer, P., O'Gorman, P., Hawkins, E.,
 \harvarditem[Martin et~al.]{Martin, Orbe, Wang \harvardand\
   Sobel}{2021}{martin2021}
 Martin, Z., Orbe, C., Wang, S. \harvardand\ Sobel, A.  \harvardyearleft
-  2021\harvardyearright , `The mjo--qbo relationship in a gcm with
-  stratospheric nudging', {\em Journal of Climate} {\bf 34}(11),~4603--4624.
+  2021\harvardyearright , `{The MJO--QBO Relationship in a GCM with
+  Stratospheric Nudging}', {\em Journal of Climate} {\bf 34}(11),~4603--4624.
 
 \harvarditem[Martin et~al.]{Martin, Vitart, Wang \harvardand\
   Sobel}{2020}{martin2020jgr}
 Martin, Z., Vitart, F., Wang, S. \harvardand\ Sobel, A.  \harvardyearleft
-  2020\harvardyearright , `The impact of the stratosphere on the mjo in a
-  forecast model', {\em Journal of Geophysical Research: Atmospheres} {\bf
+  2020\harvardyearright , `{The Impact of the Stratosphere on the MJO in a
+  Forecast Model}', {\em Journal of Geophysical Research: Atmospheres} {\bf
   125}(4),~e2019JD032106.
 \newblock e2019JD032106 2019JD032106.
-\newline\harvardurl{https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019JD032106}
 
 \harvarditem[Martin et~al.]{Martin, Wang, Nie \harvardand\
   Sobel}{2019}{martin2019}
@@ -1172,7 +1195,6 @@ Martin, Z., Wang, S., Nie, J. \harvardand\ Sobel, A.  \harvardyearleft
   2019\harvardyearright , `{The Impact of the QBO on MJO Convection in
   Cloud-Resolving Simulations}', {\em Journal of the Atmospheric Sciences} {\bf
   76}(3),~669--688.
-\newline\harvardurl{https://doi.org/10.1175/JAS-D-18-0179.1}
 
 \harvarditem[Martinez et~al.]{Martinez, Goddard, Kushnir \harvardand\
   Ting}{2019}{martinez2019}
@@ -1183,8 +1205,8 @@ Martinez, C., Goddard, L., Kushnir, Y. \harvardand\ Ting, M.  \harvardyearleft
 \harvarditem[McKenna et~al.]{McKenna, Santoso, Gupta, Taschetto \harvardand\
   Cai}{2020}{mckenna2020iod}
 McKenna, S., Santoso, A., Gupta, A.~S., Taschetto, A.~S. \harvardand\ Cai, W.
-  \harvardyearleft 2020\harvardyearright , `Indian ocean dipole in cmip5 and
-  cmip6: characteristics, biases, and links to enso', {\em Scientific reports}
+  \harvardyearleft 2020\harvardyearright , `{Indian Ocean Dipole in CMIP5 and
+  CMIP6: characteristics, biases, and links to ENSO}', {\em Scientific reports}
   {\bf 10}(1),~1--13.
 
 \harvarditem[Menary et~al.]{Menary, Kuhlbrodt, Ridley, Andrews, Dimdore-Miles,
@@ -1193,15 +1215,15 @@ McKenna, S., Santoso, A., Gupta, A.~S., Taschetto, A.~S. \harvardand\ Cai, W.
 Menary, M.~B., Kuhlbrodt, T., Ridley, J., Andrews, M.~B., Dimdore-Miles, O.~B.,
   Deshayes, J., Eade, R., Gray, L., Ineson, S., Mignot, J., Roberts, C.~D.,
   Robson, J., Wood, R.~A. \harvardand\ Xavier, P.  \harvardyearleft
-  2018\harvardyearright , `Preindustrial control simulations with hadgem3-gc3.
-  1 for cmip6', {\em Journal of Advances in Modeling Earth Systems} {\bf
+  2018\harvardyearright , `Preindustrial control simulations with {HadGEM3-GC3.
+  1 for CMIP6}', {\em Journal of Advances in Modeling Earth Systems} {\bf
   10}(12),~3049--3075.
 
 \harvarditem[Mestas-Nu{\~n}ez et~al.]{Mestas-Nu{\~n}ez, Enfield \harvardand\
   Zhang}{2007}{mestas2007}
 Mestas-Nu{\~n}ez, A.~M., Enfield, D.~B. \harvardand\ Zhang, C.
   \harvardyearleft 2007\harvardyearright , `Water vapor fluxes over the
-  intra-americas sea: Seasonal and interannual variability and associations
+  {Intra-Americas Sea}: Seasonal and interannual variability and associations
   with rainfall', {\em Journal of Climate} {\bf 20}(9),~1910--1922.
 
 \harvarditem[Misios et~al.]{Misios, Gray, Knudsen, Karoff, Schmidt \harvardand\
@@ -1212,8 +1234,8 @@ Misios, S., Gray, L.~J., Knudsen, M.~F., Karoff, C., Schmidt, H. \harvardand\
   Academy of Sciences} {\bf 116}(15),~7186--7191.
 
 \harvarditem{Mission}{2011}{mission2011trmm}
-Mission, T. R.~M.  \harvardyearleft 2011\harvardyearright , `Trmm (tmpa/3b43)
-  rainfall estimate l3 1 month 0.25 degree$\times$ 0.25 degree v7', {\em
+Mission, T. R.~M.  \harvardyearleft 2011\harvardyearright , `{TRMM (TMPA/3B43)
+  Rainfall Estimate L3 1 Month 0.25 Degree$\times$ 0.25 Degree V7}', {\em
   Version, Greenbelt, MD, Goddard Earth Sciences Data and Information Services
   Center (GES DISC)} .
 \newblock Accessed: [12-Jan-2019].
@@ -1221,14 +1243,14 @@ Mission, T. R.~M.  \harvardyearleft 2011\harvardyearright , `Trmm (tmpa/3b43)
 
 \harvarditem{Moron \harvardand\ Robertson}{2014}{moron2014interannual}
 Moron, V. \harvardand\ Robertson, A.~W.  \harvardyearleft 2014\harvardyearright
-  , `Interannual variability of indian summer monsoon rainfall onset date at
+  , `Interannual variability of {Indian} summer monsoon rainfall onset date at
   local scale', {\em International journal of climatology} {\bf
   34}(4),~1050--1061.
 
 \harvarditem{Mosi{\~n}o \harvardand\ Garc{\'\i}a}{1966}{mosino1966}
 Mosi{\~n}o, A. \harvardand\ Garc{\'\i}a, E.  \harvardyearleft
-  1966\harvardyearright , Evaluaci{\'o}n de la sequ{\'\i}a intraestival en la
-  rep{\'u}blica mexicana, {\em in} `Proc. Conf. Reg. Latinoamericana Uni{\'o}n
+  1966\harvardyearright , {Evaluaci{\'o}n de la sequ{\'\i}a intraestival en la
+  Rep{\'u}blica Mexicana}, {\em in} `Proc. Conf. Reg. Latinoamericana Uni{\'o}n
   Geogr. Int', Vol.~3, pp.~500--516.
 
 \harvarditem[Mulcahy et~al.]{Mulcahy, Jones, Sellar, Johnson, Boutle, Jones,
@@ -1245,7 +1267,7 @@ Mulcahy, J.~P., Jones, C., Sellar, A., Johnson, B., Boutle, I.~A., Jones, A.,
   Ruiz-Barradas}{2008}{munoz2008}
 Mu{\~n}oz, E., Busalacchi, A.~J., Nigam, S. \harvardand\ Ruiz-Barradas, A.
   \harvardyearleft 2008\harvardyearright , `Winter and summer structure of the
-  caribbean low-level jet', {\em Journal of Climate} {\bf 21}(6),~1260--1276.
+  {Caribbean low-level jet}', {\em Journal of Climate} {\bf 21}(6),~1260--1276.
 
 \harvarditem{Neelin}{2007}{neelin2007moist}
 Neelin, J.~D.  \harvardyearleft 2007\harvardyearright , `Moist dynamics of
@@ -1265,8 +1287,8 @@ Neelin, J.~D. \harvardand\ Held, I.~M.  \harvardyearleft 1987\harvardyearright
 
 \harvarditem{Neelin \harvardand\ Su}{2005}{neelin2005}
 Neelin, J.~D. \harvardand\ Su, H.  \harvardyearleft 2005\harvardyearright ,
-  `Moist teleconnection mechanisms for the tropical south american and atlantic
-  sector', {\em Journal of Climate} {\bf 18}(18),~3928--3950.
+  `Moist teleconnection mechanisms for the tropical {South American and
+  Atlantic} sector', {\em Journal of Climate} {\bf 18}(18),~3928--3950.
 
 \harvarditem[Nie et~al.]{Nie, Boos \harvardand\
   Kuang}{2010}{nie2010observational}
@@ -1277,7 +1299,7 @@ Nie, J., Boos, W.~R. \harvardand\ Kuang, Z.  \harvardyearleft
 
 \harvarditem{Nie \harvardand\ Sobel}{2015}{nie2015}
 Nie, J. \harvardand\ Sobel, A.~H.  \harvardyearleft 2015\harvardyearright ,
-  `Responses of tropical deep convection to the qbo: Cloud-resolving
+  `Responses of tropical deep convection to the {QBO}: Cloud-resolving
   simulations', {\em Journal of the Atmospheric Sciences} {\bf
   72}(9),~3625--3638.
 
@@ -1292,27 +1314,27 @@ Nieto-Ferreira, R. \harvardand\ Rickenbach, T.~M.  \harvardyearleft
 O'Neill, B.~C., Tebaldi, C., Vuuren, D. P.~v., Eyring, V., Friedlingstein, P.,
   Hurtt, G., Knutti, R., Kriegler, E., Lamarque, J.-F., Lowe, J. et~al.
   \harvardyearleft 2016\harvardyearright , `The scenario model intercomparison
-  project (scenariomip) for cmip6', {\em Geoscientific Model Development} {\bf
-  9}(9),~3461--3482.
+  project {(ScenarioMIP) for CMIP6}', {\em Geoscientific Model Development}
+  {\bf 9}(9),~3461--3482.
 
 \harvarditem[Ordo{\~n}ez et~al.]{Ordo{\~n}ez, Nieto, Gimeno, Ribera, Gallego,
   Ochoa-Moya \harvardand\ Quintanar}{2019}{ordonez2019}
 Ordo{\~n}ez, P., Nieto, R., Gimeno, L., Ribera, P., Gallego, D., Ochoa-Moya,
   C.~A. \harvardand\ Quintanar, A.~I.  \harvardyearleft 2019\harvardyearright ,
-  `Climatological moisture sources for the western north american monsoon
+  `Climatological moisture sources for the {Western North American Monsoon}
   through a lagrangian approach: their influence on precipitation intensity',
   {\em Earth System Dynamics} {\bf 10}(1),~59--72.
 
 \harvarditem{Oueslati \harvardand\ Bellon}{2013}{oueslati2013}
 Oueslati, B. \harvardand\ Bellon, G.  \harvardyearleft 2013\harvardyearright ,
   `Convective entrainment and large-scale organization of tropical
-  precipitation: Sensitivity of the cnrm-cm5 hierarchy of models', {\em Journal
-  of climate} {\bf 26}(9),~2931--2946.
+  precipitation: Sensitivity of the {CNRM-CM5} hierarchy of models', {\em
+  Journal of climate} {\bf 26}(9),~2931--2946.
 
 \harvarditem{Oueslati \harvardand\ Bellon}{2015}{oueslati2015}
 Oueslati, B. \harvardand\ Bellon, G.  \harvardyearleft 2015\harvardyearright ,
-  `The double itcz bias in cmip5 models: Interaction between sst, large-scale
-  circulation and precipitation', {\em Climate dynamics} {\bf
+  `The double {ITCZ bias in CMIP5 models: Interaction between SST, large-scale
+  circulation and precipitation}', {\em Climate dynamics} {\bf
   44}(3-4),~585--607.
 
 \harvarditem{Palmer}{2019}{palmer2019st}
@@ -1336,15 +1358,15 @@ Pascale, S., Carvalho, L.~M., Adams, D.~K., Castro, C.~L. \harvardand\
   Barrett \harvardand\ Ordo{\~n}ez}{2019}{perdigon2019}
 Perdig{\'o}n-Morales, J., Romero-Centeno, R., Barrett, B.~S. \harvardand\
   Ordo{\~n}ez, P.  \harvardyearleft 2019\harvardyearright , `Intraseasonal
-  variability of summer precipitation in mexico: Mjo influence on the midsummer
-  drought', {\em Journal of Climate} {\bf 32}(8).
+  variability of summer precipitation in {Mexico: MJO influence on the
+  midsummer drought}', {\em Journal of Climate} {\bf 32}(8).
 
 \harvarditem[Perdig{\'o}n-Morales et~al.]{Perdig{\'o}n-Morales, Romero-Centeno,
   Ord{\'o}{\~n}ez \harvardand\ Barrett}{2018}{perdigon2018}
 Perdig{\'o}n-Morales, J., Romero-Centeno, R., Ord{\'o}{\~n}ez, P. \harvardand\
   Barrett, B.~S.  \harvardyearleft 2018\harvardyearright , `The midsummer
-  drought in mexico: perspectives on duration and intensity from the chirps
-  precipitation database', {\em International Journal of Climatology} {\bf
+  drought in {Mexico: perspectives on duration and intensity from the CHIRPS
+  precipitation database}', {\em International Journal of Climatology} {\bf
   38},~2174--2186.
 
 \harvarditem{Plumb \harvardand\ Bell}{1982}{plumb1982}
@@ -1383,11 +1405,10 @@ Ribera, P., Pe{\~n}a-Ortiz, C., Garcia-Herrera, R., Gallego, D., Gimeno, L.
   \harvardand\ Simpson}{2020}{richter2020}
 Richter, J.~H., Anstey, J.~A., Butchart, N., Kawatani, Y., Meehl, G.~A.,
   Osprey, S. \harvardand\ Simpson, I.~R.  \harvardyearleft
-  2020\harvardyearright , `Progress in simulating the quasi-biennial
-  oscillation in cmip models', {\em Journal of Geophysical Research:
+  2020\harvardyearright , `Progress in simulating the {Quasi-Biennial
+  Oscillation in CMIP} models', {\em Journal of Geophysical Research:
   Atmospheres} {\bf 125}(8),~e2019JD032362.
 \newblock e2019JD032362 10.1029/2019JD032362.
-\newline\harvardurl{https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019JD032362}
 
 \harvarditem[Ridley et~al.]{Ridley, Menary, Kuhlbrodt, Andrews \harvardand\
   Andrews}{2018}{gc3pi}
@@ -1420,8 +1441,8 @@ Ridley, J., Menary, M., Kuhlbrodt, T., Andrews, M. \harvardand\ Andrews, T.
 \harvarditem[Rodrigues et~al.]{Rodrigues, Haarsma, Campos \harvardand\
   Ambrizzi}{2011}{rodrigues2011}
 Rodrigues, R.~R., Haarsma, R.~J., Campos, E.~J. \harvardand\ Ambrizzi, T.
-  \harvardyearleft 2011\harvardyearright , `The impacts of inter--el ni{\~n}o
-  variability on the tropical atlantic and northeast brazil climate', {\em
+  \harvardyearleft 2011\harvardyearright , `The impacts of {inter--El Ni{\~n}o
+  variability on the tropical Atlantic and northeast Brazil climate}', {\em
   Journal of Climate} {\bf 24}(13),~3402--3422.
 
 \harvarditem{Ropelewski \harvardand\ Halpert}{1986}{ropelewski1986}
@@ -1433,7 +1454,7 @@ Ropelewski, C.~F. \harvardand\ Halpert, M.~S.  \harvardyearleft
 \harvarditem{Ropelewski \harvardand\ Halpert}{1987}{ropelewski1987}
 Ropelewski, C.~F. \harvardand\ Halpert, M.~S.  \harvardyearleft
   1987\harvardyearright , `Global and regional scale precipitation patterns
-  associated with the el ni{\~n}o/southern oscillation', {\em Monthly weather
+  associated with the {El Ni{\~n}o/Southern Oscillation}', {\em Monthly weather
   review} {\bf 115}(8),~1606--1626.
 
 \harvarditem{Ryu \harvardand\ Hayhoe}{2014}{ryu2014}
@@ -1444,7 +1465,7 @@ Ryu, J.-H. \harvardand\ Hayhoe, K.  \harvardyearleft 2014\harvardyearright ,
 \harvarditem[Sahana et~al.]{Sahana, Ghosh, Ganguly \harvardand\
   Murtugudde}{2015}{Sahana_2015}
 Sahana, A.~S., Ghosh, S., Ganguly, A. \harvardand\ Murtugudde, R.
-  \harvardyearleft 2015\harvardyearright , `Shift in indian summer monsoon
+  \harvardyearleft 2015\harvardyearright , `Shift in {Indian summer} monsoon
   onset during 1976/1977', {\em Environmental Research Letters} {\bf
   10}(5),~054006.
 
@@ -1452,18 +1473,18 @@ Sahana, A.~S., Ghosh, S., Ganguly, A. \harvardand\ Murtugudde, R.
   Yamagata}{1999}{saji1999iod}
 Saji, N., Goswami, B.~N., Vinayachandran, P. \harvardand\ Yamagata, T.
   \harvardyearleft 1999\harvardyearright , `A dipole mode in the tropical
-  indian ocean', {\em Nature} {\bf 401}(6751),~360--363.
+  {Indian Ocean}', {\em Nature} {\bf 401}(6751),~360--363.
 
 \harvarditem[Schenzinger et~al.]{Schenzinger, Osprey, Gray \harvardand\
   Butchart}{2017}{schenzinger2017}
 Schenzinger, V., Osprey, S., Gray, L. \harvardand\ Butchart, N.
   \harvardyearleft 2017\harvardyearright , `Defining metrics of the
-  quasi-biennial oscillation in global climate models', {\em Geoscientific
+  {Quasi-Biennial} oscillation in global climate models', {\em Geoscientific
   Model Development} {\bf 10}(6).
 
 \harvarditem{Schirber}{2015}{schirber2015}
-Schirber, S.  \harvardyearleft 2015\harvardyearright , `Influence of enso on
-  the qbo: Results from an ensemble of idealized simulations', {\em Journal of
+Schirber, S.  \harvardyearleft 2015\harvardyearright , `Influence of {ENSO on
+  the QBO}: Results from an ensemble of idealized simulations', {\em Journal of
   Geophysical Research: Atmospheres} {\bf 120}(3),~1109--1122.
 
 \harvarditem[Schneider et~al.]{Schneider, Bischoff \harvardand\
@@ -1490,15 +1511,14 @@ Sellar, A.~A., Jones, C.~G., Mulcahy, J., Tang, Y., Yool, A., Wiltshire, A.,
   Smith, R.~S., Swaminathan, R., Woodhouse, M.~T., Zeng, G. \harvardand\
   Zerroukat, M.  \harvardyearleft 2019\harvardyearright , `{UKESM1: Description
   and evaluation of the UK Earth System Model}', {\em Journal of Advances in
-  Modeling Earth Systems} {\bf 0}(ja).
-\newline\harvardurl{https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019MS001739}
+  Modeling Earth Systems} {\bf 11}(12),~4513--4558.
 
 \harvarditem[Serva et~al.]{Serva, Anstey, Bushell, Butchart, Cagnazzo, Gray,
   Kawatani, Osprey, Richter \harvardand\ Simpson}{submitted}{serva2021}
 Serva, F., Anstey, J.~A., Bushell, A.~C., Butchart, N., Cagnazzo, C., Gray, L.,
   Kawatani, Y., Osprey, S.~M., Richter, J.~H. \harvardand\ Simpson, I.~R.
-  \harvardyearleft submitted\harvardyearright , `The impact of the qbo near the
-  tropical tropopause layer in qboi models: present-day simulations', {\em
+  \harvardyearleft submitted\harvardyearright , `The impact of the {QBO near
+  the tropical tropopause layer in QBOi} models: present-day simulations', {\em
   Quaterly Journal of the Royal Meteorological Society} .
 
 \harvarditem{Shepherd}{2014}{shepherd2014}
@@ -1508,20 +1528,20 @@ Shepherd, T.~G.  \harvardyearleft 2014\harvardyearright , `Atmospheric
 
 \harvarditem[Small et~al.]{Small, De~Szoeke \harvardand\ Xie}{2007}{small2007}
 Small, R. J.~O., De~Szoeke, S.~P. \harvardand\ Xie, S.-P.  \harvardyearleft
-  2007\harvardyearright , `The central american midsummer drought: Regional
+  2007\harvardyearright , `The {Central American} midsummer drought: Regional
   aspects and large-scale forcing', {\em Journal of Climate} {\bf
   20}(19),~4853--4873.
 
 \harvarditem[Smyth et~al.]{Smyth, Hill \harvardand\
   Ming}{2018}{smyth2018simulated}
 Smyth, J.~E., Hill, S.~A. \harvardand\ Ming, Y.  \harvardyearleft
-  2018\harvardyearright , `Simulated responses of the west african monsoon and
-  zonal-mean tropical precipitation to early holocene orbital forcing', {\em
-  Geophysical Research Letters} {\bf 45}(21),~12--049.
+  2018\harvardyearright , `Simulated responses of the {West African Monsoon}
+  and zonal-mean tropical precipitation to early holocene orbital forcing',
+  {\em Geophysical Research Letters} {\bf 45}(21),~12--049.
 
 \harvarditem{Smyth \harvardand\ Ming}{2020}{smyth2020}
 Smyth, J.~E. \harvardand\ Ming, Y.  \harvardyearleft 2020\harvardyearright ,
-  `Characterizing drying in the south american monsoon onset season with the
+  `Characterizing drying in the {South American monsoon} onset season with the
   moist static energy budget', {\em Journal of Climate} {\bf
   33}(22),~9735--9748.
 
@@ -1541,8 +1561,8 @@ Son, S.-W., Lim, Y., Yoo, C., Hendon, H.~H. \harvardand\ Kim, J.
 \harvarditem[Stensrud et~al.]{Stensrud, Gall \harvardand\
   Nordquist}{1997}{stensrud1997}
 Stensrud, D.~J., Gall, R.~L. \harvardand\ Nordquist, M.~K.  \harvardyearleft
-  1997\harvardyearright , `Surges over the gulf of california during the
-  mexican monsoon', {\em Monthly Weather Review} {\bf 125}(4),~417--437.
+  1997\harvardyearright , `Surges over the {Gulf of California during the
+  Mexican monsoon}', {\em Monthly Weather Review} {\bf 125}(4),~417--437.
 
 \harvarditem[Storkey et~al.]{Storkey, Blaker, Mathiot, Megann, Aksenov,
   Blockley, Calvert, Graham, Hewitt, Hyder et~al.}{2018}{storkey2018}
@@ -1556,8 +1576,8 @@ Storkey, D., Blaker, A.~T., Mathiot, P., Megann, A., Aksenov, Y., Blockley,
   Estrada}{2019}{straffon2019}
 Straffon, A., Zavala-Hidalgo, J. \harvardand\ Estrada, F.  \harvardyearleft
   2019\harvardyearright , `Preconditioning of the precipitation interannual
-  variability in southern mexico and central america by oceanic and atmospheric
-  anomalies', {\em International Journal of Climatology} .
+  variability in southern{ Mexico and Central America by oceanic and
+  atmospheric anomalies}', {\em International Journal of Climatology} .
 
 \harvarditem[Sulca et~al.]{Sulca, Takahashi, Espinoza, Vuille \harvardand\
   Lavado-Casimiro}{2018}{sulca2018}
@@ -1573,12 +1593,11 @@ Sultan, B., Baron, C., Dingkuhn, M., Sarr, B. \harvardand\ Janicot, S.
   \harvardyearleft 2005\harvardyearright , `Agricultural impacts of large-scale
   variability of the west african monsoon', {\em Agricultural and Forest
   Meteorology} {\bf 128}(1),~93 -- 110.
-\newline\harvardurl{http://www.sciencedirect.com/science/article/pii/S0168192304001923}
 
 \harvarditem{Takahashi}{2004}{takahashi2004}
 Takahashi, K.  \harvardyearleft 2004\harvardyearright , `The atmospheric
-  circulation associated with extreme rainfall events in piura, peru, during
-  the 1997--1998 and 2002 el ni{\~n}o events'.
+  circulation associated with extreme rainfall events in {Piura, Peru, during
+  the 1997--1998 and 2002 El Ni{\~n}o events}'.
 
 \harvarditem[Tang et~al.]{Tang, Rumbold, Ellis, Kelley, Mulcahy, Sellar, Walton
   \harvardand\ Jones}{2019{\em a}}{ukesmhist}
@@ -1591,15 +1610,15 @@ Tang, Y., Rumbold, S., Ellis, R., Kelley, D., Mulcahy, J., Sellar, A., Walton,
   \harvardand\ Jones}{2019{\em b}}{ukesmpi}
 Tang, Y., Rumbold, S., Ellis, R., Kelley, D., Mulcahy, J., Sellar, A., Walton,
   J. \harvardand\ Jones, C.  \harvardyearleft 2019{\em b}\harvardyearright ,
-  `Mohc ukesm1.0-ll model output prepared for cmip6 cmip picontrol'.
+  `{MOHC UKESM1.0-LL model output prepared for CMIP6 CMIP piControl}'.
 \newline\harvardurl{https://doi.org/10.22033/ESGF/CMIP6.6298}
 
 \harvarditem[Tedeschi et~al.]{Tedeschi, Grimm \harvardand\
   Cavalcanti}{2015}{tedeschi2015}
 Tedeschi, R.~G., Grimm, A.~M. \harvardand\ Cavalcanti, I.~F.  \harvardyearleft
-  2015\harvardyearright , `Influence of central and east enso on extreme events
-  of precipitation in south america during austral spring and summer', {\em
-  International Journal of Climatology} {\bf 35}(8),~2045--2064.
+  2015\harvardyearright , `{Influence of Central and East ENSO on extreme
+  events of precipitation in South America during austral spring and summer}',
+  {\em International Journal of Climatology} {\bf 35}(8),~2045--2064.
 
 \harvarditem[Tegtmeier et~al.]{Tegtmeier, Anstey, Davis, Dragani, Harada,
   Ivanciu, Pilch~Kedzierski, Kr\"uger, Legras, Long, Wang, Wargan \harvardand\
@@ -1610,16 +1629,14 @@ Tegtmeier, S., Anstey, J., Davis, S., Dragani, R., Harada, Y., Ivanciu, I.,
   2020a\harvardyearright , `Temperature and tropopause characteristics from
   reanalyses data in the tropical tropopause layer', {\em Atmospheric Chemistry
   and Physics} {\bf 20}(2),~753--770.
-\newline\harvardurl{https://www.atmos-chem-phys.net/20/753/2020/}
 
 \harvarditem[Tegtmeier et~al.]{Tegtmeier, Anstey, Davis, Ivanciu, Jia, McPhee
   \harvardand\ Pilch~Kedzierski}{2020b}{tegtmeier2020b}
 Tegtmeier, S., Anstey, J., Davis, S., Ivanciu, I., Jia, Y., McPhee, D.
   \harvardand\ Pilch~Kedzierski, R.  \harvardyearleft 2020b\harvardyearright ,
-  `Zonal asymmetry of the qbo temperature signal in the tropical tropopause
-  region', {\em Geophysical Research Letters} {\bf 47}(24),~e2020GL089533.
+  `{Zonal Asymmetry of the QBO Temperature Signal in the Tropical Tropopause
+  Region}', {\em Geophysical Research Letters} {\bf 47}(24),~e2020GL089533.
 \newblock e2020GL089533 2020GL089533.
-\newline\harvardurl{https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020GL089533}
 
 \harvarditem[Thompson et~al.]{Thompson, Baldwin \harvardand\
   Solomon}{2005}{thompson2005}
@@ -1655,13 +1672,13 @@ Troup, A.  \harvardyearleft 1965\harvardyearright , `The ‘southern
 
 \harvarditem{Turner \harvardand\ Annamalai}{2012}{turner2012}
 Turner, A.~G. \harvardand\ Annamalai, H.  \harvardyearleft
-  2012\harvardyearright , `Climate change and the south asian summer monsoon',
-  {\em Nature Climate Change} {\bf 2}(8),~587--595.
+  2012\harvardyearright , `Climate change and the {South Asian} summer
+  monsoon', {\em Nature Climate Change} {\bf 2}(8),~587--595.
 
 \harvarditem{Turrent \harvardand\ Cavazos}{2009}{turrent2009}
 Turrent, C. \harvardand\ Cavazos, T.  \harvardyearleft 2009\harvardyearright ,
   `Role of the land-sea thermal contrast in the interannual modulation of the
-  north american monsoon', {\em Geophysical Research Letters} {\bf 36}(2).
+  {North American Monsoon}', {\em Geophysical Research Letters} {\bf 36}(2).
 
 \harvarditem[Vera et~al.]{Vera, Higgins, Amador, Ambrizzi, Garreaud, Gochis,
   Gutzler, Lettenmaier, Marengo, Mechoso, Nogues-Paegle, Dias \harvardand\
@@ -1674,7 +1691,7 @@ Vera, C., Higgins, W., Amador, J., Ambrizzi, T., Garreaud, R., Gochis, D.,
 
 \harvarditem{Walker}{1924}{walker1924}
 Walker, G.~T.  \harvardyearleft 1924\harvardyearright , `Correlations in
-  seasonal variations of weather. i. a further study of world weather', {\em
+  seasonal variations of weather. {I. A} further study of world weather', {\em
   Mem. Indian Meteorol. Dep.} {\bf 24},~275--332.
 
 \harvarditem{Walker}{1932}{walker1932}
@@ -1725,12 +1742,12 @@ Wang, P.~X., Wang, B., Cheng, H., Fasullo, J., Guo, Z., Kiefer, T. \harvardand\
 \harvarditem[Wang et~al.]{Wang, Tippett, Sobel, Martin \harvardand\
   Vitart}{2019}{wang2019}
 Wang, S., Tippett, M.~K., Sobel, A.~H., Martin, Z. \harvardand\ Vitart, F.
-  \harvardyearleft 2019\harvardyearright , `Impact of the qbo on prediction and
-  predictability of the mjo convection', {\em J. Geophys. Res. Atmos} .
+  \harvardyearleft 2019\harvardyearright , `Impact of the {QBO on prediction
+  and predictability of the MJO convection}', {\em J. Geophys. Res. Atmos} .
 
 \harvarditem{Wang \harvardand\ Wang}{2014}{wang2014iod}
 Wang, X. \harvardand\ Wang, C.  \harvardyearleft 2014\harvardyearright ,
-  `Different impacts of various el ni{\~n}o events on the {Indian Ocean
+  `Different impacts of various {El Ni{\~n}o events on the Indian Ocean
   Dipole}', {\em Climate dynamics} {\bf 42}(3-4),~991--1005.
 
 \harvarditem[Webb et~al.]{Webb, Andrews, Bodas-Salcedo, Bony, Bretherton,
@@ -1738,7 +1755,7 @@ Wang, X. \harvardand\ Wang, C.  \harvardyearleft 2014\harvardyearright ,
 Webb, M.~J., Andrews, T., Bodas-Salcedo, A., Bony, S., Bretherton, C.~S.,
   Chadwick, R., Chepfer, H., Douville, H., Good, P., Kay, J.~E. et~al.
   \harvardyearleft 2017\harvardyearright , `The cloud feedback model
-  intercomparison project (cfmip) contribution to cmip6', {\em Geoscientific
+  intercomparison project {(CFMIP) contribution to CMIP6}', {\em Geoscientific
   Model Development} {\bf 10}(1),~359--384.
 
 \harvarditem{Webster}{2020}{webster2020dynamics}
@@ -1747,9 +1764,8 @@ Webster, P.~J.  \harvardyearleft 2020\harvardyearright , {\em Dynamics of the
 
 \harvarditem{Webster \harvardand\ Yang}{1992}{webster1992}
 Webster, P.~J. \harvardand\ Yang, S.  \harvardyearleft 1992\harvardyearright ,
-  `Monsoon and enso: Selectively interactive systems', {\em Quarterly Journal
+  `Monsoon and {Enso: Selectively Interactive Systems}', {\em Quarterly Journal
   of the Royal Meteorological Society} {\bf 118}(507),~877--926.
-\newline\harvardurl{https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/qj.49711850705}
 
 \harvarditem[Whitcher et~al.]{Whitcher, Guttorp \harvardand\
   Percival}{2000}{whitcher2000}
@@ -1805,8 +1821,8 @@ Yang, B., Zhang, Y., Qian, Y., Song, F., Leung, L.~R., Wu, P., Guo, Z., Lu, Y.
 \harvarditem[Yin et~al.]{Yin, Fu, Shevliakova \harvardand\
   Dickinson}{2013}{yin2013}
 Yin, L., Fu, R., Shevliakova, E. \harvardand\ Dickinson, R.~E.
-  \harvardyearleft 2013\harvardyearright , `How well can cmip5 simulate
-  precipitation and its controlling processes over tropical south america?',
+  \harvardyearleft 2013\harvardyearright , `How well can {CMIP5 simulate
+  precipitation and its controlling processes over tropical South America?}',
   {\em Climate Dynamics} {\bf 41}(11-12),~3127--3143.
 
 \harvarditem{Yoon \harvardand\ Zeng}{2010}{yoon2010atlantic}
@@ -1827,7 +1843,7 @@ Zerme{\~n}o-D{\'\i}az, D.~M.  \harvardyearleft 2019\harvardyearright , `The
 
 \harvarditem{Zhai \harvardand\ Boos}{2015}{zhai2015regime}
 Zhai, J. \harvardand\ Boos, W.  \harvardyearleft 2015\harvardyearright ,
-  `Regime transitions of cross-equatorial hadley circulations with zonally
+  `Regime transitions of cross-equatorial {Hadley} circulations with zonally
   asymmetric thermal forcings', {\em Journal of the Atmospheric Sciences} {\bf
   72}(10),~3800--3818.
 
@@ -1835,13 +1851,13 @@ Zhai, J. \harvardand\ Boos, W.  \harvardyearleft 2015\harvardyearright ,
   Vargas-Hernandez}{2020}{zhao2020}
 Zhao, Z., Holbrook, N.~J., Oliver, E.~C., Ballestero, D. \harvardand\
   Vargas-Hernandez, J.~M.  \harvardyearleft 2020\harvardyearright ,
-  `Characteristic atmospheric states during mid-summer droughts over central
-  america and mexico', {\em Climate Dynamics} pp.~1--21.
+  `Characteristic atmospheric states during mid-summer droughts over {Central
+  America and Mexico}', {\em Climate Dynamics} pp.~1--21.
 
 \harvarditem{Zhao \harvardand\ Zhang}{2021}{zhao2021}
 Zhao, Z. \harvardand\ Zhang, X.  \harvardyearleft 2021\harvardyearright ,
-  `Evaluation of methods to detect and quantify the bimodal precipitation over
-  central america and mexico', {\em International Journal of Climatology} {\bf
+  `{Evaluation of methods to detect and quantify the bimodal precipitation over
+  Central America and Mexico}', {\em International Journal of Climatology} {\bf
   41},~E897--E911.
 
 \harvarditem[Zhou et~al.]{Zhou, Turner, Kinter, Wang, Qian, Chen, Wu, Liu, Zou
@@ -1854,8 +1870,8 @@ Zhou, T., Turner, A.~G., Kinter, J.~L., Wang, B., Qian, Y., Chen, X., Wu, B.,
 
 \harvarditem{Zou \harvardand\ Zhou}{2015}{zou2015}
 Zou, L. \harvardand\ Zhou, T.  \harvardyearleft 2015\harvardyearright , `Asian
-  summer monsoon onset in simulations and cmip5 projections using four chinese
-  climate models', {\em Advances in Atmospheric Sciences} {\bf
+  summer monsoon onset in simulations and {CMIP5 projections using four Chinese
+  climate models}', {\em Advances in Atmospheric Sciences} {\bf
   32}(6),~794--806.
 
 \end{thebibliography}
