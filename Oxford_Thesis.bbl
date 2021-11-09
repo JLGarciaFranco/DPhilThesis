@@ -11,7 +11,6 @@ Adams, D.~K., Gutman, S.~I., Holub, K.~L. \harvardand\ Pereira, D.~S.
   \harvardyearleft 2013\harvardyearright , `{GNSS observations of deep
   convective time scales in the Amazon}', {\em Geophysical Research Letters}
   {\bf 40}(11),~2818--2823.
-\newline\harvardurl{https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/grl.50573}
 
 \harvarditem{Addison}{2017}{addison2017}
 Addison, P.~S.  \harvardyearleft 2017\harvardyearright , {\em The illustrated
@@ -39,8 +38,8 @@ Allen, T.~L. \harvardand\ Mapes, B.~E.  \harvardyearleft 2017\harvardyearright
   International Journal of Climatology} {\bf 37}(15),~4981--4993.
 
 \harvarditem{Amador}{2008}{amador2008}
-Amador, J.~A.  \harvardyearleft 2008\harvardyearright , `The intra-americas sea
-  low-level jet: Overview and future research', {\em Annals of the New York
+Amador, J.~A.  \harvardyearleft 2008\harvardyearright , `The {intra-Americas}
+  sea low-level jet: Overview and future research', {\em Annals of the New York
   Academy of Sciences} {\bf 1146}(1),~153--188.
 
 \harvarditem[Anderson et~al.]{Anderson, Anchukaitis, Pons \harvardand\
@@ -632,14 +631,6 @@ Gan, M., Kousky, V. \harvardand\ Ropelewski, C.  \harvardyearleft
   relationship to rainfall over west-central Brazil}', {\em Journal of climate}
   {\bf 17},~47--66.
 
-\harvarditem[García-Franco et~al.]{García-Franco, Osprey \harvardand\
-  Gray}{2021}{garciafranco2021}
-García-Franco, J.~L., Osprey, S. \harvardand\ Gray, L.~J.  \harvardyearleft
-  2021\harvardyearright , `A wavelet transform method to determine monsoon
-  onset and retreat from precipitation time-series', {\em International Journal
-  of Climatology} {\bf 41}(11),~5295--5317.
-\newline\harvardurl{https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/joc.7130}
-
 \harvarditem[Garc\'{\i}a-Franco et~al.]{Garc\'{\i}a-Franco, Gray \harvardand\
   Osprey}{2020}{garciafranco2020}
 Garc\'{\i}a-Franco, J.~L., Gray, L.~J. \harvardand\ Osprey, S.
@@ -661,6 +652,14 @@ Garcia, S.~R. \harvardand\ Kayano, M.~T.  \harvardyearleft
   season in {Western-Central Brazil} with antisymmetric outgoing longwave
   radiation relative to the equator', {\em International Journal of
   Climatology} {\bf 33}(1),~188--198.
+
+\harvarditem[García-Franco et~al.]{García-Franco, Osprey \harvardand\
+  Gray}{2021}{garciafranco2021}
+García-Franco, J.~L., Osprey, S. \harvardand\ Gray, L.~J.  \harvardyearleft
+  2021\harvardyearright , `A wavelet transform method to determine monsoon
+  onset and retreat from precipitation time-series', {\em International Journal
+  of Climatology} {\bf 41}(11),~5295--5317.
+\newline\harvardurl{https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/joc.7130}
 
 \harvarditem{Garfinkel \harvardand\ Hartmann}{2010}{garfinkel2010}
 Garfinkel, C.~I. \harvardand\ Hartmann, D.  \harvardyearleft
@@ -1187,7 +1186,6 @@ Martin, Z., Vitart, F., Wang, S. \harvardand\ Sobel, A.  \harvardyearleft
   2020\harvardyearright , `{The Impact of the Stratosphere on the MJO in a
   Forecast Model}', {\em Journal of Geophysical Research: Atmospheres} {\bf
   125}(4),~e2019JD032106.
-\newblock e2019JD032106 2019JD032106.
 
 \harvarditem[Martin et~al.]{Martin, Wang, Nie \harvardand\
   Sobel}{2019}{martin2019}

@@ -427,7 +427,7 @@ However, the strength of the CLLJ may not be the relevant factor, but rather the
 
 \section{A short look at the MSD through the lense of the moist static energy budget}
 
-The previous sections have tested three leading hypothesis for the Midsummer drought, with results suggesting that only elements of the CLLJ hypothesis can explain the interannual variability in the strength of the MSD in reanalysis, as well as in the differences between the CMIP6 experiments. However, changes to the CLLJ and IMFC appear to be unrelated to the strength and time of the onset of the MSD, which means that other processes are responsible for the start of the drier MSD period. 
+The previous sections test three hypotheses for the Midsummer drought, with results suggesting that only elements of the CLLJ hypothesis can explain the interannual variability in the strength of the MSD in reanalysis, as well as in the differences between the CMIP6 experiments. However, changes to the CLLJ and IMFC appear to be unrelated to the strength and time of the onset of the MSD, which means that other processes are responsible for the start of the drier MSD period. 
 To further explore the processes that control the start of the MSD, the moist static energy (MSE) budget is used in this section to disentagle how the column MSE budget terms vary over the wet season.
 
 \begin{figure}[t!]
@@ -439,18 +439,21 @@ To further explore the processes that control the start of the MSD, the moist st
  %The purpose of this section is not provide a new theory for the MSD but rather to show whether the investigation of the MSD through the lense of the MSE budget may prove more promising to understand these mechanisms than traditional theories and diagnostics. 
 
 
- The computation of the MSE budget terms is done as described in section \ref{sq:msemethod}. The budget terms are obtained from daily-mean values at all available levels within the troposphere for reanalysis and climate model output. It should be noted that the radiative heating terms are not available from the CMIP archive on daily scales so a full budget was not feasible with model data. In turn, we focus on the vertical and horizontal advection of MSE, the total column MSE, the surface fluxes and the gross moist stability.
+ The computation of the MSE budget terms is done as described in section \ref{sq:msemethod}. The budget terms are obtained from daily-mean values at all available levels within the troposphere for reanalysis and climate model output. Note that the radiative heating terms are not available from the CMIP archive on daily scales. %In turn, we focus on the vertical and horizontal advection of MSE, the total column MSE, the surface fluxes and the gross moist stability.
  
-  First, the seasonal cycle of the column budget terms, as well as the boundary layer or near surface MSE ($h_b$), is shown in Figure \ref{fig:thermo_pentad} with some quantities shown for the EP region and others for the MSD region. The vertical advection of dry ($s$) and moist ($h$) static energy shows a clear bimodal seasonal cycle, with two peaks at the start and end of the summer season, separated by a local minimum that occurs at the end of July or early August.
- The simulated vertical advection of MSE corresponds well with ERA5 during the wet season (JAS) for all the simulations, although the vertical advection of $s$ is smaller in the historical and SSP1 experiments during the MSD and second peak periods. The vertical advection of $s$ is not underestimated by the GC3 amip experiment during late summer, which has a wetter second peak as shown in previous sections. 
+  First, the seasonal cycle of the column budget terms, as well as the boundary layer or near surface MSE ($h_b$), is shown in Figure \ref{fig:thermo_pentad} with some quantities shown for the EP region and others for the MSD region. The vertical advection of dry ($s$) and moist ($h$) static energy show a bimodal seasonal cycle, with two peaks at the start and end of the summer season, separated by a local minimum that occurs at the end of July or early August.
+ The simulated vertical advection of MSE corresponds well with ERA5 during the wet season (JAS) for all the simulations, although the vertical advection of $s$ is smaller in the historical and SSP1 experiments during the MSD and second peak periods. The vertical advection of $s$ is higher in the GC3 amip experiment during late summer compared to other experiments, which is important because this simulations shows the wettest second peak period. 
 
+ The sum of the latent and sensible heat fluxes in the EP region show a clear bimodal signal in the experiments but not in ERA5. The experiments also show very large positive biases during both periods of peak precipitation in June and Sep-Oct. In late summer, this bias is particularly notable in the GC3 amip experiment. These biases in the surface fluxes in the EP are arguably one of the reasons for the very wet bias found in the EP ITCZ in these models. 
+ 
+The theory by \cite{karnauskas2013} suggests that the net shortwave surface energy balance being strongly modulates the various stages of the MSD, through an influence on the surface or boundary layer MSE (Fig. \ref{fig:thermo_pentad}e). However, in most of the simulations and ERA5, $h_b$ in the MSD region follows a plateau-like seasonal cycle with a clear increase during spring, a plateau during summer and a sharp decrease in October at the end of the rainy season. The SSP1 experiment shows a  decrease in $h_b$ in August but this is fairly modest compared to the magnitude of the change in $h_b$ at the end and start of the summer. 
+ 
+ 
 \begin{figure}[t!]
 \includegraphics[width=\linewidth]{figures/thermocompositewdhdp.png}
 \caption[Composites of the mean vertical advection of the MSE budget]{Composites of mean $\langle \omega dh/dp \rangle$ (shading in W m$^{-2}$) and $\langle \omega ds/dp \rangle$ (contours in W m$^{-2}$).  }
 \label{fig:wdhdpcompo}
-\end{figure}  
- 
- The sum of the latent and sensible heat fluxes in the EP region show a clear bimodal signal in the experiments but not in ERA5. The experiments also show very large biases during both periods of peak precipitation in June and Sep-Oct. In late summer, this bias is particularly notable in the GC3 amip experiment. These biases in the surface fluxes in the EP are arguably one of the reasons for the very wet bias found in the EP ITCZ in these models. 
+\end{figure}   
  
 \begin{figure}[t!]
 \includegraphics[width=\linewidth]{figures/thermocompositewdhdpanom.png}
@@ -458,13 +461,10 @@ To further explore the processes that control the start of the MSD, the moist st
 \label{fig:wdhdpanom}
 \end{figure} 
  
-
-One component of the theory by \cite{karnauskas2013} involved the net shortwave part of the surface energy balance being notably different during the various stages of the MSD. A direct implication from this hypothesis is that the shortwave ultimately influences the surface or boundary layer MSE (Fig. \ref{fig:thermo_pentad}e). However, in most of the simulations and ERA5, $h_b$ in the MSD region follows a plateau-like seasonal cycle with a clear increase during spring, a plateau during summer and a sharp decrease in October at the end of the rainy season. The SSP1 experiment shows a  decrease in $h_b$ in August but this is fairly modest compared to the magnitude of the change in $h_b$ at the end and start of the summer. 
-
 Similarly, the total column $h$ shows a modest bimodal seasonality in reanalysis and simulations, i.e., $\langle h \rangle$ decreases at the midsummer. 
-The low-emission scenario shows a notable increase in total column $h$ compared to historical and pre-industrial experiments, and higher emission scenarios (SSP2 and SSP5) showed that total $h$ scales with greenhouse forcing (not shown). One key aspect of this increase in total column $h$ is that total precipitation is not increased uniformly over all the stages of the wet season (see Fig. \ref{fig:scatter_msd}). 
+The low-emission scenario shows a notable increase in total column $h$ compared to historical and pre-industrial experiments. In spite of this increase in total column $h$ in SSP1, the total precipitation is not increased uniformly over all the stages of the wet season in scenario experiments (see Fig. \ref{fig:scatter_msd}), so changes to TWC do not explain variations to precipitation throughout the wet season in this region.
 
-The spatial distribution of the mean $\langle \omega dh/dp \rangle$ and $\langle \omega ds/dp \rangle$ (Figure \ref{fig:wdhdpcompo}) during the three stages of the MSD seasonal cycle show a good agreement between the experiments and reanalysis. The highest values of $\langle \omega ds/dp \rangle$ are found on the western coast of northern Central America, in the easternmost position of the ITCZ. Positive values of $\langle \omega dh/dp \rangle$  are found in the Caribbean Sea, the Gulf of Mexico and over the Mesoamerican region throughout the three stages of the MSD. Negative values of $\langle \omega dh/dp \rangle$ and $\langle \omega ds/dp \rangle$ are found over the coast of California throughout the wet season. 
+The spatial distribution of the mean $\langle \omega dh/dp \rangle$ and $\langle \omega ds/dp \rangle$ (Figure \ref{fig:wdhdpcompo}) during the three stages of the MSD seasonal cycle show a good agreement between the experiments and reanalysis. The highest values of $\langle \omega ds/dp \rangle$ are found on the western coast of northern Central America, in the easternmost position of the ITCZ. Positive values of $\langle \omega dh/dp \rangle$  are found in the Caribbean Sea, the Gulf of Mexico and over the MSD region throughout the three stages of the MSD. Negative values of $\langle \omega dh/dp \rangle$ and $\langle \omega ds/dp \rangle$ are found over the coast of California throughout the wet season. 
 
 \begin{figure}[t!]
 \includegraphics[width=\linewidth]{figures/thermocompositeMvclim.png}
@@ -472,8 +472,8 @@ The spatial distribution of the mean $\langle \omega dh/dp \rangle$ and $\langle
 \label{fig:Mvcompo}
 \end{figure} 
  
- The changes to the $\langle \omega dh/dp \rangle$ and $\langle \omega ds/dp \rangle$ during the MSD periods are best illustrated in Figure \ref{fig:wdhdpanom}, which shows the differences between MSD-P1 and P2-MSD. In the Mesoamerican region, $\langle \omega dh/dp \rangle$ and $\langle \omega ds/dp \rangle$ are reduced during the MSD period compared the first peak period, this difference is maximized right at the exit of the Gulf of Tehuantepec, in southwestern Mexico. 
- Simultaneously, from the P1 to the MSD period, $\langle \omega ds/dp \rangle$ notably increases west of the Mesoamerican region near the 125$^\circ$W region whereas $\langle \omega dh/dp \rangle$ increases in northern Mexico and in the Gulf of California. 
+ The changes to the $\langle \omega dh/dp \rangle$ and $\langle \omega ds/dp \rangle$ during the MSD periods (Figure \ref{fig:wdhdpanom}) show that in the MSD region, $\langle \omega dh/dp \rangle$ and $\langle \omega ds/dp \rangle$ are reduced during the MSD period compared to the P1 period, this difference is maximized right at the exit of the Gulf of Tehuantepec, in southwestern Mexico. 
+ Simultaneously, from the P1 to the MSD period, $\langle \omega ds/dp \rangle$ increases west of the MSD region near the 125$^\circ$W region whereas $\langle \omega dh/dp \rangle$ increases in northern Mexico and in the Gulf of California. 
  
 \begin{figure}[t!]
 \includegraphics[width=\linewidth]{figures/thermocompositeint_udothanom.png}
@@ -482,18 +482,18 @@ The spatial distribution of the mean $\langle \omega dh/dp \rangle$ and $\langle
 \end{figure} 
   
  
- At the end of the MSD, illustrated by the P2-MSD panels in Figure \ref{fig:wdhdpanom}, $\langle \omega dh/dp \rangle$ and $\langle \omega ds/dp \rangle$ increase notably in the Mesoamerican region. Again, the maximum difference of $\langle \omega ds/dp \rangle$ is found in the Gulf of Tehuantepec region. The North American monsoon region show a decrease in both $\langle \omega dh/dp \rangle$ and $\langle \omega ds/dp \rangle$. 
+ At the end of the MSD (Figure \ref{fig:wdhdpanom}), $\langle \omega dh/dp \rangle$ and $\langle \omega ds/dp \rangle$ increase in the MSD region. Again, the maximum difference of $\langle \omega ds/dp \rangle$ is found in the Gulf of Tehuantepec region. The North American monsoon region shows a decrease in both $\langle \omega dh/dp \rangle$ and $\langle \omega ds/dp \rangle$. 
  Both for the P2-MSD and MSD-P1 panels, the experiments are able to reproduce the spatial patterns of these changes to these budget terms. Furthermore, the SSP1 experiment shows larger differences between the MSD stages compared to the historical experiments.
 
 The normalized gross moist stability (NGMS) is a useful quantity to better understand how convection is redistributing $h$ vertically (see equation \ref{eq:ngms}). Figure \ref{fig:Mvcompo} shows the temporal and spatial variability of the vertical component of the NGMS ($M_v$) during the three stages of the MSD. The reanalysis and the simulations show that $M_v$ is generally close to 0 in the easternmost Pacific (5$^\circ$N-15$^\circ$N) and into the MSD region, and positive on the western coast of California and over the continental North America.
 
 \begin{figure}[t!]
 \includegraphics[width=\linewidth]{figures/thermo_scatter}
-\caption[Scatterplot of the vertical advection of dry and moist static energy against precipitation]{Scatterplot of the relationship between the area-averaged mean vertical advection of dry and moist static energy and precipitation over the MSD region. In panels a, d, each dot represents the differences in the mean values between a) MSD-P1 and (d) P2-MSD for precipitation in the y-axis and vertical advection of $h$ and $s$ in the x-axis. In the rest of the panels, the differences are shown for the dataset-mean for all years in each dataset.    }
+\caption[Scatterplot of the vertical advection of dry and moist static energy against precipitation]{Scatterplot of the relationship between the area-averaged mean vertical advection of dry and moist static energy and precipitation over the MSD region. (left) Differences in $\langle \omega dh/dp \rangle$  and (right) in $\langle \omega ds/dp \rangle$ on the x-axis with corresponding differneces in precipitation on the y-axis computed for differences amongst MSD-P1 and P2-MSD periods, as indicated on the y-axis label. (a-d) Interannual variability of ERA5 where each dot represents one year in ERA5.  In (e-h) the differences represent the mean values for all years in each dataset.    }
 \label{fig:thermo_scatter}
 \end{figure}
 
- The most noteworthy variations of $M_v$ associated with the MSD timings occur over the western coast of  Mexico, the Gulf of Mexico and the Caribbean. From the first peak period to the drier MSD period, $M_v$ decreases in these regions and then increases again from the dry period to the wetter second peak period. Negative and minimum $M_v$ is then found during the MSD period over most of the so-called Intra-Americas Seas region. This result is important because these changes point to seasonal variations in the relationship between convection and the large-scale dynamics \citep{raymond2009}, including the shape of the vertical velocity profile.
+ The most noteworthy variations of $M_v$ associated with the MSD timings occur over the western coast of  Mexico, the Gulf of Mexico and the Caribbean. From the first peak period to the drier MSD period, $M_v$ decreases in these regions and then increases again from the dry period to the wetter second peak period. Negative and minimum $M_v$ is then found during the MSD period over most of the so-called Intra-Americas Seas region. This result is important because these changes point to seasonal variations in the relationship between convection and the large-scale dynamics \citep{raymond2009}.
 
 The horizontal advection term and the surface fluxes also show notable differences associated with the MSD timings (Figure \ref{fig:intudothanom}). In the MSD-P1 period, decreased surface fluxes in the easternmost Pacific Ocean are observed in the three simulations and, to a lesser degree, in ERA5. These differences suggest that in the models, surface fluxes decrease as precipitation decreases from the wet first peak period to the dry MSD period. In the simulations, these negative surface flux anomalies are collocated with negative differences of the horizontal advection of MSE term. 
 
@@ -502,24 +502,33 @@ The horizontal advection term and the surface fluxes also show notable differenc
 
 \begin{figure}[t!]
 \includegraphics[width=\linewidth]{figures/mse_barplot_era5}
-\caption[Barplots of MSE budget terms]{Barplots of the area and time-averaged MSE budget terms: horizontal advection ($\langle \vec{u}\cdot\nabla h \rangle$) and vertical advection ($\langle \omega dh/dp \rangle$), longwave ($\langle LW \rangle$) and shortwave($\langle SW \rangle$) and the sum of sensible ($SH$) and latent heat ($LH$) fluxes. (a) shows the budget terms computed from ERA5 in the MSD region in the P1, MSD and P2 periods. (b-d) show the monthly-mean values of the budget terms. }
+\caption[Barplots of MSE budget terms]{Barplots of the area and time-averaged MSE budget terms: horizontal advection ($\langle \vec{u}\cdot\nabla h \rangle$) and vertical advection ($\langle \omega dh/dp \rangle$), longwave ($\langle LW \rangle$) and shortwave ($\langle SW \rangle$) heating and the sum of sensible ($SH$) and latent heat ($LH$) fluxes. The residual or addition of all the terms is also shown in each panel. (a) Budget terms computed from ERA5 in the MSD region in the P1, MSD and P2 periods and (b-d) show the monthly-mean values of the budget terms from three CMIP6 simulations. }
 \label{fig:thermo_barplot}
 \end{figure}
 
-A key question then is how the MSE budget equation is balanced in the different stages of the seasonal cycle, i.e., which terms balance the horizontal and vertical advection of MSE during the early and late wet periods and in the MSD period. 
-Figure \ref{fig:thermo_barplot} shows the mean values of each budget term in the MSD in ERA5 and the simulations. The results in the simulations are shown per month because the radiative heating data from the CMIP6 archive was only available for monthly-mean frequencies.
+The scatter of the relationship between precipitation and the vertical advection of dry and moist static energy during the wet season (Figure \ref{fig:thermo_scatter}) indicates that the vertical advection term is strongly linked to precipitation variations, both in ERA5 as in the simulations.
+Figure \ref{fig:thermo_scatter} shows that the interannual variability of vertical advection of dry and moist static energy in ERA5 is strongly related to interannual variations in the precipitation changes during the MSD. Negative differences of $\langle \omega dh/dp \rangle$ and $\langle \omega ds/dp \rangle$ are observed in MSD-P1 panel whereas increases of these terms occur from the MSD period to the second peak period in ERA5 and in the experiments. Specifically, $\langle \omega ds/dp \rangle$ is the term that best explains interannual variability of the strength of the MSD, measured by the difference MSD-P1 in ERA5. 
+
+\begin{figure}[t!]
+\includegraphics[width=\linewidth]{figures/mse_barplot_norm}
+\caption[Barplots of normalized MSE budget terms]{As in Figure \ref{fig:thermo_barplot} but each is term is shown as anomalies from the wet season (JJAS) mean.}
+\label{fig:thermo_barplotnm}
+\end{figure}
+
+A key question then is how the MSE budget equation is balanced in the different stages of the seasonal cycle, i.e., which terms balance the changes to the vertical advection of MSE and how this balance changes from the early and late wet periods compared to the MSD period. 
+Figure \ref{fig:thermo_barplot} shows the mean values of each budget term in the MSD region in ERA5 and the simulations. The results in the simulations are shown as monthly-mean values because the radiative heating data from the CMIP6 archive was only available for monthly-mean frequencies.
 
 In ERA5 (Fig. \ref{fig:thermo_barplot}a), the positive contributions of MSE from the shortwave heating and the surface fluxes are balanced mostly by the negative contribution from the longwave heating (radiative cooling of the column)  and to second order by the horizontal and vertical advection terms. 
-The differences in the budget terms between the P1, MSD and P2 periods are most pronounced for the vertical and horizontal advection terms which total contribution increases during the MSD compared to the other two periods. However, from P1 to the MSD stage, the longwave radiative heating notably decreases and increases again from the MSD to P2 periods whereas the shortwave heating term appears to change very little between the stages of the rainy season.
+The differences in the budget terms between the P1, MSD and P2 periods (Fig. \ref{fig:thermo_barplotnm}) are most pronounced for the vertical and horizontal advection terms, and the LW heating term. The horizontal advection term increases absolute magnitude (more negative contribution) and the vertical advection term changes sign (from positive to negative) during the MSD compared to the first peak period. However, from P1 to the MSD stage, the longwave radiative heating notably decreases and increases again from the MSD to P2 periods whereas the shortwave heating term appears to change very little between the stages of the rainy season.
 
-In the CMIP6 simulations (Fig. \ref{fig:thermo_barplot}b-d), a similar balance is observed with the largest contributions arising from the terms of radiative heating and surface fluxes. 
-From May to September some seasonal variations in each term are observed, for example, stronger longwave cooling in May than in June-July. The vertical advection term also increases notably during the early rainy season (June-July) compared to the rest of the wet season. As in ERA, the contribution from the vertical advection term increases during the MSD with minima found in June or July in all the simulations. 
-The horizontal advection increases during the months of the two peak of precipitation (May and September) and decreases during the MSD. 
+In the CMIP6 simulations (Fig. \ref{fig:thermo_barplot}b-d), a similar balance is observed with the largest contributions arising from the radiative heating and surface flux terms. 
+From May to September some seasonal variations in each term are observed (Fig. \ref{fig:thermo_barplotnm}b-d), for example, stronger longwave cooling in May than in June-July. The vertical advection term becomes negative during the early rainy season (June-July). As in ERA, the absolute contribution from the vertical advection term increases during the MSD with minima found in June or July in all the simulations. 
+The contribution from the horizontal advection term increases during the months of the two peak of precipitation (May and September) and decreases during the MSD. 
 
-
-The scatter of the relationship between precipitation and the vertical advection of dry and moist static energy during the wet season (Figure \ref{fig:thermo_scatter}) indicates that the shape of the vertical profile of the vertical velocity is stronly linked to precipitation variations, both in ERA5 as in the simulations. Figure \ref{fig:thermo_scatter}a, d shows that the interannual variability of vertical advection of dry and moist static energy in ERA5 is strongly related to interannual variations in the precipitation changes during the MSD. Negative differences of $\langle \omega dh/dp \rangle$ and $\langle \omega ds/dp \rangle$ are observed in MSD-P1 panel, in agreement with the previous composite analysis whereas increases of these terms occur from the MSD period to the second peak period in ERA5 and in the experiments. Specifically, $\langle \omega ds/dp \rangle$ is the term that best explains interannual variability of the strength of the MSD, measured by the difference MSD-P1 in ERA5. 
-The budget analysis shows that the variability of the horizontal advection and longwave heating terms within the rainy season is stronger than for the shortwave heating and surface fluxes. 
-This evidence suggests that LW CRE and moisture transport may be more important than surface fluxes of total shortwave incoming to the troposphere, which supports the mechanism that links the CLLJ to the precipitation in the MSD. These budget terms could also be interpreted as evidence that cloud-radiative feedback mechanism and the solar declination angle are less likely to explain the MSD.
+This MSE budget analysis shows that the variability of the horizontal advection and longwave heating terms within the rainy season is stronger than for the shortwave heating and surface fluxes (Fig. \ref{fig:thermo_barplotnm}). 
+This evidence suggests that LW CRE and moisture transport may be more important than surface fluxes or the shortwave heating variations. 
+The horizontal advection fluctuations partially support the mechanism that links the moisture transport from the CLLJ to the precipitation in the MSD but the evidence also suggest that the LW heating and CRE may also be important. 
+%These budget terms could also be interpreted as evidence that cloud-radiative feedback mechanism and the solar declination angle are less likely to explain the MSD.
 
 \section{Summary and discussion}\label{sq:sumdiscuss}
 
@@ -558,7 +567,9 @@ One alternative hypothesis is that the MSD is caused by the modulation of the tr
 Changes to the CLLJ and moisture convergence allow skillful predictions of precipitation changes at the end of the MSD period but these are less skilful for changes at the start of the MSD. 
 
 A moist static energy (MSE) budget is implemented to investigate whether this technique could provide additional insight into the mechanisms of the MSD. The total column MSE, as well as the vertical advection terms of the budget show a clear bimodal signal that closely follows that of precipitation. The vertical advection of dry and moist static energy are found to have the strongest relationship to the interannual variability and the inter-experiment differences of precipitation in the MSD region. 
+In particular, $\langle \omega ds/dp \rangle$ is able to better explain interannual variability in ERA5 as well as the precipitation differences between the range of experiments considered in this chapter. 
 
-In particular, $\langle \omega ds/dp \rangle$ is able to explain interannual variability in ERA5 as well as the precipitation differences between the range of experiments considered in this chapter. While these results do not directly point to any theory or hypothesis, the strong correlations in reanalysis and simulations indicate that MSE budgets would be useful in future research to better understand the key mechanism underpinning the MSD. Specifically, this result points to a possible modulation of the strength of convection by the shape of the vertical velocity profile, which is the key modulator of these terms. How the vertical velocity profile changes during the rainy season, and whether there are notable trends in ERA5 or significant changes between historical and Scenario experiments warrants further research.
+The horizontal advection term does exhibit strong variations during the wet season over land and over the ocean, with increased divergence of $h$ during the MSD, suggesting that the moisture transport hypothesis may be more relevant than the other theories. 
+However, further research is required to better understand whether the vertical velocity profile changes during the rainy season or whether the strong relationship betweeen the vertical advection term and precipitation is best explained by changes to the vertical profiles of $h$ and $s$, as well as more research on how the horizontal advection term may be related to the CLLJ.
  
  

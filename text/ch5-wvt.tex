@@ -11,10 +11,10 @@ The timing and strength of the rainy season are key aspects of the climate of mo
 Scientific and societal motivation has led climate and weather research to objectively determine  onset and retreat dates for purposes such as the characterisation of variability and trends, and forecasting \citep[e.g.][]{kitoh2006,cook2009,picher,nieto2011,htway2011}. 
 
 For this reason, a wide range  of methods exist to diagnose the onset and retreat dates from a number of variables and datasets.
-\cite{bombardi2019} provides a recent review of these methods and highlights the technical differences and purposes of each. Methods can be divided into those that evaluate monsoon onset and retreat on a regional scale \citep[e.g.][]{webster1992,fasullo2003,garcia2013}  or at a local or grid-box scale \citep[e.g.][]{liebmann2001interannual,cook2009}. 
+\cite{bombardi2019} provide a recent review of these methods and highlight the technical differences and purposes of each. Methods can be divided into those that evaluate monsoon onset and retreat on a regional scale \citep[e.g.][]{webster1992,fasullo2003,garcia2013}  or at a local or grid-box scale \citep[e.g.][]{liebmann2001interannual,cook2009}. 
 
 Threshold methods are the most commonly used local-scale methods that typically diagnose onset and retreat from a precipitation time-series \citep{bombardi2019}. 
-These methods evaluate the accumulated  \citep{liebmann2001interannual} or daily/pentad-mean rainfall rates \citep{geil2013} and determine the onset and retreat dates when the time-series exceeds or falls below a pre-defined value (threshold) for a given amount of time (persistence). The persistence parameter aims to decrease the effect of noise of precipitation in the calculation. The threshold parameter can be a statistical measure of the seasonal cycle such as the total annual mean rainfall \citep{arias2012}  or tuned to a specific dataset \citep[e.g.][]{geil2013}.
+These methods evaluate the accumulated  \citep{liebmann2001interannual} or daily/pentad-mean rainfall rates \citep{geil2013} and determine the onset and retreat dates when the time-series exceeds or falls below a pre-defined value (threshold) for a given amount of time (persistence). The persistence parameter aims to decrease the effect of the noise of precipitation time series in the calculation. The threshold parameter can be a statistical measure of the seasonal cycle such as the total annual mean rainfall \citep{arias2012}  or tuned to a specific dataset \citep[e.g.][]{geil2013}.
 
 %The parameters for threshold methods vary distinctly from study to study, first, because the wet and dry seasons in each monsoon region have different timings, strengths and dynamical features \citep{wang2017}. Secondly, parameters may vary due to differences between the datasets used, e.g., in horizontal resolution, can cause differences in the climatological seasonal cycle of rainfall or the mean rainfall rate, requiring different threshold and persistence parameters for each dataset.% which means that the implementation of threshold methods in different datasets also requires normalization or statistical treatment of the threshold and persistence parameters.
 
@@ -36,8 +36,8 @@ The objective diagnosis of shorter time-scale rainfall variability, such as bimo
 The majority of existing methods to diagnose bimodal signals in the MSD region use geometric or statistical measures of the monthly-mean rainfall that measure the difference between the months of maximum rainfall and the drier months.  
 However, this approach fails to capture the shorter-scale changes that have been shown to occur in both observations and model data, as the MSD does not start or end exactly on given calendar months \citep{magana1999,garciafranco2020}.  \cite{zhao2021} review and compare several methods to detect and measure the MSD, finding that using monthly-mean data and prior assumptions of the dates of the first and second peaks can lead to errors.  %but can also introduce biases when determining the spatial variability of the MSD \citep{zhao2021}.
 
-Only a handful of methods exist that can determine the characteristics of the MSD in Central America on sub-monthly timescales. \cite{anderson2019multiscale} analysed the pentad-mean time-series from the   Climate Hazards Infrared Precipitation with Stations (CHIRPS) dataset. After a double temporal smoothing of the time-series, \cite{anderson2019multiscale} determined the MSD timings through a threshold method with parameters tailored to the CHIRPS dataset.
-In turn, \cite{zhao2020} used daily-mean time-series and determined the two-peak structure through linear-regression analysis.
+Only a handful of methods exist that can determine the characteristics of the MSD in Central America on sub-monthly timescales. \cite{anderson2019multiscale} analysed the pentad-mean time series from the   Climate Hazards Infrared Precipitation with Stations (CHIRPS) dataset. After a double temporal smoothing of the time series, \cite{anderson2019multiscale} determined the MSD timings through a threshold method with parameters tailored to the CHIRPS dataset.
+In turn, \cite{zhao2020} used daily-mean time series and determined the two-peak structure through linear-regression analysis.
 However, more general methods that may be applied to multiple datasets on the daily-mean scale could provide useful to understand variability and trends in the seasonality of precipitation in the region.
 
 
@@ -47,9 +47,9 @@ Both the objective determination of monsoon onset and retreat and the timings of
 
 
 
-  The purpose of this chapter is then to present an objective approach that is more portable across datasets, regions, less prone to false-hits and robust for various purposes.
-This chapter introduces a wavelet transform method to determine monsoon onset and retreat dates using pentad-mean precipitation time-series.  Wavelet algorithms have been extensively used in atmospheric research for multiple purposes, such as the detection of the boundary layer height \citep[e.g.][]{brooks2003}, as well as to analyse time-frequency features of a signal \citep[e.g.][]{whitcher2000,dimdore2021}. In fact, \cite{allen2017} used a wavelet analysis to determine monsoon onset and retreat using daily OLR data. The remainder of this chapter is organised as follows: section 2 describes the methods and datasets. Section 3 shows the results of applying the method to the Indian and North American Monsoons and the MSD. Section 4 summarises the method and discusses the results.
-%The method is constructed such that the determination of monsoon onset and withdrawal dates is less sensitive to the characteristics of the time-series, i.e., the characteristics of the seasonality of each monsoon  or of a given observational dataset. Furthermore, the method is expanded to characterise bimodal regimes which is illustrated for the MSD of southern Mexico, Central America and the Caribbean.
+  The purpose of this chapter is then to present an objective approach that is more portable across datasets, regions, less prone to false hits and robust for various purposes.
+This chapter introduces a wavelet transform method to determine monsoon onset and retreat dates using pentad-mean precipitation time series.  Wavelet algorithms have been extensively used in atmospheric research for multiple purposes, such as the detection of the boundary layer height \citep[e.g.][]{brooks2003}, as well as to analyse time-frequency features of a signal \citep[e.g.][]{whitcher2000,dimdore2021}. In fact, \cite{allen2017} used wavelet analysis to determine monsoon onset and retreat using daily OLR data. The remainder of this chapter is organised as follows: section 2 describes the methods and datasets. Section 3 shows the results of applying the method to the Indian and North American Monsoons and the MSD. Section 4 summarises the method and discusses the results.
+%The method is constructed such that the determination of monsoon onset and withdrawal dates is less sensitive to the characteristics of the time series, i.e., the characteristics of the seasonality of each monsoon  or of a given observational dataset. Furthermore, the method is expanded to characterise bimodal regimes which is illustrated for the MSD of southern Mexico, Central America and the Caribbean.
 
 
 
@@ -58,7 +58,7 @@ This chapter introduces a wavelet transform method to determine monsoon onset an
 \subsection{Precipitation datasets and reanalysis data}
 
 This chapter uses three gridded precipitation datasets described in chapter \ref{ch:3-methods}: the TRMM v7 3B42, the CHIRPS, and the CMAP datasets.
-These three precipitation datasets are merged products, TRMM and CMAP mainly use microwave satellite measurements complimented by several other sensors and calibrated with rain-gauge data whereas CHIRPS uses several products from TRMM, as well as high-resolution station data. These datasets also differ in their end-product horizontal resolutions.
+These three precipitation datasets are merged products, TRMM and CMAP mainly use microwave satellite measurements complemented by several other sensors and calibrated with rain-gauge data whereas CHIRPS uses several products from TRMM, as well as high-resolution station data. These datasets also differ in their end-product horizontal resolutions.
 
 The precipitation output from the latest ECMWF reanalysis, ERA5, is used, which has been shown to exhibit a relatively good representation of the temporal characteristics of rainfall in the AMS in chapter \ref{ch:4-ams}. 
 Other variables from ERA5 used to diagnose changes to the circulation associated with monsoon onset were daily-mean geopotential height at 500 hPa and wind speed ($\vec{u}$) at several vertical levels. 
@@ -80,12 +80,12 @@ The daily precipitation data were converted to pentad-scales.
 \defcitealias{geil2013}{G13}
 \defcitealias{arias2012}{A12}
 
-Wavelets are band-limited wave-like functions with specific mathematical properties that include a finite energy and zero-mean \citep{whitcher2000,addison2017}.
+Wavelets are band-limited wave-like functions with specific mathematical properties that include  finite energy and zero-mean \citep{whitcher2000,addison2017}.
 The wavelet function is defined using two parameters, a dilation (a width or temporal scale) and a translation (centroid in time/space).
 
-Wavelet transforms are the result of the inner product (convolution) of a wavelet function with  a time-series or a signal \citep{addison2017}. 
+Wavelet transforms are the result of the inner product (convolution) of a wavelet function with  a time series or a signal \citep{addison2017}. 
 The wavelet transform (WT) can be thought of as a local comparison between the wavelet function and the observed signal for different frequencies.
-The information provided by a WT largely depends on the characteristics of the wavelet function, such that different wavelet functions are used for different purposes \citep{addison2017}. For the purpose of finding the onset and retreat dates, the wavelet based on the Haar function is useful as this wavelet finds sudden changes in a signal, in a way acting as a temporal filtering of the data \citep{addison2017,brooks2003}. The Haar wavelet is defined as the non-continous piece-wise function:
+The information provided by a WT largely depends on the characteristics of the wavelet function, such that different wavelet functions are used for different purposes \citep{addison2017}. For the purpose of finding the onset and retreat dates, the wavelet-based on the Haar function is useful as this wavelet finds sudden changes in a signal, acting as a time filter of the data \citep{addison2017,brooks2003}. The Haar wavelet is defined as the non-continuous piece-wise function:
 
 \begin{equation}
 \psi \bigg(\frac{t-b}{a}\bigg)=
@@ -106,10 +106,10 @@ W_f(a,b)=\frac{1}{a}\int_{t_i}^{t_f}pr(t)\psi \bigg(\frac{t-b}{a}\bigg) dt,
    \label{eq:wf}
 \end{equation}
 
-\noindent where $pr(t)$ is a time-series of precipitation, either on daily or pentad scales and $W_f(a,b)$ is the matrix of the covariant transform and $t_i$ and $t_f$ are the start and end time-points. No statistical treatment, normalization or anomaly, \textit{a priori}, is calculated on the precipitation time-series $pr(t)$ so the units of $W_f$ are the same as the precipitation time-series (e.g. mm d$^{-1}$).
+\noindent where $pr(t)$ is a time series of precipitation, either on daily or pentad scales and $W_f(a,b)$ is the matrix of the covariant transform and $t_i$ and $t_f$ are the start and end time-points. No statistical treatment, normalization or anomaly, \textit{a priori}, is calculated on the precipitation time series $pr(t)$ so the units of $W_f$ are the same as the precipitation time series (e.g. mm d$^{-1}$).
 
- Monsoon timings can be observed as sharp changes to precipitation, i.e., rainfall sharply increases at onset and sharply decreases at retreat. However, measuring these changes can be difficult since precipitation time-series are typically noisy. The Haar wavelet is useful in these cases for signal detection since the WT is interpreted as  gradients across different temporal scales and can smooth out the high-frequency variability using sufficiently large dilation scales. 
-  In other words, the wavelet covariant transform ($W_f(a,b)$) filters the time-series $pr(t)$ using a temporal scaling of $a$, or measures gradients on a scale $a$ for each time-step ($b$).
+ Monsoon timings can be observed as sharp changes to precipitation, i.e., rainfall sharply increases at onset and sharply decreases at retreat. However, measuring these changes can be difficult since precipitation time series are typically noisy. The Haar wavelet is useful in these cases for signal detection since the WT is interpreted as  gradients across different temporal scales and can smooth out the high-frequency variability using sufficiently large dilation scales. 
+  In other words, the wavelet covariant transform ($W_f(a,b)$) filters the time series $pr(t)$ using a temporal scaling of $a$, or measures gradients on a scale $a$ for each time-step ($b$).
   
   \begin{figure}[t!]
 \centering
@@ -138,7 +138,7 @@ The WT coefficients ($W_f(a,b)$ in the middle panel) for a small dilation $a=4$ 
 
 \subsection{Identification of Monsoon Onset and Retreat}
 
-Local maxima in the WT highlight positive steps in the precipitation time-series with a coherent scale of $a$ pentad steps. This interpretation is then extended to diagnose monsoon onset. 
+Local maxima in the WT highlight positive steps in the precipitation time series with a coherent scale of $a$ pentad steps. This interpretation is then extended to diagnose monsoon onset. 
  The pentad ($b^*$) corresponding to the maximum of the sum of the transform over a set of scales is defined as monsoon onset (MO), i.e: 
 \begin{equation}
 MO=b^* \Leftrightarrow \sum_{a_0}^{a_f} W_f(a,b^*)=max\bigg(\sum_{a_0}^{a_f} W_f(a,b)\bigg).
@@ -170,7 +170,7 @@ The set of dilation coefficients $\vec{a} = (28,30,\cdots, 54)$ was found to be 
 
  Monsoon onset is defined as the maximum sum of wavelet coefficients, capturing positive gradients within the scales of 14 to 27 pentads (half of the elements of vector $a$ defined above). Monsoon Retreat has a similar definition, capturing the greatest negative gradient of precipitation over the same pentad scales.
 
-For example, Figure \ref{fig:wvt_3} illustrates the method in the North American Monsoon in the TRMM dataset for 2009. Figure \ref{fig:wvt_3}a shows the WT coefficient matrix, showing the changes in precipitation for dilations ranging from 10 to 50. A clear signal of positive coefficients is observed between pentads 28 to 34  and a similar negative signal observed in pentads 56 to 60. Figure \ref{fig:wvt_3}b shows the time-series of the observed precipitation, which suggests that monsoon onset occurs sometime between pentads 28 and 34. Observed rainfall rapidly decreases after pentad 59 suggesting that monsoon retreat can be diagnosed around this pentad.
+For example, Figure \ref{fig:wvt_3} illustrates the method in the North American Monsoon in the TRMM dataset for 2009. Figure \ref{fig:wvt_3}a shows the WT coefficient matrix, showing the changes in precipitation for dilations ranging from 10 to 50. A clear signal of positive coefficients is observed between pentads 28 to 34  and a similar negative signal observed in pentads 56 to 60. Figure \ref{fig:wvt_3}b shows the time series of the observed precipitation, which suggests that monsoon onset occurs sometime between pentads 28 and 34. Observed rainfall rapidly decreases after pentad 59 suggesting that monsoon retreat can be diagnosed around this pentad.
 
 \begin{figure}[t!]
  \includegraphics[width=\linewidth]{figures/nam_n216.pdf}
@@ -188,7 +188,7 @@ For example, Figure \ref{fig:wvt_3} illustrates the method in the North American
 
 
 
-The wavelet method can be extended to characterise the shorter scale variations of precipitation of the MSD in Central America and the Caribbean. First, the monsoon onset and retreat dates are determined in the time-series from the area-averaged precipitation in the MSD region via the approach described in the previous section. 
+The wavelet method can be extended to characterise the shorter scale variations of precipitation of the MSD in Central America and the Caribbean. First, the monsoon onset and retreat dates are determined in the time series from the area-averaged precipitation in the MSD region via the approach described in the previous section. 
 Once the onset and retreat dates are established, an additional wavelet analysis determines the dates in which the MSD starts and ends.
 The onset and end of the drier period of the MSD can be found by computing the wavelet transform again but using smaller dilations and over a limited temporal range. In particular, the WT is only calculated in the 20 pentads before and after the dates defining monsoon retreat and onset, respectively. The MSD Onset (MSDO) and MSD End (MSDE) are defined as the minimum and maximum, respectively, of the sum of the wavelet transforms (equations \ref{eq:mo} and \ref{eq:mr}) using dilation coefficients $\vec{a^*} = (10,12,\cdots, 24)$.
 The diagnosis of the onset and end of the MSD is algo robust to using other dilation coefficients of similar magnitude.
@@ -233,7 +233,7 @@ To compute the HOWI index, first, the vertically integrated moisture transport (
  HOWI = 2 \bigg(\frac{\chi - min(\bar{\chi})}{max(\bar{\chi})-min(\bar{\chi})} \bigg)
  \end{equation}
 
- \noindent where $\chi$ is the unnormalized time-series, $\bar{\chi}$ is the mean seasonal cycle of the unnormalized index and HOWI is the normalized index. The onset date is defined as the first day of each year where the HOWI index is greater than zero and the retreat date is the first day after the onset date that the HOWI index is negative \citep{fasullo2003,Sahana_2015}.
+ \noindent where $\chi$ is the unnormalized time series, $\bar{\chi}$ is the mean seasonal cycle of the unnormalized index and HOWI is the normalized index. The onset date is defined as the first day of each year where the HOWI index is greater than zero and the retreat date is the first day after the onset date that the HOWI index is negative \citep{fasullo2003,Sahana_2015}.
  The necessary daily data of moisture and wind speed on sufficient vertical levels to compute the HOWI index in the MOHC submissions to CMIP6 was not available, so the HOWI index can only be computed using ERA5 and will be compared to the WT method used on the observational gridded datasets.
 
 \section{Results}
@@ -263,7 +263,7 @@ UKESM-hist & \bf{34.3} [$\pm$2.2] & 54.3 [$\pm$2.2]& 34.4 [$\pm$3.2] & 55.6 [$\p
 \end{table}
 
 
-The monsoon onset and retreat dates were determined for each year in each observational and model dataset for the Indian, North American and MSD regions using the methods described in the previous section. The calculations were performed for area-averaged precipitation time-series representative of the core regions defining these monsoons. Calculations were also made at grid-box scales to illustrate the spatial distribution of the onset and retreat dates. 
+The monsoon onset and retreat dates were determined for each year in each observational and model dataset for the Indian, North American and MSD regions using the methods described in the previous section. The calculations were performed for area-averaged precipitation time series representative of the core regions defining these monsoons. Calculations were also made at grid-box scales to illustrate the spatial distribution of the onset and retreat dates. 
 
 
 \subsection{The North American Monsoon}
@@ -273,7 +273,7 @@ The monsoon onset and retreat dates were determined for each year in each observ
 
 
 
-Table \ref{tab:3} shows the mean onset and retreat dates estimated using the \citetalias{geil2013}, \citetalias{arias2012} and WT methods for precipitation time-series averaged over the North American monsoon.
+Table \ref{tab:3} shows the mean onset and retreat dates estimated using the \citetalias{geil2013}, \citetalias{arias2012} and WT methods for precipitation time series averaged over the North American monsoon.
 The table reports the results for three observational datasets, ERA-5 reanalysis and five climate model experiments.
 The observations  agree that the onset date is found at pentad 33 (around June 15), according to the WT and the method by \citetalias{geil2013}.
 However, the method of \citetalias{geil2013} reports a mean retreat date that is one pentad later than the WT method, i.e., around October 7th for G13 method and October 2nd for the WT.
@@ -319,7 +319,7 @@ The pattern in the medium-resolution simulation GC3 N216 piControl is consistent
 \subsection{The Indian Monsoon}
 \begin{table}[b!]
 % table caption is above the table
-\caption{Mean (standard deviation) pentads of monsoon onset (MO) and retreat (MR) in the Indian Monsoon using the WT method on observed, reanalysed and modelled time-series as well as for the HOWI index. The region over which precipitation was area-averaged for the WT method was [75$^\circ$-83$^\circ$E, 18$^\circ$-24$^\circ$N]. The mean onset and retreat dates that are significantly different to the 99\% confidence level to the CMAP dataset are shown in bold.  }
+\caption{Mean (standard deviation) pentads of monsoon onset (MO) and retreat (MR) in the Indian Monsoon using the WT method on observed, reanalysed and modelled time series as well as for the HOWI index. The region over which precipitation was area-averaged for the WT method was [75$^\circ$-83$^\circ$E, 18$^\circ$-24$^\circ$N]. The mean onset and retreat dates that are significantly different to the 99\% confidence level to the CMAP dataset are shown in bold.  }
 \label{tab:3a}       % Give a unique label
 % For LaTeX tables use
 \begin{tabular}{p{4cm}p{3.5cm}p{3.5cm}}
@@ -435,31 +435,31 @@ Figure \ref{fig:wav_fig11} shows the rainfall anomalies associated with the diff
 
 Overall, using the dates for MSDO and MSDE from the climatological dates results in weaker anomalies than compositing via the specific dates for each year obtained with the WT method.  Even though the area-averaged signal used to diagnose the different MSD stages focuses on a small region of southern Mexico and northern Central America, the anomalies associated with the onset and end of the MSD (Figures \ref{fig:wav_fig11}f, h) extend across the East Pacific warm pool, most of the western coast of Mexico and into to the Caribbean Sea and Cuba. This result suggests that the MSD is part of a regional-scale process on the result of local-scale processes. 
 
-The analysis of individual years of observed precipitation in the selected area-averaged time-series showed that not all years showed a bimodal signal in the area-averaged precipitation (Fig. \ref{fig:S2}). In fact, a given year could be classified as having (1) a canonical two-peak structure separated by an MSD, (2) only having a first peak and an MSD but no second peak, (3) only having a second peak but no clear MSD or (4) a plateau-like monsoon season with no MSD-type variations (see Fig. \ref{fig:S2}). 
+The analysis of individual years of observed precipitation in the selected area-averaged time series showed that not all years showed a bimodal signal in the area-averaged precipitation (Fig. \ref{fig:S2}). In fact, a given year could be classified as having (1) a canonical two-peak structure separated by an MSD, (2) only having a first peak and an MSD but no second peak, (3) only having a second peak but no clear MSD or (4) a plateau-like monsoon season with no MSD-type variations (see Fig. \ref{fig:S2}). 
 
 
 Due to this year-to-year variability in the characteristics of the seasonal cycle, an objective measure was defined to determine whether a signal presented a robust MSD-bimodal seasonal cycle.  
-For this purpose, the WT algorithm was applied to randomly generated precipitation time-series.
- The random time-series are constructed by randomly sampling observations in the wet and dry seasons. 
+For this purpose, the WT algorithm was applied to randomly generated precipitation time series.
+ The random time series are constructed by randomly sampling observations in the wet and dry seasons. 
  The pentad-mean onset and retreat dates from Table \ref{tab:4} were used to composite the observations into dry and wet distributions. 
  
  
- For a random time-series that aims to mimic one year of precipitation, the rainfall values for each pentad in the year are randomly selected from the dry or wet distributions, depending on the pentad. In this way, the value of a given pentad of the random time-series may have been observed at a different pentad; the only constraint is that the random values come from pentads that were observed in the same season: dry or wet. The logic behind this approach is that in most monsoon regions, the peak monsoon rainfall should follow a plateau, see for example the North and South American monsoons in Figure \ref{fig:8} in the previous chapter. However, a bimodal regime would show a notable decrease in precipitation in the middle of the rainy season, such that it cannot be explained by the inherent short-scale variability of rainfall. 
+ For a random time series that aims to mimic one year of precipitation, the rainfall values for each pentad in the year are randomly selected from the dry or wet distributions, depending on the pentad. In this way, the value of a given pentad of the random time series may have been observed at a different pentad; the only constraint is that the random values come from pentads that were observed in the same season: dry or wet. The logic behind this approach is that in most monsoon regions, the peak monsoon rainfall should follow a plateau, see for example the North and South American monsoons in Figure \ref{fig:8} in the previous chapter. However, a bimodal regime would show a notable decrease in precipitation in the middle of the rainy season, such that it cannot be explained by the inherent short-scale variability of rainfall. 
  
 \begin{figure}[t!]
 \centering
 \includegraphics[width=\linewidth]{figures/wav_S1.pdf}
-\caption[Determination of MSD timings and coefficients]{(a) Pentad-mean precipitation in two years of TRMM data: 1999 and 2006 and two randomly generated precipitation time-series (see text). (b) Sum of the wavelet transforms of the time series in (a). The shaded region in gray in (b) corresponds to the interval between the first quantile of $coef1$ and the third quantile of $coef2$ of 10,000 random timeseries constructed with TRMM data. The onset (MSDO) and end (MSDE) of the relatively drier period, as well as the location and values of $coef1$ and $coef2$ for 1999 are labelled in (b). }
+\caption[Determination of MSD timings and coefficients]{(a) Pentad-mean precipitation in two years of TRMM data: 1999 and 2006 and two randomly generated precipitation time series (see text). (b) Sum of the wavelet transforms of the time series in (a). The shaded region in gray in (b) corresponds to the interval between the first quantile of $coef1$ and the third quantile of $coef2$ of 10,000 random timeseries constructed with TRMM data. The onset (MSDO) and end (MSDE) of the relatively drier period, as well as the location and values of $coef1$ and $coef2$ for 1999 are labelled in (b). }
 \label{fig:S1}
 \end{figure}
  
  
- This approach has two advantages. First, that the random time-series impose a monsoon-like feature with a sharp wet-dry season contrast but secondly, the random selection in the wet season removes the possible signal of the MSD in the climatological rainfall.
+ This approach has two advantages. First, that the random time series impose a monsoon-like feature with a sharp wet-dry season contrast but secondly, the random selection in the wet season removes the possible signal of the MSD in the climatological rainfall.
  The random time series are then constructed by randomly drawing values at each pentad  from the wet or dry season distributions of each dataset.
  Then, the WT method was used on 10,000 of these random-time series. This approach rendered a distribution of coefficients ($coef1$ and $coef2$) essentially representing the variability of the WT method applied to noise.
  
-  Figure \ref{fig:S1} shows the pentad-mean time-series from two years in the TRMM dataset, and two randomly generated time-series.
-The coefficients $coef1$ and $coef2$, illustrated in Figure \ref{fig:S1}b, measure the difference in precipitation between the first peak and the MSD period and the MSD and the second peak, respectively. The first quantile of $coef1$ and the third quantile of $coef2$ provide a measure of robustness for the observed $coef1$ and $coef2$. In other words, for a year to be classified as having a robust MSD signal, the resulting $coef1$ and $coef2$ of the WT procedure must be lower and higher, respectively, than those obtained for a random time-series.
+  Figure \ref{fig:S1} shows the pentad-mean time series from two years in the TRMM dataset, and two randomly generated time series.
+The coefficients $coef1$ and $coef2$, illustrated in Figure \ref{fig:S1}b, measure the difference in precipitation between the first peak and the MSD period and the MSD and the second peak, respectively. The first quantile of $coef1$ and the third quantile of $coef2$ provide a measure of robustness for the observed $coef1$ and $coef2$. In other words, for a year to be classified as having a robust MSD signal, the resulting $coef1$ and $coef2$ of the WT procedure must be lower and higher, respectively, than those obtained for a random time series.
 The analysis of $coef1$ then determines the existence of a first-peak MSD type variability and $coef2$ determines the robustness of a possible second-peak for that year.
 By this procedure, a given year could fit into four categories:
 
@@ -467,7 +467,7 @@ By this procedure, a given year could fit into four categories:
 \item Canonical MSD: $coef1$ lower than the first quartile (25\%) of random $coef1$ and $coef2$ higher than the third quantile (75\%) of random $coef2$.
 \item 1st peak+MSD: $coef1$ lower than the first quartile of random $coef1$ but $coef2$ lower than the third quartile of random $coef2$. In other words, the second peak is not distinguishable from noise.
 \item 2nd peak only: $coef1$ higher than the first quartile of random $coef1$ but $coef2$ higher than the third quartile of random $coef2$. In other words, the second peak is distinguishable from noise, but there is no first-peak + MSD structure.
-\item No MSD: $coef1$ higher than the first quartile of random $coef1$ and $coef2$ lower than the third quartile of random $coef2$. In other words, the precipitation time-series shows no robust signal of an MSD regime, with a first or second peak.
+\item No MSD: $coef1$ higher than the first quartile of random $coef1$ and $coef2$ lower than the third quartile of random $coef2$. In other words, the precipitation time series shows no robust signal of an MSD regime, with a first or second peak.
 \end{itemize}
  
 \begin{figure}[t!]
@@ -480,7 +480,7 @@ By this procedure, a given year could fit into four categories:
  Figure \ref{fig:S2} shows how separating years into these categories affects the pentad-mean seasonal cycle of precipitation in southern Mexico and Central America in four observational datasets. This figure also validates the above procedure as the WT method is able to robustly separate years into the different categories. 
 
 
-For each dataset we determine those grid-points showing a robust MSD. We use the method outlined above to construct the random time-series for each grid-point and estimate the random values of $coef1$ and $coef2$, repeating the procedure 10,000 times. A given grid-point is diagnosed to have a robust MSD when the value of $coef2-coef1$ is higher than the third quartile of the PDF of the random time series. The value of $coef2-coef1$ is a measure of the magnitude of the MSD since $coef2$ measures the relative strength of the second-peak compared to the MSD and therefore positive in an MSD grid-point and $coef1$ compares how dry the MSD is relative to the first-peak and thus negative if an MSD regime is observed at that grid point. 
+For each dataset we determine those grid-points showing a robust MSD. We use the method outlined above to construct the random time series for each grid-point and estimate the random values of $coef1$ and $coef2$, repeating the procedure 10,000 times. A given grid-point is diagnosed to have a robust MSD when the value of $coef2-coef1$ is higher than the third quartile of the PDF of the random time series. The value of $coef2-coef1$ is a measure of the magnitude of the MSD since $coef2$ measures the relative strength of the second-peak compared to the MSD and therefore positive in an MSD grid-point and $coef1$ compares how dry the MSD is relative to the first-peak and thus negative if an MSD regime is observed at that grid point. 
 
 \begin{figure}[t!]
 \centering
@@ -491,7 +491,7 @@ For each dataset we determine those grid-points showing a robust MSD. We use the
 \end{figure}
 
 
-Figure \ref{fig:wavfinalmap} shows the regions where the climatological rainfall shows a MSD signal that is distinguishable from noise, i.e., regions where the values of $coef2-coef1$ exceed the third quartile of the distribution composited with random time-series, as well as the magnitude of the MSD for the TRMM, ERA5, CHIRPS and the GC3 N216 piControl simulation. Cuba, western Central America and most of southern and central-eastern Mexico exhibit a robust MSD signal. 
+Figure \ref{fig:wavfinalmap} shows the regions where the climatological rainfall shows a MSD signal that is distinguishable from noise, i.e., regions where the values of $coef2-coef1$ exceed the third quartile of the distribution composited with random time series, as well as the magnitude of the MSD for the TRMM, ERA5, CHIRPS and the GC3 N216 piControl simulation. Cuba, western Central America and most of southern and central-eastern Mexico exhibit a robust MSD signal. 
 This map also shows that the strongest MSD signal is found on the western coast of northern Central America and northeastern Mexico. 
 The high correspondence between the three observational datasets shows that the method is robust across datasets. These results agree well with previous studies on the spatial distribution of the MSD \citep{magana1999,perdigon2018,anderson2019multiscale,zhao2021}. In particular, the method is able to replicate the previously reported MSD signal in the Pacific Mexican coast and the stronger MSD signal in northeastern Mexico.  
 
@@ -505,25 +505,25 @@ The MSD coherently starts over the western coast of Guatemala and Chiapas around
 \section{Summary and discussion}
 
 The assessment of the AMS in the MOHC submissions to CMIP6 in Chapter \ref{ch:4-ams} lacked a robust analysis of the representation of the timings of the monsoon. 
-The principal reason for this shortcoming was the lack of a robust, wide-spread method to diagnose onset and retreat dates in the various regions of the AMS with the various datasets available. This chapter aimed to address this issue by developing a new method to compute onset and retreat dates for the purpose of intercomparison between multiple observational and model data.
+The principal reason for this shortcoming was the lack of a robust, widespread method to diagnose onset and retreat dates in the various regions of the AMS with the various datasets available. This chapter aimed to address this issue by developing a new method to compute onset and retreat dates for the purpose of intercomparison between multiple observational and model data.
 
-The novel method described in this chapter uses pentad-mean precipitation data to compute a wavelet transform over multiple temporal scales from which a set of coefficient and diagnostics are used to determine onset and retreat dates. The wavelet function used is the Haar wavelet, a wavelet typically used to find abrupt changes in signals.
-Onset is defined as the maximum of the sum of the coefficients of the wavelet transform computed over a range of temporal scales or dilations. These dilations were found to provide the best results in a range from 28 to 54 pentads. Monsoon retreat is similarly defined but using the minimum of this sum of wavelet transform coefficients. The use of this method is illustrated using multiple observational datasets and climate model output. The method is compared to existing methods to find onset and retreat dates in three monsoon regions.
+The novel method described in this chapter uses pentad-mean precipitation data to compute a wavelet transform over multiple temporal scales from which a set of coefficients and diagnostics are used to determine onset and retreat dates. The wavelet function used is the Haar wavelet, a wavelet typically used to find abrupt changes in signals.
+Onset is defined as the maximum of the sum of the coefficients of the wavelet transform computed over a range of temporal scales or dilations. These dilations were found to provide the best results in a range from 28 to 54 pentads. Monsoon retreat is similarly defined but uses the minimum of this sum of wavelet transform coefficients. The use of this method is illustrated using multiple observational datasets and climate model output. The method is compared to existing methods to find onset and retreat dates in three monsoon regions.
 
 The method performs favourably to existing methods that use precipitation thresholds in the North American Monsoon, as shown by the anomalies of precipitation, wind and geopotential around the onset and retreat dates. 
-The spatial distribution of monsoon onset and retreat in this region was found to be sensibly captured by the wavelet algorithm, illustrating the earlier onset in central western Mexico and the later onset in northwestern Mexico, Arizona and New Mexico. 
-The spatial distribution of onset and retreat dates was diagnosed to be very similar between the TRMM, CHIRPS and ERA5 datasets, which suggests that the method produces similar results in datasets with different resolutions and climatologies. This result also suggests that the method is robust to be used at the grid-box scale, and not just for region-averaged time-series.
+The spatial distribution of monsoon onset and retreat in this region was found to be sensibly captured by the wavelet algorithm, illustrating the earlier onset in central-western Mexico and the later onset in northwestern Mexico, Arizona and New Mexico. 
+The spatial distribution of onset and retreat dates was diagnosed to be very similar between the TRMM, CHIRPS and ERA5 datasets, which suggests that the method produces similar results in datasets with different resolutions and climatologies. This result also suggests that the method is robust to be used at the grid-box scale, and not just for region-averaged time series.
  
 The WT method also compares well to a hydrologically defined index (HOWI) in the Indian Monsoon, although the WT better captures the precipitation variations whilst HOWI betters captures changes to the moisture transport. However, the WT method is also able to capture strong differences in moisture transport around the onset and retreat dates, in both models and observations. The WT method obtains a later onset and retreat as compared to the HOWI index, which is possibly associated with a lag between the moisture transport about the Arabian Sea (as diagnosed by HOWI) and the precipitation over mainland India (as measured by the WT method). The spatial distribution of onset and retreat dates in the Indian Monsoon region, diagnosed using the WT method seems to be relatively consistent and coherent amongst the observational datasets, as the mean onset date in mainland India was found at pentad 32.
 Onset is earliest on the western coast of India and the onset date appears to be very homogeneous in central India.
 
-The WT method was extended to characterise the timings and strength of the Midsummer Drought (MSD), using the same principle as for determining onset in the Indian monsoon, but computing the WT over smaller dilations around the onset and retreat dates.  By using randomly-generated time-series, the spatial distribution of grid-points displaying a robust MSD signal was found in Cuba, the northwestern coast of Central America and several regions of south and north-eastern Mexico.  The MSD in southern Mexico and northern Central America is found to start around pentads 35 and 36 (last week of June) and end around pentad 48 (mid-August) in most observational datasets and the ERA5 reanalysis. To our knowledge, this extension of the WT method provides one of the very few methods for characterising the MSD on sub-monthly scales.
+The WT method was extended to characterise the timings and strength of the Midsummer Drought (MSD), using the same principle as for determining onset in the Indian monsoon, but computing the WT over smaller dilations around the onset and retreat dates.  By using randomly-generated time series, the spatial distribution of grid-points displaying a robust MSD signal was found in Cuba, the northwestern coast of Central America and several regions of south and north-eastern Mexico.  The MSD in southern Mexico and northern Central America is found to start around pentads 35 and 36 (last week of June) and end around pentad 48 (mid-August) in most observational datasets and the ERA5 reanalysis. To our knowledge, this extension of the WT method provides one of the very few methods for characterising the MSD on sub-monthly scales.
 %This method may be potentially useful when diagnosing changes to the characteristics of the MSD in models or observations, as will be shown in the following chapter. 
 
 
 %discussion on problems with thresholds, 
 %area-mean average 
-%Current methods that diagnose monsoon onset and retreat using pentad or daily-mean precipitation time-series are typically rigid threshold methods. These threshold methods depend on a number of parameters that need to be tuned for a specific monsoon region and for a specific dataset. 
+%Current methods that diagnose monsoon onset and retreat using pentad or daily-mean precipitation time series are typically rigid threshold methods. These threshold methods depend on a number of parameters that need to be tuned for a specific monsoon region and for a specific dataset. 
 %For instance, the method by \citetalias{geil2013} used a threshold value specific for the North American Monsoon and specific for the TRMM dataset but also to the limits of the area used for area-averaging the precipitation. In other words, the persistence and threshold values of most of the threshold methods require normalization, statistical treatment or additional tuning to the parameters to account for climatological differences in the datasets which introduces uncertainty. The method by \citetalias{arias2012} then uses a climatological mean value as the threshold, but in a climate model with a significantly positive bias in the dry winter season of a monsoon this method would be prone to error as the biased seasonal cycle may impose a biased calculation of monsoon onset and retreat. 
 
 % different dataset climatology, characteristicis
@@ -531,12 +531,12 @@ The WT method was extended to characterise the timings and strength of the Midsu
 % window and persistence parameters vary monsoon region to another.
 
 
-The WT method is in many ways similar to the agronomical and threshold methods \citep[e.g.][]{liebmann2001interannual,moron2014interannual}, as the implementation of the method uses a subjective determination of the dilation scales; these scales are comparable to the persistence and window parameters of the threshold methods. However, the WT method presented has three main advantages over most threshold methods. First, the method produces robust results for the Indian and North American monsoon of onset and retreat, and spatial distributions comparable to previous methods \citep{moron2014interannual} while not being subject to 'false-hits' nor years without an identification of the onset and retreat dates. In other words, the method provides robust results without requiring further treatment of years with false-hits or undetermined years. 
+The WT method is in many ways similar to the agronomical and threshold methods \citep[e.g.][]{liebmann2001interannual,moron2014interannual}, as the implementation of the method uses a subjective determination of the dilation scales; these scales are comparable to the persistence and window parameters of the threshold methods. However, the WT method presented has three main advantages over most threshold methods. First, the method produces robust results for the Indian and North American monsoon of onset and retreat, and spatial distributions comparable to previous methods \citep{moron2014interannual} while not being subject to 'false hits' nor years without an identification of the onset and retreat dates. In other words, the method provides robust results without requiring further treatment of years with false hits or undetermined years. 
 
-The second advantage of the method is portability, or utility, as the method shows robust and consistent results for three observational datasets, a reanalysis and climate model experiments with varying climate forcing but without any constraint or treatment of the data beforehand and in three different regions with different seasonal cycles. In other words, this method is robust across datasets and regions. In contrast to rigid threshold techniques \citep[e.g.][]{liebmann2001interannual}, the identification of onset and retreat for each time-series, e.g. at each grid-point, is based upon coherent temporal changes within each precipitation time-series while not using parameters determined 'a priori' specifically for a region. The WT method then, can be used in any time-series, regardless of the origin of the time-series, without any further change or consideration than those established by the dilations scales determined in section 2.2.1. 
-The portability of the method also means that the method can be implemented as a 'local-scale' method applied at the grid-box scale for high-resolution datasets such as CHIRPS as well as for regional scales using area-averaged time-series.
+The second advantage of the method is portability, or utility, as the method shows robust and consistent results for three observational datasets, a reanalysis and climate model experiments with varying climate forcing but without any constraint or treatment of the data beforehand and in three different regions with different seasonal cycles. In other words, this method is robust across datasets and regions. In contrast to rigid threshold techniques \citep[e.g.][]{liebmann2001interannual}, the identification of onset and retreat for each time series, e.g. at each grid-point, is based upon coherent temporal changes within each precipitation time series while not using parameters determined \textit{a priori} specifically for a region. The WT method can then be used in any time series, regardless of the origin of the time series, without any further change or consideration than those established by the dilations scales determined in section 2.2.1. 
+The portability of the method also means that the method can be implemented as a \textit{local-scale} method applied at the grid-box scale for high-resolution datasets such as CHIRPS as well as for regional scales using area-averaged time series.
 
-Third, and in contrast to typical threshold methods, the wavelet method can be applied to climate model output straightforward using the same configuration of dilation scales, a feature of the method that is illustrated by our analysis of several experiments using the Hadley Centre models. The treatment of the data does not require  any normalisation or statistical treatment even when used for grid-point time-series for different regions or experiments with varying forcing where the seasonal cycle or total annual rainfall may change notably within the model time-series.
+Third, and in contrast to typical threshold methods, the wavelet method can be applied to climate model output straightforward using the same configuration of dilation scales, a feature of the method that is illustrated by our analysis of several experiments using the Hadley Centre models. The treatment of the data does not require  any normalisation or statistical treatment even when used for grid-point time series for different regions or experiments with varying forcing where the seasonal cycle or total annual rainfall may change notably within the model time series.
 
 
 This chapter follows up on some missing details of the previous chapter by analysing the timings  of the North American monsoon and the Central American MSD in the MOHC models by objectively computing the onset and retreat dates with the WT method. The results confirm that the CMIP6 MOHC models reasonably simulate the seasonal cycle of rainfall in North American monsoon and the MSD regions.
