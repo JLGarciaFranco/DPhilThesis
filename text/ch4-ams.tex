@@ -1,8 +1,8 @@
 \chapter{\label{ch:4-ams}The American monsoon system in UKESM1 and HadGEM3}
 
 
-This chapter evaluates the representation of the AMS in the CMIP6 models: UKESM1 and HadGEM3. The pre-industrial control, historical and AMIP experiments are evaluated highlighting the role of large and regional-scale biases for the representation of the monsoon dynamics, as well as the representation of ENSO teleconnections.
-The impacts of increased horizontal resolution and representing Earth System processes for the representation of the monsoon are described and discussed. 
+This chapter evaluates the representation of the AMS in the CMIP6 models: UKESM1 and HadGEM3. The pre-industrial control, historical and AMIP experiments are evaluated highlighting the role of large and regional-scale biases, horizontal resolution and Earth System processes for the representation of the monsoon dynamics and teleconnections.
+This chapter is based on the publication: \cite{garciafranco2020} in which all the analysis was performed by the lead author. % except for the interpretation and 
 
 
 
@@ -13,17 +13,16 @@ The impacts of increased horizontal resolution and representing Earth System pro
 The response of regional monsoons to greenhouse forcing remains an open question \citep{zhou2016,pascale2019} because the observational record is too short to exhibit significant trends but also because biases in GCMs increase uncertainty in future model projections.
 Although the thermodynamical response to greenhouse forcing in the tropics seems to be relatively well constrained, the dynamical response is less clear \citep{shepherd2014}. The American Monsoon System (AMS) dynamics are shaped by regional features which means that in order to understand the  precipitation response to greenhouse forcing in a monsoon region, we need to better understand regional model biases and dynamical responses to a forcing. % for monsoons. 
 
-Despite current recognition as a monsoon, the AMS has received less attention from the modelling community compared to the Asian or African monsoons. 
-The assessment of climate models in monsoon regions is key to understanding current and future changes to the water cycle in the tropics. However, in the AMS, model assessments are usually only done in a handful of studies per CMIP phase.  These studies only provide a wide view of the biases of each generation of models while usually highlighting which biases have improved and which biases remain from previous model generations \citep[see e.g.][]{geil2013,ryu2014}. However, a deeper evaluation of individual models can be used to provide better insight into the processes associated with climatological biases in the large-scale circulation and ultimately better understand the causes for the model biases in AMS rainfall. 
+The assessment of climate models in monsoon regions is key to understanding current and future changes to the water cycle in the tropics. However, and despite current recognition as a monsoon, model assessments of the AMS are scarcely done in each CMIP phase.  These studies only provide a general view of the biases of each generation of models \citep[see e.g.][]{geil2013,ryu2014}. However, a deeper evaluation of individual models can be used to provide better insight into the processes associated with climatological biases in the large-scale circulation and ultimately better understand the causes for the model biases in the AMS regional features. 
 
 For example, in the South American Monsoon, CMIP5 models improved from the CMIP3 phase in their simulations of the distribution of precipitation during monsoon maturity and exhibited an improved seasonal cycle \citep{jones2013,yin2013}. However, some biases such as the underestimation of rainfall in the central Amazon have persisted from the first generation of GCMs up until CMIP5 \citep{li2006,yin2013}. The geographic distribution of rainfall during  austral fall and several characteristics of the South Atlantic Convergence Zone are also poorly represented in CMIP5. However, these studies provided little evidence as to the reasons for the improvements or the remaining biases in the models. 
 A clear motivation to evaluate models in the South American Monsoon is that the accurate simulation of the geographic distribution and seasonality of rainfall in the Amazon rainforest is a relevant issue due to the impact of the rainforest on climate and society \citep[e.g.][]{li2006,Malhi20610,yin2013}.
 % and thus more research on the representation of the South American Monsoon is warranted.
 
-Climate research in recent decades has aimed to reduce uncertainty in climate projections by improving GCMs, but different approaches taken by modelling centres are seemingly disconnected \citep{jakob2014}. One approach is to reduce horizontal grid spacing down to km resolution to rely less on parametrizations and more on physical laws to represent clouds and convection \citep{palmer2019}. A second approach aims to include a new explicit representation of Earth System processes to better characterise complex land-atmosphere-ocean biogeochemical cycles that may provide a better constraint on large-scale aspects of the climate such as climate sensitivity, a parameter that depends on the carbon cycle \citep{marotzke2017,sellar2019,andrews2019}. Finally, recent modelling centres have chosen to include  stochastic  parametrisations of sub-grid processes since this approach has improved seasonal forecasts and may therefore improve climate projections \citep{palmer2019st}. 
+Climate research in recent decades has aimed to reduce uncertainty in climate projections by improving GCMs, but different approaches taken by modelling centres are seemingly disconnected \citep{jakob2014}. One approach is to reduce horizontal grid spacing down to km-scale resolution to rely less on parameterizations and more on physical laws to represent clouds and convection \citep{palmer2019}. A second approach uses new explicit representations of Earth System processes to better characterise complex land-atmosphere-ocean biogeochemical cycles that may provide a better constraint on aspects of the climate such as climate sensitivity, a parameter that depends on the carbon cycle \citep{marotzke2017,sellar2019,andrews2019}. Finally, recent modelling centres have chosen to include  stochastic  parametrisations of sub-grid processes since this approach has improved seasonal forecasts and may therefore improve climate projections \citep{palmer2019st}. 
 
-Model validation and assessment is important to analyse the effect of new parametrisations and to highlight missing processes but also evaluate which route provides the more substantial model improvement, stochastic parametrisations, increased resolution or Earth System processes.
-The focus of this chapter is then to evaluate the CMIP6 experiments from HadGEM3 GC3.1 (GC3) and UKESM1 in the AMS. In this thesis, the AMS is considered to be composed of the North and South American monsoon systems, while also including the Midsummer drought region of southern Mexico and Central America as part of the AMS \citep[as in e.g.][]{vera2006,pascale2019}.
+Model validation and assessment is important to analyse the effect of new parameterisations and to highlight missing processes but also evaluate which route provides the more substantial model improvement, stochastic parametrisations, increased resolution or Earth System processes.
+The focus of this chapter is to evaluate the CMIP6 experiments from HadGEM3 GC3.1 (GC3) and UKESM1 in the AMS. In this thesis, the AMS is considered to be composed of the North and South American monsoon systems, while also including the Midsummer drought region of southern Mexico and Central America as part of the AMS \citep[as in e.g.][]{vera2006,pascale2019}.
 
 The remainder of this chapter is organised as follows. The following section described the data and methods used in this chapter. Section  \ref{sq:clim} compares modelled and observed climatological temperature, sea-level pressure and low-level wind fields,  whereas section \ref{sq:itcz} analyses the Pacific and Atlantic ITCZs. Section \ref{sq:precip} analyses the spatial and temporal characteristics of rainfall and convection in the AMS while section \ref{sq:enso1} documents the simulated teleconnections of ENSO. A summary and discussion of the results is provided at the end of the chapter.
 
@@ -32,8 +31,8 @@ The remainder of this chapter is organised as follows. The following section des
 The model assessment of this chapter will use a range of experiments from the MOHC, described in section \ref{sq:modeldata} using the HadGEM3 and the UKESM1 models. The experiments from HadGEM3 run at N96 (labelled GC3 N96) and N216 (labelled GC3 N216) resolutions are used to evaluate the role of horizontal resolution whereas Earth System Model UKESM1, which is run at N96 resolution in all the experiments, is used to evaluate the effect of representing atmospheric chemistry and other processes for the representation of the monsoon. 
 In this chapter, the term low resolution will refer to both UKESM1 and GC3 N96 experiments whereas medium resolution refers to GC3 N216 experiments.% Note that in most figures depicting horizonal patterns only a handful of simulations is shown and in most cases this selection aims to exhibit the widest range of responses observed. 
 
-The historical experiments are used to evaluate model skill in reproducing the observed period whereas the AMIP experiment from GC3 N96 is used to highlight the role of SST biases. The historical experiment data is used only in the 1979-2014 period to directly compare with the observed period whereas the whole pre-industrial and AMIP available data is used. 
-All the observational datasets used in this chapter are thoroughly described in chapter \ref{ch:3-methods} but in summary in this chapter, the surface or near-surface air temperature data is taken from the CRU4 dataset and ERA5, whereas precipitation is used from the different datasets described in the previous chapter. The dynamical features such as wind speed and vertical velocity are taken from ERA5.
+The historical experiments are used to evaluate model skill in reproducing the observed period whereas the AMIP experiment from GC3 N96 is used to highlight the role of SST biases. The historical experiment data is used only in the 1979-2014 period to directly compare with the observed period.
+All the observational datasets used in this chapter are described in more detail in chapter \ref{ch:3-methods} but in summary, the surface or near-surface air temperature data is taken from the CRU4 dataset, precipitation from TRMM, CHIRPS and GPCC and the rest of the diagnostics are from ERA5.
 
 The climate indices of ENSO and the QBO used in this chapter were obtained by the following process. 
 For ENSO, the deseasonalized and detrended time-series of the area-averaged SSTs (EN3.4 region [190-240$^\circ$W,5$^\circ$S-5$^\circ$N]) is used as an index to composite months into positive, negative and neutral phases. 
@@ -73,7 +72,7 @@ Similarly, for the QBO, the deseasonalized and detrended time series of the equa
 
 This section evaluates how these simulations represent the near-air surface temperature and low-level wind fields in the vicinity of the AMS region (Figures \ref{fig:1} and \ref{fig:1b}). % the climatology of DJF and JJA of ERA5 is shown in Figure \ref{fig:1}a, b.
 The biases of the historical experiments, computed as the differences between the model and observed fields, are shown in Figures \ref{fig:1}c, d) for GC3 N96-hist and e, f) for UKESM1-hist.
- Only statistically significant differences are shown, according to a Welch t-test \citep{wilks2011}, which accounts for the difference in sample size and variance between model and observations/reanalysis data. The significance for simulations with multiple ensemble members is estimated first for each ensemble member and then combined into a single probability or p-value using Fisher's method \citep{fisher1992statistical}. Pattern correlations and root-mean square error (RMSE) are shown in Figures \ref{fig:1}c-f and in Table \ref{tab:s1}.
+ Only statistically significant differences are shown, according to a Welch t-test \citep{wilks2011}. The significance for simulations with multiple ensemble members is estimated first for each ensemble member and then combined into a single probability or p-value using Fisher's method \citep{fisher1992statistical}. Pattern correlations and root-mean square error (RMSE) are shown in Figures \ref{fig:1}c-f and in Table \ref{tab:s1}.
  
  \begin{figure}[t!]
 \centering
@@ -145,7 +144,8 @@ The piControl simulations (Figures \ref{fig:1b}a-d) have some similar biases to 
  
  Figures \ref{fig:1b}e, f show the difference between the historical and piControl experiment of GC3 N96, illustrating the response to historical forcing in GC3 N96.
  The temperature response in austral summer in South America is observed as 1.5 K whereas in JJA in North America temperatures were 4 K higher in the historical experiment than in the piControl.
- A very similar temperature pattern response to historical forcing was observed for UKESM1 (not shown) although of slightly different magnitude. The only significant difference in low-level winds, as a response to historical forcing, are the easterlies in the East Pacific Ocean during JJA, which are stronger in the historical simulation. %hereas the rest of the low-level wind
+ The only significant difference in low-level winds, as a response to historical forcing, are the easterlies in the East Pacific Ocean during JJA, which are stronger in the historical simulation.
+  A very similar temperature and wind flow pattern response to historical forcing was observed for UKESM1 (not shown) although of slightly different magnitude. %hereas the rest of the low-level wind
 
 %The SLP and wind biases show that during boreal winter, a lower-than-observed SLP in southern South America of -2 hPa, is associated with a northwesterly wind anomaly into southeastern Brazil. This anomalous circulation is weaker in GC3.1 n216 than in the other two simulations.
 
@@ -159,7 +159,7 @@ The piControl simulations (Figures \ref{fig:1b}a-d) have some similar biases to 
 
 The seasonal cycle of temperature in key regions (depicted in Figure \ref{fig:1}a) of the AMS is shown in Figure \ref{fig:2}, comparing the simulations to ERA5 and the CRU4 dataset.
 The temperature in the North American Monsoon region ranges from the boreal winter mean temperature of 12$^\circ$C to a maximum in June close to 27$^\circ$C.
-Although the piControl simulated temperatures are colder than observed throughout the year, the models reasonably reproduce the seasonal cycle, which may be relevant for the simulated monsoon onset timing and strength \citep{turrent2009}. The historical experiments notably show a colder than observed winter and a warmer than observed summer.
+Although the piControl simulated temperatures are colder than observed throughout the year, the models reasonably reproduce the seasonal cycle, which may be relevant for the simulated monsoon onset timing and strength \citep{turrent2009}. The historical experiments notably show a colder than observed winter and a warmer than observed summer compared to piControl experiments.
 
 The piControl simulations show a colder-than-observed winter in southern Mexico and northern Central America. The historical experiments show a warming signal, when compared to the piControl simulations, of about 1.5 K in winter and 2 K in the summer in this region. Despite these biases, all the experiments follow closely the seasonal cycle in North and Central America.
 
@@ -169,19 +169,16 @@ In southeastern Brazil, the seasonal cycle is reasonably well reproduced but wit
 In all panels of Figure \ref{fig:2}, the historical experiments show a significant warming signal as a response to historical forcing, which is generally stronger in UKESM1 than in GC3 N96. 
 
 
-The near-surface air temperature and the low-level wind structure during monsoon season are intertwined with the processes that lead to monsoon rainfall which means that the biases presented in this section will likely be related to biases in precipitation, e.g., through cloud feedbacks. For example, a biased wind structure in eastern Brazil as well as the positive warm bias in the central Amazon during DJF may indicate biases in the moisture transport and cloud cover that lead to the dry Amazon bias \citep{jones2013}. The next section provides an assessment of a large-scale feature that is intimately related with monsoon rainfall:  the Intertropical Convergence Zones.
+The near-surface air temperature and the low-level wind structure during monsoon season are intertwined with the processes that lead to monsoon rainfall which means that the biases presented in this section will likely be related to biases in precipitation, e.g., through cloud feedbacks. For example, a biased wind structure in eastern Brazil as well as the positive warm bias in the central Amazon during DJF may indicate biases in the moisture transport and cloud cover that lead to the dry Amazon bias \citep{jones2013}. %The next section provides an assessment of a large-scale feature that is intimately related with monsoon rainfall:  the Intertropical Convergence Zones.
 
 \section{The Atlantic and Pacific ITCZs and the SACZ}\label{sq:itcz}
 
 
 
-The AMS is intertwined with the seasonal migration of the East Pacific and Atlantic ITCZ as the ITCZ largely determines regions of ascending and descending motions, moisture transport and the hemispheric energy balance \citep{oueslati2013,li2014,zhou2016,cai2019pantropical}. In particular, the North American monsoon and MSD are mostly influenced by the East Pacific ITCZ whereas the South American monsoon is affected by the strength and position of the Atlantic ITCZ \citep{yoon2010atlantic,marengo2012}. 
-%This section validates the modelled ITCZs and Walker circulation.
-%The ITCZ position is largely a result of atmospheric and oceanic energy transport \citep{schneider2014}, which are difficult to represent in GCMs and led to the double ITCZ problem \citep{li2014}.
-
-
-Figure \ref{fig:3} shows the observed and modelled climatological rainfall and the ITCZ climatological positions. Three simulations are shown; two low-resolution (N96) runs, the ensemble-mean UKESM1-historical, the ensemble mean GC3 AMIP and a medium resolution run, GC3 N216-pi.
+The AMS is intertwined with the seasonal migration of the East Pacific and Atlantic ITCZ as the ITCZ largely determines regions of ascending and descending motions, moisture transport and is modulated by the hemispheric energy balance \citep{oueslati2013,li2014,zhou2016,cai2019pantropical}.The North American monsoon and MSD regions are influenced by the East Pacific ITCZ whereas the South American monsoon is affected by the Atlantic ITCZ \citep{yoon2010atlantic,marengo2012}. 
+Three simulations are evaluated in this section: two low-resolution (N96) runs, the ensemble-mean UKESM1-historical, the ensemble mean GC3 AMIP and a medium-resolution run, GC3 N216-pi.
 Other simulations are not shown as all the coupled low resolution (N96) simulations from UKESM1 and GC3 N96 showed very similar precipitation and ITCZ characteristics whereas the AMIP and medium-resolution experiments showed notable differences to the rest. 
+
 
 \begin{figure}[t!]
 \centering
@@ -194,7 +191,7 @@ Other simulations are not shown as all the coupled low resolution (N96) simulati
 The climatological ITCZ in TRMM (Figure \ref{fig:3}a) is found, on average, at 8$^\circ$N in the East Pacific and at 6$^\circ$N in the Atlantic.
 All the simulations reasonably represent the climatological position of the East Pacific (EP) ITCZ; however, the modelled Atlantic ITCZ near the coast of Brazil is found south of the equator at 3$^\circ$S in the coupled model simulations.
 The location of the ITCZ in GC3 N216-pi and the spatial distribution of rainfall is more consistent with TRMM dataset than the rest of experiments.
-Rainfall near the Amazon river mouth is significantly larger in the low resolution simulations than in the TRMM dataset. 
+Rainfall near the Amazon river mouth is significantly larger in the low-resolution simulations than in the TRMM dataset. 
  However, the GC3 AMIP shows the best agreement with TRMM in ITCZ position and rainfall distribution. 
 
 \begin{figure}[t!]
@@ -210,33 +207,31 @@ The seasonal cycle of the ITCZ location, precipitation rates and low-level winds
 The EP ITCZ in observations (Fig. \ref{fig:4}a) migrates southwards during the first days of the year and is weakest and at its southernmost position at 5$^\circ$N around day 100 (mid-April).  
 During boreal spring, the EP ITCZ migrates northward reaching a peak latitude and maximum rainfall at 10$^\circ$N by day 250, or early September. The EP ITCZ during boreal winter is weaker than during the rest of the seasons.
 The low-level winds are predominantly easterly, which are stronger away from the ITCZ and weaker and convergent near the ITCZ position.
-The position and seasonal migration of the EP ITCZ is reasonably well represented in the four simulations (Figs. \ref{fig:4}c, e, g, i), but a noticeable bias in precipitation is observed in  boreal winter south of the equator in the coupled simulations. The modelled  low-level winds in the coupled simulations show significant biases near the ITCZ.
-These wind biases are observed as stronger wind vectors converging toward the ITCZ during boreal summer and spring and stronger wind vectors diverging away from the equator during boreal winter. 
+The position and seasonal migration of the EP ITCZ is reasonably well represented in the four simulations (Fig. \ref{fig:4}), but a noticeable bias in precipitation is observed in  boreal winter south of the equator in the coupled simulations. The modelled  low-level wind biases are characeterized as stronger winds converging toward the ITCZ during boreal summer and spring and diverging away from the equator during boreal winter. 
 
-The observed Atlantic ITCZ (Figure \ref{fig:4}b) has a similar seasonal cycle to the EP ITCZ.
-The Atlantic ITCZ is close to 4$^\circ$N at day 1 and migrates southwards at the start of the year reaching  its southernmost position at 0$^\circ$ at the end of March.
-During boreal spring, the Atlantic ITCZ migrates north, reaching 8$^\circ$N at the start of boreal summer. In contrast to the EP ITCZ, the maximum rainfall in the Atlantic ITCZ does not weaken during any season. 
-The boreal winter position of the modelled ITCZ is displaced south with respect to the observations.
-The simulated ITCZ  crosses south of the equator during boreal winter, with maximum precipitation rates of 12 mm day$^{-1}$ found in the 0-10$^\circ$S region.
-After boreal spring, the modelled ITCZ crosses back north of the equator and matches the observed ITCZ reasonably well for boreal summer and fall.
-Low-level wind vectors near the Atlantic ITCZ (Figures \ref{fig:4}f and h) suggest a simulated southerly bias north of the equator and a stronger northerly flow south of 10$^\circ$S.
-
-The biases in the Atlantic ITCZ can also be observed in the Walker circulation as significant negative $\omega$ and $q$ biases just north and south of equatorial South America indicative of weaker convective activity. The Atlantic Ocean in the simulations shows a biased negative $\omega$ (more ascent) south of the equator and a positive $\omega$ bias (less ascent) north of the equator in the low resolution simulations.
-The magnitude of the biases in the Atlantic ITCZ and overturning circulations described above were were associated with the horizontal resolution of the simulations. These biases were of similar magnitude in all the coupled model simulations run at the lower resolution N96, regardless of the type of experiment. However, these biases were reduced in the medium resolution experiments of GC3 N216 and in the GC3 N96 AMIP experiment which corrects SST biases (Figures \ref{fig:4}f, j). 
-
-\begin{figure}[t!]
+\begin{figure}[b!]
 \includegraphics[width=\linewidth]{figures/saczanalysis.png}
 \caption[SACZ assessment in UKESM1 and HadGEM3]{(a, b, c) OLR anomalies during active South Atlantic Convergence Zone (SACZ) events. (d, e) Frequency of active SACZ days and length of active SACZ events in reanalysis and model data, the standard deviation is shown as the error bar. The SACZ active days are constructed by first computing the first EOF of the monthly-mean deseasonalized OLR and then the daily OLR, previously filtered to remove periods higher than 99 days, is projected on the EOF pattern to produce a time series of pseudo-principal components. Active SACZ days are found when this time series of pseudo-PCs is greater than 1, and the persistence is measured as the number of continuous days where the time series is greater than 1.}
 \label{fig:sacz}
 \end{figure}
+
+The Atlantic ITCZ (Figure \ref{fig:4}b) has a similar seasonal cycle to the EP ITCZ, located at 4$^\circ$N at day 1 and migrates southwards at the start of the year reaching  its southernmost position at 0$^\circ$ at the end of March.
+During boreal spring, the Atlantic ITCZ migrates north, reaching 8$^\circ$N at the start of boreal summer. In contrast to the EP ITCZ, the maximum rainfall in the Atlantic ITCZ does not weaken during any season. 
+The position of the modelled ITCZ is generally biased south with respect to the observations.
+The simulated ITCZ  crosses south of the equator during boreal winter, with maximum precipitation rates of 12 mm day$^{-1}$ found in the 0-10$^\circ$S region.
+After boreal spring, the modelled ITCZ crosses back north of the equator and matches the observed ITCZ reasonably well for boreal summer and fall.
+Low-level wind vectors near the Atlantic ITCZ (Figures \ref{fig:4}f and h) suggest a southerly bias north of the equator and a northerly bias south of 10$^\circ$S.
+
+%The biases in the Atlantic ITCZ can also be observed in the Walker circulation as significant negative $\omega$ and $q$ biases just north and south of equatorial South America indicative of weaker convective activity. The Atlantic Ocean in the simulations shows a biased negative $\omega$ (more ascent) south of the equator and a positive $\omega$ bias (less ascent) north of the equator in the low resolution simulations.
+%The magnitude of the biases in the Atlantic ITCZ and overturning circulations described above were were associated with the horizontal resolution of the simulations. These biases were of similar magnitude in all the coupled model simulations run at the lower resolution N96, regardless of the type of experiment. However, these biases were reduced in the medium resolution experiments of GC3 N216 and in the GC3 N96 AMIP experiment which corrects SST biases (Figures \ref{fig:4}f, j). 
 
  The South Atlantic Convergence Zone (SACZ) is a nortwest-southeast oriented band of convection and is a prominent influence on the South American Monsoon mean and extreme rainfall \citep{carvalho2004,marengo2012,jorgetti2014}. The SACZ is primarily characterized by convergence oriented northwest-to-southeast that promotes rainfall in southeastern Brazil. The position of the SACZ and strength are an important factor for variability of the South American monsoon on different temporal and spatial scales \citep{carvalho2004,marengo2012,jorgetti2014}. 
  
  The SACZ in this simulations, defined by the outgoing long-wave radiation empirical orthogonal function analysis (Figure \ref{fig:sacz}) closely resembles the pattern found in ERA5. The SACZ active days and the persistence of the SACZ are also compared and found to be in relatively good agreement between reanalysis and model datasets.
 The simulations from UKESM1, and GC3 N96 and N216 appear to reasonably simulate the spatial pattern of active SACZ days characterized by the low OLR in southeastern Brazil and higher OLR in the La Plata Basin. Similarly, the seasonal cycle of the frequency and persistence of SACZ active days is very well represented by the models with peak activity found from November through January and very little activity during austral winter. The impact that an accurate representation of the SACZ activity in GCMs has for representing short-scale variability of the South American Monsoon System is an open question, as the SACZ is rarely assessed in CMIP analyses.
 
-GCMs have showed little improvement in their representation of ITCZs \citep{oueslati2015}. This bias has persisted through CMIP phases largely because the position, strength and seasonal migration of the ITCZ is hard to represent accurately. These features are controlled by ocean-atmosphere feedbacks that intertwine the local and regional circulation with cloud-radiative feedbacks and the atmospheric and oceanic transport of energy \citep{schneider2014,oueslati2015,byrne2016,byrne2020}. 
-This section shows that the CMIP6 MOHC models reasonably simulate the location of the East Pacific ITCZ but poorly represent the location of the austral summer Atlantic ITCZ and overestimate precipitation over the East Pacific ITCZ. The location and seasonal variability of the SACZ is also fairly well simulated by all the models. The implication of the results in this section for AMS precipitation will be addressed in the last section this chapter.
+GCMs have showed little improvement in their representation of ITCZs in CMIP phases\citep{oueslati2015} and this section shows that these biases are also found in these CMIP6 experiments. These biases are hard to improve because the position, strength and seasonal migration of the ITCZ are controlled by ocean-atmosphere feedbacks that intertwine the local and regional circulation with cloud-radiative feedbacks and the atmospheric and oceanic transport of energy \citep{schneider2014,oueslati2015,byrne2016,byrne2020}. 
+%This section shows that the CMIP6 MOHC models reasonably simulate the location of the East Pacific ITCZ but poorly represent the location of the austral summer Atlantic ITCZ and overestimate precipitation over the East Pacific ITCZ. The location and seasonal variability of the SACZ is also fairly well simulated by all the models. The implication of the results in this section for AMS precipitation will be addressed in the last section this chapter.
 
 
 \section{Precipitation and convection in the AMS}\label{sq:precip}
@@ -244,35 +239,32 @@ This section shows that the CMIP6 MOHC models reasonably simulate the location o
 
 \subsection{Mean seasonal precipitation}
 
-\begin{figure}[t!]
+\begin{figure}[b!]
 \centering
  %\noindent
  \includegraphics[width=0.875\linewidth]{figures/fig6.png}
-\caption[Austral summer mean rainfall in the South American monsoon]{ DJF mean rainfall [mm day$^{-1}$] from (a) TRMM, (b) UKESM1-historical, (c) GC3 N216-pi and (d) GC3-amip. (e, f, g) show the statistically significant differences between panels (b, c ,d) and (a) TRMM, respectively. (h) Precipitation difference between UKESM-historical and  UKESM1-pi, only statistically significant differences (95\%) confidence level is shown.  The biases in the 850-hPa winds are shown as vectors. }
+\caption[Austral summer mean rainfall in the South American monsoon]{ DJF mean rainfall [mm day$^{-1}$] from (a) TRMM, (b) UKESM1-historical, (c) GC3 N216-pi and (d) GC3-amip. (e, f, g) show the statistically significant biases, i.e., differences between panels (b, c ,d) and (a) TRMM. (h) Precipitation difference between UKESM-historical and  UKESM1-pi, only statistically significant differences (95\% confidence level) are shown. In (e-g) in the 850-hPa wind biases are shown as vectors. }
 \label{fig:6}
 \end{figure}
 
-  The austral summer (DJF) rainfall distribution in South America of the TRMM dataset and the simulations for GC3 N216-pi, UKESM-hist and GC3-amip (Figure \ref{fig:6}) shows several noteworthy biases in the coupled simulations. 
+  The austral summer (DJF) rainfall distribution in South America (Figure \ref{fig:6}) shows several noteworthy biases in the coupled simulations compared to TRMM. 
 The maximum austral summer rainfall in TRMM
-(Figure \ref{fig:6}a) is found as a northwest-southeast oriented band of precipitation from the core Amazon region into southeastern Brazil, which is related to the SACZ.
-The biases are illustrated (Figures \ref{fig:6}e-h) as the precipitation difference between the simulations and TRMM.
+(Fig. \ref{fig:6}a) is found in a northwest-southeast oriented band from the core Amazon region into southeastern Brazil, the SACZ.
+One main bias (Figs. \ref{fig:6}e-h)is the southward displacement of the Atlantic ITCZ, observed as positive (+5 mm day$^{-1}$) biases south of the equator and negative biases ($-$5 mm day$^{-1}$) north of the equator in the Atlantic. The models underestimate rainfall in the core Amazon basin by $-$3 mm day$^{-1}$ on average, and rainfall in southeastern Brazil is overestimated by more than +5 mm day$^{-1}$, approximately +100\% of the observed rainfall in this region.  
  
 %The coupled simulations (e.g. Figure \ref{fig:6}b, c) overestimate rainfall in southeastern Brazil and underestimate rainfall in the core Amazon region.
  
 
-   The coupled simulations show three main biases.
-Rainfall in the Atlantic ITCZ in these simulations is displaced southwards, observed as positive (+5 mm day$^{-1}$) biases south of the equator and negative biases ($-$5 mm day$^{-1}$) north of the equator in the Atlantic.
-Second, the models underestimate rainfall in the core Amazon basin by $-$3 mm day$^{-1}$ on average, and the third major bias is that rainfall in southeastern Brazil is overestimated by more than +5 mm day$^{-1}$, approximately +100\% of the observed rainfall in this region.  
 
  The precipitation biases are associated with a stronger northerly flow in South America, transporting moisture from the Amazon into southeastern Brazil and the La Plata Basin.   
-The magnitude of these biases is smaller in GC3 N216 (Figure \ref{fig:6}f) than in the low resolution simulations, such as UKESM1-hist.   The ensemble mean GC3 AMIP (Figure \ref{fig:6}d) shows a better representation of the austral summer rainfall and circulation patterns, removing the main circulation biases (Figure \ref{fig:6}g) of the coupled simulations.   
-The response to historical forcing, illustrated by the difference between UKESM1-hist and UKESM1-pi (Figure \ref{fig:6}h), is much weaker than the magnitude of the biases and is characterized by a weak drying of the Amazon and southeastern Brazil. Therefore, the magnitude of these biases are too large to have confidence in these drying responses to historical forcing. 
+The magnitude of these biases is smaller in GC3 N216 (Fig. \ref{fig:6}f) than in the low resolution simulations, such as UKESM1-hist.   The ensemble mean GC3 AMIP (Fig. \ref{fig:6}d) shows a better representation of the austral summer rainfall and circulation patterns, removing the main circulation biases (Fig. \ref{fig:6}g) of the coupled simulations.   
+The response to historical forcing, illustrated by the difference between UKESM1-hist and UKESM1-pi (Fig. \ref{fig:6}h), is much weaker than the magnitude of the biases and is characterized by a weak drying of the Amazon and southeastern Brazil. Therefore, the magnitude of these biases are too large to have confidence in these drying responses to historical forcing. 
 
 
-\begin{figure}
+\begin{figure}[t!]
 \centering
  %\noindent
- \includegraphics[width=\linewidth]{figures/Fig8.png}
+ \includegraphics[width=0.9\linewidth]{figures/Fig8.png}
 \caption[Boreal summer precipitation in the North American Monsoon]{ As in Figure \ref{fig:6} but for JJA in the northern part of subtropical America.   }
 \label{fig:7}
 \end{figure}
@@ -288,7 +280,7 @@ The northernmost part of the North American Monsoon (southwestern US) is best si
 The low-resolution simulations (Figure \ref{fig:7}e) underestimate rainfall (-5 mm day$^{-1}$) over land in southern Mexico, Guatemala and Belize.
 Rainfall in the Caribbean islands and Florida is underestimated (-1 mm day$^{-1}$) in all simulations.
 
-In most cases for JJA in this region, the precipitation and wind biases were reduced in the high-resolution simulation (Figure \ref{fig:7}f) and little-to-no difference was observed between UKESM1-hist and GC3 N96-hist (not shown).
+In most cases for JJA in this region, the precipitation and wind biases were reduced in the medium-resolution simulation (Figure \ref{fig:7}f) and little-to-no difference was observed between UKESM1-hist and GC3 N96-hist (not shown).
 The precipitation response to historical forcing is much lower than the biases (Figure \ref{fig:7}h) with no significant precipitation differences over land due to the historical forcing. % shows a decrease in precipitation.
  
 
@@ -306,54 +298,51 @@ The precipitation response to historical forcing is much lower than the biases (
 %However, this temporal resolution is not enough to properly evaluate the performance of a simulation, particularly in monsoonal regions where the dates of monsoon onset and demise have relevance for sectors such as agriculture.
 
 Figure \ref{fig:8} shows the seasonal cycle of rainfall at the pentad (5-day) scale over the North American Monsoon, the  Midsummer drought (MSD), the Amazon and eastern Brazil regions. The correlation between TRMM and the model and reanalysis data (ERA5) is also shown in each panel. 
-The seasonal cycle of precipitation in the MSD region in the simulations is well represented as all the simulations show the characteristic bimodal distribution, a feature that is uncommon for a climate model to be able to reproduce \citep{ryu2014}.
-%This peculiar bimodal distribution of rainfall is characterised by a first rainfall maxima in June and a second maximum in late September, separated by a relatively drier period with a minimum at the start of August. The Midsummer drought bimodal distribution was only found in a handful of CMIP5 models \citep{yin2013}.
-However, the characteristics of the simulated MSD are different from observations.
-For example, the magnitude of the first peak and second peaks in the simulations are different. 
-For instance, most of the first peak simulated magnitudes are higher than TRMM by 4 mm day$^{-1}$, and the AMIP simulation overestimates the second maximum of rainfall by 2-3 mm day$^{-1}$. Similarly, the differences between the first peak and the MSD and between the MSD and the second peak are more pronounced in the coupled simulations. The timing of the MSD period is different in the models, as the simulations show the driest period taking place 10 days after TRMM and ERA5. %  All the simulations show different magnitudes of the first and second peak and the MSD precipitation, 
- 
- 
 
-In the North American Monsoon (Figure \ref{fig:8}b), the observed seasonal cycle is characterized by a very long and dry period ranging from the end of November to the start of June, which is followed by a sharp increase of rainfall around mid-June. The timing of the increase of rainfall in models coincides with observations, suggesting that onset timing and strength is well represented in these models.
-Moreover, the modelled and observed mean precipitation rates during monsoon maturity are $~$4 mm day$^{-1}$, from mid-July until early September, which suggests notable ability of the models to reproduce the peak monsoon rainfall.
+The seasonal cycle of precipitation in the MSD region in the simulations is well represented as all the simulations show the characteristic bimodal distribution, a feature that is difficult to simulate  for a climate model \citep{ryu2014}.
+%This peculiar bimodal distribution of rainfall is characterised by a first rainfall maxima in June and a second maximum in late September, separated by a relatively drier period with a minimum at the start of August. The Midsummer drought bimodal distribution was only found in a handful of CMIP5 models \citep{yin2013}.
+However, the magnitude of the first peak and second peaks of precipitation in the simulations are different. 
+Most of the simulations show a wetter first peak than TRMM by 4 mm day$^{-1}$, and the AMIP simulation overestimates the second maximum of rainfall by 2-3 mm day$^{-1}$. Similarly, the differences between the first peak and the MSD and between the MSD and the second peak are more pronounced in the simulations. The timing of the MSD period is different in the models, as the simulations show the driest period taking place 10 days after TRMM and ERA5. %  All the simulations show different magnitudes of the first and second peak and the MSD precipitation, 
+  
+
+In the North American Monsoon (Figure \ref{fig:8}b), the observed seasonal cycle is characterized by a very long dry period from the November to June, which is followed by a sharp increase of rainfall around mid-June. The timing and strength of the onset of rainfall is well represented by all these simulations.
+Moreover, the modelled and observed mean precipitation rates during monsoon maturity are $~$4 mm day$^{-1}$, from mid-July until early September, which suggests  the models can also reproduce the observed peak monsoon rainfall.
 %The timing of monsoon retreat is also well represented by the simulations, as both modelled and observed rainfall decay during September.
-   The historical simulations show a shorter wet season characterised by an earlier retreat of the monsoon rainfall and, as in all the simulations a positive bias (+1 mm day$^{-1}$) is found during late local fall and early winter, a feature that has been shown in these models in CMIP5 \citep{geil2013}. % and that will be further explored in the following chapter. %For instance, GC3 N96-hist retreats on average around August 16th. 
+   The historical simulations show a shorter wet season characterised by an earlier retreat of the monsoon rainfall and a positive bias (+1 mm day$^{-1}$) is found during late local fall and early winter, a feature present in most CMIP5 models \citep{geil2013}. % and that will be further explored in the following chapter. %For instance, GC3 N96-hist retreats on average around August 16th. 
 %However, winter-time rainfall, before monsoon onset and after monsoon retreat, is overestimated by all the simulations, particularly the higher resolution GC3.1 N216 which has a positive bias of $~$2 mm day$^{-1}$ in early winter. 
 
 
 The seasonal cycle of precipitation in eastern Brazil is characterised by a very wet summer ($\sim$8 mm day$^{-1}$) compared to a very dry ($\sim$0.2 mm day$^{-1}$) winter (Figure \ref{fig:8}c).
 %The South Atlantic Convergence Zone has a centre of action over this region and thus controls several aspects of precipitation \citep{carvalho2004,marengo2012}.
-Rainfall in TRMM and ERA5 increases steadily from austral spring (September) to a maximum found in early January ($\sim$8 mm day$^{-1}$).
-Rainfall in this region decreases to $\sim$6 mm day$^{-1}$ by late March as the monsoon migrates northward and then sharply decreases in austral fall.
-
-
+%Rainfall in TRMM and ERA5 increases steadily from austral spring (September) to a maximum found in early January ($\sim$8 mm day$^{-1}$).
+%Rainfall in this region decreases to $\sim$6 mm day$^{-1}$ by late March as the monsoon migrates northward and then sharply decreases in austral fall.
 The models (Figure \ref{fig:8}c) show a positive bias during monsoon maturity. This bias was found to be of +4 mm day$^{-1}$ and +2.5 mm day$^{-1}$ for the low and medium resolution simulations, respectively.
 This positive bias in the maximum rainfall is consistent with the biases shown in Figure \ref{fig:6}, which showed that rainfall in southeastern Brazil is overestimated, especially in the low resolution coupled simulations.   In contrast to the coupled simulations, GC3-amip shows a very good agreement with the observed maximum summer rainfall and the seasonal cycle (r=0.978) throughout the year.
 %Despite this positive bias in the magnitude of precipitation, the seasonal evolution of rainfall is very well represented by the simulations, as the onset and retreat dates are in close agreement with the observations.
 
-Finally, the seasonal cycle in the Amazon (Figure \ref{fig:8}d) has a weaker contrast as rainfall greater than 2 mm day$^{-1}$ is found year-round. The coupled simulations show a dry bias during austral summer and a good agreement with the observations during austral winter. Rainfall rates in the Amazon from January to March, in both TRMM and ERA-5, is close to 10 mm day$^{-1}$, yet the low resolution simulations show rainfall rates of 8 mm day$^{-1}$ in mid-February, particularly the historical experiments.
-GC3 N216-pi shows a better agreement with observations but still underestimates summertime rainfall by 1 mm day$^{-1}$.   
-
-This dry Amazon bias has been a known feature of GCMs, including the MOHC models, since CMIP3 \citep{li2006,yin2013}. In these simulations the dry Amazon bias is only alleviated in GC3-amip whose seasonal cycle and maximum summer rainfall agree well with observations suggesting that the Atlantic SST biases are the key factor for the biases in the Amazon in coupled model simulations.   
-% Peak summertime rainfall is underestimated by the coupled model simulations, particularly the historical experiments. 
+Finally, the seasonal cycle in the Amazon (Figure \ref{fig:8}d) has a weaker seasonal contrast as relatively large precipitation rates  (>2 mm day$^{-1}$) are found year-round. The coupled simulations show a dry bias during austral summer and a good agreement with the observations during austral winter. Rainfall rates in the Amazon from January to March, in both TRMM and ERA-5, are close to 10 mm day$^{-1}$, yet the low resolution simulations show rainfall rates of 8 mm day$^{-1}$ in mid-February.
+GC3 N216-pi shows a better agreement with observations but still underestimates austral summer rainfall by 1 mm day$^{-1}$.   
 The models, however, represent with reasonable skill the timing of the transition from
 early austral spring (4 mm day$^{-1}$ in September) to summertime rainfall (6 mm day$^{-1}$ in November).
+
+The dry Amazon bias has been a known feature of GCMs, including the MOHC models, since CMIP3 \citep{li2006,yin2013}. In these simulations the dry Amazon bias is only alleviated in GC3-amip whose seasonal cycle and maximum summer rainfall agree well with observations suggesting that the Atlantic SST biases, which couple to the moisture transport between ocean and land, are the key factor for the biases in the Amazon in coupled model simulations.   
+% Peak summertime rainfall is underestimated by the coupled model simulations, particularly the historical experiments. 
+
 %The low resolution simulations, after simulating an annual maximum of rainfall in December, simulate a decrease in precipitation for January and February, whereas the observations show the opposite behaviour.
-After this description of the spatial and temporal variability of these biases in these models, the next section investigates how the models represent convection through diagnostics that may further 
+%After this description of the spatial and temporal variability of these biases in these models, the next section investigates how the models represent convection through diagnostics that may further 
 
 \subsection{Characteristics of convective activity}
 
-The seasonal cycles of outgoing long-wave radiation (OLR), vertical velocity ($\omega$) and specific humidity ($q$) are key features of a monsoon since these quantities characterise the strength and height of deep convection, as well as the moisture within the column.
- The pentad-mean annual cycle of OLR, $q$ and $\omega$ at the 500-hPa level in four regions of the AMS (Figure \ref{fig:9}) are used as process oriented diagnostics to further evaluate the biases in the spatial distribution and seasonal cycle of rainfall.
+The seasonal cycles of outgoing long-wave radiation (OLR), vertical velocity ($\omega$) and specific humidity ($q$) characterise how the strength and height of deep convection, as well as the moisture within the column vary with the wet season in a monsoon region.
+ The pentad-mean annual cycle of OLR, $q$ and $\omega$ at the 500-hPa level in four regions of the AMS (Figure \ref{fig:9}) are used as process oriented diagnostics to further evaluate the biases in the seasonal cycle of rainfall.
  
-
-For the North American Monsoon the seasonal cycle of OLR, $q$ and $\omega$ is relatively well represented in the simulations.
+For the North American Monsoon the seasonal cycles of OLR, $q$ and $\omega$ are relatively well represented in the simulations.
 During late boreal winter and early spring, OLR increases steadily as a result of surface warming.
 However, in early June, near the onset date \citep{douglas1993,geil2013}, OLR sharply decreases reaching a minimum value of 246 W m$^{-2}$ by mid-July.
 The vertical velocity decreases steadily from January to a minimum in August, indicating ascent from May 1st until September 15th.
  The models show similar seasonal cycles but overestimate the summertime OLR by $\approx$ 6 W m$^{-2}$ and underestimate mid-level moisture by 0.3 g/kg and $\omega$ by 0.01 Pa s$^{-1}$ which is about 5-10\% overall. 
 %After convective activity decreases in late August in ERA-5, OLR increases to a local maxima of $\sim$ 271 W m$^{-2}$ on mid-September, $q$ decreases significantly and $\omega$ turns positive.
-The simulated shallower convection and drier mid-troposphere is seemingly compensated by stronger mid-level ascent.
+The simulated shallower convection and drier mid-troposphere is seemingly compensated by stronger mid-level ascent leading to reasonable precipitation rates.
 
 
 \begin{figure}[t!]
@@ -366,13 +355,12 @@ The simulated shallower convection and drier mid-troposphere is seemingly compen
 
 In the MSD region, OLR and $q$ show signs of convective activity from mid-April, as OLR sharply decreases and moisture increases.
 %The key characteristic of the MSD is the modest decrease in rainfall in the midsummer.
-The characteristic MSD bimodal distribution of precipitation can also be observed as two troughs of OLR, and $\omega$ and two peaks in $q$.
-These periods are separated by a period of relatively higher OLR, lower $q$ and weaker ascent from June 15 until late August.
+The characteristic MSD bimodal distribution of precipitation can also be observed as two troughs of OLR, and $\omega$ and two peaks in $q$ separated by a period of relatively higher OLR, lower $q$ and weaker ascent from June 15 until late August.
 %The reanalysis data shows that during the MSD period OLR increases by 10 W m$^{-2}$, $\omega$ decreases by 0.015 Pa s$^{-1}$ and $q$ decreases by 0.5 g/kg.
 Although arguably with a small dry bias with shallower convection after mid-July, the simulations follow closely the observed seasonal cycle.
 
-The simulated conditions during the first peak period show similar OLR and mid-level moisture but stronger ascending motions, which may explain the positive rainfall bias in this period showed in Figure \ref{fig:8}a.
-In the period between the first peak and the MSD, the simulated OLR increases more sharply than observations from 220 W m$^{-2}$ (June 15) to 250 W m$^{-2}$ (early August), with similar behaviour in $\omega$ and $q$, which may also be related to the strong MSD precipitation differences described in the previous section.
+The simulated conditions during the first peak period show similar OLR and mid-level moisture but stronger ascending motions, which may explain the positive rainfall bias in this period (Fig. \ref{fig:8}a).
+In the period between the first peak and the MSD, the simulated OLR increases more sharply than observations from 220 W m$^{-2}$ (June 15) to 250 W m$^{-2}$ (early August), with similar behaviour in $\omega$ and $q$, which may also be related to the strong variations of precipitation within the rainy season in the simulations. 
 %In the same period, the simulated moisture and ascent decrease more sharply than observations, in agreement with the stronger variations of precipitation (Figure \ref{fig:8}a).
 %The stronger than observed changes to the characteristics of convection are consistent with the sharper than observed midsummer drought in the simulations showed in Figure \ref{fig:8}a.
 The period during the second peak of rainfall in September shows signs of shallower convection and a drier mid-level when compared to ERA5.
@@ -382,15 +370,16 @@ The period during the second peak of rainfall in September shows signs of shallo
 In southeastern Brazil, the simulations reasonably follow the timings of the annual cycle of OLR, $q$ and $\omega$ of the reanalysis, particularly during austral winter. The moisture $q$ in ERA5 during  the dry seasons of austral fall, winter and spring is reasonably simulated by all the experiments. However, during austral summer, the coupled model simulations show significant biases characterised by stronger ascent and increased specific humidity in the mid-levels, although the height of convection (OLR~ 225 W m$^{-2}$) is only modestly higher in the simulations.
 
 %The seasonal cycle of these proxies for convective activity in the Amazon basin are shown by Figure \ref{fig:8}.
-The simulated OLR, q and $\omega$ exhibit the highest biases in the Amazon. During austral summer, particularly January and February, the simulated convective activity is shallower (OLR bias of +25 W m$^{-2}$) and weaker (positive $\omega$ bias +0.02 Pa s$^{-1}$) and the mid-level troposphere is drier (~-0.5 g/kg) than in ERA5. All these biases are in agreement with the dry Amazon bias described in the previous section. Despite biases in the magnitude of OLR, $q$ and $\omega$ during peak convective activity, the seasonal variation is very well simulated so that convective activity, as evidenced by these metrics, starts and ends in the simulations within one or two pentads of the reanalysis. The smallest biases in coupled simulations are those of GC3 N216-pi, not just for the Amazon region but for the other regions as well.  The simulated OLR, $q$ and $\omega$ in GC3-amip in southeastern Brazil and the Amazon show a much better agreement with the reanalysis during austral summer than the rest of the simulations.
+The simulated OLR, q and $\omega$ exhibit the highest biases in the Amazon. During austral summer, particularly January and February, the simulated convective activity is shallower (OLR bias of +25 W m$^{-2}$) and weaker (positive $\omega$ bias +0.02 Pa s$^{-1}$) and the mid-level troposphere is drier (~-0.5 g/kg) than in ERA5. All these biases are in agreement with the dry Amazon bias described in the previous section. Despite biases in the magnitude of OLR, $q$ and $\omega$ during peak convective activity, the seasonal variation is very well simulated so that convective activity, as evidenced by these metrics, starts and ends in the simulations within one or two pentads of the reanalysis. 
 
-This section describes biases in the seasonal cycle of diagnostics intimately related to convection such as top cloud height, vertical velocity and moisture. While precipitation is fairly well represented in the North American monsoon in this region, the models represent stronger but shallower ascent indicating that competing biases lead to a right representation of precipitation. 
+The smallest biases in the coupled simulations are those of GC3 N216-pi, for all the regions.  The simulated OLR, $q$ and $\omega$ in GC3-amip in southeastern Brazil and the Amazon show a much better agreement with the reanalysis during austral summer than the rest of the simulations.
+This section shows that while precipitation may be well represented in a region, e.g., the North American monsoon, competing model biases in the strength of convection and moisture may lead to a right representation of precipitation. 
 
 
 \section{ENSO Teleconnections}\label{sq:enso1}
 
 El Ni\~no-Southern Oscillation (ENSO) teleconnections are the prominent source of interannual variability for the AMS \citep{vera2006}, as summarized in section \ref{sub:lit_enso}.
-The response to ENSO events in UKESM1 and HadGEM3 is investigated in this section, which first shows the temperature, sea-level pressure (SLP) and precipitation responses  to observed and simulated ENSO events in the AMS, and then analyses of the effect of ENSO flavours on the AMS. Finally, results show a possible influence of the QBO on the teleconnections of ENSO. 
+The response to ENSO events in UKESM1 and HadGEM3 is investigated in this section, first by investigating the mean response to ENSO events and then by analysing possible sources of non-linear teleconnections.
 
 %Throughout this section, ENSO events were defined when the DJF-mean Ni\~no 3.4 index was above or below 0.65 \citep{trenberth1997}.   
 
@@ -434,12 +423,11 @@ During  El Ni\~no events, the Aleutian Low is strengthened in ERA5, with a stron
 \end{figure}
 
 
-The rainfall anomalies associated with ENSO events are shown in Figure \ref{fig:11}. Three regions in the AMS have a significant precipitation response to ENSO events in the observations and simulations.
+The rainfall anomalies associated with ENSO events (Figure \ref{fig:11}) show that three regions in the AMS have a significant precipitation response.
 In southern North America, rainfall increases (decreases) during El Ni\~no (La Ni\~na) events due to the effects of the PNA pattern on the subtropical jet, which influences the frequency and latitude of propagation of wintertime midlatitude disturbances which are the main source of rainfall in the region during the dry season \citep{vera2006,bayr2019}.
 
-
-The GPCP dataset (Figure \ref{fig:11}a, b) shows significant boreal winter rainfall increases in southeastern US and the Gulf of Mexico during El Ni\~no events, and an opposite response to La Ni\~na phases. All the simulations reproduce this teleconnection rainfall pattern. 
-The models also simulate the observed response in southeastern South America (SESA) of positive anomalies during El Ni\~no and negative anomalies during La Ni\~na events. This teleconnection to SESA is associated with the effect of ENSO on the sub-tropical jet in the Southern Hemisphere, the South Pacific and Atlantic Convergence Zones.
+The GPCP dataset (Figure \ref{fig:11}a, b) shows significant boreal winter rainfall increases in southeastern US and the Gulf of Mexico during El Ni\~no events, and an opposite response to La Ni\~na phases. All the simulations reproduce this teleconnection pattern. 
+The models also simulate the observed response in South-Eastern South America (SESA) of positive anomalies during El Ni\~no and negative anomalies during La Ni\~na events. This teleconnection to SESA is associated with the effect of ENSO on the sub-tropical jet in the Southern Hemisphere, the South Pacific and Atlantic Convergence Zones.
 
 The anomalies in the Amazon show the strongest response to ENSO events in the observations. Significant positive (negative) rainfall anomalies during the negative (positive) phase of ENSO in northern South America are observed in GPCP. All the simulations show a very similar and statistically significant response. This teleconnection works through the coupling of ENSO with the Walker circulation \citep{vera2006,cai2019pantropical}, which is illustrated in Figure \ref{fig:swalker}. 
 
@@ -451,20 +439,11 @@ The anomalies in the Amazon show the strongest response to ENSO events in the ob
 \label{fig:12}
 \end{figure}
 
-The climatological Walker circulation during DJF shows strong ascent in the 100-160$^\circ$E and the 280-310$^\circ$E regions, which correspond to the maritime continent and South America (Figure \ref{fig:swalker}a). During El Ni\~no events, there is increased specific humidity throughout the lower troposphere in the Central and Eastern Pacific, associated with ascending motions in this region and negative low-level wind anomalies and positive upper-level wind anomalies (Figure \ref{fig:swalker}d). In other words, an eastward shift of the Walker circulation. The wind, vertical velocity and specific humidity anomalies are the opposite during La Niña events, indicative of a stronger Walker circulation, slightly shifted to the west. 
+The climatological Walker circulation during DJF shows strong ascent in the 100-160$^\circ$E and the 280-310$^\circ$E regions (Figure \ref{fig:swalker}a), which correspond to the maritime continent and South America, respectively. During El Ni\~no events, there is increased specific humidity throughout the lower troposphere in the Central and Eastern Pacific, associated with ascending motions in this region and negative low-level wind anomalies and positive upper-level wind anomalies (Figure \ref{fig:swalker}d). In other words, an eastward shift of the Walker circulation. The wind, vertical velocity and specific humidity anomalies are the opposite during La Niña events, indicative of a stronger Walker circulation shifted west. 
 The models seems to broadly reproduce the observed changes to the Walker circulation during ENSO events (Figure \ref{fig:swalker}).
 
-
-% The strongest simulated response is that of GC3 N96-pi, especially over eastern Brazil and the equatorial Atlantic Ocean. 
-
-
-
-
-
- Figure \ref{fig:12} shows the observed and simulated precipitation responses in four regions of the AMS to different magnitudes of ENSO events, by binning events for their magnitude of the EN3.4 index and the corresponding precipitation anomaly from the climatology in each region. This figure aims to show  the degree of linearity of ENSO teleconnections to the AMS.
-While the observed response shows some degree of linearity for El Ni\~no events in South America (panels c, d), the majority of the observed responses, particularly to La Ni\~na phases, are not linear.
-
- However, the simulations show several signs of linearity. For instance, consider the historical experiments, UKESM1-hist and GC3 N96-hist, which show that the precipitation responses in southwestern North America, SESA and the Amazon increases roughly linearly as the magnitude of SST anomaly increases. In contrast, some other simulated responses, e.g. to La Ni\~na phases in South America in the piControl simulations, show signs of non-linearity.
+ Figure \ref{fig:12} shows the observed and simulated precipitation responses in four regions of the AMS binned by the magnitude of ENSO events, measured by the EN3.4 index. This figure aims to show  the degree of linearity of ENSO teleconnections to the AMS, i.e., a precipitation response that linearly scales with the mangitude of the ENSO event.
+While the observed response shows some degree of linearity for El Ni\~no events in South America (panels c, d), the majority of the observed responses, particularly to La Ni\~na phases, are not linear. However, the simulations show several signs of linearity. For instance, consider the historical experiments, which show that the precipitation responses in southwestern North America, SESA and the Amazon increases roughly linearly as the magnitude of SST anomaly increases. In contrast, some other simulated responses, e.g. to La Ni\~na phases in South America in the piControl simulations, show signs of non-linearity.
 
 
 
@@ -480,10 +459,14 @@ The E-index is computed from $(PC1-PC2)/\sqrt{2}$ and the C-index from $(PC1+PC2
 
 
   
-As described in section \ref{sub:lit_enso}, not all ENSO events are observed with the same SST anomaly pattern in the Pacific Ocean. These different SST patterns for each ENSO event are considered to be a source of non-linearity of ENSO impacts over South America \citep{sulca2018,cai2020}.
+As described in section \ref{sub:lit_enso}, not all ENSO events are observed with the same SST  pattern in the Pacific Ocean. These different SST patterns are considered to be a source of non-linearity of ENSO impacts over South America \citep{sulca2018,cai2020}.
 Principal component analysis has shown that ENSO events may be separated into two categories: Central Pacific (CP) and East Pacific (EP) events \citep{cai2020}, which highlight where the peak SST anomaly is found in the Pacific Ocean.
-Figure \ref{fig:s1} shows that both UKESM1 and GC3 reasonably simulate the observed SST patterns associated with EP and CP El Niño events, although the simulations show CP SST patterns to spread further to the east than the HadSST dataset.
+Figure \ref{fig:s1} shows that both UKESM1 and GC3 reasonably simulate the observed SST patterns associated with EP and CP El Niño events, although the CP SST patterns in the simulations spread further to the east than the HadSST dataset.
 The simulations are also able to replicate very broadly the observed differences in the frequency of each event as CP La Niña events are more frequent than EP La Niña events, while the opposite is true for El Niño events.
+
+Furthermore, Figure \ref{fig:senso} compares the precipitation anomalies for each type of ENSO event in observations with three simulations: GC3 N96-pi, GC3 N216-pi and GC3-amip. 
+%The observations show significant precipitation responses differences in the Amazon, the Brazilian Nordeste and SESA between CP and EP events; however, these differences are less obvious in the coupled simulations (GC3 N96-pi, GC3 N216), but not in GC3 AMIP.
+The observed precipitation response in the GPCC dataset to EP La Niña over equatorial South America is not significant and is smaller than the strong positive response to CP La Niña events in the same region. However,  the simulated response in GC3 N96-pi and GC3 N216 during La Niña events appears to be more independent of the type of event. In contrast, the GC3-amip simulations shows different magnitudes of responses to different types of La Niña events, in particular a positive, and significant, anomaly for CP La Niña events in the Amazon and weaker but not significant anomalies during EP events, which agrees with observations.
 
 \begin{figure}[t!]
 \includegraphics[width=\linewidth]{figures/cppranomalies_ff}
@@ -491,12 +474,8 @@ The simulations are also able to replicate very broadly the observed differences
 \label{fig:senso}
 \end{figure}  
 
-Furthermore, Figure \ref{fig:senso} compares the precipitation anomalies for each type of ENSO event in observations with three simulations: GC3 N96-pi, GC3 N216-pi and GC3-amip. 
-%The observations show significant precipitation responses differences in the Amazon, the Brazilian Nordeste and SESA between CP and EP events; however, these differences are less obvious in the coupled simulations (GC3 N96-pi, GC3 N216), but not in GC3 AMIP.
-The observed precipitation response in the GPCC dataset to EP La Niña over equatorial South America is not significant and is smaller than the strong positive response to CP La Niña events in the same region. However,  the simulated response in GC3 N96-pi and GC3 N216 during La Niña events appears to be more independent of the type of event. In contrast, the GC3-amip simulations shows different magnitudes of responses to different types of La Niña events, in particular a positive, and significant, anomaly for CP La Niña events in the Amazon and weaker but not significant anomalies during EP events, which agrees with observations.
-
- The observed response to El Niño events in GPCC is also dependent on the type of event. EP EL Niño events show significant negative anomalies over the Amazon and positive anomalies over SESA whereas CP events only show significant anomalies (-1 mm day$^{-1}$) over northeastern South America. While the coupled models (GC3 N96-pi and GC3 N216) do show a stronger response to EP  EL Niño events than to CP events, the patterns of the response are very similar.
-  In contrast, the response in GC3-amip agrees with observations, as stronger negative responses to EP El Niño events are observed in the Amazon compared to CP events in which the response is much weaker and is only significant in northeastern South America. In other words, GC3-amip agrees well with the observed non-linear teleconnection patterns whereas the teleconnections in the coupled models do not seem to depend  on the type of ENSO event.    
+ The observed response to El Niño events in GPCC is also dependent on the type of event. EP EL Niño events show significant negative anomalies over the Amazon and positive anomalies over SESA whereas CP events only show significant anomalies (-1 mm day$^{-1}$) over northeastern South America. While the coupled models (GC3 N96-pi and GC3 N216) show a stronger response to EP  EL Niño events than to CP events.
+  In contrast, the response in GC3-amip agrees with observations, as stronger negative responses to EP El Niño events are observed in the Amazon compared to CP events in which the response is much weaker and is only significant in northeastern South America. In other words, GC3-amip agrees well with the observed non-linear teleconnection patterns whereas the teleconnections in the coupled models do not seem to depend so strongly on the type of ENSO event.    
 
 \subsection{A possible influence of the QBO on tropical ENSO teleconnections}
 
@@ -506,53 +485,45 @@ The observed precipitation response in the GPCC dataset to EP La Niña over equa
 \label{fig:qbopr_pis}
 \end{figure}  
 
-Section \ref{sq:qbolit} discussed the observational and modelling evidence of the effects on deep convection associated with the stratospheric quasi-biennial oscillation (QBO). In particular, some evidence suggest that the QBO may play a role to determine interannual variability of the Walker circulation and monsoons \citep{giorgetta1999,collimore2003,liess2012}. 
-
+Section \ref{sq:qbolit} discusses the observational and modelling evidence that suggest a role for  the stratospheric quasi-biennial oscillation (QBO) in modulating the determine interannual variability of the Walker circulation and monsoons \citep{giorgetta1999,collimore2003,liess2012}. 
 This section evaluates whether the simulations analysed in this chapter, as well as observations, show signs of an influence of the QBO on the AMS. 
-In particular, the analysis aims to understand whether the QBO may be a source of non-linearity for the teleconnections of ENSO associated with deep convection and the Walker circulation. In all cases, the phases of the QBO were defined using a 70 hPa zonal mean zonal wind index, with a threshold of +2 m s$^{-1}$ for the westerly phase (QBOw) and -2 m s$^{-1}$ for the easterly phase (QBOe).
+In particular, the analysis aims to understand whether the QBO may be a source of non-linearity for the teleconnections of ENSO associated with deep convection and the Walker circulation. %In all cases, the phases of the QBO were defined using a 70 hPa zonal mean zonal wind index, with a threshold of +2 m s$^{-1}$ for the westerly phase (QBOw) and -2 m s$^{-1}$ for the easterly phase (QBOe).
 
-Composites of the precipitation response to La Niña (LN) events in Figure \ref{fig:qbopr_pis} show that the phase of the QBO may determine the strength and location of the teleconnection. 
-While the precipitation difference in the western Pacific is relatively similar during QBOe than during QBOw in observations and simulations, the teleconnections to Australia, South America and the maritime continent are notably different depending on the QBO phase. 
-In the GPCP dataset, the composite difference QBOe-QBOw during LN events suggests that the characteristic positive precipitation response during LN events in the Amazon, is largely associated with QBOw phases, whereas LN events during QBOe appear to have little effect over South America. 
-A similar result is obtained for GC3 N96-pi. 
-
-
-\begin{figure}[t!]
+\begin{figure}[b!]
 \includegraphics[width=\linewidth]{figures/walker_wqbo_jfma}
 \caption[Walker circulation responses to La Niña under different QBO phases] {Longitude-height differences (JFMA) of equatorial (10S-10N) air temperature (color shading), zonal wind (contours) and vertical velocity ($\omega$ - vectors). The differences shown from top to bottom are between all La Niña (LN) periods and Neutral conditions (NN), between LN and NN during QBOw, LN-NN during QBOe, and the difference between LN events on different QBO phases (LN QBOe-QBOw). 
 }
 \label{fig:qbowalker_pis}
 \end{figure}
 
+Composites of the precipitation response to La Niña (LN) events in Figure \ref{fig:qbopr_pis} show that the phase of the QBO may determine the strength and location of the teleconnection. 
+While the precipitation difference in the western Pacific is relatively similar during QBOe than during QBOw in observations and simulations, the teleconnections to Australia, South America and the maritime continent are notably different depending on the QBO phase. 
+In the GPCP dataset, the composite difference QBOe-QBOw during LN events suggests that the characteristic positive precipitation response during LN events in the Amazon, is largely associated with QBOw phases, whereas LN events during QBOe appear to have little effect over South America. 
+A similar result is obtained for GC3 N96-pi. 
+
 These precipitation responses are further investigated by changes in the overturning circulation (Figure \ref{fig:qbowalker_pis}). As depicted in Figure \ref{fig:swalker}, La Niña events are associated with a westward shift in the Walker circulation with a strenghtening of the low-level easterlies in the Pacific Ocean. 
-Figure \ref{fig:qbowalker_pis} shows that during LN the tropical troposphere cools and the UTLS region in the Central Pacific warms. These temperature anomalies are weaker in the simulations than in ERA5. 
+Figure \ref{fig:qbowalker_pis} shows that during LN the tropical troposphere cools and the UTLS region in the Central Pacific warms. %These temperature anomalies are weaker in the simulations than in ERA5. 
+The zonal wind anomalies in the upper-troposphere associated with LN events show different patterns and strengths during QBOw than during QBOe. The mean teleconnections during LN show positive zonal wind anomalies in the upper troposphere of the Pacific Ocean,  but these anomalies are stronger during QBOe than during QBOw in ERA5 and the two simulations shown. In ERA5, most of the upper troposphere shows positive zonal wind differences in the QBOe-QBOw panel. 
 
-The zonal wind anomalies in the upper-troposphere associated with LN events show different patterns and strengths during QBOw than during QBOe. The mean teleconnections during LN show positive upper-tropospheric anomalies above the Pacific Ocean,  but these anomalies are stronger during QBOe than during QBOw in ERA5 and the two simulations shown. In ERA5, most of the upper troposphere shows positive zonal wind differences in the QBOe-QBOw panel. 
+%There are three regions where ascending and descending motions are more greatly affected by LN events: the maritime continent, the Pacific Ocean and South America. The observed effect of the mean LN teleconnection is the following: anomalous ascent is seen in the maritime continent and in South America, in agreement with a stronger Walker circulation, whereas anomalous descending motions is observed in the Central and eastern Pacific associated with a westward shift of the Walker circulation. 
 
-There are three regions where ascending and descending motions are more greatly affected by LN events: the maritime continent, the Pacific Ocean and South America. The observed effect of the mean LN teleconnection is the following: anomalous ascent is seen in the maritime continent and in South America, in agreement with a stronger Walker circulation, whereas anomalous descending motions is observed in the Central and eastern Pacific associated with a westward shift of the Walker circulation. 
+The effect of LN over ascending and descending motions is also affected by the QBO phase (Fig. \ref{fig:qbowalker_pis}). In ERA5 and the simulations, the anomalous ascent observed in South America during LN events is mostly associated with QBOw, whereas only small anomalous ascent is observed during QBOe. 
+However, ERA5 disagrees with the simulations in the western Pacific region (140-180$^\circ$E), as the simulations suggest larger anomalous descent during QBOe than during QBOw, whereas in ERA5 these descending anomalies are larger during QBOw. 
 
-
-The effect of LN over ascending and descending motions is seemingly also affected by the QBO phase, according to the bottom panels of Figure \ref{fig:qbowalker_pis}. In ERA5 and the simulations, the anomalous ascent observed in South America during LN events is mostly associated with QBOw, whereas only small anomalous ascent is observed during QBOe. 
-However, ERA5 disagrees with the simulations in the western Pacific region (140-180E), as the simulations suggest larger anomalous descent during QBOe than during QBOw, whereas in ERA5 these descending anomalies are larger during QBOw. 
-
-A similar analysis was conducted to evaluate the effect of the QBO during the positive and the neutral phases of ENSO. These results are not shown because, although tentative suggestions were found that the QBO may play a role during these other phases of ENSO, there was little agreement between the models and ERA5/observations. Furthermore, the QBO representation in these CMIP6 models is biased in the UTLS region. In particular, the temperature signal associated with circulation of the QBO, most clearly seen in the bottom panels of Figure \ref{fig:qbowalker_pis}, is much weaker in the models. 
-
-As suggested by the literature summarised in section \ref{sq:qbolit}, this temperature signal could be the key aspect of any effect of the QBO on deep convective systems, and as such, the evidence from a short record (ERA5) or models with key biases in possible processes involved presented in this chapter warrants both caution and more work. 
-This topic will be investigated in the next chapters.
+The effect of the QBO during the positive and the neutral phases of ENSO were also evaluated but these results are not shown because, although tentative suggestions were found that the QBO may play a role during these other phases of ENSO, there was little agreement between the models and ERA5/observations. Model biases in the representation of the QBO, specially the temperature signal associated with circulation of the QBO, most clearly seen in the bottom panels of Figure \ref{fig:qbowalker_pis}, in addition to short record of the reanalysis evidence (ERA5) or presented in this chapter warrants both caution and future work. 
+%This topic will be investigated in the next chapters.
 
 \section{Summary and discussion}
 
 
 
- This chapter assessed the MOHC models, HadGEM3 and UKESM1, in their pre-industrial control, historical and AMIP experiment contributions to CMIP6 with specific emphasis on the AMS and associated large-scale tropical circulation. These CMIP6 experiments allow the assessment of the effect of including Earth System processes or increasing resolution for representing regional monsoon rainfall. 
+ This chapter assessed the contributions to CMIP6 from the models HadGEM3 and UKESM1 for their representation of the AMS climate and associated large-scale tropical circulation. These CMIP6 experiments allow the comparison of the effect of including Earth System processes or increasing resolution for representing regional monsoon rainfall. 
 A schematic in Figure \ref{fig:13} shows the primary components of the AMS climate and summarises the main biases found in these simulations and this chapter.
 %The study focuses on four regions in the AMS domain, the North American Monsoon, the MSD region of southern Mexico and Central America, southeastern Brazil and the Amazon.
 
 
 
-Rainfall in the North American Monsoon was particularly well simulated by the models. The seasonal cycle, peak monsoon rainfall rates and timings of monsoon onset and retreat in the simulations agreed well with TRMM. The historical experiments overestimate the mean temperature in most of the Americas by 1.5 K, but particularly in boreal summer in southwestern North America (+4 K). Despite this warm bias, the temperature seasonal cycle is well represented by these models. 
-
-  These results suggest model improvement of the simulation of the North American Monsoon from previous versions of the MOHC models \citep{arritt2000}, and most of the model cohorts of CMIP3 and CMIP5 \citep{geil2013}. For example, most CMIP5 models show a very wet bias during monsoon maturity whereas in all the experiments of this chapter this bias is less than 1 mm day$^{-1}$. However, these models continue to show biases during monsoon retreat as rainfall does not decrease as sharply as in observations after mid-September, which suggests a continued bias in the winter-time precipitation associated with cold-fronts \citep{adams1997}. Further research into the variability of the North American seasonality may be explored using these models given their skilfull representation of the seasonal cycle.
+Rainfall in the North American Monsoon was particularly well simulated by the models. The seasonal cycle, peak monsoon rainfall rates and timings of monsoon onset and retreat in the simulations agreed well with TRMM. The historical experiments overestimate the mean temperature in most of the Americas by 1.5 K, but particularly in boreal summer in southwestern North America (+4 K). Despite this warm bias, the seasonal cycles of precipitation and surface temperature are well represented by these models.  These results suggest model improvement of the simulation of the North American Monsoon from previous versions of the MOHC models \citep{arritt2000}, and most of the model cohorts of CMIP3 and CMIP5 \citep{geil2013}. However, these models continue to show biases during monsoon retreat as rainfall does not decrease as sharply as in observations after mid-September, which suggests a continued bias in the winter-time precipitation associated with cold-fronts \citep{adams1997}. %Further research into the variability of the North American seasonality may be explored using these models given their skilfull representation of the seasonal cycle.
 
 \begin{figure}[t!]
 \centering
@@ -562,46 +533,39 @@ Rainfall in the North American Monsoon was particularly well simulated by the mo
 \label{fig:13}
 \end{figure}
 
-    The Midsummer Drought (MSD) of southern Mexico and Central America is a regional feature of precipitation that most of the CMIP5 models had difficulty capturing, with the MOHC models being amongst the few exceptions \citep{ryu2014}. 
-The MSD in UKESM1 and GC3 continues to be relatively well represented; however, the experiments analysed in this chapter showed various  differences in the timing and strength of the bimodal cycle when compared to observed gridded-datasets and ERA5.  
-%The MOHC models were amongst the minority of CMIP5 models that simulated a seasonal cycle with a two-peak structure separated by a drier period \citep{ryu2014}. 
-
-The models simulate a wetter-than-observed first peak of precipitation and a drier MSD period, therefore simulating a larger difference between the first peak and the dry period. While in observations this difference  between the first peak and the MSD period ranges between 2-3 mm day$^{-1}$, in the simulations the difference is closer to 6 mm day$^{-1}$.
+    The Midsummer Drought (MSD) of southern Mexico and Central America is a regional feature of precipitation that most CMIP5 models do not capture \citep{ryu2014}. 
+The MSD in UKESM1 and HadGEM3 is relatively well represented. However, the experiments analysed in this chapter simulate a wetter-than-observed first peak of precipitation and a drier MSD period, therefore simulating a larger difference between the first peak and the dry period. %While in observations this difference  between the first peak and the MSD period ranges between 2-3 mm day$^{-1}$, in the simulations the difference is closer to 6 mm day$^{-1}$.
 Rainfall during the first peak has been too wet in these models since CMIP3, suggesting a persistent wet bias in this region, likely associated with the bias in East Pacific ITCZ also shown in this chapter and in recent studies \citep{ryu2014,mulcahy2018}. 
-In contrast, the so-called second peak of precipitation, observed in late August, is simulated in close agreement with TRMM, except in the AMIP experiment, which has a wet bias of 2 mm day$^{-1}$ at this stage.
-
-The skill of UKESM1 and HadGEM to simulate the MSD's bimodal regime of precipitation makes these simulations ideal to understand the mechanisms underpinning the MSD and why the MOHC models are able to represent a MSD regime but other models fail. Furthermore, section \ref{sq:litmsd} discusses several open questions regarding the mechanisms that cause the observed MSD. These simulations will then be used in future chapters to address the evaluate previous hypotheses of the causes for the MSD. 
+In contrast, the so-called second peak of precipitation, observed in late August, is simulated in close agreement with TRMM, except in the GC3 AMIP experiment, which has a wet bias of 2 mm day$^{-1}$ at this stage. The relative skill of UKESM1 and HadGEM to simulate this bimodal regime of precipitation makes these simulations ideal to understand the mechanisms underpinning the MSD, an outstanding question (see Section \ref{sq:litmsd}).  
 
 
-The East Pacific ITCZ migration and position was shown to be relatively well represented by the models (Figs. \ref{fig:3} and \ref{fig:4}). However, the models showed an overestimation of boreal summer rainfall near the coast of Central America (Figure \ref{fig:8}). These biases are associated with an easterly wind bias at low levels, suggesting a bias in the flow from the Caribbean Sea into the Eastern Pacific  \citep{herrera2015,duranquesada2017}. 
-The simulations also showed a biased Atlantic ITCZ that was displaced south of the observed ITCZ position during boreal winter (Figure \ref{fig:4}), particularly in the low resolution coupled simulations. 
+The East Pacific ITCZ migration and position is relatively well represented by the models (Figs. \ref{fig:3} and \ref{fig:4}). However, the models overestimate the boreal summer rainfall near the coast of Central America (Figure \ref{fig:8}). These biases are associated with an easterly wind bias at low levels, suggesting a bias in the flow from the Caribbean Sea into the Eastern Pacific.
+The simulations also show that the position of the Atlantic ITCZ is biased south of the observed ITCZ  during boreal winter (Figure \ref{fig:4}), particularly in the low-resolution coupled configuration. 
 
-In the Amazon, the simulations showed a warm bias (+2 K) during austral spring and summer, a bias that existed since CMIP5 \citep{jones2013}, and a colder than observed southeastern Brazil.
+The dry Amazon bias persists in these CMIP6 experiments. 
+The simulations show a warm bias (+2 K) during austral spring and summer in the Amazon, a bias that exists since CMIP5 \citep{jones2013}, and a colder than observed southeastern Brazil.
  These biases were linked with decreased cloud cover and less rainfall over the Amazon and more convective clouds and rainfall in southeastern Brazil (Figures \ref{fig:7} and \ref{fig:9}). 
 The low cloud cover, warm and dry Amazon biases are intertwined with the low-level circulation from the Atlantic into the South American continent. The biases in the circulation during austral summer were observed as a northerly flow anomaly over the central and southern Amazon, a feature that has been associated with a stronger moisture transport away from the Amazon \citep{marengo2012,jones2017}. %The coupled simulations (Figure \ref{fig:7}) have a dry bias over the Amazon and a wet bias over southeastern Brazil. 
 
 
-During the period of maximum rainfall rates in February, the simulations overestimate rainfall by 3 mm day$^{-1}$ in southeastern Brazil and underestimate rainfall in the Amazon by a similar rate. The historical experiments show a small drying response to historical forcing in the Amazon therefore slightly increasing the magnitude of this dry bias compared to the unforced piControl experiments.
-The AMIP simulation with the SST biases removed improved the representation of the Atlantic ITCZ and the precipitation, cloud cover and temperature biases over the South American Monsoon.   The improvement in the circulation and precipitation biases in the AMIP simulation suggest that the origin of the dry Amazon bias are the biases in the Atlantic SSTs. 
+During the period of maximum rainfall rates in February, the simulations overestimate rainfall by 3 mm day$^{-1}$ in southeastern Brazil and underestimate rainfall in the Amazon by a similar rate. The historical experiments show a small drying response to historical forcing in the Amazon  but this response is much smaller than the magnitude of the biases, increasing the uncertainty in the response.
+The AMIP simulation improved the representation of the Atlantic ITCZ and the precipitation, cloud cover and temperature biases over the South American Monsoon.   The improvement in the circulation and precipitation biases in the AMIP simulation suggest that the origin of the dry Amazon bias are the biases in the Atlantic SSTs. 
 %The simulated Amazon river basin also had shallower convection (higher 
-
   
-The canonical teleconnection of  temperature, SLP and precipitation in the AMS to ENSO events are well represented in these models. For example, the simulated spatial patterns and strength of the positive (negative) precipitation anomalies observed in northern Mexico and Sout-Eastern South America during El Ni\~no (La Ni\~na) agree well with observations and reanalysis.
- Similarly, the teleconnection to the Amazon is well represented for both phases of ENSO, Despite relevant biases in the mean state of the South American monsoon discussed above. %in the region.  
+The canonical ENSO teleconnections of  temperature, SLP and precipitation in the AMS are well represented in these models. The simulated spatial patterns and strength of the positive (negative) precipitation anomalies observed in northern Mexico and South-Eastern South America during El Ni\~no (La Ni\~na) agree well with observations and reanalysis.
+ Similarly, the teleconnection to the Amazon is well represented for both phases of ENSO, despite the biases in the mean state of the South American monsoon discussed above. %in the region.  
  
-ENSO teleconnections in these simulations were found to be approximately linear, i.e., the precipitation response is linearly related to the magnitude of the SST perturbation in the EN 3.4 region. These experiments also show signs of symmetric teleconnections as positive and negative phases produce the opposite and equivalent precipitation response in the AMS. In contrast to observations and the GC3 AMIP simulation, the precipitation response in the coupled models appears to be independent of the type or flavour of ENSO events, i.e., between Central and East Pacific events. The fact that these models show a reasonable representation of ENSO diversity in SST patterns but the models  do not replicate the observed non-linear dependence to ENSO events warrants further analysis.
+ENSO teleconnections in these simulations were found to be approximately linear, i.e., the precipitation response is linearly related to the magnitude of the SST anomly in the EN3.4 region. These experiments also show symmetric teleconnections as positive and negative phases produce the opposite and equivalent precipitation response in the AMS. In contrast to observations and the GC3 AMIP simulation, the precipitation response in the coupled models appears to be independent of the type or flavour of ENSO events, i.e., between Central and East Pacific events. The fact that these models show a reasonable representation of ENSO diversity in SST patterns but the models  do not replicate the observed non-linear dependence to ENSO events warrants further analysis.
 
-The QBO appears to be a source of non-linearity for ENSO teleconnections to the Amazon. La Niña canonical teleconnections in the Amazon are characterized by a stronger ascent associated with a stronger Walker circulation. This teleconnection pattern occurs in observations and these simulations primarily during the westerly phase of the QBO, whereas the teleconnection during the easterly phase is much weaker and barely different from the climatological mean-state. Whether the stratospheric QBO poses such an important control of the main source of interannual variability (ENSO events) for monsoon rainfall in the Amazon merits a separate chapter of this thesis. 
+The QBO appears to be a source of non-linearity for ENSO teleconnections to the Amazon. La Niña  teleconnections in the Amazon are characterized by a stronger ascent associated with a stronger Walker circulation. The La Niña teleconnection pattern occurs primarily during the westerly phase of the QBO, whereas the teleconnection during the easterly phase is much weaker and barely different from the climatological mean-state. Whether the stratospheric QBO modulates the main source of interannual variability (ENSO events) for monsoon rainfall in the Amazon merits a separate chapter of this thesis (Chapter \ref{ch:7-qbo}). 
 
 The main biases (Fig. \ref{fig:13}) in these experiments are generally smaller in the medium-resolution GC3 N216 compared to the low-resolution experiments (N96), which suggests improved model performance with increased horizontal resolution.
 In contrast, including Earth System processes in the UM model only affects the surface temperature response to historical forcing and not the dynamical biases that drive the precipitation and ITCZ biases. 
-In short, the main dynamical biases in UKESM1 are very similar to those in GC3 N96 as these two models  share the same dynamical core; only when resolution is increased are these biases reduced notably. 
-
-A noteworthy difference between UKESM1 and GC3 is that warming over the historical period in Mexico and the Amazon is higher in UKESM1 than in GC3. In general, UKESM1-hist shows a stronger temperature response to forcing than GC3 N96-hist, as UKESM1 has been reported to have a  greater climate sensitivity than GC3 N96 \citep{andrews2019,sellar2019}.  This differential warming may be a consequence of the land-use change in these regions playing a role in the UKESM1 representation of soil-atmosphere feedbacks. %In short, the main dynamical biases, such as the biased austral summer circulation in South America, are only improved when the resolution is increased, whereas the addition of Earth System processes does not improve dynamical biases that influence the characteristics of rainfall in the AMS. %This results suggets that improvement in monsoon representation is associated with resolution
+ In general, UKESM1-hist shows a stronger temperature response to forcing than GC3 N96-hist, as UKESM1 has been reported to have a  greater climate sensitivity than GC3 N96 \citep{andrews2019,sellar2019}.  This differential warming may be a consequence of the land-use change in these regions playing a role in the UKESM1 representation of soil-atmosphere feedbacks. %In short, the main dynamical biases, such as the biased austral summer circulation in South America, are only improved when the resolution is increased, whereas the addition of Earth System processes does not improve dynamical biases that influence the characteristics of rainfall in the AMS. %This results suggets that improvement in monsoon representation is associated with resolution
 
 
 %The results of this study showed that the medium resolution (GC3 N216) simulation improved upon some of the biases of the lower resolution simulations, such as most of the precipitation biases. %
-The improvement in the medium resolution simulation compared to the low-resolution simulations may  be attributed to the improved dynamics of the ocean or the atmosphere. %associated with relying less on model parametrisations.
+The improvement in the medium-resolution simulation compared to the low-resolution simulations may  be attributed to the improved dynamics of the ocean and the atmosphere. %associated with relying less on model parametrisations.
 For example, the Atlantic ITCZ biases have been shown to be directly affected by processes in the convective scheme \citep{bellucci2010}, such as the treatment of entrainment and moisture-cloud feedbacks \citep{oueslati2013,li2014}. 
 The resolution of the ocean model has been shown to impact the eddy heat flux parametrisation and the associated heat uptake and transport of the ocean  \citep{kuhlbrodt2018}. The improvement in the Atlantic SSTs and ITCZ and the associated dynamics in GC3 N216-pi also improves the associated circulation biases and moisture transport in the South American Monsoon. In other words, the oceanic resolution may play an important role in the cross-equatorial heat and moisture transport which largely control the SST gradients over the equatorial Atlantic. The SST biases in the Atlantic are likely the dominant factor to accurately simulate the spatial distribution of rainfall in South America.
 

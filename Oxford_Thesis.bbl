@@ -900,13 +900,6 @@ Inoue, K. \harvardand\ Back, L.~E.  \harvardyearleft 2015\harvardyearright ,
   of gross moist stability}', {\em Journal of Atmospheric Sciences} {\bf
   72}(11),~4148--4166.
 
-\harvarditem[Inoue et~al.]{Inoue, Biasutti \harvardand\
-  Fridlind}{2021}{inoue2021}
-Inoue, K., Biasutti, M. \harvardand\ Fridlind, A.~M.  \harvardyearleft
-  2021\harvardyearright , `Evidence that horizontal moisture advection
-  regulates the ubiquitous amplification of rainfall variability over tropical
-  oceans', {\em Journal of the Atmospheric Sciences} {\bf 78}(2),~529--547.
-
 \harvarditem[Jain et~al.]{Jain, Naeem, Orlove, Modi \harvardand\
   DeFries}{2015}{jain2015}
 Jain, M., Naeem, S., Orlove, B., Modi, V. \harvardand\ DeFries, R.~S.
@@ -1070,8 +1063,8 @@ Liess, S. \harvardand\ Geller, M.~A.  \harvardyearleft 2012\harvardyearright ,
 \harvarditem[Lim et~al.]{Lim, Son, Marshall, Hendon \harvardand\
   Seo}{2019}{lim2019}
 Lim, Y., Son, S.-W., Marshall, A.~G., Hendon, H.~H. \harvardand\ Seo, K.-H.
-  \harvardyearleft 2019\harvardyearright , `Influence of the {QBO on MJO}
-  prediction skill in the subseasonal-to-seasonal prediction models', {\em
+  \harvardyearleft 2019\harvardyearright , `{Influence of the {QBO on MJO}
+  prediction skill in the subseasonal-to-seasonal prediction models}', {\em
   Climate Dynamics} {\bf 53}(3),~1681--1695.
 
 \harvarditem{Lorenz}{1967}{lorenz1967}
@@ -1207,6 +1200,13 @@ McKenna, S., Santoso, A., Gupta, A.~S., Taschetto, A.~S. \harvardand\ Cai, W.
   CMIP6: characteristics, biases, and links to ENSO}', {\em Scientific reports}
   {\bf 10}(1),~1--13.
 
+\harvarditem[Meehl et~al.]{Meehl, Arblaster \harvardand\
+  Loschnigg}{2003}{meehl2003}
+Meehl, G.~A., Arblaster, J.~M. \harvardand\ Loschnigg, J.  \harvardyearleft
+  2003\harvardyearright , `Coupled ocean--atmosphere dynamical processes in the
+  tropical indian and pacific oceans and the tbo', {\em Journal of Climate}
+  {\bf 16}(13),~2138--2158.
+
 \harvarditem[Menary et~al.]{Menary, Kuhlbrodt, Ridley, Andrews, Dimdore-Miles,
   Deshayes, Eade, Gray, Ineson, Mignot, Roberts, Robson, Wood \harvardand\
   Xavier}{2018}{menary2018}
@@ -1278,11 +1278,6 @@ Neelin, J.~D., Battisti, D.~S., Hirst, A.~C., Jin, F.-F., Wakata, Y., Yamagata,
   `{ENSO theory}', {\em Journal of Geophysical Research: Oceans} {\bf
   103}(C7),~14261--14290.
 
-\harvarditem{Neelin \harvardand\ Held}{1987}{neelin1987modeling}
-Neelin, J.~D. \harvardand\ Held, I.~M.  \harvardyearleft 1987\harvardyearright
-  , `Modeling tropical convergence based on the moist static energy budget',
-  {\em Monthly Weather Review} {\bf 115}(1),~3--12.
-
 \harvarditem{Neelin \harvardand\ Su}{2005}{neelin2005}
 Neelin, J.~D. \harvardand\ Su, H.  \harvardyearleft 2005\harvardyearright ,
   `Moist teleconnection mechanisms for the tropical {South American and
@@ -1335,6 +1330,14 @@ Oueslati, B. \harvardand\ Bellon, G.  \harvardyearleft 2015\harvardyearright ,
   circulation and precipitation}', {\em Climate dynamics} {\bf
   44}(3-4),~585--607.
 
+\harvarditem[O’Neill et~al.]{O’Neill, Kriegler, Ebi, Kemp-Benedict, Riahi,
+  Rothman, van Ruijven, van Vuuren, Birkmann, Kok et~al.}{2017}{o2017roads}
+O’Neill, B.~C., Kriegler, E., Ebi, K.~L., Kemp-Benedict, E., Riahi, K.,
+  Rothman, D.~S., van Ruijven, B.~J., van Vuuren, D.~P., Birkmann, J., Kok, K.
+  et~al.  \harvardyearleft 2017\harvardyearright , `The roads ahead: Narratives
+  for shared socioeconomic pathways describing world futures in the 21st
+  century', {\em Global environmental change} {\bf 42},~169--180.
+
 \harvarditem{Palmer}{2019}{palmer2019st}
 Palmer, T.  \harvardyearleft 2019\harvardyearright , `Stochastic weather and
   climate models', {\em Nature Reviews Physics} {\bf 1}(7),~463--471.
@@ -1367,6 +1370,14 @@ Perdig{\'o}n-Morales, J., Romero-Centeno, R., Ord{\'o}{\~n}ez, P. \harvardand\
   precipitation database}', {\em International Journal of Climatology} {\bf
   38},~2174--2186.
 
+\harvarditem{Pillai \harvardand\ Mohankumar}{2010}{pillai2010}
+Pillai, P.~A. \harvardand\ Mohankumar, K.  \harvardyearleft
+  2010\harvardyearright , `Individual and combined influence of {El
+  Nino--Southern oscillation and Indian Ocea}n dipole on the tropospheric
+  biennial oscillation', {\em Quarterly Journal of the Royal Meteorological
+  Society: A journal of the atmospheric sciences, applied meteorology and
+  physical oceanography} {\bf 136}(647),~297--304.
+
 \harvarditem{Plumb \harvardand\ Bell}{1982}{plumb1982}
 Plumb, R.~A. \harvardand\ Bell, R.~C.  \harvardyearleft 1982\harvardyearright ,
   `A model of the quasi-biennial oscillation on an equatorial beta-plane', {\em
@@ -1379,12 +1390,6 @@ Rauscher, S.~A., Giorgi, F., Diffenbaugh, N.~S. \harvardand\ Seth, A.
   \harvardyearleft 2008\harvardyearright , `{Extension and intensification of
   the Meso-American mid-summer drought in the twenty-first century}', {\em
   Climate Dynamics} {\bf 31},~551--571.
-
-\harvarditem[Raymond et~al.]{Raymond, Sessions, Sobel \harvardand\
-  Fuchs}{2009}{raymond2009}
-Raymond, D.~J., Sessions, S.~L., Sobel, A.~H. \harvardand\ Fuchs, {\v{Z}}.
-  \harvardyearleft 2009\harvardyearright , `The mechanics of gross moist
-  stability', {\em Journal of Advances in Modeling Earth Systems} {\bf 1}(3).
 
 \harvarditem{Reed}{1964}{reed1964}
 Reed, R.  \harvardyearleft 1964\harvardyearright , `A tentative model of the
@@ -1635,12 +1640,6 @@ Tegtmeier, S., Anstey, J., Davis, S., Ivanciu, I., Jia, Y., McPhee, D.
   `{Zonal Asymmetry of the QBO Temperature Signal in the Tropical Tropopause
   Region}', {\em Geophysical Research Letters} {\bf 47}(24),~e2020GL089533.
 \newblock e2020GL089533 2020GL089533.
-
-\harvarditem[Thompson et~al.]{Thompson, Baldwin \harvardand\
-  Solomon}{2005}{thompson2005}
-Thompson, D.~W., Baldwin, M.~P. \harvardand\ Solomon, S.  \harvardyearleft
-  2005\harvardyearright , `Stratosphere--troposphere coupling in the southern
-  hemisphere', {\em Journal of Atmospheric Sciences} {\bf 62}(3),~708--715.
 
 \harvarditem[Trejo et~al.]{Trejo, Barbosa, Pe{\~n}aloza-Murillo, Moreno
   \harvardand\ Far{\'\i}as}{2016}{trejo2016}
