@@ -1,59 +1,71 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Oxford_Thesis.aux
+Reallocating 'name_of_file' (item size: 1) to 5 items.
 The style file: agsm.bst
+Reallocating 'name_of_file' (item size: 1) to 23 items.
 A level-1 auxiliary file: text/abbreviations.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
 A level-1 auxiliary file: text/ch1-intro.aux
+Reallocating 'name_of_file' (item size: 1) to 23 items.
 A level-1 auxiliary file: text/ch2-litreview.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
 A level-1 auxiliary file: text/ch3-methods.aux
+Reallocating 'name_of_file' (item size: 1) to 17 items.
 A level-1 auxiliary file: text/ch4-ams.aux
+Reallocating 'name_of_file' (item size: 1) to 17 items.
 A level-1 auxiliary file: text/ch5-wvt.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
 A level-1 auxiliary file: text/ch-msd.aux
+Reallocating 'name_of_file' (item size: 1) to 17 items.
 A level-1 auxiliary file: text/ch7-qbo.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
 A level-1 auxiliary file: text/ch7-nudging.aux
+Reallocating 'name_of_file' (item size: 1) to 25 items.
 A level-1 auxiliary file: text/ch8-conclusions.aux
-Reallocated field_info (elt_size=4) to 11600 items from 5000.
+Reallocating 'name_of_file' (item size: 1) to 5 items.
+Reallocating 'field_info' (item size: 4) to 11672 items.
 Database file #1: refs.bib
 Warning--can't use both author and editor fields in Xie2007
-You've used 275 entries,
+You've used 278 entries,
             2909 wiz_defined-function locations,
-            2021 strings with 62731 characters,
-and the built_in function-call counts, 2042375 in all, are:
-= -- 337853
-> -- 29714
+            2034 strings with 63334 characters,
+and the built_in function-call counts, 2058366 in all, are:
+= -- 340450
+> -- 29962
 < -- 5
-+ -- 168688
-- -- 9359
-* -- 185391
-:= -- 395501
-add.period$ -- 281
-call.type$ -- 275
-change.case$ -- 3841
-chr.to.int$ -- 272
-cite$ -- 276
-duplicate$ -- 4416
-empty$ -- 9703
-format.name$ -- 10341
-if$ -- 367288
++ -- 169962
+- -- 9436
+* -- 186829
+:= -- 398656
+add.period$ -- 284
+call.type$ -- 278
+change.case$ -- 3883
+chr.to.int$ -- 275
+cite$ -- 279
+duplicate$ -- 4464
+empty$ -- 9810
+format.name$ -- 10426
+if$ -- 370153
 int.to.chr$ -- 8
 int.to.str$ -- 0
-missing$ -- 277
-newline$ -- 845
-num.names$ -- 2920
-pop$ -- 794
+missing$ -- 280
+newline$ -- 855
+num.names$ -- 2952
+pop$ -- 801
 preamble$ -- 1
-purify$ -- 4125
+purify$ -- 4170
 quote$ -- 0
-skip$ -- 3811
+skip$ -- 3851
 stack$ -- 0
-substring$ -- 490719
-swap$ -- 853
-text.length$ -- 3855
+substring$ -- 494452
+swap$ -- 862
+text.length$ -- 3897
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1080
+type$ -- 1092
 warning$ -- 1
-while$ -- 6210
+while$ -- 6279
 width$ -- 0
-write$ -- 3672
+write$ -- 3713
 (There was 1 warning)

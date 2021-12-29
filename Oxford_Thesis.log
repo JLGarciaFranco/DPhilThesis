@@ -1,784 +1,634 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.4.8)  10 NOV 2021 18:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.11.20)  29 DEC 2021 11:03
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**Oxford_Thesis.tex
-(./Oxford_Thesis.tex
-LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 12 language(s) loaded.
-(./ociamthesis_original.cls
+**./Oxford_Thesis.tex
+(Oxford_Thesis.tex
+LaTeX2e <2021-11-15>
+L3 programming layer <2021-11-12> (ociamthesis_original.cls
 Document Class: ociamthesis_original 2015/04/30 Oxford thesis class
-(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
-Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/base/report.cls
+Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
+(/home/jlgf/.miktex/texmfs/install/tex/latex/base/size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count79
-\c@chapter=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
-\abovecaptionskip=\skip41
-\belowcaptionskip=\skip42
-\bibindent=\dimen102
+\c@part=\count183
+\c@chapter=\count184
+\c@section=\count185
+\c@subsection=\count186
+\c@subsubsection=\count187
+\c@paragraph=\count188
+\c@subparagraph=\count189
+\c@figure=\count190
+\c@table=\count191
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
 )
-\singlebaselineskip=\skip43
-\frontmatterbaselineskip=\skip44
-\textbaselineskip=\skip45
+\singlebaselineskip=\skip49
+\frontmatterbaselineskip=\skip50
+\textbaselineskip=\skip51
 
-(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+(/home/jlgf/.miktex/texmfs/install/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box26
-\sift@deathcycles=\count88
-\@vwid@loff=\dimen103
-\@vwid@roff=\dimen104
+\@vwid@box=\box50
+\sift@deathcycles=\count192
+\@vwid@loff=\dimen139
+\@vwid@roff=\dimen140
 )
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2010/09/12 v5.6 Page Geometry
+(/home/jlgf/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+(/home/jlgf/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
+\KV@toks@=\toks16
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-\Gm@cnth=\count89
-\Gm@cntv=\count90
-\c@Gm@tempcnt=\count91
-\Gm@bindingoffset=\dimen105
-\Gm@wd@mp=\dimen106
-\Gm@odd@mp=\dimen107
-\Gm@even@mp=\dimen108
-\Gm@layoutwidth=\dimen109
-\Gm@layoutheight=\dimen110
-\Gm@layouthoffset=\dimen111
-\Gm@layoutvoffset=\dimen112
-\Gm@dimlist=\toks15
-)
-(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
-)
-Package xcolor Info: Driver file: pdftex.def on input line 225.
+(/home/jlgf/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count193
+\Gm@cntv=\count194
+\c@Gm@tempcnt=\count195
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks17
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+(/home/jlgf/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg))
+(/home/jlgf/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count92
-)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
-Package xcolor Info: Model `RGB' extended on input line 1353.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/home/jlgf/.miktex/texmfs/install/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+(/home/jlgf/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 95.
+Package graphics Info: Driver file: pdftex.def on input line 107.
 )
-\Gin@req@height=\dimen113
-\Gin@req@width=\dimen114
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
 )
-(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip46
-\f@ncyO@elh=\skip47
-\f@ncyO@erh=\skip48
-\f@ncyO@olh=\skip49
-\f@ncyO@orh=\skip50
-\f@ncyO@elf=\skip51
-\f@ncyO@erf=\skip52
-\f@ncyO@olf=\skip53
-\f@ncyO@orf=\skip54
+(/home/jlgf/.miktex/texmfs/install/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip52
+\f@nch@O@elh=\skip53
+\f@nch@O@erh=\skip54
+\f@nch@O@olh=\skip55
+\f@nch@O@orh=\skip56
+\f@nch@O@elf=\skip57
+\f@nch@O@erf=\skip58
+\f@nch@O@olf=\skip59
+\f@nch@O@orf=\skip60
 )
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 109.
 
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 110.
 
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
-Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
-\MT@toks=\toks16
-\MT@count=\count93
-LaTeX Info: Redefining \textls on input line 766.
-\MT@outer@kern=\dimen115
-LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
-\MT@listname@count=\count94
+(/home/jlgf/.miktex/texmfs/install/tex/latex/microtype/microtype.sty
+Package: microtype 2021/12/10 v3.0b Micro-typographical refinements (RS)
 
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
-File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count196
+)
+\MT@toks=\toks18
+\MT@count=\count197
+\MT@tempbox=\box51
+LaTeX Info: Redefining \leftprotrusion on input line 1010.
+LaTeX Info: Redefining \rightprotrusion on input line 1018.
+LaTeX Info: Redefining \textls on input line 1173.
+\MT@outer@kern=\dimen151
+LaTeX Info: Redefining \textmicrotypecontext on input line 1759.
+\MT@listname@count=\count198
 
-LaTeX Info: Redefining \lsstyle on input line 915.
-LaTeX Info: Redefining \lslig on input line 915.
-\MT@outer@space=\skip55
+(/home/jlgf/.miktex/texmfs/install/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2021/12/10 v3.0b Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 897.
+LaTeX Info: Redefining \lslig on input line 897.
+\MT@outer@space=\skip61
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
-File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2021/12/10 v3.0b microtype main configuration file (RS)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/units/nicefrac.sty
+(/home/jlgf/.miktex/texmfs/install/tex/latex/units/nicefrac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
-\L@UnitsRaiseDisplaystyle=\skip56
-\L@UnitsRaiseTextstyle=\skip57
-\L@UnitsRaiseScriptstyle=\skip58
+\L@UnitsRaiseDisplaystyle=\skip62
+\L@UnitsRaiseTextstyle=\skip63
+\L@UnitsRaiseScriptstyle=\skip64
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/03/03 v2.15a AMS math features
-\@mathmargin=\skip59
+(/home/jlgf/.miktex/texmfs/install/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip65
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
+(/home/jlgf/.miktex/texmfs/install/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/home/jlgf/.miktex/texmfs/install/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks17
-\ex@=\dimen116
+\@emptytoks=\toks19
+\ex@=\dimen152
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/home/jlgf/.miktex/texmfs/install/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen117
+\pmbraise@=\dimen153
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 1999/12/14 v2.01 operator names
+(/home/jlgf/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
 )
-\inf@bad=\count95
-LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count96
-\leftroot@=\count97
-LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count98
-\DOTSCASE@=\count99
-LaTeX Info: Redefining \ldots on input line 394.
-LaTeX Info: Redefining \dots on input line 397.
-LaTeX Info: Redefining \cdots on input line 518.
-\Mathstrutbox@=\box27
-\strutbox@=\box28
-\big@size=\dimen118
-LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
-\macc@depth=\count100
-\c@MaxMatrixCols=\count101
-\dotsspace@=\muskip10
-\c@parentequation=\count102
-\dspbrk@lvl=\count103
-\tag@help=\toks18
-\row@=\count104
-\column@=\count105
-\maxfields@=\count106
-\andhelp@=\toks19
-\eqnshift@=\dimen119
-\alignsep@=\dimen120
-\tagshift@=\dimen121
-\tagwidth@=\dimen122
-\totwidth@=\dimen123
-\lineht@=\dimen124
-\@envbody=\toks20
-\multlinegap=\skip60
-\multlinetaggap=\skip61
-\mathdisplay@stack=\toks21
-LaTeX Info: Redefining \[ on input line 2735.
-LaTeX Info: Redefining \] on input line 2736.
+\inf@bad=\count199
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count266
+\leftroot@=\count267
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count268
+\DOTSCASE@=\count269
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+\big@size=\dimen154
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count270
+\c@MaxMatrixCols=\count271
+\dotsspace@=\muskip16
+\c@parentequation=\count272
+\dspbrk@lvl=\count273
+\tag@help=\toks20
+\row@=\count274
+\column@=\count275
+\maxfields@=\count276
+\andhelp@=\toks21
+\eqnshift@=\dimen155
+\alignsep@=\dimen156
+\tagshift@=\dimen157
+\tagwidth@=\dimen158
+\totwidth@=\dimen159
+\lineht@=\dimen160
+\@envbody=\toks22
+\multlinegap=\skip66
+\multlinetaggap=\skip67
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/home/jlgf/.miktex/texmfs/install/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/home/jlgf/.miktex/texmfs/install/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
-Package textcomp Info: Sub-encoding information:
-(textcomp)               5 = only ISO-Adobe without \textcurrency
-(textcomp)               4 = 5 + \texteuro
-(textcomp)               3 = 4 + \textohm
-(textcomp)               2 = 3 + \textestimated + \textcurrency
-(textcomp)               1 = TS1 - \textcircled - \t
-(textcomp)               0 = TS1 (full)
-(textcomp)             Font families with sub-encoding setting implement
-(textcomp)             only a restricted character set as indicated.
-(textcomp)             Family '?' is the default used for unknown fonts.
-(textcomp)             See the documentation for details.
-Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+(/home/jlgf/.miktex/texmfs/install/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/tools/longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip68
+\LTright=\skip69
+\LTpre=\skip70
+\LTpost=\skip71
+\LTchunksize=\count277
+\LTcapwidth=\dimen161
+\LT@head=\box54
+\LT@firsthead=\box55
+\LT@foot=\box56
+\LT@lastfoot=\box57
+\LT@gbox=\box58
+\LT@cols=\count278
+\LT@rows=\count279
+\c@LT@tables=\count280
+\c@LT@chunks=\count281
+\LT@p@ftn=\toks24
+)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
-File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+(/home/jlgf/.miktex/texmfs/install/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen162
+\captionmargin@=\dimen163
+\captionwidth=\dimen164
+\caption@tempdima=\dimen165
+\caption@indent=\dimen166
+\caption@parindent=\dimen167
+\caption@hangindent=\dimen168
+Package caption Info: Standard document class detected.
 )
-LaTeX Info: Redefining \oldstylenums on input line 334.
-Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
-Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
-Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
-Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
-Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
-Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
-Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
-Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
-Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
-Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
-Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
-Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
-Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
-Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
-Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
-Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
-Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
-Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
-Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
-Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
-Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
-Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
-Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
-Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
-
-Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
-Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
-Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
-Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
-Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
-Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
-Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
-Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
-Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
-Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
-Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
-Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
-Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
-Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
-Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
-Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
-Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
-Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
-Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
-Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
-Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
-Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
-Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
-Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
-Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
-Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
-Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
-Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
-Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
-Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
-Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
-Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
-Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
-Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
-Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
-Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
-Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip62
-\LTright=\skip63
-\LTpre=\skip64
-\LTpost=\skip65
-\LTchunksize=\count107
-\LTcapwidth=\dimen125
-\LT@head=\box29
-\LT@firsthead=\box30
-\LT@foot=\box31
-\LT@lastfoot=\box32
-\LT@cols=\count108
-\LT@rows=\count109
-\c@LT@tables=\count110
-\c@LT@chunks=\count111
-\LT@p@ftn=\toks22
-)
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen126
-\captionmargin@=\dimen127
-\captionwidth=\dimen128
-\caption@tempdima=\dimen129
-\caption@indent=\dimen130
-\caption@parindent=\dimen131
-\caption@hangindent=\dimen132
-)
-\c@ContinuedFloat=\count112
+\c@caption@flags=\count282
+\c@continuedfloat=\count283
 Package caption Info: longtable package is loaded.
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
-Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
-\c@tracingmulticols=\count113
-\mult@box=\box33
-\multicol@leftmargin=\dimen133
-\c@unbalance=\count114
-\c@collectmore=\count115
-\doublecol@number=\count116
-\multicoltolerance=\count117
-\multicolpretolerance=\count118
-\full@width=\dimen134
-\page@free=\dimen135
-\premulticols=\dimen136
-\postmulticols=\dimen137
-\multicolsep=\skip66
-\multicolbaselineskip=\skip67
-\partial@page=\box34
-\last@line=\box35
-\maxbalancingoverflow=\dimen138
-\mult@rightbox=\box36
-\mult@grightbox=\box37
-\mult@gfirstbox=\box38
-\mult@firstbox=\box39
-\@tempa=\box40
-\@tempa=\box41
-\@tempa=\box42
-\@tempa=\box43
-\@tempa=\box44
-\@tempa=\box45
-\@tempa=\box46
-\@tempa=\box47
-\@tempa=\box48
-\@tempa=\box49
-\@tempa=\box50
-\@tempa=\box51
-\@tempa=\box52
-\@tempa=\box53
-\@tempa=\box54
-\@tempa=\box55
-\@tempa=\box56
-\c@columnbadness=\count119
-\c@finalcolumnbadness=\count120
-\last@try=\dimen139
-\multicolovershoot=\dimen140
-\multicolundershoot=\dimen141
-\mult@nat@firstbox=\box57
-\colbreak@box=\box58
-\mc@col@check@num=\count121
+(/home/jlgf/.miktex/texmfs/install/tex/latex/tools/multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count284
+\mult@box=\box59
+\multicol@leftmargin=\dimen169
+\c@unbalance=\count285
+\c@collectmore=\count286
+\doublecol@number=\count287
+\multicoltolerance=\count288
+\multicolpretolerance=\count289
+\full@width=\dimen170
+\page@free=\dimen171
+\premulticols=\dimen172
+\postmulticols=\dimen173
+\multicolsep=\skip72
+\multicolbaselineskip=\skip73
+\partial@page=\box60
+\last@line=\box61
+\maxbalancingoverflow=\dimen174
+\mult@rightbox=\box62
+\mult@grightbox=\box63
+\mult@firstbox=\box64
+\mult@gfirstbox=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\c@minrows=\count290
+\c@columnbadness=\count291
+\c@finalcolumnbadness=\count292
+\last@try=\dimen175
+\multicolovershoot=\dimen176
+\multicolundershoot=\dimen177
+\mult@nat@firstbox=\box102
+\colbreak@box=\box103
+\mc@col@check@num=\count293
 )
-(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen142
+(/home/jlgf/.miktex/texmfs/install/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip74
+\multirow@cntb=\count294
+\multirow@dima=\skip75
+\bigstrutjot=\dimen178
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen143
-\extrarowheight=\dimen144
-\NC@list=\toks23
-\extratabsurround=\skip68
-\backup@length=\skip69
+(/home/jlgf/.miktex/texmfs/install/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen179
+\ar@mcellbox=\box104
+\extrarowheight=\dimen180
+\NC@list=\toks25
+\extratabsurround=\skip76
+\backup@length=\skip77
+\ar@cellbox=\box105
 )
-(/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
-Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
-\c@r@tfl@t=\count122
-\rotFPtop=\skip70
-\rotFPbot=\skip71
-\rot@float@box=\box59
-\rot@mess@toks=\toks24
+(/home/jlgf/.miktex/texmfs/install/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count295
+\rotFPtop=\skip78
+\rotFPbot=\skip79
+\rot@float@box=\box106
+\rot@mess@toks=\toks26
 )
-(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
-Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen145
-\lightrulewidth=\dimen146
-\cmidrulewidth=\dimen147
-\belowrulesep=\dimen148
-\belowbottomsep=\dimen149
-\aboverulesep=\dimen150
-\abovetopsep=\dimen151
-\cmidrulesep=\dimen152
-\cmidrulekern=\dimen153
-\defaultaddspace=\dimen154
-\@cmidla=\count123
-\@cmidlb=\count124
-\@aboverulesep=\dimen155
-\@belowrulesep=\dimen156
-\@thisruleclass=\count125
-\@lastruleclass=\count126
-\@thisrulewidth=\dimen157
+(/home/jlgf/.miktex/texmfs/install/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen181
+\lightrulewidth=\dimen182
+\cmidrulewidth=\dimen183
+\belowrulesep=\dimen184
+\belowbottomsep=\dimen185
+\aboverulesep=\dimen186
+\abovetopsep=\dimen187
+\cmidrulesep=\dimen188
+\cmidrulekern=\dimen189
+\defaultaddspace=\dimen190
+\@cmidla=\count296
+\@cmidlb=\count297
+\@aboverulesep=\dimen191
+\@belowrulesep=\dimen192
+\@thisruleclass=\count298
+\@lastruleclass=\count299
+\@thisrulewidth=\dimen193
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2015/09/18 v0.5d Insert pages of external PDF documents (AM)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2021/03/06 v0.5t Insert pages of external PDF documents (AM)
 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count127
-\calc@Bcount=\count128
-\calc@Adimen=\dimen158
-\calc@Bdimen=\dimen159
-\calc@Askip=\skip72
-\calc@Bskip=\skip73
+(/home/jlgf/.miktex/texmfs/install/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count300
+\calc@Bcount=\count301
+\calc@Adimen=\dimen194
+\calc@Bdimen=\dimen195
+\calc@Askip=\skip80
+\calc@Bskip=\skip81
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count129
-\calc@Cskip=\skip74
+\calc@Ccount=\count302
+\calc@Cskip=\skip82
 )
-(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen196
+\ESO@tempdimb=\dimen197
+)
+\AM@pagewidth=\dimen198
+\AM@pageheight=\dimen199
+\AM@fboxrule=\dimen256
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
-Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2021/03/06 v0.5t Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count303
+\AM@pagebox=\box107
+\AM@global@opts=\toks27
+\AM@pagecnt=\count304
+\AM@toc@title=\toks28
+\c@AM@survey=\count305
+\AM@templatesizebox=\box108
+)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/l3packages/xfrac/xfrac.sty
+(/home/jlgf/.miktex/texmfs/install/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-11-12 L3 programming layer (loader) 
+
+(/home/jlgf/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count306
+\l__pdf_internal_box=\box109
 ))
-\AM@pagewidth=\dimen160
-\AM@pageheight=\dimen161
-
-(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
-File: pppdftex.def 2015/09/18 v0.5d Pdfpages driver for pdfTeX (AM)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2021-11-12 LaTeX2e option processing using LaTeX3 keys
 )
-\AM@pagebox=\box60
-\AM@toc@title=\toks25
-\c@AM@survey=\count130
-\AM@templatesizebox=\box61
+(/home/jlgf/.miktex/texmfs/install/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2021-11-12 L3 Experimental document command parser
 )
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xfrac/xfrac.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2016/01/19 v6377 L3 programming layer (loader) 
-
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2016/01/19 v6377 L3 programming layer (code)
-L3 Module: l3bootstrap 2016/01/01 v6339 L3 Bootstrap code
-L3 Module: l3names 2015/12/21 v6328 L3 Namespace for primitives
-L3 Module: l3basics 2015/11/22 v6315 L3 Basic definitions
-L3 Module: l3expan 2015/09/10 v5983 L3 Argument expansion
-L3 Module: l3tl 2015/09/29 v6121 L3 Token lists
-L3 Module: l3str 2016/01/03 v6357 L3 Strings
-L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
-L3 Module: l3int 2016/01/05 v6366 L3 Integers
-\c_max_int=\count131
-\l_tmpa_int=\count132
-\l_tmpb_int=\count133
-\g_tmpa_int=\count134
-\g_tmpb_int=\count135
-L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
-L3 Module: l3prg 2015/11/01 v6216 L3 Control structures
-\g__prg_map_int=\count136
-L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
-L3 Module: l3token 2015/11/11 v6249 L3 Experimental token manipulation
-L3 Module: l3prop 2016/01/05 v6366 L3 Property lists
-L3 Module: l3msg 2015/09/28 v6113 L3 Messages
-L3 Module: l3file 2015/12/03 v6317 L3 File and I/O operations
-\l_iow_line_count_int=\count137
-\l__iow_target_count_int=\count138
-\l__iow_current_line_int=\count139
-\l__iow_current_word_int=\count140
-\l__iow_current_indentation_int=\count141
-L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
-\c_zero_dim=\dimen162
-\c_max_dim=\dimen163
-\l_tmpa_dim=\dimen164
-\l_tmpb_dim=\dimen165
-\g_tmpa_dim=\dimen166
-\g_tmpb_dim=\dimen167
-\c_zero_skip=\skip75
-\c_max_skip=\skip76
-\l_tmpa_skip=\skip77
-\l_tmpb_skip=\skip78
-\g_tmpa_skip=\skip79
-\g_tmpb_skip=\skip80
-\c_zero_muskip=\muskip11
-\c_max_muskip=\muskip12
-\l_tmpa_muskip=\muskip13
-\l_tmpb_muskip=\muskip14
-\g_tmpa_muskip=\muskip15
-\g_tmpb_muskip=\muskip16
-L3 Module: l3keys 2015/11/17 v6284 L3 Key-value interfaces
-\g__keyval_level_int=\count142
-\l_keys_choice_int=\count143
-L3 Module: l3fp 2015/08/25 v5890 L3 Floating points
-\c__fp_leading_shift_int=\count144
-\c__fp_middle_shift_int=\count145
-\c__fp_trailing_shift_int=\count146
-\c__fp_big_leading_shift_int=\count147
-\c__fp_big_middle_shift_int=\count148
-\c__fp_big_trailing_shift_int=\count149
-\c__fp_Bigg_leading_shift_int=\count150
-\c__fp_Bigg_middle_shift_int=\count151
-\c__fp_Bigg_trailing_shift_int=\count152
-L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
-\c_empty_box=\box62
-\l_tmpa_box=\box63
-\l_tmpb_box=\box64
-\g_tmpa_box=\box65
-\g_tmpb_box=\box66
-L3 Module: l3coffins 2015/08/06 v5789 L3 Coffin code layer
-\l__coffin_internal_box=\box67
-\l__coffin_internal_dim=\dimen168
-\l__coffin_offset_x_dim=\dimen169
-\l__coffin_offset_y_dim=\dimen170
-\l__coffin_x_dim=\dimen171
-\l__coffin_y_dim=\dimen172
-\l__coffin_x_prime_dim=\dimen173
-\l__coffin_y_prime_dim=\dimen174
-\c_empty_coffin=\box68
-\l__coffin_aligned_coffin=\box69
-\l__coffin_aligned_internal_coffin=\box70
-\l_tmpa_coffin=\box71
-\l_tmpb_coffin=\box72
-\l__coffin_display_coffin=\box73
-\l__coffin_display_coord_coffin=\box74
-\l__coffin_display_pole_coffin=\box75
-\l__coffin_display_offset_dim=\dimen175
-\l__coffin_display_x_dim=\dimen176
-\l__coffin_display_y_dim=\dimen177
-L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
-L3 Module: l3sys 2015/09/25 v6087 L3 Experimental system/runtime functions
-L3 Module: l3candidates 2016/01/14 v6376 L3 Experimental additions to l3kernel
-\l__box_top_dim=\dimen178
-\l__box_bottom_dim=\dimen179
-\l__box_left_dim=\dimen180
-\l__box_right_dim=\dimen181
-\l__box_top_new_dim=\dimen182
-\l__box_bottom_new_dim=\dimen183
-\l__box_left_new_dim=\dimen184
-\l__box_right_new_dim=\dimen185
-\l__box_internal_box=\box76
-\l__coffin_bounding_shift_dim=\dimen186
-\l__coffin_left_corner_dim=\dimen187
-\l__coffin_right_corner_dim=\dimen188
-\l__coffin_bottom_corner_dim=\dimen189
-\l__coffin_top_corner_dim=\dimen190
-\l__coffin_scaled_total_height_dim=\dimen191
-\l__coffin_scaled_width_dim=\dimen192
-L3 Module: l3luatex 2015/11/11 v6250 L3 Experimental LuaTeX-specific functions
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
-File: l3pdfmode.def 2015/11/11 v6250 L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count153
-))
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2016/01/19 v6377 LaTeX2e option processing using LaTeX3 keys
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2016/01/19 v6377 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count154
-\l__xparse_m_args_int=\count155
-\l__xparse_mandatory_args_int=\count156
-\l__xparse_processor_int=\count157
-\l__xparse_v_nesting_int=\count158
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
-Package: xtemplate 2016/01/19 v6377 L3 Experimental prototype document function
-s
-\l__xtemplate_tmp_dim=\dimen193
-\l__xtemplate_tmp_int=\count159
+(/home/jlgf/.miktex/texmfs/install/tex/latex/l3packages/xtemplate/xtemplate.sty
+Package: xtemplate 2021-11-12 L3 Experimental prototype document functions
+\l__xtemplate_tmp_dim=\dimen257
+\l__xtemplate_tmp_int=\count307
 \l__xtemplate_tmp_muskip=\muskip17
-\l__xtemplate_tmp_skip=\skip81
+\l__xtemplate_tmp_skip=\skip83
 )
-Package: xfrac 2016/01/19 v6377 L3 Experimental split-level fractions
-\l__xfrac_slash_box=\box77
-\l__xfrac_tmp_box=\box78
-\l__xfrac_denominator_bot_sep_dim=\dimen194
-\l__xfrac_numerator_bot_sep_dim=\dimen195
-\l__xfrac_numerator_top_sep_dim=\dimen196
-\l__xfrac_slash_left_sep_dim=\dimen197
-\l__xfrac_slash_right_sep_dim=\dimen198
+Package: xfrac 2021-11-12 L3 Experimental split-level fractions
+\l__xfrac_slash_box=\box110
+\l__xfrac_tmp_box=\box111
+\l__xfrac_denominator_bot_sep_dim=\dimen258
+\l__xfrac_numerator_bot_sep_dim=\dimen259
+\l__xfrac_numerator_top_sep_dim=\dimen260
+\l__xfrac_slash_left_sep_dim=\dimen261
+\l__xfrac_slash_right_sep_dim=\dimen262
 \l__xfrac_slash_left_muskip=\muskip18
 \l__xfrac_slash_right_muskip=\muskip19
-.................................................
-. xtemplate info: "declare-object-type"
-. 
-. Declaring object type 'xfrac' taking 3 argument(s) on line 111.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \sfrac with sig. 'omom' on line 451.
-.................................................
+
+Package xtemplate Info: Declaring object type 'xfrac' taking 3 argument(s) on
+(xtemplate)             line 80.
+
+) (/home/jlgf/.miktex/texmfs/install/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip84
+\enit@outerparindent=\dimen263
+\enit@toks=\toks29
+\enit@inbox=\box112
+\enit@count@id=\count308
+\enitdp@description=\count309
 )
-(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
-Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip82
-\enit@outerparindent=\dimen199
-\enit@toks=\toks26
-\enit@inbox=\box79
-\enitdp@description=\count160
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/dcolumn.sty
+(/home/jlgf/.miktex/texmfs/install/tex/latex/tools/dcolumn.sty
 Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
-Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count161
-\c@@ppsavesec=\count162
-\c@@ppsaveapp=\count163
+(/home/jlgf/.miktex/texmfs/install/tex/latex/appendix/appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count310
+\c@@ppsavesec=\count311
+\c@@ppsaveapp=\count312
 )
-(/usr/share/texlive/texmf-dist/tex/latex/notoccite/notoccite.sty
+(/home/jlgf/.miktex/texmfs/install/tex/latex/notoccite/notoccite.sty
 Package: notoccite 2000/07/20
 )
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+(/home/jlgf/.miktex/texmfs/install/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
-
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-Package hobsub Info: Skipping package `ifvtex' (already loaded).
-Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
-Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+(/home/jlgf/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-Package pdftexcmds Info: LuaTeX not detected.
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/home/jlgf/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
 )
-Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
-Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )
-Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
-Package: xcolor-patch 2011/01/30 xcolor patch
-Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
-Package hobsub Info: Skipping package `atbegshi' (already loaded).
-Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
-Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
-Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-\@linkdim=\dimen256
-\Hy@linkcounter=\count164
-\Hy@pagecounter=\count165
+(/home/jlgf/.miktex/texmfs/install/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen264
+\Hy@linkcounter=\count313
+\Hy@pagecounter=\count314
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count166
+(/home/jlgf/.miktex/texmfs/install/tex/latex/hyperref/hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
+nguages
+) (/home/jlgf/.miktex/texmfs/install/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count315
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+(/home/jlgf/.miktex/texmfs/install/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `colorlinks' set `false' on input line 4319.
-Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4319.
-Package hyperref Info: Hyper figures OFF on input line 4443.
-Package hyperref Info: Link nesting OFF on input line 4448.
-Package hyperref Info: Hyper index ON on input line 4451.
-Package hyperref Info: Plain pages OFF on input line 4458.
-Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Option `colorlinks' set `false' on input line 4073.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4073.
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count167
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count316
 
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+(/home/jlgf/.miktex/texmfs/install/tex/latex/url/url.sty
 \Urlmuskip=\muskip20
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen257
-\Fld@menulength=\count168
-\Field@Width=\dimen258
-\Fld@charsize=\dimen259
-Package hyperref Info: Hyper figures OFF on input line 6295.
-Package hyperref Info: Link nesting OFF on input line 6300.
-Package hyperref Info: Hyper index ON on input line 6303.
-Package hyperref Info: backreferencing OFF on input line 6310.
-Package hyperref Info: Link coloring OFF on input line 6315.
-Package hyperref Info: Link coloring with OCG OFF on input line 6320.
-Package hyperref Info: PDF/A mode OFF on input line 6325.
-LaTeX Info: Redefining \ref on input line 6365.
-LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count169
-\c@Item=\count170
-\c@Hfootnote=\count171
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen265
+
+(/home/jlgf/.miktex/texmfs/install/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/home/jlgf/.miktex/texmfs/install/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
+))
+\Fld@menulength=\count317
+\Field@Width=\dimen266
+\Fld@charsize=\dimen267
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring OFF on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
 
-Package hyperref Message: Driver (autodetected): hpdftex.
+(/home/jlgf/.miktex/texmfs/install/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count318
+\c@Item=\count319
+\c@Hfootnote=\count320
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count172
-\c@bookmark@seq@number=\count173
+(/home/jlgf/.miktex/texmfs/install/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count321
+\c@bookmark@seq@number=\count322
+
+(/home/jlgf/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/home/jlgf/.miktex/texmfs/install/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
+86.
 )
-\Hy@SectionHShift=\skip83
-)
-(/usr/share/texlive/texmf-dist/tex/latex/minitoc/minitoc.sty
-Package: minitoc 2015/07/13 v61 Package minitoc
+\Hy@SectionHShift=\skip85
+) (/home/jlgf/.miktex/texmfs/install/tex/latex/minitoc/minitoc.sty
+Package: minitoc 2018/07/12 v62 Package minitoc
 
-(/usr/share/texlive/texmf-dist/tex/latex/minitoc/mtcmess.sty
+(/home/jlgf/.miktex/texmfs/install/tex/latex/minitoc/mtcmess.sty
 Package: mtcmess 2006/03/14
 )
 Package minitoc Info: I0001
-(minitoc)             *** minitoc package, version 61 ***.
+(minitoc)             *** minitoc package, version 62 ***.
 \tf@mtc=\write3
-\mtcindent=\skip84
-\mtcskipamount=\skip85
+\mtcindent=\skip86
+\mtcskipamount=\skip87
 Package minitoc Info: I0005
 (minitoc)             compatible with hyperref.
 Package minitoc Info: I0023
 (minitoc)             part level macros available.
 Package minitoc Info: I0003
 (minitoc)             chapter level macros available.
-\mtc@toks=\toks27
-\mtc@strutbox=\box80
-\mtc@hstrutbox=\box81
+\mtc@toks=\toks30
+\mtc@strutbox=\box113
+\mtc@hstrutbox=\box114
 Package minitoc Info: I0002
 (minitoc)             Autoconfiguration of extensions.
 \openout3 = `Oxford_Thesis.mtc0'.
@@ -786,7 +636,7 @@ Package minitoc Info: I0002
 \openout3 = `Oxford_Thesis.mtc'.
 
 
-(./Oxford_Thesis.mtc0)
+(Oxford_Thesis.mtc0)
 Package minitoc Info: I0012
 (minitoc)             Long extensions (Unix-like) will be used.
 Package minitoc Info: I0031
@@ -796,33 +646,33 @@ Package minitoc Info: I0031
 
 \openout3 = `Oxford_Thesis.mtc0'.
 
-\c@mtc=\count174
-\c@minitocdepth=\count175
-\c@ptc=\count176
-\c@parttocdepth=\count177
-\ptcindent=\skip86
+\c@mtc=\count323
+\c@minitocdepth=\count324
+\c@ptc=\count325
+\c@parttocdepth=\count326
+\ptcindent=\skip88
 Package minitoc Info: I0010
 (minitoc)             The english language is selected.
-(minitoc)              on input line 4909.
+(minitoc)              on input line 4910.
 
-(/usr/share/texlive/texmf-dist/tex/latex/minitoc/english.mld
+(/home/jlgf/.miktex/texmfs/install/tex/latex/minitoc/english.mld
 File: english.mld 2006/01/13
 )
-(/usr/share/texlive/texmf-dist/tex/latex/minitoc/english.mld
+(/home/jlgf/.miktex/texmfs/install/tex/latex/minitoc/english.mld
 File: english.mld 2006/01/13
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/quotchap/quotchap.sty
-Package: quotchap 2012/10/20 v1.1 Decorative Chapter Headings with Quotes
-\@quotebox=\box82
+(/home/jlgf/.miktex/texmfs/install/tex/latex/quotchap/quotchap.sty
+Package: quotchap 2020/11/13 v1.3 Decorative Chapter Headings with Quotes
+\@quotebox=\box115
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+(/home/jlgf/.miktex/texmfs/install/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
 
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
-) (/usr/share/texmf/tex/latex/lm/lmodern.sty
+) (/home/jlgf/.miktex/texmfs/install/tex/latex/lm/lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -857,405 +707,16 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+(/home/jlgf/.miktex/texmfs/install/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 
-(/usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/lgrenc.def
-File: lgrenc.def 2015/12/07 v0.13.1 LGR Greek font encoding definitions
-
-(/usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
-File: greek-fontenc.def 2015/08/04 v0.13 Common Greek font encoding definitions
-
-))
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
-File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-))
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks28
-\inpenc@posthook=\toks29
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2015/12/03 v1.1r UTF-8 support for inputenc
-Now handling font encoding OML ...
-... no UTF-8 mapping file for font encoding OML
-Now handling font encoding T1 ...
-... processing UTF-8 mapping file for font encoding T1
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AB (decimal 171)
-   defining Unicode char U+00AD (decimal 173)
-   defining Unicode char U+00BB (decimal 187)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C0 (decimal 192)
-   defining Unicode char U+00C1 (decimal 193)
-   defining Unicode char U+00C2 (decimal 194)
-   defining Unicode char U+00C3 (decimal 195)
-   defining Unicode char U+00C4 (decimal 196)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00C7 (decimal 199)
-   defining Unicode char U+00C8 (decimal 200)
-   defining Unicode char U+00C9 (decimal 201)
-   defining Unicode char U+00CA (decimal 202)
-   defining Unicode char U+00CB (decimal 203)
-   defining Unicode char U+00CC (decimal 204)
-   defining Unicode char U+00CD (decimal 205)
-   defining Unicode char U+00CE (decimal 206)
-   defining Unicode char U+00CF (decimal 207)
-   defining Unicode char U+00D0 (decimal 208)
-   defining Unicode char U+00D1 (decimal 209)
-   defining Unicode char U+00D2 (decimal 210)
-   defining Unicode char U+00D3 (decimal 211)
-   defining Unicode char U+00D4 (decimal 212)
-   defining Unicode char U+00D5 (decimal 213)
-   defining Unicode char U+00D6 (decimal 214)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00D9 (decimal 217)
-   defining Unicode char U+00DA (decimal 218)
-   defining Unicode char U+00DB (decimal 219)
-   defining Unicode char U+00DC (decimal 220)
-   defining Unicode char U+00DD (decimal 221)
-   defining Unicode char U+00DE (decimal 222)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E0 (decimal 224)
-   defining Unicode char U+00E1 (decimal 225)
-   defining Unicode char U+00E2 (decimal 226)
-   defining Unicode char U+00E3 (decimal 227)
-   defining Unicode char U+00E4 (decimal 228)
-   defining Unicode char U+00E5 (decimal 229)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00E7 (decimal 231)
-   defining Unicode char U+00E8 (decimal 232)
-   defining Unicode char U+00E9 (decimal 233)
-   defining Unicode char U+00EA (decimal 234)
-   defining Unicode char U+00EB (decimal 235)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F0 (decimal 240)
-   defining Unicode char U+00F1 (decimal 241)
-   defining Unicode char U+00F2 (decimal 242)
-   defining Unicode char U+00F3 (decimal 243)
-   defining Unicode char U+00F4 (decimal 244)
-   defining Unicode char U+00F5 (decimal 245)
-   defining Unicode char U+00F6 (decimal 246)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+00F9 (decimal 249)
-   defining Unicode char U+00FA (decimal 250)
-   defining Unicode char U+00FB (decimal 251)
-   defining Unicode char U+00FC (decimal 252)
-   defining Unicode char U+00FD (decimal 253)
-   defining Unicode char U+00FE (decimal 254)
-   defining Unicode char U+00FF (decimal 255)
-   defining Unicode char U+0100 (decimal 256)
-   defining Unicode char U+0101 (decimal 257)
-   defining Unicode char U+0102 (decimal 258)
-   defining Unicode char U+0103 (decimal 259)
-   defining Unicode char U+0104 (decimal 260)
-   defining Unicode char U+0105 (decimal 261)
-   defining Unicode char U+0106 (decimal 262)
-   defining Unicode char U+0107 (decimal 263)
-   defining Unicode char U+0108 (decimal 264)
-   defining Unicode char U+0109 (decimal 265)
-   defining Unicode char U+010A (decimal 266)
-   defining Unicode char U+010B (decimal 267)
-   defining Unicode char U+010C (decimal 268)
-   defining Unicode char U+010D (decimal 269)
-   defining Unicode char U+010E (decimal 270)
-   defining Unicode char U+010F (decimal 271)
-   defining Unicode char U+0110 (decimal 272)
-   defining Unicode char U+0111 (decimal 273)
-   defining Unicode char U+0112 (decimal 274)
-   defining Unicode char U+0113 (decimal 275)
-   defining Unicode char U+0114 (decimal 276)
-   defining Unicode char U+0115 (decimal 277)
-   defining Unicode char U+0116 (decimal 278)
-   defining Unicode char U+0117 (decimal 279)
-   defining Unicode char U+0118 (decimal 280)
-   defining Unicode char U+0119 (decimal 281)
-   defining Unicode char U+011A (decimal 282)
-   defining Unicode char U+011B (decimal 283)
-   defining Unicode char U+011C (decimal 284)
-   defining Unicode char U+011D (decimal 285)
-   defining Unicode char U+011E (decimal 286)
-   defining Unicode char U+011F (decimal 287)
-   defining Unicode char U+0120 (decimal 288)
-   defining Unicode char U+0121 (decimal 289)
-   defining Unicode char U+0122 (decimal 290)
-   defining Unicode char U+0123 (decimal 291)
-   defining Unicode char U+0124 (decimal 292)
-   defining Unicode char U+0125 (decimal 293)
-   defining Unicode char U+0128 (decimal 296)
-   defining Unicode char U+0129 (decimal 297)
-   defining Unicode char U+012A (decimal 298)
-   defining Unicode char U+012B (decimal 299)
-   defining Unicode char U+012C (decimal 300)
-   defining Unicode char U+012D (decimal 301)
-   defining Unicode char U+012E (decimal 302)
-   defining Unicode char U+012F (decimal 303)
-   defining Unicode char U+0130 (decimal 304)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0132 (decimal 306)
-   defining Unicode char U+0133 (decimal 307)
-   defining Unicode char U+0134 (decimal 308)
-   defining Unicode char U+0135 (decimal 309)
-   defining Unicode char U+0136 (decimal 310)
-   defining Unicode char U+0137 (decimal 311)
-   defining Unicode char U+0139 (decimal 313)
-   defining Unicode char U+013A (decimal 314)
-   defining Unicode char U+013B (decimal 315)
-   defining Unicode char U+013C (decimal 316)
-   defining Unicode char U+013D (decimal 317)
-   defining Unicode char U+013E (decimal 318)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0143 (decimal 323)
-   defining Unicode char U+0144 (decimal 324)
-   defining Unicode char U+0145 (decimal 325)
-   defining Unicode char U+0146 (decimal 326)
-   defining Unicode char U+0147 (decimal 327)
-   defining Unicode char U+0148 (decimal 328)
-   defining Unicode char U+014A (decimal 330)
-   defining Unicode char U+014B (decimal 331)
-   defining Unicode char U+014C (decimal 332)
-   defining Unicode char U+014D (decimal 333)
-   defining Unicode char U+014E (decimal 334)
-   defining Unicode char U+014F (decimal 335)
-   defining Unicode char U+0150 (decimal 336)
-   defining Unicode char U+0151 (decimal 337)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0154 (decimal 340)
-   defining Unicode char U+0155 (decimal 341)
-   defining Unicode char U+0156 (decimal 342)
-   defining Unicode char U+0157 (decimal 343)
-   defining Unicode char U+0158 (decimal 344)
-   defining Unicode char U+0159 (decimal 345)
-   defining Unicode char U+015A (decimal 346)
-   defining Unicode char U+015B (decimal 347)
-   defining Unicode char U+015C (decimal 348)
-   defining Unicode char U+015D (decimal 349)
-   defining Unicode char U+015E (decimal 350)
-   defining Unicode char U+015F (decimal 351)
-   defining Unicode char U+0160 (decimal 352)
-   defining Unicode char U+0161 (decimal 353)
-   defining Unicode char U+0162 (decimal 354)
-   defining Unicode char U+0163 (decimal 355)
-   defining Unicode char U+0164 (decimal 356)
-   defining Unicode char U+0165 (decimal 357)
-   defining Unicode char U+0168 (decimal 360)
-   defining Unicode char U+0169 (decimal 361)
-   defining Unicode char U+016A (decimal 362)
-   defining Unicode char U+016B (decimal 363)
-   defining Unicode char U+016C (decimal 364)
-   defining Unicode char U+016D (decimal 365)
-   defining Unicode char U+016E (decimal 366)
-   defining Unicode char U+016F (decimal 367)
-   defining Unicode char U+0170 (decimal 368)
-   defining Unicode char U+0171 (decimal 369)
-   defining Unicode char U+0172 (decimal 370)
-   defining Unicode char U+0173 (decimal 371)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0178 (decimal 376)
-   defining Unicode char U+0179 (decimal 377)
-   defining Unicode char U+017A (decimal 378)
-   defining Unicode char U+017B (decimal 379)
-   defining Unicode char U+017C (decimal 380)
-   defining Unicode char U+017D (decimal 381)
-   defining Unicode char U+017E (decimal 382)
-   defining Unicode char U+01CD (decimal 461)
-   defining Unicode char U+01CE (decimal 462)
-   defining Unicode char U+01CF (decimal 463)
-   defining Unicode char U+01D0 (decimal 464)
-   defining Unicode char U+01D1 (decimal 465)
-   defining Unicode char U+01D2 (decimal 466)
-   defining Unicode char U+01D3 (decimal 467)
-   defining Unicode char U+01D4 (decimal 468)
-   defining Unicode char U+01E2 (decimal 482)
-   defining Unicode char U+01E3 (decimal 483)
-   defining Unicode char U+01E6 (decimal 486)
-   defining Unicode char U+01E7 (decimal 487)
-   defining Unicode char U+01E8 (decimal 488)
-   defining Unicode char U+01E9 (decimal 489)
-   defining Unicode char U+01EA (decimal 490)
-   defining Unicode char U+01EB (decimal 491)
-   defining Unicode char U+01F0 (decimal 496)
-   defining Unicode char U+01F4 (decimal 500)
-   defining Unicode char U+01F5 (decimal 501)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+01E02 (decimal 7682)
-   defining Unicode char U+01E03 (decimal 7683)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201A (decimal 8218)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-   defining Unicode char U+201E (decimal 8222)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2031 (decimal 8241)
-   defining Unicode char U+2039 (decimal 8249)
-   defining Unicode char U+203A (decimal 8250)
-   defining Unicode char U+2423 (decimal 9251)
-)
-Now handling font encoding OT1 ...
-... processing UTF-8 mapping file for font encoding OT1
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AD (decimal 173)
-   defining Unicode char U+00B8 (decimal 184)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-)
-Now handling font encoding OMS ...
-... processing UTF-8 mapping file for font encoding OMS
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-)
-Now handling font encoding OMX ...
-... no UTF-8 mapping file for font encoding OMX
-Now handling font encoding U ...
-... no UTF-8 mapping file for font encoding U
-Now handling font encoding TS1 ...
-... processing UTF-8 mapping file for font encoding TS1
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu
-File: ts1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
-   defining Unicode char U+00A2 (decimal 162)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00A4 (decimal 164)
-   defining Unicode char U+00A5 (decimal 165)
-   defining Unicode char U+00A6 (decimal 166)
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00A8 (decimal 168)
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AC (decimal 172)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00AF (decimal 175)
-   defining Unicode char U+00B0 (decimal 176)
-   defining Unicode char U+00B1 (decimal 177)
-   defining Unicode char U+00B2 (decimal 178)
-   defining Unicode char U+00B3 (decimal 179)
-   defining Unicode char U+00B4 (decimal 180)
-   defining Unicode char U+00B5 (decimal 181)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+00B9 (decimal 185)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+00BC (decimal 188)
-   defining Unicode char U+00BD (decimal 189)
-   defining Unicode char U+00BE (decimal 190)
-   defining Unicode char U+00D7 (decimal 215)
-   defining Unicode char U+00F7 (decimal 247)
-   defining Unicode char U+0192 (decimal 402)
-   defining Unicode char U+02C7 (decimal 711)
-   defining Unicode char U+02D8 (decimal 728)
-   defining Unicode char U+02DD (decimal 733)
-   defining Unicode char U+0E3F (decimal 3647)
-   defining Unicode char U+2016 (decimal 8214)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2031 (decimal 8241)
-   defining Unicode char U+203B (decimal 8251)
-   defining Unicode char U+203D (decimal 8253)
-   defining Unicode char U+2044 (decimal 8260)
-   defining Unicode char U+204E (decimal 8270)
-   defining Unicode char U+2052 (decimal 8274)
-   defining Unicode char U+20A1 (decimal 8353)
-   defining Unicode char U+20A4 (decimal 8356)
-   defining Unicode char U+20A6 (decimal 8358)
-   defining Unicode char U+20A9 (decimal 8361)
-   defining Unicode char U+20AB (decimal 8363)
-   defining Unicode char U+20AC (decimal 8364)
-   defining Unicode char U+20B1 (decimal 8369)
-   defining Unicode char U+2103 (decimal 8451)
-   defining Unicode char U+2116 (decimal 8470)
-   defining Unicode char U+2117 (decimal 8471)
-   defining Unicode char U+211E (decimal 8478)
-   defining Unicode char U+2120 (decimal 8480)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2126 (decimal 8486)
-   defining Unicode char U+2127 (decimal 8487)
-   defining Unicode char U+212E (decimal 8494)
-   defining Unicode char U+2190 (decimal 8592)
-   defining Unicode char U+2191 (decimal 8593)
-   defining Unicode char U+2192 (decimal 8594)
-   defining Unicode char U+2193 (decimal 8595)
-   defining Unicode char U+2329 (decimal 9001)
-   defining Unicode char U+232A (decimal 9002)
-   defining Unicode char U+2422 (decimal 9250)
-   defining Unicode char U+25E6 (decimal 9702)
-   defining Unicode char U+25EF (decimal 9711)
-   defining Unicode char U+266A (decimal 9834)
-)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
+(/home/jlgf/.miktex/texmfs/install/tex/latex/greek-fontenc/lgrenc.def
+File: lgrenc.def 2020/10/13 2.0 LGR Greek font encoding definitions
 Now handling font encoding LGR ...
 ... processing UTF-8 mapping file for font encoding LGR
 
-(/usr/share/texlive/texmf-dist/tex/latex/greek-inputenc/lgrenc.dfu
-File: lgrenc.dfu 2015/08/05 1.6 UTF-8 support for Greek
+(/home/jlgf/.miktex/texmfs/install/tex/latex/greek-inputenc/lgrenc.dfu
+File: lgrenc.dfu 2019/07/11 1.7 UTF-8 support for Greek
    defining Unicode char U+00A8 (decimal 168)
    defining Unicode char U+00AB (decimal 171)
    defining Unicode char U+00AF (decimal 175)
@@ -1264,15 +725,6 @@ File: lgrenc.dfu 2015/08/05 1.6 UTF-8 support for Greek
    defining Unicode char U+00BB (decimal 187)
    defining Unicode char U+0259 (decimal 601)
    defining Unicode char U+02D8 (decimal 728)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201A (decimal 8218)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2039 (decimal 8249)
-   defining Unicode char U+203A (decimal 8250)
-   defining Unicode char U+20AC (decimal 8364)
    defining Unicode char U+0374 (decimal 884)
    defining Unicode char U+0375 (decimal 885)
    defining Unicode char U+037A (decimal 890)
@@ -1603,7 +1055,10 @@ File: lgrenc.dfu 2015/08/05 1.6 UTF-8 support for Greek
    defining Unicode char U+2014 (decimal 8212)
    defining Unicode char U+2018 (decimal 8216)
    defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
    defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
    defining Unicode char U+20AC (decimal 8364)
    defining Unicode char U+2126 (decimal 8486)
    defining Unicode char U+10144 (decimal 65860)
@@ -1611,148 +1066,493 @@ File: lgrenc.dfu 2015/08/05 1.6 UTF-8 support for Greek
    defining Unicode char U+10146 (decimal 65862)
    defining Unicode char U+10147 (decimal 65863)
 )
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+02C6 (decimal 710)
-   defining Unicode char U+02DC (decimal 732)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2026 (decimal 8230)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2423 (decimal 9251)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/greek-fontenc/greek-fontenc.def
+File: greek-fontenc.def 2020/10/30 2.0 Common Greek font encoding definitions
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2016/02/24 3.9q The Babel package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+2.
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel-greek/greek.ldf
-Language: greek 2016/02/04 v1.9f Greek support for the babel system
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2016/02/24 3.9q Babel common definitions
-\babel@savecnt=\count178
-\U@D=\dimen260
-)
-\bbl@monogreek=\count179
-\bbl@polygreek=\count180
-\bbl@ancientgreek=\count181
-)
-(/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
-Language: spanish.ldf 2016/01/15 v5.0o Spanish support from the babel system
-\es@quottoks=\toks30
-\es@quotdepth=\count182
-Package babel Info: Making " an active character on input line 533.
-Package babel Info: Making . an active character on input line 634.
-Package babel Info: Making < an active character on input line 679.
-Package babel Info: Making > an active character on input line 679.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2012/08/20 v3.3p English support from the babel system
-\l@canadian = a dialect from \language\l@american 
-\l@australian = a dialect from \language\l@british 
-\l@newzealand = a dialect from \language\l@british 
+(/home/jlgf/.miktex/texmfs/install/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
-Package: csquotes 2016/01/31 v5.1g context-sensitive quotations (JAW)
-
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count183
+(/home/jlgf/.miktex/texmfs/install/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks31
+\inpenc@posthook=\toks32
 )
-\csq@reset=\count184
-\csq@gtype=\count185
-\csq@glevel=\count186
-\csq@qlevel=\count187
-\csq@maxlvl=\count188
-\csq@tshold=\count189
-\csq@ltx@everypar=\toks31
+(/home/jlgf/.miktex/texmfs/install/tex/generic/babel/babel.sty
+Package: babel 2021/11/08 3.66 The Babel package
+\babel@savecnt=\count327
+\U@D=\dimen268
+\l@unhyphenated=\language79
 
-(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
-File: csquotes.def 2016/01/31 v5.1g csquotes generic definitions (JAW)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count328
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(/home/jlgf/.miktex/texmfs/install/tex/latex/arabi/bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/babel-greek/greek.ldf
+Language: greek 2020/11/10 v1.10 Greek support for the babel system
+\bbl@monogreek=\count329
+\bbl@polygreek=\count330
+\bbl@ancientgreek=\count331
+LaTeX Info: Redefining \& on input line 125.
+)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/babel-spanish/spanish.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks33
+\es@quotdepth=\count332
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
+))
+(/home/jlgf/.miktex/texmfs/install/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
+\csq@reset=\count333
+\csq@gtype=\count334
+\csq@glevel=\count335
+\csq@qlevel=\count336
+\csq@maxlvl=\count337
+\csq@tshold=\count338
+\csq@ltx@everypar=\toks34
+
+(/home/jlgf/.miktex/texmfs/install/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
+(/home/jlgf/.miktex/texmfs/install/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
 ))
-\mccurrentbaselineskip=\skip87
-\mccurrentparskip=\skip88
-\mccurrentparindent=\skip89
+\mccurrentbaselineskip=\skip89
+\mccurrentparskip=\skip90
+\mccurrentparindent=\skip91
 
-(/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
+(/home/jlgf/.miktex/texmfs/install/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip90
-\fb@frw=\dimen261
-\fb@frh=\dimen262
-\FrameRule=\dimen263
-\FrameSep=\dimen264
+\OuterFrameSep=\skip92
+\fb@frw=\dimen269
+\fb@frh=\dimen270
+\FrameRule=\dimen271
+\FrameSep=\dimen272
 )
-(/usr/share/texlive/texmf-dist/tex/latex/soul/soul.sty
+(/home/jlgf/.miktex/texmfs/install/tex/generic/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks32
-\SOUL@lasttoken=\toks33
-\SOUL@cmds=\toks34
-\SOUL@buffer=\toks35
-\SOUL@token=\toks36
-\SOUL@spaceskip=\skip91
-\SOUL@ttwidth=\dimen265
-\SOUL@uldp=\dimen266
-\SOUL@ulht=\dimen267
+\SOUL@word=\toks35
+\SOUL@lasttoken=\toks36
+\SOUL@cmds=\toks37
+\SOUL@buffer=\toks38
+\SOUL@token=\toks39
+\SOUL@spaceskip=\skip93
+\SOUL@ttwidth=\dimen273
+\SOUL@uldp=\dimen274
+\SOUL@ulht=\dimen275
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+(/home/jlgf/.miktex/texmfs/install/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip92
-\bibsep=\skip93
+\bibhang=\skip94
+\bibsep=\skip95
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count190
+\c@NAT@ctr=\count339
+)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/changes/changes.sty
+Package: changes 2021/07/15 v4.2.1 changes package
+
+*** changes package 2021/07/15 v4.2.1 ***
+(/home/jlgf/.miktex/texmfs/install/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/home/jlgf/.miktex/texmfs/install/tex/generic/xkeyval/xkeyval.tex
+(/home/jlgf/.miktex/texmfs/install/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks40
+\XKV@tempa@toks=\toks41
+)
+\XKV@depth=\count340
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/home/jlgf/.miktex/texmfs/install/tex/latex/xstring/xstring.sty
+(/home/jlgf/.miktex/texmfs/install/tex/generic/xstring/xstring.tex
+\integerpart=\count341
+\decimalpart=\count342
+)
+Package: xstring 2021/07/21 v1.84 String manipulations (CT)
+)
+ulem-option 'normalem,normalbf', passed to package ulem
+truncate-option 'breakall,fit', passed to package truncate
+(/home/jlgf/.miktex/texmfs/install/tex/latex/ulem/ulem.sty
+\UL@box=\box116
+\UL@hyphenbox=\box117
+\UL@skip=\skip96
+\UL@hook=\toks42
+\UL@height=\dimen276
+\UL@pe=\count343
+\UL@pixel=\dimen277
+\ULC@box=\box118
+Package: ulem 2019/11/18
+\ULdepth=\dimen278
+)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2021/06/04 v1.1.5 Todonotes source and documentation.
+Package: todonotes 2021/06/04
+
+(/home/jlgf/.miktex/texmfs/install/tex/latex/pgf/frontendlayer/tikz.sty
+(/home/jlgf/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgf.sty
+(/home/jlgf/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks43
+\pgfutil@tempdima=\dimen279
+\pgfutil@tempdimb=\dimen280
+
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-common-lis
+ts.tex))
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box119
+) (/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/jlgf/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgfcore.sty
+(/home/jlgf/.miktex/texmfs/install/tex/latex/pgf/systemlayer/pgfsys.sty
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks44
+\pgfkeys@temptoks=\toks45
+
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeysfiltered.co
+de.tex
+\pgfkeys@tmptoks=\toks46
+))
+\pgf@x=\dimen281
+\pgf@y=\dimen282
+\pgf@xa=\dimen283
+\pgf@ya=\dimen284
+\pgf@xb=\dimen285
+\pgf@yb=\dimen286
+\pgf@xc=\dimen287
+\pgf@yc=\dimen288
+\pgf@xd=\dimen289
+\pgf@yd=\dimen290
+\w@pgf@writea=\write4
+\r@pgf@reada=\read3
+\c@pgf@counta=\count344
+\c@pgf@countb=\count345
+\c@pgf@countc=\count346
+\c@pgf@countd=\count347
+\t@pgf@toka=\toks47
+\t@pgf@tokb=\toks48
+\t@pgf@tokc=\toks49
+\pgf@sys@id@count=\count348
+ (/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-pdftex.de
+f
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-common-pd
+f.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsyssoftpath.c
+ode.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count349
+\pgfsyssoftpath@bigbuffer@items=\count350
+)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsysprotocol.c
+ode.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen291
+\pgfmath@count=\count351
+\pgfmath@box=\box120
+\pgfmath@toks=\toks50
+\pgfmath@stack@operand=\toks51
+\pgfmath@stack@operation=\toks52
+)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.code.t
+ex
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.basic.
+code.tex)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.trigon
+ometric.code.tex)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.random
+.code.tex)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.compar
+ison.code.tex)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.base.c
+ode.tex)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.round.
+code.tex)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.misc.c
+ode.tex)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.intege
+rarithmetics.code.tex)))
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count352
+)) (/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/math/pgfint.code.tex)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepoints.cod
+e.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen292
+\pgf@picmaxx=\dimen293
+\pgf@picminy=\dimen294
+\pgf@picmaxy=\dimen295
+\pgf@pathminx=\dimen296
+\pgf@pathmaxx=\dimen297
+\pgf@pathminy=\dimen298
+\pgf@pathmaxy=\dimen299
+\pgf@xx=\dimen300
+\pgf@xy=\dimen301
+\pgf@yx=\dimen302
+\pgf@yy=\dimen303
+\pgf@zx=\dimen304
+\pgf@zy=\dimen305
+)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathconstr
+uct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen306
+\pgf@path@lasty=\dimen307
+)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathusage.
+code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen308
+\pgf@shorten@start@additional=\dimen309
+)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorescopes.cod
+e.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box121
+\pgf@hbox=\box122
+\pgf@layerbox@main=\box123
+\pgf@picture@serial@count=\count353
+)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoregraphicsta
+te.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen310
+)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretransforma
+tions.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen311
+\pgf@pt@y=\dimen312
+\pgf@pt@temp=\dimen313
+)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorequick.code
+.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreobjects.co
+de.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathproces
+sing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorearrows.cod
+e.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen314
+)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreshade.code
+.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen315
+\pgf@sys@shading@range@num=\count354
+\pgf@shadingcount=\count355
+)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreimage.code
+.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreexternal.c
+ode.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box124
+))
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorelayers.cod
+e.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretransparen
+cy.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepatterns.c
+ode.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorerdf.code.t
+ex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleshapes.code
+.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box125
+)
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleplot.code.t
+ex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-version-
+0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen316
+\pgf@nodesepend=\dimen317
+)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-version-
+1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/home/jlgf/.miktex/texmfs/install/tex/latex/pgf/utilities/pgffor.sty
+(/home/jlgf/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfkeys.sty
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/home/jlgf/.miktex/texmfs/install/tex/latex/pgf/math/pgfmath.sty
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex))
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen318
+\pgffor@skip=\dimen319
+\pgffor@stack=\toks53
+\pgffor@toks=\toks54
+))
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/tikz.code
+.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryplothand
+lers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count356
+\pgfplotmarksize=\dimen320
+)
+\tikz@lastx=\dimen321
+\tikz@lasty=\dimen322
+\tikz@lastxsaved=\dimen323
+\tikz@lastysaved=\dimen324
+\tikz@lastmovetox=\dimen325
+\tikz@lastmovetoy=\dimen326
+\tikzleveldistance=\dimen327
+\tikzsiblingdistance=\dimen328
+\tikz@figbox=\box126
+\tikz@figbox@bg=\box127
+\tikz@tempbox=\box128
+\tikz@tempbox@bg=\box129
+\tikztreelevel=\count357
+\tikznumberofchildren=\count358
+\tikznumberofcurrentchild=\count359
+\tikz@fig@count=\count360
+
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmodulematrix.code
+.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count361
+\pgfmatrixcurrentcolumn=\count362
+\pgf@matrix@numberofcolumns=\count363
+)
+\tikz@expandcount=\count364
+
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libraries
+/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/home/jlgf/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libraries
+/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+\c@@todonotes@numberoftodonotes=\count365
+)
+\c@Changes@AuthorCount=\count366
+\c@Changes@Author=\count367
+\c@Changes@addedCount=\count368
+\c@Changes@deletedCount=\count369
+\c@Changes@replacedCount=\count370
+\c@Changes@highlightCount=\count371
+\c@Changes@commentCount=\count372
+\c@authorcommentcount=\count373
+
+(/home/jlgf/.miktex/texmfs/install/tex/latex/truncate/truncate.sty
+Package: truncate 2001/08/20  ver 3.6
+\@Trunc@RestHyph=\toks55
+)
+\Changestruncatewidth=\skip97
+\Changes@summary@width=\skip98
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
 
-(./Oxford_Thesis.aux (./text/abbreviations.aux) (./text/ch1-intro.aux)
-(./text/ch2-litreview.aux) (./text/ch3-methods.aux) (./text/ch4-ams.aux)
-(./text/ch5-wvt.aux) (./text/ch-msd.aux) (./text/ch7-qbo.aux)
-(./text/ch7-nudging.aux) (./text/ch8-conclusions.aux))
+(Oxford_Thesis.aux (text/abbreviations.aux) (text/ch1-intro.aux)
+(text/ch2-litreview.aux) (text/ch3-methods.aux) (text/ch4-ams.aux)
+(text/ch5-wvt.aux) (text/ch-msd.aux) (text/ch7-qbo.aux) (text/ch7-nudging.aux)
+(text/ch8-conclusions.aux))
 \openout1 = `Oxford_Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
 LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
 LaTeX Font Info:    ... okay on input line 112.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
 LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 112.
 LaTeX Font Info:    ... okay on input line 112.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
 LaTeX Font Info:    ... okay on input line 112.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
 LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 112.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 112.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 112.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 112.
 LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
 LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 112.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 112.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 1
+12.
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
-File: lgrcmr.fd 2013/09/01 v1.0 Greek European Computer Regular
+(/home/jlgf/.miktex/texmfs/install/tex/latex/cbfonts-fd/lgrcmr.fd
+File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
 LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 112.
 
-(/usr/share/texmf/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1787,46 +1587,52 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+(/home/jlgf/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count191
-\scratchdimen=\dimen268
-\scratchbox=\box83
-\nofMPsegments=\count192
-\nofMParguments=\count193
-\everyMPshowfont=\toks37
-\MPscratchCnt=\count194
-\MPscratchDim=\dimen269
-\MPnumerator=\count195
-\makeMPintoPDFobject=\count196
-\everyMPtoPDFconversion=\toks38
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+\scratchcounter=\count374
+\scratchdimen=\dimen329
+\scratchbox=\box130
+\nofMPsegments=\count375
+\nofMParguments=\count376
+\everyMPshowfont=\toks56
+\MPscratchCnt=\count377
+\MPscratchDim=\dimen330
+\MPnumerator=\count378
+\makeMPintoPDFobject=\count379
+\everyMPtoPDFconversion=\toks57
+) (/home/jlgf/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 )
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
+(grfext)             \AppendGraphicsExtensions on input line 504.
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
+(/home/jlgf/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Info: Redefining \microtypecontext on input line 112.
+Package microtype Info: Applying patch `item' on input line 112.
+Package microtype Info: Applying patch `toc' on input line 112.
+Package microtype Info: Applying patch `eqnum' on input line 112.
+Package microtype Info: Applying patch `footnote' on input line 112.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
-Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 112.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+(/home/jlgf/.miktex/texmfs/install/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
@@ -1834,60 +1640,74 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box84
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
-Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
-Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
-Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 Package hyperref Info: Link coloring OFF on input line 112.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+(/home/jlgf/.miktex/texmfs/install/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+(/home/jlgf/.miktex/texmfs/install/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-\c@section@level=\count197
+(/home/jlgf/.miktex/texmfs/install/tex/generic/gettitlestring/gettitlestring.st
+y
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count380
 )
 LaTeX Info: Redefining \ref on input line 112.
 LaTeX Info: Redefining \pageref on input line 112.
 LaTeX Info: Redefining \nameref on input line 112.
+ (Oxford_Thesis.out) (Oxford_Thesis.out)
+\@outlinefile=\write5
+\openout5 = `Oxford_Thesis.out'.
 
-(./Oxford_Thesis.out) (./Oxford_Thesis.out)
-\@outlinefile=\write4
-\openout4 = `Oxford_Thesis.out'.
 
+(/home/jlgf/.miktex/texmfs/install/tex/latex/greek-fontenc/puenc-greek.def
+File: puenc-greek.def 2020/10/18 2.0 Greek LICRs for PDF strings
 
-<figures/beltcrest.pdf, id=337, 116.435pt x 139.52126pt>
+(/home/jlgf/.miktex/texmfs/install/tex/latex/greek-fontenc/greek-fontenc.def
+File: greek-fontenc.def 2020/10/30 2.0 Common Greek font encoding definitions
+))
+
+Package todonotes Warning: The length marginparwidth is less than 2cm and will 
+most likely cause issues with the appearance of inserted todonotes. The issue c
+an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
+loading the todonotes package. on input line 112.
+
+<figures/beltcrest.pdf, id=338, 116.435pt x 139.52126pt>
 File: figures/beltcrest.pdf Graphic file (type pdf)
-
 <use figures/beltcrest.pdf>
-Package pdftex.def Info: figures/beltcrest.pdf used on input line 154.
+Package pdftex.def Info: figures/beltcrest.pdf  used on input line 154.
 (pdftex.def)             Requested size: 116.43471pt x 139.5209pt.
- [1
+[1
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figures/beltcrest.pdf>]
-LaTeX Font Info:    Try loading font information for T1+put on input line 164.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1put.fd
+{/home/jlgf/.miktex/texmfs/data/pdftex/config/pdftex.map} <./figures/beltcrest.
+pdf>]
+LaTeX Font Info:    Trying to load font information for T1+put on input line 16
+4.
+ (/home/jlgf/.miktex/texmfs/install/tex/latex/psnfss/t1put.fd
 File: t1put.fd 2001/06/04 font definitions for T1/put.
 )
-Package microtype Info: Loading generic settings for font family
+Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `put' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(./text/acknowledgements.tex) [2
+(text/acknowledgements.tex) [2
 
 
-] (./text/abstract.tex) [3
+] (text/abstract.tex) [3
 
 
 ]
@@ -1938,25 +1758,29 @@ Package minitoc Info: I0033
 (minitoc)             Writing Oxford_Thesis.mtc11.
 \openout3 = `Oxford_Thesis.mtc11'.
 
+ (Oxford_Thesis.toc
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6
+.
 
-(./Oxford_Thesis.toc
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 6.
- (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+(/home/jlgf/.miktex/texmfs/install/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 6.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6
+.
 
-(/usr/share/texmf/tex/latex/lm/omllmm.fd
+(/home/jlgf/.miktex/texmfs/install/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 6.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+6.
 
-(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+(/home/jlgf/.miktex/texmfs/install/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 6.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+6.
 
-(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+(/home/jlgf/.miktex/texmfs/install/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1965,126 +1789,126 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 6.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 6.
-LaTeX Font Info:    Try loading font information for U+msa on input line 6.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/home/jlgf/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+(/home/jlgf/.miktex/texmfs/install/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 6.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/home/jlgf/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+(/home/jlgf/.miktex/texmfs/install/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [4
 
 ] [5])
-\tf@toc=\write5
-\openout5 = `Oxford_Thesis.toc'.
+\tf@toc=\write6
+\openout6 = `Oxford_Thesis.toc'.
 
 
 [6]
 \openout2 = `text/abbreviations.aux'.
 
- (./text/abbreviations.tex) [7
+ (text/abbreviations.tex) [7
 
 
 ]
 \openout2 = `text/ch1-intro.aux'.
 
- (./text/ch1-intro.tex
+ (text/ch1-intro.tex
 Chapter 1.
 [1
 
 
 
 
+
 ] [2] [3]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 76.
- (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 7
+6.
+ (/home/jlgf/.miktex/texmfs/install/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [4] [5]) [6]
+) [4]
+[5]) [6]
 \openout2 = `text/ch2-litreview.aux'.
 
-
-(./text/ch2-litreview.tex
+ (text/ch2-litreview.tex
 Chapter 2.
 [7
 
 
 
-] <figures/Walker_Neutral_large.jpg, id=594, 1224.575pt x 612.2875pt>
-File: figures/Walker_Neutral_large.jpg Graphic file (type jpg)
 
+]
+<figures/Walker_Neutral_large.jpg, id=593, 1224.575pt x 612.2875pt>
+File: figures/Walker_Neutral_large.jpg Graphic file (type jpg)
 <use figures/Walker_Neutral_large.jpg>
-Package pdftex.def Info: figures/Walker_Neutral_large.jpg used on input line 32
-.
+Package pdftex.def Info: figures/Walker_Neutral_large.jpg  used on input line 3
+2.
 (pdftex.def)             Requested size: 464.69556pt x 232.34467pt.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 33.
- (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
+3.
+ (/home/jlgf/.miktex/texmfs/install/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Package microtype Info: Loading generic settings for font family
+Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 33.
  [8 <./figures/Walker_Neutral_large.jpg>] [9]
-<figures/trmmclima.png, id=660, 930.8376pt x 570.933pt>
+<figures/trmmclima.png, id=658, 930.8376pt x 570.933pt>
 File: figures/trmmclima.png Graphic file (type png)
-
 <use figures/trmmclima.png>
-Package pdftex.def Info: figures/trmmclima.png used on input line 57.
+Package pdftex.def Info: figures/trmmclima.png  used on input line 57.
 (pdftex.def)             Requested size: 464.69556pt x 285.02148pt.
  [10 <./figures/trmmclima.png>] [11] [12]
-<figures/amsclim.png, id=785, 867.24pt x 607.7907pt>
+<figures/amsclim.png, id=782, 867.24pt x 607.7907pt>
 File: figures/amsclim.png Graphic file (type png)
- <use figures/amsclim.png>
-Package pdftex.def Info: figures/amsclim.png used on input line 100.
+<use figures/amsclim.png>
+Package pdftex.def Info: figures/amsclim.png  used on input line 100.
 (pdftex.def)             Requested size: 464.69556pt x 325.67952pt.
-
-[13] [14 <./figures/amsclim.png>] [15] [16]
-<figures/back_msd_diag.png, id=949, 736.351pt x 330.836pt>
+ [13]
+[14 <./figures/amsclim.png>]
+Package hyperref Info: bookmark level for unknown added defaults to 0 on input 
+line 132.
+ [15] [16]
+<figures/back_msd_diag.png, id=969, 736.351pt x 330.836pt>
 File: figures/back_msd_diag.png Graphic file (type png)
-
 <use figures/back_msd_diag.png>
-Package pdftex.def Info: figures/back_msd_diag.png used on input line 162.
+Package pdftex.def Info: figures/back_msd_diag.png  used on input line 169.
 (pdftex.def)             Requested size: 464.69556pt x 208.78114pt.
  [17] [18 <./figures/back_msd_diag.png>]
-[19] [20]
-Overfull \hbox (9.46367pt too wide) in paragraph at lines 215--215
-[]\T1/lmr/bx/n/17.28 El Niño South-ern Os-cil-la-tion: im-pacts on the Amer-
- []
-
-<figures/ENSO.png, id=1112, 622.325pt x 414.54875pt>
+[19] [20] [21]
+<figures/ENSO.png, id=1137, 622.325pt x 414.54875pt>
 File: figures/ENSO.png Graphic file (type png)
- <use figures/ENSO.png>
-Package pdftex.def Info: figures/ENSO.png used on input line 237.
+<use figures/ENSO.png>
+Package pdftex.def Info: figures/ENSO.png  used on input line 244.
 (pdftex.def)             Requested size: 464.69556pt x 309.55081pt.
-
-[21] [22 <./figures/ENSO.png (PNG copy)>] [23] [24] [25]
-<figures/nie_sobel.jpeg, id=1282, 115.8729pt x 123.3408pt>
+ [22 <./figures/ENSO.png (PNG copy)>] [23] [24] [25] [26]
+<figures/nie_sobel.jpeg, id=1330, 115.8729pt x 123.3408pt>
 File: figures/nie_sobel.jpeg Graphic file (type jpg)
-
 <use figures/nie_sobel.jpeg>
-Package pdftex.def Info: figures/nie_sobel.jpeg used on input line 333.
+Package pdftex.def Info: figures/nie_sobel.jpeg  used on input line 349.
 (pdftex.def)             Requested size: 394.99405pt x 420.55574pt.
+
+[27]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 341.
+(Font)              <10> on input line 357.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 341.
+(Font)              <7> on input line 357.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 341.
- [26] [27 <./figures/nie_sobel.jpeg>] [28])
-[29]
+(Font)              <5> on input line 357.
+ [28 <./figures/nie_sobel.jpeg>] [29]) [30]
 \openout2 = `text/ch3-methods.aux'.
 
- (./text/ch3-methods.tex
+ (text/ch3-methods.tex
 Chapter 3.
 
 Overfull \hbox (0.56444pt too wide) in paragraph at lines 20--20
@@ -2116,29 +1940,31 @@ Overfull \hbox (57.08472pt too wide) in paragraph at lines 19--31
 [][] 
  []
 
-[30
+[31
 
 
 
-] [31] [32] [33] [34]
+
+] [32] [33] [34] [35]
 Underfull \hbox (badness 2401) in paragraph at lines 108--108
 []|\T1/lmr/m/n/10.95 (+20) Model / Res-o-lu-
  []
 
-[35] [36] [37] [38] [39]) [40]
+[36] [37] [38] [39] [40]) [41]
 \openout2 = `text/ch4-ams.aux'.
 
- (./text/ch4-ams.tex
+ (text/ch4-ams.tex
 Chapter 4.
-[41
+[42
 
 
 
-] [42] [43] [44] <figures/fig1p2_f1a.png, id=1770, 939.51pt x 867.24pt>
+
+] [43] [44] [45]
+<figures/fig1p2_f1a.png, id=1816, 939.51pt x 867.24pt>
 File: figures/fig1p2_f1a.png Graphic file (type png)
-
 <use figures/fig1p2_f1a.png>
-Package pdftex.def Info: figures/fig1p2_f1a.png used on input line 80.
+Package pdftex.def Info: figures/fig1p2_f1a.png  used on input line 80.
 (pdftex.def)             Requested size: 464.69556pt x 428.9477pt.
 
 Overfull \hbox (9.05342pt too wide) in paragraph at lines 90--90
@@ -2190,178 +2016,161 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--90
 []|\T1/lmr/m/n/10.95 (+20) SON
  []
 
-<figures/fig1p2_f1b.png, id=1771, 939.51pt x 867.24pt>
+<figures/fig1p2_f1b.png, id=1817, 939.51pt x 867.24pt>
 File: figures/fig1p2_f1b.png Graphic file (type png)
-
 <use figures/fig1p2_f1b.png>
-Package pdftex.def Info: figures/fig1p2_f1b.png used on input line 122.
+Package pdftex.def Info: figures/fig1p2_f1b.png  used on input line 122.
 (pdftex.def)             Requested size: 464.69556pt x 428.9477pt.
- [45] [46 <./figures/fig1p2_f1a.png>] [47 <./figures/fig1p2_f1b.png>] <figures/
-p2fig2_v3.png, id=1799, 1011.78pt x 722.7pt>
+[46] [47 <./figures/fig1p2_f1a.png>] [48 <./figures/fig1p2_f1b.png>]
+<figures/p2fig2_v3.png, id=1846, 1011.78pt x 722.7pt>
 File: figures/p2fig2_v3.png Graphic file (type png)
-
 <use figures/p2fig2_v3.png>
-Package pdftex.def Info: figures/p2fig2_v3.png used on input line 155.
+Package pdftex.def Info: figures/p2fig2_v3.png  used on input line 155.
 (pdftex.def)             Requested size: 464.69556pt x 331.92773pt.
- [48] [49 <./figures/p2fig2_v3.png>]
-<figures/itcz_clim_d.png, id=1836, 1228.59pt x 650.43pt>
+ [49]
+[50 <./figures/p2fig2_v3.png>]
+<figures/itcz_clim_d.png, id=1882, 1228.59pt x 650.43pt>
 File: figures/itcz_clim_d.png Graphic file (type png)
-
 <use figures/itcz_clim_d.png>
-Package pdftex.def Info: figures/itcz_clim_d.png used on input line 186.
+Package pdftex.def Info: figures/itcz_clim_d.png  used on input line 186.
 (pdftex.def)             Requested size: 464.69556pt x 246.0147pt.
- [50]
-<figures/fig3_p2_v3.png, id=1846, 1228.59pt x 1228.59pt>
+ [51]
+<figures/fig3_p2_v3.png, id=1892, 1228.59pt x 1228.59pt>
 File: figures/fig3_p2_v3.png Graphic file (type png)
-
 <use figures/fig3_p2_v3.png>
-Package pdftex.def Info: figures/fig3_p2_v3.png used on input line 200.
+Package pdftex.def Info: figures/fig3_p2_v3.png  used on input line 200.
 (pdftex.def)             Requested size: 464.69556pt x 464.69443pt.
- [51 <./figures/itcz_clim_d.png>]
-<figures/saczanalysis.png, id=1856, 1076.02pt x 562.1pt>
+ [52 <./figures/itcz_clim_d.png>]
+<figures/saczanalysis.png, id=1902, 1076.02pt x 562.1pt>
 File: figures/saczanalysis.png Graphic file (type png)
-
 <use figures/saczanalysis.png>
-Package pdftex.def Info: figures/saczanalysis.png used on input line 213.
+Package pdftex.def Info: figures/saczanalysis.png  used on input line 213.
 (pdftex.def)             Requested size: 464.69556pt x 242.75325pt.
- [52 <./figures/fig3_p2_v3.png>] [53 <./figures/saczanalysis.png>] <figures/fig
-6.png, id=1895, 939.51pt x 1156.32pt>
+ [53 <./figures/fig3_p2_v3.png>]
+Package hyperref Info: bookmark level for unknown replaced defaults to 0 on inp
+ut line 230.
+ [54 <./figures/saczanalysis.png>]
+<figures/fig6.png, id=1929, 939.51pt x 1156.32pt>
 File: figures/fig6.png Graphic file (type png)
-
 <use figures/fig6.png>
-Package pdftex.def Info: figures/fig6.png used on input line 245.
+Package pdftex.def Info: figures/fig6.png  used on input line 245.
 (pdftex.def)             Requested size: 406.60861pt x 500.43677pt.
- [54] [55 <./figures/fig6.png>]
-<figures/Fig8.png, id=1917, 1084.05pt x 1084.05pt>
+ [55] [56 <./figures/fig6.png>]
+<figures/Fig8.png, id=1949, 1084.05pt x 1084.05pt>
 File: figures/Fig8.png Graphic file (type png)
- <use figures/Fig8.png>
-Package pdftex.def Info: figures/Fig8.png used on input line 267.
+<use figures/Fig8.png>
+Package pdftex.def Info: figures/Fig8.png  used on input line 267.
 (pdftex.def)             Requested size: 418.22316pt x 418.22896pt.
-
-[56] <figures/amipseasonalcycle.png, id=1935, 1572.5952pt x 865.7946pt>
+ [57 <./figures/Fig8.png>]
+<figures/amipseasonalcycle.png, id=1967, 1572.5952pt x 865.7946pt>
 File: figures/amipseasonalcycle.png Graphic file (type png)
-
 <use figures/amipseasonalcycle.png>
-Package pdftex.def Info: figures/amipseasonalcycle.png used on input line 292.
+Package pdftex.def Info: figures/amipseasonalcycle.png  used on input line 292.
+
 (pdftex.def)             Requested size: 464.69556pt x 255.84315pt.
- [57 <./figures/Fig8.png>] [58 <./figures/amipseasonalcycle.png>] [59] <figures
-/fig9b.png, id=1976, 1228.59pt x 794.97pt>
+ [58] [59 <./figures/amipseasonalcycle.png>]
+[60]
+<figures/fig9b.png, id=2009, 1228.59pt x 794.97pt>
 File: figures/fig9b.png Graphic file (type png)
-
 <use figures/fig9b.png>
-Package pdftex.def Info: figures/fig9b.png used on input line 351.
+Package pdftex.def Info: figures/fig9b.png  used on input line 351.
 (pdftex.def)             Requested size: 464.69556pt x 300.68463pt.
- [60] [61 <./figures/fig9b.png>]
-<figures/ensotemp_3.png, id=1993, 838.332pt x 1140.4206pt>
+ [61] [62 <./figures/fig9b.png>]
+<figures/ensotemp_3.png, id=2025, 838.332pt x 1140.4206pt>
 File: figures/ensotemp_3.png Graphic file (type png)
-
 <use figures/ensotemp_3.png>
-Package pdftex.def Info: figures/ensotemp_3.png used on input line 393.
+Package pdftex.def Info: figures/ensotemp_3.png  used on input line 393.
 (pdftex.def)             Requested size: 376.40225pt x 512.03604pt.
- [62] [63 <./figures/ensotemp_3.png>]
-<figures/ensopr_3.png, id=2005, 867.24pt x 1156.32pt>
+<figures/ensopr_3.png, id=2027, 867.24pt x 1156.32pt>
 File: figures/ensopr_3.png Graphic file (type png)
-
 <use figures/ensopr_3.png>
-Package pdftex.def Info: figures/ensopr_3.png used on input line 407.
+Package pdftex.def Info: figures/ensopr_3.png  used on input line 407.
 (pdftex.def)             Requested size: 376.40225pt x 501.86592pt.
- [64 <./figures/ensopr_3.png>]
-<figures/walkerfinal.png, id=2021, 1056.5874pt x 854.9541pt>
+ [63] [64 <./figures/ensotemp_3.png>]
+[65 <./figures/ensopr_3.png>]
+<figures/walkerfinal.png, id=2053, 1056.5874pt x 854.9541pt>
 File: figures/walkerfinal.png Graphic file (type png)
-
 <use figures/walkerfinal.png>
-Package pdftex.def Info: figures/walkerfinal.png used on input line 420.
+Package pdftex.def Info: figures/walkerfinal.png  used on input line 420.
 (pdftex.def)             Requested size: 464.69556pt x 376.01138pt.
-
-<figures/fig_ensolinear.png, id=2033, 1011.78pt x 794.97pt>
+ [66 <./figures/walkerfinal.png>]
+<figures/fig_ensolinear.png, id=2073, 1011.78pt x 794.97pt>
 File: figures/fig_ensolinear.png Graphic file (type png)
-
 <use figures/fig_ensolinear.png>
-Package pdftex.def Info: figures/fig_ensolinear.png used on input line 437.
+Package pdftex.def Info: figures/fig_ensolinear.png  used on input line 437.
 (pdftex.def)             Requested size: 464.69556pt x 365.12051pt.
- [65] [66 <./figures/walkerfinal.png>] [67 <./figures/fig_ensolinear.png>]
-<figures/epcpmap.png, id=2057, 1065.2598pt x 863.6265pt>
+ [67]
+<figures/epcpmap.png, id=2083, 1065.2598pt x 863.6265pt>
 File: figures/epcpmap.png Graphic file (type png)
-
 <use figures/epcpmap.png>
-Package pdftex.def Info: figures/epcpmap.png used on input line 453.
+Package pdftex.def Info: figures/epcpmap.png  used on input line 453.
 (pdftex.def)             Requested size: 464.69556pt x 376.72873pt.
- [68 <./figures/epcpmap.png>]
-<figures/cppranomalies_ff.png, id=2073, 1084.05pt x 939.51pt>
+ [68 <./figures/fig_ensolinear.png>] [69 <./figures/epcpmap.png>]
+<figures/cppranomalies_ff.png, id=2104, 1084.05pt x 939.51pt>
 File: figures/cppranomalies_ff.png Graphic file (type png)
-
 <use figures/cppranomalies_ff.png>
-Package pdftex.def Info: figures/cppranomalies_ff.png used on input line 472.
+Package pdftex.def Info: figures/cppranomalies_ff.png  used on input line 472.
 (pdftex.def)             Requested size: 464.69556pt x 402.7342pt.
-
-<figures/trops_qbolnprfma.png, id=2078, 996.6033pt x 1076.1003pt>
+<figures/trops_qbolnprfma.png, id=2109, 996.6033pt x 1076.1003pt>
 File: figures/trops_qbolnprfma.png Graphic file (type png)
-
 <use figures/trops_qbolnprfma.png>
-Package pdftex.def Info: figures/trops_qbolnprfma.png used on input line 483.
+Package pdftex.def Info: figures/trops_qbolnprfma.png  used on input line 483.
 (pdftex.def)             Requested size: 464.69556pt x 501.76074pt.
- [69]
-<figures/walker_wqbo_jfma.png, id=2091, 1084.05pt x 867.24pt>
+<figures/walker_wqbo_jfma.png, id=2117, 1084.05pt x 867.24pt>
 File: figures/walker_wqbo_jfma.png Graphic file (type png)
-
 <use figures/walker_wqbo_jfma.png>
-Package pdftex.def Info: figures/walker_wqbo_jfma.png used on input line 493.
+Package pdftex.def Info: figures/walker_wqbo_jfma.png  used on input line 493.
 (pdftex.def)             Requested size: 464.69556pt x 371.75467pt.
- [70 <./figures/cppranomalies_ff.png>]
-[71 <./figures/trops_qbolnprfma.png>] [72 <./figures/walker_wqbo_jfma.png>]
-[73] <figures/drawing_d.png, id=2127, 1686.3pt x 717.079pt>
+ [70] [71 <./figures/cppranomalies_ff.png>] [72 <./figures/trops_qbolnprfma.png
+>] [73 <./figures/walker_wqbo_jfma.png>] [74]
+<figures/drawing_d.png, id=2159, 1634.105pt x 709.852pt>
 File: figures/drawing_d.png Graphic file (type png)
-
 <use figures/drawing_d.png>
-Package pdftex.def Info: figures/drawing_d.png used on input line 531.
-(pdftex.def)             Requested size: 464.69556pt x 197.60764pt.
- [74 <./figures/drawing_d.png>] [75] [76]) [77]
+Package pdftex.def Info: figures/drawing_d.png  used on input line 531.
+(pdftex.def)             Requested size: 464.69556pt x 201.855pt.
+ [75 <./figures/drawing_d.png>] [76] [77]) [78]
 \openout2 = `text/ch5-wvt.aux'.
 
 
-(./text/ch5-wvt.tex
+(text/ch5-wvt.tex
 Chapter 5.
-[78
+[79
 
 
 
-] [79] [80] [81] [82] <figures/wav1.png, id=2332, 848.4498pt x 433.62pt>
+
+] [80] [81] [82] [83]
+<figures/wav1.png, id=2363, 848.4498pt x 433.62pt>
 File: figures/wav1.png Graphic file (type png)
-
 <use figures/wav1.png>
-Package pdftex.def Info: figures/wav1.png used on input line 117.
+Package pdftex.def Info: figures/wav1.png  used on input line 117.
 (pdftex.def)             Requested size: 464.69556pt x 237.49265pt.
-
-<figures/wav_paperfig2.png, id=2333, 1084.05pt x 722.7pt>
+<figures/wav_paperfig2.png, id=2364, 1084.05pt x 722.7pt>
 File: figures/wav_paperfig2.png Graphic file (type png)
-
 <use figures/wav_paperfig2.png>
-Package pdftex.def Info: figures/wav_paperfig2.png used on input line 126.
+Package pdftex.def Info: figures/wav_paperfig2.png  used on input line 126.
 (pdftex.def)             Requested size: 464.69556pt x 309.79555pt.
- [83 <./figures/wav1.png>] [84 <./figures/wav_paperfig2.png>] <figures/wav_fig3
-.pdf, id=2355, 867.24pt x 722.7pt>
+ [84 <./figures/wav1.png>] [85 <./figures/wav_paperfig2.png>]
+<figures/wav_fig3.pdf, id=2387, 867.24pt x 722.7pt>
 File: figures/wav_fig3.pdf Graphic file (type pdf)
-
 <use figures/wav_fig3.pdf>
-Package pdftex.def Info: figures/wav_fig3.pdf used on input line 159.
+Package pdftex.def Info: figures/wav_fig3.pdf  used on input line 159.
 (pdftex.def)             Requested size: 464.69556pt x 387.2527pt.
- <figures/nam_n216.pdf, id=2363, 867.24pt x 722.7pt>
+<figures/nam_n216.pdf, id=2395, 867.24pt x 722.7pt>
 File: figures/nam_n216.pdf Graphic file (type pdf)
-
 <use figures/nam_n216.pdf>
-Package pdftex.def Info: figures/nam_n216.pdf used on input line 176.
+Package pdftex.def Info: figures/nam_n216.pdf  used on input line 176.
 (pdftex.def)             Requested size: 464.69556pt x 387.2527pt.
- [85] [86 <./figures/wav_fig3.pdf>]
+ [86] [87 <./figures/wav_fig3.pdf>]
 Underfull \vbox (badness 1082) has occurred while \output is active []
 
- [87 <./figures/nam_n216.pdf>] <figures/wav_fig4.pdf, id=2532, 867.24pt x 867.2
-4pt>
+ [88 <./figures/nam_n216.pdf>]
+<figures/wav_fig4.pdf, id=2564, 867.24pt x 867.24pt>
 File: figures/wav_fig4.pdf Graphic file (type pdf)
-
 <use figures/wav_fig4.pdf>
-Package pdftex.def Info: figures/wav_fig4.pdf used on input line 202.
+Package pdftex.def Info: figures/wav_fig4.pdf  used on input line 202.
 (pdftex.def)             Requested size: 464.69556pt x 464.70326pt.
- [88] [89 <./figures/wav_fig4.pdf>] [90]
+ [89] [90 <./figures/wav_fig4.pdf>] [91]
 Underfull \hbox (badness 10000) in paragraph at lines 249--249
 []|\T1/lmr/m/n/12 (+20) 33.3
  []
@@ -2578,7 +2387,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 255--256
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 256--256
-[]|\T1/lmr/bx/n/12 34.5
+[]|\T1/lmr/bx/n/12 (+20) 34.5
  []
 
 
@@ -2603,7 +2412,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 257--257
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 257--257
-[]|\T1/lmr/bx/n/12 34.3
+[]|\T1/lmr/bx/n/12 (+20) 34.3
  []
 
 
@@ -2631,48 +2440,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 257--262
 []|\T1/lmr/m/n/12 (+20) 53.2
  []
 
-[91] <figures/wav_fig5.pdf, id=2658, 867.24pt x 578.16pt>
+[92]
+<figures/wav_fig5.pdf, id=2689, 867.24pt x 578.16pt>
 File: figures/wav_fig5.pdf Graphic file (type pdf)
-
 <use figures/wav_fig5.pdf>
-Package pdftex.def Info: figures/wav_fig5.pdf used on input line 285.
+Package pdftex.def Info: figures/wav_fig5.pdf  used on input line 285.
 (pdftex.def)             Requested size: 464.69556pt x 309.80217pt.
-
-<figures/wav_fig6.png, id=2661, 939.51pt x 578.16pt>
+<figures/wav_fig6.png, id=2692, 939.51pt x 578.16pt>
 File: figures/wav_fig6.png Graphic file (type png)
-
 <use figures/wav_fig6.png>
-Package pdftex.def Info: figures/wav_fig6.png used on input line 294.
+Package pdftex.def Info: figures/wav_fig6.png  used on input line 294.
 (pdftex.def)             Requested size: 464.69556pt x 285.96512pt.
- [92]
-<figures/map_nam_wav.pdf, id=2680, 1045.0242pt x 682.22879pt>
+ [93]
+<figures/map_nam_wav.pdf, id=2712, 1045.0242pt x 682.22879pt>
 File: figures/map_nam_wav.pdf Graphic file (type pdf)
-
 <use figures/map_nam_wav.pdf>
-Package pdftex.def Info: figures/map_nam_wav.pdf used on input line 306.
+Package pdftex.def Info: figures/map_nam_wav.pdf  used on input line 306.
 (pdftex.def)             Requested size: 464.69556pt x 303.36703pt.
- [93 <./figures/wav_fig5.pdf>] [94 <./figures/wav_fig6.png>] <figures/wav_fig8.
-png, id=2751, 939.51pt x 650.43pt>
+ [94 <./figures/wav_fig5.pdf>] [95 <./figures/wav_fig6.png>]
+<figures/wav_fig8.png, id=2783, 939.51pt x 650.43pt>
 File: figures/wav_fig8.png Graphic file (type png)
-
 <use figures/wav_fig8.png>
-Package pdftex.def Info: figures/wav_fig8.png used on input line 354.
+Package pdftex.def Info: figures/wav_fig8.png  used on input line 354.
 (pdftex.def)             Requested size: 441.45935pt x 305.62274pt.
- [95 <./figures/map_nam_wav.pdf>]
-<figures/ind_models.png, id=2764, 1212.6906pt x 648.9846pt>
+ [96 <./figures/map_nam_wav.pdf>]
+<figures/ind_models.png, id=2798, 1212.6906pt x 648.9846pt>
 File: figures/ind_models.png Graphic file (type png)
-
 <use figures/ind_models.png>
-Package pdftex.def Info: figures/ind_models.png used on input line 364.
+Package pdftex.def Info: figures/ind_models.png  used on input line 364.
 (pdftex.def)             Requested size: 464.69556pt x 248.68637pt.
- [96]
-<figures/wav_fig9.pdf, id=2778, 1168.6059pt x 676.44719pt>
+ [97]
+<figures/wav_fig9.pdf, id=2812, 1168.6059pt x 676.44719pt>
 File: figures/wav_fig9.pdf Graphic file (type pdf)
-
 <use figures/wav_fig9.pdf>
-Package pdftex.def Info: figures/wav_fig9.pdf used on input line 378.
+Package pdftex.def Info: figures/wav_fig9.pdf  used on input line 378.
 (pdftex.def)             Requested size: 464.69556pt x 268.98453pt.
- [97 <./figures/wav_fig8.png>]
+ [98 <./figures/wav_fig8.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 396--396
 []|\T1/lmr/m/n/12 (+20) 25.8
  []
@@ -2764,12 +2567,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 400--400
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 400--400
-[]|\T1/lmr/bx/n/12 38.2
+[]|\T1/lmr/bx/n/12 (+20) 38.2
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 400--400
-[]|\T1/lmr/bx/n/12 49.1
+[]|\T1/lmr/bx/n/12 (+20) 49.1
  []
 
 
@@ -2784,12 +2587,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 401--401
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 401--401
-[]|\T1/lmr/bx/n/12 37.8
+[]|\T1/lmr/bx/n/12 (+20) 37.8
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 401--401
-[]|\T1/lmr/bx/n/12 49.9
+[]|\T1/lmr/bx/n/12 (+20) 49.9
  []
 
 
@@ -2804,12 +2607,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 402--402
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 402--402
-[]|\T1/lmr/bx/n/12 38.4
+[]|\T1/lmr/bx/n/12 (+20) 38.4
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 402--402
-[]|\T1/lmr/bx/n/12 50.0
+[]|\T1/lmr/bx/n/12 (+20) 50.0
  []
 
 
@@ -2819,37 +2622,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 403--403
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 403--403
-[]|\T1/lmr/bx/n/12 62.8
+[]|\T1/lmr/bx/n/12 (+20) 62.8
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 403--403
-[]|\T1/lmr/bx/n/12 37.8
+[]|\T1/lmr/bx/n/12 (+20) 37.8
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 403--403
-[]|\T1/lmr/bx/n/12 50.3
+[]|\T1/lmr/bx/n/12 (+20) 50.3
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 404--404
-[]|\T1/lmr/bx/n/12 28.5
+[]|\T1/lmr/bx/n/12 (+20) 28.5
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 404--404
-[]|\T1/lmr/bx/n/12 62.8
+[]|\T1/lmr/bx/n/12 (+20) 62.8
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 404--404
-[]|\T1/lmr/bx/n/12 38.7
+[]|\T1/lmr/bx/n/12 (+20) 38.7
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 404--404
-[]|\T1/lmr/bx/n/12 50.1
+[]|\T1/lmr/bx/n/12 (+20) 50.1
  []
 
 
@@ -2857,442 +2660,386 @@ Underfull \hbox (badness 10000) in paragraph at lines 404--404
 []|\T1/lmr/m/n/12 (+20) -20.3
  []
 
-<figures/wav_fig10.png, id=2790, 939.51pt x 867.24pt>
+<figures/wav_fig10.png, id=2824, 939.51pt x 867.24pt>
 File: figures/wav_fig10.png Graphic file (type png)
-
 <use figures/wav_fig10.png>
-Package pdftex.def Info: figures/wav_fig10.png used on input line 415.
+Package pdftex.def Info: figures/wav_fig10.png  used on input line 415.
 (pdftex.def)             Requested size: 441.45935pt x 407.497pt.
- [98 <./figures/ind_models.png>]
-<figures/wav_fig5c.png, id=2798, 1084.05pt x 505.89pt>
+[99 <./figures/ind_models.png>]
+<figures/wav_fig5c.png, id=2832, 1084.05pt x 505.89pt>
 File: figures/wav_fig5c.png Graphic file (type png)
-
 <use figures/wav_fig5c.png>
-Package pdftex.def Info: figures/wav_fig5c.png used on input line 428.
+Package pdftex.def Info: figures/wav_fig5c.png  used on input line 428.
 (pdftex.def)             Requested size: 464.69556pt x 216.85687pt.
- [99 <./figures/wav_fig9.pdf>] [100] [101 <./figures/wav_fig10.png>] <figures/w
-av_S1.pdf, id=2829, 842.66821pt x 502.27649pt>
+ [100 <./figures/wav_fig9.pdf>] [101] [102 <./figures/wav_fig10.png>]
+<figures/wav_S1.pdf, id=2866, 842.66821pt x 502.27649pt>
 File: figures/wav_S1.pdf Graphic file (type pdf)
-
 <use figures/wav_S1.pdf>
-Package pdftex.def Info: figures/wav_S1.pdf used on input line 451.
+Package pdftex.def Info: figures/wav_S1.pdf  used on input line 451.
 (pdftex.def)             Requested size: 464.69556pt x 276.98102pt.
- [102 <./figures/wav_fig5c.png>] [103 <./figures/wav_S1.pdf>] <figures/wav_fig1
-2.png, id=2850, 927.2241pt x 643.9257pt>
+ [103 <./figures/wav_fig5c.png>] [104 <./figures/wav_S1.pdf>]
+<figures/wav_fig12.png, id=2887, 927.2241pt x 643.9257pt>
 File: figures/wav_fig12.png Graphic file (type png)
-
 <use figures/wav_fig12.png>
-Package pdftex.def Info: figures/wav_fig12.png used on input line 475.
+Package pdftex.def Info: figures/wav_fig12.png  used on input line 475.
 (pdftex.def)             Requested size: 464.69556pt x 322.7088pt.
- [104 <./figures/wav_fig12.png>]
-<figures/wav_fig13.png, id=2858, 939.51pt x 794.97pt>
+<figures/wav_fig13.png, id=2889, 939.51pt x 794.97pt>
 File: figures/wav_fig13.png Graphic file (type png)
-
 <use figures/wav_fig13.png>
-Package pdftex.def Info: figures/wav_fig13.png used on input line 485.
+Package pdftex.def Info: figures/wav_fig13.png  used on input line 485.
 (pdftex.def)             Requested size: 464.69556pt x 393.20204pt.
- [105 <./figures/wav_fig13.png>] [106] [107]
-[108]) [109]
+ [105] [106 <./figures/wav_fig12.png>] [107 <./figures/wav_fig13.png>]
+[108] [109]) [110]
 \openout2 = `text/ch-msd.aux'.
 
- (./text/ch-msd.tex
+ (text/ch-msd.tex
 Chapter 6.
-[110
+[111
 
 
 
-] <figures/seasonal_cycle_p3.png, id=2953, 867.24pt x 505.89pt>
+
+]
+<figures/seasonal_cycle_p3.png, id=2990, 867.24pt x 505.89pt>
 File: figures/seasonal_cycle_p3.png Graphic file (type png)
-
 <use figures/seasonal_cycle_p3.png>
-Package pdftex.def Info: figures/seasonal_cycle_p3.png used on input line 35.
+Package pdftex.def Info: figures/seasonal_cycle_p3.png  used on input line 34.
 (pdftex.def)             Requested size: 464.69556pt x 271.07689pt.
- [111 <./figures/seasonal_cycle_p3.png>]
-<figures/msd_all_schematics.png, id=2967, 937.101pt x 1377.145pt>
+ [112 <./figures/seasonal_cycle_p3.png>]
+<figures/msd_all_schematics.png, id=3005, 937.101pt x 1377.145pt>
 File: figures/msd_all_schematics.png Graphic file (type png)
-
 <use figures/msd_all_schematics.png>
-Package pdftex.def Info: figures/msd_all_schematics.png used on input line 46.
+Package pdftex.def Info: figures/msd_all_schematics.png  used on input line 45.
+
 (pdftex.def)             Requested size: 376.20647pt x 552.86946pt.
- [112]
+ [113]
 
-LaTeX Warning: Text page 113 contains only floats.
+LaTeX Warning: Text page 114 contains only floats.
 
-[113 <./figures/msd_all_schematics.png>] [114]
-<figures/explain_fig_msd.png, id=3016, 852.0633pt x 358.4592pt>
+[114 <./figures/msd_all_schematics.png>] [115]
+<figures/explain_fig_msd.png, id=3054, 852.0633pt x 358.4592pt>
 File: figures/explain_fig_msd.png Graphic file (type png)
-
 <use figures/explain_fig_msd.png>
-Package pdftex.def Info: figures/explain_fig_msd.png used on input line 93.
+Package pdftex.def Info: figures/explain_fig_msd.png  used on input line 92.
 (pdftex.def)             Requested size: 464.69556pt x 195.50133pt.
- [115 <./figures/explain_fig_msd.png>]
-<figures/fig2obs_prdiff_2.png, id=3025, 1228.59pt x 794.97pt>
+ [116 <./figures/explain_fig_msd.png>]
+<figures/fig2obs_prdiff_2.png, id=3063, 1228.59pt x 794.97pt>
 File: figures/fig2obs_prdiff_2.png Graphic file (type png)
-
 <use figures/fig2obs_prdiff_2.png>
-Package pdftex.def Info: figures/fig2obs_prdiff_2.png used on input line 104.
+Package pdftex.def Info: figures/fig2obs_prdiff_2.png  used on input line 103.
 (pdftex.def)             Requested size: 464.69556pt x 300.68463pt.
- [116 <./figures/fig2obs_prdiff_2.png>]
-<figures/fig_Era5.png, id=3036, 1003.8303pt x 337.5009pt>
+ [117 <./figures/fig2obs_prdiff_2.png>]
+<figures/fig_Era5.png, id=3074, 1003.8303pt x 337.5009pt>
 File: figures/fig_Era5.png Graphic file (type png)
-
 <use figures/fig_Era5.png>
-Package pdftex.def Info: figures/fig_Era5.png used on input line 122.
+Package pdftex.def Info: figures/fig_Era5.png  used on input line 121.
 (pdftex.def)             Requested size: 464.69556pt x 156.23592pt.
- [117 <./figures/fig_Era5.png>]
-<figures/fig2obs_prmodels3.png, id=3045, 1084.05pt x 722.7pt>
+ [118 <./figures/fig_Era5.png>]
+<figures/fig2obs_prmodels3.png, id=3083, 1084.05pt x 722.7pt>
 File: figures/fig2obs_prmodels3.png Graphic file (type png)
-
 <use figures/fig2obs_prmodels3.png>
-Package pdftex.def Info: figures/fig2obs_prmodels3.png used on input line 135.
-(pdftex.def)             Requested size: 464.69556pt x 309.79555pt.
+Package pdftex.def Info: figures/fig2obs_prmodels3.png  used on input line 134.
 
-<figures/dumscatter_2.png, id=3048, 929.3922pt x 792.8019pt>
+(pdftex.def)             Requested size: 464.69556pt x 309.79555pt.
+<figures/dumscatter_2.png, id=3086, 929.3922pt x 792.8019pt>
 File: figures/dumscatter_2.png Graphic file (type png)
-
 <use figures/dumscatter_2.png>
-Package pdftex.def Info: figures/dumscatter_2.png used on input line 146.
+Package pdftex.def Info: figures/dumscatter_2.png  used on input line 145.
 (pdftex.def)             Requested size: 464.69556pt x 396.39998pt.
- [118 <./figures/fig2obs_prmodels3.png>] [119 <./figures/dumscatter_2.png>]
-<figures/fig4_olrv_3.png, id=3072, 1011.78pt x 939.51pt>
+
+[119 <./figures/fig2obs_prmodels3.png>] [120 <./figures/dumscatter_2.png>]
+<figures/fig4_olrv_3.png, id=3110, 1011.78pt x 939.51pt>
 File: figures/fig4_olrv_3.png Graphic file (type png)
-
 <use figures/fig4_olrv_3.png>
-Package pdftex.def Info: figures/fig4_olrv_3.png used on input line 168.
+Package pdftex.def Info: figures/fig4_olrv_3.png  used on input line 167.
 (pdftex.def)             Requested size: 464.69556pt x 431.50606pt.
- [120]
-<figures/index_seasonal.png, id=3082, 867.24pt x 650.43pt>
+
+[121]
+<figures/index_seasonal.png, id=3118, 867.24pt x 650.43pt>
 File: figures/index_seasonal.png Graphic file (type png)
-
 <use figures/index_seasonal.png>
-Package pdftex.def Info: figures/index_seasonal.png used on input line 179.
+Package pdftex.def Info: figures/index_seasonal.png  used on input line 178.
 (pdftex.def)             Requested size: 464.69556pt x 348.52744pt.
- [121 <./figures/fig4_olrv_3.png>] [122 <./figures/index_seasonal.png>]
-<figures/fig4_sstv_3.png, id=3118, 1003.1076pt x 933.0057pt>
+ [122 <./figures/fig4_olrv_3.png>] [123 <./figures/index_seasonal.png>]
+<figures/fig4_sstv_3.png, id=3155, 1003.1076pt x 933.0057pt>
 File: figures/fig4_sstv_3.png Graphic file (type png)
-
 <use figures/fig4_sstv_3.png>
-Package pdftex.def Info: figures/fig4_sstv_3.png used on input line 204.
+Package pdftex.def Info: figures/fig4_sstv_3.png  used on input line 203.
 (pdftex.def)             Requested size: 464.69556pt x 432.22021pt.
- [123] [124 <./figures/fig4_sstv_3.png>]
-<figures/master_sst_scatter.png, id=3135, 867.24pt x 650.43pt>
+
+[124] [125 <./figures/fig4_sstv_3.png>]
+<figures/master_sst_scatter.png, id=3172, 867.24pt x 650.43pt>
 File: figures/master_sst_scatter.png Graphic file (type png)
-
 <use figures/master_sst_scatter.png>
-Package pdftex.def Info: figures/master_sst_scatter.png used on input line 221.
-
-(pdftex.def)             Requested size: 464.69556pt x 348.52744pt.
-
-<figures/sst_scatter_f.png, id=3137, 794.97pt x 650.43pt>
-File: figures/sst_scatter_f.png Graphic file (type png)
-
-<use figures/sst_scatter_f.png>
-Package pdftex.def Info: figures/sst_scatter_f.png used on input line 231.
-(pdftex.def)             Requested size: 464.69556pt x 380.21716pt.
- [125] [126 <./figures/master_sst_scatter.png>]
-[127 <./figures/sst_scatter_f.png>]
-<figures/sst_regg.png, id=3171, 867.24pt x 505.89pt>
-File: figures/sst_regg.png Graphic file (type png)
-
-<use figures/sst_regg.png>
-Package pdftex.def Info: figures/sst_regg.png used on input line 252.
-(pdftex.def)             Requested size: 464.69556pt x 271.07689pt.
- [128] [129 <./figures/sst_regg.png>]
-<figures/fig4_creclim_3.png, id=3209, 939.51pt x 578.16pt>
-File: figures/fig4_creclim_3.png Graphic file (type png)
-
-<use figures/fig4_creclim_3.png>
-Package pdftex.def Info: figures/fig4_creclim_3.png used on input line 279.
-(pdftex.def)             Requested size: 464.69556pt x 285.96512pt.
- [130] [131 <./figures/fig4_creclim_3.png>]
-<figures/fig4_swclim_3.png, id=3229, 939.51pt x 578.16pt>
-File: figures/fig4_swclim_3.png Graphic file (type png)
-
-<use figures/fig4_swclim_3.png>
-Package pdftex.def Info: figures/fig4_swclim_3.png used on input line 299.
-(pdftex.def)             Requested size: 464.69556pt x 285.96512pt.
-
-<figures/cre_index_seasonal.png, id=3233, 867.24pt x 650.43pt>
-File: figures/cre_index_seasonal.png Graphic file (type png)
-
-<use figures/cre_index_seasonal.png>
-Package pdftex.def Info: figures/cre_index_seasonal.png used on input line 316.
-
-(pdftex.def)             Requested size: 464.69556pt x 348.52744pt.
- [132 <./figures/fig4_swclim_3.png>]
-<figures/fig4_netswdif_3.png, id=3243, 939.51pt x 1011.78pt>
-File: figures/fig4_netswdif_3.png Graphic file (type png)
-
-<use figures/fig4_netswdif_3.png>
-Package pdftex.def Info: figures/fig4_netswdif_3.png used on input line 324.
-(pdftex.def)             Requested size: 464.69556pt x 500.43896pt.
- [133 <./figures/cre_index_seasonal.png>]
-[134 <./figures/fig4_netswdif_3.png>]
-<figures/cloud_scatter_f.png, id=3268, 1011.78pt x 650.43pt>
-File: figures/cloud_scatter_f.png Graphic file (type png)
-
-<use figures/cloud_scatter_f.png>
-Package pdftex.def Info: figures/cloud_scatter_f.png used on input line 335.
-(pdftex.def)             Requested size: 464.69556pt x 298.73497pt.
- [135 <./figures/cloud_scatter_f.png>]
-<figures/lwfig_clim_1.png, id=3279, 920.7198pt x 560.0925pt>
-File: figures/lwfig_clim_1.png Graphic file (type png)
-
-<use figures/lwfig_clim_1.png>
-Package pdftex.def Info: figures/lwfig_clim_1.png used on input line 347.
-(pdftex.def)             Requested size: 464.69556pt x 282.68637pt.
- [136] [137 <./figures/lwfig_clim_1.png>]
-<figures/imfd_index_seasonal.png, id=3321, 1011.78pt x 433.62pt>
-File: figures/imfd_index_seasonal.png Graphic file (type png)
-
-<use figures/imfd_index_seasonal.png>
-Package pdftex.def Info: figures/imfd_index_seasonal.png used on input line 376
+Package pdftex.def Info: figures/master_sst_scatter.png  used on input line 220
 .
-(pdftex.def)             Requested size: 464.69556pt x 199.15665pt.
- [138]
-<figures/imfdcomposite.png, id=3332, 1084.05pt x 794.97pt>
-File: figures/imfdcomposite.png Graphic file (type png)
-
-<use figures/imfdcomposite.png>
-Package pdftex.def Info: figures/imfdcomposite.png used on input line 388.
-(pdftex.def)             Requested size: 464.69556pt x 340.7751pt.
- [139 <./figures/imfd_index_seasonal.png>]
-[140 <./figures/imfdcomposite.png>]
-<figures/imfd_scatter.png, id=3352, 1011.78pt x 650.43pt>
-File: figures/imfd_scatter.png Graphic file (type png)
-
-<use figures/imfd_scatter.png>
-Package pdftex.def Info: figures/imfd_scatter.png used on input line 401.
+(pdftex.def)             Requested size: 464.69556pt x 348.52744pt.
+<figures/sst_scatter_f.png, id=3174, 794.97pt x 650.43pt>
+File: figures/sst_scatter_f.png Graphic file (type png)
+<use figures/sst_scatter_f.png>
+Package pdftex.def Info: figures/sst_scatter_f.png  used on input line 230.
+(pdftex.def)             Requested size: 464.69556pt x 380.21716pt.
+ [126] [127 <./figures/master_sst_scatter.png>] [128 <./figures/sst_scatter_f.p
+ng>]
+<figures/sst_regg.png, id=3208, 867.24pt x 505.89pt>
+File: figures/sst_regg.png Graphic file (type png)
+<use figures/sst_regg.png>
+Package pdftex.def Info: figures/sst_regg.png  used on input line 251.
+(pdftex.def)             Requested size: 464.69556pt x 271.07689pt.
+ [129] [130 <./figures/sst_regg.png>]
+<figures/fig4_creclim_3.png, id=3245, 939.51pt x 578.16pt>
+File: figures/fig4_creclim_3.png Graphic file (type png)
+<use figures/fig4_creclim_3.png>
+Package pdftex.def Info: figures/fig4_creclim_3.png  used on input line 278.
+(pdftex.def)             Requested size: 464.69556pt x 285.96512pt.
+ [131] [132 <./figures/fig4_creclim_3.png>]
+<figures/fig4_swclim_3.png, id=3266, 939.51pt x 578.16pt>
+File: figures/fig4_swclim_3.png Graphic file (type png)
+<use figures/fig4_swclim_3.png>
+Package pdftex.def Info: figures/fig4_swclim_3.png  used on input line 298.
+(pdftex.def)             Requested size: 464.69556pt x 285.96512pt.
+<figures/cre_index_seasonal.png, id=3270, 867.24pt x 650.43pt>
+File: figures/cre_index_seasonal.png Graphic file (type png)
+<use figures/cre_index_seasonal.png>
+Package pdftex.def Info: figures/cre_index_seasonal.png  used on input line 315
+.
+(pdftex.def)             Requested size: 464.69556pt x 348.52744pt.
+ [133 <./figures/fig4_swclim_3.png>]
+<figures/fig4_netswdif_3.png, id=3279, 939.51pt x 1011.78pt>
+File: figures/fig4_netswdif_3.png Graphic file (type png)
+<use figures/fig4_netswdif_3.png>
+Package pdftex.def Info: figures/fig4_netswdif_3.png  used on input line 323.
+(pdftex.def)             Requested size: 464.69556pt x 500.43896pt.
+ [134 <./figures/cre_index_seasonal.png>] [135 <./figures/fig4_netswdif_3.png>]
+<figures/cloud_scatter_f.png, id=3304, 1011.78pt x 650.43pt>
+File: figures/cloud_scatter_f.png Graphic file (type png)
+<use figures/cloud_scatter_f.png>
+Package pdftex.def Info: figures/cloud_scatter_f.png  used on input line 334.
 (pdftex.def)             Requested size: 464.69556pt x 298.73497pt.
- [141 <./figures/imfd_scatter.png>]
-<figures/lag_imfdcllj.png, id=3362, 867.24pt x 578.16pt>
+ [136 <./figures/cloud_scatter_f.png>]
+<figures/lwfig_clim_1.png, id=3315, 920.7198pt x 560.0925pt>
+File: figures/lwfig_clim_1.png Graphic file (type png)
+<use figures/lwfig_clim_1.png>
+Package pdftex.def Info: figures/lwfig_clim_1.png  used on input line 346.
+(pdftex.def)             Requested size: 464.69556pt x 282.68637pt.
+ [137] [138 <./figures/lwfig_clim_1.png>]
+<figures/imfd_index_seasonal.png, id=3358, 1011.78pt x 433.62pt>
+File: figures/imfd_index_seasonal.png Graphic file (type png)
+<use figures/imfd_index_seasonal.png>
+Package pdftex.def Info: figures/imfd_index_seasonal.png  used on input line 37
+5.
+(pdftex.def)             Requested size: 464.69556pt x 199.15665pt.
+ [139]
+<figures/imfdcomposite.png, id=3366, 1084.05pt x 794.97pt>
+File: figures/imfdcomposite.png Graphic file (type png)
+<use figures/imfdcomposite.png>
+Package pdftex.def Info: figures/imfdcomposite.png  used on input line 387.
+(pdftex.def)             Requested size: 464.69556pt x 340.7751pt.
+ [140 <./figures/imfd_index_seasonal.png>] [141 <./figures/imfdcomposite.png>]
+<figures/imfd_scatter.png, id=3387, 1011.78pt x 650.43pt>
+File: figures/imfd_scatter.png Graphic file (type png)
+<use figures/imfd_scatter.png>
+Package pdftex.def Info: figures/imfd_scatter.png  used on input line 400.
+(pdftex.def)             Requested size: 464.69556pt x 298.73497pt.
+ [142 <./figures/imfd_scatter.png>]
+<figures/lag_imfdcllj.png, id=3397, 867.24pt x 578.16pt>
 File: figures/lag_imfdcllj.png Graphic file (type png)
-
 <use figures/lag_imfdcllj.png>
-Package pdftex.def Info: figures/lag_imfdcllj.png used on input line 414.
+Package pdftex.def Info: figures/lag_imfdcllj.png  used on input line 413.
 (pdftex.def)             Requested size: 464.69556pt x 309.80217pt.
- [142 <./figures/lag_imfdcllj.png>]
-<figures/thermopentad.png, id=3372, 867.24pt x 650.43pt>
+ [143 <./figures/lag_imfdcllj.png>]
+<figures/thermopentad.png, id=3407, 867.24pt x 650.43pt>
 File: figures/thermopentad.png Graphic file (type png)
-
 <use figures/thermopentad.png>
-Package pdftex.def Info: figures/thermopentad.png used on input line 434.
+Package pdftex.def Info: figures/thermopentad.png  used on input line 433.
 (pdftex.def)             Requested size: 464.69556pt x 348.52744pt.
- [143] [144 <./figures/thermopentad.png>]
-<figures/thermocompositewdhdp.png, id=3389, 1084.05pt x 722.7pt>
+
+[144] [145 <./figures/thermopentad.png>]
+<figures/thermocompositewdhdp.png, id=3424, 1084.05pt x 722.7pt>
 File: figures/thermocompositewdhdp.png Graphic file (type png)
-
 <use figures/thermocompositewdhdp.png>
-Package pdftex.def Info: figures/thermocompositewdhdp.png used on input line 45
-6.
+Package pdftex.def Info: figures/thermocompositewdhdp.png  used on input line 4
+55.
 (pdftex.def)             Requested size: 464.69556pt x 309.79555pt.
-
-<figures/thermocompositewdhdpanom.png, id=3390, 1052.9739pt x 938.0646pt>
+<figures/thermocompositewdhdpanom.png, id=3425, 1052.9739pt x 938.0646pt>
 File: figures/thermocompositewdhdpanom.png Graphic file (type png)
-
 <use figures/thermocompositewdhdpanom.png>
-Package pdftex.def Info: figures/thermocompositewdhdpanom.png used on input lin
-e 462.
+Package pdftex.def Info: figures/thermocompositewdhdpanom.png  used on input li
+ne 461.
 (pdftex.def)             Requested size: 464.69556pt x 413.98068pt.
- [145]
-<figures/thermocompositeint_udothanom.png, id=3399, 1084.05pt x 939.51pt>
+ [146]
+<figures/thermocompositeint_udothanom.png, id=3432, 1084.05pt x 939.51pt>
 File: figures/thermocompositeint_udothanom.png Graphic file (type png)
-
 <use figures/thermocompositeint_udothanom.png>
-Package pdftex.def Info: figures/thermocompositeint_udothanom.png used on input
- line 480.
+Package pdftex.def Info: figures/thermocompositeint_udothanom.png  used on inpu
+t line 479.
 (pdftex.def)             Requested size: 464.69556pt x 402.7342pt.
-
-<figures/thermo_scatter.png, id=3401, 1011.78pt x 917.829pt>
+<figures/thermo_scatter.png, id=3434, 1011.78pt x 917.829pt>
 File: figures/thermo_scatter.png Graphic file (type png)
-
 <use figures/thermo_scatter.png>
-Package pdftex.def Info: figures/thermo_scatter.png used on input line 492.
+Package pdftex.def Info: figures/thermo_scatter.png  used on input line 491.
 (pdftex.def)             Requested size: 464.69556pt x 421.54823pt.
- [146 <./figures/thermocompositewdhdp.png>]
-<figures/mse_barplot_era5.png, id=3409, 867.24pt x 650.43pt>
+ [147 <./figures/thermocompositewdhdp.png>]
+<figures/mse_barplot_era5.png, id=3442, 867.24pt x 650.43pt>
 File: figures/mse_barplot_era5.png Graphic file (type png)
-
 <use figures/mse_barplot_era5.png>
-Package pdftex.def Info: figures/mse_barplot_era5.png used on input line 505.
+Package pdftex.def Info: figures/mse_barplot_era5.png  used on input line 504.
 (pdftex.def)             Requested size: 464.69556pt x 348.52744pt.
- [147 <./figures/thermocompositewdhdpanom.png>] <figures/mse_barplot_norm.png, 
-id=3418, 867.24pt x 650.43pt>
+ [148 <./figures/thermocompositewdhdpanom.png>]
+<figures/mse_barplot_norm.png, id=3451, 867.24pt x 650.43pt>
 File: figures/mse_barplot_norm.png Graphic file (type png)
-
 <use figures/mse_barplot_norm.png>
-Package pdftex.def Info: figures/mse_barplot_norm.png used on input line 514.
+Package pdftex.def Info: figures/mse_barplot_norm.png  used on input line 513.
 (pdftex.def)             Requested size: 464.69556pt x 348.52744pt.
- [148 <./figures/thermocompositeint_udothanom.png>] [149 <./figures/thermo_scat
-ter.png>] [150 <./figures/mse_barplot_era5.png>] [151 <./figures/mse_barplot_no
-rm.png>] [152] [153] [154]) [155]
+ [149 <./figures/thermocompositeint_udothanom.png>] [150 <./figures/thermo_scat
+ter.png>] [151 <./figures/mse_barplot_era5.png>] [152 <./figures/mse_barplot_no
+rm.png>] [153]
+[154] [155]) [156]
 \openout2 = `text/ch7-qbo.aux'.
 
-
-(./text/ch7-qbo.tex
+ (text/ch7-qbo.tex
 Chapter 7.
-[156
+[157
 
 
 
-] [157] [158]
-<figures/piprclimqbowqboe.png, id=3596, 1228.59pt x 361.35pt>
+
+] [158] [159]
+<figures/piprclimqbowqboe.png, id=3629, 1228.59pt x 361.35pt>
 File: figures/piprclimqbowqboe.png Graphic file (type png)
-
 <use figures/piprclimqbowqboe.png>
-Package pdftex.def Info: figures/piprclimqbowqboe.png used on input line 82.
+Package pdftex.def Info: figures/piprclimqbowqboe.png  used on input line 82.
 (pdftex.def)             Requested size: 464.69556pt x 136.67484pt.
- [159]
-<figures/piprdjfqbowqboe.png, id=3605, 1228.59pt x 361.35pt>
+ [160]
+<figures/piprdjfqbowqboe.png, id=3638, 1228.59pt x 361.35pt>
 File: figures/piprdjfqbowqboe.png Graphic file (type png)
-
 <use figures/piprdjfqbowqboe.png>
-Package pdftex.def Info: figures/piprdjfqbowqboe.png used on input line 99.
+Package pdftex.def Info: figures/piprdjfqbowqboe.png  used on input line 99.
 (pdftex.def)             Requested size: 464.69556pt x 136.67484pt.
-
-<figures/piprmamqbowqboe.png, id=3613, 1228.59pt x 361.35pt>
+<figures/piprmamqbowqboe.png, id=3646, 1228.59pt x 361.35pt>
 File: figures/piprmamqbowqboe.png Graphic file (type png)
-
 <use figures/piprmamqbowqboe.png>
-Package pdftex.def Info: figures/piprmamqbowqboe.png used on input line 109.
+Package pdftex.def Info: figures/piprmamqbowqboe.png  used on input line 109.
 (pdftex.def)             Requested size: 464.69556pt x 136.67484pt.
- [160 <./figures/piprclimqbowqboe.png>]
-<figures/piprsonqbowqboe.png, id=3627, 1228.59pt x 361.35pt>
+ [161 <./figures/piprclimqbowqboe.png>]
+<figures/piprsonqbowqboe.png, id=3659, 1228.59pt x 361.35pt>
 File: figures/piprsonqbowqboe.png Graphic file (type png)
-
 <use figures/piprsonqbowqboe.png>
-Package pdftex.def Info: figures/piprsonqbowqboe.png used on input line 126.
+Package pdftex.def Info: figures/piprsonqbowqboe.png  used on input line 126.
 (pdftex.def)             Requested size: 464.69556pt x 136.67484pt.
- [161 <./figures/piprdjfqbowqboe.png> <./figures/piprmamqbowqboe.png>]
-<figures/piprjjaqbowqboe.png, id=3640, 1228.59pt x 361.35pt>
+ [162 <./figures/piprdjfqbowqboe.png> <./figures/piprmamqbowqboe.png>]
+<figures/piprjjaqbowqboe.png, id=3673, 1228.59pt x 361.35pt>
 File: figures/piprjjaqbowqboe.png Graphic file (type png)
-
 <use figures/piprjjaqbowqboe.png>
-Package pdftex.def Info: figures/piprjjaqbowqboe.png used on input line 140.
+Package pdftex.def Info: figures/piprjjaqbowqboe.png  used on input line 140.
 (pdftex.def)             Requested size: 464.69556pt x 136.67484pt.
-
-<figures/pisstclimqbowqboe.png, id=3645, 1228.59pt x 433.62pt>
+<figures/pisstclimqbowqboe.png, id=3678, 1228.59pt x 433.62pt>
 File: figures/pisstclimqbowqboe.png Graphic file (type png)
-
 <use figures/pisstclimqbowqboe.png>
-Package pdftex.def Info: figures/pisstclimqbowqboe.png used on input line 151.
+Package pdftex.def Info: figures/pisstclimqbowqboe.png  used on input line 151.
+
 (pdftex.def)             Requested size: 464.69556pt x 164.0098pt.
- [162 <./figures/piprsonqbowqboe.png> <./figures/piprjjaqbowqboe.png>]
-<figures/pisstdjfqbowqboe.png, id=3660, 1228.59pt x 433.62pt>
+ [163 <./figures/piprsonqbowqboe.png> <./figures/piprjjaqbowqboe.png>]
+<figures/pisstdjfqbowqboe.png, id=3693, 1228.59pt x 433.62pt>
 File: figures/pisstdjfqbowqboe.png Graphic file (type png)
-
 <use figures/pisstdjfqbowqboe.png>
-Package pdftex.def Info: figures/pisstdjfqbowqboe.png used on input line 163.
+Package pdftex.def Info: figures/pisstdjfqbowqboe.png  used on input line 163.
 (pdftex.def)             Requested size: 464.69556pt x 164.0098pt.
- [163 <./figures/pisstclimqbowqboe.png> <./figures/pisstdjfqbowqboe.png>]
-<figures/climcmip_bconv_pratl.png, id=3671, 939.51pt x 578.16pt>
+ [164 <./figures/pisstclimqbowqboe.png> <./figures/pisstdjfqbowqboe.png>]
+<figures/climcmip_bconv_pratl.png, id=3704, 939.51pt x 578.16pt>
 File: figures/climcmip_bconv_pratl.png Graphic file (type png)
-
 <use figures/climcmip_bconv_pratl.png>
-Package pdftex.def Info: figures/climcmip_bconv_pratl.png used on input line 18
-0.
+Package pdftex.def Info: figures/climcmip_bconv_pratl.png  used on input line 1
+80.
 (pdftex.def)             Requested size: 464.69556pt x 285.96512pt.
-
-<figures/anomcmip_conv_pratlqbow.png, id=3674, 867.24pt x 505.89pt>
+<figures/anomcmip_conv_pratlqbow.png, id=3707, 867.24pt x 505.89pt>
 File: figures/anomcmip_conv_pratlqbow.png Graphic file (type png)
-
 <use figures/anomcmip_conv_pratlqbow.png>
-Package pdftex.def Info: figures/anomcmip_conv_pratlqbow.png used on input line
- 194.
+Package pdftex.def Info: figures/anomcmip_conv_pratlqbow.png  used on input lin
+e 194.
 (pdftex.def)             Requested size: 464.69556pt x 271.07689pt.
-
-<figures/anomcmip_conv_prcpqbow.png, id=3675, 867.24pt x 505.89pt>
+<figures/anomcmip_conv_prcpqbow.png, id=3708, 867.24pt x 505.89pt>
 File: figures/anomcmip_conv_prcpqbow.png Graphic file (type png)
-
 <use figures/anomcmip_conv_prcpqbow.png>
-Package pdftex.def Info: figures/anomcmip_conv_prcpqbow.png used on input line 
-203.
+Package pdftex.def Info: figures/anomcmip_conv_prcpqbow.png  used on input line
+ 203.
 (pdftex.def)             Requested size: 464.69556pt x 271.07689pt.
- [164] [165 <./figures/climcmip_bconv_pratl.png>]
-<figures/monsoon_cmip_qbownn.png, id=3697, 973.4769pt x 1009.6119pt>
+ [165] [166 <./figures/climcmip_bconv_pratl.png>]
+<figures/monsoon_cmip_qbownn.png, id=3727, 973.4769pt x 1009.6119pt>
 File: figures/monsoon_cmip_qbownn.png Graphic file (type png)
-
 <use figures/monsoon_cmip_qbownn.png>
-Package pdftex.def Info: figures/monsoon_cmip_qbownn.png used on input line 222
-.
+Package pdftex.def Info: figures/monsoon_cmip_qbownn.png  used on input line 22
+2.
 (pdftex.def)             Requested size: 464.69556pt x 481.94307pt.
- [166 <./figures/anomcmip_conv_pratlqbow.png>] <figures/mons_init_conv_prcompar
-i.png, id=3711, 867.24pt x 722.7pt>
+ [167 <./figures/anomcmip_conv_pratlqbow.png>]
+<figures/mons_init_conv_prcompari.png, id=3742, 867.24pt x 722.7pt>
 File: figures/mons_init_conv_prcompari.png Graphic file (type png)
-
 <use figures/mons_init_conv_prcompari.png>
-Package pdftex.def Info: figures/mons_init_conv_prcompari.png used on input lin
-e 237.
+Package pdftex.def Info: figures/mons_init_conv_prcompari.png  used on input li
+ne 237.
 (pdftex.def)             Requested size: 464.69556pt x 387.2527pt.
- [167 <./figures/anomcmip_conv_prcpqbow.png>] [168 <./figures/monsoon_cmip_qbow
-nn.png>] [169 <./figures/mons_init_conv_prcompari.png>] <figures/iod_barplot.pn
-g, id=3742, 1011.78pt x 578.16pt>
+ [168 <./figures/anomcmip_conv_prcpqbow.png>] [169 <./figures/monsoon_cmip_qbow
+nn.png>] [170 <./figures/mons_init_conv_prcompari.png>]
+<figures/iod_barplot.png, id=3774, 1011.78pt x 578.16pt>
 File: figures/iod_barplot.png Graphic file (type png)
-
 <use figures/iod_barplot.png>
-Package pdftex.def Info: figures/iod_barplot.png used on input line 271.
+Package pdftex.def Info: figures/iod_barplot.png  used on input line 271.
 (pdftex.def)             Requested size: 464.69556pt x 265.54219pt.
- [170] [171 <./figures/iod_barplot.png>]
-<figures/regress_gc3.png, id=3765, 1011.78pt x 722.7pt>
+ [171] [172 <./figures/iod_barplot.png>]
+<figures/regress_gc3.png, id=3799, 1011.78pt x 722.7pt>
 File: figures/regress_gc3.png Graphic file (type png)
-
 <use figures/regress_gc3.png>
-Package pdftex.def Info: figures/regress_gc3.png used on input line 298.
+Package pdftex.def Info: figures/regress_gc3.png  used on input line 298.
 (pdftex.def)             Requested size: 464.69556pt x 331.92773pt.
- [172] [173 <./figures/regress_gc3.png>]
-<figures/ensoqboprdjf.png, id=3783, 1228.59pt x 361.35pt>
+ [173]
+[174 <./figures/regress_gc3.png>]
+<figures/ensoqboprdjf.png, id=3819, 1228.59pt x 361.35pt>
 File: figures/ensoqboprdjf.png Graphic file (type png)
-
 <use figures/ensoqboprdjf.png>
-Package pdftex.def Info: figures/ensoqboprdjf.png used on input line 318.
+Package pdftex.def Info: figures/ensoqboprdjf.png  used on input line 318.
 (pdftex.def)             Requested size: 464.69556pt x 136.67484pt.
-
-<figures/cmip_streamdjfm.png, id=3785, 1084.05pt x 722.7pt>
+<figures/cmip_streamdjfm.png, id=3821, 1084.05pt x 722.7pt>
 File: figures/cmip_streamdjfm.png Graphic file (type png)
-
 <use figures/cmip_streamdjfm.png>
-Package pdftex.def Info: figures/cmip_streamdjfm.png used on input line 339.
+Package pdftex.def Info: figures/cmip_streamdjfm.png  used on input line 339.
 (pdftex.def)             Requested size: 464.69556pt x 309.79555pt.
- [174 <./figures/ensoqboprdjf.png>] [175 <./figures/cmip_streamdjfm.png>]
-<figures/cmip_streamson.png, id=3809, 1084.05pt x 722.7pt>
+ [175 <./figures/ensoqboprdjf.png>] [176 <./figures/cmip_streamdjfm.png>]
+<figures/cmip_streamson.png, id=3845, 1084.05pt x 722.7pt>
 File: figures/cmip_streamson.png Graphic file (type png)
-
 <use figures/cmip_streamson.png>
-Package pdftex.def Info: figures/cmip_streamson.png used on input line 362.
+Package pdftex.def Info: figures/cmip_streamson.png  used on input line 362.
 (pdftex.def)             Requested size: 464.69556pt x 309.79555pt.
- [176 <./figures/cmip_streamson.png>] [177]
-[178] [179]) [180]
+ [177 <./figures/cmip_streamson.png>] [178] [179]
+[180]) [181]
 \openout2 = `text/ch7-nudging.aux'.
 
- (./text/ch7-nudging.tex
+ (text/ch7-nudging.tex
 Chapter 8.
-[181
+[182
 
 
 
-] <figures/qboamplitude.png, id=3954, 1156.32pt x 505.89pt>
+
+]
+<figures/qboamplitude.png, id=3989, 1156.32pt x 505.89pt>
 File: figures/qboamplitude.png Graphic file (type png)
-
 <use figures/qboamplitude.png>
-Package pdftex.def Info: figures/qboamplitude.png used on input line 26.
+Package pdftex.def Info: figures/qboamplitude.png  used on input line 26.
 (pdftex.def)             Requested size: 464.69556pt x 203.30186pt.
- [182] [183 <./figures/qboamplitude.png>]
-<figures/u_test__.png, id=3988, 849.8952pt x 852.786pt>
+ [183] [184 <./figures/qboamplitude.png>]
+<figures/u_test__.png, id=4025, 849.8952pt x 852.786pt>
 File: figures/u_test__.png Graphic file (type png)
-
 <use figures/u_test__.png>
-Package pdftex.def Info: figures/u_test__.png used on input line 80.
+Package pdftex.def Info: figures/u_test__.png  used on input line 80.
 (pdftex.def)             Requested size: 441.45935pt x 442.96982pt.
-
-<figures/profilUTclimatology.png, id=3990, 867.24pt x 794.97pt>
+<figures/profilUTclimatology.png, id=4027, 867.24pt x 794.97pt>
 File: figures/profilUTclimatology.png Graphic file (type png)
-
 <use figures/profilUTclimatology.png>
-Package pdftex.def Info: figures/profilUTclimatology.png used on input line 92.
-
+Package pdftex.def Info: figures/profilUTclimatology.png  used on input line 92
+.
 (pdftex.def)             Requested size: 464.69556pt x 425.97798pt.
- [184] [185 <./figures/u_test__.png>]
-[186 <./figures/profilUTclimatology.png>]
+ [185] [186 <./figures/u_test__.png>] [187 <./figures/profilUTclimatology.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 113--113
 []|\T1/lmr/m/n/12 (+7) Ensemble
  []
@@ -3317,168 +3064,147 @@ Overfull \hbox (4.63245pt too wide) in paragraph at lines 112--120
 [][] 
  []
 
-[187] <figures/zonalplotx_wind.png, id=4018, 1011.78pt x 722.7pt>
+[188]
+<figures/zonalplotx_wind.png, id=4058, 1011.78pt x 722.7pt>
 File: figures/zonalplotx_wind.png Graphic file (type png)
-
 <use figures/zonalplotx_wind.png>
-Package pdftex.def Info: figures/zonalplotx_wind.png used on input line 129.
+Package pdftex.def Info: figures/zonalplotx_wind.png  used on input line 129.
 (pdftex.def)             Requested size: 464.69556pt x 331.92773pt.
-
-<figures/zonalplotair_temperature.png, id=4021, 1011.78pt x 722.7pt>
+<figures/zonalplotair_temperature.png, id=4061, 1011.78pt x 722.7pt>
 File: figures/zonalplotair_temperature.png Graphic file (type png)
-
 <use figures/zonalplotair_temperature.png>
-Package pdftex.def Info: figures/zonalplotair_temperature.png used on input lin
-e 147.
+Package pdftex.def Info: figures/zonalplotair_temperature.png  used on input li
+ne 147.
 (pdftex.def)             Requested size: 464.69556pt x 331.92773pt.
- [188]
-<figures/ta100climqbowf.png, id=4031, 1300.86pt x 614.295pt>
+ [189]
+<figures/ta100climqbowf.png, id=4070, 1300.86pt x 614.295pt>
 File: figures/ta100climqbowf.png Graphic file (type png)
-
 <use figures/ta100climqbowf.png>
-Package pdftex.def Info: figures/ta100climqbowf.png used on input line 169.
+Package pdftex.def Info: figures/ta100climqbowf.png  used on input line 169.
 (pdftex.def)             Requested size: 464.69556pt x 219.44006pt.
- [189 <./figures/zonalplotx_wind.png>]
+ [190 <./figures/zonalplotx_wind.png>]
 
-LaTeX Warning: Text page 190 contains only floats.
+LaTeX Warning: Text page 191 contains only floats.
 
-[190 <./figures/zonalplotair_temperature.png> <./figures/ta100climqbowf.png>]
-<figures/suite_streamhadleyclim.png, id=4048, 1011.78pt x 867.24pt>
+[191 <./figures/zonalplotair_temperature.png> <./figures/ta100climqbowf.png>]
+<figures/suite_streamhadleyclim.png, id=4089, 1011.78pt x 867.24pt>
 File: figures/suite_streamhadleyclim.png Graphic file (type png)
-
 <use figures/suite_streamhadleyclim.png>
-Package pdftex.def Info: figures/suite_streamhadleyclim.png used on input line 
-188.
+Package pdftex.def Info: figures/suite_streamhadleyclim.png  used on input line
+ 188.
 (pdftex.def)             Requested size: 464.69556pt x 398.3133pt.
-
-<figures/suite_streamwalkerclim.png, id=4049, 1084.05pt x 794.97pt>
+<figures/suite_streamwalkerclim.png, id=4090, 1084.05pt x 794.97pt>
 File: figures/suite_streamwalkerclim.png Graphic file (type png)
-
 <use figures/suite_streamwalkerclim.png>
-Package pdftex.def Info: figures/suite_streamwalkerclim.png used on input line 
-203.
+Package pdftex.def Info: figures/suite_streamwalkerclim.png  used on input line
+ 203.
 (pdftex.def)             Requested size: 464.69556pt x 340.7751pt.
- [191] [192 <./figures/suite_streamhadleyclim.png>] <figures/olr_check.png, id=
-4067, 1076.1003pt x 365.6862pt>
+
+[192] [193 <./figures/suite_streamhadleyclim.png>]
+<figures/olr_check.png, id=4108, 1076.1003pt x 365.6862pt>
 File: figures/olr_check.png Graphic file (type png)
-
 <use figures/olr_check.png>
-Package pdftex.def Info: figures/olr_check.png used on input line 217.
+Package pdftex.def Info: figures/olr_check.png  used on input line 217.
 (pdftex.def)             Requested size: 464.69556pt x 157.91159pt.
- [193 <./figures/suite_streamwalkerclim.png>]
-<figures/olr_tseries.png, id=4075, 867.24pt x 578.16pt>
+ [194 <./figures/suite_streamwalkerclim.png>]
+<figures/olr_tseries.png, id=4116, 867.24pt x 578.16pt>
 File: figures/olr_tseries.png Graphic file (type png)
-
 <use figures/olr_tseries.png>
-Package pdftex.def Info: figures/olr_tseries.png used on input line 229.
+Package pdftex.def Info: figures/olr_tseries.png  used on input line 229.
 (pdftex.def)             Requested size: 464.69556pt x 309.80217pt.
- [194 <./figures/olr_check.png>]
-<figures/pr_amip_climqbowqboe.png, id=4086, 1156.32pt x 361.35pt>
+ [195 <./figures/olr_check.png>]
+<figures/pr_amip_climqbowqboe.png, id=4126, 1156.32pt x 361.35pt>
 File: figures/pr_amip_climqbowqboe.png Graphic file (type png)
-
 <use figures/pr_amip_climqbowqboe.png>
-Package pdftex.def Info: figures/pr_amip_climqbowqboe.png used on input line 25
-0.
+Package pdftex.def Info: figures/pr_amip_climqbowqboe.png  used on input line 2
+50.
 (pdftex.def)             Requested size: 464.69556pt x 145.21562pt.
- [195 <./figures/olr_tseries.png>]
-<figures/pr_amip_djfqbowqboe.png, id=4096, 1156.32pt x 361.35pt>
+ [196 <./figures/olr_tseries.png>]
+<figures/pr_amip_djfqbowqboe.png, id=4136, 1156.32pt x 361.35pt>
 File: figures/pr_amip_djfqbowqboe.png Graphic file (type png)
-
 <use figures/pr_amip_djfqbowqboe.png>
-Package pdftex.def Info: figures/pr_amip_djfqbowqboe.png used on input line 262
-.
+Package pdftex.def Info: figures/pr_amip_djfqbowqboe.png  used on input line 26
+2.
 (pdftex.def)             Requested size: 464.69556pt x 145.21562pt.
- [196 <./figures/pr_amip_climqbowqboe.png> <./figures/pr_amip_djfqbowqboe.png>]
-
-<figures/sst_check_climqbowqboe.png, id=4106, 1077.5457pt x 682.2288pt>
+ [197 <./figures/pr_amip_climqbowqboe.png> <./figures/pr_amip_djfqbowqboe.png>]
+<figures/sst_check_climqbowqboe.png, id=4148, 1077.5457pt x 682.2288pt>
 File: figures/sst_check_climqbowqboe.png Graphic file (type png)
-
 <use figures/sst_check_climqbowqboe.png>
-Package pdftex.def Info: figures/sst_check_climqbowqboe.png used on input line 
-290.
+Package pdftex.def Info: figures/sst_check_climqbowqboe.png  used on input line
+ 290.
 (pdftex.def)             Requested size: 464.69556pt x 294.21669pt.
- [197]
-<figures/sstseasonal_mamqbowqboe.png, id=4116, 1074.6549pt x 323.0469pt>
+ [198]
+<figures/sstseasonal_mamqbowqboe.png, id=4158, 1074.6549pt x 323.0469pt>
 File: figures/sstseasonal_mamqbowqboe.png Graphic file (type png)
-
 <use figures/sstseasonal_mamqbowqboe.png>
-Package pdftex.def Info: figures/sstseasonal_mamqbowqboe.png used on input line
- 308.
+Package pdftex.def Info: figures/sstseasonal_mamqbowqboe.png  used on input lin
+e 308.
 (pdftex.def)             Requested size: 464.69556pt x 139.69121pt.
- [198 <./figures/sst_check_climqbowqboe.png>]
-<figures/sstseasonal_jjaqbowqboe.png, id=4125, 1076.823pt x 323.0469pt>
+ [199 <./figures/sst_check_climqbowqboe.png>]
+<figures/sstseasonal_jjaqbowqboe.png, id=4166, 1076.823pt x 323.0469pt>
 File: figures/sstseasonal_jjaqbowqboe.png Graphic file (type png)
-
 <use figures/sstseasonal_jjaqbowqboe.png>
-Package pdftex.def Info: figures/sstseasonal_jjaqbowqboe.png used on input line
- 321.
+Package pdftex.def Info: figures/sstseasonal_jjaqbowqboe.png  used on input lin
+e 321.
 (pdftex.def)             Requested size: 464.69556pt x 139.40532pt.
- [199 <./figures/sstseasonal_mamqbowqboe.png> <./figures/sstseasonal_jjaqbowqbo
+ [200 <./figures/sstseasonal_mamqbowqboe.png> <./figures/sstseasonal_jjaqbowqbo
 e.png>]
-<figures/pr_check_climqbowqboe.png, id=4136, 1084.05pt x 722.7pt>
+<figures/pr_check_climqbowqboe.png, id=4179, 1084.05pt x 722.7pt>
 File: figures/pr_check_climqbowqboe.png Graphic file (type png)
-
 <use figures/pr_check_climqbowqboe.png>
-Package pdftex.def Info: figures/pr_check_climqbowqboe.png used on input line 3
-39.
+Package pdftex.def Info: figures/pr_check_climqbowqboe.png  used on input line 
+339.
 (pdftex.def)             Requested size: 464.69556pt x 309.79555pt.
- [200 <./figures/pr_check_climqbowqboe.png>] <figures/conv_prseasonal_mamqbowqb
-oe.png, id=4148, 1084.05pt x 325.215pt>
+ [201 <./figures/pr_check_climqbowqboe.png>]
+<figures/conv_prseasonal_mamqbowqboe.png, id=4191, 1084.05pt x 325.215pt>
 File: figures/conv_prseasonal_mamqbowqboe.png Graphic file (type png)
-
 <use figures/conv_prseasonal_mamqbowqboe.png>
-Package pdftex.def Info: figures/conv_prseasonal_mamqbowqboe.png used on input 
-line 356.
+Package pdftex.def Info: figures/conv_prseasonal_mamqbowqboe.png  used on input
+ line 356.
 (pdftex.def)             Requested size: 464.69556pt x 139.40799pt.
- [201 <./figures/conv_prseasonal_mamqbowqboe.png>]
-<figures/conv_prseasonal_jjaqbowqboe.png, id=4160, 1084.05pt x 325.215pt>
+ [202 <./figures/conv_prseasonal_mamqbowqboe.png>]
+<figures/conv_prseasonal_jjaqbowqboe.png, id=4204, 1084.05pt x 325.215pt>
 File: figures/conv_prseasonal_jjaqbowqboe.png Graphic file (type png)
-
 <use figures/conv_prseasonal_jjaqbowqboe.png>
-Package pdftex.def Info: figures/conv_prseasonal_jjaqbowqboe.png used on input 
-line 374.
+Package pdftex.def Info: figures/conv_prseasonal_jjaqbowqboe.png  used on input
+ line 374.
 (pdftex.def)             Requested size: 464.69556pt x 139.40799pt.
-
-<figures/suite_coupledhadley.png, id=4163, 939.51pt x 939.51pt>
+<figures/suite_coupledhadley.png, id=4207, 939.51pt x 939.51pt>
 File: figures/suite_coupledhadley.png Graphic file (type png)
-
 <use figures/suite_coupledhadley.png>
-Package pdftex.def Info: figures/suite_coupledhadley.png used on input line 387
-.
+Package pdftex.def Info: figures/suite_coupledhadley.png  used on input line 38
+7.
 (pdftex.def)             Requested size: 464.69556pt x 464.69333pt.
- [202 <./figures/conv_prseasonal_jjaqbowqboe.png>] [203 <./figures/suite_couple
-dhadley.png>]
-<figures/suite_coupledwalker.png, id=4183, 939.51pt x 722.7pt>
+
+[203 <./figures/conv_prseasonal_jjaqbowqboe.png>] [204 <./figures/suite_coupled
+hadley.png>]
+<figures/suite_coupledwalker.png, id=4228, 939.51pt x 722.7pt>
 File: figures/suite_coupledwalker.png Graphic file (type png)
-
 <use figures/suite_coupledwalker.png>
-Package pdftex.def Info: figures/suite_coupledwalker.png used on input line 403
-.
+Package pdftex.def Info: figures/suite_coupledwalker.png  used on input line 40
+3.
 (pdftex.def)             Requested size: 464.69556pt x 357.4564pt.
- [204] [205 <./figures/suite_coupledwalker.png>] <figures/iod_suites.png, id=42
-03, 1011.78pt x 939.51pt>
+ [205] [206 <./figures/suite_coupledwalker.png>]
+<figures/iod_suites.png, id=4248, 1011.78pt x 939.51pt>
 File: figures/iod_suites.png Graphic file (type png)
-
 <use figures/iod_suites.png>
-Package pdftex.def Info: figures/iod_suites.png used on input line 431.
+Package pdftex.def Info: figures/iod_suites.png  used on input line 431.
 (pdftex.def)             Requested size: 464.69556pt x 431.50606pt.
- [206] [207 <./figures/iod_suites.png>] [208]
-[209]) [210]
+ [207] [208 <./figures/iod_suites.png>] [209] [210]) [211]
 \openout2 = `text/ch8-conclusions.aux'.
 
- (./text/ch8-conclusions.tex
+ (text/ch8-conclusions.tex
 Chapter 9.
-[211
+[212
 
 
 
-] [212] [213] [214] [215] [216]) [217] (./Oxford_Thesis.bbl [218
+
+] [213] [214] [215] [216] [217]) [218] (Oxford_Thesis.bbl [219
+
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [219]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [220]
@@ -3529,57 +3255,142 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [235]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [236])
+ [236]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [237]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [238])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the Oxford_Thesis.maf file.
 \openout3 = `Oxford_Thesis.maf'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 244.
+\Changes@OutFile=\write7
+\openout7 = `Oxford_Thesis.soc'.
 
-[237]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 244.
- (./Oxford_Thesis.aux (./text/abbreviations.aux) (./text/ch1-intro.aux)
-(./text/ch2-litreview.aux) (./text/ch3-methods.aux) (./text/ch4-ams.aux)
-(./text/ch5-wvt.aux) (./text/ch-msd.aux) (./text/ch7-qbo.aux)
-(./text/ch7-nudging.aux) (./text/ch8-conclusions.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 244.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 244.
-Package rerunfilecheck Info: File `Oxford_Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: CF08DC69E060F02E6033FDDD2CDC3C95;6403.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 244.
+\tf@loc=\write8
+\openout8 = `Oxford_Thesis.loc'.
+
+
+[239] (Oxford_Thesis.aux (text/abbreviations.aux) (text/ch1-intro.aux)
+(text/ch2-litreview.aux) (text/ch3-methods.aux) (text/ch4-ams.aux)
+(text/ch5-wvt.aux) (text/ch-msd.aux) (text/ch7-qbo.aux) (text/ch7-nudging.aux)
+(text/ch8-conclusions.aux))
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `Oxford_Thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Oxford_Thesis.out':
+(rerunfilecheck)             Before: AD7C606D4E51B063AE6C5A73E360C174;17483
+(rerunfilecheck)             After:  E6EEB6F0B385A54B4AC4CC6A072B1C4A;17483.
  ) 
 Here is how much of TeX's memory you used:
- 27129 strings out of 494777
- 454490 string characters out of 6176443
- 602614 words of memory out of 5000000
- 28606 multiletter control sequences out of 15000+600000
- 124416 words of font info for 213 fonts, out of 8000000 for 9000
- 107 hyphenation exceptions out of 8191
- 46i,13n,51p,10365b,1154s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share
-/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
--mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texlive
-/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/public/lm
-/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi
-10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb>
-</usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1
-/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/l
-m/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/f
-onts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.
-pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/
-type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></
-usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmtti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/p
-utb8a.pfb>
-Output written on Oxford_Thesis.pdf (244 pages, 39745817 bytes).
+ 37775 strings out of 478702
+ 697428 string characters out of 2852261
+ 1045960 words of memory out of 3000000
+ 53566 multiletter control sequences out of 15000+600000
+ 530384 words of font info for 300 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 114i,13n,108p,1234b,1205s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{figure.caption.140} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.136} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.133} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.129} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.125} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.120} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.118} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.117} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.116} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.115} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.110} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.109} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.108} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.62} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.59} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.58} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.55} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.54} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.51} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.50} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.47} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter*.154} has been referenced but does not exis
+t, replaced by a fixed one
+
+{/home/jlgf/.miktex/texmfs/install/fonts/enc/dvips/lm/lm-ec.enc}{/home/jlgf/.mi
+ktex/texmfs/install/fonts/enc/dvips/lm/lm-rm.enc}{/home/jlgf/.miktex/texmfs/ins
+tall/fonts/enc/dvips/lm/lm-mathit.enc}{/home/jlgf/.miktex/texmfs/install/fonts/
+enc/dvips/lm/lm-mathex.enc}{/home/jlgf/.miktex/texmfs/install/fonts/enc/dvips/l
+m/lm-mathsy.enc}{/home/jlgf/.miktex/texmfs/install/fonts/enc/dvips/lm/lm-ts1.en
+c}{/home/jlgf/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/jlgf/.m
+iktex/texmfs/install/fonts/type1/public/lm/lmbx10.pfb></home/jlgf/.miktex/texmf
+s/install/fonts/type1/public/lm/lmbx12.pfb></home/jlgf/.miktex/texmfs/install/f
+onts/type1/public/lm/lmex10.pfb></home/jlgf/.miktex/texmfs/install/fonts/type1/
+public/lm/lmmi10.pfb></home/jlgf/.miktex/texmfs/install/fonts/type1/public/lm/l
+mmi12.pfb></home/jlgf/.miktex/texmfs/install/fonts/type1/public/lm/lmmi6.pfb></
+home/jlgf/.miktex/texmfs/install/fonts/type1/public/lm/lmmi8.pfb></home/jlgf/.m
+iktex/texmfs/install/fonts/type1/public/lm/lmr10.pfb></home/jlgf/.miktex/texmfs
+/install/fonts/type1/public/lm/lmr12.pfb></home/jlgf/.miktex/texmfs/install/fon
+ts/type1/public/lm/lmr17.pfb></home/jlgf/.miktex/texmfs/install/fonts/type1/pub
+lic/lm/lmr6.pfb></home/jlgf/.miktex/texmfs/install/fonts/type1/public/lm/lmr7.p
+fb></home/jlgf/.miktex/texmfs/install/fonts/type1/public/lm/lmr8.pfb></home/jlg
+f/.miktex/texmfs/install/fonts/type1/public/lm/lmri10.pfb></home/jlgf/.miktex/t
+exmfs/install/fonts/type1/public/lm/lmri12.pfb></home/jlgf/.miktex/texmfs/insta
+ll/fonts/type1/public/lm/lmsy10.pfb></home/jlgf/.miktex/texmfs/install/fonts/ty
+pe1/public/lm/lmsy8.pfb></home/jlgf/.miktex/texmfs/install/fonts/type1/public/l
+m/lmtt10.pfb></home/jlgf/.miktex/texmfs/install/fonts/type1/public/lm/lmtt12.pf
+b></home/jlgf/.miktex/texmfs/install/fonts/type1/public/lm/lmtti10.pfb></home/j
+lgf/.miktex/texmfs/install/fonts/type1/adobe/utopia/putb8a.pfb>
+Output written on Oxford_Thesis.pdf (246 pages, 38455474 bytes).
 PDF statistics:
- 4637 PDF objects out of 5155 (max. 8388607)
- 3879 compressed objects within 39 object streams
- 766 named destinations out of 1000 (max. 500000)
- 33983 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 4714 PDF objects out of 5155 (max. 8388607)
+ 806 named destinations out of 1000 (max. 500000)
+ 63179 words of extra memory for PDF output out of 74296 (max. 10000000)
 

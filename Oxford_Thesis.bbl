@@ -631,6 +631,14 @@ Gan, M., Kousky, V. \harvardand\ Ropelewski, C.  \harvardyearleft
   relationship to rainfall over west-central Brazil}', {\em Journal of climate}
   {\bf 17},~47--66.
 
+\harvarditem[García-Franco et~al.]{García-Franco, Osprey \harvardand\
+  Gray}{2021}{garciafranco2021}
+García-Franco, J.~L., Osprey, S. \harvardand\ Gray, L.~J.  \harvardyearleft
+  2021\harvardyearright , `A wavelet transform method to determine monsoon
+  onset and retreat from precipitation time-series', {\em International Journal
+  of Climatology} {\bf 41}(11),~5295--5317.
+\newline\harvardurl{https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/joc.7130}
+
 \harvarditem[Garc\'{\i}a-Franco et~al.]{Garc\'{\i}a-Franco, Gray \harvardand\
   Osprey}{2020}{garciafranco2020}
 Garc\'{\i}a-Franco, J.~L., Gray, L.~J. \harvardand\ Osprey, S.
@@ -652,14 +660,6 @@ Garcia, S.~R. \harvardand\ Kayano, M.~T.  \harvardyearleft
   season in {Western-Central Brazil} with antisymmetric outgoing longwave
   radiation relative to the equator', {\em International Journal of
   Climatology} {\bf 33}(1),~188--198.
-
-\harvarditem[García-Franco et~al.]{García-Franco, Osprey \harvardand\
-  Gray}{2021}{garciafranco2021}
-García-Franco, J.~L., Osprey, S. \harvardand\ Gray, L.~J.  \harvardyearleft
-  2021\harvardyearright , `A wavelet transform method to determine monsoon
-  onset and retreat from precipitation time-series', {\em International Journal
-  of Climatology} {\bf 41}(11),~5295--5317.
-\newline\harvardurl{https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/joc.7130}
 
 \harvarditem{Garfinkel \harvardand\ Hartmann}{2010}{garfinkel2010}
 Garfinkel, C.~I. \harvardand\ Hartmann, D.  \harvardyearleft
@@ -933,10 +933,10 @@ Johns, T.~C., Durman, C.~F., Banks, H.~T., Roberts, M.~J., McLaren, A.~J.,
   model (HadGEM1)}: Evaluation of coupled simulations', {\em Journal of
   climate} {\bf 19}(7),~1327--1353.
 
-\harvarditem{Jones \harvardand\ Carvalho}{2002}{jones2002}
-Jones, C. \harvardand\ Carvalho, L.~M.  \harvardyearleft 2002\harvardyearright
-  , `{Active and break phases in the South American monsoon system}', {\em
-  Journal of Climate} {\bf 15},~905--914.
+\harvarditem{Jones}{2019}{jones2019recent}
+Jones, C.  \harvardyearleft 2019\harvardyearright , `Recent changes in the
+  south america low-level jet', {\em npj Climate and Atmospheric Science} {\bf
+  2}(1),~1--8.
 
 \harvarditem{Jones \harvardand\ Carvalho}{2013}{jones2013}
 Jones, C. \harvardand\ Carvalho, L.~M.  \harvardyearleft 2013\harvardyearright
@@ -1239,6 +1239,12 @@ Mission, T. R.~M.  \harvardyearleft 2011\harvardyearright , `{TRMM (TMPA/3B43)
 \newblock Accessed: [12-Jan-2019].
 \newline\harvardurl{\url{https://disc.gsfc.nasa.gov/datasets/TRMM_3B42_7/summary}}
 
+\harvarditem{Mo \harvardand\ Paegle}{2001}{mo2001pacific}
+Mo, K.~C. \harvardand\ Paegle, J.~N.  \harvardyearleft 2001\harvardyearright ,
+  `The pacific--south american modes and their downstream effects', {\em
+  International Journal of Climatology: A Journal of the Royal Meteorological
+  Society} {\bf 21}(10),~1211--1229.
+
 \harvarditem{Moron \harvardand\ Robertson}{2014}{moron2014interannual}
 Moron, V. \harvardand\ Robertson, A.~W.  \harvardyearleft 2014\harvardyearright
   , `Interannual variability of {Indian} summer monsoon rainfall onset date at
@@ -1302,6 +1308,14 @@ Nieto-Ferreira, R. \harvardand\ Rickenbach, T.~M.  \harvardyearleft
   three-stage conceptual model}', {\em International Journal of Climatology}
   {\bf 31}(9),~1309--1321.
 
+\harvarditem[O’Neill et~al.]{O’Neill, Kriegler, Ebi, Kemp-Benedict, Riahi,
+  Rothman, van Ruijven, van Vuuren, Birkmann, Kok et~al.}{2017}{o2017roads}
+O’Neill, B.~C., Kriegler, E., Ebi, K.~L., Kemp-Benedict, E., Riahi, K.,
+  Rothman, D.~S., van Ruijven, B.~J., van Vuuren, D.~P., Birkmann, J., Kok, K.
+  et~al.  \harvardyearleft 2017\harvardyearright , `The roads ahead: Narratives
+  for shared socioeconomic pathways describing world futures in the 21st
+  century', {\em Global environmental change} {\bf 42},~169--180.
+
 \harvarditem[O'Neill et~al.]{O'Neill, Tebaldi, Vuuren, Eyring, Friedlingstein,
   Hurtt, Knutti, Kriegler, Lamarque, Lowe et~al.}{2016}{o2016}
 O'Neill, B.~C., Tebaldi, C., Vuuren, D. P.~v., Eyring, V., Friedlingstein, P.,
@@ -1329,14 +1343,6 @@ Oueslati, B. \harvardand\ Bellon, G.  \harvardyearleft 2015\harvardyearright ,
   `The double {ITCZ bias in CMIP5 models: Interaction between SST, large-scale
   circulation and precipitation}', {\em Climate dynamics} {\bf
   44}(3-4),~585--607.
-
-\harvarditem[O’Neill et~al.]{O’Neill, Kriegler, Ebi, Kemp-Benedict, Riahi,
-  Rothman, van Ruijven, van Vuuren, Birkmann, Kok et~al.}{2017}{o2017roads}
-O’Neill, B.~C., Kriegler, E., Ebi, K.~L., Kemp-Benedict, E., Riahi, K.,
-  Rothman, D.~S., van Ruijven, B.~J., van Vuuren, D.~P., Birkmann, J., Kok, K.
-  et~al.  \harvardyearleft 2017\harvardyearright , `The roads ahead: Narratives
-  for shared socioeconomic pathways describing world futures in the 21st
-  century', {\em Global environmental change} {\bf 42},~169--180.
 
 \harvarditem{Palmer}{2019}{palmer2019st}
 Palmer, T.  \harvardyearleft 2019\harvardyearright , `Stochastic weather and
@@ -1369,6 +1375,14 @@ Perdig{\'o}n-Morales, J., Romero-Centeno, R., Ord{\'o}{\~n}ez, P. \harvardand\
   drought in {Mexico: perspectives on duration and intensity from the CHIRPS
   precipitation database}', {\em International Journal of Climatology} {\bf
   38},~2174--2186.
+
+\harvarditem[Perez et~al.]{Perez, Vidale, Klingaman \harvardand\
+  Martin}{2021}{perez2021}
+Perez, G. M.~P., Vidale, P.~L., Klingaman, N.~P. \harvardand\ Martin, T. C.~M.
+  \harvardyearleft 2021\harvardyearright , `Atmospheric convergence zones
+  stemming from large-scale mixing', {\em Weather and Climate Dynamics} {\bf
+  2}(2),~475--488.
+\newline\harvardurl{https://wcd.copernicus.org/articles/2/475/2021/}
 
 \harvarditem{Pillai \harvardand\ Mohankumar}{2010}{pillai2010}
 Pillai, P.~A. \harvardand\ Mohankumar, K.  \harvardyearleft
@@ -1495,6 +1509,15 @@ Schirber, S.  \harvardyearleft 2015\harvardyearright , `Influence of {ENSO on
 Schneider, T., Bischoff, T. \harvardand\ Haug, G.~H.  \harvardyearleft
   2014\harvardyearright , `{Migrations and dynamics of the Intertropical
   Convergence Zone}', {\em Nature} {\bf 513}(7516),~45.
+
+\harvarditem[Seager et~al.]{Seager, Naik, Ting, Cane, Harnik \harvardand\
+  Kushnir}{2010}{seager2010adjustment}
+Seager, R., Naik, N., Ting, M., Cane, M.~A., Harnik, N. \harvardand\ Kushnir,
+  Y.  \harvardyearleft 2010\harvardyearright , `Adjustment of the atmospheric
+  circulation to tropical pacific sst anomalies: Variability of transient eddy
+  propagation in the pacific--north america sector', {\em Quarterly Journal of
+  the Royal Meteorological Society: A journal of the atmospheric sciences,
+  applied meteorology and physical oceanography} {\bf 136}(647),~277--296.
 
 \harvarditem[Sellar et~al.]{Sellar, Jones, Mulcahy, Tang, Yool, Wiltshire,
   O'Connor, Stringer, Hill, Palmieri, Woodward, de~Mora, Kuhlbrodt, Rumbold,
