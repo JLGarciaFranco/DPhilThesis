@@ -67,9 +67,21 @@ The remainder of this chapter is presented as follows. Section \ref{sq:nudg_tech
 
 This section describes the experimental setup for the nudging experiments. 
 The GC3.1 configuration of the UM model is used (model version 11.4), using an atmospheric horizontal resolution of N96 (corresponding to the low-resolution version of the MOHC CMIP6 simulations). 
-Both atmosphere-only and ocean-atmosphere coupled experiments were conducted, in all cases spanning the period 1981-2015, using a present-day climate setup where all external forcings including greenhouse gas emission are set constant to those of the year 2000. %, so there is no variation in, e.g., greenhouse gases within these simulations.
+Both atmosphere-only and ocean-atmosphere coupled experiments were conducted for the period 1981-2015, using a present-day climate setup where all external forcings including greenhouse gas emission are set constant to those of the year 2000. %, so there is no variation in, e.g., greenhouse gases within these simulations.
 
-Nudging refers to the relaxation of a variable within the model to a specified state obtained from reanalysis, observations or idealized. In the UM setup, three variables can be relaxed, air temperature ($T$) and the zonal and meridional components of the wind ($u$ and $v$). The relaxation is applied towards reanalysis data or towars an idealized state at each grid-point, in contrast to the setup in other models \citep[e.g.][]{martin2021} where the relaxation is performed in a zonal-mean sense.
+\added{Nudging refers to the relaxation of a model variable towards a specified state which can be from reanalysis, observations or idealized states \citep{gray2020,martin2021}.} In the UM setup, three variables can be relaxed, air temperature ($T$) and the zonal ($u$) and meridional ($v$) components of the wind. \added{ The relaxation is applied at each grid-point, in contrast to the setup in other models \citep[e.g.][]{martin2021} where the relaxation is performed in a zonal-mean sense. Specifically, the UM uses a Newtonian relaxation technique \citep{telford2008description,gray2020} which sets the field to be relaxed ($F$) at each time-step through the following equation:  }
+
+\added{
+\begin{equation}
+\Delta F=G\Delta t (F_{ndg}-F_{model}),
+\end{equation}
+}
+
+\added{
+\noindent where $\Delta F$ is the discrete change of $F$ at each time-step, $G$ is the relaxation parameter, $\Delta t$ is the time-step size, $F_{ndg}$ is the value of the field from the nudging data and $F_{model}$ is the model value of the field at the last time-step \citep{telford2008description}. }
+
+\added{The relaxation parameter $G$ sets the strength of the relaxation and is linked with the relaxation timescale ($\tau$) by $G=1/\tau$. In the UM model, the relaxation timescale is given by the temporal resolution of the nudging data, which is 6 h \citep{telford2008description,gray2020}, so that $G=\frac{1}{6}$ h$^{-1}$. This relaxation parameter has been shown to be sufficiently strong to constraint the stratospheric state of the model \citep{gray2020} and so the same parameter was used for the simulations of this chapter. }
+
  Furthermore, the nudging can be performed between specified vertical levels and in selected latitude/longitude regions. % to certain levels within certain longitudes and latitudes using different reanalysis datasets or even idealized states. 
  To find the experimental setup that results in an improvement in the representation of the QBO without over constraining the climatological state of the model we conducted several sensitivity tests using an atmosphere-only setup to test the effect of nudging all $u$, $v$ and $T$ compared to just $u$, as well as the model levels and latitudes where the nudging was applied. 
 %and is a technique that has recently been used for several purposes such as investigating the MJO-QBO relationship in a climate model \citep{martin2021} and the role of the upper stratosphere for forecasting sudden stratospheric warming events \citep{gray2020}.

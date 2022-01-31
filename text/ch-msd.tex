@@ -83,8 +83,13 @@ All the data used in this chapter are described in more detail in Chapter \ref{c
 
 \subsection{CMIP6 data}\label{sq:ch6cmipdata}
 
-This chapter uses the output from realizations of the HadGEM3 GC3.1 run at two resolutions at N96 and N216 and from UKESM1. These experiments are described in section \ref{sq:cmip6exp} and summarised in Table \ref{tab:Sexps}. In addition to the pre-industrial, AMIP, and historical experiments used in previous chapters, this chapter uses experiments from the Cloud-Feedback MIP (CFMIP) \citep{webb2017} and ScenarioMIP \citep{o2016} activities of CMIP6 (see Table \ref{tab:Sexps}). The experiments from CFMIP are the GC3-amip lwoff in which longwave radiative effects are turned off and amip-p4K and amip-m4K in which the SSTs are 4 K warmer and colder, respectively. The runs used from the ScenarioMIP are forced using the Shared Socioeconomic Pathways (SSPs): SSP1, SSP2 and SSP5  which correspond to Sustainability, Middle of the Road and Fossil-fuel development narratives, respectively \citep{o2017roads}.
+This chapter uses the output from realizations of the HadGEM3 GC3.1 run at two resolutions at N96 and N216 and from UKESM1. These experiments are described in section \ref{sq:cmip6exp} and summarised in Table \ref{tab:Sexps}.
+\added{The main experiments used in this chapter are the pre-industrial control (piControl), AMIP, and historical experiments. The pre-industrial control experiments use a constant external forcing for the year 1850, and are relatively longer integrations \citep{menary2018}, whereas the historical experiments use our best estimate of the time-varying aerosol and greenhouse gas emissions from 1850 to 2014 \citep{eyring2016,andrews2020}. The AMIP experiments use the same external forcing as the historical experiments but also "nudge" the SSTs using observational products, thereby decoupling the atmosphere from the ocean and removing SST biases \citep{eyring2016}.}
 
+\added{In addition to these deck experiments used in previous chapters, this chapter uses experiments from the Cloud-Feedback MIP (CFMIP) \citep{webb2017} and ScenarioMIP \citep{o2016} activities of CMIP6 (see Table \ref{tab:Sexps}). 
+The experiments from CFMIP are the GC3-amip lwoff in which longwave radiative effects are turned off and amip-p4K and amip-m4K in which the SSTs are increased and decreased 4 K, respectively, \added{globally from the main amip experiment}. The runs used from the ScenarioMIP are forced using the Shared Socioeconomic Pathways (SSPs): SSP1, SSP2 and SSP5  which correspond to Sustainability, Middle of the Road and Fossil-fuel development narratives, respectively \citep{o2017roads}.
+ In these scenarios, global mean temperatures increase at the end of the 21st century, relative to pre-industrial levels, between 0.40 to 2.05$^\circ$C, 1.27 and 3.00$^\circ$C for SSP2 and 2.40 and 5.57$^\circ$C for SSP5 \citep{tebaldi2021}.
+}
 
 \subsection{Determination of the timings of the MSD}
 
@@ -128,7 +133,7 @@ The MSDO in the CMIP6 experiments is diagnosed one or two pentads after TRMM and
 In particular, the pre-industrial control experiments show a higher magnitude of precipitation during the first peak and the MSD period whereas GC3-amip experiments are characterized by a wetter second peak. 
 
 
- The climatological distribution of precipitation and the temporal differences within the MSD timings in ERA5 agrees well with TRMM and CHIRPS (Figure \ref{fig:eof2}). ERA5 reasonably captures the climatology of precipitation over land over the East Pacific ITCZ. The biases of JJAS-mean precipitation in ERA5  (Figure \ref{fig:era5_bias_pr}) are positive over the East Pacific Ocean and western Mexico, and negative over land in southern Mexico and Central America.
+ The climatological distribution of precipitation and the temporal differences within the MSD timings in ERA5 agrees well with TRMM and CHIRPS (Figure \ref{fig:eof2}). ERA5 reasonably captures the climatology of precipitation over land over the East Pacific ITCZ. The biases of JJAS-mean precipitation in ERA5  (Figure \ref{fig:era5_bias_pr}) are positive over the East Pacific Ocean and western Mexico, and negative over land in southern Mexico and Central America. 
  
   \begin{figure}[b!]
 \includegraphics[width=\linewidth]{figures/fig2obs_prmodels3.png}
@@ -137,7 +142,9 @@ In particular, the pre-industrial control experiments show a higher magnitude of
 \end{figure} 
   
  
-  The patterns of the MSD-P1 and P2-MSD differences in ERA5 (Fig. \ref{fig:eof2}) also agree well with TRMM. The precipitation differences associated with the MSD timings within the box in Figure \ref{fig:eof2}b extend well outside the study region comprising the easternmost Pacific Ocean, the entrance to the Gulf of Mexico and western Caribbean Sea, particularly in the P2-MSD panel.% Notably, the strongest differences for both panels are found on the western coast of Mesoamerica. 
+  The patterns of the MSD-P1 and P2-MSD differences in ERA5 (Fig. \ref{fig:eof2}) also agree well with TRMM. The precipitation differences associated with the MSD timings within the box in Figure \ref{fig:eof2}b extend well outside the study region comprising the easternmost Pacific Ocean, the entrance to the Gulf of Mexico and western Caribbean Sea, particularly in the P2-MSD panel. 
+\added{The interannual variability of mean boreal summer rainfall, and P1 and P2 magnitudes between ERA5, TRMM and CHIRPS are also very similar (not shown). This means that ERA5 may be used to investigate what processes best explain the interannual variability of precipitation of the reanalysis, specifically, what factors modulate the variations of the P1-MSD from one year to the next.}
+  % Notably, the strongest differences for both panels are found on the western coast of Mesoamerica. 
  
 
 
@@ -159,7 +166,10 @@ The mean rainfall observed in the three periods (P1, P2 and the MSD) in the simu
  The scatter of the first and second peak and the MSD mean rainfall rates  show that the mean precipitation rate at each stage is not necessarily linearly related to another, i.e., a larger magnitude of the first peak of precipitation does not imply a wetter or drier MSD period. The atmosphere-only runs, GC3-amip, are a good example of this behaviour as the mean rainfall during P1 is roughly the same as in the rest of the simulations but the mean rainfall during the MSD is slightly larger than in the rest of the simulations. 
  
 
-The magnitude of the first decrease in rainfall (MSD-P1) and the late-summer increase (P2-MSD) also show a significant spread amongst experiments (Figs. \ref{fig:scatter_msd}c-d), which also suggest that there is only a modest relationship between the magnitude of the MSD and the magnitudes of the two peaks of precipitation in these simulations. The scatter of ERA5 in all panels is notably close to that of TRMM and CHIRPS, which is further evidence that the timings and strength of the MSD is well represented by this reanalysis. In contrast, the medium-resolution atmosphere-only run (N216-amip) shows the highest bias in precipitation throughout the three stages of the wet season. This result is noteworthy because this configuration uses a higher resolution than GC3 N96 and is forced by observed SSTs, yet the simulation cannot capture the observed precipitation rates and is strikingly the worst simulation overall. %, even worse than idealized experiments such as the abrupt 4$\times$CO$_2$ experiment. 
+The magnitude of the first decrease in rainfall (MSD-P1) and the late-summer increase (P2-MSD) also show a significant spread amongst experiments (Figs. \ref{fig:scatter_msd}c-d), which also suggest that there is only a modest relationship between the magnitude of the MSD and the magnitudes of the two peaks of precipitation in these simulations. The scatter of ERA5 in all panels is notably close to that of TRMM and CHIRPS, which is further evidence that the timings and strength of the MSD is well represented by this reanalysis. In contrast, the medium-resolution atmosphere-only run (N216-amip) shows the highest bias in precipitation throughout the three stages of the wet season. 
+
+This result is noteworthy because this configuration uses a higher resolution than GC3 N96 and is forced by observed SSTs, yet the simulation cannot capture the observed precipitation rates and is strikingly the worst simulation overall.
+\added{One explanation for this result is that in the low-resolution simulations there are notable dry biases over land (Figs \ref{fig:model_pr}) and wet biases over the ocean, and the medium-resolution simulation improves the dry bias over land more so than the wet bias over the ocean leading to an overall increase of the bias over the whole region.}
 
  %In observation and reanalysis, the interannual variability shows a similar behaviour, i.e., the magnitude of precipitation at each stage is not related to the next stage (not shown). 
 
@@ -228,7 +238,7 @@ Another element of the convective-radiative feedback mechanism is that the SST v
 
 \begin{figure}[t!]
 \includegraphics[width=\linewidth]{figures/sst_scatter_f.png}
-\caption[Scatter plot of SST changes]{Scatterplots of the mean changes in the East Pacific (a, b) sea-surface temperatures (SSTs) and (c, d) surface saturation specific humidity q$_{sat}$ in the x-axis with respect to precipitation variations in the MSD region on the y-axis for the (a, c) MSD-P1 and (b, d) P2-MSD periods.  The correlation coefficient of the interannual spread in ERA5 and the multi-experiment correlation coefficient are shown in each panel.   }
+\caption[Scatter plot of SST changes]{Scatterplots of the mean changes in the East Pacific (a, b) sea-surface temperatures (SSTs) and (c, d) surface saturation specific humidity q$_{sat}$ in the x-axis with respect to precipitation variations in the MSD region on the y-axis for the (a, c) MSD-P1 and (b, d) P2-MSD periods.  The correlation coefficient of the interannual spread in ERA5 and the multi-experiment correlation coefficient are shown in each panel. \added{Only the mean values of ERA5 are shown but the correlation was calculated for the 40 years in the period of the reanalysis.}  }
 \label{fig:var_sst_lhf_scatter}
 \end{figure}
 
@@ -236,7 +246,9 @@ Another element of the convective-radiative feedback mechanism is that the SST v
 If the EP SSTs play a dominant role in the timings and strength of the MSD, as implied previously \citep{magana1999,magana2005,herrera2015}, then the simulations with imposed SSTs taken from observations, e.g., the GC3-amip experiment, may be further explored to evaluate the links  between SSTs and the timings or strength of the MSD. A scatter plot of the dates (pentads) of the MO, MR, MSDO and MSDE (Figure \ref{fig:amipsstscatter}) for matching years between the CHIRPS dataset and TRMM, ERA5 and the five ensemble members of GC3-amip shows that the timings of the MSD in GC3-amip are unrelated to CHIRPS and ERA5. The timings from ERA5 agree very well with the CHIRPS and TRMM datasets. 
 This evidence would suggest that the SSTs forcing the model in GC3-amip are not the dominant factor controlling the timings of the MSD in these atmosphere-only runs.
 
-Alternatively, the interannual variability in ERA5 and the differences amongst the MOHC CMIP6 experiments may be further explored to understand whether differences in EP SSTs are related to changes of precipitation in the MSD region. For this purpose, composite differences between the P1, MSD and P2 periods were computed for each variable for each year in each dataset and then averaged to provide a mean value that relates changes in precipitation to different diagnostics in different stages of the rainy season.  These results are presented in scatter plots that aim to diagnose emergent properties and physical relationships that explain the different representations of the MSD. % quantify whether predictions from the theory can explain the MSD.
+Alternatively, the interannual variability in ERA5 and the differences amongst the MOHC CMIP6 experiments may be further explored to understand whether differences in EP SSTs are related to changes of precipitation in the MSD region. For this purpose, composite differences between the P1, MSD and P2 periods were computed for each variable for each year in each dataset and then averaged to provide a mean value that relates changes in precipitation to different diagnostics in different stages of the rainy season.  These results are presented in scatter plots that aim to diagnose emergent properties and physical relationships that explain the different representations of the MSD.
+\added{The interannual variability of ERA5 is examined by comparing how each variable can explain the year-to-year differences in P1, P2 and MSD precipitation rates.}
+ % quantify whether predictions from the theory can explain the MSD.
 
 The mean difference in SSTs (Figure \ref{fig:var_sst_lhf_scatter}a) between the P1 and the MSD periods indicate cooling of the EP for ERA5 associated with the precipitation reduction. In contrast, the coupled model simulations show a positive SST difference (warming) and a greater precipitation reduction from the P1 to the MSD period.
 The slight warming signal in the MSD-P1 difference (Figure \ref{fig:var_sst_lhf_scatter}a) in the coupled-model experiments suggests that in the models as precipitation decreases during the MSD, the EP SSTs warm by 0.2 K. 
@@ -267,12 +279,13 @@ Results in this section show that in observations, the EP SSTs do not exhibit a 
 
 \section{The role of cloud-radiative effects}
 
-The mechanisms proposed by \cite{magana1999} and \cite{karnauskas2013} suggest that the net shortwave energy absorbed by the surface is key in the driving mechanism of the MSD. \cite{magana1999} argues that tall convective clouds influence the net shortwave (SW) flux at the surface and suggests that the cloud-radiative effects (CRE) experience seasonal changes that occur at the same as the MSD and are causally link to the bimodal signal of precipitation. 
-In turn, \cite{karnauskas2013} argues that the seasonal march of solar insolation determined by the solar declination angle controls the net SW absorbed by the surface and this absorption of SW energy modulates the seasonal cycle of the surface energy balance and of precipitation.
+The mechanisms proposed by \cite{magana1999} and \cite{karnauskas2013} suggest that the net shortwave energy absorbed by the surface is key in the driving mechanism of the MSD. \cite{magana1999} argue that tall convective clouds influence the net shortwave (SW) flux at the surface and suggest that the cloud-radiative effects (CREs) experience seasonal changes that occur at the same as the MSD and are linked to the bimodal signal of precipitation. 
+In turn, \cite{karnauskas2013} argue that the seasonal march of solar insolation determined by the solar declination angle controls the net SW absorbed by the surface and this absorption of SW energy modulates the seasonal cycle of the surface energy balance and of precipitation.
 This section evaluates the predictions of these theories concerning CRE and the SW absorbed by the surface. 
 
-CRE effects are coupled to the tropical circulation \citep{bony2004dynamic,webb2017} and influence the timing and strength of monsoons \citep{guo2015,byrne2020}. The longwave (LW) CRE play an important role in the convective heating and moistening of the atmospheric column in tropical regions and the SW CRE affect the surface absorption of energy \citep{allan2011}. 
-These studies motivate an investigation of the relationships between CRE and the timings and strength of the MSD. The surface cloud radiative effect (CRE$_{surf}$) is computed from daily-mean fields following \cite{allan2011}, as the sum of the LW and SW CREs, i.e.:
+CREs are coupled to the tropical circulation \citep{bony2004dynamic,webb2017} and influence the timing and strength of monsoons \citep{guo2015,byrne2020}. 
+The longwave (LW) CRE play an important role in the convective heating and moistening of the tropical atmospheric column whereas the SW CRE controls the surface absorption of energy \citep{allan2011}. 
+These studies motivate an investigation of the relationships between CRE, and the timing and strength of the MSD. The surface cloud radiative effect (CRE$_{surf}$) is computed from daily-mean fields following \cite{allan2011}, as the sum of the LW and SW CREs, i.e.:
 
 \begin{figure}[b!]
 \includegraphics[width=\linewidth]{figures/fig4_creclim_3.png}
@@ -292,7 +305,7 @@ CRE_{surf}=  LDS-LDS_{cs}+SDS-SUS-SDS_{cs}+SUS_{cs}.
 
 The CRE$_{surf}$ during P1, MSD and P2 periods (Fig. \ref{fig:cre_comp}) is negative  and the minimum values are found in the East Pacific ITCZ region. The differences between the MSD timings closely follow the precipitation changes during these periods as the minimum CRE in the EP and the Mesoamerican region is found during the two peaks of precipitation with a weaker CRE over the Mesoamerican region and nearby basins during the MSD. The smallest CRE is found over the Baja California Peninsula. 
 %During the MSD, the minimum in CRE is displaced west of the coastline into the region where the previous sections indicate increased convective activity.
-The results of the two historical experiments closely follow the results of ERA5, and the only notable difference is that the CRE are generally stronger in GC3-hist than in N216-hist.
+The results of the two historical experiments closely follow the results of ERA5, and the only notable difference is that the CREs are generally stronger in GC3-hist than in N216-hist.
 
 \begin{figure}[t!]
 \includegraphics[width=\linewidth]{figures/fig4_swclim_3.png}
@@ -300,8 +313,8 @@ The results of the two historical experiments closely follow the results of ERA5
 \label{fig:sw_comp}
 \end{figure}
 
-The comparison of the individual contributions of the SW and LW surface CREs show that the dominant term in the EP and Mesoamerican regions is the SW term (Fig. \ref{fig:sw_comp}). The negative SW CRE is strongest in the EP ITCZ region and the SW CRE varies with the MSD timings in similar fashion to the net CRE, i.e., in the MSD region, the SW term is notably larger (<-90 W m$^{-2}$) during the two peak periods of precipitation than during the MSD.
-In the historical experiments, the SW CRE is larger in magnitude in the EP ITCZ region and the SW CRE over the MSD region varies notably in the three stages of the rainy season.
+The comparison of the individual contributions of the SW and LW surface CREs show that the dominant term in the EP and Mesoamerican regions is the SW term (Fig. \ref{fig:sw_comp}). The negative SW CRE is strongest in the EP ITCZ region and the pattern of SW CRE varies temporally in similar fashion to the net CRE, i.e., in the MSD region, the SW term is notably larger (<-90 W m$^{-2}$) during the two peak periods of precipitation than during the MSD.
+In the historical experiments, the SW CRE is strongest in the EP ITCZ region and the SW CRE over the MSD region varies notably in the three stages of the rainy season.
 In contrast, the LW term (not shown), is generally smaller in magnitude than the SW term and is largest over land and in the ocean west of the California. Over the EP and CSEA regions, the LW term shows very small horizontal gradients, indicative of fairly weak horizontal gradients in the LW effect of clouds. 
 %The differences of the LW between the stages of the MSD are smaller than the SW term variations, but both in ERA5 and the simulations, the LW term over the EP and the CSEA is visibly larger during the two peak periods than during the MSD. 
 %
@@ -317,7 +330,7 @@ In contrast, the LW term (not shown), is generally smaller in magnitude than the
 \label{fig:cre_seasonal}
 \end{figure}
 
-These composites depict how the spatial distribution of the CRE varies with the MSD timings over the region, but how these terms actually within the season in the MSD region is not obvious. The seasonal cycles of the SW, LW and net CREs (Figure \ref{fig:cre_seasonal}a-c) show bimodal signals characterized by stronger CREs during the two peak periods during June and September and a relative minimum in between found in late July in ERA5 and early August in the simulations. The simulations reasonably simulate the magnitude of the net and SW CRE during the early summer season but overestimate the decrease in the net SW and LW CRE during the midsummer, very likely associated with the underestimation of precipitation over this same period (Figure \ref{fig:msdcaribb}).
+These composites depict how the spatial distribution of the CRE syncrhonously varies with the MSD, but how these terms actually within the season in the MSD region is not obvious. The seasonal cycles of the SW, LW and net CREs (Figure \ref{fig:cre_seasonal}a-c) show bimodal signals characterized by stronger CREs during the two peak periods during June and September and a relative minimum in between found in late July in ERA5 and early August in the simulations. The simulations reasonably simulate the magnitude of the net and SW CRE during the early summer season but overestimate the decrease in the net SW and LW CRE during the midsummer, very likely associated with the underestimation of precipitation over this same period (Figure \ref{fig:msdcaribb}).
 
 \begin{figure}[t!]
 \includegraphics[width=\linewidth]{figures/fig4_netswdif_3.png}
@@ -336,7 +349,7 @@ The spatial distribution of changes to the net SW at the surface (Figure \ref{fi
 \label{fig:cloud_scatter}
 \end{figure}
 
-These hypotheses are further tested through scatter and lag-lead regression analysis (Figure \ref{fig:cloud_scatter}). The changes to the net SW at the surface are unrelated to the interannual variability of the changes to precipitation in ERA5. The reduction in SW in the MSD-P1 periods shows a null correlation with the changes of precipitation during the same stages, whereas the net SW absorbed in the EP during the MSD period is negatively correlated with precipitation during the second peak. In other words, years where less shortwave is absorbed in the EP is associated with years stronger second peaks in the MSD region, in contrast to previous hypotheses. 
+These hypotheses are further tested through scatter and lag-lead regression analysis (Figure \ref{fig:cloud_scatter}). The changes to the net SW at the surface are unrelated to the interannual variability of precipitation in ERA5. The reduction in SW in the MSD-P1 periods shows a null correlation with the changes of precipitation during the same stages, whereas the net SW absorbed in the EP during the MSD period is negatively correlated with precipitation during the second peak. In other words, years where less shortwave is absorbed in the EP are years stronger second peaks in the MSD region, in contrast to previous hypotheses. 
 
 Furthermore, in the MOHC CMIP6 experiments there appears to be only a modest relationship between net SW and precipitation. The changes to SW during the MSD-P1 are only modestly related to precipitation as simulations that have the smallest changes to net SW in this period do not exhibit the smallest changes to precipitation. Similarly, a very weak relationship between SW and precipitation is found within the different experiments to relate the net SW at the surface during the MSD and the strength of the second peak. 
 
@@ -349,9 +362,9 @@ Lag-lead relationships (Figure \ref{fig:cloud_scatter}c, d) confirm that there i
 \end{figure}
 
 Finally, while the incoming SW radiation plays an important role in several theories for the MSD, the LW effects have important consequences in monsoon dynamics \citep{guo2015,byrne2020}. 
-The GC3-amip lwoff experiment is part of the contributions from the Cloud Feedback MIP (CFMIP)  \citep{webb2017} to CMIP6. This experiment is identical to the GC3-amip experiment except that the treatment of the LW in the radiation code in the model is not affected by the presence of clouds, in other words all LW fluxes are assumed to be under clear-sky conditions. 
+The GC3-amip lwoff experiment is part of the contributions from the Cloud Feedback MIP (CFMIP)  \citep{webb2017} to CMIP6. \added{This experiment is identical to the GC3-amip experiment except that the treatment of the LW in the radiation code in the model is not affected by the presence of clouds. The radiation code does not assummes all LW fluxes  to be under clear-sky conditions and routines that account for the effect of clouds are not called. In other words LW heating is independent from clouds, so the radiation-cloud coupling is removed and radiative fluxes do not depend on the characteristics of convective clouds. }
 
-The impact of the LW CRE for precipitation in the Mesomerican region is critical (Figure \ref{fig:lwoff}). When the LW effects of clouds are ignored, precipitation over the whole domain is greatly reduced (50-80\%), ascent becomes weaker and the low-level circulation also weakens. 
+The impact of the LW CRE for precipitation in the Mesomerican region is critical (Figure \ref{fig:lwoff}). When the LW CREs of clouds are ignored, precipitation over the whole domain is greatly reduced (50-80\%), ascent becomes weaker and the low-level circulation also weakens. 
 These results are in agreement with previous studies \citep{guo2015,byrne2020} that show that cloud radiative heating strengthens the local and regional circulation in a monsoon. The circulation and precipitation is so diminished in GC3 amip-lwoff that this is the driest simulation found in this chapter (Figure \ref{fig:scatter_msd}) and the variations between the MSD and the two peak periods of precipitation are almost undistinguishable. 
 
 This section diagnoses the seasonal cycle and spatial variability of CRE at the surface as depicted by ERA5 and the CMIP6 simulations. The net CRE at the surface is dominated by the SW term, indicating the strong effect that convective clouds have to block SW radiation from reaching the surface throughout the rainy season. The total absorbed SW shows a double-peak structure, with the second peak appearing at the end of the MSD period for both ERA5 and CMIP6 simulations, as suggested in the solar declination angle hypothesis \cite{karnauskas2013}. However, the strength and timing of the changes to the SW absorption suggest that the relationship between SW heating and precipitation is more of a correlation than a causal link from the SW to the precipitation. 
@@ -502,7 +515,7 @@ The opposite patterns appear for both $\langle \vec{u}\cdot\nabla h \rangle$ and
 
 \begin{figure}[t!]
 \includegraphics[width=\linewidth]{figures/mse_barplot_era5}
-\caption[Barplots of MSE budget terms]{Barplots of the area and time-averaged MSE budget terms: horizontal advection ($\langle \vec{u}\cdot\nabla h \rangle$) and vertical advection ($\langle \omega dh/dp \rangle$), longwave ($\langle LW \rangle$) and shortwave ($\langle SW \rangle$) heating and the sum of sensible ($SH$) and latent heat ($LH$) fluxes. The residual or addition of all the terms is also shown in each panel. (a) Budget terms computed from ERA5 in the MSD region in the P1, MSD and P2 periods and (b-d) show the monthly-mean values of the budget terms from three CMIP6 simulations. }
+\caption[Barplots of MSE budget terms]{Barplots of the area and time-averaged MSE budget terms: horizontal advection ($\langle \vec{u}\cdot\nabla h \rangle$) and vertical advection ($\langle \omega dh/dp \rangle$), longwave ($\langle LW \rangle$) and shortwave ($\langle SW \rangle$) heating and the sum of sensible ($SH$) and latent heat ($LH$) fluxes. The residual or addition of all the terms is also shown in each panel. (a) Budget terms computed from ERA5 in the MSD region in the P1, MSD and P2 periods and (b-d) show the monthly-mean values of the budget terms from three CMIP6 simulations. \added{ The error bars indicate the standard deviation for each month/phase. } }
 \label{fig:thermo_barplot}
 \end{figure}
 
@@ -525,9 +538,11 @@ In the CMIP6 simulations (Fig. \ref{fig:thermo_barplot}b-d), a similar balance i
 From May to September some seasonal variations in each term are observed (Fig. \ref{fig:thermo_barplotnm}b-d), for example, stronger longwave cooling in May than in June-July. The vertical advection term becomes negative during the early rainy season (June-July). As in ERA, the absolute contribution from the vertical advection term increases during the MSD with minima found in June or July in all the simulations. 
 The contribution from the horizontal advection term increases during the months of the two peak of precipitation (May and September) and decreases during the MSD. 
 
-This MSE budget analysis shows that the variability of the horizontal advection and longwave heating terms within the rainy season is stronger than for the shortwave heating and surface fluxes (Fig. \ref{fig:thermo_barplotnm}). 
-This evidence suggests that LW heating and CRE, and moisture transport may be more important than surface fluxes or the shortwave heating variations. 
-The horizontal advection fluctuations partially support the mechanism that links the moisture transport from the CLLJ to the precipitation in the MSD, however, further work is needed to link the CLLJ to the horizontal advection term. %but the evidence also suggest that the LW heating and CRE may also be important. 
+\added{The MSE budget analysis is able to show what terms vary more coherently with the timing of the MSD, as well as what terms explain better the variability of the strength of the MSD. First, this section shows that vertical advection terms show a bimodal seasonal cycle, which points to the strong relationship between $\omega$ and precipitation. However, the surface $h$ remains relatively constant throughout the rainy season, in contrast to the suggestions by \cite{karnauskas2013}. The patterns of anomalous vertical and horizontal transport of $h$ also show strong variations synchronous to the MSD stages, suggesting that precipitation follows closely variations in $h$. }
+
+\added{ The comparison of individual terms shows that the variability of the horizontal advection and longwave heating terms within the rainy season is stronger than for the shortwave heating and surface fluxes (Fig. \ref{fig:thermo_barplotnm}). 
+This evidence (Fig. \ref{fig:thermo_barplotnm}) suggests that LW heating and CRE, and moisture transport may be more important than the variations in surface fluxes or the shortwave heating because their variations are more strongly linked to the MSD variations of precipitation.
+The horizontal advection fluctuations partially support the mechanism that links the moisture transport from the CLLJ to the precipitation in the MSD, however, further work is needed to link the CLLJ to the horizontal advection term. }%but the evidence also suggest that the LW heating and CRE may also be important. 
 %These budget terms could also be interpreted as evidence that cloud-radiative feedback mechanism and the solar declination angle are less likely to explain the MSD.
 
 \section{Summary and discussion}\label{sq:sumdiscuss}
@@ -573,4 +588,5 @@ In particular, $\langle \omega ds/dp \rangle$ is able to better explain interann
 The horizontal advection term does exhibit strong variations during the wet season over land and over the ocean, with increased divergence of $h$ during the MSD, suggesting that the moisture transport hypothesis may be more relevant than the other theories. 
 However, further research is required to better understand whether the vertical velocity profile changes during the rainy season or whether the strong relationship betweeen the vertical advection term and precipitation is best explained by changes to the vertical profiles of $h$ and $s$, as well as more research on how the horizontal advection term may be related to the CLLJ.
  
+\added{ The findings of this chapter support the CLLJ hypothesis more than the first two hypotheses which are more radiative-thermodynamic in principle. Recent work \citep{boos2021,fu2021central} has shown that mechanical forcing and the moisture and MSE transport by the low-level wind flow are leading mechanisms to enhance convective activity over land and the coastlines of Mexico. Our results are in line with this recent work as the radiative effects over convection seem less important than the IMFC, which seems to be the leading cause for changes in the MSD precipitation.}
  

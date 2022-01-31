@@ -16,7 +16,7 @@
 \small
 \caption{Summary of the datasets used in this study. For each dataset, the acronym used hereafter, the period of coverage, the field used and the horizontal resolution are shown. Some datasets extend further back in time, but only the satellite-era period is used in most of the datasets.
 The variables used are: precipitation, surface-air temperature ($2mT$), sea-level pressure (SLP), SSTs, the x and y components of the wind ($u$, $v$), the lagrangian tendency of air pressure ($\omega$), outgoing longwave radiation (OLR), geopotential height (GPH) and specific humidity ($q$).}
-\begin{tabular}{p{5cm}|p{1.47cm}p{3.45cm}p{2.12cm}p{4.2cm}p{2.12cm}p{3.54cm}} \label{tab:1}
+\begin{tabular}{p{4.5cm}|p{1.47cm}p{3.2cm}p{2.12cm}p{4.cm}p{2.12cm}p{3.24cm}} \label{tab:1}
 \textit{Dataset/ Version}                    & \textit{Acronym} & \textit{Variable} & \textit{Period} & \textit{Data type}             & \textit{Resolution} & \textit{Reference}                 \\ \hline \hline
 Global Precipitation Climatology Project v2.3 & GPCP       & Precipitation       &   (1979-2018)       &  Surface and satellite & 2.5$^\circ$x2.5$^\circ$  & \citep{adler2003}               \\
  Global Precipitation Climatology Centre    & GPCC          & Precipitation       & (1940-2013)       &  Surface station                 &  0.5$^\circ$x0.5$^\circ$ & \citep{becker2011}              \\
@@ -57,6 +57,8 @@ The TRMM dataset has a high horizontal and temporal resolution and was used in s
  the period covered by TRMM (1998-2018) is too short to analyse statistically robust teleconnections or variability, so GPCP, GPCC and CHIRPS are used to evaluate longer term variability.
  Although a thorough validation and comparison of these datasets across the AMS domain is missing, several studies have analysed  one or more of these datasets in regions of the AMS \citep[e.g.][]{franchito2009,dinku2010,trejo2016}.
 
+\added{Gridded precipitation datasets will be used in all chapters throughout this thesis to evaluate observed interannual variability, and to compare with the mean-state and variability of precipitation found in model simulations. }
+
 \subsection{ERA-5}
 
 
@@ -70,7 +72,7 @@ ERA5 presents a notable improvement in the representation of the water cycle, by
 ERA5, as all reanalysis, resolves precipitation rates in the driving physical model using the convective scheme and parametrisation. However, this reanalysis also assimilates radiances from several satellite instruments such as Global precipitation monitoring mission Microwave Imager, the TRM Microwave Imager (TMI) and Advanced Microwave Scanning Radiometer (AMSR-2) \cite{era5hersbach}. This assimilation of satellite data has improved the representation of the water cycle in ERA5 compared to older reanalysis such as ERA-interim \citep[e.g.][]{henin2018assessing}. These improvements are also due to changes to the parametrisations of the microphysics of clouds and rain \citep{forbes2014} and the diurnal cycle of convection \citep{bechtold2014}. 
 
 
-
+\added{ERA5 will be used to investigate the dynamical biases in the models in Chapter \ref{ch:4-ams}, the skill of the reanalysis in reproducing the mean onset and retreat dates compared to observations in Chapter \ref{ch:5-wvt}, the mechanisms of the MSD in Chapter \ref{ch:6-msd} and of the QBO teleconnections in Chapter \ref{ch:7-qbo}. Note that a reanalysis has large uncertainties where there is scarce data on the vertical profile of quantities such as humidity, which are crucial for most thermodynamic and dynamic processes in the tropics. However, ERA5 has sufficient vertical resolution to reasonably represent the QBO and the associated UTLS variability \citep{pahlavan2021}.} 
 
 \section{The Unified Model of the Met Office Hadley Centre}\label{sq:modeldata}
 
@@ -84,8 +86,10 @@ The MOHC Unified Model (UM) is a weather and climate global model that is based 
 The UM version that was used for CMIP6 experiments and is used throughout this thesis employs the Global Coupled (GC) configuration 3.1 (GC3.1) \citep{williams2018,walters2019} which in turn is composed of the components: Global Atmosphere 7.0 (GA7.0), Global Land 7.0
 (GL7.0), Global Ocean 6.0 (GO6.0), and Global Sea Ice 8.0 (GSI8.0).
 %The ocean model, in the GO6.0 configuration, builds on the Nucleus for European Modelling of the Ocean (NEMO) code \citep{ridley2018}.
-The GC3.1 configuration runs with 85 atmospheric levels, 4 soil levels and 75 ocean levels and can be run with atmospheric horizontal resolutions ranging from 10 - 135 km (at the midlatitudes) with varying resolutions for the ocean component as well. The model top of GC3.1 is 85 km above sea level \citep{walters2019}. 
 
+The GC3.1 configuration runs with 85 atmospheric levels, 4 soil levels and 75 ocean levels and can be run with atmospheric horizontal resolutions ranging from 10 - 135 km (at the midlatitudes) with varying resolutions for the ocean component as well. The model top of GC3.1 is 85 km above sea level \citep{walters2019}. 
+\added{
+The vertical resolution of the UM in the GC3.1 configuration yields a sufficiently reasonable, and internally generated, QBO \citep{richter2020}. For this reason, the MOHC UM is a particulary useful model to address the topic of the QBO teleconnections of Chapter \ref{ch:7-qbo}. }
 
 The GA7.0 configuration, described in \cite{walters2019}, built on previous configurations principally by updating several parameterization schemes including the rain and ice-cloud treatment as well as the convection scheme. Four critical errors were pinpointed and tackled by GA7.0 which include rainfall deficits in the Indian monsoon, temperature and humidity biases in the tropopause layer, deficiencies in numerical conservation and surface flux biases over the Southern Ocean. The GO6.0 configuration \citep{storkey2018} is in turn based on the NEMO ocean model code (version 3.6) and is responsible for determining the sea-ice extent, the ocean mixed-layer depth and deep water formation, amongst other key ocean processes.
 
@@ -101,36 +105,22 @@ Further details of the GC3 configuration including model description and biases 
 
 
 % Add ocean resolution and ensemble member information. 
-\begin{sidewaystable}
+\begin{table}
 \small
 \caption{Summary of the CMIP6 simulations in this study. The experiment, CMIP activity name, acronym model years, and number of ensemble members used in this study are presented for each simulation.}
-\begin{tabular}{p{3.1cm}|p{3.8cm}p{2.cm}p{2.8cm}p{3.5cm}p{0.9cm}p{3.6cm}} \label{tab:Sexps} \small
+\begin{tabular}{p{2.cm}|p{2.3cm}p{1.7cm}p{2.cm}p{2.cm}p{0.9cm}p{3.cm}} \label{tab:Sexps} \small
  Model / Resolution & Experiment & Period & Activity & \textit{Acronym}  & Ens. & \textit{Reference}                 \\ \hline \hline
 
-HadGEM3 N96    &  re-industrial control  & 1850-2350 & CMIP/DECK & GC3 N96-pi      & 1 &   \citep{menary2018,gc3pi}                          \\
+HadGEM3 N96    &  pre-industrial control  & 1850-2350 & CMIP/DECK & GC3 N96-pi      & 1 &   \citep{menary2018,gc3pi}                          \\
 HadGEM3 N216  &  pre-industrial control & 1850-2000        & CMIP/Deck & GC3 N216-pi   & 1 & \citep{menary2018,n216pi}      \\
 HadGEM3 N96    &  historical & 1979-2014       & CMIP/DECK & GC3-hist     &  4 & \citep{andrews2020,gc3hist}                          \\
 HadGEM3 N216   &  historical & 1979-2014        & CMIP/DECK & N216-hist   & 1 & \citep{n216pi}      \\
 HadGEM3 N96   & amip  & 1979-2014 & CMIP/AMIP  & GC3-amip   & 5  &   \citep{gc3amip}                          \\
 HadGEM3 N216   & amip  & 1979-2014 & CMIP/AMIP  & N216-amip   & 1  &   \citep{gc3amip}                          \\
-HadGEM3 N96   & 1$\%$CO$_2$  & 1950-2000 & CMIP  & GC3 1$\%$CO$_2$   & 1  &   \citep{gc3amip}                          \\
-HadGEM3 N96   & abrupt-4$\times$CO$_2$  & 1950-2000 & CMIP  & GC3 abrupt-4$\times$CO$_2$   & 1  &   \citep{gc3amip}                          \\
-HadGEM3 N96   & amip-lwoff  & 1979-2014 & CFMIP  & GC3-amip lwoff   & 1  &   \citep{webb2017}                          \\
-HadGEM3 N96   & amip-m4K & 1979-2014 & CFMIP  & GC3-amip m4K  & 1  &   \citep{webb2017}                          \\
-HadGEM3 N96   & amip-p4K & 1979-2014 & CFMIP  & GC3-amip p4K  & 1  &   \citep{webb2017}                          \\
-HadGEM3 N96   & SSP1 & 2050-2100 & ScenarioMIP  & GC3 SSP1 & 1  &   \citep{o2016}                          \\
-HadGEM3 N96   & SSP2 & 2050-2100 & ScenarioMIP  & GC3 SSP2  & 1  &   \citep{o2016}                          \\
-HadGEM3 N96   & SSP5 & 2050-2100 & ScenarioMIP  & GC3 SSP5 & 1  &   \citep{o2016}                          \\
-HadGEM3 N216   & SSP1 & 2050-2100 & ScenarioMIP  & N216 SSP1  & 1  &   \citep{o2016}                          \\
-HadGEM3 N216   & SSP2 & 2050-2100 & ScenarioMIP  & N216 SSP2  & 1  &   \citep{o2016}                          \\
-HadGEM3 N216   & SSP5 & 2050-2100 & ScenarioMIP  & N216 SSP5  & 1  &   \citep{o2016}                          \\
 UKESM1   &  pre-industrial control  & 2060-2600       & CMIP & UKESM-pi      & 1 & \citep{ukesmpi}            \\
 UKESM1   &  historical  & 1979-2014       & CMIP & UKESM-hist & 5     &  \citep{ukesmhist}            \\
-UKESM1  & SSP1 & 2050-2100 & ScenarioMIP  & UKESM SSP1  & 1  &   \citep{o2016}                          \\
-UKESM1  & SSP2 & 2050-2100 & ScenarioMIP  & UKESM SSP2  & 1  &   \citep{o2016}                          \\
-UKESM1   & SSP5 & 2050-2100 & ScenarioMIP  & UKESM SSP5  & 1  &   \citep{o2016}
 \end{tabular}
-\end{sidewaystable}
+\end{table}
 
 \subsection{The CMIP6 experiments}\label{sq:cmip6exp}
 
@@ -155,6 +145,8 @@ The regional emissions of carbonaceous aerosols, nitrogen oxides and volatile or
 
 The Atmopshere Model Intercomparison Project (AMIP) is a CMIP project that uses atmosphere-only (AO) simulations of the climate to understand the role of SST biases, variability and forcing climate signals. The standard AMIP experiment covers the period 1979-2014 and uses the observed SST fields in this period to drive the models with the same forcing as the historical simulations. Other AMIP experiments may use model-driven SSTs of other experiments to disentangle other processes.  This thesis uses the five ensemble members of the AMIP experiment from GC3. 
 %Table \ref{tab:Sexps} summarises the main features of the experiments used in this study. 
+
+
 
 \section{The Moist Static Energy Budget}\label{sq:msemethod}
 
@@ -200,6 +192,10 @@ F= LH+SH+\langle LW \rangle + \langle  SW \rangle
 \end{equation}
 
 \noindent where $SH$ and $LH$ are the surface turbulent sensible and latent heat fluxes, respectively, and $LW$ and $SW$ are the longwave and shortwave column-integrated heating rates, respectively.
+
+\added{The MSE budget is particularly useful because precipitation variations can be linked to variations in individual terms of the budget in equation \ref{eq:msebudget} due to the moisture equation \citep{inoue2015,nie2015,inoue2021}. Positive increases to the right hand side of \ref{eq:msebudget} are proportional to increased precipitation rates \citep{inoue2015}. For example, increased  horizontal import of $h$, measured by $\Bigg\langle \vec{u}\cdot\nabla _p h\Bigg\rangle$ will lead to increased precipitation, all else being equal. Similarly, vertical transport of $h$, column heating and surface fluxes can all be examined individually in their contribution to precipitation variations on multiple time-scales.
+For this reason, the MSE budget will be used to examine more closely the mechanisms that drive the variability of the MSD in Chapter \ref{ch:6-msd}. 
+}
 
 
 %The gross moist stability (GMS or $\gamma$) was derived by \cite{neelin1987modeling} from the MSE budget in equation \ref{eq:msebudget} aiming to quantify the strength of convection to the outflow of energy in the tropics. The GMS has been continously used \citep{raymond2009,inoue2015,nie2015,inoue2021} as a ratio of a lateral outflow of entropy or energy divided by a measure of the strength of convection per unit area. 
