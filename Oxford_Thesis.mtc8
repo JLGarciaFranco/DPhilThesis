@@ -1,10 +1,16 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.1}Introduction}{\reset@font\mtcSfont 161}{section.7.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.2}Methods and data}{\reset@font\mtcSfont 163}{section.7.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.2.1}CMIP6 data}{\reset@font\mtcSSfont 163}{subsection.7.2.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.2.2}Indices}{\reset@font\mtcSSfont 163}{subsection.7.2.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.2.3}Analysis techniques}{\reset@font\mtcSSfont 164}{subsection.7.2.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.3}Teleconnections in the pre-industrial control experiments}{\reset@font\mtcSfont 165}{section.7.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.3.1}Seasonal variability}{\reset@font\mtcSSfont 165}{subsection.7.3.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.3.2}Impacts over the ITCZ and the monsoons}{\reset@font\mtcSSfont 169}{subsection.7.3.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.3.3}ENSO, the IOD and the Walker circulation}{\reset@font\mtcSSfont 175}{subsection.7.3.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.4}Summary and discussion}{\reset@font\mtcSfont 182}{section.7.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.1}Introduction}{\reset@font\mtcSfont 164}{section.7.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.2}Methods and data}{\reset@font\mtcSfont 168}{section.7.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.2.1}CMIP6 data}{\reset@font\mtcSSfont 168}{subsection.7.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.2.2}Indices}{\reset@font\mtcSSfont 169}{subsection.7.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.2.3}Analysis techniques}{\reset@font\mtcSSfont 170}{subsection.7.2.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.2.4}Nudging experimental setup}{\reset@font\mtcSSfont 171}{subsection.7.2.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.3}Teleconnections in the pre-industrial control experiments}{\reset@font\mtcSfont 173}{section.7.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.3.1}Precipitation and SST response}{\reset@font\mtcSSfont 174}{subsection.7.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.3.2}ITCZ and monsoons}{\reset@font\mtcSSfont 177}{subsection.7.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.3.3}ENSO and the IOD}{\reset@font\mtcSSfont 180}{subsection.7.3.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.3.4}The Walker circulation}{\reset@font\mtcSSfont 184}{subsection.7.3.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.3.5}ENSO influence on the QBO}{\reset@font\mtcSSfont 187}{subsection.7.3.5}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.4}The nudging experiments}{\reset@font\mtcSfont 189}{section.7.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.4.1}Atmosphere-only experiments}{\reset@font\mtcSSfont 189}{subsection.7.4.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.4.2}Coupled experiments}{\reset@font\mtcSSfont 192}{subsection.7.4.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.5}Summary and discussion}{\reset@font\mtcSfont 197}{section.7.5}}
