@@ -31,16 +31,18 @@ European Centre for Medium-Range Forecasting ERA-5                            & 
 
 \end{sidewaystable}
 
+\added{ This thesis uses several data sources, including observational estimates of precipitation from various gridded precipitation datasets, a reanalysis dataset from the European Centre for Medium-Range Weather Forecasts (ECMWF), and CMIP6 simulations from the Met Office Hadley Centre (MOHC) models.
+This chapter describes these datasets, their uncertainties and addresses how these datasets will be useful to each subsequent chapter and the research questions of this thesis. }
+
 \section{Observations and reanalysis data} \label{sq:obsdata}
 %We use several observational and reanalysis datasets to validate the simulations.
 %This thesis uses several observational datasets as well as reanalysis data for variables that are 1not easily observed.
-Continous and reliable observations of Earth's  atmosphere and ocean have only been possible in recent decades, due to the advent of satellites. In particular, precipitation analyses have benefited greatly from satellite-derived estimates of precipitation in regions where station-data is non-existent such as over oceans.  %most of which rely on the use of satellite data one way or another. 
-This thesis uses several data sources for precipitation from various gridded precipitation datasets. 
-Several dynamic diagnostics are also used in this thesis, which are taken from the latest reanalysis from the European Centre for Medium-Range Weather Forecasts (ECMWF), described below. 
-Table \ref{tab:1} summarises relevant information of the observations and reanalysis datasets used in this study.
- 
+Continous and reliable observations of Earth's  atmosphere and ocean have only been possible in recent decades, due to the advent of satellites. In particular, precipitation analyses have benefited greatly from satellite-derived estimates of precipitation in regions where station-data is non-existent such as over oceans. \added{Precipitation observations are key for monsoon research and therefore for all of the chapters in this thesis. Table \ref{tab:1} summarises relevant information of the observations and reanalysis datasets used in this study and the following sections describe in detail, first, the gridded precipitation datasets and their uncertainties, and then, the reanalysis ERA5.}
+
+
 
 \subsection{Gridded precipitation datasets}
+
 
 The Tropical Rainfall Measurement Mission (TRMM) dataset is a multi-satellite multi-sensor infra-red precipitation product. Several versions are available that use with different algorithms and calibrations with surface rain-gauge data \citep{huffman2007}. This thesis uses the daily product TRMM version 7, product 3B4, provided by the Goddard Earth Sciences Data and Information Services Center \citep{mission2011trmm} at \url{https://disc.gsfc.nasa.gov/datasets/TRMM_3B42_7/}.
 
@@ -50,14 +52,14 @@ The Climate Prediction Center Merged Analysis of Precipitation (CMAP) dataset is
 
 The Climate Hazards Infrared Precipitation with Stations (CHIRPS) is a relatively more recent merged product of precipitation \citep{funk2015}. This dataset uses high-resolution rain-gauge station data that is complemented by satellite cloud cold duration estimates for regions where station data is sparse. The products are calibrated with TRMM data \citep{funk2015}, so they cannot be considered a fully independent source of information from TRMM.
 
-\added{All these datasets have shortcomings, advantages and uncertainties in their representation of precipitation. The algorithm of merged products such as TRMM to combine different satellite sensors and calibration techniques as well as surface station rain-gauge data results in products that may have shortcomings to accurately depict extreme events \citep{trejo2016}, 
-As the source data of most of these datasets are shared, the datasets cannot be considered to be fully independent sources of information. }
+\added{All these datasets have shortcomings, advantages and uncertainties in their representation of precipitation. The algorithm of merged products, such as TRMM, that combines data from different satellite sensorsas well as surface station rain-gauge data, and uses different calibration techniques for each dataset, can result in products that may have shortcomings, for example, to accurately depict extreme events \citep{trejo2016}. 
+In most cases, the source data of most of these datasets are shared, which means that the datasets cannot be considered to be fully independent sources of information. }
 
 The TRMM dataset has a high horizontal and temporal resolution and was used in several CMIP assessments \citep{geil2013,jones2013} as a reliable source of precipitation \citep{carvalho2012}. Therefore, this thesis used TRMM as the best estimate for the spatial and temporal characteristics of rainfall. However,
  the period covered by TRMM (1998-2018) is too short to analyse statistically robust teleconnections or variability, so GPCP, GPCC and CHIRPS are used to evaluate longer term variability.
  Although a thorough validation and comparison of these datasets across the AMS domain is missing, several studies have analysed  one or more of these datasets in regions of the AMS \citep[e.g.][]{franchito2009,dinku2010,trejo2016}.
 
-\added{Gridded precipitation datasets will be used in all chapters throughout this thesis. In Chapter \ref{ch:4-ams} these observational products are used to assess model performance, in Chapter \ref{ch:5-wvt} these datasets are key to illustrate the method to diagnose onset and retreat whereas in Chapters \ref{ch:6-msd} and \ref{ch:7-qbo} they are used to evaluate observed interannual variability. }
+\added{Gridded precipitation datasets will be used in all chapters throughout this thesis. In Chapter \ref{ch:4-ams} these observational products are used to assess model performance, in Chapter \ref{ch:5-wvt} these datasets are key to illustrate the method to diagnose onset and retreat whereas in Chapters \ref{ch:6-msd} and \ref{ch:7-qbo} they are used to evaluate observed interannual variability of precipitation. }
 
 \subsection{ERA-5}
 
@@ -66,17 +68,17 @@ A reanalysis is a numerical description of the state of the atmosphere on a glob
 Reanalyses are key tools for climate and weather research as they provide full pictures of the atmospheric state for long periods, a feature that could not be possible with our current purely observational tools. For this reason, reanalyses are typically used to validate GCM output. 
 
 The latest reanalysis from ECMWF, the fifth generation of their reanalysis, is called ERA5. 
-ERA5 uses the Integrated Forecasting System (IFS) model and a 4D variational data assimilation system (4D-Var), a larger number of data sources for assimilation and also provides an output on higher horizontal resolution \citep{era5hersbach}. The output is available on hourly to monthly-mean frequencies, from 1000 hPa to 0.1 hPa in the vertical and with horizontal resolutions as high as 0.25$^\circ$. In this thesis, the horizontal resolution of all ERA5 data is 0.75$^\circ$ and all data was downloaded from the Climate Store at  \url{https://climate.copernicus.eu/climate-reanalysis}.
+ERA5 uses the Integrated Forecasting System (IFS) model and a 4D variational data assimilation system (4D-Var), a larger number of data sources for assimilation and also provides an output on higher horizontal resolution \citep{era5hersbach}. \added{The driving model uses a horizontal resolution of 31 km and a vertical resolution of 137 levels from up to 1 hPa}. The output is available on hourly to monthly-mean frequencies, from 1000 hPa to 1 hPa in the vertical and with horizontal resolutions as high as 0.25$^\circ$. In this thesis, the horizontal resolution of all ERA5 data is 0.75$^\circ$ and all data was downloaded from the Climate Store at  \url{https://climate.copernicus.eu/climate-reanalysis}.
 
 ERA5 presents a notable improvement in the representation of the water cycle, by increasing the mean correlation to precipitation datasets such as GPCP. 
 ERA5, as all reanalysis, resolves precipitation rates in the driving physical model using the convective scheme and parametrisation. However, this reanalysis also assimilates radiances from several satellite instruments such as Global precipitation monitoring mission Microwave Imager, the TRM Microwave Imager (TMI) and Advanced Microwave Scanning Radiometer (AMSR-2) \cite{era5hersbach}. This assimilation of satellite data has improved the representation of the water cycle in ERA5 compared to older reanalysis such as ERA-interim \citep[e.g.][]{henin2018assessing}. These improvements are also due to changes to the parametrisations of the microphysics of clouds and rain \citep{forbes2014} and the diurnal cycle of convection \citep{bechtold2014}. 
 
 
-\added{ERA5 will be used to investigate the dynamical biases in the models in Chapter \ref{ch:4-ams}, the skill of the reanalysis in reproducing the mean onset and retreat dates compared to observations in Chapter \ref{ch:5-wvt}, the mechanisms of the MSD in Chapter \ref{ch:6-msd} and of the QBO teleconnections in Chapter \ref{ch:7-qbo}. Note that a reanalysis has large uncertainties where there is scarce data on the vertical profile of quantities such as humidity, which are crucial for most thermodynamic and dynamic processes in the tropics. However, ERA5 has sufficient vertical resolution to reasonably represent the QBO and the associated UTLS variability \citep{pahlavan2021}.} 
+\added{ERA5 will be used to investigate the dynamical biases in the models in Chapter \ref{ch:4-ams}, the skill of the reanalysis in reproducing the mean onset and retreat dates of precipitation compared to observations in Chapter \ref{ch:5-wvt}, the mechanisms of the MSD in Chapter \ref{ch:6-msd} and of the QBO teleconnections in Chapter \ref{ch:7-qbo}. Note that a reanalysis has large uncertainties where there is scarce data on the vertical profile of quantities such as humidity, which are crucial for most thermodynamic and dynamic processes in the tropics. However, ERA5 has sufficient vertical resolution to very reasonably represent the QBO and the associated UTLS variability \citep{pahlavan2021}.} 
 
 \section{The Unified Model of the Met Office Hadley Centre}\label{sq:modeldata}
 
-The UK Met Office Hadley Centre (MOHC) released the first version of the Hadley Centre Global Environmental Model (HadGEM1) in 2006 \citep{johns2006}, and has since continuously updated the HadGEM model and submitted experiments from the model to the various phases of the Coupled Model Intercomparison Project (CMIP), which is the backbone of the Intergovernmental Panel on Climate Change (IPCC) reports. This section first describes the third generation of the HadGEM model and subsequently describes the experiments from these versions of the model submitted for CMIP6.  
+The UK Met Office Hadley Centre (MOHC) released the first version of the Hadley Centre Global Environmental Model (HadGEM1) in 2006 \citep{johns2006}, and has since continuously updated the HadGEM model and submitted experiments from the model to the various phases of the Coupled Model Intercomparison Project (CMIP), which is the backbone of the Intergovernmental Panel on Climate Change (IPCC) reports. \added{The UM is a key tool for the objectives of this thesis, and for that reason, this section first describes the model configuration used throughout this study, and subsequently describes the setup of the CMIP6 experiments. }
 
 
 
@@ -89,7 +91,7 @@ The UM version that was used for CMIP6 experiments and is used throughout this t
 
 The GC3.1 configuration runs with 85 atmospheric levels, 4 soil levels and 75 ocean levels and can be run with atmospheric horizontal resolutions ranging from 10 - 135 km (at the midlatitudes) with varying resolutions for the ocean component as well. The model top of GC3.1 is 85 km above sea level \citep{walters2019}. 
 \added{
-The vertical resolution  of the UM in the GC3.1 configuration yields a sufficiently reasonable, and internally generated, QBO \citep{richter2020}. For this reason, the MOHC UM is a particulary useful model to address the topic of the QBO teleconnections of Chapter \ref{ch:7-qbo}. }
+The model extends to the lower mesosphere and includes a self-generated QBO via a non-orographic gravity wave scheme that compares well with the observed QBO \citep{richter2020}. For this reason, the MOHC UM is a particulary useful model to address the topic of the QBO teleconnections of Chapter \ref{ch:7-qbo}. }
 
 The GA7.0 configuration, described in \cite{walters2019}, built on previous configurations principally by updating several parameterization schemes including the rain and ice-cloud treatment as well as the convection scheme. Four critical errors were pinpointed and tackled by GA7.0 which include rainfall deficits in the Indian monsoon, temperature and humidity biases in the tropopause layer, deficiencies in numerical conservation and surface flux biases over the Southern Ocean. The GO6.0 configuration \citep{storkey2018} is in turn based on the NEMO ocean model code (version 3.6) and is responsible for determining the sea-ice extent, the ocean mixed-layer depth and deep water formation, amongst other key ocean processes.
 

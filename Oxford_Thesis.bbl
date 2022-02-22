@@ -1,5 +1,12 @@
 \begin{thebibliography}{xx}
 
+\harvarditem[Abdelmoaty et~al.]{Abdelmoaty, Papalexiou, Rajulapati \harvardand\
+  AghaKouchak}{2021}{abdelmoaty2021biases}
+Abdelmoaty, H.~M., Papalexiou, S.~M., Rajulapati, C.~R. \harvardand\
+  AghaKouchak, A.  \harvardyearleft 2021\harvardyearright , `Biases beyond the
+  mean in cmip6 extreme precipitation: A global investigation', {\em Earth's
+  Future} {\bf 9}(10),~e2021EF002196.
+
 \harvarditem{Adams \harvardand\ Comrie}{1997}{adams1997}
 Adams, D.~K. \harvardand\ Comrie, A.~C.  \harvardyearleft 1997\harvardyearright
   , `{The north American monsoon}', {\em Bulletin of the American
@@ -1192,6 +1199,13 @@ Liess, S. \harvardand\ Geller, M.~A.  \harvardyearleft 2012\harvardyearright ,
   convection', {\em Journal of Geophysical Research: Atmospheres} {\bf
   117}(D3).
 
+\harvarditem[Liu et~al.]{Liu, Ren, Zhang, Ineson \harvardand\
+  Wang}{2021}{liu2021enso}
+Liu, M., Ren, H.-L., Zhang, R., Ineson, S. \harvardand\ Wang, R.
+  \harvardyearleft 2021\harvardyearright , `Enso phase-locking behavior in
+  climate models: from cmip5 to cmip6', {\em Environmental Research
+  Communications} {\bf 3}(3),~031004.
+
 \harvarditem{Lorenz}{1967}{lorenz1967}
 Lorenz, E.~N.  \harvardyearleft 1967\harvardyearright , {\em The nature and
   theory of the general circulation of the atmosphere}, Vol. 218, World
@@ -1218,6 +1232,13 @@ Ma, D., Sobel, A.~H., Kuang, Z., Singh, M.~S. \harvardand\ Nie, J.
   \harvardyearleft 2019\harvardyearright , `A moist entropy budget view of the
   {South Asian} summer monsoon onset', {\em Geophysical Research Letters} {\bf
   46}(8),~4476--4484.
+
+\harvarditem[Ma et~al.]{Ma, Chen, Huangfu, Song \harvardand\ Cai}{2021}{ma2021}
+Ma, T., Chen, W., Huangfu, J., Song, L. \harvardand\ Cai, Q.  \harvardyearleft
+  2021\harvardyearright , `The observed influence of the{ Quasi-Biennial
+  Oscillation in the lower equatorial stratosphere on the East Asian} winter
+  monsoon during early boreal winter', {\em International Journal of
+  Climatology} .
 
 \harvarditem[Machado et~al.]{Machado, Laurent, Dessay \harvardand\
   Miranda}{2004}{machado2004}
@@ -1304,6 +1325,12 @@ Marotzke, J., Jakob, C., Bony, S., Dirmeyer, P., O'Gorman, P., Hawkins, E.,
 Martin, Z., Orbe, C., Wang, S. \harvardand\ Sobel, A.  \harvardyearleft
   2021a\harvardyearright , `{The MJO--QBO Relationship in a GCM with
   Stratospheric Nudging}', {\em Journal of Climate} {\bf 34}(11),~4603--4624.
+
+\harvarditem[Martin et~al.]{Martin, Sobel, Butler \harvardand\
+  Wang}{2021c}{martin2021variability}
+Martin, Z., Sobel, A., Butler, A. \harvardand\ Wang, S.  \harvardyearleft
+  2021c\harvardyearright , `Variability in qbo temperature anomalies on annual
+  and decadal time scales', {\em Journal of Climate} {\bf 34}(2),~589--605.
 
 \harvarditem[Martin et~al.]{Martin, Son, Butler, Hendon, Kim, Sobel, Yoden
   \harvardand\ Zhang}{2021b}{martin2021nature}
@@ -1588,6 +1615,12 @@ Ribera, P., Pe{\~n}a-Ortiz, C., Garcia-Herrera, R., Gallego, D., Gimeno, L.
   quasi-biennial oscillation', {\em Journal of Geophysical Research:
   Atmospheres} {\bf 109}(D18).
 
+\harvarditem{Richter \harvardand\ Tokinaga}{2020}{richter2020overview}
+Richter, I. \harvardand\ Tokinaga, H.  \harvardyearleft 2020\harvardyearright ,
+  `An overview of the performance of cmip6 models in the tropical atlantic:
+  mean state, variability, and remote impacts', {\em Climate Dynamics} {\bf
+  55}(9),~2579--2601.
+
 \harvarditem[Richter et~al.]{Richter, Xie, Behera, Doi \harvardand\
   Masumoto}{2014}{richter2014equatorial}
 Richter, I., Xie, S.-P., Behera, S.~K., Doi, T. \harvardand\ Masumoto, Y.
@@ -1725,6 +1758,13 @@ Sellar, A.~A., Jones, C.~G., Mulcahy, J., Tang, Y., Yool, A., Wiltshire, A.,
   Zerroukat, M.  \harvardyearleft 2019\harvardyearright , `{UKESM1: Description
   and evaluation of the UK Earth System Model}', {\em Journal of Advances in
   Modeling Earth Systems} {\bf 11}(12),~4513--4558.
+
+\harvarditem[Seo et~al.]{Seo, Choi, Youn, Park \harvardand\ Kim}{2013}{seo2013}
+Seo, J., Choi, W., Youn, D., Park, D.-S.~R. \harvardand\ Kim, J.~Y.
+  \harvardyearleft 2013\harvardyearright , `Relationship between the
+  stratospheric quasi-biennial oscillation and the spring rainfall in the
+  western north pacific', {\em Geophysical Research Letters} {\bf
+  40}(22),~5949--5953.
 
 \harvarditem[Serva et~al.]{Serva, Anstey, Bushell, Butchart, Cagnazzo, Gray,
   Kawatani, Osprey, Richter \harvardand\ Simpson}{submitted}{serva2021}
@@ -1902,6 +1942,12 @@ Telford, P., Braesicke, P., Morgenstern, O. \harvardand\ Pyle, J.
   nudged version of the new dynamics unified model', {\em Atmospheric Chemistry
   and Physics} {\bf 8}(6),~1701--1712.
 
+\harvarditem{Tian \harvardand\ Dong}{2020}{tian2020}
+Tian, B. \harvardand\ Dong, X.  \harvardyearleft 2020\harvardyearright , `The
+  double-itcz bias in cmip3, cmip5, and cmip6 models based on annual mean
+  precipitation', {\em Geophysical Research Letters} {\bf
+  47}(8),~e2020GL087232.
+
 \harvarditem[Trejo et~al.]{Trejo, Barbosa, Pe{\~n}aloza-Murillo, Moreno
   \harvardand\ Far{\'\i}as}{2016}{trejo2016}
 Trejo, F. J.~P., Barbosa, H.~A., Pe{\~n}aloza-Murillo, M.~A., Moreno, M.~A.
@@ -1955,6 +2001,13 @@ Vera, C. \harvardand\ Silvestri, G.  \harvardyearleft 2009\harvardyearright ,
   `Precipitation interannual variability in south america from the wcrp-cmip3
   multi-model dataset', {\em Climate dynamics} {\bf 32}(7-8),~1003--1014.
 
+\harvarditem[Villamayor et~al.]{Villamayor, Khodri, Villalba \harvardand\
+  Daux}{2021}{villamayor2021causes}
+Villamayor, J., Khodri, M., Villalba, R. \harvardand\ Daux, V.
+  \harvardyearleft 2021\harvardyearright , `Causes of the long-term variability
+  of southwestern south america precipitation in the ipsl-cm6a-lr model', {\em
+  Climate Dynamics} {\bf 57}(9),~2391--2414.
+
 \harvarditem{Walker}{1924}{walker1924}
 Walker, G.~T.  \harvardyearleft 1924\harvardyearright , `Correlations in
   seasonal variations of weather. {I. A} further study of world weather', {\em
@@ -2003,9 +2056,10 @@ Wang, P.~X., Wang, B., Cheng, H., Fasullo, J., Guo, Z., Kiefer, T. \harvardand\
 
 \harvarditem[Wang et~al.]{Wang, Tippett, Sobel, Martin \harvardand\
   Vitart}{2019}{wang2019}
-Wang, S., Tippett, M.~K., Sobel, A.~H., Martin, Z. \harvardand\ Vitart, F.
-  \harvardyearleft 2019\harvardyearright , `Impact of the {QBO on prediction
-  and predictability of the MJO convection}', {\em J. Geophys. Res. Atmos} .
+Wang, S., Tippett, M.~K., Sobel, A.~H., Martin, Z.~K. \harvardand\ Vitart, F.
+  \harvardyearleft 2019\harvardyearright , `Impact of the qbo on prediction and
+  predictability of the mjo convection', {\em Journal of Geophysical Research:
+  Atmospheres} {\bf 124}(22),~11766--11782.
 
 \harvarditem{Wang \harvardand\ Wang}{2014}{wang2014iod}
 Wang, X. \harvardand\ Wang, C.  \harvardyearleft 2014\harvardyearright ,
@@ -2079,6 +2133,13 @@ Xie, P. \harvardand\ Arkin, P.~A.  \harvardyearleft 1997\harvardyearright ,
 Xie, P., Arkin, P.~A. \harvardand\ Janowiak, J.~E.  \harvardyearleft
   2007\harvardyearright , {\em CMAP: The CPC Merged Analysis of Precipitation},
   Springer Netherlands, Dordrecht, pp.~319--328.
+
+\harvarditem[Yamazaki et~al.]{Yamazaki, Nakamura, Ukita \harvardand\
+  Hoshi}{2020}{yamazaki2020tropospheric}
+Yamazaki, K., Nakamura, T., Ukita, J. \harvardand\ Hoshi, K.  \harvardyearleft
+  2020\harvardyearright , `A tropospheric pathway of the stratospheric
+  quasi-biennial oscillation (qbo) impact on the boreal winter polar vortex',
+  {\em Atmospheric Chemistry and Physics} {\bf 20}(8),~5111--5127.
 
 \harvarditem[Yang et~al.]{Yang, Zhang, Qian, Song, Leung, Wu, Guo, Lu
   \harvardand\ Huang}{2019}{yang2019}

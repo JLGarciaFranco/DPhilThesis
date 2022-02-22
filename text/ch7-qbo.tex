@@ -1,24 +1,23 @@
-\chapter{\label{ch:7-qbo} The tropical route of QBO teleconnections in UKESM1 and HadGEM3 }
+\chapter{\label{ch:7-qbo} The tropical route of QBO teleconnections in a GCM }
 
-This chapter examines the influence of the stratospheric QBO on the tropical circulation and surface using pre-industrial control experiments of CMIP6 of the MOHC models and targeted model experiments. The relationship between the QBO and the tropical circulation, monsoons and the ITCZ is diagnosed and results are discussed in the context of existing hypotheses that could explain a downward influence from the stratosphere to the troposphere.
-%Secondly,  numerical experiments with the MOHC models were designed and performed to test the hypothesis thata relaxation of the zonal wind the equatorial stratosphere towards a reanalysis dataset are described and compared with free-running simulations.
+This chapter examines the influence of the stratospheric QBO on the tropical troposphere by, first, demonstrating a robust QBO signal in the pre-industrial control experiments of CMIP6 of the MOHC models. The mechanisms for this QBO signal are then explored using targeted model experiments with relaxation of the zonal wind toward observations. The findings of this chapter are discussed in the context of existing hypotheses  of physical mechanisms that could explain a tropical route of QBO teleconnections.
 
 \section{Introduction}
 
-Long-distance effects or teleconnections associated with the stratospheric quasi-biennial oscillation (QBO) have been well documented in the subtropics and extratropics, for example for the stratospheric polar vortex \citep{holton1980,anstey2014,lu2020}, the subtropical jets \citep{garfinkel2011,hansen2016tropospheric} and the North Atlantic Oscillation \citep{hansen2016tropospheric,gray2018,andrews2019observed}.  
- Observational and modelling have also found evidence for a tropical route of influence of the QBO to surface climate \citep{gray2018,hitchman2021observational}. In particular, impacts related to the QBO have been shown in features of tropical climate such as monsoons \citep{giorgetta1999,claud2007revisiting,liess2012}, the ITCZ \citep{gray2018}, tropical sea-surface temperatures (SSTs) \citep{gray1984,garfinkel2011,huang2012connection}, tropical cyclones \citep{ho2009,jaramillo2021combined} and most recently, the Madden-Julian Oscillation (MJO) \citep{lee2018,wang2019,martin2020jgr}. 
-
-The limited observational record suggests a QBO signal over monsoon regions  in satellite-derived  cloud properties \citep{collimore2003,liess2012}, as well as in surface precipitation \citep{gray2018}.
-However,  the observational evidence shows zonally asymmetric impacts, indicative that the impact of the QBO may depend on longitude, which has been hypothesized \citep[e.g. by][]{collimore2003,liess2012} to work through a QBO modulation of the Walker circulation \citep{hitchman2021observational}.
-A similarly limited amount of modelling evidence exists for the tropical route of QBO teleconnections. For instance,  \cite{giorgetta1999} shows a sensitivity of cloudiness in boreal summer monsoon regions within a GCM and 
-\cite{nie2015} find in a cloud-resolving model that the influence of the QBO may depend on the strength of convection and SST forcing, suggesting a non-linear effect of the QBO over a convective profile.  See section \ref{sq:trop_qbo} and recent reviews on stratospheric-tropospheric coupling in the tropics \citep{hitchman2021observational,haynes2021influence} for more detail on evidence for the tropical route of QBO teleconnections. 
+Long-distance effects or teleconnections associated with the stratospheric quasi-biennial oscillation (QBO) have been well documented in the subtropics and extratropics, for example for the stratospheric polar vortex \citep{holton1980,anstey2014,lu2020}, the subtropical jets \citep{garfinkel2011,hansen2016tropospheric,ma2021} and the North Atlantic Oscillation \citep{hansen2016tropospheric,gray2018,andrews2019observed}.  
+ Observational and modelling evidence suggests that there is also a tropical route of influence of the QBO through impacts on monsoons \citep{giorgetta1999,claud2007revisiting,liess2012}, the Intertropical Convergence Zone (ITCZ) \citep{gray2018}, tropical sea-surface temperatures (SSTs) \citep{garfinkel2011,huang2012connection}, tropical cyclones \citep{ho2009,jaramillo2021combined} and most prominently, the MJO \citep{son2017,lee2018,wang2019,martin2021nature}.
  
- 
-Although the polar and subtropical routes of QBO teleconnections are relatively well established, the impact of the QBO over tropical convective phenomena remains less well understood for various reasons. First, the short observational record limits the confidence in any analysis that seeks to investigate differences between the two QBO phases in a 30-40-yr long dataset. Tropical circulation variability on QBO time-scales is largely dominated by ENSO and there is also evidence that ENSO and convection in the tropical Pacific influence the QBO, which makes it difficult to separate the cause and effects of ENSO and the QBO \citep{schirber2015,christiansen2016,gray2018}. 
- 
-%Several observational and modelling studies have found evidence of QBO-related influence over convective activity in monsoon regions, such as in the South American, East Asian, Australian and Indian monsoons \citep{giorgetta1999,collimore2003,liess2012,gray2018} as well as over. 
+The tropical route of QBO teleconnections remains less well understood than other routes for various reasons, see \cite{haynes2021influence} and \cite{hitchman2021observational} for recent reviews on stratosphere-troposphere coupling in the tropics. The short observational record limits the confidence in any analysis that seeks to investigate differences between the two QBO phases in a 30-40-yr long dataset, as variability in the tropics on QBO time-scales is dominated by ENSO \citep{liess2012,seo2013,gray2018}. Similarly, the modulation of the location and magnitude of convection in the tropical Pacific by ENSO events can influence the characteristics of the QBO \citep{taguchi2010,schirber2015,christiansen2016,serva2020}, which makes it difficult to separate the cause and effects of ENSO and the QBO. 
 
 
+
+The observational evidence available has shown surface impacts associated with the QBO over monsoon and oceanic regions in satellite-derived fields such as cloud height, occurrence and OLR \citep{collimore2003,liess2012}, as well as in surface precipitation diagnosed from gridded datasets or from reanalysis \citep{seo2013,gray2018}.
+This observational evidence shows zonally asymmetric impacts, indicative that the impact of the QBO is not consistent across all the equatorial latitudes but rather depends on longitude, which has been suggested \citep[e.g. by][]{collimore2003,liess2012} to be due to a QBO modulation of the Walker circulation, which has been shown in some reanalysis \citep{yamazaki2020tropospheric,hitchman2021observational}.
+
+Modelling evidence for a QBO downward impact on tropical deep convective features also exist, for e.g.,     \cite{giorgetta1999} found that boreal summer monsoon regions exhibit a significant response in cloudiness to the QBO winds in a GCM.
+In a cloud-resolving model, \cite{nie2015} found that the influence of the QBO may depend on the strength of convection and SST forcing, suggesting a non-linear effect of the QBO over a convective profile.
+However, only a relatively small number of studies have analysed tropical QBO teleconnections in CMIP5/CMIP6 models \citep{serva2021}, as most CMIP analyses focus on the overall representation of the QBO and teleconnections to the extra-tropics  \citep{richter2020,anstey2021}.
+ 
  
 \begin{figure}[t!]
 \centering
@@ -28,34 +27,26 @@ Although the polar and subtropical routes of QBO teleconnections are relatively 
 \label{fig:qboamplitude}
 \end{figure} 
 
-Furthermore, the specific physical mechanisms through which the QBO could influence tropical convection at the grid-scale or the large-scale tropical circulation are also not well understood. 
-While early studies \citep{gray1984,collimore2003} suggest that changes to the vertical wind shear or static stability in the upper-troposphere lower-stratosphere (UTLS) region are the cause of these teleconnections, there is a lack of evidence in the literature to support any mechanism over another as zonally asymmetric impacts are diagnosed in observations \citep{hitchman2021observational}. 
-As such, studies have struggled to pin-point direct impacts and mechanisms by which the QBO may modulate any aspect of tropical surface climate. 
 
-\added{The leading hypothesis to explain an impact from the QBO on tropical deep convection suggests that changes to the  UTLS static stability, caused by the QBO residual circulation, modifies the strength of convection  \citep{collimore2003,liess2012,nie2015}. 
+The physical mechanisms through which the QBO could influence tropical surface climate are also not well understood (see section \ref{sq:trop_qbo}). The influence of the QBO over the temperature and vertical wind shear near the tropopause layer \citep{tegtmeier2020b,martin2021variability} has been hypothesized to affect convection through several mechanisms \citep{haynes2021influence}.
+Early studies \citep{gray1984,collimore2003} suggest that changes caused by the QBO to the vertical wind shear or static stability in the upper-troposphere lower-stratosphere (UTLS) region  modify the depth of convection at equatorial latitudes. However, other studies suggest that the surface impact of the QBO may be a function of both the UTLS temperature changes and the tropospheric convective forcing \citep{nie2015}.
+
+The leading hypothesis to explain an impact from the QBO on tropical deep convection suggests that changes to the  UTLS static stability, caused by the QBO residual circulation, modifies the strength of convection  \citep{collimore2003,liess2012,nie2015,yamazaki2020tropospheric}. 
 However, most of the existing climate models underestimate the amplitude of the QBO in the lowermost stratosphere (Figure \ref{fig:qboamplitude}) and by consequence the variability of the UTLS static stability associated with the QBO is lower in state-of-the-art GCMs \citep{schenzinger2017,richter2020,bushell2020}. 
-  For example, the observed relationships between the QBO and the MJO have not been found in GCMs \citep{lee2018,kim2020} and one reason for these results may be the underestimation of the UTLS temperature variability associated with the QBO in current GCMs.}
+  For example, the observed relationships between the QBO and the MJO have not been found in GCMs \citep{lee2018,kim2020} and one reason for these results may be the underestimation of the UTLS temperature variability associated with the QBO in current GCMs.
   
-  In addition,  only a relatively small number of studies have analysed tropical QBO teleconnections in a GCM, specifically in CMIP5/CMIP6 models \citep{serva2021}, as most CMIP analyses focus on the polar and subtropical routes of QBO influence \citep{richter2020,anstey2021}.
-   Biases in the stratosphere of GCMs such as the weaker amplitude of the QBO in the lower stratosphere have led several studies to perform experiments in which the model stratosphere is relaxed towards an observed or idealized  state, more commonly known as nudging \citep[e.g.][]{garfinkel2011,lee2018,gray2020,richter2020,martin2021}. 
-The nudging technique has proven useful because the relaxation can remove biases, identify causal pathways and test specific hypotheses regarding the mechanisms \citep{gray2020,martin2021,haynes2021influence}.
+  %In addition,  only a relatively small number of studies have analysed tropical QBO teleconnections in a GCM, specifically in CMIP5/CMIP6 models \citep{serva2021}, as most CMIP analyses focus on the polar and subtropical routes of QBO influence \citep{richter2020,anstey2021}.
+   The stratospheric biases in GCMs, such as the weaker amplitude of the QBO in the lower stratosphere, have led several studies to perform experiments in which the model stratosphere is relaxed towards an observed or idealized  state, more commonly known as nudging \citep[e.g.][]{garfinkel2011,lee2018,gray2020,richter2020,martin2021}. 
+The nudging technique has proven useful because the relaxation can remove biases, identify causal pathways and test specific hypotheses regarding mechanisms \citep{gray2020,martin2021,haynes2021influence}. In particular, the nudging technique has been suggested as a potential tool to better understand observed relationships between the tropics and the QBO \citep{lee2018,martin2021}.
 
-\added{In short, there is a lack of robust evidence for QBO surface impacts in the tropics as QBO-related anomalies in observations may be the result of chance or the upward effect of tropical convection on the characteristics of the QBO. Moreover, there is little modelling evidence of QBO impacts in the tropics, particularly with state-of-the-art GCMs. 
- The Met Office Hadley Centre (MOHC) Unified Model (UM) exhibits an internally generated QBO that is reasonably similar to observations, except for the weak amplitude bias in the lower stratosphere \citep{richter2020}. Moreover, nudging has been succesfully applied to this model in previous studies \citep{telford2008description,gray2020}. For these reasons, the UM is ideal to investigate whether there are any surface impacts in the tropics associated with the QBO and what mechanisms may be at play in the observed stratospheric-tropospheric coupling.}
-
- 
- 
-
- %Finally, , so there is a two-way relationship that would make difficult a separation of cause and effect \citep{schirber2015,christiansen2016}. 
-  
+In short, there is a lack of robust evidence for QBO surface impacts in the tropics, due to the limited observational record and the relatively scarce modelling evidence of QBO, particularly with state-of-the-art GCMs. 
+ The Met Office Hadley Centre (MOHC) Unified Model (UM) extends to the mesosphere and includes a self-generated QBO via a non-orographic gravity wave scheme that compares well to observations, except for the weak amplitude bias in the lower stratosphere \citep{richter2020}. Moreover, nudging has been succesfully applied to this model in previous studies \citep{telford2008description,gray2020}. For these reasons, this chapter uses the UM to investigate whether there are any surface impacts in the tropics associated with the QBO and what mechanisms may be at play in the observed stratospheric-tropospheric coupling.
 
 
-This chapter first investigates QBO tropical teleconnections in the pre-industrial control simulations of the MOHC from CMIP6. \added{This part examines whether there is any evidence of modelled QBO impacts at the surface in the tropics and whether they are consistent with the available rainfall observations. We then systematically explore evidence for a QBO impact on the major modelled tropical climate circulations, taking advantage of the extremely long simulations that can provide improved estimates of statistical significance when compared with the relatively short observational and reanalysis datasets.}
-%\added{The purpose of this investigation is to investigate whether there is any response associated with the QBO in the tropical circulation and surface within a GCM. Secondly, the simulated responses will be compared to observations, even though model biases may make any QBO effect different in the model relative to the real-world.}
 
-Nudging experiments feature in the second part of the chapter. Atmosphere-only and coupled model simulations are analysed to evaluate the effect of improving the biases of the QBO amplitude on the surface response. Specifically, these experiments test the UTLS static stability hypothesis, so that stronger effects would be expected in a model with a stronger UTLS temperature variability associated with the QBO compared to a model with  a weaker UTLS static stability effect of the QBO. 
+This chapter first investigates whether there are any robust connections between the QBO and the tropical troposphere using the pre-industrial control simulations of the MOHC from CMIP6.  This analysis benefits from the extremely long simulations that can provide improved estimates of statistical significance when compared with the relatively short observational datasets. The first part will demonstrate robust links between the QBO and several features of tropical climate but no conclusive statement can be made on the direction of causality using these simulations. For that reason, nudging experiments feature in the second part of the chapter. Atmosphere-only and coupled ocean-atmosphere model simulations are analysed to evaluate the effect of improving the biases of the QBO amplitude on the surface response. Specifically, these experiments test the UTLS static stability hypothesis, so that stronger effects would be expected in a model with a stronger UTLS temperature variability associated with the QBO compared to a model with a weaker UTLS static stability variability.
 
-The methodology and data used in this chapter are presented first, including the details on the nudging experimental setup. Then, the QBO impacts in the CMIP6 experiments are diagnosed and described which leads to the examination of the nudging experiments. 
+The methodology and data used in this chapter are described in section \ref{sq:qbo_methoddata}, including the details on the nudging experimental setup. Then, the QBO impacts diagnosed in the CMIP6 experiments are presented in section \ref{sq:cmip6_qbo}. Section \ref{sq:nudging} examines the results from the nudging experiments. 
 A discussion and conclusions are presented at the end of the chapter. % then the results from the CMIP6 experiments are analysed. The results from the targeted experiments are subsequently presented and finally the results are dicussed and conclusions are given from this chapter.
  % the relevance of this work
 %   are ideal to investigate variability associated with the QBO because these experiments are very long integrations where external forcing is kept constant within the simulation and the 
@@ -69,16 +60,20 @@ A discussion and conclusions are presented at the end of the chapter. % then the
 
 
 
-\section{Methods and data}
+\section{Methods and data} \label{sq:qbo_methoddata}
 
-The observational datasets and reanalysis (ERA5) used in this chapter are described in more detail in section \ref{sq:obsdata} and consist of the HadSST3 dataset for SST, GPCP for precipitation and ERA5 for the rest of the diagnostics that include the zonal and meridional winds, air temperature, etc.
+The observational datasets and reanalysis (ERA5) used in this chapter are described in more detail in section \ref{sq:obsdata} and consist of the HadSST3 dataset for SST, GPCP and GPCC for precipitation and ERA5 for the rest of the diagnostics that include the zonal and meridional winds, air temperature, etc.
 
 \subsection{CMIP6 data}
-
-The three pre-industrial control experiments of the MOHC submitted to CMIP6 are used in this chapter: GC3 N96-pi, GC3 N216-pi and UKESM-pi. UKESM-pi and GC3 N96-pi are run with the same resolution (N96) of 1.875$^\circ$x1.25$^\circ$ and GC3 N216-pi is considered a medium-resolution simulation (N216) with atmospheric resolution of 0.83$^\circ$x 0.56$^\circ$. The period of 1850-2350 (500 years) is used for GC3 N96-pi and GC3 N216-pi and 2050-2650 (600 years) for the UKESM-pi. 
+In section \ref{sq:cmip6_qbo}, three pi-control experiments are analysed: HadGEM3 GC3.1 at N96 and N216 horizontal resolutions (hereafter referred to as GC3 N96-pi and GC3 N216-pi) and UKESM at N96 horizontal resolution (hereafter referred to as UKESM N96-pi). The N96 and N216 atmospheric resolution is 1.875$^\circ$x1.25$^\circ$ and 0.83$^\circ$x 0.56$^\circ$, respectively whereas the oceanic resolutions are 1$^\circ$ (ORCA1) and 0.25$^\circ$  (ORCA025), respectively. The full 500 years available of the GC3 N216-pi simulation are used and although more data exists for UKESM-pi and GC3 N96-pi, we use 500-yrs of these simulations as well for consistency. 
 The three simulations chosen use the same model setup, with constant year 1850 forcing, but differ in their horizontal resolution or the treatment of aerosol-chemistry processes and land-surface interactions (see section \ref{sq:modeldata}). 
+ The CMIP6 version of the model model extends to the lower mesosphere and includes a self-generated QBO via a non-orographic gravity wave scheme that compares well with the observed QBO \citep{richter2020}. 
 
-\added{Pre-industrial control experiments are fit for the purpose of examining the internal variability of a model due to the constant forcing and their length. Multiple studies have used this type of experiments to investigate teleconnections and variability \citep{watanabe2012uncertainty,zanchettin2014,palmer2014internal,menary2018,dimdore2021}..  For the purposes of this chapter, the QBO effect can be examined in the model as various cycles of decadal variability are sampled throughout the 500 yr of the integration. Note that the variability of the pre-industrial control experiments is compared against the variability of observations with the caveat the greenhouse forcing may play a role for the observed responses.}
+Pre-industrial control experiments are ideal for the purpose of examining the mechanisms of internal variability of a model because external forcing is kept constant throughout the usually long integrations (e.g. in CMIP6 these experiments are at least 500 years long). For these reasons, multiple studies have used this type of experiments to investigate teleconnections and variability on multiple time-scales isolated from the influence of external forcing \citep[see e.g.][]{watanabe2012uncertainty,zanchettin2014,palmer2014internal,menary2018,dimdore2021,villamayor2021causes}. For the purposes of this chapter, the model variability associated with the QBO which samples several states of decadal variability are compared against the observed variability associated with the QBO. 
+
+The majority of the diagnostics in section \ref{sq:cmip6_qbo} are shown for the higher resolution GC3 N216-pi simulation and comparisons with the other two simulations are noted where appropriate. The equatorial climate of GC3 N216-pi  captures tropical dynamical processes and tropical mean and extreme precipitation reasonably well relative to lower-resolution configurations \citep{garciafranco2020,abdelmoaty2021biases}. This configuration has been top ranked amongst all CMIP5/CMIP6 models in metrics such as the seasonal-phase locking and amplitude of ENSO \citep{menary2018,richter2020overview,liu2021enso}, extreme precipitation \citep{abdelmoaty2021biases} and the annual cycle of equatorial Atlantic SSTs and low-level winds \citep{richter2020overview}. 
+  The HadGEM model has also been historically top ranked in the representing the stratosphere and the QBO \citep{schenzinger2017,richter2020}.
+  However, several biases are notable in this model, particularly in tropospheric dynamical features such as the southward bias of the Atlantic ITCZ linked to the dry Amazon bias and too strong precipitation rates over the East Pacific ITCZ \citep{garciafranco2020}.
 
 
 \subsection{Indices}
@@ -92,14 +87,14 @@ The descent rates are calculated following \cite{schenzinger2017} for descending
 These definitions of the amplitude and descent rates were chosen to evaluate the influence of ENSO on the whole profile of the QBO and not just one single level. 
 
 An index for the Indian Ocean Dipole (IOD) was also required and this chapter uses a convective precipitation index of the zonal gradient in the Indian Ocean (convective IOD Index), defined as the difference of the deseasonalized area-averaged convective precipitation between the western [50-70$^\circ$E] and eastern [80-100$^\circ$E] equatorial [10$^\circ$S-10$^\circ$N] Indian Ocean, which is in a similar region as the standard SST IOD index \citep{wang2014iod}. 
-This convective precipitation is used to define IOD events with a 1 standard deviation threshold to define positive and negative events. 
+This convective precipitation index is used to define IOD events with a 1 standard deviation threshold to define positive and negative events. 
 
 \subsection{Analysis techniques}
 \label{sq:analysis}
 
-Composite analysis is the preferred technique used throughout this chapter. For each QBO or ENSO phase, composite samples are drawn for specific seasons using the indices and definitions mentioned above. 
-Statistical significance is estimated in various ways, in some cases through standard Student or Welch t-test's where specified, and in some other cases a randomised resampling or bootstrapping method is also implemented in several sections of the chapter. 
-The bootstrapping method is performed in all cases by drawing random samples from the entire simulation and repeating the process 10,000 times to evaluate the likelihood of obtaining a relationship by chance. 
+Composite analysis is the primary technique used in the study. For each month the QBO phase (QBO-E or QBO-W) and the  ENSO phase (El Niño, La Niña or neutral ENSO phase) was determined as described above. Annual-mean and seasonal-mean composites were derived by computing weighted averages to account for differences in the counts of each month, i.e, to avoid a possible aliasing with the seasonal cycle. This means the composites were derived by weighting each monthly-mean by its size and then computing the seasonal or annual-mean average so that all months contribute equally and there is no seasonal effect due to, e.g., QBO or ENSO phase-locking.
+
+The length of the pre-industrial control experiments is such that the number of total El Niño and La Niña months for GC3 N216-pi were over 1000 months in the entire simulation for each phase, and over 1500 months for each QBO phase. Moreover, El Niño months found under QBOW were 376 and 284 under QBOE, whereas in the observed 1979-2018 period, 62 QBOW El Niño months and 36 QBOW El Niño months were diagnosed.
 
 Linear regression analysis has proven useful to understand the effect of one or more aspects of the climate over a region or a time-series, and was used to investigate the surface impacts of the QBO in observations by \cite{gray2018}. 
 A simple linear regression model can be written as:
@@ -112,37 +107,37 @@ A multivariate regression model can be used to study the joint effect of two or 
 \begin{equation}
 Y(t)=X_0+\sum_j^NX_j(t)\beta_j+\epsilon
 \end{equation}
-\noindent where $X_j(t)$ is any predictor with an associated regression coefficient $\beta_j$. 
+\noindent where $X_j(t)$ is any predictor with an associated regression coefficient $\beta_j$. The multivariate regression will be used to separate the linear influence of the QBO and ENSO in section \ref{sq:cmip6_qbo}.
 As in previous studies \citep{gray2018,misios2019slowdown}, the regression coefficient can be rescaled to evaluate the total effect that a predictor ($X_j$) can have on the variance of the measured variable ($Y$) using the standard deviation ($\sigma_j$) and the maximum ($X_{j,max}$) and minimum ($X_{j_min}$) values of $X_j$ so that the rescaled coefficient $\beta_j^\prime$ can be written as:
 
 \begin{equation}
 \beta_j^\prime=\beta_j\frac{X_{j,max}-X_{j,min}}{\sigma_j}.
 \end{equation}
 
-\subsection{Nudging experimental setup}
+%The regression analysis will be used in the following sections to s
+
+\subsection{Nudging experimental setup}\label{nudg_setup}
 
 This section describes the experimental setup for the nudging experiments. 
 The GC3.1 configuration of the UM model is used (model version 11.4), using an atmospheric horizontal resolution of N96 (corresponding to the low-resolution version of the MOHC CMIP6 simulations). 
 Both atmosphere-only and ocean-atmosphere coupled experiments were conducted for the period 1981-2015, using a present-day climate setup where all external forcings, including greenhouse gas and aerosol emissions, are set constant to those of the year 2000. %, so there is no variation in, e.g., greenhouse gases within these simulations.
 
-\added{Nudging refers to the relaxation of a model variable towards a specified state which can be from reanalysis, observations or idealized states \citep{gray2020,martin2021}.} In the UM setup, three variables can be relaxed, air temperature ($T$) and the zonal ($u$) and meridional ($v$) components of the wind. \added{ The relaxation is applied at each grid-point, in contrast to the setup in other models \citep[e.g.][]{martin2021} where the relaxation is performed in a zonal-mean sense. Specifically, the UM uses a Newtonian relaxation technique \citep{telford2008description,gray2020} which sets the field to be relaxed ($F$) at each time-step through the following equation:  }
+Nudging refers to the relaxation of a model variable towards a specified state which can be from reanalysis, observations or idealized states \citep{gray2020,martin2021}. In the UM setup, three variables can be relaxed, air temperature ($T$) and the zonal ($u$) and meridional ($v$) components of the wind. The relaxation is applied at each grid-point, in contrast to the setup in other models \citep[e.g.][]{martin2021} where the relaxation is performed in a zonal-mean sense. Specifically, the UM uses a Newtonian relaxation technique \citep{telford2008description,gray2020} which sets the field to be relaxed ($F$) at each time-step through the following equation:  
 
-\added{
+
 \begin{equation}
 \Delta F=G\Delta t (F_{ndg}-F_{model}),
 \end{equation}
-}
 
-\added{
-\noindent where $\Delta F$ is the discrete change of $F$ at each time-step, $G$ is the relaxation parameter, $\Delta t$ is the time-step size, $F_{ndg}$ is the value of the field from the nudging data and $F_{model}$ is the model value of the field at the last time-step \citep{telford2008description}. }
+\noindent where $\Delta F$ is the discrete change of $F$ at each time-step, $G$ is the relaxation parameter, $\Delta t$ is the time-step size, $F_{ndg}$ is the value of the field from the nudging data and $F_{model}$ is the model value of the field at the last time-step \citep{telford2008description}.
 
-\added{The relaxation parameter $G$ sets the strength of the relaxation and is linked with the relaxation timescale ($\tau$) by $G=1/\tau$. In the UM model, the relaxation timescale is given by the temporal resolution of the nudging data, which is 6-h \citep{telford2008description,gray2020}, so that $G=\frac{1}{6}$ h$^{-1}$. This relaxation parameter has been shown to be sufficiently strong to constraint the stratospheric state of the model \citep{gray2020} and so the same parameter was used for the simulations of this chapter. }
+The relaxation parameter $G$ sets the strength of the relaxation and is linked with the relaxation timescale ($\tau$) by $G=1/\tau$. In the UM model, the relaxation timescale is given by the temporal resolution of the nudging data, which is 6-h \citep{telford2008description,gray2020}, so that $G=\frac{1}{6}$ h$^{-1}$. This relaxation parameter has been shown to be sufficiently strong to constraint the stratospheric state of the model \citep{gray2020} and so the same parameter was used for the simulations of this chapter. 
 
-\added{ Furthermore, the nudging can be performed between specified vertical levels and in selected latitude/longitude regions with \textit{tapering}. The tapering refers to a linear interpolation between the maximum $G$ and zero nudging ($G=0$). 
-For example, a tapering of 4 vertical levels was applied in our simulations which means that there was a linearly increasing $G$ from a bottom level with no nudging to the level where the specified $G$ is  implemented; the same linear interpolation works for latitudinal nudging and tapering.}
+Furthermore, the nudging can be performed between specified vertical levels and in selected latitude/longitude regions with \textit{tapering}. The tapering refers to a linear interpolation between the maximum $G$ and zero nudging ($G=0$). 
+For example, a tapering of 4 vertical levels was applied in our simulations which means that there was a linearly increasing $G$ from a bottom level with no nudging to the level where the specified $G$ is  implemented; the same linear interpolation works for latitudinal tapering.
 
 %The UM version 11.4 was used with atmospheric resolution of N96  (1.875$^\circ$x1.25$^\circ$) in all the experiments, external forcing is seasonally varying but constant to represent year-2000 forcing conditions, including, e.g., aerosol emissions.
-The experimental design chosen was to relax the zonal wind ($u$) in the model levels that correspond to 90 hPa to 4 hPa, with a tapering of 4 levels, which means that full nudging was only working from 70 hPa to 10 hPa. The nudging was done at all longitudes in the latitude band of 10$^\circ$S-10$^\circ$N with a latitudinal tapering of 10 degrees on both sides, which means that at 20$^\circ$N the relaxation parameter was 0.
+The experimental design chosen relaxes the zonal wind ($u$) in the model levels corresponding to 90 hPa to 4 hPa, with a tapering of 4 levels, which means that full nudging was only working from 70 hPa to 10 hPa. The nudging was done at all longitudes in the latitude band of 10$^\circ$S-10$^\circ$N with a latitudinal tapering of 10 degrees on both sides, which means that at 20$^\circ$N the relaxation parameter was 0.
 The experimental setup aims to reasonably simulate the observed variability of the zonal wind leaving the meridional component of the wind and the temperature to respond freely within the model. 
 
 \begin{table}[t!]
@@ -157,8 +152,8 @@ Coupled         & 1981-2015 & 2                & Coupled Control & No.
 \end{tabular}
 \end{table}
 
-Atmosphere-only and coupled ocean-atmosphere simulations were performed with this nudging setup, with corresponding control simulations in which there was no relaxation of any kind (Table \ref{tab:nudg_exps}). The atmosphere-only (AMIP) experiments were run with observed SSTs using the CMIP6 SST dataset used for AMIP experiments, note the surface boundary SSTs are used at all latitudes. The coupled experiments use an oceanic resolution of 0.25$^\circ$ (ORCA025) using the NEMO model \citep{storkey2018}. Each ensemble member was initialized from different ocean/atmosphere initial conditions in order to decrease the role that internal variability may have on these simulations. 
-For each of the nudged experiments several ensemble members were performed, three for the atmosphere-only configuration and six for the coupled ocean-atmosphere configuration. 
+Atmosphere-only and coupled ocean-atmosphere simulations were performed with this nudging setup, with corresponding control simulations in which there was no relaxation of any kind (Table \ref{tab:nudg_exps}). The atmosphere-only (AMIP) experiments were run by prescribing the CMIP6 SST dataset used for AMIP experiments, note the surface boundary SSTs are used at all latitudes. The coupled experiments use an oceanic resolution of 0.25$^\circ$ (ORCA025) using the NEMO model \citep{storkey2018}. Each ensemble member was initialized from different ocean/atmosphere initial conditions in order to decrease the role that internal variability may have on these simulations. Specifically, the coupled ocean-atmosphere configuration was initialized oceanic conditions of a long integration of the same model configuration that were found 10 years apart from each other in the spin-up simulation.
+For each of the configurations several ensemble members were launched (see Table \ref{tab:nudg_exps}). 
 
 
 Note that the coupled experiments differ only slightly from the setup used in the CMIP6 piControl experiments, with the atmospheric resolution matching the resolution of GC3 N96-pi (1.875$^\circ$x1.25$^\circ$) and the oceanic resolution being the same as GC3 N216-pi (0.25$^\circ$). The forcing is constant in both types of runs, except that in the piControl experiments, the forcing represents conditions of the year 1850 and in these experiments the forcing is for the year 2000. 
@@ -170,143 +165,147 @@ In addition to the nudged and control coupled and AMIP experiments, we performed
   
 \section{Teleconnections in the pre-industrial control experiments}\label{sq:cmip6_qbo}
 
-
-
-%Surface impacts of the QBO in the tropics have scarcely been investigated in CMIP models, as most studies focus on the general representation of the QBO \citep[e.g][]{schenzinger2017,bushell2020}, or the extratropical teleconnections \citep[e.g.][]{anstey2021,dimdore2021}. 
-%However, studies that have investigated teleconnections between the QBO and tropical convective phenomena in GCMs \citep[e.g.][]{lee2018,martin2021,serva2021} have found that model biases in representing the variability of temperature and winds in the tropopause layer may hinder a possible interaction between the QBO and tropical convection. 
-
-This section examines the tropical route of QBO teleconnections in a GCM, specifically, whether there is any surface impact of the QBO in the tropics in the MOHC piControl experiments.
-The medium resolution version of the model (GC3 N216-pi) arguably best represents the tropospheric dynamics, particularly in some monsoon regions \citep{garciafranco2020}, so results are shown primarily for GC3 N216-pi. The other two simulations were also analyzed and we note where there is agreement or not between the three simulations.
+The tropical precipitation response to the QBO phase is analysed in both observations and model simulations, first in the annual-mean and then by season (section \ref{qbo7_pr}).  The potential for aliasing with the ENSO signal is investigated (section \ref{qbo7_enso}) and QBO-ENSO interactions are further explored (section \ref{sq:iod_enso}), as well as QBO interactions with the Indian Ocean dipole (IOD). Finally, interactions between the QBO and the ITCZ, monsoons and the Walker circulation are identified and discussed in \ref{sq:circ}. 
 
 \begin{figure}[t!]
 \centering
  %\noindent
  \includegraphics[width=\linewidth]{figures/piprclimqbowqboe.png}
-\caption[Annual mean precipitation composite difference QBO W-E ]{ Annual mean precipitation difference between QBO W-E phases in (a) GPCP, (b) GC3 N96-pi, (c) GC3 N216-pi and (d) UKESM-pi. Hatching denotes statistical significance to the 95\% confidence level using bootstrapping with replacement for each composite sample. }
+\caption[Annual mean precipitation composite difference QBO W-E ]{ QBO-W minus QBO-E composite differences in annual-mean precipitation from (a) GPCP, (b) GC3 N96-pi, (c) GC3 N216-pi and (d) UKESM-pi. Hatching denotes statistically significant differences at the 95\% confidence level using a bootstrapping with replacement test. }
 \label{fig:qboclim}
 \end{figure}
 
-\subsection{Precipitation and SST response}
 
-The composite differences in annual mean precipitation between QBO W and E phases (Figure \ref{fig:qboclim}) in observations (GPCP) are largest and significant in the tropical Pacific, equatorial Atlantic and the Indian Oceans, which generally agrees with previous observational findings \citep{liess2012,gray2018}. The three simulations generally agree with the results of GPCP, with positive differences (QBO W-E) found in the equatorial Central Pacific and the Indian Ocean as well as the negative differences in subtropical Pacific, albeit the differences are smaller in the simulations. 
+\subsection{Precipitation} \label{qbo7_pr}
+
+QBO composite differences in annual mean precipitation (QBO-W minus QBO-E) are shown in Figure \ref{fig:qboclim} from the gridded GPCP observational dataset and from all three model simulations. In the observations the QBO signals are largest and statistically significant in the tropical Pacific, equatorial Atlantic and Indian Oceans, in good agreement with previous analyses \citep{liess2012,gray2018}. The three simulations agree reasonably well with the GPCP distributions and amplitudes, particularly in the Pacific and Indian Oceans. Positive differences of up to 1.2 mm day$^{-1}$ are found in the equatorial Central Pacific and the Indian Ocean and negative differences of up to 0.6 mm day$^{-1}$ in the off-equatorial North Pacific, although the differences are smaller in the simulations than observed. 
+
+In the tropical Atlantic, however, there is an indication of a weak but significant signal in the observations near the ITCZ but the models show a signal of the opposite sign in this region (or the absence of a signal in the case of GC3 N96-pi). This disagreement with observations may be due to the biased southward position of the Atlantic ITCZ in the model which is more pronounced in DJF \citep{garciafranco2020}.
 
 \begin{figure}[t!]
 \centering
  %\noindent
  \includegraphics[width=\linewidth]{figures/paperprqbowqboe.png}
-\caption[DJF mean precipitation composite difference QBO W-E ]{ As in Figure \ref{fig:qboclim}, but showing QBO W-E differences in specific seasons for GPCP and GC3 N216-pi. }
+\caption[Seasonal mean precipitation composite difference QBO W-E ]{ As in Figure \ref{fig:qboclim}, but showing seasonal-mean QBO composite  from (left) GPCP and (right) GC3 N216-pi for DJF, MAM, JJA and SON from top to bottom. }
 \label{fig:qbodjf}
 \end{figure}
 
-These QBO-related differences in precipitation are strongly dependent on the seasonal cycle in both models and observations (Figure \ref{fig:qbodjf}). 
-For example, during DJF (Fig. \ref{fig:qbodjf}a), the positive differences in GPCP (which ressemble El Niño anomalies) found over the equatorial Pacific are stronger  compared to the annual mean, whereas in SON (Figure \ref{fig:qbodjf}e) there are no significant differences in the same region. In contrast, in SON the largest differences in GPCP appear in the Indian Ocean.
+The QBO signal in precipitation is found to be strongly dependent on the seasonal cycle in both models and observations. Figure \ref{fig:qbodjf} shows a comparison of the GPCP dataset and GC3 N216-pi for individual seasons. The positive equatorial Pacific signal in the GPCP dataset, which resembles an El Niño anomaly, is particularly strong and statistically significant in December-January-February (DJF) (Fig. \ref{fig:qbodjf}a). A similar pattern is present in both March-April-May (MAM) (Figure \ref{fig:qbodjf}c) but with no statistical significance. In GC3 N216-pi the QBO signal in the Pacific is significant in all seasons, likely due to the greater number of years in the ensembles, although it is shifted slightly compared to GPCP and is strongest in MAM (Fig. \ref{fig:qbodjf}c).   
 
-In GC3 N216-pi, however, the positive El Niño-like differences in the equatorial Pacific are stronger in MAM (Fig. \ref{fig:qbodjf}c-d) and not in DJF as in GPCP. The Atlantic ITCZ region shows a response in MAM in both observations and models (although the model response is of opposite sign to observations) but this response is muted in annual-mean differences. \added{The responses over the Atlantic and Indian Ocean are of opposite sign, for example in DJF. This feature would suggest that if the impacts are caused by the QBO they are not zonally symmetric, and possibly support the hypothesis of a QBO modulation of the Walker circulation \citep{liess2012,hitchman2021observational}.}
- UKESM-pi and GC3 N96-pi show similar precipitation patterns to GC3 N216-pi that ressemble El Niño precipitation patterns in DJF, as well as tropical precipitation differences that also exhibit strong seasonal dependance (not shown).
+In the Atlantic, the QBO signal in the ITCZ region is more clearly evident in the individual seasons. In DJF there is reasonable similarity between the model and observations but by MAM the opposite sign of the model compared to GPCP becomes evident, even though the ITCZ bias in the model is stronger in DJF than in MAM \citep{garciafranco2020}. In addition, all models and GPCP indicate that the Caribbean Sea is wetter in JJA during QBO-W than in QBO-E (see Fig. \ref{fig:qbodjf}). In the Indian Ocean, the observations and all models show relatively large and significant differences in SON, (Fig. \ref{fig:qbodjf}e-f), characterized by a dipole of wet anomalies to the west and dry anomalies to the east. The dipole anomalies suggest a possible QBO influence on the IOD, which is characterized by a zonal gradient of SSTs and convective activity in the Indian Ocean that is specially prominent in SON \citep{saji1999iod,deser2010sea,mckenna2020iod}. This possibility is explored further in section \ref{sq:iod_enso} below.  
 
-In SON (Fig. \ref{fig:qbodjf}e-f), both models and observations results show relatively large and significant differences in the Indian Ocean, characterized by a dipole of wet anomalies to the west and dry anomalies to the east. These dipole anomalies may be an indication that the QBO influences the Indian Ocean Dipole (IOD), which is characterized by a zonal gradient of SSTs and convective activity in the Indian Ocean \citep{saji1999iod,deser2010sea,mckenna2020iod}. 
-Finally, all the models and GPCP indicate that the Caribbean Sea is wetter during QBO W compared to the QBO E in boreal summer (not shown). 
+In summary, the GPCP precipitation composite differences, characterized by a zonally asymmetric QBO signal that is primarily found over the oceans, are consistent with previous analyses \citep{liess2012,gray2018}, and the simulated QBO response patterns are in good agreement with the observations. This good agreement, together with the length of the model simulations (500 years) compared with the available observations, suggests that analysis of the modelled QBO signals may help to understand the mechanisms that give rise to the surface response in the QBO. However, the QBO signals from both model and observational analyses are very similar to well-known patterns for ENSO and the IOD. Previous observational studies have also shown a higher frequency of El Niño events during QBOW and of La Niña during QBOE in observations since 1979 \citep{taguchi2010,liess2012}, although the observational record is short so there is much statistical uncertainty. This potential for aliasing of the QBO and ENSO signals is investigated in the next section.
 
 \begin{figure}[t!]
 \centering
  %\noindent
  \includegraphics[width=\linewidth]{figures/papersstqbowqboe.png}
-\caption[Annual mean SST difference QBO W-E under different QBO phases.]{ As in Figure \ref{fig:qbodjf}, but for SST differences in the (a, b) annual, (c, d) DJF and (e, f) MAM means for HadSST and GC3 N216-pi.}
+\caption[Annual mean SST difference QBO W-E under different QBO phases.]{ As in Figure \ref{fig:qbodjf} but for seasonal-mean sea surface temperatures from (left) the HadSST dataset and (right) GC3 N216-pi simulation.}
 \label{fig:sstclim}
 \end{figure}
 
-The QBO W-E SST differences are consistent with the precipitation results (Figure \ref{fig:sstclim}).
-Results in HadSST and in the models show significant positive differences in the equatorial Pacific which are similar to El Niño patterns.
-In DJF, the observed SST anomaly pattern ressembles an East Pacific (or 'standard') El Niño, whereas the simulated anomalies in DJF for all models are weaker and look like central Pacific El Niño \citep{capotondi2015}. In GC3 N216-pi the largest differences are observed in MAM in the easternmost Pacific Ocean whereas in the other simulations, the El Niño-like differences also appear in DJF (not shown).
+\subsection{Potential aliasing of QBO and ENSO signals} \label{qbo7_enso}
 
-The models show a warm difference in the northern tropical Atlantic that is found in all seasons except in boreal summer and that is not observed in HadSST (Fig. \ref{fig:sstclim}). The simulated warm anomalies in the Caribbean Sea and Atlantic in DJF are accompanied by a cooling of the Gulf of Mexico, warmer SSTs over the coast of California and a cooling of the central North Pacifc, all of which ressemble the impact of El Niño events and the positive phase of the Pacific North American (PNA) pattern  \citep{deser2010sea,guo2017distinct,jimenezesteve2020}. Alternatively, these SST patterns may be associated with the QBO influence on the PNA pattern and the subtropical jet position, independent of ENSO \citep{garfinkel2011}, or the polar vortex route to the NAO \citep{gray2018}. 
+To further explore the QBO signal and its interaction with ENSO, Figure \ref{fig:sstclim} shows the QBO signal in SSTs. The QBOW minus QBOE composite differences are shown for individual seasons from the HadSST dataset and the GC3 N216-pi model simulation. The SST signals are consistent with the precipitation signals. Both model and observational datasets show significant positive SST responses in the equatorial Pacific that are similar to El Niño patterns. In the HadSST dataset the Pacific response is strongest in DJF and resembles an East Pacific (or ’standard’) El Niño, whereas the simulated anomalies in DJF are weaker and look more like a central Pacific El Niño \citep{capotondi2015}. 
 
-This section investigates the precipitation and SST composite differences associated with the phase of the QBO. Evidence suggests that the strongest precipitation responses   are found over the ocean, in the ITCZ regions, and that several SST and precipitation patterns look like El Niño teleconnection impacts. However, there is no hypothesis that could explain why ocean effects are larger than over land or why only oceanic convection would be affected by the QBO.
-These results also suggest that there seems to be some aliasing or coupling with ENSO events in these composites and that the QBO impact is not zonally symmetric. One would reasonably assume that observed ENSO-QBO aliasing would be due to the short observational record. For that reason the following sections examine more closely how the ITCZ, the Walker circulation and ENSO are related to the QBO.
+\begin{figure}[t!]
+\centering
+ %\noindent
+ \includegraphics[width=\linewidth]{figures/qbonnpr.png}
+\caption[Precipitation response to QBO W-E for GC3 N216-pi under different QBO phases.]{  Composite QBO W-E differences of total precipitation in GC3 N216-pi in (a, b) DJF and (c, d) MAM for (a, c) all the events and (b, d) Neutral ENSO conditions only. The sample size of each composite is noted in the top left corner of each panel. Statistically significant differences to the 99\% confidence level are shown through the hatching. }
+\label{fig:qbonn}
+\end{figure}
+
+In GC3 N216-pi, the largest differences are observed in MAM in the easternmost Pacific Ocean and thus more closely resembles the observed DJF response pattern. In the South Atlantic the model shows a region weak, insignificant cooling in DJF (Figure \ref{fig:sstclim}d), in contrast to the statistical significant warming signal in HadSST (Figures \ref{fig:sstclim}a,c). In the northern tropical Atlantic the model shows an year-long warming signal with stronger anomalies in MAM and JJA; this signal is present in HadSST but only found in JJA and SON and it is not significant (Fig. \ref{fig:sstclim}e, g). The simulated northern tropical Atlantic warm anomalies in DJF (Figure \ref{fig:sstclim}b) are accompanied by a warmer Caribbean Sea and a cooling of the Gulf of Mexico, warmer SSTs along the coast of California and a cooling of the central North Pacific, all of which resemble the impact of El Niño events and the positive phase of the Pacific North American (PNA) pattern \citep{deser2010sea,guo2017distinct,jimenezesteve2020}.  
+
+As an initial investigation of the possibility of aliasing between the QBO and ENSO signals, Figures \ref{fig:qbonn}a,b shows the DJF QBOW minus QBOE composite differences of total precipitation from the GC3 N216-pi simulation using all years (as in figure \ref{fig:qbodjf}) compared with using only those years identified as ‘ENSO-neutral’. Although the sample size is substantially reduced in the latter (see figure for the number of months in each QBO composite) the sample size is nevertheless still large (>120 data points in each composite). The response patterns are similar in each plot, which suggests that the QBO signal is unlikely to be the result of a sampling bias that favours one particular phase of ENSO.  
+
+\begin{figure}[t!]
+\centering
+ \noindent
+ \includegraphics[width=\linewidth]{figures/regress_n216v2.png}
+\caption[Convective precipitation regression analysis]{Annual-mean regression model results in GC3 N216-pi for convective precipitation. (a, b) Regression coefficients ($\beta_i$) from a simple ordinary least-squares (OLS) regression model with the QBO index for (a) all months and (b) ENSO-Neutral months only. (c, d) show the regression coefficients resulting from a multivariate regression model using the ENSO and QBO indices for the (c) QBO and (d) predictors. In all cases, the regression coefficients are rescaled by multiplying the regression coefficients with the ratio of maximum amplitude and standard deviation of the QBO or ENSO indices. }
+\label{fig:enso_regress}
+\end{figure}
+
+An alternative approach to investigate the possibility of aliasing of the QBO/ENSO signals is to use a multi-linear regression technique (see section 2) in which the signal is analysed for both QBO and ENSO simultaneously. Here, we switch to analysing convective precipitation to better investigate the possible influence of the QBO on tropical deep convection.
+
+Figures \ref{fig:enso_regress}a,b show results from a simple linear regression analysis of the monthly-averaged time-series of GC3 N216-pi total precipitation in which a single QBO index is employed. Figure \ref{fig:enso_regress}a includes all available years while Figure \ref{fig:enso_regress}b includes only neutral ENSO years. The results are very similar to the annual-mean composite differences in total precipitation (\ref{fig:qboclim}), with increased convective precipitation over the equatorial Pacific when the zonal winds at 70 hPa are positive. 
+
+Figures  \ref{fig:enso_regress}c,d show the ENSO and QBO signals when the Nino3.4 index is included as well as the QBO index.  The ENSO response is clearly evident, highly statistically significant and compares well with the well-known patterns obtained from observations. The amplitude of the ENSO signal is also much larger than the QBO signal. Nevertheless, the QBO signal remains intact and all of the main features are still significant (Fig.  \ref{fig:enso_regress}c). For example, the positive regression coefficients that suggest a northward shift of the Atlantic ITCZ and the wetter Caribbean Sea and western Indian Ocean in the simple regression model are still found in the multivariate regression analysis.  
+
+ 
+These results suggest that the modelled QBO signal in total precipitation does not arise due to a simple aliasing of the signal with ENSO. However, the multi-linear regression technique assumes that the QBO and ENSO indices are orthogonal and that their responses add together linearly. The similarity of the two responses indicate that this is clearly not the case and there is substantial interaction between the two phenomena. Nevertheless, the QBO signal remains even when only neutral-ENSO years are included in the analysis, suggesting that the QBO has a real influence on the surface precipitation.
+
+\subsection{Interaction of the QBO with ENSO and IOD}
+\label{sq:iod_enso}
+
+\begin{figure}[t!]
+\centering
+ \noindent
+ \includegraphics[width=\linewidth]{figures/scatter_qbom.png}
+\caption[Scatter of relationship between QBO descent and amplitude and ENSO phase.]{Box plots of QBO (a) amplitude [m s$^{-1}$]  and (b) descent rate [km month$^{-1}$]  separated by dataset (ERA5 and GC3 N216-pi) and ENSO phase. NN stands for Neutral ENSO. In (b) descent rates are shown for both descending easterly (ea) and westerly (we) phases following \cite{schenzinger2017}. }
+\label{fig:enso_on_qbo}
+\end{figure}
+
+To further explore the interaction of the QBO and ENSO, we first investigate whether aspects of the QBO are influenced by ENSO events. This relationship could be a real possibility since the intrinsic mechanism of the QBO involves tropical waves that are generated within the troposphere. \cite{schirber2015} found in a GCM that under El Niño conditions tropospheric wave activity increases and accelerates the downward propagation speed of the QBO westerly phase. However, the analysis by \cite{serva2020} shows that only models with high resolution can reproduce the observed ENSO effects on the QBO amplitude while several models show no impact of ENSO on the QBO.
+
+For that reason, we analyse several characteristics of the QBO and their dependence on ENSO phase, namely the descent rate and the amplitude of the QBO (see the 'Methods and Data' section for details of how the QBO amplitude is defined). The results are summarised in Figure \ref{fig:enso_on_qbo} for the ERA5 reanalysis dataset (35 years; 1979 – 2014) and for the GC3 N216-pi simulation (500 years).  
+In ERA5, the well-known faster descent rates during the westerly phase than in the easterly phase is clearly evident and agrees well with studies of longer datasets such as the Berlin radiosonde data \citep{schenzinger2017}. Also, the ERA5 QBO descent rates and the amplitude both depend on the phase of ENSO. A higher amplitude and slower descent rates are observed during La Niña phases and weaker amplitudes and faster descent rates during El Niño. 
+
+In the model, the descent rates are also faster for the westerly than the easterly QBO phase, as observed, but the relationship between the QBO characteristics and ENSO is less clear. Neither the amplitudes nor descent rates of the QBO are significantly different between El Niño (EN) and La Niña (LN) phases. Interestingly, the only significant difference in the model is that descending westerlies are slower in Neutral ENSO months compared to EN or LN conditions, perhaps suggesting that tropical wave activity is increased in both ENSO phases compared with neutral years.  The model results therefore suggest that there is little influence of ENSO  on the descent rate and amplitude of the QBO in the GC3 N216-pi simulation. This finding of a null influence of ENSO on the QBO  agrees well with the results of \cite{serva2020} that examined these relationships in an older version of the HadGEM model. In summary, there is no evidence to suggest an influence of ENSO on the QBO in the model. 
+
+\begin{table}[t!]
+\caption{ENSO and IOD events frequency (month month$^{-1}$). For positive and negative events, for each mean value the error shown is the standard deviation of the probability density distribution (PDF) found by boostrapping with replacement. Results in \textbf{bold}  indicate that the event frequency PDF for QBOW is significantly different to QBOE to the 95\% confidence level according to the KS test.  }\label{t1}
+\begin{center}
+\begin{tabular}{cccccc}
+\hline\hline
+Dataset & QBO phase & El Niño & La Niña & IOD+ & IOD-  \\
+\hline
+GC3 N216-pi & W 	& \textbf{0.24$\pm$0.09} & \textbf{0.19$\pm$0.05} & \textbf{0.17$\pm$0.03}	 & \textbf{0.11$\pm$0.02} \\
+GC3 N216-pi & E  & \textbf{0.21$\pm$0.07} & \textbf{0.26$\pm$0.07} & \textbf{0.12$\pm$0.03} 	 & \textbf{0.15$\pm$0.03}  \\
+ERA5/HadSST & W & 0.28$\pm$0.01 & 0.27$\pm$0.02 & 0.17$\pm$0.01  &0.13$\pm$0.01 \\
+ERA5/HadSST & E  & 0.17$\pm$0.02 & 0.27$\pm$0.03 &0.12$\pm$0.01 & 0.19$\pm$0.03 \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+The reversed possibility, that the QBO may somehow influence ENSO events is now examined. A higher frequency of EN events during QBOW and of LN during QBOE has previously been noted \citep{taguchi2010,liess2012} although the short observational record means that there is statistical uncertainty.  In Table \ref{t1} we document the frequency of ENSO events in each QBO phase from the ERA5 reanalysis dataset and from the GC3 N216-pi simulation. Probability density functions (PDFs) were constructed for the model data using 36-yr samples with replacement and a Kolmogorov–Smirnov (KS) test was used to evaluate if the PDFs of an event frequency (e.g. El Niño) were distinguishable for each phase of the QBO. 
+
+The results show significant differences for each ENSO phase in GC3 N216-pi (and this is also the case for the GC3 N96-pi and UKESM-pi simulations, not shown). El Niño events are more frequent under QBOW conditions than under QBOE in both observations and model datasets.  La Niña events are equally frequent in both QBO phases in the HadSST dataset but in GC3 N216-pi they are more frequent under QBOE than under QBOW. 
+
+\begin{figure}[t!]
+\centering
+ \noindent
+ \includegraphics[width=\linewidth]{figures/iod_barplot.png}
+\caption[IOD and ENSO frequency changes on QBO phase.]{ Monthly-mean (a-b) ENSO and (c-d) IOD-prc indices separated per QBO phase in (a, c) observations/reanalysis and (b, d) GC3 N216-pi. The error bars show the standard deviation of each index for each month and significant differences between QBO W and E months are highlighted with a $*$ at the bottom of each panel.  }
+\label{fig:iod_barplot}
+\end{figure}
+
+Figure \ref{fig:iod_barplot}a,b shows the ENSO3.4 index amplitude and interannual standard deviation as a function of each month from the HadSST dataset and the GC3 N216-pi simulation, separated for each phase of the QBO. From this we can examine, for example, whether any QBOW minus QBOE differences in ENSO characteristics arise primarily from one QBO phase or the other (i.e. a non-linear response) or whether both phases contribute equally to the response difference.  There are significant QBO differences in EN3.4 SST in both the HadSST and GC3 N216-pi datasets. In particular, the mean ENSO indices are very frequently positive in QBOW and negative in QBOE months from September until January. In the model, the differences are largest from Feb-to-May (in good agreement with the results shown in Figure \ref{fig:qbodjf}).
+
+  \begin{figure}[t!]
+\centering
+ %\noindent
+ \includegraphics[width=\linewidth]{figures/ensoqboprwinter.png}
+\caption[Precipitation response to QBO W-E for GC3 N216-pi under different QBO phases.]{  Composite QBO W-E precipitation differences of total precipitation in GC3 N216-pi in the peak ENSO season (NDJFM) for (a) all the events and (b) Neutral ENSO conditions only, (c) El Niño and (d) La Niña. The sample size of each composite is noted in the top left corner of each panel. Statistically significant differences to the 99\% confidence level are shown through the hatching. }
+\label{fig:qboenso}
+\end{figure}
+
+Figure \ref{fig:iod_barplot} also suggests substantial non-linearities in the QBO-ENSO interactions, since the amplitude of the EN3.4 anomaly in each month under QBO E/W conditions is seldom equal and opposite. This non-linearity is also evident in Figure \ref{fig:qboenso} where the QBO composite differences in total precipitation during the peak ENSO season (November through to March) are shown using all years, only Neutral ENSO years and only EN or LN years. While the broad nature of the QBO signal remains similar, the details differ depending on the phase of ENSO (\ref{fig:qboenso}c,d). For example, the Atlantic ITCZ response is most prominent in EN and Neutral years (Figure \ref{fig:qboenso}c) whereas the off-equatorial Pacific response is only found under Neutral years. %different under EN and LN with a broad band of wetter anomalies in the northern equatorial Pacific under LN. %(but the signals in this region are barely statistically significant).  
+
+Positive differences in the western Indian Ocean and in the northern tropical Pacific are much stronger during LN (Fig. \ref{fig:qboenso}d) than in other ENSO phases. These results can be interpreted as EN and LN teleconnections being slightly different for each QBO phase. For example, in South America, more specifically in the South Atlantic Convergence Zone region \citep{jorgetti2014}, wetter conditions during QBOW compared to QBOE are found in all years and for both LN and EN conditions which indicates that in this model simulation, ENSO teleconnections to South America are also dependent on the QBO phase and the response in all years is the combination of ENSO phases.% Similarly, the La Niña precipitation response in the Western Pacific is significantly dependent on the QBO phase.
+
+Returning to Figure \ref{fig:iod_barplot}, during Dec-March in HadSST and Jan-May in GC3 N216-pi the QBO signal comes primarily from the QBOE phase, since the EN3.4 amplitudes are near zero under QBOW in these months. These results are consistent with the analysis of ENSO frequency in Table \ref{t1}, which shows more frequent La Niña events under QBOE and El Niño events under QBOW. These results also suggest, therefore, that a stronger amplitude La Niña event in DJF may develop if there is a QBOE phase present in the lower stratosphere.    
+
+In the previous sections the precipitation and SST analyses also showed suggestive evidence  of a relationship between the QBO and the IOD, in both the observations and the  model. A link between the QBO and the IOD index and event frequency have been analysed in the same way as for the ENSO index and a significant relationship is confirmed (Table \ref{t1} and Figs. \ref{fig:iod_barplot}c-d). The model results indicate a more frequently positive IOD index under QBOW and a negative index for QBOE, and these differences are statistically  significant in September and October. The GC3 N96-pi and UKESM-pi results are very similar (not shown) and the differences are also significant. The IOD event frequency is also markedly different depending on the QBO phase, with positive events more frequently observed in the westerly phase of the QBO and negative events found more frequently under QBOE, both for ERA5 and the model simulations (Table \ref{t1}).
+ 
+This section demonstrates statistically robust links between the IOD and ENSO, and the QBO. ENSO and the IOD are intertwined with pan-tropical teleconnections through zonal circulations \citep{cai2019pantropical}, monsoons and the ITCZ. For that reason, the following section explores more closely the links between the QBO and features of the tropical circulation. %
 
 
-%\subsection{Seasonal variability}
-%
-%\begin{figure}[t!]
-%\centering
-% %\noindent
-% \includegraphics[width=\linewidth]{figures/piprdjfqbowqboe.png}
-%\caption[DJF mean precipitation composite difference QBO W-E ]{ As in Figure \ref{fig:qboclim} but for DJF. }
-%\label{fig:qbodjf}
-%\end{figure}
-%
-%The composite difference in annual mean precipitation between QBO W and E phases (Figure \ref{fig:qboclim}) shows that in observations (GPCP) the tropical Pacific, equatorial Atlantic and the Indian Oceans are the regions of possibly largest influence of the QBO, which agrees with previous studies \citep{liess2012,gray2018}. The three GCM simulations agree well with the pattern in GPCP, as all three simulations show a positive difference (QBO W-E) in the Central Pacific and the Indian Ocean, albeit the differences are smaller in the simulations. However, the patterns and magnitudes of the impacts become larger when analysed over specific seasons. %, and in fact, the pattern exhibits strong seasonal variability. 
-%
-%\begin{figure}[t!]
-%\centering
-% %\noindent
-% \includegraphics[width=\linewidth]{figures/piprmamqbowqboe.png}
-%\caption[MAM mean precipitation composite difference QBO W-E ]{ As in Figure \ref{fig:qboclim} but for MAM. }
-%\label{fig:qbomam}
-%\end{figure}
-%
-%For example, during DJF (Figure \ref{fig:qbodjf}), the pattern over the Central Pacific is stronger in GPCP and the simulations relative to the annual mean difference. The positive difference in the western Indian Ocean and the South Pacific Convergence Zone is also observed in this season and is significant in all the datasets. Results in GC3 N216-pi suggest a weakening of the Atlantic ITCZ as in GPCP, whereas UKESM-pi and GC3 N96-pi show little and not significant responses in that region.
-%The response in the East Pacific during DJF matches the results of \cite{serva2021}, and suggests a southward shift of the ITCZ.
-%%had been previously 
-%
-%
-%Similarly, during MAM (Figure \ref{fig:qbomam}), the strongest response arises in the East Pacific and Atlantic ITCZ regions. In GC3 N216-pi the East Pacific ITCZ is shifted southwards whereas in the Atlantic the ITCZ is displaced northward. UKESM-pi agrees with the northward shift of the Atlantic ITCZ and suggests a wetter northern South America during QBO W than E. In GC3 N96-pi, the differences are smaller and the most noteworthy pattern is found in the Western Pacific. 
-%%Although the impact of the QBO over the ITCZ position has been previously described \citep{gray2018,serva2021}, less is known about the specific mechanisms leading to the change in position and strength of the ITCZ. 
-%
-%
-%\begin{figure}[t!]
-%\centering
-% %\noindent
-% \includegraphics[width=\linewidth]{figures/piprsonqbowqboe.png}
-%\caption[SON mean precipitation composite difference QBO W-E ]{ As in Figure \ref{fig:qboclim} but for SON. }
-%\label{fig:qboson}
-%\end{figure}
-%
-%
-%In boreal fall (Figure \ref{fig:qboson}), all datasets show relatively large and significant differences in the Indian Ocean, characterized by a dipole of wet anomalies to the west and dry anomalies to the east. These dipole anomalies may be an indication that the QBO influences the Indian Ocean Dipole (IOD), characterized by a zonal gradient of SSTs in the Indian Ocean. In addition, results for GC3 N96-pi and GC3 N216-pi suggest a similar response in the Central and Eastern Pacific as in the other seasons, characterized by a wet anomaly at about 10$^\circ$N.
-%
-%Finally, the JJA seasonal mean pattern (Figure \ref{fig:qbojja}) shows a weak response in GPCP whereas the simulations show a number of significant differences. Specifically, the three experiments suggest a wet anomaly in the Caribbean Sea and the Indian Ocean; the former, likely related to the northward shift of the Atlantic ITCZ observed in the same season particularly in UKESM-pi. West of the Caribbean Sea, in the easternmost Pacific Ocean a seemingly southward shift of the ITCZ is observed with a negative precipitation response on the western coast of Mexico.
-%A wetter Indian Ocean is observed in all the simulations and in UKESM-pi the wet anomaly extends over land into the Indian monsoon region.
-%
-%\begin{figure}[t!]
-%\centering
-% %\noindent
-% \includegraphics[width=\linewidth]{figures/piprjjaqbowqboe.png}
-%\caption[JJA mean precipitation composite difference QBO W-E ]{ As in Figure \ref{fig:qboclim} but for JJA. }
-%\label{fig:qbojja}
-%\end{figure}
-%
-%
-% Note that in the annual and seasonal mean patterns there are little or no differences over land, except in JJA (Fig. \ref{fig:qbojja}) as a positive and significant response over land is observed in southern Mexico and Central America in all three simulations. Another positive and significant response is observed over the Indian monsoon region in JJA, although this signal is only present in UKESM-pi (Fig. \ref{fig:qbojja}d). 
-%
-%\begin{figure}[t!]
-%\centering
-% %\noindent
-% \includegraphics[width=\linewidth]{figures/pisstclimqbowqboe.png}
-%\caption[Annual mean SST difference QBO W-E under different QBO phases.]{ As in Figure \ref{fig:qboclim} but for SSTs.}
-%\label{fig:sstclim}
-%\end{figure}
-%
-%The observed precipitation responses in the Central Pacific resemble an El Niño pattern especially during DJF (Fig. \ref{fig:qbodjf}) and in some simulations and seasons the El Niño pattern is also apparent. In observations, this pattern is likely a result of the increased frequency of El Niño events for QBOW than in QBOE \citep{liess2012}. 
-%For this reason, similar differences are obtained for SSTs (Figure \ref{fig:sstclim}) which show that  QBO W minus E SST differences appear as an El Niño pattern characterized by increased SSTs over the Central and Eastern Pacific, extending to the equatorial Atlantic. 
-%Although these differences are much weaker than the signal for a typical El Niño event, these differences are significant in all the simulations.% as well as in the HadSST dataset. 
-%
-%\begin{figure}[t!]
-%\centering
-% %\noindent
-% \includegraphics[width=\linewidth]{figures/pisstdjfqbowqboe.png}
-%\caption[DJF mean SST difference QBO W-E under different QBO phases.]{ As in Figure \ref{fig:sstclim} but for DJF.}
-%\label{fig:djfclim}
-%\end{figure}
-%
-%The specific SST pattern for DJF confirms that the SST pattern seen in the annual mean difference is stronger during the boreal winter season, particularly for GC3 N96-pi and for the HadSST dataset. 
-%The observed SST anomaly pattern ressembles an East Pacific (or 'standard') El Niño, whereas the modelled anomalies look more like central Pacific El Niño. These SST differences probably explain the differences between the observed and modelled rainfall anomalies (as well as the observed SST pattern being stronger). The significant responses in GC3 N96-pi over the North Atlantic and in the Indian Ocean also agree very well with HadSST. 
-%In the case of GC3 N216-pi the strongest SST anomalies over the Central Pacific appear during MAM (not shown) whereas for UKESM-pi the pattern appears during La Niña events with litte-to-no response during other phases of ENSO (not shown).  
-%
-%In summary, this section presented the seasonal mean response in precipitation to the phases of the QBO. The main responses in the models were the ITCZ shifts over the Pacific and Atlantic Oceans, but robust signals also suggest wetter conditions in the Indian Ocean and the Caribbean Sea during QBOW compared to QBOE. These results suggest a strong variation of the response with the seasons and with ENSO phase and little overall effect over land regions.
-%For this reason, the following two sections more closely examine the effect of the QBO over the ITCZs in the East Pacific and Atlantic ITCZs, the Indian Ocean Dipole (IOD) and land-averaged precipitation over monsoon regions. 
 
-\subsection{ITCZ and monsoons}
+\subsection{ITCZ, monsoons and the tropical circulation}\label{sq:circ}
 
 \begin{figure}[t!]
 \centering
@@ -316,16 +315,13 @@ These results also suggest that there seems to be some aliasing or coupling with
 \label{fig:itczqbowcp}
 \end{figure}
 
-Climate model biases in the representation of the migration and dynamics of the ITCZ may modify any physical effects of the QBO over convection. In GC3 N216-pi, biases in the position and strength of the Pacific and Atlantic ITCZs are smaller than the lower resolution versions of the UM model (see Chapter \ref{ch:4-ams}). 
-However, these biases (Fig. \ref{fig:itczqbowcp}a-b) are still noteworthy and are mainly characterized by a southward shift of the simulated Atlantic ITCZ in DJF and MAM and a wider extent of the Central Pacific ITCZ compared to ERA5.
-
+This section investigates how the ITCZ, monsoons and the Walker circulation are influenced by the QBO in the model compared to the observations. %The last section found that there are significant precipitation signals that are independent from ENSO, which may be explained by tropical dynamical features.
+Climate model biases in the representation of the migration and dynamics of the ITCZ, or in the mean-state of the Walker circulation, may modify any physical effects of the QBO over convection. 
+%In GC3 N216-pi, biases in the position and strength of the Pacific and Atlantic ITCZs are smaller than in the lower resolution configurations of the UM model \citep{garciafranco2020} and this configuration has been top ranked in several assessments of tropical precipitation amongst CMIP6 models \citep{abdelmoaty2021biases,richter2020overview}.
+For example, ITCZ biases in position or strength (Fig. \ref{fig:itczqbowcp}a-b) are  noteworthy in the model, and are mainly characterized by a southward shift of the simulated Atlantic ITCZ in DJF and MAM and a wider extent of the Central Pacific ITCZ compared to ERA5.
 
 The monthly-mean QBO W-E zonal-mean convective precipitation differences in the Pacific and Atlantic ITCZ regions (Figure \ref{fig:itczqbowcp}) show that the ITCZ impacts are seasonally dependent.
 While there are no clear differences in the Atlantic sector for ERA5 in any month, in GC3 N216-pi there is a significant northward shift of the ITCZ from April to June, which is likely associated with the warm SST anomalies found in this season in the northern tropical Atlantic (Fig. \ref{fig:sstclim}). 
-
- The differences in the Pacific sector confirm previous model and observational results \citep{gray2018,serva2021} that the Pacific ITCZ becomes stronger during QBOW compared to QBOE (Fig. \ref{fig:itczqbowcp}d, f) in both ERA5 and the simulations. In ERA5, the strongest differences are found during DJF, characterized by increased precipitation over the core ITCZ region. In GC3 N216-pi, a southward shift of the ITCZ is observed from February to July, maximized in the MAM season, observed as a dipole of positive anomalies to the south and negative anomalies to the north of the equator. Very similar results for the Atlantic and Pacific sectors were observed for the other two simulations (not shown).
-
-\added{Note that the biases in the model are larger than the climatological values in some instances. This reduces confidence that the model response is to be expected in observations. However, impact to the strength of the East Pacific ITCZ is strikingly similar in observations (Fig. \ref{fig:qboclim}). Moreover, there is little modelling evidence of a QBO effect over the ITCZ in a model to begin with so that even though biases may play a big role, Figure \ref{fig:itczqbowcp} shows a robust association between the QBO and the ITCZ in a long GCM integration.}
 
 \begin{figure}[t!]
 \centering
@@ -335,279 +331,38 @@ While there are no clear differences in the Atlantic sector for ERA5 in any mont
 \label{fig:mons_map}
 \end{figure}
 
-In spite of existing observational evidence \citep{collimore2003,liess2012,gray2018} that suggest a link between the QBO and convective activity in monsoon regions over land, the results in the previous section (Fig. \ref{fig:qboclim}) show little-to-no effect of the QBO on precipitation over land in these simulations. 
-The precipitation response over land is examined more closely by analysing regions that fit the concept of the global monsoon. For this purpose, a monsoon region is defined where over 55\% of the total annual rainfall is observed or simulated in the respective summer season and the summer-winter rainfall rate difference is higher than  2 mm day$^{-1}$ \citep{wang2008,wang2017,wang2021monsoons}. 
+ The differences in the Pacific sector confirm previous model and observational results \citep{gray2018,serva2021} that the Pacific ITCZ becomes stronger during QBOW compared to QBOE (Fig. \ref{fig:itczqbowcp}d, f). In observations, the strongest differences are found during DJF, characterized by increased precipitation over the core ITCZ regions. In GC3 N216-pi, a stronger ITCZ is observed slightly south of the climatological position from February to July, maximized in the MAM season. Very similar results for the Atlantic and Pacific sectors were observed for the other two simulations (not shown). The result also holds for ENSO Neutral periods (not shown) which rules out the possibility that the Atlantic ITCZ results are due to ENSO teleconnections to the tropical north Atlantic. 
+
+
+In spite of existing observational evidence \citep{collimore2003,liess2012,gray2018} that suggests a link between the QBO and monsoon regions, the results in the previous sections (Fig. \ref{fig:qboclim}) show little-to-no effect of the QBO on precipitation over land in the simulations. 
+The precipitation response over land is examined more closely by analysing regions that fit the concept of the global monsoon. For this purpose, a monsoon region is defined as a region in which over 55\% of the total annual rainfall is observed or simulated in the respective summer season and the summer-winter rainfall rate difference is higher than  2 mm day$^{-1}$ \citep{wang2008,wang2017,wang2021monsoons}. 
 
 After defining these regions, the QBO W-E differences are computed for JJAS and DJFM for Northern and Southern Hemisphere monsoons, respectively. 
-Figure \ref{fig:mons_map} shows that there is no coherent response to the QBO phase in  GPCC in any monsoon region. However, in GC3 N216-pi there are significant differences for Southern Hemisphere monsoons. In the South American monsoon region, the QBO W-E differences indicate a significantly wetter southeastern Brazil, where the South Atlantic Convergence Zone is located \citep{zilli2019}. Similarly, a drier Australian monsoon and wetter conditions for East Africa are observed during QBOW compared to QBOE.
+Figure \ref{fig:mons_map} shows that there is no coherent response to the QBO phase in  GPCC in any monsoon region. However, in GC3 N216-pi there are significant differences for Southern Hemisphere monsoons. In the South American monsoon region, the QBO W-E differences indicate a significantly wetter region in South America, where the South Atlantic Convergence Zone is located \citep{carvalho2004,jorgetti2014}. Similarly, a drier Australian monsoon and wetter conditions for East Africa are observed during QBOW compared to QBOE.
 
-For Northern Hemisphere monsoons there are no robust or significant differences (Fig. \ref{fig:mons_map}b), however, if only Neutral ENSO months are considered, all the three simulations suggest a wetter boreal summer for Central America (not shown) in QBOW compared to QBOE. 
-The different responses observed for the three simulations suggest that the representation of the dynamical features of each monsoon by each model configuration is important for any response to the QBO. Furthermore, the relatively smaller differences seen for land compared to ocean features indicates that SST feedbacks are important for the QBO response in the model, and potentially less important effects are simulated by the model in land monsoon regions.
-
-\added{This section shows that impacts to the strength and location of the ITCZ are observed in the simulations. In particular, observational and model results suggest a stronger Pacific ITCZ for QBOW compared to QBOE, which could be due to an aliasing effect or an indication of an ENSO-QBO relationship. Shifts to the Atlantic ITCZ in the model are not seen in observations, and are likely influenced by model biases and possibly ENSO teleconnections.
-The ENSO-PNA teleconnection to the tropical north Atlantic in MAM \citep{hastenrath2006,andreoli2012seasonal} may be causally linked as well to the Atlantic ITCZ shifts seen in this section, thereby making it difficult to separate the QBO from ENSO effects in this figure. }
-
-\added{Biases in the strength (Pacific) and position (Atlantic) of the ITCZ reduces confidence that the simulated response is a 'true QBO' effect. Other models with other convective parametrisations and ITCZ biases may produce different impacts. However, the impact over the Pacific ITCZ is very similar to the observed relationship and has been diagnosed in other models \citep{serva2020}. }
-
-\added{Model results also suggest a modest yet significant influence over Southern Hemisphere monsoons and a weak but robust impact over Central American precipitation and no robust impacts for other Northern Hemisphere monsoons. The traditional arguments for a QBO modulation of convection do not explain why some monsoons would be more affected than others, nor why land convection is less related to the QBO phase than convective features over the ocean.  }
-
-%\subsection{Impacts over the ITCZ and the monsoons}
-%
-%\begin{figure}[t!]
-%\centering
-% %\noindent
-% \includegraphics[width=\linewidth]{figures/climcmip_bconv_pratl.png}
-%\caption[ITCZ seasonal cycle in the Atlantic Sector.]{(a) Monthly and zonal-mean convective precipitation in ERA5 in the Atlantic sector [60$^\circ$W-20$^\circ$W. (b-d) Biases in GC3 N96-pi, GC3 N216-pi and UKESM-pi. }
-%\label{fig:itczclimatl}
-%\end{figure}
-%
-%This section examines more closely changes to the ITCZ position and strength associated with the phase of the QBO, specifically over the Central Pacific and Atlantic sectors. 
-%Note that the biases in the representation of the ITCZ in these models (characterized in Chapter \ref{ch:4-ams}) are considerable and could mean that the simulated interaction between the QBO and the ITCZ are different in the model than in the real-world. 
-%For example, Figure \ref{fig:itczclimatl} shows the seasonal march of convective precipitation in the Atlantic sector in ERA5 and the biases in the three simulations with respect to ERA5. The Atlantic ITCZ in these simulations is not well represented, as shown in previous sections, as the models show a southward bias particularly in DJF and overestimates the maximum precipitation rate at the ITCZ location. In the Central Pacific sector (not shown), the models do not show a bias in the position of the ITCZ but rather a bias in the magnitude of convective precipitation, as all the models overestimate the amount of convective precipitation throughout all the seasons. 
-% 
-%
-%
-%\begin{figure}[t!]
-%\centering
-% %\noindent
-% \includegraphics[width=\linewidth]{figures/anomcmip_conv_pratlqbow.png}
-%\caption[Atlantic ITCZ convective precipitation differences on QBO phase.]{ Zonal mean QBO W-E differences in convective precipitation rates in the Atlantic sector per month, shown as percent (\%) where the difference is weighted by the climatological value at each latitude  and month. The line-contour (red) depict differences that are statistically significant to the 95\% level according to a bootstrapping test. }
-%\label{fig:itczqbowatl}
-%\end{figure}
-%
-%
-%\begin{figure}[t!]
-%\centering
-% %\noindent
-% \includegraphics[width=\linewidth]{figures/anomcmip_conv_prcpqbow.png}
-%\caption[Central Pacific ITCZ convective precipitation differences on QBO phase.]{As in Figure \ref{fig:itczqbowatl} but for the Central Pacific sector [180$^\circ$W-140$^\circ$W.}
-%\label{fig:itczqbowcp}
-%\end{figure}
-%
-%%Any effect that the QBO may have on the Atlantic and Pacific ITCZs will be affected by these biases. 
-%Figures \ref{fig:itczqbowatl} and \ref{fig:itczqbowcp} show the time-latitude difference in convective precipitation to the phase of the QBO in the Atlantic and Pacific sectors, respectively. 
-%The northward shift of the ITCZ during QBOW in the Atlantic sector highlighted in previous sections is confirmed in Figure \ref{fig:itczqbowatl}. In all the simulations, but specially in UKESM-pi, there are two significant responses observed from March to July, one wet anomaly north of 5$^\circ$N and a corresponding dry anomaly south of 5$^\circ$S. The southern negative difference is weaker (-20\%) than the positive response north (+40\%). 
-%The response in ERA5 is relatively less robust, with few significant patterns but this dataset is very short (38 yrs) compared to the long simulations. % the positive response in August-September 
-%
-%The southward shift of the ITCZ in the Central Pacific, reported in previous observational studies \citep{gray2018}, is confirmed by Figure \ref{fig:itczqbowcp} which shows that in ERA5 a southward shift of the Central Pacific ITCZ is observed in DJF. 
-%The simulations agree well with this southward shift, particularly GC3 N96-pi during DJF. However, the southward shift response of the Central Pacific ITCZ is also observed in other seasons, for example, from May to September in UKESM-pi and GC3 N96-pi, whereas in GC3 N216-pi the southward shift response is seen from February to July.
-%
-%
-%These results suggest that the response to the phase of the QBO may depend on the climatological representation of the ITCZ position and strength. Nevertheless, these three simulations which exhibit slightly different representations of the ITCZ as well as of the QBO, agree on the southward shift of the Pacific ITCZ and the northward shift of the Atlantic ITCZ as the main difference between the phases of the QBO. 
-%
-%\begin{figure}[t!]
-%\centering
-% %\noindent
-% \includegraphics[width=\linewidth]{figures/monsoon_cmip_qbownn.png}
-%\caption[Global monsoon impacts of the QBO.]{ Convective precipitation differences in monsoon regions between QBO W-E  phases during Neutral ENSO months for a) ERA5, b) GC3 N96-pi, c) UKESM-pi and d) GC3 N216-pi. For monsoon regions in the Northern hemisphere, differences are shown for the JJAS period, whereas for Southern Hemisphere monsoons, results are shown for DJFM.  Red dots indicate differences that are statistically significant to the 95\% level according to the bootstrapping test.}
-%\label{fig:mons_map}
-%\end{figure}
-%
-%In spite of the multiple lines of evidence that suggest a modulation of the QBO over convective activity in land monsoon regions, the results in the previous section show little-to-no effect of the QBO on precipitation over land in these simulations. 
-%In order to investigate the precipitation response over land more closely, the global monsoon regions are defined within each simulation.  A monsoon region is defined as where over 55\% of the total annual rainfall is observed or simulated in the respective summer season and the summer-winter rainfall rate difference is higher than  2 mm day$^{-1}$\citep{wang2008,wang2017,wang2021monsoons}. 
-%
-%The local summer convective precipitation differences between QBO phases in monsoon regions (Figure \ref{fig:mons_map}) shows that there is no region where a clear, robust and region-wide effect is observed, even when the influence of ENSO is removed by considering months where ENSO was in a neutral state. Monsoon regions like the Congo Basin, the East Asian and Australian monsoons show both positive and negative responses within the domain of their regions, suggesting a rather heterogenous response, and perhaps suggest that the QBO effect over a monsoon region is also modulated by the dynamics of the regional monsoon. 
-%
-%%The regions where the response is significant is also sparse within each monsoon region. 
-%
-%\begin{figure}[b!]
-%\centering
-% %\noindent
-% \includegraphics[width=\linewidth]{figures/mons_init_conv_prcompari.png}
-%\caption[Impacts of the QBO in the seasonal cycle of monsoon regions.]{QBO W-E difference in convective precipitation in monsoon regions separated per calendar month. Dots overlaying lines indicate differences that are statistically significant to the 95\% level according to the bootstrapping test.}
-%\label{fig:mons_convpr}
-%\end{figure}
-%
-%However, some features appear to be robust, as some differences are significant in all three simulations. For example, a positive response is observed in the MSD and northern Indian monsoon regions and a dry anomaly is seen over the Australian monsoon, although the latter is only widely significant in GC3 N216-pi. 
-%In the South American monsoon region, a dipole of wet and dry anomalies are observed in UKESM-pi and GC3 N216-pi, but these two simulations show an opposite pattern. 
-%The impacts over the southeastern coast of Brazil in all the three simulations may suggest an effect over the South Atlantic Convergence Zone, which may further modify the dynamics of the monsoon. 
-%The implication of these results is that feedbacks with the dynamics of the monsoons may be more important than the effects of the QBO over the mass flux and convective activity at the grid-point scale. 
-%
-%
-%
-%To understand the temporal variability of these effects, Figure \ref{fig:mons_convpr} shows the difference in area-averaged convective precipitation between QBO phases for monsoon regions for each calendar month. There is no clear signal of the QBO over any monsoon region for a large part of the year. For example, all three simulations agree in a negative QBO W-E difference in the Australian monsoon region for November and December, and this response is significant; however, the response in Jan-Mar is weak and not significant. This means that the effect of the QBO over the Australian monsoon region is found only in the early local summer season.
-%
-% Similarly, over the Mesoamerican MSD region, all three simulations agree on a wet anomaly during the local summer, but this response is constrained to the month of July (the drier period of the rainy season) and is only significant in two out of the three simulations. 
-% In the Indian Monsoon region, UKESM-pi shows a significant wet anomaly, in agreement with the seasonal mean results found in the previous section, however, the other models show a weak and not significant difference. 
-%Significant relationships are found for other monsoon regions in specific months but no consistent relationship is found in any monsoon region across all three models, which agrees with the lack of robust seasonal-mean patterns presented in the previous section. 
-%
-
-%The three simulations 
-
-\subsection{ENSO and the IOD}
+For Northern Hemisphere monsoons there are no robust or significant differences (Fig. \ref{fig:mons_map}b). However, when only Neutral ENSO months are considered, all three simulations suggest a wetter Central American monsoon (not shown) in QBOW compared to QBOE. 
+The different responses observed for the three simulations suggest that the representation of the dynamical features of each monsoon by each model configuration is important for any response to the QBO. Furthermore, the relatively smaller signals seen over land compared to over the oceans suggests that SST feedbacks are important for the QBO response in the model, so that reduced impacts are seen in regions of land convection. 
+%These Atlantic SST-ITCZ changes could also explain the response observed South America in Fig. \ref{fig:qbodjf}c-d \citep{yoon2010atlantic}.
+ % in agreement with the results of the previous section.
 
 \begin{figure}[t!]
 \centering
  \noindent
- \includegraphics[width=\linewidth]{figures/iod_barplot.png}
-\caption[IOD and ENSO frequency changes on QBO phase.]{ Monthly-mean (a, c) IOD-prc and (b, d) EN3.4 index separated per QBO phase in (a-b) GC3 N216-pi, and for the (c) ERA5 and (d) HadSST datasets. The error bars show the standard deviation of each index for each month.  }
-\label{fig:iod_barplot}
+ \includegraphics[width=\linewidth]{figures/cmip_era5_streamdjf.png}
+\caption[Walker circulation anomalies in DJF]{(a, d) Climatological mean-state of the Walker circulation, depicted through the zonal streamfunction ($\psi$) in shading, the zonal wind (contours), and vertical velocity ($\omega$ [Pa s$^{-1}$], vectors) during the DJF season in a) ERA5 and (b) N216-pi. (b, c, e, f) show W-E composite differences, during DJF, for the same variables only that hatching represents statistical significance to the 95\% confidence level for differences in the streamfunction, and only statistically significant differences in the zonal wind and $\omega$ are shown. (g-h) are as in (d-f) but considering Neutral ENSO periods only. Example vector sizes for $\omega$ are given in the top right corners of a and c.  }
+\label{fig:walker_djfm}
 \end{figure}
 
-A higher frequency of El Niño events during QBOW and of La Niña during QBOE has been observed since 1979 \citep{taguchi2010,liess2012}, however, the observational record is so short that these relationships may be explained by the statistical uncertainty. 
-The precipitation and SST responses found over the equatorial Pacific in the three pre-industrial control simulations also ressemble ENSO patterns, which may suggest an uneven frequency of ENSO events per QBO phase in these long integrations. 
-Similarly, a dipole response in the Indian Ocean found in boreal fall closely ressembles the IOD. For these reasons, we examine if the frequency of ENSO and IOD events is in any way related to the phase of the QBO. Note that ENSO and IOD indices and events are defined in section \ref{sq:indices}. %The Indian Ocean Dipole (IOD) is a coupled ocean-atmosphere feature of the tropical Indian Ocean characterized by a zonal gradient of SSTs that peaks in boreal fall \citep{saji1999iod,wang2014iod,mckenna2020iod}. 
- 
-
-
-The result of this analysis shows that EN3.4 SST and convective IOD indices are significantly different for each phase of the QBO in HadSST/ERA5 and GC3 N216-pi (Figure \ref{fig:iod_barplot}). 
- In particular, the mean IOD and ENSO indices are very frequently positive in QBOW and negative in QBOE months from September until January. In the model, the differences for the IOD index are largest in SOND and for the ENSO index from Feb-to-May. In observations and reanalysis, the IOD differences are also observed from September through January, and the ENSO index differences are characterized by negative mean ENSO index for QBOE from December to April. 
- The GC3 N96-pi and UKESM-pi results are very similar and the differences are also significant (not shown). %; the only notable difference is the month in which the strongest response in each model is observed for each index. 
-
-\begin{table}[t!]
-\caption{ENSO and IOD events frequency (month month$^{-1}$). For positive and negative events, for each mean value the error shown is the standard deviation of the distribution found by boostrapping with replacement (10,000 iterations) using 36-year periods to match the period of observations.}\label{t1}
-\begin{center}
-\begin{tabular}{cccccc}
-\hline\hline
-Dataset & QBO phase & IOD+ & IOD- & El Niño & La Niña \\
-\hline
-GC3 N216-pi & W & 0.17$\pm$0.03	 & 0.11$\pm$0.02	& 0.24$\pm$0.09 & 0.19$\pm$0.05\\
-GC3 N216-pi & E & 0.12$\pm$0.03 	 & 0.15$\pm$0.03  & 0.21$\pm$0.07 & 0.26$\pm$0.07 \\
-ERA5/HadSST & W & 0.17$\pm$0.01  &0.13$\pm$0.01 & 0.28$\pm$0.01 & 0.27$\pm$0.02\\
-ERA5/HadSST & E &0.12$\pm$0.01 & 0.19$\pm$0.03 & 0.17$\pm$0.02 & 0.27$\pm$0.03\\
-\hline
-\end{tabular}
-\end{center}
-\end{table}
-
-The frequency of ENSO and IOD events are also significantly different for each ENSO phase in both ERA5 and the three simulations (Table \ref{t1}).
-El Niño events are more frequent under QBOW conditions than under QBOE and, while in the HadSST dataset, La Niña events are equally frequent in both QBO phases, in GC3 N216-pi La Niña events are more frequent under QBOE than under QBOW. 
-The IOD event frequency is also markedly different depending on the QBO phase, with positive events more frequently observed in the westerly phase of the QBO and negative  events found more frequently under QBOE, both for ERA5 and the experiments.
-These results evidence that in these simulations ENSO and the IOD are significantly linked to the QBO phase. The uneven frequency of ENSO and IOD events amongst QBO phases may explain the composite differences found in Figs. \ref{fig:qboclim}, and \ref{fig:qbodjf}.
-
- \begin{figure}[t!]
-\centering
- \noindent
- \includegraphics[width=\linewidth]{figures/regress_n216.png}
-\caption[Convective precipitation regression analysis]{Regression model results in GC3 N216-pi \added{for convective precipitation}. (a) Regression coefficients ($\beta_i$) from a simple ordinary least-squares (OLS) regression model with the QBO index, (b, c) the regression coefficients resulting from a multivariate regression model using the ENSO and QBO indices for the (b) ENSO and (c) QBO predictors. In (c) the regression coefficients are rescaled by multiplying the regression coefficients with the ratio of maximum amplitude and standard deviation of the QBO index. (d) Rescaled regression coefficients from a simple OLS model with the QBO index, but using time-series where ENSO was classified as in a Neutral state using the EN3.4 index.  }
-\label{fig:enso_regress}
-\end{figure}
-
-In order to better understand whether there is a 'true QBO' precipitation response in the tropics, independent of ENSO, we use regression analysis as described in section \ref{sq:analysis}.
-\added{ A simple ordinary-least squares (OLS) regression model is used to evaluate the linear relationship between the QBO phase at 70 hPa and precipitation variability. A multivariate regression model, which includes the EN3.4 index, estimates the QBO and ENSO linear relationships with precipitation, simultaneously. Based on the multi-variate regression, one can evaluate the impact of one one predictor (QBO) having removed the influence of another predictor (e.g. ENSO). }% and estimate a response from the other predictor (QBO) independently.}
- 
-
-
-The simple regression analysis (Figure \ref{fig:enso_regress}a) shows very similar results to the annual-mean composite differences, suggesting increased precipitation over the equatorial Pacific when the zonal winds at 70 hPa are positive. However, these results could be due to the increased frequency of El Niño events for QBOW phases. 
-The multivariate results, i.e., when both ENSO and QBO indices are included in the regression, show that part of the precipitation response associated with the QBO is removed compared to the simple regresion, but other responses remain and are still significant (Fig. \ref{fig:enso_regress}c). 
-For example, the positive regression coefficients that suggest a northward shift of the Atlantic ITCZ and the wetter Caribbean Sea and western Indian Ocean in the simple regression model are still found in the multivariate regression analysis, as well as in a simple regression analysis when only Neutral ENSO months are considered (Fig. \ref{fig:enso_regress}d). 
-
-These results highlight that there is a 'true' precipitation response or signal associated with the QBO that is independent from ENSO. 
-The implication from these results is that the effect of ENSO must be considered not only when analysing observations but aliasing with ENSO may also occur in model simulations. Similarly, these results confirm that significant differences in the position and strength of convection in the Atlantic and Pacific ITCZs and in the Indian Ocean and Caribbean Sea regions are related to the phase of the QBO and are independent from the ENSO index.
-
-\begin{figure}[t!]
-\centering
- %\noindent
- \includegraphics[width=\linewidth]{figures/ensoqboprdjfm.png}
-\caption[Precipitation response to QBO W-E for GC3 N216-pi under different QBO phases.]{  Composite QBO W-E precipitation differences in GC3 N216-pi in DJFM for (a) all the events, (b) Neutral ENSO conditions only, (c) El Niño and (d) La Niña conditions. The sample size of each composite is noted in the top left corner of each panel. Statistically significant differences to the 99\% confidence level are shown through the hatching. }
-\label{fig:qboenso}
-\end{figure}
-
-A different question, however, is whether the impacts associated with ENSO teleconnections vary for each QBO phase. Figure \ref{fig:qboenso}a shows the QBO W-E differences in DJF-mean precipitation for all months in GC3 N216-pi. This response over all events is then split and compared to Neutral ENSO seasons only, and El Niño (EN) and La Niña (LN) seasons.  The response in the Atlantic ITCZ, described in previous sections, is observed in Neutral and EN years but this response is not observed during LN conditions. However,  positive differences in the western Indian Ocean and in the western Pacific are much stronger during LN than in other ENSO phases. 
-
-These results can be interpreted as El Niño and La Niña teleconnections being slightly different for each QBO phase. For example, in southeastern Brazil, wetter conditions during QBOW compared to QBOE are found both for LN and EN conditions which indicate that in this model simulation, ENSO teleconnections to South America are also dependent on the QBO phase. Similarly, the La Niña precipitation response in the Western Pacific is significantly dependent on the QBO phase.  The positive precipitation response on the west coast of California only appears during Neutral periods. 
-
-This section showed that different frequencies of ENSO and IOD events for each QBO phase are observed in the simulations and observations, which could influence the results of the previous sections.
-Regression analysis was used to account for the likely aliasing of ENSO impacts with the QBO surface response. Several significant impacts linked to the QBO remain even when the influence of ENSO is removed, suggesting some surface impacts associated with the QBO  are independent of ENSO.
-
-%\subsection{ENSO, the IOD and the Walker circulation}
-%
-%
-%
-%The previous section showed that the strongest precipitation responses to the QBO phase in the tropics are found in the Pacific and Indian Oceans, regions that are connected through the overturning Walker circulation and ENSO teleconnections \citep{cai2019pantropical}. For that reason, this section investigates more closely the variability of the Indian Ocean, ENSO events and the Walker circulation associated with the QBO.
-%
-%The Indian Ocean Dipole (IOD) is a coupled ocean-atmosphere feature of the tropical Indian Ocean characterized by a zonal gradient of SSTs that peaks in boreal fall \citep{saji1999iod,wang2014iod,mckenna2020iod}. IOD events are affected by ENSO events but  the IOD  can also have independent long-distance effects through the Walker circulation \citep{wang2014iod}. The previous section showed a zonal gradient in the precipitation response to the QBO, particularly during boreal fall (SON) (Fig. \ref{fig:qboson}). %However, in these models there was no significant SST response during this to the canonical IOD definition.
-%
-%\begin{figure}[t!]
-%\centering
-% \noindent
-% \includegraphics[width=\linewidth]{figures/iod_barplot.png}
-%\caption[IOD and ENSO frequency changes on QBO phase.]{ Monthly-mean (a) IOD-prc and (b) EN3.4 index separated per QBO phase in GC3 N96-pi. \added{(c,d) Bar plots of the frequency of event ocurrence for each model for (c) positive and negative IOD events based on the convective precipitation index and for (d)  El Niño (EN) and La Niña (LN)  events}. In c,d the count of events in each QBO phase is normalized per total months in each QBO phase so there is no effect associated with an uneven frequency of QBOW versus QBOE events. The error bar show the 95\% confidence interval using a distribution obtained using bootstrapping test where 36 year periods were sampled from the entire run period  10,000 times  and N216 and N96 labels refer to GC3 N216-pi and GC3 N96-pi, respectively.}
-%\label{fig:iod_barplot}
-%\end{figure}
-%
-%The computation of the standard IOD index, a measure of the SST gradient between the western tropical Indian Ocean and the Java-Sumatra region, results in little-to-no correlation with the QBO phase and IOD events defined using this index showed the same frequency under QBOW than during QBOE (not shown). 
-%Alternatively, a convective precipitation index of the zonal gradient in the Indian Ocean (convective IOD Index), can be defined as the difference of the deseasonalized area-averaged convective precipitation between the western [50-70$^\circ$E] and eastern [80-100$^\circ$E] equatorial [10$^\circ$S-10$^\circ$N]. 
-%Using this convective precipitation index, IOD events are defined as in previous studies using a 1 standard deviation to define positive and negative events. 
-%
-%The relationships between the mean ENSO and convective IOD indices, as well as the frequency of ENSO and IOD events, and the phase of the QBO are significant for all the experiments (Figure \ref{fig:iod_barplot}). 
-%The mean IOD Index and the EN3.4 SST index in GC3 N96-pi are significantly different depending on the QBO phase in GC3 N96-pi. In particular, the mean IOD Index is positive in QBOW and negative in QBOE months from September until January. The EN3.4 index also shows a non-zero mean when separated by QBO phase, with positive mean values found during QBOW and negative values during QBOE. 
-%The GC3 N216-pi and UKESM-pi results are very similar (not shown) and the differences are also significant; the only notable difference is the month in which the strongest response in each model is observed for each index. 
-%In observations, more El Niño events have been noted to occur in QBOW conditions \citep{christiansen2016}, whereas relationships have also been documented between the tropospheric quasi-biennial oscillation (TBO), and the IOD and ENSO \citep[e.g.][]{pillai2010}.
-%
-%The frequency of El Niño (EN) and La Niña (LN) months is robustly linked to the QBO phase in the three simulations (Fig. \ref{fig:iod_barplot}c). 
-%EN months are more frequent during QBOW phases than during QBOE phases, and in contrast, more LN events are diagnosed during QBOE than during QBOW. 
-%Similarly, the number of IOD+ events is increased in the westerly phase of the QBO, whereas negative event frequency is increased during QBOE (Fig. \ref{fig:iod_barplot}d) for all the three models. 
-%The confidence interval in Fig.  \ref{fig:iod_barplot}c-d  is provided by a bootstrapping test sampling the simulations into 36 yr samples and suggest that this result is robust to internal variability within the model. 
-%
-%
-%In addition, several tests were done to evaluate whether changes in the frequency of IOD events were associated with known connections between the IOD and ENSO. 
-%Results show that the changes to the frequency of IOD events remain unchanged when only Neutral ENSO months are considered so there is no aliasing with the influence of ENSO on the IOD. Similarly, these changes in the frequency of IOD events are seen in the three simulations in each month from September to January, so there is no aliasing of the seasonality of the QBO within the model and the seasonality of IOD events. 
-%Note that these results do no providence any evidence of cause and effect between the QBO and IOD and ENSO indices and only evaluate the nature of these relationships within the model.
-%
-%\begin{figure}[t!]
-%\centering
-% \noindent
-% \includegraphics[width=\linewidth]{figures/regress_gc3.png}
-%\caption[Convective precipitation regression analysis]{Regression model results in GC3 N96-pi. (a) Regression coefficients ($\beta_i$) from a simple ordinary least-squares (OLS) regression model with the QBO index, (b, c) the regression coefficients resulting from a multivariate regression model using the ENSO and QBO indices for the (b) ENSO and (c) QBO predictors. In (c) the regression coefficients are rescaled by multiplying the regression coefficients with the ratio of maximum amplitude and standard deviation of the QBO index. (d) Rescaled regression coefficients from a simple OLS model with the QBO index, but using time-series where ENSO was classified as in a Neutral state using the EN3.4 index.  }
-%\label{fig:enso_regress}
-%\end{figure}
-%
-%
-%The previous results showed that there is an uneven frequency of ENSO events in the different QBO phases and that within these experiments, the QBO impacts may depend on the phase of ENSO. 
-%Linear-regression analysis was used by \cite{gray2018} to investigate the spatial and temporal variability of the surface impacts of the QBO in tropical precipitation using a multivariate-regression model that accounts for the relationship between ENSO and precipitation. 
-%For these reasons, simple and multivariate regression analysis has been performed using the EN3.4 SST index, the 70 hPa zonal wind QBO index and deseasonalized convective precipitation. Other indices such as solar, volcanic and greenhouse forcings are omitted in this analysis because in these runs external forcings are constant.
-%
-%Figure \ref{fig:enso_regress} shows results from the regression analysis of GC3 N96-pi. 
-%A simple regression model using the QBO 70 hPa index (Fig. \ref{fig:enso_regress}a) shows very similar results to the composite mean differences described in the previous section.
-%The results from the multivariate regression model implemented using the QBO and ENSO indices, show that the spatial distribution of significant regression coefficients for the EN3.4 time-series (Fig. \ref{fig:enso_regress}b) is somewhat similar to results for the QBO in the simple regression model, suggesting the possibility of aliasing between ENSO and QBO indices. 
-%
-% The rescaled regression coefficients for the QBO, obtained using the multivariate regression model (Fig. \ref{fig:enso_regress}c), i.e., the model where the influence of ENSO has been regressed-out, are broadly similar to the simple OLS model, except in the equatorial west Pacific. These regression coefficients suggest that the precipitation response of the QBO is a southward shift of the East Pacific ITCZ, as well as a wetter Caribbean Sea and western Indian Ocean for QBOW phases.
-% A simple regression model using the QBO index during Neutral ENSO months (Figure \ref{fig:enso_regress}d) shows very similar results, except in the Atlantic ITCZ region, confirming that the influence of ENSO needs to be closely examined and removed before analysing the influence of the QBO over the tropics. 
-% 
-% \begin{figure}[b!]
-%\centering
-% %\noindent
-% \includegraphics[width=\linewidth]{figures/ensoqboprdjf.png}
-%\caption[Precipitation response to QBO W-E for GC3 N96-pi under different QBO phases.]{ DJF QBO W-E precipitation differences in GC3 N96-pi for (a) all the events, (b) Neutral ENSO conditions only, (c) El Niño and (d) La Niña conditions. The sample size of each composite is noted in the top left corner of each panel. }
-%\label{fig:qboenso}
-%\end{figure}
-%
-%
-%% Results in GC3 N96-pi, UKESM-pi and GC3 N216-pi showed that the spatial distribution of the coefficients from the simple regression model varied notably if the time-series selected for La Niña, El Niño or Neutral states-only. In particular, the equatorial Atlantic region showed the strongest sensitivity to the phase of ENSO and QBO. 
-% %These results suggest a non-linear non-symmetric interaction between the QBO and the ENSO for impacts to the Atlantic Ocean. However, these impacts may be too weak to disentangle these relationships from ENSO within these simulations.
-% %The next section describes new modelling experiments that aim to address these questions by improving the signal of the QBO within the MOHC model. 
-%
-%The seasonal-mean  results could possibly be aliasing effects of ENSO and the regression results have removed the influence of ENSO. A different question, however, is whether the QBO could modify the teleconnections of ENSO in the tropics. An analysis of the DJF mean response to phase of the QBO separated also by ENSO phase (Figure \ref{fig:qboenso}) shows that the surface response depends on both the QBO and ENSO phase. % could modify the seasonal mean results and the extent to which regression analysis is appropiate is analysed, at a first glance, in  which evaluates the DJF mean response to the QBO under different ENSO conditions.
-%
-%The wet anomaly pattern in the southern equatorial (15$^\circ$S-O$^\circ$) Central Pacific observed in the mean DJF response is only observed during during El Niño events, not during Neutral or La Niña months. In turn, the dry anomaly in the Central Pacific at 10$^\circ$N-20$^\circ$N is observed during both la Niña and El Niño seasons but not during Neutral conditions.
-% Over the Atlantic ITCZ region and eastern Brazil, the strongest response is observed during Neutral conditions, suggesting that the pattern observed in panel a) is likely the closest to a true QBO response independent from ENSO and that this response is characterized by a southward shift of the ITCZ during QBOW. 
-%
-%Similar results are found other seasons (MAM and SON) and simulations, which confirms that within these simulations the ENSO teleconnections can depend on the QBO phase.
-%One implication of these results may be that ENSO teleconnections are themselves a function of the QBO state and that the impact of the QBO may be different for La Niña than for El Niño, an effect that would be masked by the regression analysis presented above. 
-
-\subsection{The Walker circulation}
-
-
-
-A number of studies have suggested a link between the QBO and the Walker circulation to explain zonally asymmetric anomalies in convective features associated with the QBO \citep[e.g.][]{collimore2003,liess2012}. To evaluate this hypothesis, the zonal streamfunction is used to measure the Walker circulation \citep{yu2010,bayr2014} and is defined as:
+A number of studies have suggested a link between the QBO and the Walker circulation to explain the zonally asymmetric nature of the QBO anomalies in convective precipitation \citep[e.g.][]{collimore2003,liess2012}. To evaluate this hypothesis, the zonal streamfunction is used to measure the Walker circulation \citep{yu2010,bayr2014} and is defined as:
 
 \begin{equation}
 \psi=2\pi \frac{a}{g} \int_0^p u_D dp,
 \end{equation}
 
 \noindent where $\psi$ is the zonal streamfunction, $u_D$ is the divergence part of the zonal wind, $a$ is the Earth's radius, $p$ is the pressure coordinate and $g$ the gravitational constant.
-The streamfunction is calculated by first averaging in the equatorial band of 10$^\circ$S-10$^\circ$N and integrating to the top level of each dataset.
+The streamfunction is calculated by first averaging over the equatorial band of 10$^\circ$S-10$^\circ$N and integrating to the top level of each dataset.
 
-\begin{figure}[t!]
-\centering
- \noindent
- \includegraphics[width=\linewidth]{figures/cmip_era5_streamdjf.png}
-\caption[Walker circulation anomalies in DJF]{(a, d) Climatological mean-state of the Walker circulation, depicted through the zonal streamfunction ($\psi$) in shading, the zonal wind (contours), and vertical velocity ($\omega$ [Pa s$^{-1}$], vectors) during the DJF season in a) ERA5 and (d) N216-pi. (b-c, e-f) show W-E composite differences, during DJF, for the same variables only that hatching represents statistical significance to the 95\% confidence level for differences in the streamfunction, and only statistically significnat differences in the zonal wind and $\omega$ are shown. (g-h) are as in (d-f) but considering Neutral ENSO periods only. Example vector sizes for $\omega$ are given in the top right corners of a and c.}
-\label{fig:walker_djfm}
-\end{figure}
-
-Composite differences in DJF show that the streamfunction in the eastern Pacific [220-260$^\circ$E] is significantly weaker during QBOE than during QBOW in ERA5 and GC3 N216-pi (Fig. \ref{fig:walker_djfm}). These streamfunction differences are significant even low in the troposphere in the model. The zonal wind at upper-levels (300-100 hPa) of the central eastern Pacific [200$^\circ$E] is also weaker in QBOW compared to QBOE  in both model and reanalysis. In GC3 N216-pi, the negative $\psi$ difference is accompanied by descending motion anomalies in the 170-220$^\circ$E region, whereas anomalous ascent is observed in the Maritime continent and Indian Ocean. The differences in the other simulations agree with the results of GC3 N216-pi (not shown).
+QBOW minus QBOE composite differences in DJF show that the streamfunction in the eastern Pacific [220-260$^\circ$E] is significantly weaker during QBOE than during QBOW in ERA5 and GC3 N216-pi (Fig. \ref{fig:walker_djfm}). These streamfunction differences are significant even low in the troposphere in the model. The zonal wind at upper-levels (300-100 hPa) is also weaker in QBOW compared to QBOE at 200$^\circ$E in both model and reanalysis. In GC3 N216-pi, the negative $\psi$ difference is accompanied by descending motion anomalies in the 170-220$^\circ$E region, whereas anomalous ascent is observed in the Maritime continent and Indian Ocean. The differences in the other simulations agree with the results of GC3 N216-pi (not shown).
 
 \begin{figure}[t!]
 \centering
@@ -619,102 +374,34 @@ Composite differences in DJF show that the streamfunction in the eastern Pacific
 
 In boreal fall (Fig. \ref{fig:walker_son}), the differences are also significant and are linked to the relationships found between the IOD and the QBO. 
 Specifically, significant positive differences in the streamfunction are found 
-in the eastern Indian Ocean and Maritime continent and negative differences in the eastern Pacific. 
+in the eastern Indian Ocean and maritime continent and negative differences in the eastern Pacific. 
 In GC3 N216-pi, vertical velocity anomalies indicate stronger ascent in the western Indian Ocean and in the Maritime continent whereas descending anomalies are found in the eastern Indian Ocean. These results agree with positive IOD indices found in QBOW and a mean negative index during QBOE.
+
+
 
 The rightmost panels in  Figures \ref{fig:walker_djfm} and \ref{fig:walker_son}, in which only Neutral ENSO months are considered, suggest that this relationship between the QBO and the Walker circulation occurs regardless of ENSO events for GC3 N216-pi. However in ERA5, removing ENSO events changes the sign of the response, likely due to the small sample size in the observational record when only neutral months are considered. 
 These results highlight links between the large-scale overturning circulation and local responses which may explain the zonally asymmetric results found in previous studies and in early sections of this chapter.
 
-\subsection{ENSO influence on the QBO}
 
-\begin{figure}[t!]
-\centering
- \noindent
- \includegraphics[width=\linewidth]{figures/scatter_qbom.png}
-\caption[Scatter of relationship between QBO descent and amplitude and ENSO phase.]{Mean QBO (a) amplitude [m s$^{-1}$]  and (b) descent rate [km month$^{-1}$]  separated by dataset (ERA5 and GC3 N216-pi) and ENSO phase. NN stands for Neutral ENSO. In (b) descent rates are shown for both descending easterly (ea) and westerly (we) phases following \cite{schenzinger2017}. }
-\label{fig:enso_on_qbo}
-\end{figure}
 
-The causality of the relationships found between ENSO and the QBO are hard to evaluate because these relationships could be due to a  QBO effect on the tropical troposphere or the opposite. 
-To understand whether ENSO events can influence the QBO as suggested in other studies \citep{schirber2015,serva2020}, several characteristics of the QBO were analysed and composited for each ENSO phase including: the descent rate, the amplitude and the phase speed of the QBO. 
-In ERA5, QBO descent rates and the amplitude depend on the phase of ENSO (Figure \ref{fig:enso_on_qbo}). A higher amplitude and slower descent rates are observed during La Niña phases and weaker amplitudes and faster descent rates during El Niño. Similarly, faster descent rates are observed during the westerly phase compared to the easterly phase.
-
-In the model, the descent rates are also faster for the westerly phase, however, the relationships between the QBO characteristics and ENSO are less clear.  Both the amplitudes and descent rates of the QBO are not significantly different between EN and LN phases. The only significant difference in the model is that descending westerlies are slower in Neutral ENSO months compared to EN or LN conditions. 
-A similar null relationship between ENSO and the phase speed of the QBO is found for GC3 N216-pi (not shown).
-
-These results suggest that there is little influence of ENSO on the descent rate and amplitude of the QBO in GC3 N216-pi, which agrees with the results of \cite{serva2020} for an older version of the HadGEM model. 
-Therefore, there is no evidence to suggest that the QBO-ENSO relationships found in the previous sections are caused by the influence of ENSO on the QBO within the UM model, as it may be the case for observations.
-
-%\begin{figure}[b!]
-%\centering
-% \noindent
-% \includegraphics[width=\linewidth]{figures/cmip_streamdjfm.png}
-%\caption[Walker circulation anomalies in DJFM]{(a-c) Climatological mean-state of the Walker circulation, depicted through the zonal streamfunction ($\psi$) in shading, the zonal wind (contours), and vertical velocity ($\omega$ [Pa s$^{-1}$], vectors) during the DJFM season in the three simulations. (d-f) show W-E composite differences, during DJFM, for the same variables only that hatching represents statistical significance to the 95\% confidence level for differences in the streamfunction, and only statistically significnat differences in the zonal wind and $\omega$ are shown. (g-h) are as in (d-f) but considering Neutral ENSO periods only. Example vector for $\omega$ are given in the top right corners of a and g.  }
-%\label{fig:walker_djfm}
-%\end{figure}
-%
-%Results in Chapter \ref{ch:4-ams} and in this chapter suggest a link between QBO, ENSO and the Walker circulation. For that reason, an analysis of the zonal streamfunction, zonal wind and vertical velocity in the deep tropics is now presented to better characterise whether the QBO has any possible influence on the mean-state and variability of the zonal overturning in the tropics. 
-%The zonal streamfunction \citep{yu2010,bayr2014} is defined as:
-%
-%\begin{equation}
-%\psi=2\pi \frac{a}{g} \int_0^p u_D dp,
-%\end{equation}
-%
-%\noindent where $\psi$ is the zonal streamfunction, $u_D$ is the divergence part of the zonal wind, $a$ is the Earth's radius, $p$ is the pressure coordinate and $g$ the gravitational constant.
-%The streamfunction is calculated by first averaging in the equatorial band of 10$^\circ$S-10$^\circ$N and integrated to the top level within the model. 
-%
-%
-%
-%Results in previous sections show that the boreal winter and early spring exhibit the strongest responses in the Pacific region and in boreal fall in the Indian Ocean. For that reason, the QBO response of the Walker circulation is illustrated for DFJM and SON in Figures \ref{fig:walker_djfm} and \ref{fig:walker_son}.
-%The streamfunction mean values are higher in DJFM than in SON, indicative of a stronger Walker circulation during boreal winter.
-%
-%\begin{figure}[b!]
-%\centering
-% \noindent
-% \includegraphics[width=\linewidth]{figures/cmip_streamson.png}
-%\caption[Walker circulation anomalies in SON]{As in Figure \ref{fig:walker_djfm} but for SON. }
-%\label{fig:walker_son}
-%\end{figure}
-%
-%Composite differences in DJFM show that the streamfunction from 180-240$^\circ$E is significantly weaker during QBOE than during QBOW in all three simulations (Fig. \ref{fig:walker_djfm}). The zonal wind at upper-levels (300-100 hPa) is also weaker during QBOW at 200$^\circ$E. In GC3 N216-pi, this negative $\psi$ difference is accompanied by descending motion anomalies in the 190-220$^\circ$E region, whereas anomalous ascent is observed in the Maritime continent and Indian Ocean. Vertical velocity ($\omega$) anomalies in the other simulations are weaker in the Central-Eastern Pacific. 
-%These results suggest a weaker Walker circulation during QBOW compared to QBOE seasons. 
-%The rightmost panels in which only Neutral ENSO months are removed, suggest that this relationship between the QBO and the Walker circulation occurs regardless of ENSO events.
-%% and, in fact, these composite differences are different when only El Niño or La Niña months are considered (not shown). 
-%
-%In boreal fall (Fig. \ref{fig:walker_son}), the mean Walker circulation is weaker and ascent is mostly concentrated in the Indian Ocean and Maritime continent, as well as in South America. 
-%Positive streamfunction differences are found to be significant over the Indian Ocean in all three simulations, associated with anomalous descent on the eastern Indian Ocean and ascent over the western Indian Ocean. These results agree well with the results using convective precipitation index for the IOD, described in the previous section, which found more rainfall in the western Indian Ocean than in the east during QBOW than during QBOE. 
-%
-%Furthermore, in SON, significant negative differences in the streamfuncion are found in the Eastern Pacific and Atlantic Oceans and positive differences over South America, although in both cases differences in $\omega$ appear very small or not significant. 
-%These results suggest that there are possible links between ascending and descending motions in the Indian Ocean and the Pacific and Atlantic Oceans through the boreal fall Walker circulation.
-
-\section{The nudging experiments}
+\section{The nudging experiments}\label{sq:nudging}
 
 \begin{figure}[t!]
 \centering
  %\noindent
  \includegraphics[width=\linewidth]{figures/zonal_thesis.png}
-\caption[Zonal-mean zonal wind QBO difference]{Latitude-height plot of the zonal-mean temperature (shading) zonal wind (contours in m s$^{-1}$ differences (QBO W-E) in (a) ERA5, the nudged simulations in (b) AMIP and (c) coupled configurations and (d) GC3 N96-pi from CMIP6, the control simulations with no nuding in an (e) AMIP and (f) coupled configurations, and . The black line denotes the tropopause height obtained from the model data in (b, d) and for ERA5 the tropopause height was found through the gradient threshold method. For the nudged experiments, the ensemble-mean is shown.  }
+\caption[Zonal-mean zonal wind QBO difference]{Latitude-height plot of the annual and zonal-mean temperature (shading) zonal wind (contours in m s$^{-1}$ differences (QBO W-E) in (a) ERA5, the ensemble-mean nudged simulations in (b) AMIP and (c) coupled configurations and (d) GC3 N96-pi from CMIP6, the control simulations with no nugding for (e) AMIP and (f) coupled configurations. The black line denotes the tropopause height obtained from the model data in (b, d) and for ERA5 the tropopause height was found through the gradient threshold method. For the nudged experiments, the ensemble-mean is shown. The nudging region is illustrated in c), where the red box indicates where the full nudging is applied and the green box illustrates the tapered region. }
 \label{fig:zonal_u}
 \end{figure}
 
-This section investigates the results from the nudging experiments, in which the zonal wind was relaxed towards ERA5 between 10$^\circ$S-10$^\circ$N and 90 and 4 hPa.
-Figure \ref{fig:zonal_u} shows that the nudged experiments, both AMIP and Coupled, exhibit larger QBO W-E differences in the UTLS zonal-mean zonal wind and air temperature compared to Control experiments. The nudged experiments very closely ressemble the results of ERA5, particularly in the equatorial region. The removal of the weak QBO amplitude bias suggests that these nudged experiments are suitable to investigate the surface response to the QBO and the static stability hypothesis for the tropical route of QBO teleconnections.
-The horizontal distribution of the 100 hPa temperature differences is also improved by the nudged experiments and ressembles very closely the results from ERA5 (not shown).
+This section investigates results from a series of nudging experiments in which the equatorial zonal winds in various configurations of the HadGEM model were relaxed towards ERA5 (between 10$^\circ$S-10$^\circ$N, full nudging was applied from 10 hPa to 70 hPa, tapering to zero by 90 hPa; see section \ref{nudg_setup} for full details). Nudging the QBO winds towards observations means that feedback from the modelled tropospheric processes onto the QBO is eliminated. Examination of the QBO signal at the surface then allows an investigation of the QBO influence on the modelled tropospheric or surface fields. Nudging the fields also serves to correct a bias in the equatorial lower stratosphere where the model underestimates the amplitude of the QBO. The model has been run in both AMIP and coupled ocean configurations to explore the role of the ocean, since results from previous sections show a strong dependence on ENSO phase. Additional AMIP sensitivity experiments are also performed, to further test the importance of consistency between SSTs and the QBO phase. Parallel Control simulations were performed for each experiment, identical in all respects apart from the nudging (see Table \ref{tab:nudg_exps} for details of the experiments, including length of the simulations and numbers of ensembles performed).  The idealised experiments are then used to investigate the static stability hypothesis for the tropical route of QBO teleconnections with the surface.  
+
+Before proceeding to analyse the surface response, we first show the QBO impact in UTLS  
+temperatures and zonal winds (Figure \ref{fig:zonal_u}) from the nudged experiments compared to ERA5 and the 500-yr CMIP6 GC3 N96-pi simulation, as well as the Control experiments in which the QBO is free-running instead of being nudged.  The QBO W-E differences in the nudged experiments closely resemble the ERA5 field, confirming that the nudging has been successful. Both temperature and wind differences are larger in the nudged experiments compared to the non-nudged experiments at all heights over the equator, especially in the region just above the tropopause between $~$70-100 hPa, confirming also that the weak QBO amplitude bias in the lower-stratosphere has  
+been removed by the nudging.  
 
 \subsection{Atmosphere-only experiments}
 
-\begin{figure}[t!]
-\centering
- %\noindent
- \includegraphics[width=\linewidth]{figures/suite_streamwalkerclim.png}
-\caption[Walker in atmosphere-only experiments]{Zonal mass streamfunction ($\psi$ in shading), zonal mean zonal wind (contours) and vertical velocity (vectors) averaged over the band 10$^\circ$S-10$^\circ$N. Climatological mean in the (a) AMIP Control experiment and (b) ERA5. (c-d) show biases in the (c) Control and (d) Nudged experiments with respect to ERA5 whereas (e-f) show differences between experiments, (e) AMIP Nudged-Control and (d) AMIP Shifted-Nudged. Note that the colorbar and scale of the vectors changes are different between (a-d) and (e-f). In (e-f), significant differences (95\% confidence level according to a Mann-Whitney two-sided test) in the streamfunction are highlighted with hatching . }
-\label{fig:walkeramip}
-\end{figure}
-
-This section describes the results of the atmosphere-only experiments: AMIP Nudged, AMIP Control and AMIP Shifted. First, an analysis of the effect of nudging on the overturning circulation shows that the Walker circulation biases in the upper troposphere of the control experiments are notably improved in the nudged experiments (Fig. \ref{fig:walkeramip}). The mean state of the Walker circulation is weaker in the AMIP Control simulation and exhibits an easterly bias at upper levels compared to ERA5. 
-
-These two tropospheric biases are improved in the lower stratosphere in the Nudged experiments compared to control experiments. Even though the relaxation is only applied above 90 hPa, significant differences between control and nudged experiments are observed for the zonal wind and zonal streamfunction at 200 hP near the dateline, over South America and over the Atlantic Ocean. 
-However, no significant differences in the streamfunction or zonal wind in the lower troposphere are observed between the AMIP Shifted and Nudged experiments which means that the mean overturning circulation is not modified by the variability of the nudging data, only by the mean-state of the nudging data. 
 
 \begin{figure}[t!]
 \centering
@@ -724,8 +411,11 @@ However, no significant differences in the streamfunction or zonal wind in the l
 \label{fig:amip_clim}
 \end{figure}
 
-The annual-mean difference of precipitation between W and E phases (Fig. \ref{fig:amip_clim}) in the AMIP Nudged ensemble-mean matches closely the results of GPCP, characterised by an El Niño pattern in the Pacific Ocean, a weaker Atlantic ITCZ and a gradient of precipitation in the Indian Ocean during QBOW compared to QBOE. 
-In contrast, the AMIP Control and the simulations with an out-of-phase relaxation of the winds with respect to the SST driving data (AMIP Shifted) show very different responses to the AMIP Nudged experiment and observations. A similar result is found for seasonal-mean composite differences (not shown), so that the precipitation response in the simulations where the QBO index and the SSTs match exactly as in observations (AMIP Nudged) produce a very similar response to GPCP, whereas simulations where the nudged QBO winds do not match the observed SSTs (AMIP Shifted) result in different responses. 
+This section describes the results of the atmosphere-only experiments: AMIP Nudged, 
+AMIP Control and AMIP Shifted (in which the imposed SSTs have been shifted by a year so there is an out-of-phase relaxation of the winds with respect to the SSTs). The annual-mean difference of precipitation between QBOW and E phases from the three experiments are compared with GPCP differences in Fig. \ref{fig:amip_clim}. The AMIP Nudged ensemble-mean matches closely the results of GPCP, characterised by an El Niño pattern in the Pacific Ocean, a weaker Atlantic ITCZ and a zonal gradient of precipitation in the Indian Ocean (the IOD) during QBOW compared to QBOE. In contrast, the AMIP Control and the AMIP Shifted experiments fail to reproduce the observations. A similar result is found for seasonal-mean composite differences (not shown). 
+
+It is interesting to compare the results of the AMIP Control experiment (Figure \ref{fig:amip_clim}b) with the corresponding CMIP6 coupled GC3 N96-pi results (Figure \ref{fig:qboclim}b) which reproduced the observations reasonably well, albeit with reduced amplitude. Although we note that the CMIP6 model set-up is not entirely identical to these experiments since the model configuration is slightly different, the major difference between them is the lack of a coupled ocean in AMIP Control. The failure of AMIP Control to simulate the observations therefore suggests an important role for the oceans in the surface response to the QBO. 
+Moreover, the Shifted and Nudged experiments show markedly different responses, suggesting that the alignment between stratospheric winds and SSTs is key to reasonable simulate the response in AMIP Nudged. 
 
 \begin{figure}[t!]
 \centering
@@ -735,12 +425,25 @@ In contrast, the AMIP Control and the simulations with an out-of-phase relaxatio
 \label{fig:olr_amip}
 \end{figure}
 
-The analysis of the tropical out-going longwave radiation (OLR) shows that nudging does not significantly modify the simulated OLR (Fig. \ref{fig:olr_amip}). 
-The time-series of equatorially averaged OLR (Fig. \ref{fig:olr_amip}a) is indistinguishable between the three types of atmosphere-only experiments and similar results are found for OLR averaged in the EN3.4 region (Fig. \ref{fig:olr_amip}b). The correlation coefficients of the time-series also indicate no difference between the experiments. Similarly, the horizontal distribution of the mean OLR also shows no robust differences between the Control, Nudged and Shifted experiments (Fig. \ref{fig:olr_amip}c-d) so there is no effect of nudging for the mean state or variability of OLR in AMIP experiments.
+%As a check of whether the nudging has modified the mean or variability of the troposphere, OLR in the tropics is examined and compared in the AMIP experiments.
+The time-series of equatorially averaged OLR, shown in Fig. \ref{fig:olr_amip}a, suggests that the nudging has not had a direct influence on the underlying tropospheric processes, especially on the characteristics of tropical deep convection. The OLR is almost indistinguishable between the three AMIP experiments and agree well with ERA5. Similar results are found for OLR averaged in the EN3.4 region (Fig. \ref{fig:olr_amip}b). The correlation coefficients of the time-series also indicate no difference between the experiments. Examination of the spatial OLR distributions also shows no robust differences in the Pacific between the Control and AMIP Nudged (Fig \ref{fig:olr_amip}c) nor between the AMIP nudged and AMIP Shifted experiments (Fig. \ref{fig:olr_amip}d), confirming that the nudging has had no effect on the mean state or variability of OLR in the AMIP experiments. 
 
-These results suggest that the QBO winds are secondary to the effect of the SSTs for the precipitation response in these atmosphere-only experiments. The AMIP Shifted experiment has a better representation of the stratospheric variability in temperature and vertical wind shear; however, the precipitation response associated with the QBO variability is entirely different to the AMIP Nudged experiments, with the difference between these two experiments being the underlying SSTs. Results also suggest that the stratospheric winds, nudged or not, have little effect over the resulting OLR. These results suggest that improving the representation of the QBO is not enough to replicate the observed QBO response or to change the simulated characteristics of convective activity because the SST forcing dominates. 
+\begin{figure}[t!]
+\centering
+ %\noindent
+ \includegraphics[width=\linewidth]{figures/suite_streamwalkerclim.png}
+\caption[Walker in atmosphere-only experiments]{Zonal mass streamfunction ($\psi$ in shading), zonal mean zonal wind (contours) and vertical velocity (vectors) averaged over the band 10$^\circ$S-10$^\circ$N. Climatological mean in the (a) AMIP Control experiment and (b) ERA5. (c-d) show biases in the (c) Control and (d) Nudged experiments with respect to ERA5 whereas (e-f) show differences between experiments, (e) AMIP Nudged-Control and (d) AMIP Shifted-Nudged. Note that the colorbar and scale of the vectors changes are different between (a-d) and (e-f). In (e-f), significant differences (95\% confidence level according to a Mann-Whitney two-sided test) in the streamfunction are highlighted with hatching. }
+\label{fig:walkeramip}
+\end{figure}
 
-This section shows that relaxing the zonal wind in the stratosphere in atmosphere-only experiments does not modify the mean state of the tropospheric tropical circulation or the characteristics of convection. In other words, in these experiments the surface response of precipitation is largely associated with the underlying SSTs and not the QBO winds. However, whether there is any feedback mechanism between the QBO and SSTs cannot be answered by this atmosphere-only configuration, which leads to the the next section which analyses the coupled nudged experiments. 
+
+Diagnostics of the overturning circulation in the AMIP Control and ERA5 are compared in Figure \ref{fig:walkeramip}. The mean state of the Walker circulation is weaker in the AMIP Control simulation and exhibits an easterly bias at upper levels compared to ERA5 (Fig. \ref{fig:walkeramip}c). The Walker circulation biases in the upper troposphere of the control experiments (Fig \ref{fig:walkeramip}c) are improved in the nudged experiments (Fig. \ref{fig:walkeramip}d,e). Even though the relaxation is only applied above 90 hPa, significant differences between control and nudged experiments are observed for the zonal wind and streamfunction at 200 hPa near the dateline, over South America and over the Atlantic Ocean. 
+
+However, no significant differences in the streamfunction or zonal wind in the lower troposphere are observed between the AMIP Shifted and Nudged experiments (Fig \ref{fig:walkeramip}f). The lack of any difference between the two nudged experiments, which differ only in a 1-year shift of the prescribed nudging winds, means that the variability of the imposed winds is not important for the mean state of the Walker circulation. %, and is consistent with the findings of precipitation and OLR.
+
+This section has shown that nudging the QBO towards ERA5 zonal winds has corrected the bias in lower stratospheric winds (Figure \ref{fig:zonal_u}) which has also improved the upper-level tropical overturning circulation (Figure \ref{fig:walkeramip}). However, the major result is that the precipitation response depends crucially on the SSTs, since the QBO signal in precipitation is entirely different betweeen the AMIP Nudged and Shifted experiments. The results thus demonstrate that the QBO signal in precipitation is primarily due to the QBO signal in the underlying SSTs.
+ The direct influence of the improved QBO winds and temperature variability in the UTLS for tropical deep convection seems to be of secondary importance relative to the SST forcing. However, because the SSTs are imposed in the AMIP model configuration, the source of the QBO signal in SSTs and the nature of any feedback mechanism between the QBO and the SSTs cannot be addressed. For this reason, next we present the results from the simulations using the coupled model configuration.  
+
 
 \subsection{Coupled experiments}
 
@@ -752,24 +455,26 @@ This section shows that relaxing the zonal wind in the stratosphere in atmospher
 \label{fig:sst_clim_coupled}
 \end{figure}
 
+This section describes the results from the two experiments that were performed using the coupled ocean-atmosphere configuration of the model. Two control simulations (Coupled Control) were performed, each of 35-years, initialised with slightly different initial conditions (see section \ref{nudg_setup}). A further six 35-year ensemble experiments (Coupled Nudged) were performed that were identical to the Coupled Control simulations except that the QBO nudging was applied in the same region of the equatorial stratosphere as in the AMIP experiments described above. 
 
-This section presents the results of the coupled ocean-atmosphere experiments with (Nudged) and without (Control) nudging the tropical stratosphere. Note that all the individual experiments in this section are the same length (35 yr) and that the Coupled Nudged  ensemble-mean refers to the mean results of the six ensemble members with nudging and the Control ensemble-mean to the mean of the two ensemble members.
 
-First, differences in SSTs are analysed, as the previous section showed that the SST forcing dominates over the nudging in atmosphere-only experiments.
-The annual mean QBO W-E difference in tropical SSTs in HadSST the coupled ensemble members (Fig. \ref{fig:sst_clim_coupled}) show that the control experiments follow closely the response of HadSST and GC3 N216-pi. These QBO W-E responses are characterized by a warmer East Pacific, and equatorial Atlantic and Indian Oceans. 
+The annual mean QBO W-E difference in tropical SSTs in the ensemble-mean of the coupled control experiments (Fig \ref{fig:sst_clim_coupled}a) compares well with the corresponding fields from HadSST and GC3 N216-pi. As discussed earlier (in section \ref{qbo7_enso}) the  QBO W-E responses are characterized by warm signals in the East  
+Pacific, and in the northern tropical Atlantic and Indian Oceans.  
+The ensemble-mean of the QBO-nudged experiment, however, shows a very weak or null response (Fig. \ref{fig:sst_clim_coupled}b) in all of these regions. 
+
+To examine this further, Fig \ref{fig:sst_ens} shows the individual QBO W-E differences from the 6 ensemble members. The weak response in the ensemble-mean is clearly the result of very 
+different responses from each ensemble member, which cancel out to a large extent. 
+The individual seasonal-mean diagnostics show a similar behaviour (not shown). The results suggest that when the nudging is applied to the model a key feedback process between the QBO and SSTs has been suppressed and internal variability dominates over the effect of the imposed winds, if any. 
 
 \begin{figure}[t!]
 \centering
  %\noindent
  \includegraphics[width=\linewidth]{figures/sst_check_climqbowqboe.png}
-\caption[SST response in MAM to the QBO in coupled nudged experiments]{Annual-mean SST differences between QBO phases in the HadSST, Coupled Control and Coupled Nudged simulations.}
+\caption[SST response in MAM to the QBO in coupled nudged experiments]{Annual-mean SST differences between QBO phases in the HadSST dataset and the individual ensemble members fromm the Coupled Control and Coupled Nudged simulations.}
 \label{fig:sst_ens}
 \end{figure}
 
-The nudged ensemble-mean, however, shows a very weak or null response (Fig. \ref{fig:sst_clim_coupled}b) compared to the control experiments. 
-The ensemble-mean weak response is a result of very different responses from each ensemble member (Fig. \ref{fig:sst_ens}) which cancel each other out to a large extent indicative that the responses in each ensemble member is the result of other features of internal variability and not the nudged QBO.
-In seasonal-mean differences the SST response also appears to be stronger in the tropics in the free-running Coupled Control experiments than in the nudged experiments. 
-\added{These results suggest that SST differences diagnosed in two types of control simulations are missing when the nudging is implemented.}
+
 
 \begin{figure}[t!]
 \centering
@@ -779,10 +484,8 @@ In seasonal-mean differences the SST response also appears to be stronger in the
 \label{fig:pr_clim_coupled}
 \end{figure}
 
-The precipitation response is also weaker when the nudging is applied to the couple setup.
-The annual mean difference between QBO phases (Fig. \ref{fig:pr_clim_coupled}) in the control experiments show two significant QBO W-E differences: a significant El Niño-like response over the Central and Eastern Pacific Ocean, and a wetter western Indian Ocean. 
-These two precipitation responses are also observed in GPCP and GC3 N216-pi. 
-The ensemble-mean of the nudged experiments, however, show no robust or region-wide significant differences (Fig. \ref{fig:pr_clim_coupled}b).
+The precipitation response is also weaker when the nudging is applied to the coupled 
+configuration simulations. The annual mean difference between QBO phases (Fig. \ref{fig:pr_clim_coupled}) in the control experiments show two significant QBO W-E differences: a significant El Niño-like response over the Central and Eastern Pacific Ocean, and a wetter western Indian Ocean. These two precipitation responses are also observed in GPCP and GC3 N216-pi. 
 
 \begin{figure}[t!]
 \centering
@@ -792,7 +495,8 @@ The ensemble-mean of the nudged experiments, however, show no robust or region-w
 \label{fig:pr_mam_coupled}
 \end{figure}
 
-The weaker response in the ensemble-mean of the nudged experiments is also due to opposite responses found in each ensemble member which cancel out. In specific seasons, robust QBO W-E responses in convective precipitation are observed in the Control experiments, ERA5 and GC3 N216-pi, for example, a northward shift of the Atlantic ITCZ in MAM (Fig. \ref{fig:pr_mam_coupled}) and a wetter Caribbean Sea in JJA. These results confirm that the control experiments exhibit QBO-related precipitation impacts similar to those found in the CMIP6 experiments and in some instances also similar to the observed impacts. However, these precipitation anomalies disappear in the nudged experiments.
+The ensemble-mean of the nudged experiments, however, shows no robust or region-wide significant differences (Fig. \ref{fig:pr_clim_coupled}b). The weaker response in the ensemble-mean of the nudged experiments is also due to opposing responses found in each ensemble member which cancel out. In specific seasons, robust QBO W-E responses in convective precipitation are observed in the Control experiments, ERA5 and GC3 N216-pi, for example, a meridional dipole in the Pacific Ocean (Fig. \ref{fig:pr_mam_coupled}) and a wetter eastern Indian Ocean during MAM. These results confirm that the control experiments exhibit QBO-related precipitation impacts similar to those found in the CMIP6 experiments and in some instances also similar to the observed impacts. However, these precipitation anomalies disappear in the nudged experiments. 
+
 
 \begin{figure}[t!]
 \centering
@@ -802,63 +506,90 @@ The weaker response in the ensemble-mean of the nudged experiments is also due t
 \label{fig:iod_suites}
 \end{figure}
 
-Robust relationships between the QBO phase and IOD) and ENSO indices are observed in the CMIP6 experiments.
-Figure \ref{fig:iod_suites} shows the mean values of ENSO and IOD indices for nudged and control experiments. Coupled control experiments (Figs. \ref{fig:iod_suites}a, e) show a significant difference for both IOD and ENSO indices identical to the CMIP6 results, i.e., both indices tend to be positive under QBOW and negative under QBOE. For the IOD index, these differences are observed from Jul-to-Jan and for ENSO the differences are found almost year-round but are stronger during boreal fall and winter. However, the nudged ensemble-mean shows no relationships between these indices and the QBO phase.
+Robust relationships between the QBO phase, and IOD and ENSO indices are also observed in the CMIP6 experiments  (see section \ref{sq:iod_enso}). Figure \ref{fig:iod_suites} shows the mean values of ENSO 
+and IOD indices from the nudged and control experiments. The coupled control experiments (Figs. \ref{fig:iod_suites}a, e) show a significant difference for both IOD and ENSO indices identical to the CMIP6 results, i.e., both indices tend to be positive under QBOW and negative under QBOE. For the IOD index, these differences are observed from Jul-to-Jan and for ENSO the differences are found almost year-round but are stronger during boreal fall and winter. However, the nudged ensemble-mean shows no relationships between these indices and the QBO phase. 
 
-The long CMIP6 picontrol simulations were analysed by computing QBO W-E differences of the indices for 35-yr long randomly selected periods iteratively 10000 times.  
-\added{The selection of 35-yr periods is to match the length of the observed period, to investigate how frequently would a QBO W-E difference value be found if the picontrol simulations were of the same length as observations. }
-This approach leads to a probability density function (PDF) of QBO W-E differences that aims to sample the role of internal variability within the long piControl integration on the QBO impacts and to evaluate how these coupled experiments fit within those distributions with and without nudging. 
+To check the robustness of these results, the long CMIP6 pi-control simulations were analysed by computing QBO W-E differences of the indices for 35-yr long randomly selected periods iteratively 10,000 times. The selection of 35-yr periods is to match the length of the observed period in order to investigate how likely is it to find a QBO W-E difference value if the pi-Control simulations were of the same length as observations. This approach leads to a probability density function (PDF) of QBO W-E differences that aims to estimate the impact of internal variability on our ability to extract the QBO signal within the long pi-Control integration and to evaluate how these shorter 35-year coupled experiments fit within those distributions, with and without nudging. 
 
-Figure \ref{fig:iod_suites}d, for instance, shows that the QBO W-E differences in the SON IOD index are predominantly positive in the GC3 N96-pi distribution, and the control experiment differences are all positive as well. However, the Coupled Nudged ensemble members are mostly negative and two of them fall outside the 99\% low end of the PDF.
-The EN3.4 index is also more frequently positive under QBOW (Fig. \ref{fig:iod_suites}g) than under QBOE in the CMIP6 and control experiments, but this relationship is missing in the nudged experiments and the ENSO-QBO relationship is less clear in this PDF.
 
-This section shows that in the coupled configuration experiments there are notable QBO-related impacts that are removed when nudging is applied to the model. In the control experiments, impacts over the ITCZs, ENSO and the IOD, to name a few, are robust and similar to results from observations and CMIP6 integrations of the model. However, in the nudged experiments, little-to-no robust responses were observed, as each ensemble member exhibited a different response, leading to a cancellation of the differences in the ensemble-mean.
+Figure \ref{fig:iod_suites}d, for instance, shows that the QBO W-E differences in the SON IOD index are predominantly positive in the GC3 N96-pi distribution, and the differences in the two ensembles members of the control experiment are positive as well. However, the Coupled Nudged ensemble members are mostly negative and two of them fall outside the 99\% low end of the PDF.
+The EN3.4 index is also more frequently positive under QBOW (Fig. \ref{fig:iod_suites}g) than under QBOE in the CMIP6 and control experiments. There seems to be some indication that the response from the ensemble members of the nudged experiment cancel each other to an ensemble-mean difference of 0. However the PDF of the long CMIP6 piControl does show some density of frequency for non-zero differences, which indicates that periods with no QBO signal are not unlikely in the model. % difference is 
+
+This section shows that in the coupled configuration experiments there are notable
+QBO-related impacts that disappear when nudging is applied to the model. In the control 
+experiments, impacts over the ITCZs, ENSO and the IOD, to name a few, are robust and similar to results from observations and the longer CMIP6 integrations of the model. However, in the nudged experiments, little-to-no robust responses were observed, as each ensemble member exhibited a different response, leading to a cancellation of the differences in the ensemble-mean. The implications of these results for the stratospheric-tropospheric coupling and QBO teleconnections are discussed in the following section.  
 
 \section{Summary and discussion}
 
-Observational evidence suggests that the stratospheric QBO can modulate tropical deep  convection and influence tropical surface climate \citep{collimore2003,liess2012,gray2018}. However, the short observational record available and the strong influence of ENSO limits the robustness of any analysis seeking to evaluate the tropical route of QBO teleconnections using observations.
-The first part of this chapter investigates the tropical route of QBO teleconnections in the 500-year long pre-industrial control experiments of the MOHC focusing on the medium-resolution simulation from HadGEM3 GC3.1 N216. 
+Analyses of observational records of precipitation have long suggested links between the stratospheric QBO and tropical deep convection \citep{collimore2003,liess2012,gray2018}.
+However, the short available observational record (<40 years) and the confounding influence of ENSO and its teleconnections limits the robustness of any analysis seeking to explore these links and possible mechanisms of interaction between the QBO and tropical surface climate. The first part of this chapter investigates the tropical signature of the QBO in 500-year-long pre-industrial control CMIP6 experiments, with a focus on the HadGEM3 GC3.1 N216 simulation. 
 
-Results in the CMIP6 simulations support observational evidence \citep{collimore2003,liess2012,gray2018}  that there is a QBO impact over tropical precipitation, mainly over the tropical oceans in the East Pacific and Atlantic ITCZs and in the Indian Ocean.
-The phase of the QBO was found to be statistically linked to the strength of the Pacific ITCZ and the position of the Atlantic ITCZ, whereas wetter conditions were simulated in the Caribbean Sea and western Indian Ocean during QBOW compared to QBOE. Several impacts are also diagnosed in Southern Hemisphere monsoons but little effect is seen for Northern Hemisphere monsoons.
- More robust and largest differences are seen over the ocean than over land, which points to the relevance of SST feedbacks for any QBO impact but also means that the impact of the QBO over the convective profile over land is weak in the model. 
+Composite and regression analyses were used to demonstrate that statistically significant links are simulated by the model between the QBO and several tropical climate features.
+Results show robust precipitation responses over the Pacific and Indian Oceans and in some seasons in the tropical north Atlantic. The QBO signal was found to be zonally asymmetric, with the more robust and largest differences found over the oceans, suggesting the possibility of SST feedback processes. The modelled QBO signals agree well with observational analyses and the length of the simulation allows for improved estimation of statistical significance and further exploration of the possible source of these signals.   
+
+The possibility of aliasing of the QBO and ENSO signals and their interaction was extensively explored, using the model simulations. When only ENSO-neutral years are analysed the QBO signal remains essentially unchanged, ruling out the possibility of a straightforward aliasing of ENSO events with the QBO phase selection. The possibility that the apparent QBO signature at the surface is due to an ENSO bias in selection of the QBO phase was also considered. An influence of ENSO on the descent rate and amplitude of the QBO, via modulation of tropical wave generation, has been proposed \citep{schirber2015}. However, while the model was found to successfully simulate the well-known difference in QBO descent rates in which the QBOW phase descends more rapidly than the QBOE phase, there was no evidence for an ENSO influence on the rate of descent or amplitude of either QBO phase.        
+
+This analysis therefore provides evidence for a QBO influence on tropical surface climate that is not simply due to aliasing or a bias in how the QBO index is determined. However, the QBO response patterns strongly suggest that any QBO influence is likely to involve processes such as deep convection and tropical circulation patterns that are also influenced by ENSO. Potential pathways of interaction between the QBO and ENSO signals were therefore explored. While recognising that linear diagnostics are unable to provide specific evidence of cause and effects, they may nevertheless identify candidate mechanisms that are worth exploring more fully.  
+
  
- Observed relationships between the frequency of ENSO events and the phase of the QBO are also found in the simulations. El Niño events are more frequently found in QBOW conditions and La Niña events are more frequently found in QBOE conditions. This finding suggests that the observed QBO-ENSO relationship is not due to observational uncertainty but may be causally linked. 
-A precipitation index of the IOD, that measures the zonal gradient of precipitation in the Indian Ocean, was also significantly different depending on the QBO phase in boreal fall. Positive IOD events were more frequently found in QBOW and negative IOD events in QBOE.
 
+The frequency of ENSO events in each phase of the QBO was first explored. In observations, El Niño events have been found to occur more frequently in QBOW years and La Niña events are more frequently found in QBOE years \citep{taguchi2010}, suggesting a non-linear interaction of ENSO with the QBO. This dependence was successfully reproduced in the model, providing supporting evidence that the observed QBO-ENSO relationship is not due to observational uncertainty. Similarly, examination of month-by-month ENSO amplitude and interannual variability in the model showed that the interaction between QBO and ENSO is far from linear, since the amplitude dependence on QBO phase was asymmetric. The non-linearity of the QBO-ENSO interaction was confirmed using composites that showed different QBO signal patterns during El Niño years compared with La Niña years. 
 
-% in GC3 N216-pi this shift of the ITCZ is strongest in MAM whereas in GC3 N96-pi the
-% most pronounced shift is in the DJF season. 
+In addition to the QBO-ENSO link, the model analysis of total precipitation also highlighted a statistically significant QBO signal in the Indian Ocean, raising the possibility of an interaction with the Indian Ocean Dipole (IOD). In boreal fall the IOD index, which measures the zonal gradient of precipitation in the Indian Ocean, was found to be anomalously positive in QBOW years and anomalously negative in QBOE years. 
 
-
- The hypothesis that the QBO may influence the mean-state of the Walker circulation suggested by previous observational studies to explain zonally asymmetric tropical responses to the QBO \citep[e.g.][]{collimore2003,liess2012} is confirmed as the Walker circulation varies by up to 10\% between QBO phases, even when the effect of ENSO events is taken into account. 
- Specifically, the Walker circulation is found to be weaker during QBOW than during QBOE. In DJF, this anomaly of the overturning circulation in the Pacific is likely linked to the anomalously strong East Pacific ITCZ, and in SON, the changes to the overturning are likely linked to the ascending and descending motions in the Indian Ocean that generate the IOD response.
+The analysis also confirms the previously proposed hypothesis that the QBO may influence the mean-state of the Walker circulation, which could explain the zonally asymmetric nature of the QBO signal in precipitation in the tropics \citep{collimore2003,liess2012,hitchman2021observational}. The modelled Walker circulation was found to vary by up to 10\% between QBO phases, even when the effect of ENSO events was taken into account. Specifically, the Walker circulation was found to be weaker during QBOW than during QBOE. In DJF, this anomaly of the overturning circulation in the Pacific is likely linked to the stronger East Pacific ITCZ, and in SON, the changes to the Walker circulation are likely linked to the ascending and descending motions that characterize the IOD. 
  
-\added{ These results are amongst the first pieces of evidence of QBO-tropical convection signals in a GCM. However, the methodology used does not allow to conclusively separate the cause-effect of the diagnosed relationships. For example, the ENSO-QBO relationships could be explained by anomalous tropical wave activity associated with ENSO modifying the downward propagation of the QBO \citep{schirber2015}, but previous evidence found no such impact in the HadGEM3 GC3.1 configuration \citep{serva2020}. }
- 
- 
- \added{Alternatively, a top-down influence of the QBO in the tropics could explain these results. 
-Several hypotheses have been put forth to explain a causal link between the QBO and tropical convection \citep{hitchman2021observational,haynes2021influence}. Arguably, the leading hypothesis suggests that UTLS temperature variability modifies the upper-level static stability to the extent of affecting the height and strength of convection.}
+These results are amongst the first robust pieces of evidence of QBO-tropical convection signals in a GCM. However, the methodology used does not allow us to separate the cause-effect of the diagnosed relationships. For example, these relationships could be explained by anomalous tropical wave activity that may shift the QBO phase to a preferred state, but, e.g., there was no evidence of an influence by ENSO on the downward propagation or amplitude of the QBO.  
 
-\added{ Results from the first part of the chapter appear to contradict this hypothesis as zonally asymmetric responses appear in all seasons and impacts are largest over land than over the ocean. The UTLS static stability mechanism should produce zonally symmetric effects or at least be relevant in all deep convective regions and there is no reason why land monsoon regions should be less affected by the UTLS static stability.  }
+Alternatively, a top-down influence of the QBO in the tropics could explain these results. Several hypotheses have been put forth to explain a causal link between the QBO and tropical convection  \citep{hitchman2021observational,haynes2021influence}
+and the most prominent hypothesis suggests that QBO variations in UTLS temperature modify the upper-level static stability to the extent of affecting the height and strength of convection.  
 
- \added{Rather, our results support the hypothesis that the links between the QBO and the Walker circulation best explain the characteristics of the responses \citep{hitchman2021observational}. One could reasonably assume that a robust local effect over the Maritime continent, for instance the UTLS static stability hypothesis, would then influence the strength of deep convection in the ascending branch of the Walker circulation and thereafter propagate to the rest of the tropical atmosphere. However, there is no way of identifying the causal pathways of this stratospheric-tropospheric coupling without targeted model experiments.  }
 
-For that reason, atmosphere-only and coupled ocean-atmosphere experiments were conducted with the model stratosphere relaxed towards ERA5 in the QBO region. These experiments notably improve the QBO amplitude in the lower stratosphere and simluate a stronger impact of the QBO on the UTLS static stability. These experiments were analysed under the hypothesis that stronger surface impacts would be observed in the nudged experiments relative to the control experiments. 
+Models, including GC3 N216-pi, are known to underestimate the amplitude of the UTLS QBO signal and hence the QBO influence on static stability. Current GCMs may therefore 
+also underestimate the impact of QBO teleconnections in the tropics. 
+For that reason, atmosphere-only and coupled ocean-atmosphere experiments were 
+conducted with the model stratosphere relaxed towards ERA5 in the QBO region. These 
+experiments notably improved the QBO zonal wind amplitude in the lower stratosphere and simulated a stronger impact of the QBO on the UTLS static stability. From this result, one could have reasonably hypothesized that stronger surface impacts would be observed in the nudged experiments relative to the control experiments. 
 
-The SST and precipitation responses appear to be muted in the nudged experiments, whereas the control experiments, which are very similar to the CMIP6 configuration, reproduce all the impacts diagnosed in the first part of the chapter. Individual ensemble members with nudging show significant responses but the ensemble-mean response is null for all seasons. Furthermore, the diagnosed relationships of the QBO with ENSO and the IOD in the CMIP6 models are also found in the control experiments but disappear in the nudged experiments. 
+However, the results from the AMIP experiments showed that the nudging makes little-to-no difference to the equatorial surface precipitation or OLR, even though the nudging modified (and improved) the upper-level branch of the Walker circulation and the variability of the UTLS static stability and shear, which strongly indicates a role for SST feedbacks. Indeed, while the coupled model control experiments reproduced all the major features of the QBO signals in precipitation seen in the observations and discussed in the first part of the chapter, when the QBO nudging was introduced the ensemble-mean SST and precipitation responses disappeared. Individual ensemble members of the simulations with nudging show significant responses but they cancelled in the ensemble-mean to give a null response. Furthermore, the diagnosed relationships of the QBO with ENSO and the IOD in the CMIP6 models, which are also found in the control experiments, disappeared in the nudged experiments.  
 
-The results from the nudging experiments can be interpreted in various ways. 
-First, since the experiments in which the influence from the troposphere to the stratosphere was removed by nudging the stratosphere in the model show no surface response, one could reasonably conclude that there is no downward tropical route of the QBO. 
-Similar questions have arisen regarding the MJO-QBO relationships with some studies suggesting that there is no causal link, and the observed relationship is a result of statistical effects \citep{wang2019}. 
 
-A second plausible explanation is that the UTLS static stability mechanism is not the causal pathway through which the QBO influences the tropical troposphere. 
-Several lines of evidence in this chapter seems to contradict the predictions of the UTLS static stability mechanism as no zonally symmetric impacts are observed within the model and there is little impact over land regions. 
-Another mechanism, one that has been muted by the nudging may be at play. 
+\begin{figure}[t!]
+\centering
+ \noindent
+ \includegraphics[width=\linewidth]{figures/finalfig.png}
+\caption[Precipitation and 100 hPa temperature differences ]{QBO W-E annual-mean differences in air temperature at 100 hPa (contours) and precipitation normalized by the climatological values (shading) for the GC3 N216-pi simulation. }
+\label{fig:qbo_mechanisms}
+\end{figure}
 
-However, given the results of this chapter, even if there is no downward stratospheric-tropospheric teleconnection, one would still have to explain why some robust sensitivity to the QBO phase appears in the model for several convective features. For example, why is the ENSO index more frequently positive under QBOW, given that the ENSO has little-to-no effect over the descent rates and amplitude of the QBO \citep{serva2020} in this model. 
-Further work is needed to investigate what mechanisms explain the robust relationships found in various model configurations, some of which remarkably match observations, in this chapter. Suggestions for future research directions are given in the next chapter.
+Several different interpretations of the results from these CMIP6 pi-control and nudging experiments are possible. First, the disappearance of the surface response when the QBO nudging is introduced could suggest that there is no downward tropical route of the QBO. Similar discussions have arisen regarding the apparent MJO-QBO relationships, with some studies suggesting that there is no causal link, and that the observed relationship is a result of statistical effects \citep{wang2019}. 
 
+Examination of the individual ensemble members of the 35-year coupled ocean experiments shows substantial variability in the surface precipitation response to the QBO in both the control and nudged experiments, which suggests that additional ensemble members would be desirable. However, the PDF in Figure \ref{fig:iod_suites}d for the IOD QBO singal, demonstrates that the results from the nudged ensemble members fall outside the variance caused by internal variability in the 500-years of the piControl simulation. Moreover, our analysis of 3 CMIP6 pi-control simulations each of >500 years suggests that a chance occurrence of the surface QBO signal in modelled precipitation is unlikely to be the case.  
+
+Even accepting that the QBO signal in modelled precipitation is a real feature and not a statistical artifact, the results of the nudged experiments suggest that the signal is unlikely to be due to a direct downward influence of the QBO over the convective scheme of the model. The nudged AMIP experiments demonstrated that the QBO signal in SSTs was the primary cause of the precipitation signal and the direct QBO modulation of the upper tropospheric circulation was secondary to this. This conclusion is supported by further examination of the proposed UTLS static stability mechanism as 
+the causal pathway through which the QBO influences the tropical troposphere.
+
+ Several lines of evidence in this chapter seems to contradict the UTLS static stability mechanism. For instance, results from the first part of the chapter show zonally asymmetric responses that appear in all seasons, with much larger impacts over ocean than over land.  If the UTLS static stability mechanism was a dominant process, then one would expect that the QBO signal should produce zonally symmetric effects or at least an impact over all regions of deep convection since there is no reason why land monsoon regions 
+should be less affected. 
+
+Using results from the 500-year GC3 N216-pi  experiment, Figure \ref{fig:qbo_mechanisms} shows that the QBO W-E differences in 100 hPa temperature are not well co-located with the surface precipitation differences. In South America and Africa, there are large differences in the 100 hPa temperatures but little corresponding differences in precipitation, whereas the Central Pacific shows a similar UTLS temperature signal and a stronger precipitation signal. Therefore, this suggests that even in the free-running simulation, the proposed UTLS static stability mechanism is unlikely to be the dominant influence. 
+
+Evidence against this mechanism appears to be even more apparent in the nudged experiments, where the QBO-related variations in UTLS static stability are larger than in the free-running model experiments but the surface responses have disappeared entirely. 
+Another plausible explanation is that the convective scheme in the model is not sensitive to the static stability variations associated with the QBO \citep{yamazaki2020tropospheric}. This means that although the static stability mechanism may still be relevant in the real-world, our results suggest that within a state-of-the-art GCM the dominant factor has to be another process.
+
+In summary, this chapter has shown that robust links exist between the QBO and the 
+tropical troposphere in a state-of-the-art climate model. The modelled QBO signal in tropical precipitation compares well with the QBO signal in GPCP observations. Experiments in which the QBO zonal winds were nudged towards ERA5 reanalysis winds clearly demonstrated that the precipitation signal is a response to QBO variations in the SSTs rather than a direct downward teleconnection from the stratosphere, for example via modification of the static stability. Nevertheless, the origin of the QBO signal in SSTs is unclear and research is required to further explore this signal.
+
+
+For example, the results of the 500-yr CMIP6 simulations suggest the possibility of a more subtle QBO influence that depends strongly on the phase of ENSO. The analysis showed that DJF seasonal interannual differences can depend both on ENSO and the QBO, as well as an interaction between QBOW / El Nino and between QBOE / La Nina, leading to asymmetric frequencies of ENSO events.
+ If the QBO influence is non-linear as this suggests, so that a positive QBO-SST feedback only operates during modest-to-strong ENSO events (for example if the QBO feedback is sensitive to the longitudinal position of the Walker circulation), then imposing a fixed QBO evolution via the nudging scheme is likely to break this feedback loop. Further model analysis to explore this non-linear relationship in our model experiments e.g. whether the amplitude of the extreme ENSO events is reduced in the nudged experiments would be of interest, although the relatively infrequent occurrences of ENSO extremes may make it challenging to obtain a statistically significant result and more ensembles may be required.    
+%This chapter has therefore proven that robust links exist between the QBO and the tropical troposphere in a state-of-the-art climate model.  
+%Nevertheless, the results of this chapter are inconclusive as to the mechanisms that generate this coupling, as experiments with a nudged stratosphere remove these links.  If there is no downward stratospheric-tropospheric teleconnection, further research must explain why some robust sensitivity to the QBO phase appears in the model for several convective features. 
+
+%For example, why is the ENSO index more frequently positive under QBOW, given that the ENSO has little-to-no effect over the descent rates and amplitude of the QBO \citep{serva2020} in this model. 
+%Further work is needed to investigate what mechanisms explain the robust relationships found in various model configurations, some of which remarkably match observations, in this chapter. Suggestions for future research directions are given in the next chapter.
+
+% \added{Rather, our results support the hypothesis that the links between the QBO and the Walker circulation best explain the characteristics of the responses \citep{hitchman2021observational}. One could reasonably assume that a robust local effect over the Maritime continent, for instance the UTLS static stability hypothesis, would then influence the strength of deep convection in the ascending branch of the Walker circulation and thereafter propagate to the rest of the tropical atmosphere. However, there is no way of identifying the causal pathways of this stratospheric-tropospheric coupling without targeted model experiments.  }
 %The position of the East Pacific and Atlantic ITCZs is significantly different between the two phases of the QBO in the three experiments; however, the season of strongest influence varies for each model. 
 %For example, the southward displacement of the East Pacific ITCZ in QBOW compared to QBOE phases  \citep[as previously reported, e.g., by][]{gray2018} is confirmed but in GC3 N216-pi this shift of the ITCZ is strongest in MAM whereas in GC3 N96-pi the most pronounced shift is in the DJF season. 
 %The position of the Atlantic ITCZ is found further  northward during QBOW than during QBOE periods in all the simulations; the strongest response is found during late boreal spring and early summer in UKESM-pi. 
